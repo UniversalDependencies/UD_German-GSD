@@ -3980,7 +3980,7 @@
 5	sehr	_	ADV	_	_	6	advmod	_	_
 6	beliebter	_	ADJ	_	_	7	amod	_	_
 7	Ort	_	NOUN	_	_	1	conj	_	_
-8	.	_	PUNCT	_	_	0	root	_	_
+8	.	_	PUNCT	_	_	1	punct	_	_
 
 1	Niemals	_	ADV	_	_	3	advmod	_	_
 2	mehr	_	ADV	_	_	1	advmod	_	_
@@ -11715,7 +11715,7 @@
 6	Brückenkopf	_	NOUN	_	_	2	acl	_	_
 7	Richtung	_	NOUN	_	_	11	compound	_	_
 8	Nord	_	NOUN	_	_	11	compound	_	_
-9	-	_	PUNCT	_	_	11	punct	_	_
+9	-	_	PUNCT	_	_	11	dep	_	_
 10	und	_	CONJ	_	_	11	cc	_	_
 11	Osteuropa	_	NOUN	_	_	6	appos	_	_
 12	ist	_	VERB	_	_	6	cop	_	_
@@ -11724,7 +11724,7 @@
 15	durch	_	ADP	_	_	19	case	_	_
 16	den	_	DET	_	_	19	det	_	_
 17	EG	_	PROPN	_	_	19	name	_	_
-18	-	_	PUNCT	_	_	19	punct	_	_
+18	-	_	PUNCT	_	_	19	dep	_	_
 19	Binnenmarkt	_	NOUN	_	_	14	nmod	_	_
 20	noch	_	ADV	_	_	21	advmod	_	_
 21	bedeutender	_	ADJ	_	_	14	xcomp	_	_
@@ -15590,7 +15590,7 @@
 36	.	_	PUNCT	_	_	2	punct	_	_
 
 1	(	_	PUNCT	_	_	2	punct	_	_
-2	...	_	PUNCT	_	_	10	punct	_	_
+2	...	_	PUNCT	_	_	10	appos	_	_
 3	)	_	PUNCT	_	_	2	punct	_	_
 4	Das	_	DET	_	_	5	det	_	_
 5	Lied	_	NOUN	_	_	10	nsubj	_	_
@@ -16336,7 +16336,7 @@
 15	sondern	_	CONJ	_	_	7	cc	_	_
 16	auch	_	ADV	_	_	15	advmod	_	_
 17	Symbole	_	NOUN	_	_	7	conj	_	_
-18	,	_	PUNCT	_	_	15	punct	_	_
+18	,	_	PUNCT	_	_	15	dep	_	_
 19	Überzeugungen	_	NOUN	_	_	7	conj	_	_
 20	,	_	PUNCT	_	_	15	punct	_	_
 21	Werte	_	NOUN	_	_	7	conj	_	_
@@ -17128,7 +17128,7 @@
 22	.	_	PUNCT	_	_	12	punct	_	_
 
 1	Badewitz	_	NOUN	_	_	4	det	_	_
-2	'	_	PUNCT	_	_	1	punct	_	_
+2	'	_	PUNCT	_	_	1	case	_	_
 3	alter	_	ADJ	_	_	4	amod	_	_
 4	Freund	_	NOUN	_	_	22	nsubj	_	_
 5	Wim	_	PROPN	_	_	6	name	_	_
@@ -17141,7 +17141,7 @@
 12	Jahren	_	NOUN	_	_	20	nmod	_	_
 13	den	_	DET	_	_	14	det	_	_
 14	Beinamen	_	NOUN	_	_	20	dobj	_	_
-15	``	_	PUNCT	_	_	16	punct	_	_
+15	``	_	PUNCT	_	_	16	dep	_	_
 16	Home	_	NOUN	_	_	14	appos	_	_
 17	of	_	ADP	_	_	18	compound	_	_
 18	Films	_	PROPN	_	_	16	appos	_	_
