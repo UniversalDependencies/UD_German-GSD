@@ -8,6 +8,17 @@ The README for that project is included here.
 The German UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
 
+
+=== Machine-readable metadata =================================================
+Documentation status: stub
+Data source: automatic
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0 US
+Genre: news blog
+===============================================================================
+
+
+
 ===================================
 LEGACY README FILE BELOW
 ===================================
@@ -122,7 +133,7 @@ representation for clitics.
 Licenses and terms-of-use
 =========================
 
-For the following languages 
+For the following languages
 
   German, Spanish, French, Indonesian, Italian, Japanese, Korean and Brazilian
   Portuguese
@@ -189,9 +200,3 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
-
-
-Documentation status: stub
-Data source: unknown
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
