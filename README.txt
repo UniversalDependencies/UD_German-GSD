@@ -14,10 +14,20 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
-Genre: news blog
+Genre: news reviews
 Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
+
+* Changelog
+
+2015/11/8 Wolfgang Seeker
+
+Removed sentences from test due to overlap with dev
+(sent-no. 6, 8, 79, 80, 88, 108, 109, 118, 152, 154, 164, 167, 190, 191, 195, 206, 215, 220, 229, 247, 295, 346, 451)
+Removed sentences from dev due to overlap with train
+(sent-no. 616)
 
 
 
