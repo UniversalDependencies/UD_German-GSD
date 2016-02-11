@@ -14,7 +14,7 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
-Genre: news reviews
+Genre: news reviews wiki
 Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
