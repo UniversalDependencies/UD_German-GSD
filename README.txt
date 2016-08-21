@@ -22,7 +22,11 @@ Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim
 
 * Changelog
 
-2015/11/8 Wolfgang Seeker
+2016-08-21 Dan Zeman
+
+Added sentence ids.
+
+2015-11-08 Wolfgang Seeker
 
 Removed sentences from test due to overlap with dev
 (sent-no. 6, 8, 79, 80, 88, 108, 109, 118, 152, 154, 164, 167, 190, 191, 195, 206, 215, 220, 229, 247, 295, 346, 451)
