@@ -6,7 +6,9 @@ https://code.google.com/p/uni-dep-tb/
 The README for that project is included here.
 
 The German UD conforms to the UD guidelines, but there are some exceptions.
-The primary exception is that there are no morphological features defined.
+The primary exception is that there are important morphological features
+missing.
+
 Universal POS tags were assigned manually, while LEMMA and XPOSTAG were
 predicted by TreeTagger (first for release 1.4; see Changelog below).
 
@@ -29,7 +31,9 @@ Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zem
 Added sentence ids.
 Added LEMMA and XPOSTAG predicted by TreeTagger with a German model supplied with the tagger and available in Treex
 (http://ufal.mff.cuni.cz/treex, commit 50ad1fe0b9907ac382cbcda0a0f102602abc21a0). The UPOSTAGs from the original data
-(assigned manually) were not modified.
+(assigned manually) were not modified. Some features were also added if they could be derived from the information
+already present. Features that need a lexicon and/or disambiguation, such as Gender, Number and Case, have not been
+added in this stage.
 
 2015-11-08 Wolfgang Seeker
 

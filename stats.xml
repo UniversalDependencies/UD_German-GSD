@@ -7,7 +7,7 @@
   <size>
     <total><sentences>15894</sentences><tokens>293088</tokens><words>298242</words><fused>5152</fused></total>
   </size>
-  <lemmas unique="42294" /><!-- d, ., ,, in, und, sein, ein, von, werden, -, zu, er, mit, an, " -->
+  <lemmas unique="42295" /><!-- der, ., ,, in, und, sein, ein, von, werden, -, zu, d, er, mit, an -->
   <forms unique="50548" /><!-- ., ,, der, die, in, und, dem, von, -, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -17,7 +17,7 @@
     <tag name="ADV">14911</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
-    <tag name="DET">37037</tag><!-- d, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
+    <tag name="DET">37037</tag><!-- der, ein, sein, ihr, d, eine, Ihr|ihr, dies, jen, mein -->
     <tag name="NOUN">53291</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
@@ -29,8 +29,11 @@
     <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="1">
+  <feats unique="4">
+    <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
+    <feat name="Definite" value="Ind" upos="DET">5098</feat><!-- eine, ein, einer, einen, einem, eines -->
     <feat name="NumType" value="Card" upos="NUM">7632</feat><!-- zwei, drei, vier, 2007, 2006, fünf, 2009, 1, 2008, 2010 -->
+    <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
