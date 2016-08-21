@@ -29,7 +29,8 @@
     <tag name="X">370</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="1">
+    <feat name="NumType" value="Card" upos="NUM">7632</feat><!-- zwei, drei, vier, 2007, 2006, fünf, 2009, 1, 2008, 2010 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">

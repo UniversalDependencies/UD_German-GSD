@@ -1,3 +1,4 @@
+# sent_id dev-s1/de
 1	Manasse	_	PROPN	_	_	5	nsubj	_	_
 2	ist	_	VERB	_	_	5	cop	_	_
 3	ein	_	DET	_	_	5	det	_	_
@@ -5,6 +6,7 @@
 5	Parfümeur	_	NOUN	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s2/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	hatte	_	VERB	_	_	0	root	_	_
 3	Gelegenheit	_	NOUN	_	_	2	dobj	_	_
@@ -15,6 +17,7 @@
 8	besuchen	_	VERB	_	_	3	xcomp	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s3/de
 1	Es	_	PRON	_	_	5	nsubj	_	_
 2	war	_	VERB	_	_	5	cop	_	_
 3	für	_	ADP	_	_	4	case	_	_
@@ -25,9 +28,10 @@
 8	Parfümkreation	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s4/de
 1	Nach	_	ADP	_	_	4	case	_	_
 2	einem	_	DET	_	_	4	det	_	_
-3	viertel	_	NUM	_	_	4	nummod	_	_
+3	viertel	_	NUM	_	NumType=Card	4	nummod	_	_
 4	Jahr	_	NOUN	_	_	5	nmod	_	_
 5	hielt	_	VERB	_	_	0	root	_	_
 6	ich	_	PRON	_	_	5	nsubj	_	_
@@ -39,11 +43,13 @@
 12	Händen	_	NOUN	_	_	5	nmod	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s5/de
 1	Es	_	PRON	_	_	3	nsubj	_	_
 2	ist	_	VERB	_	_	3	cop	_	_
 3	unbeschreiblich	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s6/de
 1	Also	_	ADV	_	_	4	advmod	_	_
 2	dieser	_	PRON	_	_	3	det	_	_
 3	Bäcker	_	NOUN	_	_	4	nsubj	_	_
@@ -61,6 +67,7 @@
 15	Empfelen	_	VERB	_	_	4	parataxis	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s7/de
 1	Aber	_	CONJ	_	_	3	cc	_	_
 2	was	_	PRON	_	_	3	acl	_	_
 3	traurig	_	ADJ	_	_	0	root	_	_
@@ -85,6 +92,7 @@
 22	spricht	_	VERB	_	_	13	conj	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s8/de
 1	Das	_	PRON	_	_	2	dobj	_	_
 2	fand	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -93,6 +101,7 @@
 6	häftig	_	ADJ	_	_	2	xcomp	_	_
 7	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s9/de
 1	Ob	_	CONJ	_	_	2	cc	_	_
 2	Dekoration	_	NOUN	_	_	8	parataxis	_	_
 3	oder	_	CONJ	_	_	2	cc	_	_
@@ -109,6 +118,7 @@
 14	Qualität	_	NOUN	_	_	11	conj	_	_
 15	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s10/de
 1	Habe	_	AUX	_	_	6	aux	_	_
 2	die	_	DET	_	_	4	det	_	_
 3	bestellten	_	ADJ	_	_	4	amod	_	_
@@ -117,14 +127,17 @@
 6	erhalten	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s11/de
 1	Super	_	ADJ	_	_	2	amod	_	_
 2	Service	_	NOUN	_	_	0	root	_	_
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s12/de
 1	Vielen	_	ADJ	_	_	2	amod	_	_
 2	Dank	_	NOUN	_	_	0	root	_	_
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s13/de
 1	Danke	_	ADV	_	_	14	appos	_	_
 2	für	_	ADP	_	_	5	case	_	_
 3	den	_	DET	_	_	5	det	_	_
@@ -141,7 +154,8 @@
 14	genossen	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
-1	7	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s14/de
+1	7	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Tage	_	NOUN	_	_	3	nmod	_	_
 3	Erholung	_	NOUN	_	_	0	root	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -163,6 +177,7 @@
 18	Seenplatte	_	PROPN	_	_	10	nmod	_	_
 19	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s15/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	hatten	_	VERB	_	_	0	root	_	_
 3	wunderschöne	_	ADJ	_	_	4	amod	_	_
@@ -179,6 +194,7 @@
 14	sehenswert	_	ADJ	_	_	2	conj	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s16/de
 1	Alles	_	PRON	_	_	12	mwe	_	_
 2	in	_	ADP	_	_	3	case	_	_
 3	Allem	_	NOUN	_	_	1	nmod	_	_
@@ -199,6 +215,7 @@
 18	bleiben	_	VERB	_	_	12	conj	_	_
 19	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s17/de
 1	Spaß	_	NOUN	_	_	0	root	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	Unterhaltung	_	NOUN	_	_	1	conj	_	_
@@ -210,6 +227,7 @@
 9	Essen	_	NOUN	_	_	1	conj	_	_
 10	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s18/de
 1	Mehr	_	PRON	_	_	5	dobj	_	_
 2	braucht	_	AUX	_	_	5	aux	_	_
 3	man	_	PRON	_	_	5	nsubj	_	_
@@ -217,6 +235,7 @@
 5	sagen	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s19/de
 1	Habe	_	AUX	_	_	7	aux	_	_
 2	heute	_	ADV	_	_	7	advmod	_	_
 3	Kette	_	NOUN	_	_	7	dobj	_	_
@@ -226,6 +245,7 @@
 7	gekauft	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s20/de
 1	Ich	_	PRON	_	_	7	nsubj	_	_
 2	kann	_	AUX	_	_	7	aux	_	_
 3	dieses	_	PRON	_	_	4	det	_	_
@@ -235,6 +255,7 @@
 7	empfehlen	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s21/de
 1	Das	_	SCONJ	_	_	9	mark	_	_
 2	man	_	PRON	_	_	9	nsubj	_	_
 3	so	_	ADV	_	_	4	advmod	_	_
@@ -253,6 +274,7 @@
 16	gewohnt	_	VERB	_	_	0	root	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s22/de
 1	Letzte	_	ADJ	_	_	2	amod	_	_
 2	Woche	_	NOUN	_	_	8	nmod	_	_
 3	hatte	_	AUX	_	_	8	aux	_	_
@@ -263,6 +285,7 @@
 8	gekauft	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s23/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	dachte	_	VERB	_	_	0	root	_	_
 3	mir	_	PRON	_	_	2	iobj	_	_
@@ -287,8 +310,9 @@
 21	Preis	_	NOUN	_	_	14	nmod	_	_
 22	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s24/de
 1	Knapp	_	ADV	_	_	2	advmod	_	_
-2	20	_	NUM	_	_	3	nummod	_	_
+2	20	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Euro	_	PROPN	_	_	8	dobj	_	_
 4	hat	_	AUX	_	_	8	aux	_	_
 5	je	_	ADV	_	_	8	advmod	_	_
@@ -297,6 +321,7 @@
 8	gekostet	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s25/de
 1	Sie	_	PRON	_	_	2	nsubj	_	_
 2	hingen	_	VERB	_	_	0	root	_	_
 3-4	zum	_	_	_	_	_	_	_	_
@@ -312,6 +337,7 @@
 12	mir	_	PRON	_	_	2	nmod	_	_
 13	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s26/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	musste	_	AUX	_	_	4	aux	_	_
 3	extrem	_	ADV	_	_	4	advmod	_	_
@@ -329,6 +355,7 @@
 14	erkälte	_	VERB	_	_	4	ccomp	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s27/de
 1	Insbesondere	_	ADV	_	_	11	advmod	_	_
 2	der	_	DET	_	_	5	det	_	_
 3	sehr	_	ADV	_	_	4	advmod	_	_
@@ -342,6 +369,7 @@
 11	hervorzuheben	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s28/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Personal	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -350,11 +378,12 @@
 6	authentisch	_	ADJ	_	_	4	conj	_	_
 7	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s29/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
 3	Mai	_	PROPN	_	_	15	nmod	_	_
-4	2010	_	NUM	_	_	3	nmod	_	_
+4	2010	_	NUM	_	NumType=Card	3	nmod	_	_
 5	haben	_	AUX	_	_	15	aux	_	_
 6	wir	_	PRON	_	_	15	nsubj	_	_
 7	den	_	DET	_	_	8	det	_	_
@@ -362,13 +391,14 @@
 9-10	zum	_	_	_	_	_	_	_	_
 9	zu	_	ADP	_	_	11	case	_	_
 10	dem	_	DET	_	_	11	det	_	_
-11	67	_	NUM	_	_	15	nmod	_	_
+11	67	_	NUM	_	NumType=Card	15	nmod	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 13	meines	_	PRON	_	_	14	det	_	_
 14	Vaters	_	NOUN	_	_	11	det	_	_
 15	eingelöst	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s30/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Empfang	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	VERB	_	_	5	cop	_	_
@@ -376,6 +406,7 @@
 5	freundlich	_	ADJ	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s31/de
 1	Wir	_	PRON	_	_	5	nsubj	_	_
 2	waren	_	VERB	_	_	5	cop	_	_
 3	die	_	DET	_	_	5	det	_	_
@@ -392,6 +423,7 @@
 14	stellte	_	VERB	_	_	5	acl	_	_
 15	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s32/de
 1	Deshalb	_	ADV	_	_	8	advmod	_	_
 2	"	_	PUNCT	_	_	3	punct	_	_
 3	musste	_	AUX	_	_	8	aux	_	_
@@ -402,6 +434,7 @@
 8	gehen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s33/de
 1	Es	_	PRON	_	_	2	expl	_	_
 2	fand	_	VERB	_	_	0	root	_	_
 3	eine	_	DET	_	_	5	det	_	_
@@ -417,6 +450,7 @@
 13	statt	_	ADP	_	_	2	mark	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s34/de
 1	Mein	_	PRON	_	_	2	det	_	_
 2	Vater	_	NOUN	_	_	9	nsubj	_	_
 3	hat	_	AUX	_	_	9	aux	_	_
@@ -429,6 +463,7 @@
 10	können	_	AUX	_	_	9	aux	_	_
 11	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s35/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Reaktion	_	NOUN	_	_	8	nsubj	_	_
 3	des	_	DET	_	_	5	det	_	_
@@ -441,6 +476,7 @@
 10	genervt	_	ADJ	_	_	8	conj	_	_
 11	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s36/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	brach	_	VERB	_	_	0	root	_	_
 3	von	_	ADP	_	_	4	case	_	_
@@ -458,6 +494,7 @@
 15	fahren	_	VERB	_	_	2	conj	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s37/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Geschäftsleitung	_	NOUN	_	_	3	nsubj	_	_
 3	bot	_	VERB	_	_	0	root	_	_
@@ -477,8 +514,9 @@
 17	fahren	_	VERB	_	_	3	xcomp	_	_
 18	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s38/de
 1	Für	_	ADP	_	_	3	case	_	_
-2	130,00	_	NUM	_	_	3	nummod	_	_
+2	130,00	_	NUM	_	NumType=Card	3	nummod	_	_
 3	EUR	_	PROPN	_	_	11	nmod	_	_
 4	war	_	VERB	_	_	11	cop	_	_
 5	das	_	PRON	_	_	11	nsubj	_	_
@@ -490,6 +528,7 @@
 11	Entschädigung	_	NOUN	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s39/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gäste	_	NOUN	_	_	3	nsubj	_	_
 3	zahlen	_	VERB	_	_	0	root	_	_
@@ -499,12 +538,13 @@
 7	Mitfahrt	_	NOUN	_	_	3	nmod	_	_
 8	ca	_	ADV	_	_	10	advmod	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
-10	10	_	NUM	_	_	13	nummod	_	_
+10	10	_	NUM	_	NumType=Card	13	nummod	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
 12	--	_	PUNCT	_	_	10	punct	_	_
 13	EUR	_	PROPN	_	_	3	dobj	_	_
 14	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s40/de
 1	Nach	_	ADP	_	_	3	case	_	_
 2	längerer	_	ADJ	_	_	3	amod	_	_
 3	Diskussion	_	NOUN	_	_	4	nmod	_	_
@@ -516,6 +556,7 @@
 9	Panzer	_	NOUN	_	_	4	dobj	_	_
 10	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s41/de
 1	Der	_	DET	_	_	3	det	_	_
 2	begleitende	_	ADJ	_	_	3	amod	_	_
 3	Fahrer	_	NOUN	_	_	4	nsubj	_	_
@@ -540,6 +581,7 @@
 22	selbst	_	ADV	_	_	15	advmod	_	_
 23	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s42/de
 1	Hinzu	_	ADV	_	_	2	mark	_	_
 2	kommt	_	VERB	_	_	0	root	_	_
 3	noch	_	ADV	_	_	2	advmod	_	_
@@ -553,7 +595,7 @@
 11	einen	_	DET	_	_	12	det	_	_
 12	Videomitschnitt	_	NOUN	_	_	23	dobj	_	_
 13	für	_	ADP	_	_	17	case	_	_
-14	20	_	NUM	_	_	17	nummod	_	_
+14	20	_	NUM	_	NumType=Card	17	nummod	_	_
 15	,	_	PUNCT	_	_	14	punct	_	_
 16	--	_	PUNCT	_	_	14	punct	_	_
 17	EUR	_	PROPN	_	_	12	nmod	_	_
@@ -566,6 +608,7 @@
 24	hatten	_	AUX	_	_	23	aux	_	_
 25	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s43/de
 1	Dieses	_	PRON	_	_	2	det	_	_
 2	Video	_	NOUN	_	_	6	nsubjpass	_	_
 3	konnte	_	AUX	_	_	6	aux	_	_
@@ -575,6 +618,7 @@
 7	werden	_	AUX	_	_	6	auxpass	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s44/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -593,6 +637,7 @@
 15	war	_	VERB	_	_	14	cop	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s45/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	das	_	DET	_	_	3	det	_	_
 3	Geld	_	NOUN	_	_	6	nmod	_	_
@@ -604,6 +649,7 @@
 9	wieder	_	ADV	_	_	6	appos	_	_
 10	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s46/de
 1	Sibille	_	PROPN	_	_	4	name	_	_
 2	und	_	CONJ	_	_	4	cc	_	_
 3	Klaus	_	PROPN	_	_	4	name	_	_
@@ -619,7 +665,7 @@
 13	meiner	_	PRON	_	_	14	det	_	_
 14	Meinung	_	NOUN	_	_	12	nmod	_	_
 15	nach	_	ADP	_	_	14	case	_	_
-16	5	_	NUM	_	_	17	nummod	_	_
+16	5	_	NUM	_	NumType=Card	17	nummod	_	_
 17	Sterne	_	NOUN	_	_	12	dobj	_	_
 18	für	_	ADP	_	_	20	case	_	_
 19	die	_	DET	_	_	20	det	_	_
@@ -628,6 +674,7 @@
 22	die	_	DET	_	_	23	det	_	_
 23	Umsetzung	_	NOUN	_	_	20	conj	_	_
 
+# sent_id dev-s47/de
 1	bei	_	ADP	_	_	4	case	_	_
 2	meinem	_	PRON	_	_	4	det	_	_
 3	ersten	_	ADJ	_	_	4	amod	_	_
@@ -641,6 +688,7 @@
 11	erstaunt	_	ADJ	_	_	0	root	_	_
 12	...	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s48/de
 1	tolle	_	ADJ	_	_	3	amod	_	_
 2	engangierte	_	ADJ	_	_	1	conj	_	_
 3	mitarbeiter	_	NOUN	_	_	0	root	_	_
@@ -651,6 +699,7 @@
 8	wirkten	_	VERB	_	_	3	acl	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s49/de
 1	Bester	_	ADJ	_	_	2	amod	_	_
 2	Friseur	_	NOUN	_	_	0	root	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -659,6 +708,7 @@
 6	Rosenheim	_	PROPN	_	_	5	name	_	_
 7	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s50/de
 1	Sehr	_	ADV	_	_	2	advmod	_	_
 2	guter	_	ADJ	_	_	3	amod	_	_
 3	Service	_	NOUN	_	_	0	root	_	_
@@ -672,17 +722,19 @@
 11	gut	_	ADJ	_	_	3	parataxis	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s51/de
 1	Absolut	_	ADV	_	_	3	advmod	_	_
 2	zu	_	PART	_	_	3	aux	_	_
 3	empfehlen	_	VERB	_	_	0	root	_	_
 
+# sent_id dev-s52/de
 1	Seit	_	ADP	_	_	2	case	_	_
-2	1964	_	NUM	_	_	11	nmod	_	_
+2	1964	_	NUM	_	NumType=Card	11	nmod	_	_
 3	ist	_	VERB	_	_	11	cop	_	_
 4	mein	_	PRON	_	_	5	det	_	_
 5	Mann	_	NOUN	_	_	11	nsubj	_	_
 6	rund	_	ADV	_	_	7	advmod	_	_
-7	1	_	NUM	_	_	8	nummod	_	_
+7	1	_	NUM	_	NumType=Card	8	nummod	_	_
 8	mal	_	ADV	_	_	11	advmod	_	_
 9	pro	_	ADP	_	_	10	case	_	_
 10	Jahr	_	NOUN	_	_	8	nmod	_	_
@@ -692,8 +744,9 @@
 14	Hotel	_	NOUN	_	_	11	nmod	_	_
 15	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s53/de
 1	Seit	_	ADP	_	_	2	case	_	_
-2	1980	_	NUM	_	_	3	nmod	_	_
+2	1980	_	NUM	_	NumType=Card	3	nmod	_	_
 3	bin	_	VERB	_	_	0	root	_	_
 4	auch	_	ADV	_	_	3	advmod	_	_
 5	ich	_	PRON	_	_	3	nsubj	_	_
@@ -715,6 +768,7 @@
 21	mit	_	ADP	_	_	11	mark	_	_
 22	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s54/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Antwort	_	NOUN	_	_	9	nsubj	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -731,6 +785,7 @@
 14	Ordnung	_	NOUN	_	_	9	nmod	_	_
 15	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s55/de
 1	Mit	_	PRON	_	_	2	iobj	_	_
 2	scheint	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -750,7 +805,7 @@
 17	schon	_	ADV	_	_	27	advmod	_	_
 18	Kinder	_	NOUN	_	_	27	nsubjpass	_	_
 19	unter	_	ADP	_	_	21	case	_	_
-20	fünf	_	NUM	_	_	21	nummod	_	_
+20	fünf	_	NUM	_	NumType=Card	21	nummod	_	_
 21	Jahren	_	NOUN	_	_	27	nmod	_	_
 22	auf	_	ADP	_	_	24	case	_	_
 23	diese	_	PRON	_	_	24	det	_	_
@@ -762,6 +817,7 @@
 29	müssen	_	AUX	_	_	27	aux	_	_
 30	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s56/de
 1	Das	_	PRON	_	_	3	nsubj	_	_
 2	ist	_	VERB	_	_	3	cop	_	_
 3	unsozial	_	ADJ	_	_	0	root	_	_
@@ -778,6 +834,7 @@
 14	Unternehmens	_	NOUN	_	_	12	det	_	_
 15	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s57/de
 1	Versuchen	_	VERB	_	_	0	root	_	_
 2	Sie	_	PRON	_	_	1	nsubj	_	_
 3	mal	_	ADV	_	_	1	advmod	_	_
@@ -797,6 +854,7 @@
 16	aufzustellen	_	VERB	_	_	1	xcomp	_	_
 17	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s58/de
 1	Hier	_	ADV	_	_	12	advmod	_	_
 2	würden	_	AUX	_	_	12	aux	_	_
 3	gerne	_	ADV	_	_	12	advmod	_	_
@@ -804,7 +862,7 @@
 5	paar	_	PRON	_	_	6	det	_	_
 6	Leute	_	NOUN	_	_	12	nsubj	_	_
 7	nach	_	ADP	_	_	9	case	_	_
-8	20.00	_	NUM	_	_	9	nummod	_	_
+8	20.00	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Uhr	_	NOUN	_	_	12	nmod	_	_
 10	die	_	DET	_	_	11	det	_	_
 11	Fähre	_	NOUN	_	_	12	dobj	_	_
@@ -821,6 +879,7 @@
 22	besuchen	_	VERB	_	_	12	advcl	_	_
 23	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s59/de
 1	Für	_	ADP	_	_	2	case	_	_
 2	uns	_	PRON	_	_	9	nmod	_	_
 3	war	_	VERB	_	_	9	cop	_	_
@@ -834,6 +893,7 @@
 11	Optikers	_	NOUN	_	_	9	det	_	_
 12	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s60/de
 1	Meine	_	PRON	_	_	2	det	_	_
 2	Mutter	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -851,6 +911,7 @@
 15	Hause	_	NOUN	_	_	13	nmod	_	_
 16	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s61/de
 1	Hab	_	AUX	_	_	9	aux	_	_
 2	'	_	PUNCT	_	_	1	punct	_	_
 3	ich	_	PRON	_	_	9	nsubj	_	_
@@ -863,6 +924,7 @@
 10	bekommen	_	VERB	_	_	9	xcomp	_	_
 11	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s62/de
 1	Wer	_	PRON	_	_	3	nsubj	_	_
 2	gerne	_	ADV	_	_	3	advmod	_	_
 3	zusieht	_	VERB	_	_	19	csubj	_	_
@@ -885,6 +947,7 @@
 19	aufgehoben	_	VERB	_	_	0	root	_	_
 20	.	_	PUNCT	_	_	19	punct	_	_
 
+# sent_id dev-s63/de
 1	Service	_	NOUN	_	_	3	nsubj	_	_
 2	war	_	VERB	_	_	3	cop	_	_
 3	freundlich	_	ADJ	_	_	0	root	_	_
@@ -897,6 +960,7 @@
 10	spät	_	ADJ	_	_	8	conj	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s64/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Trinkgeld	_	NOUN	_	_	8	dobj	_	_
 3	hab	_	AUX	_	_	8	aux	_	_
@@ -913,6 +977,7 @@
 14	war	_	VERB	_	_	13	cop	_	_
 15	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s65/de
 1	Bei	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Suche	_	NOUN	_	_	10	nmod	_	_
@@ -928,7 +993,7 @@
 13	innerhalb	_	ADP	_	_	15	case	_	_
 14	kürzester	_	ADJ	_	_	15	amod	_	_
 15	Zeit	_	NOUN	_	_	19	nmod	_	_
-16	drei	_	NUM	_	_	18	nummod	_	_
+16	drei	_	NUM	_	NumType=Card	18	nummod	_	_
 17	gute	_	ADJ	_	_	18	amod	_	_
 18	Profile	_	NOUN	_	_	19	dobj	_	_
 19	erhalten	_	VERB	_	_	10	conj	_	_
@@ -942,6 +1007,7 @@
 27	waren	_	AUX	_	_	26	aux	_	_
 28	!	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s66/de
 1	Wir	_	PRON	_	_	11	nsubj	_	_
 2	konnten	_	AUX	_	_	11	aux	_	_
 3	deshalb	_	ADV	_	_	11	advmod	_	_
@@ -955,6 +1021,7 @@
 11	besetzen	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s67/de
 1	Wurde	_	AUX	_	_	8	auxpass	_	_
 2	sehr	_	ADV	_	_	3	advmod	_	_
 3	gut	_	ADV	_	_	8	advmod	_	_
@@ -967,6 +1034,7 @@
 10	gewonnen	_	VERB	_	_	8	conj	_	_
 11	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s68/de
 1	Vielen	_	ADJ	_	_	2	amod	_	_
 2	Dank	_	NOUN	_	_	0	root	_	_
 3	für	_	ADP	_	_	6	case	_	_
@@ -979,6 +1047,7 @@
 10	Rechtsfällen	_	NOUN	_	_	6	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s69/de
 1	Für	_	ADP	_	_	2	case	_	_
 2	mich	_	PRON	_	_	6	nmod	_	_
 3	die	_	DET	_	_	6	det	_	_
@@ -989,6 +1058,7 @@
 8	Dresden	_	PROPN	_	_	6	nmod	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s70/de
 1	Da	_	ADV	_	_	5	advmod	_	_
 2	kann	_	AUX	_	_	5	aux	_	_
 3	man	_	PRON	_	_	5	nsubj	_	_
@@ -1004,6 +1074,7 @@
 13	liegt	_	VERB	_	_	5	ccomp	_	_
 14	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s71/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	bin	_	VERB	_	_	4	cop	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -1018,6 +1089,7 @@
 12	sollte	_	AUX	_	_	11	aux	_	_
 13	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s72/de
 1	Kaufen	_	VERB	_	_	0	root	_	_
 2	sie	_	PRON	_	_	1	nsubj	_	_
 3	bei	_	ADP	_	_	5	case	_	_
@@ -1026,6 +1098,7 @@
 6	!	_	PUNCT	_	_	1	punct	_	_
 7	!	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s73/de
 1	Unsere	_	PRON	_	_	2	det	_	_
 2	Erfahrung	_	NOUN	_	_	7	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -1052,6 +1125,7 @@
 24	!	_	PUNCT	_	_	7	punct	_	_
 25	!	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s74/de
 1	Möbel	_	NOUN	_	_	2	compound	_	_
 2	Boss	_	PROPN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -1067,6 +1141,7 @@
 13	übrig	_	ADV	_	_	12	advmod	_	_
 14	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s75/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	bessere	_	ADJ	_	_	3	amod	_	_
 3	Qualität	_	NOUN	_	_	9	nmod	_	_
@@ -1083,8 +1158,8 @@
 14	dann	_	ADV	_	_	21	advmod	_	_
 15	eher	_	ADV	_	_	16	advmod	_	_
 16	noch	_	ADV	_	_	21	advmod	_	_
-17	ein	_	NUM	_	_	19	nummod	_	_
-18	zwei	_	NUM	_	_	19	nummod	_	_
+17	ein	_	NUM	_	NumType=Card	19	nummod	_	_
+18	zwei	_	NUM	_	NumType=Card	19	nummod	_	_
 19	Monate	_	NOUN	_	_	20	nmod	_	_
 20	länger	_	ADV	_	_	21	advmod	_	_
 21	sparen	_	VERB	_	_	9	conj	_	_
@@ -1094,6 +1169,7 @@
 25	kaufen	_	VERB	_	_	21	conj	_	_
 26	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s76/de
 1	Von	_	ADP	_	_	2	case	_	_
 2	mir	_	PRON	_	_	6	nmod	_	_
 3	also	_	ADV	_	_	6	advmod	_	_
@@ -1104,6 +1180,7 @@
 8	MöBo	_	PROPN	_	_	6	nmod	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s77/de
 1	Mit	_	ADP	_	_	3	case	_	_
 2	meinem	_	PRON	_	_	3	det	_	_
 3	Hund	_	NOUN	_	_	4	nmod	_	_
@@ -1127,6 +1204,7 @@
 21	gesehen	_	VERB	_	_	4	parataxis	_	_
 22	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s78/de
 1	Jedesmal	_	ADV	_	_	2	advmod	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	ein	_	DET	_	_	5	det	_	_
@@ -1141,6 +1219,7 @@
 12	finde	_	VERB	_	_	2	parataxis	_	_
 13	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s79/de
 1	Das	_	PRON	_	_	5	dobj	_	_
 2	mit	_	ADP	_	_	4	case	_	_
 3	dem	_	DET	_	_	4	det	_	_
@@ -1160,6 +1239,7 @@
 17	werden	_	AUX	_	_	16	aux	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s80/de
 1	Ganz	_	ADV	_	_	2	advmod	_	_
 2	anders	_	ADV	_	_	0	root	_	_
 3	als	_	CONJ	_	_	2	cc	_	_
@@ -1167,6 +1247,7 @@
 5	Zepernick	_	PROPN	_	_	2	nmod	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s81/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	hab	_	AUX	_	_	6	aux	_	_
 3	mich	_	PRON	_	_	6	dobj	_	_
@@ -1182,6 +1263,7 @@
 13	waren	_	VERB	_	_	12	cop	_	_
 14	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s82/de
 1	Habe	_	AUX	_	_	4	aux	_	_
 2	mich	_	PRON	_	_	4	dobj	_	_
 3	operieren	_	VERB	_	_	4	xcomp	_	_
@@ -1192,6 +1274,7 @@
 8	beschwerdefrei	_	ADJ	_	_	4	conj	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s83/de
 1	Wahrscheinlich	_	ADV	_	_	6	advmod	_	_
 2	waren	_	VERB	_	_	6	cop	_	_
 3	das	_	PRON	_	_	6	nsubj	_	_
@@ -1201,6 +1284,7 @@
 7	überhaupt	_	ADV	_	_	6	advmod	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s84/de
 1	Denn	_	ADV	_	_	6	advmod	_	_
 2	so	_	ADV	_	_	3	advmod	_	_
 3	eine	_	DET	_	_	5	det	_	_
@@ -1213,6 +1297,7 @@
 10	mal	_	NOUN	_	_	6	nmod	_	_
 11	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s85/de
 1	Die	_	PRON	_	_	2	nsubj	_	_
 2	machen	_	VERB	_	_	0	root	_	_
 3	nicht	_	PART	_	_	4	neg	_	_
@@ -1225,6 +1310,7 @@
 10	Schuhreparatur	_	NOUN	_	_	8	conj	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s86/de
 1	Mein	_	PRON	_	_	4	det	_	_
 2	Sakko	_	NOUN	_	_	4	compound	_	_
 3	-	_	PUNCT	_	_	4	punct	_	_
@@ -1242,6 +1328,7 @@
 15	gekürzt	_	VERB	_	_	7	parataxis	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s87/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	zwar	_	ADV	_	_	2	advmod	_	_
@@ -1274,6 +1361,7 @@
 28	suchen	_	VERB	_	_	2	conj	_	_
 29	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s88/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	weiß	_	VERB	_	_	0	root	_	_
 3	nicht	_	PART	_	_	2	neg	_	_
@@ -1317,9 +1405,10 @@
 41	vor	_	ADP	_	_	36	mark	_	_
 42	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s89/de
 1	Ich	_	PRON	_	_	11	nsubj	_	_
 2	habe	_	AUX	_	_	11	aux	_	_
-3	zwei	_	NUM	_	_	4	nummod	_	_
+3	zwei	_	NUM	_	NumType=Card	4	nummod	_	_
 4	Nächte	_	NOUN	_	_	11	dobj	_	_
 5-6	im	_	_	_	_	_	_	_	_
 5	in	_	ADP	_	_	7	case	_	_
@@ -1337,6 +1426,7 @@
 17	überrascht	_	ADJ	_	_	11	conj	_	_
 18	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s90/de
 1	Die	_	DET	_	_	3	det	_	_
 2	Zimmer	_	NOUN	_	_	3	cop	_	_
 3	sauber	_	ADJ	_	_	0	root	_	_
@@ -1358,6 +1448,7 @@
 19	Problem	_	NOUN	_	_	3	conj	_	_
 20	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s91/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Ausstattung	_	NOUN	_	_	10	nsubj	_	_
 3	kann	_	AUX	_	_	10	aux	_	_
@@ -1375,6 +1466,7 @@
 15	moderat	_	ADJ	_	_	10	parataxis	_	_
 16	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s92/de
 1	Das	_	DET	_	_	21	det	_	_
 2	Essen	_	NOUN	_	_	21	cop	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -1390,7 +1482,7 @@
 12	Beilagen	_	NOUN	_	_	8	nmod	_	_
 13	für	_	ADP	_	_	18	case	_	_
 14	rund	_	ADV	_	_	15	advmod	_	_
-15	14	_	NUM	_	_	18	nummod	_	_
+15	14	_	NUM	_	NumType=Card	18	nummod	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 17	--	_	PUNCT	_	_	15	punct	_	_
 18	€	_	X	_	_	8	nmod	_	_
@@ -1399,6 +1491,7 @@
 21	Gedicht	_	NOUN	_	_	0	root	_	_
 22	!	_	PUNCT	_	_	21	punct	_	_
 
+# sent_id dev-s93/de
 1	Ein	_	DET	_	_	2	det	_	_
 2	Kompliment	_	NOUN	_	_	0	root	_	_
 3	von	_	ADP	_	_	4	case	_	_
@@ -1410,6 +1503,7 @@
 9	Koch	_	NOUN	_	_	2	nmod	_	_
 10	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s94/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	freu	_	VERB	_	_	0	root	_	_
 3	mich	_	PRON	_	_	2	dobj	_	_
@@ -1423,6 +1517,7 @@
 10	Winter	_	NOUN	_	_	2	nmod	_	_
 11	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s95/de
 1	Was	_	PRON	_	_	4	dobj	_	_
 2	soll	_	AUX	_	_	4	aux	_	_
 3	ich	_	PRON	_	_	4	nsubj	_	_
@@ -1451,6 +1546,7 @@
 26	geschlossen	_	VERB	_	_	14	advcl	_	_
 27	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s96/de
 1	Aber	_	CONJ	_	_	3	cc	_	_
 2	es	_	PRON	_	_	3	nsubj	_	_
 3	gibt	_	VERB	_	_	0	root	_	_
@@ -1469,11 +1565,12 @@
 15	records	_	PROPN	_	_	3	conj	_	_
 16	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s97/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	beschäftigte	_	VERB	_	_	0	root	_	_
 3	mich	_	PRON	_	_	2	dobj	_	_
 4	seit	_	ADP	_	_	6	case	_	_
-5	15	_	NUM	_	_	6	nummod	_	_
+5	15	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Jahren	_	NOUN	_	_	2	nmod	_	_
 7	mit	_	ADP	_	_	8	case	_	_
 8	Musik	_	NOUN	_	_	2	nmod	_	_
@@ -1500,6 +1597,7 @@
 29	Scheiben	_	NOUN	_	_	26	nmod	_	_
 30	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s98/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	wohl	_	ADV	_	_	2	advmod	_	_
@@ -1513,6 +1611,7 @@
 11	ihn	_	PRON	_	_	6	nmod	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s99/de
 1	Das	_	PRON	_	_	2	nsubj	_	_
 2	verwunder	_	VERB	_	_	0	root	_	_
 3	auch	_	ADV	_	_	4	advmod	_	_
@@ -1533,12 +1632,14 @@
 17	Nachtleben	_	NOUN	_	_	9	nmod	_	_
 18	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s100/de
 1	Kann	_	AUX	_	_	4	aux	_	_
 2	ich	_	PRON	_	_	4	nsubj	_	_
 3	uneingeschränkt	_	ADV	_	_	4	advmod	_	_
 4	empfehlen	_	VERB	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s101/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	4	case	_	_
 2	dem	_	DET	_	_	4	det	_	_
@@ -1564,12 +1665,13 @@
 22	gemacht	_	VERB	_	_	14	conj	_	_
 23	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s102/de
 1	Mittlerweile	_	ADV	_	_	2	advmod	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
 4	bestimmt	_	ADV	_	_	5	advmod	_	_
 5	schon	_	ADV	_	_	7	advmod	_	_
-6	10	_	NUM	_	_	7	nummod	_	_
+6	10	_	NUM	_	NumType=Card	7	nummod	_	_
 7	mal	_	NOUN	_	_	2	nmod	_	_
 8	da	_	ADV	_	_	2	advmod	_	_
 9	,	_	PUNCT	_	_	2	punct	_	_
@@ -1584,6 +1686,7 @@
 18	begeistert	_	ADJ	_	_	2	conj	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s103/de
 1	Man	_	PRON	_	_	7	nsubjpass	_	_
 2	wird	_	AUX	_	_	7	auxpass	_	_
 3	hier	_	ADV	_	_	7	advmod	_	_
@@ -1600,6 +1703,7 @@
 14	gestört	_	VERB	_	_	7	conj	_	_
 15	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s104/de
 1	Auch	_	ADV	_	_	7	advmod	_	_
 2	sind	_	AUX	_	_	7	auxpass	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -1617,6 +1721,7 @@
 15	trifft	_	VERB	_	_	7	ccomp	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s105/de
 1	Wer	_	PRON	_	_	6	nsubj	_	_
 2	also	_	ADV	_	_	6	advmod	_	_
 3	eine	_	DET	_	_	5	det	_	_
@@ -1630,6 +1735,7 @@
 11	richtig	_	ADJ	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s106/de
 1	Also	_	ADV	_	_	3	advmod	_	_
 2	ich	_	PRON	_	_	3	nsubj	_	_
 3	bin	_	VERB	_	_	0	root	_	_
@@ -1645,6 +1751,7 @@
 13	gefällt	_	VERB	_	_	3	advcl	_	_
 14	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s107/de
 1	Wenn	_	SCONJ	_	_	4	mark	_	_
 2	spontan	_	ADV	_	_	4	advmod	_	_
 3	Appetit	_	NOUN	_	_	4	nsubj	_	_
@@ -1662,6 +1769,7 @@
 15	Wahl	_	NOUN	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s108/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Essen	_	NOUN	_	_	3	nsubj	_	_
 3	ist	_	VERB	_	_	0	root	_	_
@@ -1678,6 +1786,7 @@
 14	gemütlich	_	ADJ	_	_	3	conj	_	_
 15	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s109/de
 1	Auch	_	ADV	_	_	9	advmod	_	_
 2	habe	_	AUX	_	_	9	aux	_	_
 3	ich	_	PRON	_	_	9	nsubj	_	_
@@ -1693,6 +1802,7 @@
 13	enttäuscht	_	ADJ	_	_	9	conj	_	_
 14	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s110/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	kann	_	AUX	_	_	6	aux	_	_
 3	das	_	DET	_	_	4	det	_	_
@@ -1701,6 +1811,7 @@
 6	weiterempfehlen	_	VERB	_	_	0	root	_	_
 7	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s111/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	sind	_	VERB	_	_	0	root	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -1714,6 +1825,7 @@
 11	Grund	_	NOUN	_	_	8	nmod	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s112/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Essen	_	NOUN	_	_	3	nsubj	_	_
 3	schmeckt	_	VERB	_	_	0	root	_	_
@@ -1729,6 +1841,7 @@
 13	gestaltet	_	ADJ	_	_	10	conj	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s113/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Aussenbereich	_	NOUN	_	_	6	nsubjpass	_	_
 3	wurde	_	AUX	_	_	6	auxpass	_	_
@@ -1748,24 +1861,28 @@
 16	ein	_	ADV	_	_	9	mark	_	_
 17	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s114/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	kommen	_	VERB	_	_	0	root	_	_
 3	immer	_	ADV	_	_	2	advmod	_	_
 4	wieder	_	ADV	_	_	2	mark	_	_
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s115/de
 1	Liebe	_	ADJ	_	_	2	amod	_	_
 2	Grüße	_	NOUN	_	_	0	root	_	_
 3	Lutz	_	PROPN	_	_	2	appos	_	_
 4	und	_	CONJ	_	_	3	cc	_	_
 5	Heike	_	PROPN	_	_	3	conj	_	_
 
+# sent_id dev-s116/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	würde	_	AUX	_	_	4	aux	_	_
 3	nicht	_	PART	_	_	4	neg	_	_
 4	empfehlen	_	VERB	_	_	0	root	_	_
 5	....	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s117/de
 1	Eigentlich	_	ADV	_	_	9	advmod	_	_
 2	hatte	_	AUX	_	_	9	aux	_	_
 3	ich	_	PRON	_	_	9	nsubj	_	_
@@ -1784,6 +1901,7 @@
 16	müssen	_	AUX	_	_	15	aux	_	_
 17	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s118/de
 1	Man	_	PRON	_	_	2	nsubj	_	_
 2	kauft	_	VERB	_	_	0	root	_	_
 3	schließlich	_	ADV	_	_	2	advmod	_	_
@@ -1804,6 +1922,7 @@
 18	wurde	_	AUX	_	_	17	auxpass	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s119/de
 1	Nach	_	ADP	_	_	5	case	_	_
 2	eingehender	_	ADJ	_	_	5	amod	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -1821,10 +1940,11 @@
 15	immerhin	_	ADV	_	_	13	advmod	_	_
 16	für	_	ADP	_	_	19	case	_	_
 17	fast	_	ADV	_	_	18	advmod	_	_
-18	20.000	_	NUM	_	_	19	nummod	_	_
+18	20.000	_	NUM	_	NumType=Card	19	nummod	_	_
 19	Euro	_	PROPN	_	_	13	nmod	_	_
 20	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s120/de
 1	Nach	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Unterschrift	_	NOUN	_	_	13	nmod	_	_
@@ -1840,6 +1960,7 @@
 13	nachgelassen	_	VERB	_	_	0	root	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s121/de
 1	Unsere	_	PRON	_	_	2	det	_	_
 2	Küche	_	NOUN	_	_	4	nsubjpass	_	_
 3	wurde	_	AUX	_	_	4	auxpass	_	_
@@ -1857,11 +1978,12 @@
 14	festgestellt	_	VERB	_	_	4	conj	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s122/de
 1	Ich	_	PRON	_	_	7	nsubj	_	_
 2	kann	_	AUX	_	_	7	aux	_	_
 3	leider	_	ADV	_	_	7	advmod	_	_
 4	keine	_	PRON	_	_	6	neg	_	_
-5	0	_	NUM	_	_	6	nummod	_	_
+5	0	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Sterne	_	NOUN	_	_	7	dobj	_	_
 7	vergeben	_	VERB	_	_	0	root	_	_
 8	,	_	PUNCT	_	_	7	punct	_	_
@@ -1872,6 +1994,7 @@
 13	wäre	_	VERB	_	_	6	acl	_	_
 14	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s123/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	haben	_	VERB	_	_	0	root	_	_
 3	unsere	_	PRON	_	_	4	det	_	_
@@ -1879,13 +2002,14 @@
 5	jetzt	_	ADV	_	_	2	advmod	_	_
 6	seit	_	ADP	_	_	7	case	_	_
 7	Juni	_	PROPN	_	_	2	nmod	_	_
-8	2011	_	NUM	_	_	7	nmod	_	_
+8	2011	_	NUM	_	NumType=Card	7	nmod	_	_
 9	und	_	CONJ	_	_	2	cc	_	_
 10	sind	_	VERB	_	_	12	cop	_	_
 11	hellauf	_	ADV	_	_	12	advmod	_	_
 12	begeistert	_	ADJ	_	_	2	conj	_	_
 13	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s124/de
 1	Beratung	_	NOUN	_	_	8	nsubj	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	Planung	_	NOUN	_	_	1	conj	_	_
@@ -1897,6 +2021,7 @@
 9	wunderbar	_	ADJ	_	_	8	xcomp	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s125/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Preise	_	NOUN	_	_	4	nsubj	_	_
 3	sind	_	VERB	_	_	4	cop	_	_
@@ -1929,6 +2054,7 @@
 30	hat	_	AUX	_	_	29	aux	_	_
 31	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s126/de
 1	Eine	_	DET	_	_	3	det	_	_
 2	kleine	_	ADJ	_	_	3	amod	_	_
 3	Beanstandungen	_	NOUN	_	_	6	nsubjpass	_	_
@@ -1945,6 +2071,7 @@
 14	ausgetauscht	_	VERB	_	_	10	acl	_	_
 15	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s127/de
 1	Super	_	ADJ	_	_	2	amod	_	_
 2	Beratung	_	NOUN	_	_	0	root	_	_
 3	--	_	PUNCT	_	_	2	punct	_	_
@@ -1955,6 +2082,7 @@
 8	Ideen	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s128/de
 1	Habe	_	AUX	_	_	5	aux	_	_
 2	meine	_	PRON	_	_	3	det	_	_
 3	Küche	_	NOUN	_	_	5	dobj	_	_
@@ -1962,6 +2090,7 @@
 5	gekauft	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s129/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -1982,6 +2111,7 @@
 16	bedient	_	VERB	_	_	2	conj	_	_
 17	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s130/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Grundriss	_	NOUN	_	_	11	nsubj	_	_
 3	unseres	_	PRON	_	_	4	det	_	_
@@ -2006,15 +2136,17 @@
 22	Problem	_	NOUN	_	_	19	nmod	_	_
 23	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s131/de
 1	Wir	_	PRON	_	_	3	nsubj	_	_
 2	waren	_	VERB	_	_	3	cop	_	_
 3	begeistert	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s132/de
 1	Nach	_	ADP	_	_	6	case	_	_
 2	einer	_	DET	_	_	6	det	_	_
 3	etwa	_	ADV	_	_	4	advmod	_	_
-4	4	_	NUM	_	_	5	nummod	_	_
+4	4	_	NUM	_	NumType=Card	5	nummod	_	_
 5	stündigen	_	ADJ	_	_	6	amod	_	_
 6	Beratung	_	NOUN	_	_	7	nmod	_	_
 7	hatten	_	VERB	_	_	0	root	_	_
@@ -2030,6 +2162,7 @@
 17	entsprach	_	VERB	_	_	11	acl	_	_
 18	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s133/de
 1	Selbstverständlich	_	ADV	_	_	14	advmod	_	_
 2	sind	_	AUX	_	_	14	aux	_	_
 3	aber	_	ADV	_	_	4	advmod	_	_
@@ -2046,6 +2179,7 @@
 14	gegangen	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s134/de
 1	Aber	_	CONJ	_	_	12	cc	_	_
 2	weder	_	CONJ	_	_	5	cc	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -2061,6 +2195,7 @@
 12	mithalten	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s135/de
 1	Auch	_	ADV	_	_	15	advmod	_	_
 2	von	_	ADP	_	_	4	case	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -2078,10 +2213,12 @@
 15	schlechter	_	ADJ	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s136/de
 1	Massenware	_	NOUN	_	_	0	root	_	_
 2	eben	_	ADV	_	_	1	advmod	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s137/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Firma	_	NOUN	_	_	15	nsubj	_	_
 3	Wintergartenbau	_	PROPN	_	_	2	appos	_	_
@@ -2089,7 +2226,7 @@
 5	in	_	ADP	_	_	9	case	_	_
 6	den	_	DET	_	_	9	det	_	_
 7	vergangenen	_	ADJ	_	_	9	amod	_	_
-8	3	_	NUM	_	_	9	nummod	_	_
+8	3	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Jahren	_	NOUN	_	_	15	nmod	_	_
 10	einige	_	PRON	_	_	11	det	_	_
 11	Leistungen	_	NOUN	_	_	15	dobj	_	_
@@ -2099,6 +2236,7 @@
 15	ausgeführt	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s138/de
 1	Mit	_	ADP	_	_	3	case	_	_
 2	gutem	_	ADJ	_	_	3	amod	_	_
 3	Gewissen	_	NOUN	_	_	12	nmod	_	_
@@ -2127,6 +2265,7 @@
 26	wurden	_	AUX	_	_	25	auxpass	_	_
 27	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s139/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Ausstellungsräume	_	NOUN	_	_	12	nsubj	_	_
 3	sind	_	VERB	_	_	12	cop	_	_
@@ -2142,6 +2281,7 @@
 12	präsentiert	_	ADJ	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s140/de
 1	Wir	_	PRON	_	_	10	nsubj	_	_
 2	haben	_	AUX	_	_	10	aux	_	_
 3	uns	_	PRON	_	_	10	dobj	_	_
@@ -2165,6 +2305,7 @@
 20	positiv	_	ADJ	_	_	12	xcomp	_	_
 21	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s141/de
 1	Es	_	PRON	_	_	7	nsubjpass	_	_
 2	wurde	_	AUX	_	_	7	auxpass	_	_
 3	absolut	_	ADV	_	_	4	advmod	_	_
@@ -2177,6 +2318,7 @@
 10	Monteuren	_	NOUN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s142/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -2190,7 +2332,8 @@
 10	wieder	_	ADV	_	_	4	mark	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
-1	5	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s143/de
+1	5	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Sterne	_	NOUN	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
 4	ein	_	DET	_	_	6	det	_	_
@@ -2203,11 +2346,13 @@
 11	Wintergartenbau	_	PROPN	_	_	10	appos	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s144/de
 1	Vielen	_	PRON	_	_	2	det	_	_
 2	Grüße	_	NOUN	_	_	0	root	_	_
 3	aus	_	ADP	_	_	4	case	_	_
 4	Falkensee	_	PROPN	_	_	2	nmod	_	_
 
+# sent_id dev-s145/de
 1	Leider	_	ADV	_	_	3	advmod	_	_
 2	kein	_	PRON	_	_	3	neg	_	_
 3	Paradies	_	NOUN	_	_	0	root	_	_
@@ -2232,6 +2377,7 @@
 22	wurde	_	AUX	_	_	21	auxpass	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s146/de
 1	Wir	_	PRON	_	_	5	nsubj	_	_
 2	hätten	_	AUX	_	_	5	aux	_	_
 3	es	_	PRON	_	_	5	dobj	_	_
@@ -2251,6 +2397,7 @@
 17	verschoben	_	VERB	_	_	5	advcl	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s147/de
 1	Und	_	CONJ	_	_	7	cc	_	_
 2	nach	_	ADP	_	_	3	case	_	_
 3	dem	_	PRON	_	_	7	nmod	_	_
@@ -2277,6 +2424,7 @@
 24	Gegenteil	_	NOUN	_	_	10	nmod	_	_
 25	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s148/de
 1	Viel	_	PRON	_	_	2	det	_	_
 2	Ärger	_	NOUN	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -2288,6 +2436,7 @@
 9	Wintergartenparadies	_	NOUN	_	_	2	nmod	_	_
 10	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s149/de
 1	Leider	_	ADV	_	_	2	advmod	_	_
 2	verspricht	_	VERB	_	_	0	root	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -2297,13 +2446,13 @@
 7	in	_	ADP	_	_	13	case	_	_
 8	ca	_	ADV	_	_	10	advmod	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
-10	7	_	NUM	_	_	11	nummod	_	_
+10	7	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Tagen	_	NOUN	_	_	7	dobj	_	_
 12	zu	_	PART	_	_	13	aux	_	_
 13	liefern	_	VERB	_	_	2	xcomp	_	_
 14	aber	_	CONJ	_	_	2	cc	_	_
 15	nach	_	ADP	_	_	17	case	_	_
-16	8	_	NUM	_	_	17	nummod	_	_
+16	8	_	NUM	_	NumType=Card	17	nummod	_	_
 17	Tagen	_	NOUN	_	_	23	nmod	_	_
 18	ist	_	AUX	_	_	23	aux	_	_
 19	immer	_	ADV	_	_	20	advmod	_	_
@@ -2313,6 +2462,7 @@
 23	angekommen	_	VERB	_	_	2	conj	_	_
 24	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s150/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	kaufe	_	VERB	_	_	0	root	_	_
 3	hier	_	ADV	_	_	2	advmod	_	_
@@ -2333,6 +2483,7 @@
 18	ist	_	VERB	_	_	15	cop	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s151/de
 1	Allerdings	_	ADV	_	_	6	advmod	_	_
 2	sollte	_	AUX	_	_	6	aux	_	_
 3	man	_	PRON	_	_	6	nsubj	_	_
@@ -2351,6 +2502,7 @@
 16	ist	_	AUX	_	_	15	aux	_	_
 17	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s152/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Firma	_	NOUN	_	_	4	nsubj	_	_
 3	IPM	_	PROPN	_	_	2	appos	_	_
@@ -2368,6 +2520,7 @@
 15	Programmierung	_	NOUN	_	_	12	conj	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s153/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	fühlte	_	VERB	_	_	0	root	_	_
 3	mich	_	PRON	_	_	2	dobj	_	_
@@ -2383,6 +2536,7 @@
 13	zufrieden	_	ADJ	_	_	2	conj	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s154/de
 1	War	_	NOUN	_	_	0	root	_	_
 2	mit	_	ADP	_	_	4	case	_	_
 3	meinem	_	PRON	_	_	4	det	_	_
@@ -2394,6 +2548,7 @@
 9	dort	_	ADV	_	_	1	advmod	_	_
 10	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s155/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Arzt	_	NOUN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -2419,6 +2574,7 @@
 23	ein	_	ADV	_	_	10	mark	_	_
 24	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s156/de
 1	Grunduntersuchung	_	NOUN	_	_	5	nsubj	_	_
 2	bei	_	ADP	_	_	4	case	_	_
 3	unserem	_	PRON	_	_	4	det	_	_
@@ -2438,6 +2594,7 @@
 17	sind	_	VERB	_	_	16	cop	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s157/de
 1	Allerdings	_	ADV	_	_	2	advmod	_	_
 2	kam	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -2453,6 +2610,7 @@
 13	ihm	_	PRON	_	_	2	nmod	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s158/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	machte	_	VERB	_	_	0	root	_	_
 3	mir	_	PRON	_	_	2	iobj	_	_
@@ -2464,6 +2622,7 @@
 9	Antibakterielles	_	NOUN	_	_	8	compound	_	_
 10	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s159/de
 1	Dieses	_	PRON	_	_	2	det	_	_
 2	Mittel	_	NOUN	_	_	3	nsubj	_	_
 3	sah	_	VERB	_	_	0	root	_	_
@@ -2476,6 +2635,7 @@
 10	aus	_	ADP	_	_	3	mark	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s160/de
 1	Nach	_	ADP	_	_	3	case	_	_
 2	eines	_	DET	_	_	3	det	_	_
 3	Telefonats	_	NOUN	_	_	16	nmod	_	_
@@ -2500,6 +2660,7 @@
 22	weiter	_	ADV	_	_	16	mark	_	_
 23	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s161/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Behandlung	_	NOUN	_	_	6	nsubj	_	_
 3	des	_	DET	_	_	5	det	_	_
@@ -2522,6 +2683,7 @@
 19	Tag	_	NOUN	_	_	12	nmod	_	_
 20	...	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s162/de
 1	Das	_	DET	_	_	2	det	_	_
 2	AlPonte	_	PROPN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -2535,10 +2697,12 @@
 11	Personal	_	NOUN	_	_	6	nmod	_	_
 12	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s163/de
 1	Super	_	ADJ	_	_	2	amod	_	_
 2	Apotheke	_	NOUN	_	_	0	root	_	_
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s164/de
 1-2	beim	_	_	_	_	_	_	_	_
 1	Bei	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -2554,6 +2718,7 @@
 12	Blickes	_	NOUN	_	_	6	iobj	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s165/de
 1	Auch	_	ADV	_	_	9	advmod	_	_
 2	nach	_	ADP	_	_	5	case	_	_
 3	einer	_	DET	_	_	5	det	_	_
@@ -2573,6 +2738,7 @@
 17	steht	_	VERB	_	_	9	advcl	_	_
 18	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s166/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Blick	_	NOUN	_	_	10	nsubj	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -2585,6 +2751,7 @@
 10	gerichtet	_	ADJ	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s167/de
 1	Grund	_	NOUN	_	_	6	nsubj	_	_
 2	unseres	_	PRON	_	_	3	det	_	_
 3	Besuchs	_	NOUN	_	_	1	det	_	_
@@ -2597,6 +2764,7 @@
 10	mieten	_	VERB	_	_	6	xcomp	_	_
 11	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s168/de
 1	Diese	_	PRON	_	_	11	dobj	_	_
 2	hatten	_	AUX	_	_	11	aux	_	_
 3	wir	_	PRON	_	_	11	nsubj	_	_
@@ -2633,6 +2801,7 @@
 33	vorhanden	_	VERB	_	_	22	conj	_	_
 34	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s169/de
 1-2	beim	_	_	_	_	_	_	_	_
 1	Bei	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -2646,6 +2815,7 @@
 10	da	_	ADV	_	_	4	mark	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s170/de
 1	Aber	_	CONJ	_	_	7	cc	_	_
 2	dafür	_	ADV	_	_	7	advmod	_	_
 3	selbstverständlich	_	ADV	_	_	7	advmod	_	_
@@ -2658,6 +2828,7 @@
 10	Preis	_	NOUN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s171/de
 1	Mit	_	ADP	_	_	4	case	_	_
 2	so	_	ADV	_	_	4	advmod	_	_
 3	einer	_	DET	_	_	4	det	_	_
@@ -2685,12 +2856,14 @@
 24	kann	_	AUX	_	_	23	aux	_	_
 25	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s172/de
 1	Es	_	PRON	_	_	4	nsubj	_	_
 2	ist	_	VERB	_	_	4	cop	_	_
 3	sehr	_	ADV	_	_	4	advmod	_	_
 4	traurig	_	ADJ	_	_	0	root	_	_
 5	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s173/de
 1	Empfehlenswertes	_	ADJ	_	_	4	amod	_	_
 2	Wellness	_	NOUN	_	_	4	compound	_	_
 3	-	_	PUNCT	_	_	4	punct	_	_
@@ -2699,6 +2872,7 @@
 6	Verbesserungsmöglichkeiten	_	NOUN	_	_	4	nmod	_	_
 7	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s174/de
 1	Schöner	_	ADJ	_	_	4	amod	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
 3	grosser	_	ADJ	_	_	1	conj	_	_
@@ -2714,6 +2888,7 @@
 13	Massagen	_	NOUN	_	_	4	conj	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s175/de
 1	Auch	_	ADV	_	_	2	advmod	_	_
 2	gefallen	_	VERB	_	_	0	root	_	_
 3	hat	_	AUX	_	_	2	aux	_	_
@@ -2736,6 +2911,7 @@
 19	gab	_	VERB	_	_	2	csubj	_	_
 20	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s176/de
 1	Zimmer	_	NOUN	_	_	8	nsubjpass	_	_
 2	sind	_	AUX	_	_	8	auxpass	_	_
 3	aber	_	ADV	_	_	4	advmod	_	_
@@ -2746,6 +2922,7 @@
 8	gehalten	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s177/de
 1	Wir	_	PRON	_	_	6	nsubj	_	_
 2	hätten	_	AUX	_	_	6	aux	_	_
 3	gerne	_	ADV	_	_	6	advmod	_	_
@@ -2754,6 +2931,7 @@
 6	gehabt	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s178/de
 1	Und	_	CONJ	_	_	8	cc	_	_
 2	das	_	DET	_	_	7	det	_	_
 3	Preis	_	NOUN	_	_	7	compound	_	_
@@ -2765,6 +2943,7 @@
 9	sicherlich	_	ADV	_	_	8	advmod	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s179/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	werde	_	AUX	_	_	6	aux	_	_
 3	aber	_	ADV	_	_	6	advmod	_	_
@@ -2782,6 +2961,7 @@
 15	kenne	_	VERB	_	_	6	advcl	_	_
 16	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s180/de
 1	Ein	_	DET	_	_	2	det	_	_
 2	Hotel	_	NOUN	_	_	0	root	_	_
 3-4	zum	_	_	_	_	_	_	_	_
@@ -2790,6 +2970,7 @@
 5	Wohlfühlen	_	NOUN	_	_	2	nmod	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s181/de
 1	Du	_	PRON	_	_	2	nsubj	_	_
 2	kommst	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -2800,6 +2981,7 @@
 8	wieder	_	ADV	_	_	2	mark	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s182/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	gehe	_	VERB	_	_	0	root	_	_
 3	gerne	_	ADV	_	_	2	advmod	_	_
@@ -2822,6 +3004,7 @@
 19	gefällt	_	VERB	_	_	2	advcl	_	_
 20	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s183/de
 1	Meine	_	PRON	_	_	2	det	_	_
 2	Kinder	_	NOUN	_	_	9	nsubjpass	_	_
 3	sind	_	AUX	_	_	9	auxpass	_	_
@@ -2847,11 +3030,13 @@
 23	weg	_	ADV	_	_	16	mark	_	_
 24	...	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s184/de
 1	Verdiente	_	VERB	_	_	0	root	_	_
-2	5	_	NUM	_	_	3	nummod	_	_
+2	5	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Sterne	_	NOUN	_	_	1	dobj	_	_
 4	!	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s185/de
 1	Habe	_	AUX	_	_	6	aux	_	_
 2	leider	_	ADV	_	_	6	advmod	_	_
 3	nichts	_	PRON	_	_	6	dobj	_	_
@@ -2874,6 +3059,7 @@
 20	hat	_	AUX	_	_	19	aux	_	_
 21	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s186/de
 1	Haben	_	AUX	_	_	5	aux	_	_
 2	Handwerker	_	NOUN	_	_	5	dobj	_	_
 3	so	_	ADV	_	_	4	advmod	_	_
@@ -2886,9 +3072,10 @@
 10	musste	_	AUX	_	_	9	aux	_	_
 11	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s187/de
 1	Bei	_	ADP	_	_	5	case	_	_
 2	über	_	ADV	_	_	3	advmod	_	_
-3	150	_	NUM	_	_	4	nummod	_	_
+3	150	_	NUM	_	NumType=Card	4	nummod	_	_
 4	T	_	X	_	_	5	nummod	_	_
 5	€	_	X	_	_	12	nmod	_	_
 6	ist	_	VERB	_	_	12	cop	_	_
@@ -2900,12 +3087,14 @@
 12	schwer	_	ADJ	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s188/de
 1	"	_	PUNCT	_	_	4	punct	_	_
 2	Öffentlich	_	ADV	_	_	3	advmod	_	_
 3	rechtlicher	_	ADJ	_	_	4	amod	_	_
 4	Betrieb	_	NOUN	_	_	0	root	_	_
 5	"	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s189/de
 1	Ihr	_	PRON	_	_	2	nsubj	_	_
 2	findet	_	VERB	_	_	0	root	_	_
 3	hier	_	ADV	_	_	2	advmod	_	_
@@ -2919,6 +3108,7 @@
 11	weingarten	_	PROPN	_	_	9	nmod	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s190/de
 1	Ich	_	PRON	_	_	7	nsubj	_	_
 2	wollte	_	AUX	_	_	7	aux	_	_
 3	hier	_	ADV	_	_	7	advmod	_	_
@@ -2928,6 +3118,7 @@
 7	berichten	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s191/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Studio	_	NOUN	_	_	5	nsubj	_	_
 3	ist	_	VERB	_	_	5	cop	_	_
@@ -2960,6 +3151,7 @@
 30	Sauna	_	NOUN	_	_	16	conj	_	_
 31	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s192/de
 1	Gleich	_	ADV	_	_	2	advmod	_	_
 2	wenn	_	SCONJ	_	_	6	mark	_	_
 3	ihr	_	PRON	_	_	6	nsubj	_	_
@@ -2991,6 +3183,7 @@
 29	vor	_	ADP	_	_	7	mark	_	_
 30	!	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s193/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Personal	_	NOUN	_	_	5	nsubj	_	_
 3	ist	_	VERB	_	_	5	cop	_	_
@@ -3004,6 +3197,7 @@
 11	Gesellschaft	_	NOUN	_	_	8	nmod	_	_
 12	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s194/de
 1	Ich	_	PRON	_	_	9	nsubj	_	_
 2	kann	_	AUX	_	_	9	aux	_	_
 3	es	_	PRON	_	_	9	dobj	_	_
@@ -3021,6 +3215,7 @@
 14	mögen	_	VERB	_	_	9	parataxis	_	_
 15	!	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s195/de
 1	Nettes	_	ADJ	_	_	2	amod	_	_
 2	Personal	_	NOUN	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -3036,6 +3231,7 @@
 13	wenig	_	ADV	_	_	14	advmod	_	_
 14	teuer	_	ADJ	_	_	2	conj	_	_
 
+# sent_id dev-s196/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	sind	_	VERB	_	_	4	cop	_	_
 3	super	_	ADV	_	_	4	advmod	_	_
@@ -3047,6 +3243,7 @@
 9	haben	_	VERB	_	_	4	ccomp	_	_
 10	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s197/de
 1	Haben	_	AUX	_	_	5	aux	_	_
 2	leider	_	ADV	_	_	5	advmod	_	_
 3	nicht	_	PART	_	_	5	neg	_	_
@@ -3055,6 +3252,7 @@
 6	können	_	AUX	_	_	5	aux	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s198/de
 1	Es	_	PRON	_	_	7	nsubj	_	_
 2	ist	_	VERB	_	_	7	cop	_	_
 3	aus	_	ADP	_	_	5	case	_	_
@@ -3096,6 +3294,7 @@
 39	zieht	_	VERB	_	_	7	acl	_	_
 40	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s199/de
 1	Hierfür	_	ADV	_	_	2	advmod	_	_
 2	verdient	_	VERB	_	_	0	root	_	_
 3	Torsten	_	PROPN	_	_	4	name	_	_
@@ -3105,6 +3304,7 @@
 7	Respekt	_	NOUN	_	_	2	dobj	_	_
 8	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s200/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	spricht	_	VERB	_	_	0	root	_	_
 3	für	_	ADP	_	_	4	case	_	_
@@ -3132,6 +3332,7 @@
 25	hat	_	AUX	_	_	24	aux	_	_
 26	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s201/de
 1	Für	_	ADP	_	_	2	case	_	_
 2	mich	_	PRON	_	_	3	nmod	_	_
 3	ist	_	VERB	_	_	0	root	_	_
@@ -3151,6 +3352,7 @@
 17	möchte	_	AUX	_	_	16	aux	_	_
 18	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s202/de
 1	Ich	_	PRON	_	_	5	nsubj	_	_
 2	bin	_	VERB	_	_	5	cop	_	_
 3	der	_	DET	_	_	5	det	_	_
@@ -3163,6 +3365,7 @@
 10	angeht	_	VERB	_	_	5	acl	_	_
 11	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s203/de
 1	Leider	_	ADV	_	_	7	advmod	_	_
 2	muss	_	AUX	_	_	7	aux	_	_
 3	es	_	PRON	_	_	7	nsubj	_	_
@@ -3176,18 +3379,20 @@
 11	hingehen	_	VERB	_	_	7	conj	_	_
 12	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s204/de
 1	Also	_	ADV	_	_	10	advmod	_	_
 2	war	_	VERB	_	_	10	cop	_	_
 3	es	_	PRON	_	_	10	nsubj	_	_
 4	bei	_	ADP	_	_	5	case	_	_
 5	mir	_	PRON	_	_	10	nmod	_	_
 6	vor	_	ADP	_	_	8	case	_	_
-7	zwei	_	NUM	_	_	8	nummod	_	_
+7	zwei	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Wochen	_	NOUN	_	_	10	nmod	_	_
 9	so	_	ADV	_	_	10	advmod	_	_
 10	weit	_	ADJ	_	_	0	root	_	_
 11	...	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s205/de
 1	Dr.	_	NOUN	_	_	2	compound	_	_
 2	Sieben	_	PROPN	_	_	8	nsubj	_	_
 3	ist	_	AUX	_	_	8	aux	_	_
@@ -3198,6 +3403,7 @@
 8	umgegangen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s206/de
 1	Er	_	PRON	_	_	7	nsubj	_	_
 2	hat	_	AUX	_	_	7	aux	_	_
 3	sich	_	PRON	_	_	7	dobj	_	_
@@ -3222,12 +3428,14 @@
 21	hat	_	AUX	_	_	20	aux	_	_
 22	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s207/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	bin	_	VERB	_	_	4	cop	_	_
 3	echt	_	ADV	_	_	4	advmod	_	_
 4	begeistert	_	ADJ	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s208/de
 1	Auf	_	ADP	_	_	3	case	_	_
 2	jeden	_	PRON	_	_	3	det	_	_
 3	Fall	_	NOUN	_	_	11	nmod	_	_
@@ -3242,6 +3450,7 @@
 12	!	_	PUNCT	_	_	11	punct	_	_
 13	!	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s209/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	wollte	_	AUX	_	_	6	aux	_	_
 3	mir	_	PRON	_	_	6	iobj	_	_
@@ -3253,7 +3462,7 @@
 9	war	_	VERB	_	_	6	conj	_	_
 10	deshalb	_	ADV	_	_	9	advmod	_	_
 11	bei	_	ADP	_	_	13	case	_	_
-12	zwei	_	NUM	_	_	13	nummod	_	_
+12	zwei	_	NUM	_	NumType=Card	13	nummod	_	_
 13	Zahnärzten	_	NOUN	_	_	9	nmod	_	_
 14	,	_	PUNCT	_	_	6	punct	_	_
 15	die	_	PRON	_	_	20	nsubj	_	_
@@ -3265,6 +3474,7 @@
 21	wollten	_	AUX	_	_	20	aux	_	_
 22	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s210/de
 1	Eine	_	DET	_	_	2	det	_	_
 2	Bekannte	_	NOUN	_	_	3	nsubj	_	_
 3	empfahl	_	VERB	_	_	0	root	_	_
@@ -3286,7 +3496,7 @@
 19	ich	_	PRON	_	_	21	nsubj	_	_
 20	dort	_	ADV	_	_	21	advmod	_	_
 21	bezahlte	_	VERB	_	_	16	acl	_	_
-22	70	_	NUM	_	_	23	nummod	_	_
+22	70	_	NUM	_	NumType=Card	23	nummod	_	_
 23	%	_	X	_	_	25	nmod	_	_
 24	unter	_	ADP	_	_	25	case	_	_
 25	dem	_	PRON	_	_	14	nmod	_	_
@@ -3299,6 +3509,7 @@
 32	!	_	PUNCT	_	_	3	punct	_	_
 33	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s211/de
 1	Und	_	CONJ	_	_	4	cc	_	_
 2	die	_	DET	_	_	3	det	_	_
 3	Krone	_	NOUN	_	_	4	nsubj	_	_
@@ -3310,6 +3521,7 @@
 9	!	_	PUNCT	_	_	4	punct	_	_
 10	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s212/de
 1	Bin	_	VERB	_	_	0	root	_	_
 2	jetzt	_	ADV	_	_	3	advmod	_	_
 3	schon	_	ADV	_	_	1	advmod	_	_
@@ -3330,6 +3542,7 @@
 18	gewesen	_	AUX	_	_	17	aux	_	_
 19	!	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s213/de
 1	Herr	_	NOUN	_	_	3	compound	_	_
 2	Dr.	_	NOUN	_	_	3	compound	_	_
 3	Sieben	_	PROPN	_	_	11	nsubj	_	_
@@ -3343,6 +3556,7 @@
 11	Zahnarzt	_	NOUN	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s214/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Praxis	_	NOUN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -3363,6 +3577,7 @@
 18	!	_	PUNCT	_	_	6	punct	_	_
 19	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s215/de
 1	Kann	_	AUX	_	_	5	aux	_	_
 2	ich	_	PRON	_	_	5	nsubj	_	_
 3	echt	_	ADV	_	_	5	advmod	_	_
@@ -3370,6 +3585,7 @@
 5	weiterempfehlen	_	VERB	_	_	0	root	_	_
 6	;-)	_	PUNCT	_	_	5	dep	_	_
 
+# sent_id dev-s216/de
 1	So	_	ADV	_	_	2	advmod	_	_
 2	eben	_	ADV	_	_	3	advmod	_	_
 3	war	_	VERB	_	_	0	root	_	_
@@ -3386,6 +3602,7 @@
 14	Luger	_	PROPN	_	_	10	nmod	_	_
 15	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s217/de
 1	Unangemeldet	_	ADV	_	_	5	advmod	_	_
 2	wurde	_	AUX	_	_	5	auxpass	_	_
 3	ich	_	PRON	_	_	5	nsubjpass	_	_
@@ -3394,7 +3611,7 @@
 6	und	_	CONJ	_	_	5	cc	_	_
 7	habe	_	AUX	_	_	11	aux	_	_
 8	ca	_	ADV	_	_	9	advmod	_	_
-9	45	_	NUM	_	_	10	nummod	_	_
+9	45	_	NUM	_	NumType=Card	10	nummod	_	_
 10	Minuten	_	NOUN	_	_	11	dobj	_	_
 11	gewartet	_	VERB	_	_	5	conj	_	_
 12	(	_	PUNCT	_	_	13	punct	_	_
@@ -3404,6 +3621,7 @@
 16	)	_	PUNCT	_	_	13	punct	_	_
 17	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s218/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Sprechstundenhilfen	_	NOUN	_	_	8	nsubj	_	_
 3-4	am	_	_	_	_	_	_	_	_
@@ -3420,6 +3638,7 @@
 13	Doktor	_	NOUN	_	_	8	appos	_	_
 14	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s219/de
 1	Wird	_	AUX	_	_	8	aux	_	_
 2	auf	_	ADP	_	_	4	case	_	_
 3	jeden	_	PRON	_	_	4	det	_	_
@@ -3430,11 +3649,13 @@
 8	werden	_	VERB	_	_	7	cop	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s220/de
 1	Nur	_	ADV	_	_	3	advmod	_	_
 2	zu	_	PART	_	_	3	aux	_	_
 3	empfehlen	_	VERB	_	_	0	root	_	_
 4	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s221/de
 1	Nette	_	ADJ	_	_	4	amod	_	_
 2	und	_	CONJ	_	_	4	cc	_	_
 3	kompetente	_	ADJ	_	_	4	amod	_	_
@@ -3446,12 +3667,14 @@
 8	Entscheidungsfindung	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s222/de
 1	Einwandfreier	_	ADJ	_	_	2	amod	_	_
 2	Einbau	_	NOUN	_	_	0	root	_	_
 3	ohne	_	ADP	_	_	4	case	_	_
 4	Kritikpunkte	_	NOUN	_	_	2	nmod	_	_
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s223/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	sind	_	VERB	_	_	4	cop	_	_
 3	unmittelbare	_	ADJ	_	_	4	amod	_	_
@@ -3472,9 +3695,10 @@
 17	wird	_	AUX	_	_	16	aux	_	_
 18	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s224/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	haben	_	VERB	_	_	0	root	_	_
-3	zwei	_	NUM	_	_	5	nummod	_	_
+3	zwei	_	NUM	_	NumType=Card	5	nummod	_	_
 4	kleine	_	ADJ	_	_	5	amod	_	_
 5	Kinder	_	NOUN	_	_	2	dobj	_	_
 6	,	_	PUNCT	_	_	2	punct	_	_
@@ -3488,6 +3712,7 @@
 14	werden	_	AUX	_	_	13	auxpass	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s225/de
 1	Leider	_	ADV	_	_	2	advmod	_	_
 2	weigert	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -3508,6 +3733,7 @@
 18	können	_	AUX	_	_	17	aux	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s226/de
 1	Vielmehr	_	ADV	_	_	2	advmod	_	_
 2	fordern	_	VERB	_	_	5	parataxis	_	_
 3	wir	_	PRON	_	_	2	nsubj	_	_
@@ -3526,6 +3752,7 @@
 16	können	_	AUX	_	_	15	aux	_	_
 17	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s227/de
 1	Denn	_	ADV	_	_	3	advmod	_	_
 2	es	_	PRON	_	_	3	nsubj	_	_
 3	gibt	_	VERB	_	_	0	root	_	_
@@ -3544,6 +3771,7 @@
 16	sind	_	VERB	_	_	15	cop	_	_
 17	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s228/de
 1	STELLT	_	NOUN	_	_	0	root	_	_
 2	DIE	_	DET	_	_	3	det	_	_
 3	VERANSTALTER	_	NOUN	_	_	1	dobj	_	_
@@ -3552,6 +3780,7 @@
 5	der	_	DET	_	_	6	det	_	_
 6	REDE	_	NOUN	_	_	1	nmod	_	_
 
+# sent_id dev-s229/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Pizzeria	_	NOUN	_	_	8	nsubj	_	_
 3	Waldhorn	_	PROPN	_	_	2	appos	_	_
@@ -3567,6 +3796,7 @@
 13	empfehlen	_	VERB	_	_	8	appos	_	_
 14	!	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s230/de
 1	Habe	_	AUX	_	_	4	aux	_	_
 2	schon	_	ADV	_	_	4	advmod	_	_
 3	dreimal	_	ADV	_	_	4	advmod	_	_
@@ -3581,6 +3811,7 @@
 12	ungenießbar	_	ADJ	_	_	4	parataxis	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s231/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Höhepunkt	_	NOUN	_	_	3	nsubj	_	_
 3	war	_	VERB	_	_	0	root	_	_
@@ -3605,6 +3836,7 @@
 22	sieht	_	VERB	_	_	15	advcl	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s232/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Frühlingsrolle	_	NOUN	_	_	6	nsubjpass	_	_
 3	war	_	AUX	_	_	6	auxpass	_	_
@@ -3625,6 +3857,7 @@
 18	getränkt	_	VERB	_	_	6	conj	_	_
 19	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s233/de
 1	Sehr	_	ADV	_	_	2	advmod	_	_
 2	gutes	_	ADJ	_	_	3	amod	_	_
 3	Restaurant	_	NOUN	_	_	0	root	_	_
@@ -3632,12 +3865,14 @@
 5	Hotel	_	NOUN	_	_	3	conj	_	_
 6	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s234/de
 1	Kann	_	AUX	_	_	4	aux	_	_
 2	ich	_	PRON	_	_	4	nsubj	_	_
 3	nur	_	ADV	_	_	4	advmod	_	_
 4	empfehlen	_	VERB	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s235/de
 1	Herr	_	NOUN	_	_	2	compound	_	_
 2	Opitz	_	PROPN	_	_	5	nsubj	_	_
 3	ist	_	VERB	_	_	5	cop	_	_
@@ -3655,6 +3890,7 @@
 15	kompetent	_	ADJ	_	_	13	xcomp	_	_
 16	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s236/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Praxis	_	NOUN	_	_	5	nsubj	_	_
 3	/	_	X	_	_	2	cc	_	_
@@ -3665,6 +3901,7 @@
 8	veraltet	_	ADJ	_	_	5	xcomp	_	_
 9	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s237/de
 1	Kein	_	PRON	_	_	2	neg	_	_
 2	Vergleich	_	NOUN	_	_	0	root	_	_
 3	mit	_	ADP	_	_	5	case	_	_
@@ -3680,6 +3917,7 @@
 13	Umzug	_	NOUN	_	_	10	nmod	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s238/de
 1	Herr	_	NOUN	_	_	2	compound	_	_
 2	Prommersberger	_	PROPN	_	_	3	nsubj	_	_
 3	fühlt	_	VERB	_	_	0	root	_	_
@@ -3700,10 +3938,12 @@
 18	helfen	_	VERB	_	_	3	conj	_	_
 19	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s239/de
 1	Alles	_	PRON	_	_	2	cop	_	_
 2	perfect	_	ADJ	_	_	0	root	_	_
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s240/de
 1	Super	_	ADJ	_	_	2	amod	_	_
 2	Bedienung	_	NOUN	_	_	12	appos	_	_
 3	und	_	CONJ	_	_	12	cc	_	_
@@ -3718,6 +3958,7 @@
 12	sahne	_	NOUN	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s241/de
 1	In	_	ADP	_	_	4	case	_	_
 2	der	_	DET	_	_	4	det	_	_
 3	PIZZERIA	_	PROPN	_	_	4	name	_	_
@@ -3729,6 +3970,7 @@
 9	geschrieben	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s242/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Pizza	_	NOUN	_	_	13	nsubj	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -3745,6 +3987,7 @@
 14	!	_	PUNCT	_	_	13	punct	_	_
 15	!	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s243/de
 1	Auch	_	ADV	_	_	11	advmod	_	_
 2	TV	_	PROPN	_	_	3	name	_	_
 3	München	_	PROPN	_	_	11	nsubj	_	_
@@ -3758,6 +4001,7 @@
 11	hinterlassen	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s244/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Fernseher	_	NOUN	_	_	3	nsubj	_	_
 3	läuft	_	VERB	_	_	0	root	_	_
@@ -3782,6 +4026,7 @@
 21	schauen	_	NOUN	_	_	3	nmod	_	_
 22	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s245/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	den	_	DET	_	_	3	det	_	_
 3	Wirt	_	NOUN	_	_	4	nmod	_	_
@@ -3798,6 +4043,7 @@
 14	interessiert	_	VERB	_	_	4	advcl	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s246/de
 1	Er	_	PRON	_	_	11	nsubj	_	_
 2	kann	_	AUX	_	_	11	aux	_	_
 3	nicht	_	PART	_	_	11	neg	_	_
@@ -3811,10 +4057,12 @@
 11	betrachten	_	VERB	_	_	0	root	_	_
 12	!	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s247/de
 1	Typisch	_	ADV	_	_	2	advmod	_	_
 2	Italienisch	_	ADJ	_	_	0	root	_	_
 3	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s248/de
 1	Also	_	ADV	_	_	5	advmod	_	_
 2	liebes	_	ADJ	_	_	4	amod	_	_
 3	MONACO	_	PROPN	_	_	4	name	_	_
@@ -3827,6 +4075,7 @@
 10	!	_	PUNCT	_	_	5	punct	_	_
 11	!	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s249/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	/	_	X	_	_	1	cc	_	_
 3	Wir	_	PRON	_	_	1	conj	_	_
@@ -3841,6 +4090,7 @@
 12	!	_	PUNCT	_	_	4	punct	_	_
 13	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s250/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Fahrschule	_	NOUN	_	_	8	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -3851,6 +4101,7 @@
 8	spitze	_	ADJ	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s251/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Holzfachmarkt	_	NOUN	_	_	14	nsubjpass	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -3868,6 +4119,7 @@
 14	empfohlen	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s252/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	handelt	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -3883,6 +4135,7 @@
 13	Salzburg	_	PROPN	_	_	11	conj	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s253/de
 1	Von	_	ADP	_	_	4	case	_	_
 2	der	_	DET	_	_	4	det	_	_
 3	großen	_	ADJ	_	_	4	amod	_	_
@@ -3918,6 +4171,7 @@
 33	ist	_	VERB	_	_	32	cop	_	_
 34	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s254/de
 1	Wir	_	PRON	_	_	16	nsubj	_	_
 2	haben	_	AUX	_	_	16	aux	_	_
 3	uns	_	PRON	_	_	16	dobj	_	_
@@ -3940,7 +4194,7 @@
 19	wir	_	PRON	_	_	27	nsubj	_	_
 20	zu	_	ADP	_	_	21	case	_	_
 21	Hause	_	NOUN	_	_	27	nmod	_	_
-22	3	_	NUM	_	_	23	nummod	_	_
+22	3	_	NUM	_	NumType=Card	23	nummod	_	_
 23	Zimmer	_	NOUN	_	_	27	dobj	_	_
 24	mit	_	ADP	_	_	26	case	_	_
 25	neuen	_	ADJ	_	_	26	amod	_	_
@@ -3949,6 +4203,7 @@
 28	konnten	_	AUX	_	_	27	aux	_	_
 29	...	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s255/de
 1	Bei	_	ADP	_	_	3	case	_	_
 2	den	_	DET	_	_	3	det	_	_
 3	Preisen	_	NOUN	_	_	8	nmod	_	_
@@ -3963,6 +4218,7 @@
 12	anders	_	ADV	_	_	8	advmod	_	_
 13	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s256/de
 1	Alles	_	PRON	_	_	6	nmod	_	_
 2	in	_	ADP	_	_	3	case	_	_
 3	allem	_	PRON	_	_	1	nmod	_	_
@@ -3973,6 +4229,7 @@
 8	!	_	PUNCT	_	_	6	punct	_	_
 9	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s257/de
 1	Wenn	_	SCONJ	_	_	6	mark	_	_
 2	es	_	PRON	_	_	6	expl	_	_
 3	schon	_	ADV	_	_	6	advmod	_	_
@@ -3986,6 +4243,7 @@
 11	Block	_	PROPN	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s258/de
 1	Frische	_	ADJ	_	_	3	amod	_	_
 2	leckere	_	ADJ	_	_	1	conj	_	_
 3	Zutaten	_	NOUN	_	_	0	root	_	_
@@ -4002,6 +4260,7 @@
 14	Haus	_	PROPN	_	_	11	appos	_	_
 15	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s259/de
 1	Kein	_	PRON	_	_	2	neg	_	_
 2	vergelich	_	NOUN	_	_	0	root	_	_
 3	zu	_	ADP	_	_	4	case	_	_
@@ -4015,6 +4274,7 @@
 11	anbieten	_	VERB	_	_	4	acl	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s260/de
 1	Hier	_	ADV	_	_	2	advmod	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	es	_	PRON	_	_	2	nsubj	_	_
@@ -4026,10 +4286,11 @@
 9	original	_	NOUN	_	_	2	appos	_	_
 10	seit	_	ADP	_	_	13	case	_	_
 11	über	_	ADV	_	_	12	advmod	_	_
-12	20	_	NUM	_	_	13	nummod	_	_
+12	20	_	NUM	_	NumType=Card	13	nummod	_	_
 13	Jahren	_	NOUN	_	_	9	nmod	_	_
 14	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s261/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Laden	_	NOUN	_	_	4	nsubj	_	_
 3	Kirchenallee	_	PROPN	_	_	2	appos	_	_
@@ -4042,6 +4303,7 @@
 10	Kapazitätsgrenze	_	NOUN	_	_	4	nmod	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s262/de
 1	Bei	_	ADP	_	_	3	case	_	_
 2	Jim	_	PROPN	_	_	3	name	_	_
 3	Block	_	PROPN	_	_	4	nmod	_	_
@@ -4056,6 +4318,7 @@
 12	Preisen	_	NOUN	_	_	4	nmod	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s263/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Fleisch	_	NOUN	_	_	8	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -4071,6 +4334,7 @@
 13	super	_	ADJ	_	_	12	xcomp	_	_
 14	!	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s264/de
 1	Man	_	PRON	_	_	2	nsubj	_	_
 2	bekommt	_	VERB	_	_	0	root	_	_
 3	dort	_	ADV	_	_	2	advmod	_	_
@@ -4093,6 +4357,7 @@
 20	Knoblauchbrot	_	NOUN	_	_	16	conj	_	_
 21	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s265/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bedingungen	_	NOUN	_	_	5	nsubj	_	_
 3	sind	_	VERB	_	_	5	cop	_	_
@@ -4107,6 +4372,7 @@
 12	gepflegt	_	ADJ	_	_	10	xcomp	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s266/de
 1	Für	_	ADP	_	_	2	case	_	_
 2	mich	_	PRON	_	_	3	nmod	_	_
 3	einer	_	PRON	_	_	0	root	_	_
@@ -4118,6 +4384,7 @@
 9	Hamburg	_	PROPN	_	_	7	nmod	_	_
 10	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s267/de
 1	Hatte	_	VERB	_	_	0	root	_	_
 2	ein	_	DET	_	_	3	det	_	_
 3	Zimmer	_	NOUN	_	_	1	dobj	_	_
@@ -4131,6 +4398,7 @@
 10	ruhig	_	ADJ	_	_	1	parataxis	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s268/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Lage	_	NOUN	_	_	18	nsubj	_	_
 3	mitten	_	ADV	_	_	6	advmod	_	_
@@ -4153,6 +4421,7 @@
 18	sensationel	_	ADJ	_	_	0	root	_	_
 19	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s269/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Zimmer	_	NOUN	_	_	4	nsubj	_	_
 3	war	_	VERB	_	_	4	cop	_	_
@@ -4173,7 +4442,7 @@
 18	man	_	PRON	_	_	27	nsubj	_	_
 19	sonst	_	ADV	_	_	27	advmod	_	_
 20	von	_	ADP	_	_	25	case	_	_
-21	3	_	NUM	_	_	23	nummod	_	_
+21	3	_	NUM	_	NumType=Card	23	nummod	_	_
 22	-	_	PUNCT	_	_	23	punct	_	_
 23	Sterne	_	NOUN	_	_	25	compound	_	_
 24	-	_	PUNCT	_	_	25	punct	_	_
@@ -4182,6 +4451,7 @@
 27	kennt	_	VERB	_	_	15	acl	_	_
 28	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s270/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Frühstück	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	VERB	_	_	5	cop	_	_
@@ -4193,6 +4463,7 @@
 9	lecker	_	ADJ	_	_	5	conj	_	_
 10	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s271/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	einen	_	DET	_	_	3	det	_	_
 3	Städtetripp	_	NOUN	_	_	6	nmod	_	_
@@ -4201,6 +4472,7 @@
 6	empfehlen	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s272/de
 1	Schönes	_	ADJ	_	_	2	amod	_	_
 2	Hotel	_	NOUN	_	_	0	root	_	_
 3	das	_	PRON	_	_	5	nsubjpass	_	_
@@ -4209,6 +4481,7 @@
 6	wird	_	AUX	_	_	5	auxpass	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s273/de
 1	Nebst	_	ADP	_	_	4	case	_	_
 2	den	_	DET	_	_	4	det	_	_
 3	neuen	_	ADJ	_	_	4	amod	_	_
@@ -4221,6 +4494,7 @@
 10	renoviert	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s274/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Frühstück	_	NOUN	_	_	10	nsubj	_	_
 3	hat	_	AUX	_	_	10	aux	_	_
@@ -4253,12 +4527,14 @@
 30	gästeorientiert	_	ADJ	_	_	26	conj	_	_
 31	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s275/de
 1	Herzlichen	_	ADJ	_	_	2	amod	_	_
 2	Dank	_	NOUN	_	_	0	root	_	_
 3	an	_	ADP	_	_	5	case	_	_
 4	alle	_	PRON	_	_	5	det	_	_
 5	Mitarbeiter	_	NOUN	_	_	2	nmod	_	_
 
+# sent_id dev-s276/de
 1	Über	_	ADP	_	_	5	case	_	_
 2	den	_	DET	_	_	5	det	_	_
 3	Google	_	PROPN	_	_	5	name	_	_
@@ -4276,19 +4552,21 @@
 15	geworden	_	VERB	_	_	14	cop	_	_
 16	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s277/de
 1	Ich	_	PRON	_	_	9	nsubj	_	_
 2	bin	_	VERB	_	_	9	cop	_	_
 3	jetzt	_	ADV	_	_	9	advmod	_	_
 4	schon	_	ADV	_	_	8	advmod	_	_
 5	ca	_	ADV	_	_	7	advmod	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
-7	4	_	NUM	_	_	8	nummod	_	_
+7	4	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Jahre	_	NOUN	_	_	9	nmod	_	_
 9	Kunde	_	NOUN	_	_	0	root	_	_
 10	bei	_	ADP	_	_	11	case	_	_
 11	Herbalife	_	PROPN	_	_	9	nmod	_	_
 12	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s278/de
 1	Mit	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Beratung	_	NOUN	_	_	13	nmod	_	_
@@ -4304,6 +4582,7 @@
 13	zufrieden	_	ADJ	_	_	0	root	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s279/de
 1	Durch	_	ADP	_	_	3	case	_	_
 2	seine	_	PRON	_	_	3	det	_	_
 3	Hilfe	_	NOUN	_	_	10	nmod	_	_
@@ -4332,6 +4611,7 @@
 25	Effekt	_	NOUN	_	_	20	nmod	_	_
 26	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s280/de
 1	Heute	_	ADV	_	_	14	advmod	_	_
 2	konnten	_	AUX	_	_	14	aux	_	_
 3	wir	_	PRON	_	_	14	nsubj	_	_
@@ -4350,6 +4630,7 @@
 14	essen	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s281/de
 1	Wir	_	PRON	_	_	5	nsubj	_	_
 2	können	_	AUX	_	_	5	aux	_	_
 3	das	_	PRON	_	_	5	dobj	_	_
@@ -4364,20 +4645,24 @@
 12	mitbringen	_	VERB	_	_	5	conj	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s282/de
 1	Nettes	_	ADJ	_	_	3	amod	_	_
 2	humorvolles	_	ADJ	_	_	1	conj	_	_
 3	Personal	_	NOUN	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s283/de
 1	Essen	_	NOUN	_	_	3	nsubj	_	_
 2	ist	_	VERB	_	_	3	cop	_	_
 3	ok	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s284/de
 1	Guter	_	ADJ	_	_	2	amod	_	_
 2	Durchschnitt	_	NOUN	_	_	0	root	_	_
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s285/de
 1	Portionen	_	NOUN	_	_	3	cop	_	_
 2	sehr	_	ADV	_	_	3	advmod	_	_
 3	reichhaltig	_	ADJ	_	_	0	root	_	_
@@ -4386,11 +4671,13 @@
 6	Platte	_	PROPN	_	_	3	appos	_	_
 7	)	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s286/de
 1	War	_	VERB	_	_	3	cop	_	_
 2	ganz	_	ADV	_	_	3	advmod	_	_
 3	nett	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s287/de
 1	Brauch	_	VERB	_	_	0	root	_	_
 2	ich	_	PRON	_	_	1	nsubj	_	_
 3	aber	_	ADV	_	_	1	advmod	_	_
@@ -4398,12 +4685,14 @@
 5	wieder	_	ADV	_	_	1	advmod	_	_
 6	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s288/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	fand	_	VERB	_	_	0	root	_	_
 3	's	_	PRON	_	_	2	dobj	_	_
 4	gut	_	ADJ	_	_	2	xcomp	_	_
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s289/de
 1	So	_	ADV	_	_	2	advmod	_	_
 2	macht	_	VERB	_	_	0	root	_	_
 3	energetische	_	ADJ	_	_	4	amod	_	_
@@ -4411,6 +4700,7 @@
 5	Spass	_	NOUN	_	_	2	dobj	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s290/de
 1	Schönen	_	ADJ	_	_	2	amod	_	_
 2	Gruß	_	NOUN	_	_	0	root	_	_
 3	Büro	_	NOUN	_	_	2	appos	_	_
@@ -4419,6 +4709,7 @@
 6	,	_	PUNCT	_	_	2	punct	_	_
 7	Thesing	_	PROPN	_	_	2	appos	_	_
 
+# sent_id dev-s291/de
 1	Bin	_	VERB	_	_	3	cop	_	_
 2	langjähriger	_	ADJ	_	_	3	amod	_	_
 3	Kunde	_	NOUN	_	_	0	root	_	_
@@ -4432,6 +4723,7 @@
 11	weiterempfehlen	_	VERB	_	_	3	conj	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s292/de
 1	Aufträge	_	NOUN	_	_	9	nsubjpass	_	_
 2	werden	_	AUX	_	_	9	auxpass	_	_
 3	immer	_	ADV	_	_	4	advmod	_	_
@@ -4443,6 +4735,7 @@
 9	erledigt	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s293/de
 1	Kann	_	AUX	_	_	7	aux	_	_
 2	man	_	PRON	_	_	7	nsubj	_	_
 3	auch	_	ADV	_	_	7	advmod	_	_
@@ -4458,6 +4751,7 @@
 13	abholen	_	VERB	_	_	7	conj	_	_
 14	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s294/de
 1	Bin	_	VERB	_	_	0	root	_	_
 2	immer	_	ADV	_	_	1	advmod	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -4482,6 +4776,7 @@
 22	tun	_	VERB	_	_	19	acl	_	_
 23	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s295/de
 1	Kann	_	AUX	_	_	8	aux	_	_
 2	mich	_	PRON	_	_	8	dobj	_	_
 3	der	_	DET	_	_	5	det	_	_
@@ -4492,6 +4787,7 @@
 8	anschließen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s296/de
 1	Kenne	_	VERB	_	_	0	root	_	_
 2	den	_	DET	_	_	3	det	_	_
 3	Shop	_	NOUN	_	_	1	dobj	_	_
@@ -4507,10 +4803,12 @@
 13	gemacht	_	VERB	_	_	1	conj	_	_
 14	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s297/de
 1	Geht	_	VERB	_	_	0	root	_	_
 2	schnell	_	ADV	_	_	1	advmod	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s298/de
 1	Man	_	PRON	_	_	3	nsubjpass	_	_
 2	wird	_	AUX	_	_	3	auxpass	_	_
 3	beraten	_	VERB	_	_	0	root	_	_
@@ -4527,6 +4825,7 @@
 14	kosten	_	VERB	_	_	10	acl	_	_
 15	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s299/de
 1	Also	_	ADV	_	_	3	advmod	_	_
 2	sehr	_	ADV	_	_	3	advmod	_	_
 3	empfehlenswert	_	ADJ	_	_	0	root	_	_
@@ -4534,6 +4833,7 @@
 5	zuverlässig	_	ADJ	_	_	3	conj	_	_
 6	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s300/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Betreiber	_	NOUN	_	_	5	nsubj	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -4554,6 +4854,7 @@
 18	Sticks	_	NOUN	_	_	11	dobj	_	_
 19	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s301/de
 1	Dann	_	ADV	_	_	2	advmod	_	_
 2	hörten	_	VERB	_	_	0	root	_	_
 3	wir	_	PRON	_	_	2	nsubj	_	_
@@ -4567,6 +4868,7 @@
 10	Löschenrod	_	PROPN	_	_	8	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s302/de
 1	Da	_	SCONJ	_	_	7	mark	_	_
 2	wir	_	PRON	_	_	7	nsubj	_	_
 3	nichts	_	PRON	_	_	7	dobj	_	_
@@ -4581,6 +4883,7 @@
 12	dort	_	ADV	_	_	9	advmod	_	_
 13	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s303/de
 1	Bereits	_	ADV	_	_	5	advmod	_	_
 2	nach	_	ADP	_	_	5	case	_	_
 3	der	_	DET	_	_	5	det	_	_
@@ -4590,7 +4893,7 @@
 7	die	_	PRON	_	_	8	nsubj	_	_
 8	dauerte	_	VERB	_	_	5	acl	_	_
 9	etwa	_	ADV	_	_	10	advmod	_	_
-10	zwei	_	NUM	_	_	11	nummod	_	_
+10	zwei	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Stunden	_	NOUN	_	_	8	dobj	_	_
 12	,	_	PUNCT	_	_	20	punct	_	_
 13	konnten	_	AUX	_	_	20	aux	_	_
@@ -4603,6 +4906,7 @@
 20	laufen	_	VERB	_	_	0	root	_	_
 21	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s304/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	ging	_	VERB	_	_	0	root	_	_
 3	zwar	_	ADV	_	_	2	advmod	_	_
@@ -4618,7 +4922,8 @@
 13	durch	_	ADP	_	_	12	mark	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
-1	Vier	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s305/de
+1	Vier	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Wochen	_	NOUN	_	_	3	nmod	_	_
 3	später	_	ADV	_	_	4	advmod	_	_
 4	ging	_	VERB	_	_	0	root	_	_
@@ -4643,6 +4948,7 @@
 23	Problem	_	NOUN	_	_	4	parataxis	_	_
 24	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s306/de
 1	Sie	_	PRON	_	_	4	nsubj	_	_
 2	werden	_	AUX	_	_	4	aux	_	_
 3	sich	_	PRON	_	_	4	dobj	_	_
@@ -4650,10 +4956,10 @@
 5	warum	_	ADV	_	_	13	mark	_	_
 6	hat	_	AUX	_	_	13	aux	_	_
 7	es	_	PRON	_	_	13	nsubj	_	_
-8	sechs	_	NUM	_	_	9	nummod	_	_
+8	sechs	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Jahre	_	NOUN	_	_	13	dobj	_	_
 10	und	_	CONJ	_	_	9	cc	_	_
-11	drei	_	NUM	_	_	12	nummod	_	_
+11	drei	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Hundeschulen	_	NOUN	_	_	9	conj	_	_
 13	gedauert	_	VERB	_	_	4	ccomp	_	_
 14	bis	_	SCONJ	_	_	17	mark	_	_
@@ -4668,6 +4974,7 @@
 23	wollten	_	VERB	_	_	17	ccomp	_	_
 24	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s307/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -4682,10 +4989,11 @@
 11	Gruppe	_	NOUN	_	_	12	nsubj	_	_
 12	umfasste	_	VERB	_	_	4	parataxis	_	_
 13	maximal	_	ADV	_	_	14	advmod	_	_
-14	vier	_	NUM	_	_	15	nummod	_	_
+14	vier	_	NUM	_	NumType=Card	15	nummod	_	_
 15	Hunde	_	NOUN	_	_	12	dobj	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s308/de
 1	Und	_	CONJ	_	_	3	cc	_	_
 2	ganz	_	ADV	_	_	3	advmod	_	_
 3	wichtig	_	ADV	_	_	6	appos	_	_
@@ -4705,6 +5013,7 @@
 17	Körper	_	NOUN	_	_	12	conj	_	_
 18	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s309/de
 1	Das	_	PRON	_	_	5	nsubj	_	_
 2	ist	_	VERB	_	_	5	cop	_	_
 3	was	_	PRON	_	_	5	dobj	_	_
@@ -4712,13 +5021,14 @@
 5	verstehen	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s310/de
 1	Hätte	_	AUX	_	_	9	aux	_	_
 2	es	_	PRON	_	_	9	nsubj	_	_
 3	das	_	DET	_	_	4	det	_	_
 4	Hundezentrum	_	NOUN	_	_	9	dobj	_	_
 5	bereits	_	ADV	_	_	8	advmod	_	_
 6	vor	_	ADP	_	_	8	case	_	_
-7	sechs	_	NUM	_	_	8	nummod	_	_
+7	sechs	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Jahren	_	NOUN	_	_	9	nmod	_	_
 9	gegeben	_	VERB	_	_	22	advcl	_	_
 10	,	_	PUNCT	_	_	22	punct	_	_
@@ -4736,6 +5046,7 @@
 22	gespart	_	VERB	_	_	0	root	_	_
 23	.	_	PUNCT	_	_	22	punct	_	_
 
+# sent_id dev-s311/de
 1	Also	_	ADV	_	_	2	advmod	_	_
 2	an	_	ADP	_	_	11	parataxis	_	_
 3	alle	_	PRON	_	_	4	det	_	_
@@ -4749,6 +5060,7 @@
 11	kommen	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s312/de
 1	Ab	_	ADP	_	_	2	case	_	_
 2	jetzt	_	ADV	_	_	3	advmod	_	_
 3	verstehe	_	VERB	_	_	0	root	_	_
@@ -4759,6 +5071,7 @@
 8	Hundes	_	NOUN	_	_	6	det	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s313/de
 1	Und	_	CONJ	_	_	7	cc	_	_
 2	wenn	_	SCONJ	_	_	7	mark	_	_
 3	er	_	PRON	_	_	7	nsubj	_	_
@@ -4772,6 +5085,7 @@
 11	:-)	_	X	_	_	8	dep	_	_
 12	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s314/de
 1	Heute	_	ADV	_	_	10	advmod	_	_
 2	kann	_	AUX	_	_	10	aux	_	_
 3	ich	_	PRON	_	_	10	nsubj	_	_
@@ -4784,6 +5098,7 @@
 10	schmunzeln	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s315/de
 1	Dieses	_	PRON	_	_	2	det	_	_
 2	Zentrum	_	NOUN	_	_	3	nsubj	_	_
 3	hält	_	VERB	_	_	0	root	_	_
@@ -4792,6 +5107,7 @@
 6	verspricht	_	VERB	_	_	3	ccomp	_	_
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s316/de
 1	Endlich	_	ADV	_	_	3	advmod	_	_
 2	eine	_	DET	_	_	3	det	_	_
 3	Anlaufstelle	_	NOUN	_	_	0	root	_	_
@@ -4806,6 +5122,7 @@
 12	nimmt	_	VERB	_	_	3	acl	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s317/de
 1	Hier	_	ADV	_	_	2	advmod	_	_
 2	macht	_	VERB	_	_	0	root	_	_
 3	LKW	_	NOUN	_	_	4	compound	_	_
@@ -4817,10 +5134,11 @@
 9	informativ	_	ADJ	_	_	2	conj	_	_
 10	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s318/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	trage	_	VERB	_	_	0	root	_	_
 3	seit	_	ADP	_	_	5	case	_	_
-4	5	_	NUM	_	_	5	nummod	_	_
+4	5	_	NUM	_	NumType=Card	5	nummod	_	_
 5	Jahren	_	NOUN	_	_	2	nmod	_	_
 6	ein	_	DET	_	_	8	det	_	_
 7	Weaving	_	PROPN	_	_	8	name	_	_
@@ -4834,10 +5152,11 @@
 15	wohl	_	ADJ	_	_	10	xcomp	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s319/de
 1	Habe	_	AUX	_	_	15	aux	_	_
 2	in	_	ADP	_	_	5	case	_	_
 3	den	_	DET	_	_	5	det	_	_
-4	5	_	NUM	_	_	5	nummod	_	_
+4	5	_	NUM	_	NumType=Card	5	nummod	_	_
 5	Jahren	_	NOUN	_	_	15	nmod	_	_
 6	einige	_	DET	_	_	7	det	_	_
 7	Studios	_	NOUN	_	_	15	dobj	_	_
@@ -4851,6 +5170,7 @@
 15	gelernt	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s320/de
 1	Aber	_	CONJ	_	_	18	cc	_	_
 2	noch	_	ADV	_	_	3	advmod	_	_
 3	nie	_	ADV	_	_	18	neg	_	_
@@ -4872,6 +5192,7 @@
 19	worden	_	AUX	_	_	18	auxpass	_	_
 20	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s321/de
 1	ALLE	_	NOUN	_	_	2	nsubj	_	_
 2	waren	_	VERB	_	_	0	root	_	_
 3	nur	_	ADV	_	_	2	advmod	_	_
@@ -4885,6 +5206,7 @@
 11	verkaufen	_	VERB	_	_	2	xcomp	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s322/de
 1	Denn	_	CONJ	_	_	9	advmod	_	_
 2	bevor	_	SCONJ	_	_	9	mark	_	_
 3	ich	_	PRON	_	_	9	nsubj	_	_
@@ -4906,6 +5228,7 @@
 19	gewinnen	_	VERB	_	_	0	root	_	_
 20	.	_	PUNCT	_	_	19	punct	_	_
 
+# sent_id dev-s323/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Haarteil	_	NOUN	_	_	8	nsubj	_	_
 3	ist	_	VERB	_	_	8	cop	_	_
@@ -4916,6 +5239,7 @@
 8	Prothese	_	NOUN	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s324/de
 1	Und	_	CONJ	_	_	8	cc	_	_
 2	dies	_	PRON	_	_	8	nsubj	_	_
 3	war	_	AUX	_	_	8	auxpass	_	_
@@ -4926,6 +5250,7 @@
 8	gegeben	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s325/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	hatte	_	VERB	_	_	0	root	_	_
 3	sofort	_	ADV	_	_	2	advmod	_	_
@@ -4934,6 +5259,7 @@
 6	ihm	_	PRON	_	_	2	nmod	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s326/de
 1	Nun	_	ADV	_	_	2	advmod	_	_
 2	überlege	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -4941,7 +5267,7 @@
 5	ich	_	PRON	_	_	14	nsubj	_	_
 6	nicht	_	PART	_	_	7	neg	_	_
 7	lieber	_	ADV	_	_	14	advmod	_	_
-8	3	_	NUM	_	_	9	nummod	_	_
+8	3	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Std	_	NOUN	_	_	11	nmod	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 11	Anfahrt	_	NOUN	_	_	14	dobj	_	_
@@ -4962,6 +5288,7 @@
 26	lassen	_	VERB	_	_	14	advcl	_	_
 27	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s327/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -4980,6 +5307,7 @@
 16	ausnutzen	_	VERB	_	_	9	acl	_	_
 17	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s328/de
 1	Kam	_	NOUN	_	_	0	root	_	_
 2	mit	_	ADP	_	_	4	case	_	_
 3	großen	_	ADJ	_	_	4	amod	_	_
@@ -4992,6 +5320,7 @@
 10	Empfehlung	_	NOUN	_	_	1	nmod	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s329/de
 1	Er	_	PRON	_	_	5	nsubj	_	_
 2	hat	_	AUX	_	_	5	aux	_	_
 3	eine	_	DET	_	_	4	det	_	_
@@ -4999,6 +5328,7 @@
 5	durchgeführt	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s330/de
 1	Völlig	_	ADV	_	_	2	advmod	_	_
 2	schmerzfrei	_	ADJ	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -5006,6 +5336,7 @@
 5	Problem	_	NOUN	_	_	2	nmod	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s331/de
 1	Bin	_	NOUN	_	_	3	cop	_	_
 2	so	_	ADV	_	_	3	advmod	_	_
 3	froh	_	ADJ	_	_	0	root	_	_
@@ -5019,6 +5350,7 @@
 11	habe	_	AUX	_	_	10	aux	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s332/de
 1	Seitdem	_	SCONJ	_	_	7	mark	_	_
 2	ich	_	PRON	_	_	7	nsubj	_	_
 3	einmal	_	ADV	_	_	7	advmod	_	_
@@ -5035,6 +5367,7 @@
 14	hin	_	ADV	_	_	10	mark	_	_
 15	!	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s333/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Qualität	_	NOUN	_	_	7	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -5044,6 +5377,7 @@
 7	ideal	_	ADJ	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s334/de
 1	Sie	_	PRON	_	_	2	nsubj	_	_
 2	halten	_	VERB	_	_	0	root	_	_
 3	wesentlich	_	ADV	_	_	4	advmod	_	_
@@ -5062,6 +5396,7 @@
 16	Geld	_	NOUN	_	_	12	dobj	_	_
 17	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s335/de
 1	Außerdem	_	ADV	_	_	2	advmod	_	_
 2	spart	_	VERB	_	_	0	root	_	_
 3	man	_	PRON	_	_	2	nsubj	_	_
@@ -5074,12 +5409,14 @@
 10	:-)	_	X	_	_	2	dep	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s336/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Service	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
 4	wunderbar	_	ADJ	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s337/de
 1	Hier	_	ADV	_	_	2	advmod	_	_
 2	lasse	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -5088,12 +5425,14 @@
 6	gerne	_	ADV	_	_	2	advmod	_	_
 7	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s338/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	heute	_	ADV	_	_	2	advmod	_	_
 4	da	_	ADV	_	_	2	advmod	_	_
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s339/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Ferienwohnungen	_	NOUN	_	_	4	nsubj	_	_
 3	sind	_	VERB	_	_	4	cop	_	_
@@ -5108,6 +5447,7 @@
 12	gerechtfertigt	_	ADJ	_	_	4	conj	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s340/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Ausstattung	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -5122,6 +5462,7 @@
 12	vorstellt	_	VERB	_	_	4	conj	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s341/de
 1	Alles	_	ADV	_	_	6	advmod	_	_
 2	in	_	ADP	_	_	3	case	_	_
 3	allem	_	PRON	_	_	1	nmod	_	_
@@ -5130,6 +5471,7 @@
 6	empfehlen	_	VERB	_	_	0	root	_	_
 7	....	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s342/de
 1	Diese	_	PRON	_	_	2	det	_	_
 2	Firma	_	NOUN	_	_	12	nsubj	_	_
 3	ist	_	VERB	_	_	12	cop	_	_
@@ -5151,16 +5493,19 @@
 19	richtige	_	ADJ	_	_	12	conj	_	_
 20	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s343/de
 1	Beides	_	PRON	_	_	3	nsubjpass	_	_
 2	sollte	_	AUX	_	_	3	aux	_	_
 3	gelöscht	_	VERB	_	_	0	root	_	_
 4	werden	_	AUX	_	_	3	auxpass	_	_
 5	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s344/de
 1	Choclet	_	PROPN	_	_	2	nsubj	_	_
 2	überzeugt	_	VERB	_	_	0	root	_	_
 3	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s345/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Choclet	_	PROPN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -5188,6 +5533,7 @@
 25	lassen	_	VERB	_	_	13	conj	_	_
 26	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s346/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	schon	_	ADV	_	_	4	advmod	_	_
@@ -5198,6 +5544,7 @@
 7	choclet	_	PROPN	_	_	2	nmod	_	_
 8	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s347/de
 1-2	am	_	_	_	_	_	_	_	_
 1	An	_	ADP	_	_	4	case	_	_
 2	dem	_	DET	_	_	4	det	_	_
@@ -5211,6 +5558,7 @@
 10	Mietwagen	_	NOUN	_	_	5	dobj	_	_
 11	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s348/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Service	_	NOUN	_	_	3	nsubj	_	_
 3	verspricht	_	VERB	_	_	0	root	_	_
@@ -5224,6 +5572,7 @@
 11	Stellplätzen	_	NOUN	_	_	6	nmod	_	_
 12	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s349/de
 1	Pünktlichkeit	_	NOUN	_	_	10	nsubjpass	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
 3	Service	_	NOUN	_	_	1	conj	_	_
@@ -5250,6 +5599,7 @@
 24	verlassen	_	VERB	_	_	10	conj	_	_
 25	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s350/de
 1	Damit	_	ADV	_	_	2	advmod	_	_
 2	meine	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -5264,6 +5614,7 @@
 12	Isarstrasse	_	PROPN	_	_	10	det	_	_
 13	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s351/de
 1	Man	_	PRON	_	_	15	nsubj	_	_
 2	kann	_	AUX	_	_	15	aux	_	_
 3	Hertz	_	PROPN	_	_	15	dobj	_	_
@@ -5281,6 +5632,7 @@
 15	empfehlen	_	VERB	_	_	0	root	_	_
 16	!	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s352/de
 1	In	_	ADP	_	_	2	case	_	_
 2	Berlin	_	PROPN	_	_	3	nmod	_	_
 3	gibt	_	VERB	_	_	0	root	_	_
@@ -5295,6 +5647,7 @@
 11	Meer	_	NOUN	_	_	8	nmod	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s353/de
 1	Metaxa	_	PROPN	_	_	2	name	_	_
 2	Bay	_	PROPN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -5310,6 +5663,7 @@
 13	Besten	_	NOUN	_	_	11	det	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s354/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Lage	_	NOUN	_	_	15	nsubj	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -5328,6 +5682,7 @@
 15	prima	_	ADJ	_	_	0	root	_	_
 16	!	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s355/de
 1	Leider	_	ADV	_	_	4	advmod	_	_
 2	hat	_	AUX	_	_	4	aux	_	_
 3	man	_	PRON	_	_	4	nsubj	_	_
@@ -5348,6 +5703,7 @@
 18	wird	_	VERB	_	_	8	acl	_	_
 19	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s356/de
 1	Wir	_	PRON	_	_	9	nsubj	_	_
 2	mußten	_	AUX	_	_	9	aux	_	_
 3	nicht	_	PART	_	_	4	neg	_	_
@@ -5358,9 +5714,9 @@
 8	Getränke	_	NOUN	_	_	9	nmod	_	_
 9	warten	_	VERB	_	_	0	root	_	_
 10	(	_	PUNCT	_	_	14	punct	_	_
-11	20	_	NUM	_	_	14	nummod	_	_
+11	20	_	NUM	_	NumType=Card	14	nummod	_	_
 12	bis	_	ADP	_	_	13	case	_	_
-13	30	_	NUM	_	_	11	nmod	_	_
+13	30	_	NUM	_	NumType=Card	11	nmod	_	_
 14	Minuten	_	NOUN	_	_	9	appos	_	_
 15	)	_	PUNCT	_	_	14	punct	_	_
 16	,	_	PUNCT	_	_	9	punct	_	_
@@ -5390,6 +5746,7 @@
 38	ist	_	VERB	_	_	37	cop	_	_
 39	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s357/de
 1	Nett	_	ADJ	_	_	10	cop	_	_
 2	und	_	CONJ	_	_	10	cc	_	_
 3	freundlich	_	ADJ	_	_	10	conj	_	_
@@ -5402,6 +5759,7 @@
 10	überfordert	_	ADJ	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s358/de
 1	Wenn	_	SCONJ	_	_	6	mark	_	_
 2	man	_	PRON	_	_	6	nsubj	_	_
 3	schon	_	ADV	_	_	6	advmod	_	_
@@ -5417,6 +5775,7 @@
 13	liefern	_	VERB	_	_	0	root	_	_
 14	!	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s359/de
 1	Die	_	DET	_	_	7	det	_	_
 2	penetrant	_	ADV	_	_	6	advmod	_	_
 3	aus	_	ADP	_	_	5	case	_	_
@@ -5437,6 +5796,7 @@
 18	konnte	_	AUX	_	_	17	aux	_	_
 19	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s360/de
 1	Ein	_	DET	_	_	2	det	_	_
 2	Blick	_	NOUN	_	_	9	nsubj	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -5454,7 +5814,7 @@
 15	einzige	_	ADJ	_	_	16	amod	_	_
 16	Gruppe	_	NOUN	_	_	9	ccomp	_	_
 17	(	_	PUNCT	_	_	19	punct	_	_
-18	7	_	NUM	_	_	19	nummod	_	_
+18	7	_	NUM	_	NumType=Card	19	nummod	_	_
 19	Personen	_	NOUN	_	_	16	appos	_	_
 20	)	_	PUNCT	_	_	19	punct	_	_
 21	waren	_	VERB	_	_	16	cop	_	_
@@ -5471,6 +5831,7 @@
 32	war	_	VERB	_	_	31	cop	_	_
 33	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s361/de
 1	Entspanntes	_	ADJ	_	_	2	amod	_	_
 2	Herumsitzen	_	NOUN	_	_	6	nsubj	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -5481,6 +5842,7 @@
 8	aus	_	ADP	_	_	6	mark	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s362/de
 1	Hier	_	ADV	_	_	6	advmod	_	_
 2	ist	_	VERB	_	_	6	cop	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -5489,6 +5851,7 @@
 6	König	_	NOUN	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s363/de
 1	Hier	_	ADV	_	_	5	advmod	_	_
 2	wird	_	AUX	_	_	5	auxpass	_	_
 3	wirklich	_	ADV	_	_	4	advmod	_	_
@@ -5504,6 +5867,7 @@
 13	Beiträge	_	NOUN	_	_	7	nmod	_	_
 14	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s364/de
 1	Hier	_	ADV	_	_	5	advmod	_	_
 2	ist	_	VERB	_	_	5	cop	_	_
 3	alles	_	PRON	_	_	5	nsubj	_	_
@@ -5511,6 +5875,7 @@
 5	empfehlenswert	_	ADJ	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s365/de
 1	Habe	_	AUX	_	_	9	aux	_	_
 2	vergangene	_	ADJ	_	_	3	amod	_	_
 3	Woche	_	NOUN	_	_	9	nmod	_	_
@@ -5522,6 +5887,7 @@
 9	besucht	_	VERB	_	_	0	root	_	_
 10	!	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s366/de
 1	Der	_	DET	_	_	4	det	_	_
 2	Basis	_	NOUN	_	_	4	compound	_	_
 3	NLP	_	PROPN	_	_	4	name	_	_
@@ -5537,6 +5903,7 @@
 13	durchgeführt	_	VERB	_	_	10	acl	_	_
 14	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s367/de
 1	Für	_	ADP	_	_	4	case	_	_
 2	alle	_	PRON	_	_	4	det	_	_
 3	NLP	_	PROPN	_	_	4	name	_	_
@@ -5553,6 +5920,7 @@
 14	weiterempfehlen	_	VERB	_	_	0	root	_	_
 15	!	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s368/de
 1	Wir	_	PRON	_	_	7	nsubjpass	_	_
 2	werden	_	AUX	_	_	7	auxpass	_	_
 3	von	_	ADP	_	_	5	case	_	_
@@ -5562,6 +5930,7 @@
 7	untergebracht	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s369/de
 1	Meine	_	PRON	_	_	3	det	_	_
 2	erste	_	ADJ	_	_	3	amod	_	_
 3	Wahl	_	NOUN	_	_	0	root	_	_
@@ -5574,6 +5943,7 @@
 10	geht	_	VERB	_	_	3	advcl	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s370/de
 1	Hab	_	AUX	_	_	5	aux	_	_
 2	hier	_	ADV	_	_	5	advmod	_	_
 3	schon	_	ADV	_	_	4	advmod	_	_
@@ -5587,6 +5957,7 @@
 11	tun	_	VERB	_	_	5	conj	_	_
 12	!	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s371/de
 1	Habe	_	AUX	_	_	6	aux	_	_
 2	hier	_	ADV	_	_	6	advmod	_	_
 3	schon	_	ADV	_	_	4	advmod	_	_
@@ -5602,6 +5973,7 @@
 13	funktioniert	_	VERB	_	_	6	conj	_	_
 14	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s372/de
 1	Mit	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
 3	Service	_	NOUN	_	_	7	nmod	_	_
@@ -5621,6 +5993,7 @@
 17	auszusetzen	_	VERB	_	_	16	acl	_	_
 18	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s373/de
 1	Gute	_	ADJ	_	_	2	amod	_	_
 2	Preise	_	NOUN	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -5628,6 +6001,7 @@
 5	Service	_	NOUN	_	_	2	conj	_	_
 6	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s374/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	kaufe	_	VERB	_	_	0	root	_	_
 3	seit	_	ADP	_	_	4	case	_	_
@@ -5642,6 +6016,7 @@
 12	enttäuscht	_	VERB	_	_	2	conj	_	_
 13	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s375/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	kein	_	PRON	_	_	4	neg	_	_
@@ -5655,6 +6030,7 @@
 11	kann	_	AUX	_	_	9	aux	_	_
 12	!	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s376/de
 1	Äusserst	_	ADV	_	_	2	advmod	_	_
 2	freundlicher	_	ADJ	_	_	3	amod	_	_
 3	Kundenservice	_	NOUN	_	_	0	root	_	_
@@ -5665,12 +6041,14 @@
 8	Spitzenservice	_	NOUN	_	_	3	conj	_	_
 9	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s377/de
 1	Was	_	PRON	_	_	2	dobj	_	_
 2	will	_	VERB	_	_	0	root	_	_
 3	man	_	PRON	_	_	2	nsubj	_	_
 4	mehr	_	ADV	_	_	2	advmod	_	_
 5	?	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s378/de
 1	Extrem	_	ADV	_	_	2	advmod	_	_
 2	viel	_	ADJ	_	_	3	amod	_	_
 3	Auswahl	_	NOUN	_	_	7	appos	_	_
@@ -5680,10 +6058,11 @@
 7	dauert	_	VERB	_	_	0	root	_	_
 8	meist	_	ADV	_	_	7	advmod	_	_
 9	nur	_	ADV	_	_	10	advmod	_	_
-10	2	_	NUM	_	_	11	nummod	_	_
+10	2	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Tage	_	NOUN	_	_	7	dobj	_	_
 12	!	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s379/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	bin	_	VERB	_	_	4	cop	_	_
 3	sehr	_	ADV	_	_	4	advmod	_	_
@@ -5699,6 +6078,7 @@
 13	einkaufen	_	VERB	_	_	4	conj	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s380/de
 1	(	_	PUNCT	_	_	8	punct	_	_
 2	Der	_	DET	_	_	3	det	_	_
 3	Shop	_	NOUN	_	_	8	nsubj	_	_
@@ -5710,6 +6090,7 @@
 9	!	_	PUNCT	_	_	8	punct	_	_
 10	)	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s381/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Musikhaus	_	NOUN	_	_	4	nsubj	_	_
 3	Thomann	_	PROPN	_	_	2	appos	_	_
@@ -5732,14 +6113,16 @@
 20	Logistik	_	NOUN	_	_	15	dobj	_	_
 21	.	_	PUNCT	_	_	4	punct	_	_
 
-1	17.45	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s382/de
+1	17.45	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Uhr	_	NOUN	_	_	5	nmod	_	_
 3	hatte	_	AUX	_	_	5	aux	_	_
 4	ich	_	PRON	_	_	5	nsubj	_	_
 5	bestellt	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
-1	18.00	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s383/de
+1	18.00	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Uhr	_	NOUN	_	_	7	nmod	_	_
 3	war	_	VERB	_	_	7	cop	_	_
 4	die	_	DET	_	_	5	det	_	_
@@ -5747,7 +6130,7 @@
 6	bereits	_	ADV	_	_	7	advmod	_	_
 7	versandfertig	_	ADJ	_	_	0	root	_	_
 8	und	_	CONJ	_	_	7	cc	_	_
-9	2	_	NUM	_	_	10	nummod	_	_
+9	2	_	NUM	_	NumType=Card	10	nummod	_	_
 10	Tage	_	NOUN	_	_	12	nmod	_	_
 11	später	_	ADV	_	_	10	advmod	_	_
 12	hatte	_	VERB	_	_	7	conj	_	_
@@ -5759,6 +6142,7 @@
 18	Hause	_	NOUN	_	_	12	nmod	_	_
 19	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s384/de
 1	So	_	ADV	_	_	2	advmod	_	_
 2	macht	_	VERB	_	_	0	root	_	_
 3	online	_	NOUN	_	_	4	compound	_	_
@@ -5766,6 +6150,7 @@
 5	Spaß	_	NOUN	_	_	2	dobj	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s385/de
 1	Bei	_	ADP	_	_	2	case	_	_
 2	Fragen	_	NOUN	_	_	9	nmod	_	_
 3	um	_	ADP	_	_	4	case	_	_
@@ -5783,6 +6168,7 @@
 15	Wahl	_	NOUN	_	_	9	nsubj	_	_
 16	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s386/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	wollte	_	AUX	_	_	6	aux	_	_
 3-4	zur	_	_	_	_	_	_	_	_
@@ -5792,6 +6178,7 @@
 6	gehen	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s387/de
 1-2	zum	_	_	_	_	_	_	_	_
 1	Zu	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -5805,6 +6192,7 @@
 10	angerufen	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s388/de
 1	Herr	_	NOUN	_	_	2	compound	_	_
 2	Feldkamp	_	PROPN	_	_	3	nsubj	_	_
 3	riet	_	VERB	_	_	0	root	_	_
@@ -5817,6 +6205,7 @@
 10	kommen	_	VERB	_	_	7	conj	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s389/de
 1	Nach	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Akteneinsicht	_	NOUN	_	_	11	nmod	_	_
@@ -5830,6 +6219,7 @@
 11	erarbeitet	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s390/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Verfahren	_	NOUN	_	_	3	nsubj	_	_
 3	kam	_	VERB	_	_	0	root	_	_
@@ -5845,12 +6235,14 @@
 13	eingestellt	_	VERB	_	_	3	conj	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s391/de
 1	Das	_	PRON	_	_	4	dobj	_	_
 2	hatte	_	AUX	_	_	4	aux	_	_
 3	ich	_	PRON	_	_	4	nsubj	_	_
 4	gehofft	_	VERB	_	_	0	root	_	_
 5	...	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s392/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Akte	_	NOUN	_	_	5	nsubjpass	_	_
 3	wurde	_	AUX	_	_	5	auxpass	_	_
@@ -5858,6 +6250,7 @@
 5	besprochen	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s393/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Vorbereitung	_	NOUN	_	_	7	nsubj	_	_
 3	auf	_	ADP	_	_	5	case	_	_
@@ -5867,6 +6260,7 @@
 7	super	_	ADJ	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s394/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -5877,6 +6271,7 @@
 7	besprochen	_	VERB	_	_	4	conj	_	_
 8	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s395/de
 1	Liegt	_	VERB	_	_	0	root	_	_
 2	wohl	_	ADV	_	_	3	advmod	_	_
 3	auch	_	ADV	_	_	1	advmod	_	_
@@ -5885,7 +6280,7 @@
 6	dass	_	SCONJ	_	_	14	mark	_	_
 7	er	_	PRON	_	_	14	nsubj	_	_
 8	seit	_	ADP	_	_	9	case	_	_
-9	1991	_	NUM	_	_	14	nmod	_	_
+9	1991	_	NUM	_	NumType=Card	14	nmod	_	_
 10	in	_	ADP	_	_	11	case	_	_
 11	Berlin	_	PROPN	_	_	14	nmod	_	_
 12	als	_	ADP	_	_	13	case	_	_
@@ -5894,6 +6289,7 @@
 15	ist	_	AUX	_	_	14	aux	_	_
 16	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s396/de
 1	Meine	_	PRON	_	_	4	det	_	_
 2	E	_	NOUN	_	_	4	compound	_	_
 3	-	_	PUNCT	_	_	4	punct	_	_
@@ -5921,12 +6317,14 @@
 24	geleitet	_	VERB	_	_	7	conj	_	_
 25	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s397/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Ergebnis	_	NOUN	_	_	4	nsubj	_	_
 3	war	_	VERB	_	_	4	cop	_	_
 4	entsprechend	_	ADJ	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s398/de
 1	Nachdem	_	SCONJ	_	_	5	mark	_	_
 2	ich	_	PRON	_	_	5	nsubj	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -5952,8 +6350,9 @@
 23	Telefon	_	NOUN	_	_	21	conj	_	_
 24	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s399/de
 1	Nach	_	ADP	_	_	3	case	_	_
-2	8	_	NUM	_	_	3	nummod	_	_
+2	8	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Tagen	_	NOUN	_	_	4	nmod	_	_
 4	saß	_	VERB	_	_	0	root	_	_
 5	ich	_	PRON	_	_	4	nsubj	_	_
@@ -5989,6 +6388,7 @@
 33	hatte	_	AUX	_	_	32	aux	_	_
 34	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s400/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Ergebnis	_	NOUN	_	_	3	nsubj	_	_
 3	war	_	VERB	_	_	0	root	_	_
@@ -5998,12 +6398,14 @@
 7	Zufriedenheit	_	NOUN	_	_	3	nmod	_	_
 8	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s401/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Preis	_	NOUN	_	_	3	nsubj	_	_
 3	stimmte	_	VERB	_	_	0	root	_	_
 4	auch	_	ADV	_	_	3	advmod	_	_
 5	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s402/de
 1	Kann	_	AUX	_	_	5	aux	_	_
 2	ich	_	PRON	_	_	5	nsubj	_	_
 3	ohne	_	ADP	_	_	4	case	_	_
@@ -6011,6 +6413,7 @@
 5	empfehlen	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s403/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Anwalt	_	NOUN	_	_	9	nsubj	_	_
 3	war	_	VERB	_	_	9	cop	_	_
@@ -6026,6 +6429,7 @@
 13	Tipps	_	NOUN	_	_	11	dobj	_	_
 14	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s404/de
 1	Alles	_	PRON	_	_	5	mwe	_	_
 2	in	_	ADP	_	_	3	case	_	_
 3	allem	_	PRON	_	_	1	nmod	_	_
@@ -6033,6 +6437,7 @@
 5	organisiert	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s405/de
 1	Wenn	_	SCONJ	_	_	8	mark	_	_
 2	meine	_	PRON	_	_	3	det	_	_
 3	Frau	_	NOUN	_	_	8	nsubj	_	_
@@ -6054,6 +6459,7 @@
 19	Pfannenkuchen	_	NOUN	_	_	15	det	_	_
 20	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s406/de
 1	Vielleicht	_	ADV	_	_	2	advmod	_	_
 2	nichts	_	PRON	_	_	16	appos	_	_
 3	für	_	ADP	_	_	4	case	_	_
@@ -6077,6 +6483,7 @@
 21	Kosten	_	NOUN	_	_	16	nmod	_	_
 22	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s407/de
 1	Ich	_	PRON	_	_	7	nsubj	_	_
 2	jedenfalls	_	ADV	_	_	7	advmod	_	_
 3	kann	_	AUX	_	_	7	aux	_	_
@@ -6086,6 +6493,7 @@
 7	bekommen	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s408/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Personal	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -6095,6 +6503,7 @@
 7	nett	_	ADJ	_	_	4	conj	_	_
 8	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s409/de
 1	Abends	_	ADV	_	_	8	advmod	_	_
 2	hatte	_	AUX	_	_	8	aux	_	_
 3	ich	_	PRON	_	_	8	nsubj	_	_
@@ -6108,6 +6517,7 @@
 11	gegessen	_	VERB	_	_	8	conj	_	_
 12	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s410/de
 1	Leider	_	ADV	_	_	2	advmod	_	_
 2	viel	_	VERB	_	_	0	root	_	_
 3	unsere	_	PRON	_	_	4	det	_	_
@@ -6118,6 +6528,7 @@
 8	's	_	PART	_	_	7	case	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s411/de
 1	Ich	_	PRON	_	_	5	nsubj	_	_
 2	möchte	_	AUX	_	_	5	aux	_	_
 3	hiermit	_	ADV	_	_	5	advmod	_	_
@@ -6125,6 +6536,7 @@
 5	warnen	_	VERB	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s412/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Essen	_	NOUN	_	_	7	nsubj	_	_
 3	dort	_	ADV	_	_	7	advmod	_	_
@@ -6134,6 +6546,7 @@
 7	schlecht	_	ADJ	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s413/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	besteht	_	VERB	_	_	0	root	_	_
 3	ausnahmelos	_	ADV	_	_	2	advmod	_	_
@@ -6147,6 +6560,7 @@
 11	werden	_	AUX	_	_	10	auxpass	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s414/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	hatte	_	VERB	_	_	0	root	_	_
 3	Sauerbraten	_	NOUN	_	_	2	dobj	_	_
@@ -6164,6 +6578,7 @@
 15	war	_	VERB	_	_	14	cop	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s415/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Essen	_	NOUN	_	_	7	nsubj	_	_
 3	meiner	_	PRON	_	_	4	det	_	_
@@ -6173,6 +6588,7 @@
 7	schlechter	_	ADJ	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s416/de
 1	Paniertes	_	VERB	_	_	2	acl	_	_
 2	Schollenfilet	_	NOUN	_	_	0	root	_	_
 3	(	_	PUNCT	_	_	5	punct	_	_
@@ -6188,6 +6604,7 @@
 13	Kartoffeln	_	NOUN	_	_	9	conj	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s417/de
 1	So	_	ADV	_	_	2	advmod	_	_
 2	macht	_	VERB	_	_	0	root	_	_
 3	das	_	DET	_	_	4	det	_	_
@@ -6207,6 +6624,7 @@
 17	üppig	_	ADJ	_	_	2	advcl	_	_
 18	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s418/de
 1	Uns	_	NOUN	_	_	9	iobj	_	_
 2	ist	_	AUX	_	_	9	aux	_	_
 3	das	_	DET	_	_	4	det	_	_
@@ -6219,6 +6637,7 @@
 9	geblieben	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s419/de
 1	Das	_	PRON	_	_	6	nsubj	_	_
 2	hat	_	AUX	_	_	6	aux	_	_
 3	uns	_	PRON	_	_	6	iobj	_	_
@@ -6227,6 +6646,7 @@
 6	verdorben	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s420/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	waren	_	VERB	_	_	0	root	_	_
 3	auf	_	ADP	_	_	5	case	_	_
@@ -6243,6 +6663,7 @@
 14	Christoph	_	PROPN	_	_	12	conj	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s421/de
 1	Sie	_	PRON	_	_	10	nsubj	_	_
 2	haben	_	AUX	_	_	10	aux	_	_
 3	hier	_	ADV	_	_	10	advmod	_	_
@@ -6255,6 +6676,7 @@
 10	gebaut	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s422/de
 1	Hier	_	ADV	_	_	9	advmod	_	_
 2	kann	_	AUX	_	_	9	aux	_	_
 3	man	_	PRON	_	_	9	nsubj	_	_
@@ -6266,6 +6688,7 @@
 9	erholen	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s423/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	viel	_	PRON	_	_	4	det	_	_
@@ -6286,6 +6709,7 @@
 18	übernachten	_	VERB	_	_	2	conj	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s424/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gastgeber	_	NOUN	_	_	5	nsubj	_	_
 3	sind	_	VERB	_	_	5	cop	_	_
@@ -6295,6 +6719,7 @@
 7	hilfsbereit	_	ADJ	_	_	5	conj	_	_
 8	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s425/de
 1	Wir	_	PRON	_	_	5	nsubj	_	_
 2	haben	_	AUX	_	_	5	aux	_	_
 3	60qm	_	X	_	_	5	dobj	_	_
@@ -6314,6 +6739,7 @@
 17	gemietet	_	VERB	_	_	5	conj	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s426/de
 1	Wir	_	PRON	_	_	6	nsubj	_	_
 2	haben	_	AUX	_	_	6	aux	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -6322,6 +6748,7 @@
 6	geölt	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s427/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	sieht	_	VERB	_	_	0	root	_	_
 3	jetzt	_	ADV	_	_	2	advmod	_	_
@@ -6330,6 +6757,7 @@
 6	aus	_	ADP	_	_	2	mark	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s428/de
 1	Da	_	SCONJ	_	_	10	mark	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Service	_	NOUN	_	_	10	nsubj	_	_
@@ -6348,6 +6776,7 @@
 16	weiterempfehlen	_	VERB	_	_	0	root	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s429/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Hostel	_	NOUN	_	_	5	nsubj	_	_
 3	ist	_	VERB	_	_	5	cop	_	_
@@ -6355,6 +6784,7 @@
 5	heimelig	_	ADJ	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s430/de
 1	Man	_	PRON	_	_	2	nsubj	_	_
 2	fühlt	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -6362,6 +6792,7 @@
 5	zuhause	_	ADV	_	_	2	advmod	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s431/de
 1	Vor	_	ADP	_	_	2	case	_	_
 2	allem	_	PRON	_	_	5	nmod	_	_
 3	die	_	DET	_	_	5	det	_	_
@@ -6376,6 +6807,7 @@
 12	schön	_	ADJ	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s432/de
 1	Durch	_	ADP	_	_	3	case	_	_
 2	Ihre	_	PRON	_	_	3	det	_	_
 3	Hinweise	_	NOUN	_	_	7	nmod	_	_
@@ -6391,6 +6823,7 @@
 13	haben	_	AUX	_	_	11	aux	_	_
 14	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s433/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Einzelstunden	_	NOUN	_	_	8	nsubj	_	_
 3-4	am	_	_	_	_	_	_	_	_
@@ -6431,6 +6864,7 @@
 36	an	_	ADP	_	_	35	mwe	_	_
 37	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s434/de
 1	Was	_	PRON	_	_	7	nsubj	_	_
 2	bei	_	ADP	_	_	5	case	_	_
 3	meiner	_	PRON	_	_	5	det	_	_
@@ -6441,6 +6875,7 @@
 8	heißt	_	VERB	_	_	7	cop	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s435/de
 1	Noch	_	ADV	_	_	5	advmod	_	_
 2-3	am	_	_	_	_	_	_	_	_
 2	an	_	ADP	_	_	5	case	_	_
@@ -6464,6 +6899,7 @@
 20	Trainings	_	NOUN	_	_	17	det	_	_
 21	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s436/de
 1	Ohne	_	ADP	_	_	3	case	_	_
 2	diese	_	PRON	_	_	3	det	_	_
 3	Hundeschule	_	NOUN	_	_	6	nmod	_	_
@@ -6472,6 +6908,7 @@
 6	Verzweifelt	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s437/de
 1	Unsere	_	PRON	_	_	2	det	_	_
 2	Hündin	_	NOUN	_	_	7	nsubj	_	_
 3	war	_	VERB	_	_	7	cop	_	_
@@ -6483,6 +6920,7 @@
 9	!	_	PUNCT	_	_	7	punct	_	_
 10	!	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s438/de
 1	Sie	_	PRON	_	_	5	nsubj	_	_
 2	hat	_	AUX	_	_	5	aux	_	_
 3	überhaupt	_	ADV	_	_	4	advmod	_	_
@@ -6501,6 +6939,7 @@
 16	demoliert	_	VERB	_	_	5	conj	_	_
 17	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s439/de
 1	Wir	_	PRON	_	_	6	nsubj	_	_
 2	hatten	_	AUX	_	_	6	aux	_	_
 3	schon	_	ADV	_	_	6	advmod	_	_
@@ -6515,6 +6954,7 @@
 12	besser	_	ADJ	_	_	10	amod	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s440/de
 1	Ohne	_	ADP	_	_	3	case	_	_
 2	diese	_	PRON	_	_	3	det	_	_
 3	Hundeschule	_	NOUN	_	_	12	nmod	_	_
@@ -6529,12 +6969,14 @@
 12	bestanden	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s441/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	waren	_	VERB	_	_	4	cop	_	_
 3	sehr	_	ADV	_	_	4	advmod	_	_
 4	enttäuscht	_	ADJ	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s442/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	herrscht	_	VERB	_	_	0	root	_	_
 3	ein	_	DET	_	_	7	det	_	_
@@ -6550,6 +6992,7 @@
 13	gegenüber	_	ADV	_	_	12	advmod	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s443/de
 1	Ein	_	DET	_	_	3	det	_	_
 2	eigenes	_	ADJ	_	_	3	amod	_	_
 3	Gelände	_	NOUN	_	_	4	dobj	_	_
@@ -6558,6 +7001,7 @@
 6	nicht	_	PART	_	_	4	neg	_	_
 7	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s444/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Treffpunkt	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	AUX	_	_	5	auxpass	_	_
@@ -6580,6 +7024,7 @@
 20	:	_	X	_	_	21	compound	_	_
 21	(	_	X	_	_	5	dep	_	_
 
+# sent_id dev-s445/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gruppe	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	VERB	_	_	5	cop	_	_
@@ -6604,6 +7049,7 @@
 22	geraucht	_	VERB	_	_	5	conj	_	_
 23	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s446/de
 1	Schade	_	ADJ	_	_	10	appos	_	_
 2	,	_	PUNCT	_	_	10	punct	_	_
 3	aber	_	CONJ	_	_	10	cc	_	_
@@ -6618,6 +7064,7 @@
 12	!	_	PUNCT	_	_	10	punct	_	_
 13	!	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s447/de
 1	Naja	_	ADV	_	_	5	advmod	_	_
 2	,	_	PUNCT	_	_	5	punct	_	_
 3	das	_	DET	_	_	4	det	_	_
@@ -6643,6 +7090,7 @@
 23	gefallen	_	VERB	_	_	5	conj	_	_
 24	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s448/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Einrichtung	_	NOUN	_	_	3	nsubj	_	_
 3	wirkt	_	VERB	_	_	0	root	_	_
@@ -6654,6 +7102,7 @@
 9	gemütlich	_	ADJ	_	_	3	conj	_	_
 10	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s449/de
 1	Zu	_	ADP	_	_	3	case	_	_
 2	einer	_	DET	_	_	3	det	_	_
 3	Sauna	_	NOUN	_	_	4	nmod	_	_
@@ -6668,6 +7117,7 @@
 12	Atmosphäre	_	NOUN	_	_	4	dobj	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s450/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Hamam	_	PROPN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -6684,6 +7134,7 @@
 14	super	_	ADJ	_	_	9	xcomp	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s451/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Außenbereich	_	NOUN	_	_	7	nsubj	_	_
 3	--	_	PUNCT	_	_	7	punct	_	_
@@ -6703,6 +7154,7 @@
 17	Häusermauern	_	NOUN	_	_	10	nmod	_	_
 18	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s452/de
 1	Da	_	ADV	_	_	11	advmod	_	_
 2	werd	_	AUX	_	_	11	aux	_	_
 3	ich	_	PRON	_	_	11	nsubj	_	_
@@ -6716,6 +7168,7 @@
 11	ausprobieren	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s453/de
 1	Es	_	PRON	_	_	3	nsubj	_	_
 2	war	_	VERB	_	_	3	cop	_	_
 3	faszinierend	_	ADJ	_	_	0	root	_	_
@@ -6726,6 +7179,7 @@
 8	arbeiten	_	VERB	_	_	3	xcomp	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s454/de
 1	Wo	_	ADV	_	_	5	advmod	_	_
 2	soll	_	AUX	_	_	5	aux	_	_
 3	man	_	PRON	_	_	5	nsubj	_	_
@@ -6736,12 +7190,14 @@
 8	?	_	PUNCT	_	_	5	punct	_	_
 9	?	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s455/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	waren	_	VERB	_	_	4	cop	_	_
 3	sehr	_	ADV	_	_	4	advmod	_	_
 4	überrascht	_	ADJ	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s456/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Realität	_	NOUN	_	_	11	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -6758,6 +7214,7 @@
 14	Bilder	_	NOUN	_	_	11	nmod	_	_
 15	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s457/de
 1	Die	_	DET	_	_	3	det	_	_
 2	Lage	_	NOUN	_	_	3	cop	_	_
 3	exklusiv	_	ADJ	_	_	0	root	_	_
@@ -6772,6 +7229,7 @@
 12	gelegen	_	VERB	_	_	3	acl	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s458/de
 1	Der	_	DET	_	_	4	det	_	_
 2	Preis	_	NOUN	_	_	4	cop	_	_
 3	nicht	_	PART	_	_	4	neg	_	_
@@ -6787,6 +7245,7 @@
 13	angemessen	_	ADJ	_	_	4	conj	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s459/de
 1	Hatte	_	AUX	_	_	8	aux	_	_
 2	für	_	ADP	_	_	4	case	_	_
 3	ganz	_	ADV	_	_	4	advmod	_	_
@@ -6797,6 +7256,7 @@
 8	bezahlt	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s460/de
 1	Wir	_	PRON	_	_	7	nsubj	_	_
 2	werden	_	AUX	_	_	7	aux	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -6806,12 +7266,13 @@
 7	handeln	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s461/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Restaurant	_	NOUN	_	_	18	nsubjpass	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	_	ADP	_	_	7	case	_	_
 4	dem	_	DET	_	_	7	det	_	_
-5	6	_	NUM	_	_	7	amod	_	_
+5	6	_	NUM	_	NumType=Card	7	amod	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 7	Stock	_	NOUN	_	_	2	nmod	_	_
 8	des	_	DET	_	_	13	det	_	_
@@ -6827,6 +7288,7 @@
 18	umgstaltet	_	VERB	_	_	0	root	_	_
 19	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s462/de
 1	Blickfang	_	NOUN	_	_	5	nsubj	_	_
 2	ist	_	VERB	_	_	5	cop	_	_
 3	der	_	DET	_	_	5	det	_	_
@@ -6845,6 +7307,7 @@
 15	erstrahlt	_	VERB	_	_	9	acl	_	_
 16	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s463/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	4	case	_	_
 2	dem	_	DET	_	_	4	det	_	_
@@ -6863,6 +7326,7 @@
 15	aus	_	ADP	_	_	5	mark	_	_
 16	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s464/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Karte	_	NOUN	_	_	3	nsubj	_	_
 3	bietet	_	VERB	_	_	0	root	_	_
@@ -6873,6 +7337,7 @@
 8	Anbau	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s465/de
 1	Der	_	DET	_	_	5	det	_	_
 2	für	_	ADP	_	_	3	case	_	_
 3	Cuxhaven	_	PROPN	_	_	4	nmod	_	_
@@ -6896,6 +7361,7 @@
 20	Weitere	_	ADV	_	_	15	advmod	_	_
 21	!	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s466/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Parkplätze	_	NOUN	_	_	4	nsubj	_	_
 3	sind	_	VERB	_	_	4	cop	_	_
@@ -6904,12 +7370,13 @@
 6	!	_	PUNCT	_	_	4	punct	_	_
 7	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s467/de
 1	Negativ	_	ADJ	_	_	12	parataxis	_	_
 2	ist	_	VERB	_	_	1	cop	_	_
 3	:	_	PUNCT	_	_	1	punct	_	_
 4	Das	_	DET	_	_	5	det	_	_
 5	zimmer	_	NOUN	_	_	12	nsubj	_	_
-6	101	_	NUM	_	_	5	appos	_	_
+6	101	_	NUM	_	NumType=Card	5	appos	_	_
 7	(	_	PUNCT	_	_	8	punct	_	_
 8	einzelzimmer	_	NOUN	_	_	5	appos	_	_
 9	)	_	PUNCT	_	_	8	punct	_	_
@@ -6918,6 +7385,7 @@
 12	LAUT	_	ADJ	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s468/de
 1	Die	_	DET	_	_	3	det	_	_
 2	elektrische	_	ADJ	_	_	3	amod	_	_
 3	Eingangstür	_	NOUN	_	_	4	nsubj	_	_
@@ -6928,6 +7396,7 @@
 8	Zimmer	_	NOUN	_	_	4	nmod	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s469/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Dusche	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	VERB	_	_	5	cop	_	_
@@ -6938,12 +7407,13 @@
 8	darf	_	AUX	_	_	14	aux	_	_
 9	ich	_	PRON	_	_	14	nsubj	_	_
 10	bei	_	ADP	_	_	12	case	_	_
-11	vier	_	NUM	_	_	12	nummod	_	_
+11	vier	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Sternen	_	NOUN	_	_	14	nmod	_	_
 13	auch	_	ADV	_	_	14	advmod	_	_
 14	erwarten	_	VERB	_	_	5	conj	_	_
 15	!	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s470/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Restaurante	_	NOUN	_	_	5	nsubj	_	_
 3	ist	_	VERB	_	_	5	cop	_	_
@@ -6951,6 +7421,7 @@
 5	GUT	_	ADJ	_	_	0	root	_	_
 6	!	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s471/de
 1	Hier	_	ADV	_	_	14	advmod	_	_
 2	kann	_	AUX	_	_	14	aux	_	_
 3	man	_	PRON	_	_	14	nsubj	_	_
@@ -6967,6 +7438,7 @@
 14	essen	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s472/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	waren	_	VERB	_	_	0	root	_	_
 3	letzte	_	ADJ	_	_	4	amod	_	_
@@ -6978,11 +7450,13 @@
 8	essen	_	VERB	_	_	2	xcomp	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s473/de
 1	Es	_	PRON	_	_	3	nsubj	_	_
 2	war	_	VERB	_	_	3	cop	_	_
 3	fantastisch	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s474/de
 1	Hier	_	ADV	_	_	9	advmod	_	_
 2	waren	_	VERB	_	_	9	cop	_	_
 3	wir	_	PRON	_	_	9	nsubj	_	_
@@ -6994,6 +7468,7 @@
 9	Mal	_	NOUN	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s475/de
 1	Wir	_	PRON	_	_	6	nsubj	_	_
 2	haben	_	AUX	_	_	6	aux	_	_
 3	uns	_	PRON	_	_	6	dobj	_	_
@@ -7002,6 +7477,7 @@
 6	gefühlt	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s476/de
 1	Selbst	_	ADV	_	_	10	advmod	_	_
 2	mitten	_	ADV	_	_	5	advmod	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -7014,6 +7490,7 @@
 10	besucht	_	ADJ	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s477/de
 1	In	_	ADP	_	_	3	case	_	_
 2	dieser	_	PRON	_	_	3	det	_	_
 3	Werkstatt	_	NOUN	_	_	4	nmod	_	_
@@ -7024,6 +7501,7 @@
 8	Fahradprobleme	_	NOUN	_	_	4	dobj	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s478/de
 1	Unsere	_	PRON	_	_	2	det	_	_
 2	Erfahrungen	_	NOUN	_	_	6	nsubj	_	_
 3	waren	_	VERB	_	_	6	cop	_	_
@@ -7032,6 +7510,7 @@
 6	positiv	_	ADJ	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s479/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	die	_	DET	_	_	3	det	_	_
 3	Werkstatt	_	NOUN	_	_	4	nmod	_	_
@@ -7043,6 +7522,7 @@
 9	ist	_	VERB	_	_	8	cop	_	_
 10	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s480/de
 1	Für	_	ADP	_	_	3	case	_	_
 2	die	_	DET	_	_	3	det	_	_
 3	Reparatur	_	NOUN	_	_	13	nmod	_	_
@@ -7053,11 +7533,12 @@
 8	abzüglich	_	ADP	_	_	9	case	_	_
 9	Ersatzteile	_	NOUN	_	_	13	nmod	_	_
 10	nur	_	ADV	_	_	13	advmod	_	_
-11	8	_	NUM	_	_	12	nummod	_	_
+11	8	_	NUM	_	NumType=Card	12	nummod	_	_
 12	€	_	X	_	_	13	nsubjpass	_	_
 13	berechnet	_	VERB	_	_	0	root	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s481/de
 1	Ausserdem	_	ADV	_	_	6	advmod	_	_
 2	ist	_	VERB	_	_	6	cop	_	_
 3	das	_	DET	_	_	4	det	_	_
@@ -7072,6 +7553,7 @@
 12	gut	_	ADJ	_	_	6	conj	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s482/de
 1	Bei	_	ADP	_	_	3	case	_	_
 2	obiger	_	ADJ	_	_	3	amod	_	_
 3	Reparatur	_	NOUN	_	_	6	nmod	_	_
@@ -7090,6 +7572,7 @@
 16	muss	_	AUX	_	_	14	aux	_	_
 17	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s483/de
 1	Das	_	PRON	_	_	6	dobj	_	_
 2	haben	_	AUX	_	_	6	aux	_	_
 3	sie	_	PRON	_	_	6	nsubj	_	_
@@ -7103,6 +7586,7 @@
 11	berechnen	_	VERB	_	_	6	xcomp	_	_
 12	!	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s484/de
 1	Zusätzlich	_	ADV	_	_	2	advmod	_	_
 2	bildet	_	VERB	_	_	0	root	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -7119,6 +7603,7 @@
 14	aus	_	ADP	_	_	2	mark	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s485/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	bietet	_	VERB	_	_	0	root	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -7128,12 +7613,14 @@
 7	Zukunft	_	NOUN	_	_	2	dobj	_	_
 8	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s486/de
 1	Insgesamt	_	ADV	_	_	4	advmod	_	_
 2	also	_	ADV	_	_	4	advmod	_	_
 3	absolut	_	ADV	_	_	4	advmod	_	_
 4	empfehlenswert	_	ADJ	_	_	0	root	_	_
 5	!	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s487/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Dreck	_	NOUN	_	_	5	nsubj	_	_
 3	war	_	VERB	_	_	5	cop	_	_
@@ -7141,6 +7628,7 @@
 5	weg	_	ADJ	_	_	0	root	_	_
 6	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s488/de
 1	Jetzt	_	ADV	_	_	16	advmod	_	_
 2	wird	_	AUX	_	_	16	auxpass	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -7159,6 +7647,7 @@
 16	geblasen	_	VERB	_	_	0	root	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s489/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Team	_	NOUN	_	_	4	nsubj	_	_
 3	ist	_	VERB	_	_	4	cop	_	_
@@ -7173,6 +7662,7 @@
 12	aus	_	ADP	_	_	10	mark	_	_
 13	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s490/de
 1	Ich	_	PRON	_	_	8	nsubj	_	_
 2	habe	_	AUX	_	_	8	aux	_	_
 3	einen	_	DET	_	_	4	det	_	_
@@ -7194,11 +7684,12 @@
 19	bekommen	_	VERB	_	_	8	conj	_	_
 20	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s491/de
 1	Diese	_	PRON	_	_	3	det	_	_
 2	zusätzliche	_	ADJ	_	_	3	amod	_	_
 3	Reparatur	_	NOUN	_	_	8	nsubj	_	_
 4	hat	_	AUX	_	_	8	aux	_	_
-5	6	_	NUM	_	_	7	nummod	_	_
+5	6	_	NUM	_	NumType=Card	7	nummod	_	_
 6	zusätzliche	_	ADJ	_	_	7	amod	_	_
 7	Tage	_	NOUN	_	_	8	dobj	_	_
 8	gedauert	_	VERB	_	_	0	root	_	_
@@ -7212,6 +7703,7 @@
 16	bezahlen	_	VERB	_	_	8	conj	_	_
 17	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s492/de
 1	Darüber	_	ADV	_	_	8	advmod	_	_
 2	hinaus	_	ADV	_	_	1	advmod	_	_
 3	sollten	_	AUX	_	_	8	aux	_	_
@@ -7230,7 +7722,7 @@
 16	obwohl	_	SCONJ	_	_	24	mark	_	_
 17	das	_	DET	_	_	18	det	_	_
 18	Auto	_	NOUN	_	_	24	nsubj	_	_
-19	10	_	NUM	_	_	20	nummod	_	_
+19	10	_	NUM	_	NumType=Card	20	nummod	_	_
 20	Tage	_	NOUN	_	_	24	nmod	_	_
 21	in	_	ADP	_	_	23	case	_	_
 22	der	_	DET	_	_	23	det	_	_
@@ -7238,6 +7730,7 @@
 24	stand	_	VERB	_	_	14	advcl	_	_
 25	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s493/de
 1	Leider	_	ADV	_	_	2	advmod	_	_
 2	war	_	VERB	_	_	0	root	_	_
 3	ich	_	PRON	_	_	2	nsubj	_	_
@@ -7255,6 +7748,7 @@
 15	musste	_	AUX	_	_	13	aux	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s494/de
 1	Zuerst	_	ADV	_	_	11	advmod	_	_
 2	hatte	_	AUX	_	_	11	aux	_	_
 3	man	_	PRON	_	_	11	nsubj	_	_
@@ -7263,11 +7757,12 @@
 6	meine	_	PRON	_	_	8	det	_	_
 7	alte	_	ADJ	_	_	8	amod	_	_
 8	Lichtmaschine	_	NOUN	_	_	11	nmod	_	_
-9	150	_	NUM	_	_	10	nummod	_	_
+9	150	_	NUM	_	NumType=Card	10	nummod	_	_
 10	€	_	X	_	_	11	dobj	_	_
 11	versprochen	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s495/de
 1-2	am	_	_	_	_	_	_	_	_
 1	An	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -7277,15 +7772,17 @@
 6	dann	_	ADV	_	_	10	advmod	_	_
 7	nur	_	ADV	_	_	8	advmod	_	_
 8	noch	_	ADV	_	_	9	advmod	_	_
-9	94	_	NUM	_	_	10	nummod	_	_
+9	94	_	NUM	_	NumType=Card	10	nummod	_	_
 10	€	_	X	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s496/de
 1	Centro	_	PROPN	_	_	3	nsubj	_	_
 2	ist	_	VERB	_	_	3	cop	_	_
 3	Wunderbar	_	ADJ	_	_	0	root	_	_
 4	!	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s497/de
 1	Also	_	ADV	_	_	6	advmod	_	_
 2	für	_	ADP	_	_	3	case	_	_
 3	mich	_	PRON	_	_	6	nmod	_	_
@@ -7308,6 +7805,7 @@
 19	ist	_	VERB	_	_	6	advcl	_	_
 20	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s498/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Atmosphäre	_	NOUN	_	_	3	nsubj	_	_
 3	gefällt	_	VERB	_	_	0	root	_	_
@@ -7315,6 +7813,7 @@
 5	jeden	_	PRON	_	_	3	iobj	_	_
 6	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s499/de
 1	Da	_	ADV	_	_	2	advmod	_	_
 2	gibt	_	VERB	_	_	0	root	_	_
 3	es	_	PRON	_	_	2	nsubj	_	_
@@ -7327,6 +7826,7 @@
 10	Süden	_	NOUN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s500/de
 1	Aber	_	CONJ	_	_	4	cc	_	_
 2	man	_	PRON	_	_	4	nsubj	_	_
 3	muss	_	AUX	_	_	4	aux	_	_
@@ -7347,6 +7847,7 @@
 17	läuft	_	VERB	_	_	4	ccomp	_	_
 18	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s501/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Ziel	_	NOUN	_	_	6	nsubj	_	_
 3	ist	_	VERB	_	_	6	cop	_	_
@@ -7381,6 +7882,7 @@
 32	zieht	_	VERB	_	_	10	acl	_	_
 33	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s502/de
 1	Spöri	_	PROPN	_	_	14	nsubj	_	_
 2	,	_	PUNCT	_	_	14	punct	_	_
 3	SPD	_	PROPN	_	_	5	name	_	_
@@ -7422,6 +7924,7 @@
 39	hat	_	AUX	_	_	38	aux	_	_
 40	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s503/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Großbauern	_	NOUN	_	_	3	nsubj	_	_
 3	streichen	_	VERB	_	_	0	root	_	_
@@ -7434,6 +7937,7 @@
 10	wenig	_	PRON	_	_	9	dobj	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s504/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	bin	_	VERB	_	_	0	root	_	_
 3	dagegen	_	ADV	_	_	2	advmod	_	_
@@ -7444,13 +7948,14 @@
 8	Erfahrungen	_	NOUN	_	_	15	dobj	_	_
 9	der	_	DET	_	_	12	det	_	_
 10	letzten	_	ADJ	_	_	12	amod	_	_
-11	30	_	NUM	_	_	12	nummod	_	_
+11	30	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Jahre	_	NOUN	_	_	8	det	_	_
 13	über	_	ADP	_	_	14	case	_	_
 14	Bord	_	NOUN	_	_	15	nmod	_	_
 15	werfen	_	VERB	_	_	2	ccomp	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s505/de
 1	Weber	_	PROPN	_	_	2	nsubj	_	_
 2	sucht	_	VERB	_	_	0	root	_	_
 3	noch	_	ADV	_	_	2	advmod	_	_
@@ -7472,6 +7977,7 @@
 19	passen	_	VERB	_	_	2	advcl	_	_
 20	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s506/de
 1	Tritium	_	PROPN	_	_	3	nsubj	_	_
 2	ist	_	VERB	_	_	3	cop	_	_
 3	radioaktiv	_	ADJ	_	_	0	root	_	_
@@ -7487,6 +7993,7 @@
 12	ein	_	ADV	_	_	5	mark	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s507/de
 1	EU	_	PROPN	_	_	3	name	_	_
 2	--	_	PUNCT	_	_	3	punct	_	_
 3	Staaten	_	NOUN	_	_	18	nsubj	_	_
@@ -7517,7 +8024,7 @@
 27	--	_	PUNCT	_	_	28	punct	_	_
 28	Wiwa	_	PROPN	_	_	24	appos	_	_
 29	und	_	CONJ	_	_	24	cc	_	_
-30	acht	_	NUM	_	_	32	nummod	_	_
+30	acht	_	NUM	_	NumType=Card	32	nummod	_	_
 31	weitere	_	ADJ	_	_	32	amod	_	_
 32	Politiker	_	NOUN	_	_	24	conj	_	_
 33	rückgängig	_	ADJ	_	_	35	xcomp	_	_
@@ -7525,6 +8032,7 @@
 35	machen	_	VERB	_	_	18	xcomp	_	_
 36	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s508/de
 1	Dank	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Geldmarktfonds	_	NOUN	_	_	4	nmod	_	_
@@ -7537,11 +8045,12 @@
 10	von	_	ADP	_	_	14	case	_	_
 11	per	_	ADP	_	_	12	case	_	_
 12	saldo	_	NOUN	_	_	14	nmod	_	_
-13	5,2	_	NUM	_	_	14	nummod	_	_
+13	5,2	_	NUM	_	NumType=Card	14	nummod	_	_
 14	Milliarden	_	NOUN	_	_	9	nmod	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
-1	Elf	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s509/de
+1	Elf	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Häuser	_	NOUN	_	_	5	nsubjpass	_	_
 3	seien	_	VERB	_	_	5	cop	_	_
 4	derzeit	_	ADV	_	_	5	advmod	_	_
@@ -7555,6 +8064,7 @@
 12	stehe	_	VERB	_	_	5	advcl	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s510/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Stabilitätspakt	_	NOUN	_	_	9	nsubj	_	_
 3	für	_	ADP	_	_	4	case	_	_
@@ -7582,6 +8092,7 @@
 25	Waigel	_	NOUN	_	_	24	nsubj	_	_
 26	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s511/de
 1-2	im	_	_	_	_	_	_	_	_
 1	In	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -7596,10 +8107,10 @@
 11-12	zum	_	_	_	_	_	_	_	_
 11	zu	_	ADP	_	_	15	case	_	_
 12	dem	_	DET	_	_	15	det	_	_
-13	1	_	NUM	_	_	15	amod	_	_
+13	1	_	NUM	_	NumType=Card	15	amod	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 15	Januar	_	PROPN	_	_	17	nmod	_	_
-16	1996	_	NUM	_	_	15	nmod	_	_
+16	1996	_	NUM	_	NumType=Card	15	nmod	_	_
 17	geplanten	_	ADJ	_	_	18	amod	_	_
 18	Zollunion	_	NOUN	_	_	9	det	_	_
 19	der	_	DET	_	_	20	det	_	_
@@ -7610,6 +8121,7 @@
 24	entscheiden	_	VERB	_	_	0	root	_	_
 25	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s512/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Sozialdemokraten	_	NOUN	_	_	3	nsubj	_	_
 3	suchen	_	VERB	_	_	0	root	_	_
@@ -7620,6 +8132,7 @@
 8	Carlsson	_	PROPN	_	_	7	appos	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s513/de
 1	Ansicht	_	NOUN	_	_	12	dep	_	_
 2	des	_	DET	_	_	3	det	_	_
 3	Ministers	_	NOUN	_	_	1	det	_	_
@@ -7635,11 +8148,13 @@
 13	''	_	PUNCT	_	_	9	punct	_	_
 14	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s514/de
 1	Ghali	_	PROPN	_	_	2	nsubj	_	_
 2	besucht	_	VERB	_	_	0	root	_	_
 3	Auschwitz	_	PROPN	_	_	2	dobj	_	_
 4	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s515/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Geheimdienst	_	NOUN	_	_	3	nsubj	_	_
 3	wußte	_	VERB	_	_	0	root	_	_
@@ -7648,6 +8163,7 @@
 6	Mordplänen	_	NOUN	_	_	3	nmod	_	_
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s516/de
 1	Das	_	DET	_	_	3	det	_	_
 2	israelische	_	ADJ	_	_	3	amod	_	_
 3	Fernsehen	_	NOUN	_	_	4	nsubj	_	_
@@ -7658,7 +8174,7 @@
 8	Attentäter	_	NOUN	_	_	18	nsubj	_	_
 9	und	_	CONJ	_	_	8	cc	_	_
 10	sein	_	PRON	_	_	14	det	_	_
-11	zwei	_	NUM	_	_	12	nummod	_	_
+11	zwei	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Jahre	_	NOUN	_	_	13	nmod	_	_
 13	älterer	_	ADJ	_	_	14	amod	_	_
 14	Bruder	_	NOUN	_	_	8	conj	_	_
@@ -7671,6 +8187,7 @@
 21	umzubringen	_	VERB	_	_	18	xcomp	_	_
 22	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s517/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Sprecher	_	NOUN	_	_	10	nsubj	_	_
 3	des	_	DET	_	_	5	det	_	_
@@ -7698,10 +8215,11 @@
 25	''	_	PUNCT	_	_	10	punct	_	_
 26	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s518/de
 1	Wie	_	ADV	_	_	11	advmod	_	_
 2	können	_	AUX	_	_	11	aux	_	_
 3	europaweit	_	ADV	_	_	11	advmod	_	_
-4	15	_	NUM	_	_	5	nummod	_	_
+4	15	_	NUM	_	NumType=Card	5	nummod	_	_
 5	Millionen	_	NOUN	_	_	10	nummod	_	_
 6	neue	_	ADJ	_	_	10	amod	_	_
 7	,	_	PUNCT	_	_	6	punct	_	_
@@ -7712,6 +8230,7 @@
 12	werden	_	AUX	_	_	11	auxpass	_	_
 13	?	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s519/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Machthaber	_	NOUN	_	_	12	nsubj	_	_
 3	wollen	_	AUX	_	_	12	aux	_	_
@@ -7722,9 +8241,10 @@
 8	freien	_	ADJ	_	_	9	amod	_	_
 9	Parlamentswahlen	_	NOUN	_	_	5	det	_	_
 10	von	_	ADP	_	_	11	case	_	_
-11	1991	_	NUM	_	_	9	nmod	_	_
+11	1991	_	NUM	_	NumType=Card	9	nmod	_	_
 12	löschen	_	VERB	_	_	0	root	_	_
 
+# sent_id dev-s520/de
 1	Gewalt	_	NOUN	_	_	2	nsubj	_	_
 2	provoziert	_	VERB	_	_	0	root	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -7733,6 +8253,7 @@
 6	andere	_	PRON	_	_	2	dobj	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s521/de
 1	Der	_	DET	_	_	3	det	_	_
 2	Braunschweiger	_	ADJ	_	_	3	amod	_	_
 3	Biologe	_	NOUN	_	_	4	nsubj	_	_
@@ -7744,6 +8265,7 @@
 8	Steuer	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s522/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Maßnahmen	_	NOUN	_	_	3	nsubj	_	_
 3	gelten	_	VERB	_	_	0	root	_	_
@@ -7760,6 +8282,7 @@
 14	sind	_	VERB	_	_	13	cop	_	_
 15	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s523/de
 1	Aber	_	CONJ	_	_	3	cc	_	_
 2	wir	_	PRON	_	_	3	nsubj	_	_
 3	lassen	_	VERB	_	_	0	root	_	_
@@ -7768,6 +8291,7 @@
 6	unterkriegen	_	VERB	_	_	3	xcomp	_	_
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s524/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Chefs	_	NOUN	_	_	8	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -7781,6 +8305,7 @@
 11	nicht	_	PART	_	_	8	neg	_	_
 12	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s525/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Außenminister	_	NOUN	_	_	13	nsubj	_	_
 3	hat	_	AUX	_	_	13	aux	_	_
@@ -7796,6 +8321,7 @@
 13	ausgesprochen	_	VERB	_	_	0	root	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s526/de
 1	Den	_	DET	_	_	2	det	_	_
 2	Ergebnissen	_	NOUN	_	_	4	nmod	_	_
 3	zufolge	_	ADP	_	_	2	case	_	_
@@ -7807,6 +8333,7 @@
 9	Stimmen	_	NOUN	_	_	4	dobj	_	_
 10	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s527/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Zusage	_	NOUN	_	_	9	nsubj	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -7843,14 +8370,15 @@
 32	(	_	PUNCT	_	_	33	punct	_	_
 33	Az.	_	X	_	_	31	appos	_	_
 34	:	_	PUNCT	_	_	33	punct	_	_
-35	5	_	NUM	_	_	33	nummod	_	_
+35	5	_	NUM	_	NumType=Card	33	nummod	_	_
 36	AZR	_	X	_	_	35	dep	_	_
-37	216	_	NUM	_	_	36	nummod	_	_
+37	216	_	NUM	_	NumType=Card	36	nummod	_	_
 38	/	_	PUNCT	_	_	37	punct	_	_
-39	94	_	NUM	_	_	38	nummod	_	_
+39	94	_	NUM	_	NumType=Card	38	nummod	_	_
 40	)	_	PUNCT	_	_	33	punct	_	_
 41	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s528/de
 1	Interessierte	_	ADJ	_	_	2	amod	_	_
 2	Länder	_	NOUN	_	_	6	nsubjpass	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -7867,6 +8395,7 @@
 14	helfen	_	VERB	_	_	6	xcomp	_	_
 15	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s529/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Verkehrsplaner	_	NOUN	_	_	9	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -7884,6 +8413,7 @@
 14	bereit	_	ADV	_	_	9	mark	_	_
 15	:	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s530/de
 1	Manchmal	_	ADV	_	_	9	advmod	_	_
 2	könne	_	AUX	_	_	9	aux	_	_
 3	sie	_	PRON	_	_	9	nsubj	_	_
@@ -7898,6 +8428,7 @@
 12	sie	_	PRON	_	_	11	nsubj	_	_
 13	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s531/de
 1	Bei	_	ADP	_	_	3	case	_	_
 2	schlechten	_	ADJ	_	_	3	amod	_	_
 3	Karten	_	NOUN	_	_	17	nmod	_	_
@@ -7919,6 +8450,7 @@
 17	zwingen	_	VERB	_	_	0	root	_	_
 18	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s532/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Bonus	_	NOUN	_	_	21	dobj	_	_
 3	für	_	ADP	_	_	5	case	_	_
@@ -7946,6 +8478,7 @@
 23	nicht	_	PART	_	_	21	neg	_	_
 24	.	_	PUNCT	_	_	21	punct	_	_
 
+# sent_id dev-s533/de
 1	Das	_	DET	_	_	3	det	_	_
 2	Berliner	_	ADJ	_	_	3	amod	_	_
 3	Landgericht	_	NOUN	_	_	18	nsubj	_	_
@@ -7954,7 +8487,7 @@
 5	an	_	ADP	_	_	7	case	_	_
 6	dem	_	DET	_	_	7	det	_	_
 7	Montag	_	PROPN	_	_	18	nmod	_	_
-8	zwei	_	NUM	_	_	12	nummod	_	_
+8	zwei	_	NUM	_	NumType=Card	12	nummod	_	_
 9	ehemalige	_	ADJ	_	_	12	amod	_	_
 10	DDR	_	PROPN	_	_	12	name	_	_
 11	--	_	PUNCT	_	_	12	punct	_	_
@@ -7968,6 +8501,7 @@
 18	freigesprochen	_	VERB	_	_	0	root	_	_
 19	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s534/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Zahl	_	NOUN	_	_	19	nsubj	_	_
 3	der	_	DET	_	_	6	det	_	_
@@ -7980,15 +8514,16 @@
 10	habe	_	AUX	_	_	19	aux	_	_
 11	sich	_	PRON	_	_	19	dobj	_	_
 12	von	_	ADP	_	_	13	case	_	_
-13	1985	_	NUM	_	_	19	nmod	_	_
+13	1985	_	NUM	_	NumType=Card	19	nmod	_	_
 14	bis	_	ADP	_	_	15	case	_	_
-15	1993	_	NUM	_	_	19	nmod	_	_
+15	1993	_	NUM	_	NumType=Card	19	nmod	_	_
 16	auf	_	ADP	_	_	18	case	_	_
-17	61	_	NUM	_	_	18	nummod	_	_
-18	000	_	NUM	_	_	19	nmod	_	_
+17	61	_	NUM	_	NumType=Card	18	nummod	_	_
+18	000	_	NUM	_	NumType=Card	19	nmod	_	_
 19	verdoppelt	_	VERB	_	_	0	root	_	_
 20	.	_	PUNCT	_	_	19	punct	_	_
 
+# sent_id dev-s535/de
 1	Die	_	DET	_	_	3	det	_	_
 2	``	_	PUNCT	_	_	3	punct	_	_
 3	Weisen	_	NOUN	_	_	12	nsubj	_	_
@@ -8004,6 +8539,7 @@
 12	vorstellen	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s536/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Arbeit	_	NOUN	_	_	16	nsubjpass	_	_
 3	sollte	_	AUX	_	_	16	aux	_	_
@@ -8035,6 +8571,7 @@
 29	fegen	_	VERB	_	_	23	acl	_	_
 30	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s537/de
 1	Der	_	DET	_	_	3	det	_	_
 2	beste	_	ADJ	_	_	3	amod	_	_
 3	Zeitpunkt	_	NOUN	_	_	16	nsubj	_	_
@@ -8060,6 +8597,7 @@
 23	ebök	_	PROPN	_	_	21	nmod	_	_
 24	.	_	PUNCT	_	_	19	punct	_	_
 
+# sent_id dev-s538/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Festlegung	_	NOUN	_	_	10	nsubj	_	_
 3	einer	_	DET	_	_	4	det	_	_
@@ -8074,6 +8612,7 @@
 12	Demokratieprinzip	_	NOUN	_	_	10	iobj	_	_
 13	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s539/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Opposition	_	NOUN	_	_	15	nsubj	_	_
 3	islamistischer	_	ADJ	_	_	4	amod	_	_
@@ -8091,6 +8630,7 @@
 15	ausgesprochen	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s540/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bundesrepublik	_	NOUN	_	_	5	nsubj	_	_
 3	muß	_	AUX	_	_	5	aux	_	_
@@ -8124,18 +8664,19 @@
 31	.	_	PUNCT	_	_	5	punct	_	_
 32	''	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s541/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Mobilfunkbetreiber	_	NOUN	_	_	23	nsubj	_	_
 3	Telekom	_	PROPN	_	_	2	appos	_	_
 4	(	_	PUNCT	_	_	5	punct	_	_
 5	D	_	X	_	_	3	appos	_	_
-6	1	_	NUM	_	_	5	nummod	_	_
+6	1	_	NUM	_	NumType=Card	5	nummod	_	_
 7	,	_	PUNCT	_	_	3	punct	_	_
 8	)	_	PUNCT	_	_	5	punct	_	_
 9	Mannesmann	_	PROPN	_	_	3	conj	_	_
 10	(	_	PUNCT	_	_	11	punct	_	_
 11	D	_	X	_	_	9	appos	_	_
-12	2	_	NUM	_	_	11	nummod	_	_
+12	2	_	NUM	_	NumType=Card	11	nummod	_	_
 13	)	_	PUNCT	_	_	11	punct	_	_
 14	und	_	CONJ	_	_	3	cc	_	_
 15	Thyssen	_	PROPN	_	_	3	conj	_	_
@@ -8153,6 +8694,7 @@
 27	Konkurrenz	_	NOUN	_	_	23	dobj	_	_
 28	.	_	PUNCT	_	_	23	punct	_	_
 
+# sent_id dev-s542/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bundesrepublik	_	PROPN	_	_	21	nsubj	_	_
 3	werde	_	AUX	_	_	21	aux	_	_
@@ -8177,6 +8719,7 @@
 22	''	_	PUNCT	_	_	21	punct	_	_
 23	.	_	PUNCT	_	_	21	punct	_	_
 
+# sent_id dev-s543/de
 1	Die	_	DET	_	_	2	det	_	_
 2	FRG	_	PROPN	_	_	3	nsubj	_	_
 3	lebt	_	VERB	_	_	0	root	_	_
@@ -8191,6 +8734,7 @@
 12	Montt	_	PROPN	_	_	9	nmod	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s544/de
 1	Bundeskanzler	_	NOUN	_	_	3	compound	_	_
 2	Helmut	_	PROPN	_	_	3	name	_	_
 3	Kohl	_	PROPN	_	_	7	nsubj	_	_
@@ -8208,6 +8752,7 @@
 15	Reise	_	NOUN	_	_	7	nmod	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s545/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Druck	_	NOUN	_	_	17	nsubj	_	_
 3	auf	_	ADP	_	_	7	case	_	_
@@ -8228,6 +8773,7 @@
 17	zugenommen	_	VERB	_	_	0	root	_	_
 18	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s546/de
 1	BASF	_	PROPN	_	_	2	nsubj	_	_
 2	interessierte	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -8251,6 +8797,7 @@
 21	ist	_	VERB	_	_	14	ccomp	_	_
 22	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s547/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Urteil	_	NOUN	_	_	7	nsubjpass	_	_
 3	soll	_	AUX	_	_	7	aux	_	_
@@ -8262,6 +8809,7 @@
 8	werden	_	AUX	_	_	7	auxpass	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s548/de
 1	Religion	_	NOUN	_	_	4	nsubj	_	_
 2	ist	_	VERB	_	_	4	cop	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -8270,6 +8818,7 @@
 6	Namen	_	NOUN	_	_	4	det	_	_
 7	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s549/de
 1	Philosophie	_	NOUN	_	_	2	nsubj	_	_
 2	vertrage	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -8281,7 +8830,8 @@
 9	Marktwirtschaft	_	NOUN	_	_	2	nmod	_	_
 10	.	_	PUNCT	_	_	2	punct	_	_
 
-1	1987	_	NUM	_	_	2	nmod	_	_
+# sent_id dev-s550/de
+1	1987	_	NUM	_	NumType=Card	2	nmod	_	_
 2	häufen	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
 4	jedoch	_	ADV	_	_	2	advmod	_	_
@@ -8289,6 +8839,7 @@
 6	Fälle	_	NOUN	_	_	2	nsubj	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s551/de
 1	Es	_	PRON	_	_	2	expl	_	_
 2	besteht	_	VERB	_	_	0	root	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -8309,6 +8860,7 @@
 17	werden	_	AUX	_	_	16	auxpass	_	_
 18	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s552/de
 1	Anlaß	_	NOUN	_	_	6	nsubj	_	_
 2-3	zur	_	_	_	_	_	_	_	_
 2	zu	_	ADP	_	_	4	case	_	_
@@ -8334,6 +8886,7 @@
 22	Perspektive	_	NOUN	_	_	10	conj	_	_
 23	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s553/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Mehrheit	_	NOUN	_	_	5	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -8370,6 +8923,7 @@
 32	Mehrheit	_	NOUN	_	_	20	nmod	_	_
 33	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s554/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Geld	_	NOUN	_	_	6	nsubj	_	_
 3	wird	_	VERB	_	_	6	cop	_	_
@@ -8400,6 +8954,7 @@
 28	werden	_	AUX	_	_	27	auxpass	_	_
 29	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s555/de
 1	Das	_	PRON	_	_	2	nsubj	_	_
 2	ist	_	VERB	_	_	26	ccomp	_	_
 3	so	_	ADV	_	_	2	advmod	_	_
@@ -8440,6 +8995,7 @@
 38	versucht	_	VERB	_	_	26	advcl	_	_
 39	.	_	PUNCT	_	_	26	punct	_	_
 
+# sent_id dev-s556/de
 1	Wer	_	PRON	_	_	8	nsubj	_	_
 2	in	_	ADP	_	_	3	case	_	_
 3	China	_	PROPN	_	_	8	nmod	_	_
@@ -8463,6 +9019,7 @@
 20	vorbeischleichen	_	VERB	_	_	0	root	_	_
 21	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s557/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Handel	_	NOUN	_	_	3	nsubj	_	_
 3	wächst	_	VERB	_	_	0	root	_	_
@@ -8473,6 +9030,7 @@
 8	Produktion	_	NOUN	_	_	5	nmod	_	_
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s558/de
 1	In	_	ADP	_	_	2	case	_	_
 2	Toulouse	_	PROPN	_	_	3	nmod	_	_
 3	legten	_	VERB	_	_	0	root	_	_
@@ -8482,6 +9040,7 @@
 7	lahm	_	ADV	_	_	3	mark	_	_
 8	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s559/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Genossinnen	_	NOUN	_	_	10	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -8519,6 +9078,7 @@
 34	ist	_	AUX	_	_	33	auxpass	_	_
 35	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s560/de
 1	Unglaublich	_	ADV	_	_	2	advmod	_	_
 2	instinktlos	_	ADJ	_	_	4	xcomp	_	_
 3	''	_	PUNCT	_	_	4	punct	_	_
@@ -8528,6 +9088,7 @@
 7	das	_	PRON	_	_	4	dobj	_	_
 8	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s561/de
 1	Sensation	_	NOUN	_	_	0	root	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	die	_	PRON	_	_	5	dobj	_	_
@@ -8536,6 +9097,7 @@
 6	hatte	_	AUX	_	_	5	aux	_	_
 7	?	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s562/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	stehen	_	VERB	_	_	14	ccomp	_	_
 3	in	_	ADP	_	_	7	case	_	_
@@ -8554,6 +9116,7 @@
 16	darin	_	ADV	_	_	14	advmod	_	_
 17	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s563/de
 1	Offenbar	_	ADV	_	_	2	advmod	_	_
 2	gab	_	VERB	_	_	0	root	_	_
 3	es	_	PRON	_	_	2	nsubj	_	_
@@ -8571,12 +9134,13 @@
 15	einig	_	ADJ	_	_	2	conj	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s564/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Start	_	NOUN	_	_	7	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
 4	Pflegehilfe	_	NOUN	_	_	2	det	_	_
 5	Anfang	_	NOUN	_	_	6	compound	_	_
-6	1996	_	NUM	_	_	7	nmod	_	_
+6	1996	_	NUM	_	NumType=Card	7	nmod	_	_
 7	gehörte	_	VERB	_	_	0	root	_	_
 8	zu	_	ADP	_	_	10	case	_	_
 9	den	_	DET	_	_	10	det	_	_
@@ -8585,13 +9149,14 @@
 12	Chiracs	_	PROPN	_	_	10	det	_	_
 13	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s565/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Konferenzdokumente	_	NOUN	_	_	11	nsubj	_	_
 3	,	_	PUNCT	_	_	11	punct	_	_
 4	insbesondere	_	ADV	_	_	6	advmod	_	_
 5	die	_	DET	_	_	6	det	_	_
 6	Agenda	_	NOUN	_	_	2	appos	_	_
-7	21	_	NUM	_	_	6	nummod	_	_
+7	21	_	NUM	_	NumType=Card	6	nummod	_	_
 8	der	_	DET	_	_	9	det	_	_
 9	UNCED	_	PROPN	_	_	6	det	_	_
 10	,	_	PUNCT	_	_	11	punct	_	_
@@ -8609,6 +9174,7 @@
 21	fest	_	ADV	_	_	11	mark	_	_
 22	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s566/de
 1	Soziale	_	ADJ	_	_	2	amod	_	_
 2	Bewegungen	_	NOUN	_	_	3	nsubj	_	_
 3	leiten	_	VERB	_	_	0	root	_	_
@@ -8636,6 +9202,7 @@
 25	machen	_	VERB	_	_	13	xcomp	_	_
 26	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s567/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Zahl	_	NOUN	_	_	5	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -8659,6 +9226,7 @@
 21	einzurichten	_	VERB	_	_	16	xcomp	_	_
 22	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s568/de
 1	Horn	_	PROPN	_	_	15	nsubj	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	Louise	_	PROPN	_	_	4	name	_	_
@@ -8676,6 +9244,7 @@
 15	vertreten	_	ADJ	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s569/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	wollte	_	AUX	_	_	4	aux	_	_
 3	nicht	_	PART	_	_	4	neg	_	_
@@ -8696,6 +9265,7 @@
 18	umsetzen	_	VERB	_	_	4	conj	_	_
 19	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s570/de
 1	Wolff	_	PROPN	_	_	17	nsubj	_	_
 2	,	_	PUNCT	_	_	17	punct	_	_
 3	der	_	PRON	_	_	15	nsubj	_	_
@@ -8717,6 +9287,7 @@
 18	Optimismus	_	NOUN	_	_	17	dobj	_	_
 19	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s571/de
 1	Der	_	DET	_	_	3	det	_	_
 2	rasante	_	ADJ	_	_	3	amod	_	_
 3	Prozeß	_	NOUN	_	_	6	nsubj	_	_
@@ -8736,6 +9307,7 @@
 17	Werte	_	NOUN	_	_	8	conj	_	_
 18	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s572/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Südafrikaner	_	NOUN	_	_	3	nsubj	_	_
 3	reagierte	_	VERB	_	_	0	root	_	_
@@ -8758,10 +9330,11 @@
 20	werde	_	AUX	_	_	19	aux	_	_
 21	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s573/de
 1	Dem	_	DET	_	_	7	det	_	_
 2	seit	_	ADP	_	_	5	case	_	_
 3	nunmehr	_	ADV	_	_	5	advmod	_	_
-4	zwei	_	NUM	_	_	5	nummod	_	_
+4	zwei	_	NUM	_	NumType=Card	5	nummod	_	_
 5	Jahrzehnten	_	NOUN	_	_	6	nmod	_	_
 6	währenden	_	ADJ	_	_	7	amod	_	_
 7	Rechtsstreit	_	NOUN	_	_	14	iobj	_	_
@@ -8783,6 +9356,7 @@
 22	bevor	_	ADV	_	_	14	mark	_	_
 23	:	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s574/de
 1	Der	_	DET	_	_	3	det	_	_
 2	53jähriger	_	ADJ	_	_	3	amod	_	_
 3	Aussenminister	_	NOUN	_	_	4	nsubj	_	_
@@ -8796,6 +9370,7 @@
 11	Kommentare	_	NOUN	_	_	8	iobj	_	_
 12	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s575/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Menschen	_	NOUN	_	_	15	nsubj	_	_
 3	sollten	_	AUX	_	_	15	aux	_	_
@@ -8813,6 +9388,7 @@
 15	ankämpfen	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s576/de
 1	Roman	_	PROPN	_	_	2	name	_	_
 2	Herzog	_	PROPN	_	_	9	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -8827,7 +9403,7 @@
 12	Eröffnungsreden	_	NOUN	_	_	9	nmod	_	_
 13	auf	_	ADP	_	_	17	case	_	_
 14	der	_	DET	_	_	17	det	_	_
-15	35	_	NUM	_	_	17	amod	_	_
+15	35	_	NUM	_	NumType=Card	17	amod	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 17	Kommandeurstagung	_	NOUN	_	_	9	nmod	_	_
 18-19	am	_	_	_	_	_	_	_	_
@@ -8847,6 +9423,7 @@
 31	Bundeswehr	_	PROPN	_	_	29	det	_	_
 32	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s577/de
 1	Nach	_	ADP	_	_	2	case	_	_
 2	Angaben	_	NOUN	_	_	14	nmod	_	_
 3	von	_	ADP	_	_	4	case	_	_
@@ -8874,6 +9451,7 @@
 25	''	_	PUNCT	_	_	14	punct	_	_
 26	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s578/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Delegationen	_	NOUN	_	_	9	nsubj	_	_
 3	aus	_	ADP	_	_	4	case	_	_
@@ -8900,6 +9478,7 @@
 24	überbrücken	_	VERB	_	_	9	xcomp	_	_
 25	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s579/de
 1	Eltern	_	NOUN	_	_	20	nsubj	_	_
 2	dürfen	_	AUX	_	_	20	aux	_	_
 3	ihren	_	PRON	_	_	4	det	_	_
@@ -8922,6 +9501,7 @@
 20	geben	_	VERB	_	_	0	root	_	_
 21	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s580/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Vorsitzende	_	NOUN	_	_	14	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -8944,21 +9524,23 @@
 19	Justiz	_	NOUN	_	_	17	det	_	_
 20	.	_	PUNCT	_	_	14	punct	_	_
 
-1	33	_	NUM	_	_	2	nummod	_	_
-2	000	_	NUM	_	_	3	nummod	_	_
+# sent_id dev-s581/de
+1	33	_	NUM	_	NumType=Card	2	nummod	_	_
+2	000	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Wahlbüros	_	NOUN	_	_	4	nsubj	_	_
 4	öffneten	_	VERB	_	_	0	root	_	_
 5	um	_	ADP	_	_	7	case	_	_
-6	acht	_	NUM	_	_	7	nummod	_	_
+6	acht	_	NUM	_	NumType=Card	7	nummod	_	_
 7	Uhr	_	NOUN	_	_	4	nmod	_	_
 8	und	_	CONJ	_	_	4	cc	_	_
 9	sollen	_	AUX	_	_	13	aux	_	_
 10	um	_	ADP	_	_	12	case	_	_
-11	19	_	NUM	_	_	12	nummod	_	_
+11	19	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Uhr	_	NOUN	_	_	13	nmod	_	_
 13	schließen	_	VERB	_	_	4	conj	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s582/de
 1	Ministerpräsident	_	NOUN	_	_	22	nsubj	_	_
 2	Gyula	_	PROPN	_	_	3	name	_	_
 3	Horn	_	PROPN	_	_	1	appos	_	_
@@ -8983,13 +9565,14 @@
 22	bezeichnet	_	VERB	_	_	0	root	_	_
 23	.	_	PUNCT	_	_	22	punct	_	_
 
+# sent_id dev-s583/de
 1	Bis	_	ADP	_	_	11	case	_	_
 2	auf	_	ADP	_	_	4	case	_	_
 3	einen	_	DET	_	_	4	det	_	_
 4	einzigen	_	PRON	_	_	1	nmod	_	_
 5	sind	_	AUX	_	_	11	aux	_	_
 6	alle	_	ADJ	_	_	8	det	_	_
-7	206	_	NUM	_	_	8	nummod	_	_
+7	206	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Alteigentümer	_	NOUN	_	_	11	nsubj	_	_
 9	diesem	_	PRON	_	_	10	det	_	_
 10	Vorschlag	_	NOUN	_	_	11	iobj	_	_
@@ -9000,6 +9583,7 @@
 15	Bauman	_	NOUN	_	_	14	nsubj	_	_
 16	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s584/de
 1	Da	_	ADV	_	_	7	advmod	_	_
 2	kann	_	AUX	_	_	7	aux	_	_
 3	man	_	PRON	_	_	7	nsubj	_	_
@@ -9012,16 +9596,18 @@
 10	machen	_	VERB	_	_	7	conj	_	_
 11	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s585/de
 1-2	am	_	_	_	_	_	_	_	_
 1	An	_	ADP	_	_	5	case	_	_
 2	dem	_	DET	_	_	5	det	_	_
-3	17	_	NUM	_	_	5	amod	_	_
+3	17	_	NUM	_	NumType=Card	5	amod	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 5	Dezember	_	PROPN	_	_	6	nmod	_	_
 6	sind	_	VERB	_	_	0	root	_	_
 7	Wahlen	_	NOUN	_	_	6	nsubj	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s586/de
 1	Peter	_	PROPN	_	_	2	nsubj	_	_
 2	lädt	_	VERB	_	_	0	root	_	_
 3	in	_	ADP	_	_	4	case	_	_
@@ -9039,6 +9625,7 @@
 15	ein	_	ADV	_	_	2	mark	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s587/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Bundessozialgericht	_	PROPN	_	_	14	nsubj	_	_
 3	(	_	PUNCT	_	_	4	punct	_	_
@@ -9062,7 +9649,7 @@
 21	Beschäftigung	_	NOUN	_	_	18	nmod	_	_
 22	von	_	ADP	_	_	25	case	_	_
 23	unter	_	ADV	_	_	24	advmod	_	_
-24	18	_	NUM	_	_	25	nummod	_	_
+24	18	_	NUM	_	NumType=Card	25	nummod	_	_
 25	Wochenstunden	_	NOUN	_	_	21	nmod	_	_
 26	keinen	_	PRON	_	_	27	neg	_	_
 27	Anspruch	_	NOUN	_	_	30	dobj	_	_
@@ -9072,7 +9659,8 @@
 31	können	_	AUX	_	_	30	aux	_	_
 32	.	_	PUNCT	_	_	14	punct	_	_
 
-1	18	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s588/de
+1	18	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Staaten	_	NOUN	_	_	3	nsubj	_	_
 3	streben	_	VERB	_	_	0	root	_	_
 4	eine	_	DET	_	_	5	det	_	_
@@ -9082,10 +9670,11 @@
 7	zu	_	ADP	_	_	9	case	_	_
 8	dem	_	DET	_	_	9	det	_	_
 9	Jahr	_	NOUN	_	_	6	nmod	_	_
-10	2020	_	NUM	_	_	9	nmod	_	_
+10	2020	_	NUM	_	NumType=Card	9	nmod	_	_
 11	an	_	ADP	_	_	3	mark	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s589/de
 1	Edelmetall	_	NOUN	_	_	2	nsubj	_	_
 2	setzt	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -9114,13 +9703,14 @@
 25	Eheringen	_	NOUN	_	_	23	conj	_	_
 26	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s590/de
 1	Horst	_	PROPN	_	_	2	name	_	_
 2	Görtz	_	PROPN	_	_	3	nsubj	_	_
 3	denkt	_	VERB	_	_	0	root	_	_
 4	für	_	ADP	_	_	8	case	_	_
 5	die	_	DET	_	_	8	det	_	_
 6	nächsten	_	ADJ	_	_	8	amod	_	_
-7	achtzehn	_	NUM	_	_	8	nummod	_	_
+7	achtzehn	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Monate	_	NOUN	_	_	3	nmod	_	_
 9	an	_	ADP	_	_	11	case	_	_
 10	einen	_	DET	_	_	11	det	_	_
@@ -9133,6 +9723,7 @@
 17	USA	_	PROPN	_	_	14	nmod	_	_
 18	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s591/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Medizintechnik	_	NOUN	_	_	16	nsubj	_	_
 3	--	_	PUNCT	_	_	2	punct	_	_
@@ -9156,6 +9747,7 @@
 21	Krick	_	PROPN	_	_	19	appos	_	_
 22	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s592/de
 1	Schwarze	_	ADJ	_	_	2	amod	_	_
 2	Zahlen	_	NOUN	_	_	3	dobj	_	_
 3	schreibt	_	VERB	_	_	0	root	_	_
@@ -9169,6 +9761,7 @@
 11	Diagnostik	_	NOUN	_	_	9	conj	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s593/de
 1	In	_	ADP	_	_	2	case	_	_
 2	Washington	_	PROPN	_	_	3	nmod	_	_
 3	geht	_	VERB	_	_	0	root	_	_
@@ -9178,6 +9771,7 @@
 7	Macht	_	NOUN	_	_	3	nmod	_	_
 8	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s594/de
 1	Sie	_	PRON	_	_	2	nsubj	_	_
 2	braucht	_	VERB	_	_	10	ccomp	_	_
 3	Klarheit	_	NOUN	_	_	2	dobj	_	_
@@ -9191,6 +9785,7 @@
 11	er	_	PRON	_	_	10	nsubj	_	_
 12	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s595/de
 1	Präsident	_	NOUN	_	_	4	nsubj	_	_
 2	Bill	_	PROPN	_	_	3	name	_	_
 3	Clinton	_	PROPN	_	_	1	appos	_	_
@@ -9214,6 +9809,7 @@
 19	ab	_	ADP	_	_	4	mark	_	_
 20	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s596/de
 1	France	_	PROPN	_	_	2	name	_	_
 2	Telecom	_	PROPN	_	_	7	nsubj	_	_
 3	hat	_	AUX	_	_	7	aux	_	_
@@ -9228,6 +9824,7 @@
 12	Sprecher	_	NOUN	_	_	10	nsubj	_	_
 13	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s597/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Kern	_	NOUN	_	_	6	nsubj	_	_
 3	des	_	DET	_	_	4	det	_	_
@@ -9236,6 +9833,7 @@
 6	vielschichtig	_	ADJ	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s598/de
 1	Leider	_	ADV	_	_	2	advmod	_	_
 2	gibt	_	VERB	_	_	22	ccomp	_	_
 3	es	_	PRON	_	_	2	nsubj	_	_
@@ -9269,6 +9867,7 @@
 30	Tagung	_	NOUN	_	_	22	nmod	_	_
 31	.	_	PUNCT	_	_	22	punct	_	_
 
+# sent_id dev-s599/de
 1	Der	_	DET	_	_	4	det	_	_
 2	PDS	_	PROPN	_	_	4	name	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
@@ -9298,6 +9897,7 @@
 26	aufbrächten	_	VERB	_	_	7	ccomp	_	_
 27	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s600/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Sozialdemokraten	_	NOUN	_	_	3	nsubj	_	_
 3	äußerten	_	VERB	_	_	0	root	_	_
@@ -9324,12 +9924,13 @@
 24	könne	_	AUX	_	_	23	aux	_	_
 25	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s601/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Trägerrakete	_	NOUN	_	_	3	nsubj	_	_
 3	hob	_	VERB	_	_	0	root	_	_
 4	planmäßig	_	ADV	_	_	3	advmod	_	_
 5	um	_	ADP	_	_	7	case	_	_
-6	2.20	_	NUM	_	_	7	nummod	_	_
+6	2.20	_	NUM	_	NumType=Card	7	nummod	_	_
 7	Uhr	_	NOUN	_	_	3	nmod	_	_
 8	MEZ	_	X	_	_	7	appos	_	_
 9	von	_	ADP	_	_	11	case	_	_
@@ -9345,7 +9946,7 @@
 19	ab	_	ADP	_	_	3	mark	_	_
 20	und	_	CONJ	_	_	3	cc	_	_
 21	gab	_	VERB	_	_	3	conj	_	_
-22	20	_	NUM	_	_	23	nummod	_	_
+22	20	_	NUM	_	NumType=Card	23	nummod	_	_
 23	Minuten	_	NOUN	_	_	24	nmod	_	_
 24	später	_	ADV	_	_	21	advmod	_	_
 25	den	_	DET	_	_	26	det	_	_
@@ -9353,6 +9954,7 @@
 27	frei	_	ADV	_	_	21	mark	_	_
 28	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s602/de
 1	Hamas	_	PROPN	_	_	2	nsubj	_	_
 2	warf	_	VERB	_	_	0	root	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -9369,6 +9971,7 @@
 14	gegeben	_	VERB	_	_	2	ccomp	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s603/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Teilnehmer	_	NOUN	_	_	8	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -9389,6 +9992,7 @@
 18	müsse	_	AUX	_	_	16	aux	_	_
 19	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s604/de
 1	Das	_	DET	_	_	4	det	_	_
 2	U.S.	_	PROPN	_	_	4	name	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
@@ -9404,6 +10008,7 @@
 13	auferlegt	_	VERB	_	_	0	root	_	_
 14	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s605/de
 1	Petersburg	_	PROPN	_	_	4	nsubj	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
 3	Nordkaukasus	_	PROPN	_	_	1	conj	_	_
@@ -9411,6 +10016,7 @@
 5	Panzer	_	NOUN	_	_	4	dobj	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s606/de
 1	Menschen	_	NOUN	_	_	7	nsubj	_	_
 2	,	_	PUNCT	_	_	7	punct	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -9420,7 +10026,7 @@
 7	leben	_	VERB	_	_	0	root	_	_
 8	in	_	ADP	_	_	11	case	_	_
 9	den	_	DET	_	_	11	det	_	_
-10	vier	_	NUM	_	_	11	nummod	_	_
+10	vier	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Orten	_	NOUN	_	_	7	nmod	_	_
 12	St.	_	NOUN	_	_	13	compound	_	_
 13	Pankraz	_	PROPN	_	_	11	appos	_	_
@@ -9435,6 +10041,7 @@
 22	Gertraud	_	PROPN	_	_	13	conj	_	_
 23	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s607/de
 1	Straßen	_	NOUN	_	_	12	nsubj	_	_
 2	mit	_	ADP	_	_	3	case	_	_
 3	Kopfsteinpflaster	_	NOUN	_	_	1	nmod	_	_
@@ -9443,7 +10050,7 @@
 6	Gipsfassaden	_	NOUN	_	_	1	conj	_	_
 7	aus	_	ADP	_	_	11	case	_	_
 8	dem	_	DET	_	_	11	det	_	_
-9	18	_	NUM	_	_	11	amod	_	_
+9	18	_	NUM	_	NumType=Card	11	amod	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 11	Jahrhundert	_	NOUN	_	_	1	nmod	_	_
 12	machen	_	VERB	_	_	0	root	_	_
@@ -9454,6 +10061,7 @@
 17	interessant	_	ADJ	_	_	12	xcomp	_	_
 18	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s608/de
 1	Wissen	_	NOUN	_	_	6	nsubj	_	_
 2	um	_	ADP	_	_	3	case	_	_
 3	Elend	_	NOUN	_	_	1	nmod	_	_
@@ -9468,21 +10076,23 @@
 12	Himmelblau	_	NOUN	_	_	10	conj	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s609/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Ausgrabungszeit	_	NOUN	_	_	3	nsubj	_	_
 3	dauert	_	VERB	_	_	0	root	_	_
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	_	ADP	_	_	8	case	_	_
 5	dem	_	DET	_	_	8	det	_	_
-6	2	_	NUM	_	_	8	amod	_	_
+6	2	_	NUM	_	NumType=Card	8	amod	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 8	Juli	_	PROPN	_	_	3	nmod	_	_
 9	bis	_	ADP	_	_	12	case	_	_
-10	13	_	NUM	_	_	12	amod	_	_
+10	13	_	NUM	_	NumType=Card	12	amod	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 12	August	_	PROPN	_	_	3	conj	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s610/de
 1	Die	_	DET	_	_	3	det	_	_
 2	Frankfurter	_	PROPN	_	_	3	amod	_	_
 3	Rundschau	_	PROPN	_	_	4	nsubj	_	_
@@ -9495,13 +10105,14 @@
 10-11	vom	_	_	_	_	_	_	_	_
 10	von	_	ADP	_	_	14	case	_	_
 11	dem	_	DET	_	_	14	det	_	_
-12	13	_	NUM	_	_	14	amod	_	_
+12	13	_	NUM	_	NumType=Card	14	amod	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 14	November	_	PROPN	_	_	9	nmod	_	_
-15	1945	_	NUM	_	_	14	nmod	_	_
+15	1945	_	NUM	_	NumType=Card	14	nmod	_	_
 16	auf	_	ADP	_	_	4	mark	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s611/de
 1	Darauf	_	ADV	_	_	6	advmod	_	_
 2	haben	_	AUX	_	_	6	aux	_	_
 3	wir	_	PRON	_	_	6	nsubj	_	_
@@ -9535,7 +10146,7 @@
 31-32	am	_	_	_	_	_	_	_	_
 31	an	_	ADP	_	_	41	case	_	_
 32	dem	_	DET	_	_	41	det	_	_
-33	31	_	NUM	_	_	35	amod	_	_
+33	31	_	NUM	_	NumType=Card	35	amod	_	_
 34	.	_	PUNCT	_	_	33	punct	_	_
 35	Mai	_	PROPN	_	_	31	dobj	_	_
 36	aus	_	ADP	_	_	38	case	_	_
@@ -9546,6 +10157,7 @@
 41	bekanntgaben	_	VERB	_	_	25	advcl	_	_
 42	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s612/de
 1	Ministerpräsident	_	NOUN	_	_	4	nsubj	_	_
 2	Manfred	_	PROPN	_	_	3	name	_	_
 3	Stolpe	_	PROPN	_	_	1	appos	_	_
@@ -9565,6 +10177,7 @@
 16	klarzustellen	_	VERB	_	_	4	xcomp	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s613/de
 1	Pflanzen	_	NOUN	_	_	2	nsubj	_	_
 2	bestehen	_	VERB	_	_	0	root	_	_
 3	aus	_	ADP	_	_	8	case	_	_
@@ -9586,6 +10199,7 @@
 18	Festhalten	_	NOUN	_	_	15	nmod	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s614/de
 1	Alle	_	PRON	_	_	2	nsubj	_	_
 2	kamen	_	VERB	_	_	0	root	_	_
 3	erst	_	ADV	_	_	7	advmod	_	_
@@ -9602,6 +10216,7 @@
 13	Nachwuchses	_	NOUN	_	_	11	det	_	_
 14	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s615/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Ausländerbeauftragte	_	NOUN	_	_	4	nsubj	_	_
 3	Lill	_	PROPN	_	_	2	appos	_	_
@@ -9614,6 +10229,7 @@
 10	''	_	PUNCT	_	_	9	punct	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s616/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	ärgert	_	VERB	_	_	16	ccomp	_	_
 3	uns	_	PRON	_	_	2	dobj	_	_
@@ -9635,6 +10251,7 @@
 19	Schäfer	_	PROPN	_	_	17	appos	_	_
 20	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s617/de
 1	Jetzt	_	ADV	_	_	2	advmod	_	_
 2	reagiere	_	VERB	_	_	0	root	_	_
 3	ein	_	DET	_	_	4	det	_	_
@@ -9657,6 +10274,7 @@
 20	entgegenschlage	_	VERB	_	_	14	acl	_	_
 21	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s618/de
 1	Argument	_	NOUN	_	_	20	appos	_	_
 2	:	_	PUNCT	_	_	20	punct	_	_
 3	Wenn	_	SCONJ	_	_	11	mark	_	_
@@ -9679,6 +10297,7 @@
 20	verzerrt	_	VERB	_	_	0	root	_	_
 21	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s619/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Beschluß	_	NOUN	_	_	8	nsubjpass	_	_
 3	muß	_	AUX	_	_	8	aux	_	_
@@ -9691,6 +10310,7 @@
 9	werden	_	AUX	_	_	8	auxpass	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s620/de
 1-2	am	_	_	_	_	_	_	_	_
 1	An	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
@@ -9699,7 +10319,7 @@
 5	die	_	DET	_	_	7	det	_	_
 6	spanische	_	ADJ	_	_	7	amod	_	_
 7	Polizei	_	NOUN	_	_	12	nsubj	_	_
-8	acht	_	NUM	_	_	11	nummod	_	_
+8	acht	_	NUM	_	NumType=Card	11	nummod	_	_
 9	bewaffnete	_	ADJ	_	_	11	amod	_	_
 10	deutsche	_	ADJ	_	_	11	amod	_	_
 11	Skinheads	_	NOUN	_	_	12	dobj	_	_
@@ -9713,6 +10333,7 @@
 19	wollten	_	AUX	_	_	18	aux	_	_
 20	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s621/de
 1	Die	_	DET	_	_	3	det	_	_
 2	gängige	_	ADJ	_	_	3	amod	_	_
 3	Auffassung	_	NOUN	_	_	20	nsubjpass	_	_
@@ -9736,6 +10357,7 @@
 21	werden	_	AUX	_	_	20	auxpass	_	_
 22	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s622/de
 1	Sachzwänge	_	NOUN	_	_	13	nsubj	_	_
 2	des	_	DET	_	_	3	det	_	_
 3	Weltmarktes	_	NOUN	_	_	1	det	_	_
@@ -9754,6 +10376,7 @@
 16	Politik	_	NOUN	_	_	13	dobj	_	_
 17	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s623/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Jugend	_	NOUN	_	_	3	nsubj	_	_
 3	verweigert	_	VERB	_	_	0	root	_	_
@@ -9768,13 +10391,14 @@
 12	sind	_	VERB	_	_	8	cop	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s624/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Polizei	_	NOUN	_	_	3	nsubj	_	_
 3	glaubt	_	VERB	_	_	0	root	_	_
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	daß	_	SCONJ	_	_	12	mark	_	_
 6	etwa	_	ADV	_	_	7	advmod	_	_
-7	30	_	NUM	_	_	8	nummod	_	_
+7	30	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Selbstmordkommandos	_	NOUN	_	_	12	nsubj	_	_
 9	in	_	ADP	_	_	11	case	_	_
 10	der	_	DET	_	_	11	det	_	_
@@ -9782,6 +10406,7 @@
 12	sind	_	VERB	_	_	3	ccomp	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s625/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Unternehmen	_	NOUN	_	_	3	nsubj	_	_
 3	bestehen	_	VERB	_	_	0	root	_	_
@@ -9795,8 +10420,9 @@
 11	Gewerkschaft	_	NOUN	_	_	9	det	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
-1	22	_	NUM	_	_	2	nummod	_	_
-2	000	_	NUM	_	_	3	nummod	_	_
+# sent_id dev-s626/de
+1	22	_	NUM	_	NumType=Card	2	nummod	_	_
+2	000	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Urteile	_	NOUN	_	_	5	nsubjpass	_	_
 4	wurden	_	AUX	_	_	5	auxpass	_	_
 5	vollstreckt	_	VERB	_	_	0	root	_	_
@@ -9808,6 +10434,7 @@
 11	umgewandelt	_	VERB	_	_	5	conj	_	_
 12	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s627/de
 1	Vietnam	_	PROPN	_	_	2	nsubj	_	_
 2	kämpft	_	VERB	_	_	0	root	_	_
 3	mit	_	ADP	_	_	6	case	_	_
@@ -9833,6 +10460,7 @@
 22	Korruption	_	NOUN	_	_	20	conj	_	_
 23	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s628/de
 1	"	_	PUNCT	_	_	3	punct	_	_
 2	Slow	_	X	_	_	3	compound	_	_
 3	Speed	_	X	_	_	10	nsubjpass	_	_
@@ -9845,17 +10473,19 @@
 10	geschrieben	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s629/de
 1	Birkut	_	PROPN	_	_	9	nsubjpass	_	_
 2	wurde	_	AUX	_	_	9	auxpass	_	_
 3	bei	_	ADP	_	_	5	case	_	_
 4	den	_	DET	_	_	5	det	_	_
 5	Arbeiterunruhen	_	NOUN	_	_	9	nmod	_	_
-6	1970	_	NUM	_	_	9	nmod	_	_
+6	1970	_	NUM	_	NumType=Card	9	nmod	_	_
 7	in	_	ADP	_	_	8	case	_	_
 8	Danzig	_	PROPN	_	_	9	nmod	_	_
 9	erschossen	_	VERB	_	_	0	root	_	_
 10	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s630/de
 1	Höhere	_	ADJ	_	_	2	amod	_	_
 2	Wertschöpfung	_	NOUN	_	_	3	nsubj	_	_
 3	fließt	_	VERB	_	_	0	root	_	_
@@ -9870,6 +10500,7 @@
 12	Vermögensbesitzer	_	NOUN	_	_	10	conj	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s631/de
 1	Wie	_	ADV	_	_	2	advmod	_	_
 2	reimt	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -9877,22 +10508,24 @@
 5	zusammen	_	ADV	_	_	2	mark	_	_
 6	?	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s632/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bankschulden	_	NOUN	_	_	14	nsubjpass	_	_
 3	wurden	_	AUX	_	_	14	auxpass	_	_
 4	von	_	ADP	_	_	7	case	_	_
-5	930	_	NUM	_	_	6	nummod	_	_
+5	930	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Millionen	_	NOUN	_	_	7	nummod	_	_
 7	Mark	_	NOUN	_	_	14	nmod	_	_
 8	in	_	ADP	_	_	10	case	_	_
 9	der	_	DET	_	_	10	det	_	_
 10	Spitze	_	NOUN	_	_	7	nmod	_	_
 11	auf	_	ADP	_	_	13	case	_	_
-12	430	_	NUM	_	_	13	nummod	_	_
+12	430	_	NUM	_	NumType=Card	13	nummod	_	_
 13	Millionen	_	NOUN	_	_	14	nmod	_	_
 14	verringert	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s633/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	wären	_	VERB	_	_	4	cop	_	_
 3	weitaus	_	ADV	_	_	4	advmod	_	_
@@ -9922,20 +10555,22 @@
 27	Versicherungsmakler	_	NOUN	_	_	17	nsubj	_	_
 28	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s634/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Partner	_	NOUN	_	_	12	nsubj	_	_
 3	wollen	_	AUX	_	_	12	aux	_	_
 4	in	_	ADP	_	_	8	case	_	_
 5	den	_	DET	_	_	8	det	_	_
 6	ersten	_	ADJ	_	_	7	amod	_	_
-7	fünf	_	NUM	_	_	8	nummod	_	_
+7	fünf	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Jahren	_	NOUN	_	_	12	nmod	_	_
-9	85	_	NUM	_	_	10	nummod	_	_
+9	85	_	NUM	_	NumType=Card	10	nummod	_	_
 10	Millionen	_	NOUN	_	_	11	nummod	_	_
 11	Dollar	_	NOUN	_	_	12	dobj	_	_
 12	investieren	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s635/de
 1	Disney	_	PROPN	_	_	18	nsubj	_	_
 2	ist	_	AUX	_	_	18	aux	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -9957,6 +10592,7 @@
 18	gerutscht	_	VERB	_	_	0	root	_	_
 19	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s636/de
 1	Früher	_	ADV	_	_	2	advmod	_	_
 2	hatten	_	VERB	_	_	24	ccomp	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -9994,20 +10630,21 @@
 34	Höchst	_	PROPN	_	_	33	appos	_	_
 35	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s637/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Beschäftigten	_	NOUN	_	_	18	nsubj	_	_
 3	werden	_	AUX	_	_	19	aux	_	_
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	_	ADP	_	_	8	case	_	_
 5	dem	_	DET	_	_	8	det	_	_
-6	1	_	NUM	_	_	8	amod	_	_
+6	1	_	NUM	_	NumType=Card	8	amod	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 8	Juli	_	PROPN	_	_	18	nmod	_	_
 9	an	_	ADP	_	_	8	mwe	_	_
-10	38	_	NUM	_	_	14	nummod	_	_
+10	38	_	NUM	_	NumType=Card	14	nummod	_	_
 11	statt	_	ADV	_	_	14	advmod	_	_
 12	bisher	_	ADV	_	_	14	advmod	_	_
-13	36	_	NUM	_	_	14	nummod	_	_
+13	36	_	NUM	_	NumType=Card	14	nummod	_	_
 14	Stunden	_	NOUN	_	_	18	nmod	_	_
 15	in	_	ADP	_	_	17	case	_	_
 16	der	_	DET	_	_	17	det	_	_
@@ -10016,6 +10653,7 @@
 19	sein	_	VERB	_	_	18	cop	_	_
 20	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s638/de
 1	Ziel	_	NOUN	_	_	2	nsubj	_	_
 2	ist	_	VERB	_	_	0	root	_	_
 3	es	_	PRON	_	_	2	expl	_	_
@@ -10032,6 +10670,7 @@
 14	anzuheben	_	VERB	_	_	8	conj	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s639/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Welt	_	NOUN	_	_	10	nsubj	_	_
 3	nach	_	ADP	_	_	6	case	_	_
@@ -10053,6 +10692,7 @@
 19	Breuer	_	PROPN	_	_	18	nsubj	_	_
 20	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s640/de
 1	Kernpunkte	_	NOUN	_	_	7	nsubj	_	_
 2	der	_	DET	_	_	4	det	_	_
 3	Dubliner	_	ADJ	_	_	4	amod	_	_
@@ -10092,6 +10732,7 @@
 37	Terminvorgaben	_	NOUN	_	_	17	conj	_	_
 38	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s641/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Politik	_	NOUN	_	_	3	nsubj	_	_
 3	verliere	_	VERB	_	_	0	root	_	_
@@ -10118,6 +10759,7 @@
 24	Unternehmen	_	NOUN	_	_	21	det	_	_
 25	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s642/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	hoffe	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -10135,6 +10777,7 @@
 15	.	_	PUNCT	_	_	2	punct	_	_
 16	''	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s643/de
 1	Das	_	DET	_	_	3	det	_	_
 2	Kölner	_	ADJ	_	_	3	amod	_	_
 3	Unternehmen	_	NOUN	_	_	9	nsubj	_	_
@@ -10163,6 +10806,7 @@
 26	an	_	ADP	_	_	19	mark	_	_
 27	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s644/de
 1	Ende	_	NOUN	_	_	3	compound	_	_
 2	letzten	_	ADJ	_	_	3	amod	_	_
 3	Jahres	_	NOUN	_	_	4	nmod	_	_
@@ -10200,12 +10844,13 @@
 35	Vereinigung	_	NOUN	_	_	28	det	_	_
 36	nach	_	ADP	_	_	37	case	_	_
 37	Paragraph	_	NOUN	_	_	26	nmod	_	_
-38	129	_	NUM	_	_	37	nummod	_	_
+38	129	_	NUM	_	NumType=Card	37	nummod	_	_
 39	a	_	X	_	_	38	dep	_	_
 40	Strafgesetzbuch	_	NOUN	_	_	37	compound	_	_
 41	auszuforschen	_	VERB	_	_	4	advcl	_	_
 42	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s645/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bauern	_	NOUN	_	_	3	nsubj	_	_
 3	laufen	_	VERB	_	_	0	root	_	_
@@ -10218,6 +10863,7 @@
 10	hören	_	VERB	_	_	3	advcl	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s646/de
 1	Es	_	PRON	_	_	2	expl	_	_
 2	herrscht	_	VERB	_	_	0	root	_	_
 3	Bewegung	_	NOUN	_	_	2	nsubj	_	_
@@ -10250,6 +10896,7 @@
 30	.	_	PUNCT	_	_	2	punct	_	_
 31	''	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s647/de
 1	Vor	_	ADP	_	_	2	case	_	_
 2	kurzem	_	NOUN	_	_	14	nmod	_	_
 3	hatte	_	AUX	_	_	14	aux	_	_
@@ -10267,6 +10914,7 @@
 14	erklärt	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s648/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Konjunktur	_	NOUN	_	_	5	nsubj	_	_
 3	in	_	ADP	_	_	4	case	_	_
@@ -10289,6 +10937,7 @@
 19	an	_	ADP	_	_	5	mark	_	_
 20	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s649/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Konzernsprecher	_	NOUN	_	_	11	nsubj	_	_
 3	wollte	_	AUX	_	_	11	aux	_	_
@@ -10304,6 +10953,7 @@
 13	bestätigen	_	VERB	_	_	11	conj	_	_
 14	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s650/de
 1	In	_	ADP	_	_	2	case	_	_
 2	Deutschland	_	PROPN	_	_	3	nmod	_	_
 3	liegen	_	VERB	_	_	0	root	_	_
@@ -10333,6 +10983,7 @@
 27	Grenze	_	NOUN	_	_	22	nmod	_	_
 28	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s651/de
 1	Ziel	_	NOUN	_	_	20	ccomp	_	_
 2	sei	_	VERB	_	_	1	cop	_	_
 3	eine	_	DET	_	_	4	det	_	_
@@ -10360,6 +11011,7 @@
 25	Regierungskreisen	_	NOUN	_	_	20	nmod	_	_
 26	.	_	PUNCT	_	_	20	punct	_	_
 
+# sent_id dev-s652/de
 1	Der	_	DET	_	_	4	det	_	_
 2	U.S.	_	PROPN	_	_	4	name	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
@@ -10367,7 +11019,7 @@
 5	Milan	_	PROPN	_	_	6	name	_	_
 6	Panic	_	PROPN	_	_	4	appos	_	_
 7	,	_	PUNCT	_	_	46	punct	_	_
-8	62	_	NUM	_	_	9	nummod	_	_
+8	62	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Jahre	_	NOUN	_	_	10	nmod	_	_
 10	alt	_	ADJ	_	_	6	appos	_	_
 11	,	_	PUNCT	_	_	46	punct	_	_
@@ -10409,6 +11061,7 @@
 46	gekommen	_	VERB	_	_	0	root	_	_
 47	.	_	PUNCT	_	_	46	punct	_	_
 
+# sent_id dev-s653/de
 1	Mitterrand	_	PROPN	_	_	10	nsubj	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
 3	der	_	DET	_	_	7	det	_	_
@@ -10422,6 +11075,7 @@
 11	unverletzt	_	ADJ	_	_	10	xcomp	_	_
 12	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s654/de
 1	Bürgermeister	_	NOUN	_	_	15	nsubj	_	_
 2	Christian	_	PROPN	_	_	3	name	_	_
 3	Ude	_	PROPN	_	_	1	appos	_	_
@@ -10460,11 +11114,12 @@
 35	''	_	PUNCT	_	_	34	punct	_	_
 36	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s655/de
 1	Viele	_	ADJ	_	_	2	amod	_	_
 2	Fehler	_	NOUN	_	_	16	nsubjpass	_	_
 3	wurden	_	AUX	_	_	16	auxpass	_	_
 4	gegen	_	ADP	_	_	6	case	_	_
-5	15	_	NUM	_	_	6	nummod	_	_
+5	15	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Uhr	_	NOUN	_	_	16	nmod	_	_
 7	und	_	CONJ	_	_	16	cc	_	_
 8	die	_	DET	_	_	10	det	_	_
@@ -10472,12 +11127,13 @@
 10	Fehler	_	NOUN	_	_	16	nsubjpass	_	_
 11	wurden	_	AUX	_	_	16	auxpass	_	_
 12	gegen	_	ADP	_	_	14	case	_	_
-13	drei	_	NUM	_	_	14	nummod	_	_
+13	drei	_	NUM	_	NumType=Card	14	nummod	_	_
 14	Uhr	_	NOUN	_	_	16	nmod	_	_
 15	nachts	_	ADV	_	_	14	advmod	_	_
 16	registriert	_	VERB	_	_	0	root	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s656/de
 1	Lech	_	PROPN	_	_	2	name	_	_
 2	Walesa	_	PROPN	_	_	3	nsubj	_	_
 3	teilte	_	VERB	_	_	0	root	_	_
@@ -10501,6 +11157,7 @@
 20	Kandidatur	_	NOUN	_	_	16	nmod	_	_
 21	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s657/de
 1	Tausende	_	NOUN	_	_	2	nsubj	_	_
 2	saßen	_	VERB	_	_	0	root	_	_
 3-4	zum	_	_	_	_	_	_	_	_
@@ -10508,7 +11165,7 @@
 4	dem	_	DET	_	_	5	det	_	_
 5	Teil	_	NOUN	_	_	8	nmod	_	_
 6	über	_	ADP	_	_	8	case	_	_
-7	zwölf	_	NUM	_	_	8	nummod	_	_
+7	zwölf	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Stunden	_	NOUN	_	_	2	nmod	_	_
 9	fest	_	ADV	_	_	2	mark	_	_
 10	und	_	CONJ	_	_	2	cc	_	_
@@ -10524,6 +11181,7 @@
 20	ausharren	_	VERB	_	_	15	conj	_	_
 21	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s658/de
 1	Das	_	PRON	_	_	8	ccomp	_	_
 2	ist	_	VERB	_	_	1	cop	_	_
 3	nicht	_	PART	_	_	2	neg	_	_
@@ -10546,6 +11204,7 @@
 20	Volkskrant	_	PROPN	_	_	18	appos	_	_
 21	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s659/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Verweigerung	_	NOUN	_	_	8	nsubj	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -10572,14 +11231,15 @@
 24	dort	_	ADV	_	_	25	advmod	_	_
 25	stationierten	_	ADJ	_	_	31	amod	_	_
 26	rund	_	ADV	_	_	27	advmod	_	_
-27	30	_	NUM	_	_	28	nummod	_	_
-28	000	_	NUM	_	_	31	nummod	_	_
+27	30	_	NUM	_	NumType=Card	28	nummod	_	_
+28	000	_	NUM	_	NumType=Card	31	nummod	_	_
 29	U.S.	_	PROPN	_	_	31	name	_	_
 30	--	_	PUNCT	_	_	31	punct	_	_
 31	Soldaten	_	NOUN	_	_	22	det	_	_
 32	fordert	_	VERB	_	_	12	acl	_	_
 33	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s660/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Leute	_	NOUN	_	_	3	nsubj	_	_
 3	haben	_	VERB	_	_	0	root	_	_
@@ -10603,6 +11263,7 @@
 21	pflegen	_	VERB	_	_	3	conj	_	_
 22	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s661/de
 1	Ein	_	DET	_	_	3	det	_	_
 2	junger	_	ADJ	_	_	3	amod	_	_
 3	Mann	_	NOUN	_	_	15	nsubj	_	_
@@ -10629,6 +11290,7 @@
 23	gewesen	_	VERB	_	_	21	cop	_	_
 24	:	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s662/de
 1	Wir	_	PRON	_	_	11	nsubj	_	_
 2	haben	_	AUX	_	_	11	aux	_	_
 3	genug	_	ADV	_	_	4	advmod	_	_
@@ -10649,6 +11311,7 @@
 18	Erklärung	_	NOUN	_	_	14	dobj	_	_
 19	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s663/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	traf	_	VERB	_	_	0	root	_	_
 3	ihn	_	PRON	_	_	2	dobj	_	_
@@ -10661,6 +11324,7 @@
 10	Jerusalem	_	PROPN	_	_	2	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s664/de
 1	Diese	_	PRON	_	_	2	det	_	_
 2	Platte	_	NOUN	_	_	6	nsubj	_	_
 3	war	_	VERB	_	_	6	cop	_	_
@@ -10703,6 +11367,7 @@
 39	fühlte	_	VERB	_	_	32	advcl	_	_
 40	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s665/de
 1	Unter	_	ADP	_	_	2	case	_	_
 2	Klimaaspekten	_	NOUN	_	_	3	nmod	_	_
 3	gibt	_	VERB	_	_	12	ccomp	_	_
@@ -10723,6 +11388,7 @@
 17	ein	_	ADV	_	_	12	mark	_	_
 18	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s666/de
 1	Mit	_	ADP	_	_	3	case	_	_
 2	dem	_	DET	_	_	3	det	_	_
 3	Aufbau	_	NOUN	_	_	9	nmod	_	_
@@ -10735,6 +11401,7 @@
 10	.	_	PUNCT	_	_	9	punct	_	_
 11	''	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s667/de
 1	Berlin	_	PROPN	_	_	2	nsubj	_	_
 2	braucht	_	VERB	_	_	0	root	_	_
 3	gerade	_	ADV	_	_	2	advmod	_	_
@@ -10748,14 +11415,15 @@
 11	Regierung	_	NOUN	_	_	2	dobj	_	_
 12	.	_	PUNCT	_	_	2	punct	_	_
 
-1	1992	_	NUM	_	_	16	dep	_	_
+# sent_id dev-s668/de
+1	1992	_	NUM	_	NumType=Card	16	dep	_	_
 2	können	_	AUX	_	_	16	aux	_	_
 3	Ausländer	_	NOUN	_	_	16	nsubj	_	_
 4	,	_	PUNCT	_	_	16	punct	_	_
 5	die	_	PRON	_	_	12	nsubj	_	_
 6	seit	_	ADP	_	_	9	case	_	_
 7	mindestens	_	ADV	_	_	8	advmod	_	_
-8	fünf	_	NUM	_	_	9	nummod	_	_
+8	fünf	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Jahren	_	NOUN	_	_	12	nmod	_	_
 10	in	_	ADP	_	_	11	case	_	_
 11	Holland	_	PROPN	_	_	12	nmod	_	_
@@ -10772,6 +11440,7 @@
 22	aufzugeben	_	VERB	_	_	16	xcomp	_	_
 23	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s669/de
 1	Christen	_	NOUN	_	_	6	nsubj	_	_
 2	dürften	_	AUX	_	_	6	aux	_	_
 3	sich	_	PRON	_	_	6	dobj	_	_
@@ -10806,6 +11475,7 @@
 32	Bochum	_	PROPN	_	_	31	name	_	_
 33	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s670/de
 1	Laßt	_	VERB	_	_	0	root	_	_
 2	nie	_	ADV	_	_	1	neg	_	_
 3	zu	_	ADP	_	_	1	mark	_	_
@@ -10816,6 +11486,7 @@
 8	passiert	_	VERB	_	_	1	ccomp	_	_
 9	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s671/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Prozeß	_	NOUN	_	_	11	nsubj	_	_
 3	gegen	_	ADP	_	_	4	case	_	_
@@ -10847,6 +11518,7 @@
 28	sein	_	VERB	_	_	11	cop	_	_
 29	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s672/de
 1	Merkel	_	PROPN	_	_	2	nsubj	_	_
 2	sieht	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -10854,6 +11526,7 @@
 5	Pionier	_	NOUN	_	_	2	nmod	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s673/de
 1	Wir	_	PRON	_	_	2	det	_	_
 2	Gewerkschaften	_	NOUN	_	_	4	nsubj	_	_
 3	sind	_	VERB	_	_	4	cop	_	_
@@ -10876,6 +11549,7 @@
 20	Tarifstrukturen	_	NOUN	_	_	14	conj	_	_
 21	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s674/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gab	_	VERB	_	_	0	root	_	_
 3	bereits	_	ADV	_	_	2	advmod	_	_
@@ -10885,6 +11559,7 @@
 7	Afrika	_	PROPN	_	_	2	nmod	_	_
 8	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s675/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Kampfflugzeuge	_	NOUN	_	_	3	nsubj	_	_
 3	flogen	_	VERB	_	_	0	root	_	_
@@ -10899,6 +11574,7 @@
 11	Ostslawonien	_	PROPN	_	_	3	nmod	_	_
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s676/de
 1	Solche	_	PRON	_	_	2	det	_	_
 2	Argumente	_	NOUN	_	_	12	nsubj	_	_
 3	würden	_	AUX	_	_	12	aux	_	_
@@ -10913,6 +11589,7 @@
 12	greifen	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s677/de
 1	Presseberichten	_	NOUN	_	_	3	nmod	_	_
 2	zufolge	_	ADP	_	_	1	case	_	_
 3	boomt	_	VERB	_	_	0	root	_	_
@@ -10928,6 +11605,7 @@
 12	Land	_	NOUN	_	_	8	nmod	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s678/de
 1	Die	_	DET	_	_	3	det	_	_
 2	notwendige	_	ADJ	_	_	3	amod	_	_
 3	Glut	_	NOUN	_	_	6	dobj	_	_
@@ -10936,6 +11614,7 @@
 6	mitgebracht	_	VERB	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s679/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Unternehmer	_	NOUN	_	_	6	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -10956,9 +11635,10 @@
 17	entdeckt	_	VERB	_	_	6	conj	_	_
 18	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s680/de
 1	Um	_	ADV	_	_	3	advmod	_	_
 2	die	_	DET	_	_	4	det	_	_
-3	600	_	NUM	_	_	4	nummod	_	_
+3	600	_	NUM	_	NumType=Card	4	nummod	_	_
 4	Gulden	_	PROPN	_	_	10	dobj	_	_
 5	muß	_	AUX	_	_	10	aux	_	_
 6	man	_	PRON	_	_	10	nsubj	_	_
@@ -10972,6 +11652,7 @@
 14	Theo	_	PROPN	_	_	13	nsubj	_	_
 15	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s681/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Präsident	_	PROPN	_	_	5	nsubj	_	_
 3	Nelson	_	PROPN	_	_	4	name	_	_
@@ -10990,16 +11671,17 @@
 16	Lagos	_	PROPN	_	_	14	nmod	_	_
 17	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s682/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Dax	_	PROPN	_	_	3	nsubj	_	_
 3	schloß	_	VERB	_	_	0	root	_	_
 4	mit	_	ADP	_	_	6	case	_	_
-5	2192,82	_	NUM	_	_	6	nummod	_	_
+5	2192,82	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Punkten	_	NOUN	_	_	3	nmod	_	_
 7	und	_	CONJ	_	_	3	cc	_	_
 8	lag	_	VERB	_	_	3	conj	_	_
 9	damit	_	ADV	_	_	8	advmod	_	_
-10	20,52	_	NUM	_	_	11	nummod	_	_
+10	20,52	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Zähler	_	NOUN	_	_	14	nmod	_	_
 12	über	_	ADP	_	_	14	case	_	_
 13	seinem	_	PRON	_	_	14	det	_	_
@@ -11010,6 +11692,7 @@
 17	Mittwoch	_	PROPN	_	_	14	nmod	_	_
 18	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s683/de
 1	Die	_	DET	_	_	3	det	_	_
 2	dänischen	_	ADJ	_	_	3	amod	_	_
 3	Rentner	_	NOUN	_	_	8	nsubj	_	_
@@ -11020,6 +11703,7 @@
 8	zahlen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s684/de
 1	Günter	_	PROPN	_	_	2	name	_	_
 2	Rexrodt	_	PROPN	_	_	6	nsubj	_	_
 3	(	_	PUNCT	_	_	4	punct	_	_
@@ -11051,7 +11735,7 @@
 27	vorsieht	_	VERB	_	_	16	acl	_	_
 28	und	_	CONJ	_	_	27	cc	_	_
 29	Anfang	_	NOUN	_	_	30	compound	_	_
-30	1996	_	NUM	_	_	34	nmod	_	_
+30	1996	_	NUM	_	NumType=Card	34	nmod	_	_
 31	mit	_	ADP	_	_	33	case	_	_
 32	dem	_	DET	_	_	33	det	_	_
 33	Jahreswirtschaftsbericht	_	NOUN	_	_	34	nmod	_	_
@@ -11060,6 +11744,7 @@
 36	soll	_	AUX	_	_	34	aux	_	_
 37	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s685/de
 1	Greenpeace	_	PROPN	_	_	8	nsubj	_	_
 2	Deutschland	_	PROPN	_	_	1	name	_	_
 3	würde	_	AUX	_	_	8	aux	_	_
@@ -11081,6 +11766,7 @@
 19	Kampagne	_	NOUN	_	_	16	nmod	_	_
 20	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s686/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Entschädigungen	_	NOUN	_	_	6	nsubj	_	_
 3	für	_	ADP	_	_	5	case	_	_
@@ -11092,14 +11778,15 @@
 9	umgerechnet	_	ADV	_	_	17	advmod	_	_
 10	zwischen	_	ADV	_	_	17	advmod	_	_
 11	etwa	_	ADV	_	_	12	advmod	_	_
-12	150	_	NUM	_	_	13	nummod	_	_
-13	000	_	NUM	_	_	10	nummod	_	_
+12	150	_	NUM	_	NumType=Card	13	nummod	_	_
+13	000	_	NUM	_	NumType=Card	10	nummod	_	_
 14	und	_	CONJ	_	_	13	cc	_	_
-15	225	_	NUM	_	_	16	nummod	_	_
-16	000	_	NUM	_	_	13	conj	_	_
+15	225	_	NUM	_	NumType=Card	16	nummod	_	_
+16	000	_	NUM	_	NumType=Card	13	conj	_	_
 17	Mark	_	NOUN	_	_	6	nmod	_	_
 18	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s687/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	wissen	_	VERB	_	_	14	ccomp	_	_
 3	immer	_	ADV	_	_	4	advmod	_	_
@@ -11118,6 +11805,7 @@
 16	zu	_	ADP	_	_	14	mark	_	_
 17	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s688/de
 1	``	_	PUNCT	_	_	3	punct	_	_
 2	Wie	_	ADV	_	_	3	advmod	_	_
 3	läßt	_	VERB	_	_	0	root	_	_
@@ -11144,13 +11832,14 @@
 23	?	_	PUNCT	_	_	3	punct	_	_
 24	''	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s689/de
 1	Schleußer	_	PROPN	_	_	8	nsubj	_	_
 2	(	_	PUNCT	_	_	3	punct	_	_
 3	SPD	_	PROPN	_	_	1	appos	_	_
 4	)	_	PUNCT	_	_	3	punct	_	_
 5	ist	_	VERB	_	_	8	cop	_	_
 6	seit	_	ADP	_	_	7	case	_	_
-7	1988	_	NUM	_	_	8	nmod	_	_
+7	1988	_	NUM	_	NumType=Card	8	nmod	_	_
 8	Finanzminister	_	NOUN	_	_	0	root	_	_
 9	in	_	ADP	_	_	12	case	_	_
 10	Nordhein	_	PROPN	_	_	12	name	_	_
@@ -11158,9 +11847,10 @@
 12	Westfalen	_	PROPN	_	_	8	nmod	_	_
 13	.	_	PUNCT	_	_	8	punct	_	_
 
-1	1988	_	NUM	_	_	6	nmod	_	_
+# sent_id dev-s690/de
+1	1988	_	NUM	_	NumType=Card	6	nmod	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
-3	1990	_	NUM	_	_	1	conj	_	_
+3	1990	_	NUM	_	NumType=Card	1	conj	_	_
 4	war	_	VERB	_	_	6	cop	_	_
 5	Peres	_	PROPN	_	_	6	nsubj	_	_
 6	Finanzminister	_	NOUN	_	_	0	root	_	_
@@ -11182,6 +11872,7 @@
 22	Opposition	_	NOUN	_	_	19	nmod	_	_
 23	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s691/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Telekom	_	PROPN	_	_	3	nsubj	_	_
 3	stellt	_	VERB	_	_	0	root	_	_
@@ -11197,6 +11888,7 @@
 13	um	_	ADP	_	_	3	mark	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s692/de
 1	Das	_	DET	_	_	3	det	_	_
 2	größte	_	ADJ	_	_	3	amod	_	_
 3	Problem	_	NOUN	_	_	4	nsubj	_	_
@@ -11223,6 +11915,7 @@
 24	liefern	_	VERB	_	_	12	xcomp	_	_
 25	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s693/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Stimmabgabe	_	NOUN	_	_	7	nsubjpass	_	_
 3	wurde	_	AUX	_	_	7	auxpass	_	_
@@ -11246,8 +11939,9 @@
 19	können	_	AUX	_	_	18	aux	_	_
 20	.	_	PUNCT	_	_	7	punct	_	_
 
-1	800	_	NUM	_	_	2	nummod	_	_
-2	000	_	NUM	_	_	3	nummod	_	_
+# sent_id dev-s694/de
+1	800	_	NUM	_	NumType=Card	2	nummod	_	_
+2	000	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Bedienstete	_	NOUN	_	_	8	nsubjpass	_	_
 4	werden	_	AUX	_	_	8	auxpass	_	_
 5	voraussichtlich	_	ADV	_	_	8	advmod	_	_
@@ -11256,6 +11950,7 @@
 8	geschickt	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s695/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Stromwirtschaft	_	NOUN	_	_	26	nsubj	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
@@ -11285,6 +11980,7 @@
 26	vorgestellt	_	VERB	_	_	0	root	_	_
 27	.	_	PUNCT	_	_	26	punct	_	_
 
+# sent_id dev-s696/de
 1	Bischof	_	NOUN	_	_	3	nsubjpass	_	_
 2	soll	_	AUX	_	_	3	aux	_	_
 3	aufgefordert	_	VERB	_	_	0	root	_	_
@@ -11311,6 +12007,7 @@
 24	wollten	_	AUX	_	_	23	aux	_	_
 25	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s697/de
 1	Auwald	_	PROPN	_	_	5	nsubj	_	_
 2	ist	_	VERB	_	_	5	cop	_	_
 3	also	_	ADV	_	_	5	advmod	_	_
@@ -11324,6 +12021,7 @@
 11	Fluß	_	NOUN	_	_	8	nsubj	_	_
 12	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s698/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Zeit	_	NOUN	_	_	3	nsubj	_	_
 3	geht	_	VERB	_	_	0	root	_	_
@@ -11361,6 +12059,7 @@
 35	Entwicklung	_	NOUN	_	_	29	nmod	_	_
 36	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s699/de
 1	Mit	_	ADP	_	_	4	case	_	_
 2	einer	_	DET	_	_	4	det	_	_
 3	konsequenten	_	ADJ	_	_	4	amod	_	_
@@ -11376,20 +12075,21 @@
 13	werden	_	VERB	_	_	8	cop	_	_
 14	.	_	PUNCT	_	_	8	punct	_	_
 
-1	45	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s700/de
+1	45	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Prozent	_	NOUN	_	_	6	nsubj	_	_
 3	der	_	DET	_	_	5	det	_	_
 4	marktweiten	_	ADJ	_	_	5	amod	_	_
 5	Aufwendungen	_	NOUN	_	_	2	det	_	_
 6	entfielen	_	VERB	_	_	0	root	_	_
-7	1994	_	NUM	_	_	6	nmod	_	_
+7	1994	_	NUM	_	NumType=Card	6	nmod	_	_
 8	auf	_	ADP	_	_	12	case	_	_
 9	adressierte	_	ADJ	_	_	12	amod	_	_
 10	und	_	CONJ	_	_	9	cc	_	_
 11	unadressierte	_	ADJ	_	_	9	conj	_	_
 12	Postsendungen	_	NOUN	_	_	6	nmod	_	_
 13	,	_	PUNCT	_	_	6	punct	_	_
-14	zwölf	_	NUM	_	_	15	nummod	_	_
+14	zwölf	_	NUM	_	NumType=Card	15	nummod	_	_
 15	Prozent	_	NOUN	_	_	6	appos	_	_
 16	auf	_	ADP	_	_	17	case	_	_
 17	Telefonaktivitäten	_	NOUN	_	_	15	nmod	_	_
@@ -11403,6 +12103,7 @@
 25	Beilagen	_	NOUN	_	_	23	conj	_	_
 26	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s701/de
 1	Die	_	DET	_	_	3	det	_	_
 2	Kasseler	_	ADJ	_	_	3	amod	_	_
 3	Richter	_	NOUN	_	_	10	nsubj	_	_
@@ -11415,6 +12116,7 @@
 10	verweigert	_	VERB	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s702/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Risiko	_	NOUN	_	_	3	nsubj	_	_
 3	ist	_	VERB	_	_	0	root	_	_
@@ -11427,6 +12129,7 @@
 10	gleichzusetzen	_	VERB	_	_	3	acl	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s703/de
 1	Es	_	PRON	_	_	5	nsubj	_	_
 2	muß	_	AUX	_	_	5	aux	_	_
 3	zu	_	PART	_	_	4	aux	_	_
@@ -11457,6 +12160,7 @@
 28	fest	_	ADV	_	_	25	mark	_	_
 29	.	_	PUNCT	_	_	25	punct	_	_
 
+# sent_id dev-s704/de
 1	Kohl	_	PROPN	_	_	2	nsubj	_	_
 2	bewegt	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	dobj	_	_
@@ -11475,6 +12179,7 @@
 15	zu	_	ADP	_	_	2	mark	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s705/de
 1	Wer	_	PRON	_	_	5	nsubjpass	_	_
 2	an	_	ADP	_	_	4	case	_	_
 3	deutschen	_	ADJ	_	_	4	amod	_	_
@@ -11512,6 +12217,7 @@
 35	Informationsreferent	_	NOUN	_	_	31	appos	_	_
 36	.	_	PUNCT	_	_	29	punct	_	_
 
+# sent_id dev-s706/de
 1	Ich	_	PRON	_	_	2	nsubj	_	_
 2	gebe	_	VERB	_	_	12	ccomp	_	_
 3	Arbeit	_	NOUN	_	_	2	dobj	_	_
@@ -11536,6 +12242,7 @@
 22	Kiel	_	PROPN	_	_	20	nmod	_	_
 23	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s707/de
 1	Roman	_	PROPN	_	_	2	name	_	_
 2	Herzog	_	PROPN	_	_	6	nsubj	_	_
 3	hat	_	AUX	_	_	6	aux	_	_
@@ -11545,8 +12252,8 @@
 7	,	_	PUNCT	_	_	6	punct	_	_
 8	die	_	DET	_	_	12	det	_	_
 9	rund	_	ADV	_	_	10	advmod	_	_
-10	40	_	NUM	_	_	11	nummod	_	_
-11	000	_	NUM	_	_	12	nummod	_	_
+10	40	_	NUM	_	NumType=Card	11	nummod	_	_
+11	000	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Deutschstämmigen	_	NOUN	_	_	27	dobj	_	_
 13	in	_	ADP	_	_	16	case	_	_
 14	der	_	DET	_	_	16	det	_	_
@@ -11567,6 +12274,7 @@
 27	bewegen	_	VERB	_	_	6	xcomp	_	_
 28	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s708/de
 1	Dazu	_	ADV	_	_	2	advmod	_	_
 2	will	_	VERB	_	_	0	root	_	_
 3	Haider	_	PROPN	_	_	2	nsubj	_	_
@@ -11585,6 +12293,7 @@
 16	Sozialpartner	_	NOUN	_	_	12	conj	_	_
 17	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s709/de
 1	Überzeugungsarbeit	_	NOUN	_	_	8	dobj	_	_
 2	mußte	_	AUX	_	_	8	aux	_	_
 3	Küng	_	PROPN	_	_	8	nsubj	_	_
@@ -11595,6 +12304,7 @@
 8	leisten	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s710/de
 1	Peymann	_	PROPN	_	_	9	nsubj	_	_
 2	ist	_	VERB	_	_	9	cop	_	_
 3	in	_	ADP	_	_	5	case	_	_
@@ -11621,6 +12331,7 @@
 24	vergangen	_	VERB	_	_	9	parataxis	_	_
 25	.	_	PUNCT	_	_	9	punct	_	_
 
+# sent_id dev-s711/de
 1	Melden	_	VERB	_	_	0	root	_	_
 2	Sie	_	PRON	_	_	1	nsubj	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -11633,6 +12344,7 @@
 10	Geldstrafe	_	NOUN	_	_	8	nsubj	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s712/de
 1	Der	_	DET	_	_	4	det	_	_
 2	U.S.	_	PROPN	_	_	4	name	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
@@ -11648,17 +12360,18 @@
 13	zufrieden	_	ADJ	_	_	7	xcomp	_	_
 14	:	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s713/de
 1	Nationen	_	NOUN	_	_	4	nsubj	_	_
 2	des	_	DET	_	_	3	det	_	_
 3	Wirtschaftsforums	_	NOUN	_	_	1	det	_	_
 4	repräsentieren	_	VERB	_	_	0	root	_	_
 5	rund	_	ADV	_	_	6	advmod	_	_
-6	56	_	NUM	_	_	7	nummod	_	_
+6	56	_	NUM	_	NumType=Card	7	nummod	_	_
 7	Prozent	_	NOUN	_	_	4	dobj	_	_
 8	der	_	DET	_	_	9	det	_	_
 9	Weltproduktion	_	NOUN	_	_	7	det	_	_
 10	und	_	CONJ	_	_	7	cc	_	_
-11	46	_	NUM	_	_	12	nummod	_	_
+11	46	_	NUM	_	NumType=Card	12	nummod	_	_
 12	Prozent	_	NOUN	_	_	7	conj	_	_
 13	des	_	DET	_	_	14	det	_	_
 14	Handels	_	NOUN	_	_	12	det	_	_
@@ -11667,6 +12380,7 @@
 17	Globus	_	NOUN	_	_	14	nmod	_	_
 18	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s714/de
 1	Menschen	_	NOUN	_	_	19	nsubj	_	_
 2	könnten	_	AUX	_	_	19	aux	_	_
 3-4	zum	_	_	_	_	_	_	_	_
@@ -11696,7 +12410,8 @@
 26	''	_	PUNCT	_	_	25	punct	_	_
 27	.	_	PUNCT	_	_	19	punct	_	_
 
-1	2000	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s715/de
+1	2000	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Stellen	_	NOUN	_	_	8	nsubjpass	_	_
 3	werden	_	AUX	_	_	8	auxpass	_	_
 4	bis	_	ADP	_	_	7	case	_	_
@@ -11706,9 +12421,10 @@
 8	gestrichen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s716/de
 1	Braune	_	PROPN	_	_	2	nsubj	_	_
 2	verhängte	_	VERB	_	_	0	root	_	_
-3	sechs	_	NUM	_	_	4	nummod	_	_
+3	sechs	_	NUM	_	NumType=Card	4	nummod	_	_
 4	Jahre	_	NOUN	_	_	5	nmod	_	_
 5	Gefängnis	_	NOUN	_	_	2	dobj	_	_
 6	wegen	_	ADP	_	_	9	case	_	_
@@ -11739,6 +12455,7 @@
 31	wurde	_	AUX	_	_	25	auxpass	_	_
 32	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s717/de
 1	Ich	_	PRON	_	_	6	nsubj	_	_
 2	habe	_	AUX	_	_	6	aux	_	_
 3	heute	_	ADV	_	_	6	advmod	_	_
@@ -11754,6 +12471,7 @@
 13	kandidieren	_	VERB	_	_	10	xcomp	_	_
 14	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s718/de
 1	Beifall	_	NOUN	_	_	6	nsubj	_	_
 2	für	_	ADP	_	_	5	case	_	_
 3	diesen	_	PRON	_	_	5	det	_	_
@@ -11763,11 +12481,13 @@
 7	mager	_	ADJ	_	_	6	xcomp	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s719/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	prüfen	_	VERB	_	_	0	root	_	_
 3	das	_	PRON	_	_	2	dobj	_	_
 4	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s720/de
 1	Ich	_	PRON	_	_	4	nsubj	_	_
 2	bin	_	AUX	_	_	4	aux	_	_
 3	wählen	_	VERB	_	_	4	acl	_	_
@@ -11792,6 +12512,7 @@
 22	anderer	_	PRON	_	_	16	nsubj	_	_
 23	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s721/de
 1	Blöcke	_	NOUN	_	_	17	dobj	_	_
 2	mit	_	ADP	_	_	4	case	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -11813,10 +12534,11 @@
 19	heute	_	ADV	_	_	17	advmod	_	_
 20	nicht	_	ADV	_	_	23	neg	_	_
 21	unter	_	ADP	_	_	23	case	_	_
-22	300	_	NUM	_	_	23	nummod	_	_
+22	300	_	NUM	_	NumType=Card	23	nummod	_	_
 23	Mark	_	PROPN	_	_	17	nmod	_	_
 24	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s722/de
 1	Man	_	PRON	_	_	2	nsubj	_	_
 2	vermutet	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -11829,6 +12551,7 @@
 10	gibt	_	VERB	_	_	2	ccomp	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s723/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Kaufinteresse	_	NOUN	_	_	16	nsubj	_	_
 3	habe	_	AUX	_	_	16	aux	_	_
@@ -11852,6 +12575,7 @@
 21	mit	_	ADP	_	_	18	mark	_	_
 22	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s724/de
 1	Dafür	_	ADV	_	_	2	advmod	_	_
 2	steht	_	VERB	_	_	0	root	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -11872,6 +12596,7 @@
 18	Poertner	_	PROPN	_	_	2	appos	_	_
 19	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s725/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Ergebnis	_	NOUN	_	_	5	nsubj	_	_
 3	hat	_	AUX	_	_	5	aux	_	_
@@ -11883,6 +12608,7 @@
 9	Nitz	_	PROPN	_	_	8	nsubj	_	_
 10	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s726/de
 1	Doch	_	CONJ	_	_	5	cc	_	_
 2	nicht	_	PART	_	_	4	neg	_	_
 3	die	_	DET	_	_	4	det	_	_
@@ -11902,6 +12628,7 @@
 17	Felizardo	_	PROPN	_	_	16	nsubj	_	_
 18	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s727/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Amerikaner	_	NOUN	_	_	10	nsubj	_	_
 3	sind	_	VERB	_	_	10	cop	_	_
@@ -11914,6 +12641,7 @@
 10	Volk	_	NOUN	_	_	0	root	_	_
 11	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s728/de
 1	Die	_	DET	_	_	2	det	_	_
 2	SPD	_	PROPN	_	_	7	nsubj	_	_
 3	sollte	_	AUX	_	_	7	aux	_	_
@@ -11923,6 +12651,7 @@
 7	stellen	_	VERB	_	_	0	root	_	_
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s729/de
 1	Wir	_	PRON	_	_	4	nsubj	_	_
 2	haben	_	AUX	_	_	4	aux	_	_
 3	alles	_	PRON	_	_	4	dobj	_	_
@@ -11940,6 +12669,7 @@
 15	Kono	_	PROPN	_	_	13	appos	_	_
 16	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s730/de
 1	Jahre	_	NOUN	_	_	24	nmod	_	_
 2	nach	_	ADP	_	_	4	case	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -11966,6 +12696,7 @@
 24	weichen	_	VERB	_	_	0	root	_	_
 25	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s731/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gläubigen	_	NOUN	_	_	4	nsubjpass	_	_
 3	wurden	_	AUX	_	_	4	auxpass	_	_
@@ -11989,11 +12720,12 @@
 21	beten	_	VERB	_	_	14	conj	_	_
 22	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s732/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Bruttoeinkommen	_	NOUN	_	_	18	nsubj	_	_
 3	sollen	_	AUX	_	_	18	aux	_	_
 4	um	_	ADP	_	_	6	case	_	_
-5	sieben	_	NUM	_	_	6	nummod	_	_
+5	sieben	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Prozent	_	NOUN	_	_	18	nmod	_	_
 7	,	_	PUNCT	_	_	18	punct	_	_
 8	die	_	DET	_	_	9	det	_	_
@@ -12004,42 +12736,46 @@
 13	hingegen	_	CONJ	_	_	18	cc	_	_
 14	nur	_	ADV	_	_	17	advmod	_	_
 15	um	_	ADP	_	_	17	case	_	_
-16	1,5	_	NUM	_	_	17	nummod	_	_
+16	1,5	_	NUM	_	NumType=Card	17	nummod	_	_
 17	Prozent	_	NOUN	_	_	18	nmod	_	_
 18	steigen	_	VERB	_	_	0	root	_	_
 19	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s733/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Finanzierungsdefizit	_	NOUN	_	_	3	nsubj	_	_
 3	betrug	_	VERB	_	_	0	root	_	_
 4	somit	_	ADV	_	_	3	advmod	_	_
-5	3,9	_	NUM	_	_	6	nummod	_	_
+5	3,9	_	NUM	_	NumType=Card	6	nummod	_	_
 6	Prozent	_	NOUN	_	_	3	dobj	_	_
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s734/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Investitionen	_	NOUN	_	_	11	nsubjpass	_	_
 3	werden	_	AUX	_	_	11	auxpass	_	_
-4	1998	_	NUM	_	_	11	nmod	_	_
+4	1998	_	NUM	_	NumType=Card	11	nmod	_	_
 5	erneut	_	ADV	_	_	11	advmod	_	_
 6	bei	_	ADP	_	_	10	case	_	_
 7	rund	_	ADV	_	_	8	advmod	_	_
-8	800	_	NUM	_	_	9	nummod	_	_
+8	800	_	NUM	_	NumType=Card	9	nummod	_	_
 9	Millionen	_	NOUN	_	_	10	nummod	_	_
 10	Mark	_	PROPN	_	_	11	nmod	_	_
 11	angesetzt	_	VERB	_	_	0	root	_	_
 12	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s735/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Skandinavier	_	NOUN	_	_	8	nsubj	_	_
 3	wollen	_	AUX	_	_	8	aux	_	_
 4	in	_	ADP	_	_	5	case	_	_
 5	Thüringen	_	PROPN	_	_	8	nmod	_	_
-6	100	_	NUM	_	_	7	nummod	_	_
+6	100	_	NUM	_	NumType=Card	7	nummod	_	_
 7	Arbeitsplätze	_	NOUN	_	_	8	dobj	_	_
 8	schaffen	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s736/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gewinne	_	NOUN	_	_	3	nsubj	_	_
 3	liegen	_	VERB	_	_	0	root	_	_
@@ -12051,16 +12787,17 @@
 9	seit	_	ADP	_	_	10	case	_	_
 10	Jahren	_	NOUN	_	_	3	nmod	_	_
 11	zwischen	_	ADP	_	_	17	case	_	_
-12	100	_	NUM	_	_	13	nummod	_	_
-13	000	_	NUM	_	_	17	nummod	_	_
+12	100	_	NUM	_	NumType=Card	13	nummod	_	_
+13	000	_	NUM	_	NumType=Card	17	nummod	_	_
 14	und	_	CONJ	_	_	17	cc	_	_
-15	750	_	NUM	_	_	16	nummod	_	_
-16	000	_	NUM	_	_	17	nummod	_	_
+15	750	_	NUM	_	NumType=Card	16	nummod	_	_
+16	000	_	NUM	_	NumType=Card	17	nummod	_	_
 17	Mark	_	PROPN	_	_	3	nmod	_	_
 18	nach	_	ADP	_	_	19	case	_	_
 19	Steuern	_	NOUN	_	_	17	nmod	_	_
 20	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s737/de
 1	Wir	_	PRON	_	_	6	nsubj	_	_
 2	sind	_	VERB	_	_	6	cop	_	_
 3	laut	_	ADP	_	_	4	case	_	_
@@ -12069,6 +12806,7 @@
 6	Hauptverantwortlichen	_	NOUN	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s738/de
 1	Letztlich	_	ADV	_	_	6	advmod	_	_
 2	sind	_	VERB	_	_	6	cop	_	_
 3	die	_	DET	_	_	5	det	_	_
@@ -12081,6 +12819,7 @@
 10	Rechtsform	_	NOUN	_	_	5	conj	_	_
 11	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s739/de
 1	Den	_	DET	_	_	2	det	_	_
 2	Beschäftigten	_	NOUN	_	_	3	iobj	_	_
 3	ist	_	VERB	_	_	14	ccomp	_	_
@@ -12100,6 +12839,7 @@
 17	Striezel	_	PROPN	_	_	15	appos	_	_
 18	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s740/de
 1	Aber	_	CONJ	_	_	3	cc	_	_
 2	es	_	PRON	_	_	3	expl	_	_
 3	kommt	_	VERB	_	_	0	root	_	_
@@ -12110,6 +12850,7 @@
 8	.	_	PUNCT	_	_	3	punct	_	_
 9	''	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s741/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Inflation	_	NOUN	_	_	11	nsubj	_	_
 3	hat	_	AUX	_	_	11	aux	_	_
@@ -12135,6 +12876,7 @@
 23	einstellig	_	ADJ	_	_	11	conj	_	_
 24	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s742/de
 1	Siegfrieds	_	PROPN	_	_	2	det	_	_
 2	Vater	_	NOUN	_	_	4	nsubj	_	_
 3	Ludwig	_	PROPN	_	_	2	appos	_	_
@@ -12149,6 +12891,7 @@
 11	Seite	_	NOUN	_	_	4	nmod	_	_
 12	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s743/de
 1	Überall	_	ADV	_	_	6	advmod	_	_
 2	ist	_	VERB	_	_	6	cop	_	_
 3	unser	_	PRON	_	_	4	det	_	_
@@ -12167,6 +12910,7 @@
 16	''	_	PUNCT	_	_	6	punct	_	_
 17	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s744/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	ist	_	VERB	_	_	0	root	_	_
 3	vielmehr	_	ADV	_	_	4	advmod	_	_
@@ -12187,6 +12931,7 @@
 18	.	_	PUNCT	_	_	2	punct	_	_
 19	''	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s745/de
 1	Wo	_	ADV	_	_	2	advmod	_	_
 2	suchen	_	VERB	_	_	0	root	_	_
 3	sich	_	PRON	_	_	2	iobj	_	_
@@ -12199,6 +12944,7 @@
 10	Zuwendung	_	NOUN	_	_	2	dobj	_	_
 11	?	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s746/de
 1	Eine	_	DET	_	_	2	det	_	_
 2	Auseinandersetzung	_	NOUN	_	_	8	nsubj	_	_
 3	ist	_	VERB	_	_	8	cop	_	_
@@ -12220,6 +12966,7 @@
 19	Seite	_	NOUN	_	_	14	nmod	_	_
 20	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s747/de
 1	Natürlich	_	ADV	_	_	2	advmod	_	_
 2	nur	_	ADV	_	_	5	advmod	_	_
 3	mit	_	ADP	_	_	5	case	_	_
@@ -12237,6 +12984,7 @@
 15	betont	_	VERB	_	_	0	root	_	_
 16	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s748/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Einkünfte	_	NOUN	_	_	12	nsubjpass	_	_
 3	werden	_	AUX	_	_	12	auxpass	_	_
@@ -12246,11 +12994,12 @@
 7	Einkommensteuersatz	_	NOUN	_	_	12	nmod	_	_
 8	von	_	ADP	_	_	11	case	_	_
 9	maximal	_	ADV	_	_	10	advmod	_	_
-10	53	_	NUM	_	_	11	nummod	_	_
+10	53	_	NUM	_	NumType=Card	11	nummod	_	_
 11	Prozent	_	NOUN	_	_	7	nmod	_	_
 12	belegt	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s749/de
 1	Nach	_	ADP	_	_	2	case	_	_
 2	Angaben	_	NOUN	_	_	8	nmod	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -12283,11 +13032,12 @@
 28	feuerten	_	VERB	_	_	14	acl	_	_
 29	und	_	CONJ	_	_	28	cc	_	_
 30	dabei	_	ADV	_	_	33	advmod	_	_
-31	sechs	_	NUM	_	_	32	nummod	_	_
+31	sechs	_	NUM	_	NumType=Card	32	nummod	_	_
 32	Schwarze	_	NOUN	_	_	33	dobj	_	_
 33	erschossen	_	VERB	_	_	28	conj	_	_
 34	.	_	PUNCT	_	_	28	punct	_	_
 
+# sent_id dev-s750/de
 1	Bald	_	ADV	_	_	6	advmod	_	_
 2	werden	_	AUX	_	_	6	aux	_	_
 3	wir	_	PRON	_	_	6	nsubj	_	_
@@ -12303,7 +13053,8 @@
 13	öffnen	_	VERB	_	_	6	xcomp	_	_
 14	.	_	PUNCT	_	_	6	punct	_	_
 
-1	70	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s751/de
+1	70	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Personen	_	NOUN	_	_	3	nsubj	_	_
 3	gelang	_	VERB	_	_	0	root	_	_
 4	es	_	PRON	_	_	3	expl	_	_
@@ -12324,6 +13075,7 @@
 18	vorzudringen	_	VERB	_	_	11	conj	_	_
 19	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s752/de
 1	In	_	ADP	_	_	2	case	_	_
 2	Verhandlungen	_	NOUN	_	_	5	nmod	_	_
 3	muß	_	AUX	_	_	5	aux	_	_
@@ -12352,6 +13104,7 @@
 26	.	_	PUNCT	_	_	5	punct	_	_
 27	''	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s753/de
 1	Präsident	_	NOUN	_	_	4	nsubj	_	_
 2	Alija	_	PROPN	_	_	3	name	_	_
 3	Izetbegovic	_	PROPN	_	_	1	appos	_	_
@@ -12370,6 +13123,7 @@
 16	USA	_	PROPN	_	_	13	nmod	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s754/de
 1	Generalsekretär	_	NOUN	_	_	22	nsubj	_	_
 2	Butros	_	PROPN	_	_	3	name	_	_
 3	Butros	_	PROPN	_	_	5	name	_	_
@@ -12385,8 +13139,8 @@
 13	für	_	ADP	_	_	18	case	_	_
 14	die	_	DET	_	_	18	det	_	_
 15	rund	_	ADV	_	_	16	advmod	_	_
-16	400	_	NUM	_	_	17	nummod	_	_
-17	000	_	NUM	_	_	18	nummod	_	_
+16	400	_	NUM	_	NumType=Card	17	nummod	_	_
+17	000	_	NUM	_	NumType=Card	18	nummod	_	_
 18	Flüchtlinge	_	NOUN	_	_	12	nmod	_	_
 19	in	_	ADP	_	_	21	case	_	_
 20	Sri	_	PROPN	_	_	21	name	_	_
@@ -12394,8 +13148,9 @@
 22	aufgerufen	_	VERB	_	_	0	root	_	_
 23	.	_	PUNCT	_	_	22	punct	_	_
 
-1	15	_	NUM	_	_	2	nummod	_	_
-2	000	_	NUM	_	_	3	nummod	_	_
+# sent_id dev-s755/de
+1	15	_	NUM	_	NumType=Card	2	nummod	_	_
+2	000	_	NUM	_	NumType=Card	3	nummod	_	_
 3	Einwohner	_	NOUN	_	_	4	nsubj	_	_
 4	flüchteten	_	VERB	_	_	0	root	_	_
 5-6	ins	_	_	_	_	_	_	_	_
@@ -12407,6 +13162,7 @@
 10	evakuiert	_	VERB	_	_	4	conj	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s756/de
 1	Helmut	_	PROPN	_	_	2	name	_	_
 2	Kohl	_	PROPN	_	_	3	nsubj	_	_
 3	erklärte	_	VERB	_	_	0	root	_	_
@@ -12439,6 +13195,7 @@
 29	wollte	_	AUX	_	_	28	aux	_	_
 30	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s757/de
 1	Gurion	_	PROPN	_	_	14	nsubjpass	_	_
 2	und	_	CONJ	_	_	1	cc	_	_
 3	seine	_	PRON	_	_	4	det	_	_
@@ -12455,6 +13212,7 @@
 14	verletzt	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
 
+# sent_id dev-s758/de
 1	Die	_	DET	_	_	4	det	_	_
 2	SPD	_	PROPN	_	_	4	name	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
@@ -12470,20 +13228,21 @@
 12	Thema	_	NOUN	_	_	17	nmod	_	_
 13	des	_	DET	_	_	14	det	_	_
 14	Bundestagswahlkampfes	_	NOUN	_	_	12	det	_	_
-15	1998	_	NUM	_	_	14	nmod	_	_
+15	1998	_	NUM	_	NumType=Card	14	nmod	_	_
 16	zu	_	PART	_	_	17	aux	_	_
 17	machen	_	VERB	_	_	6	xcomp	_	_
 18	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s759/de
 1	Der	_	DET	_	_	2	det	_	_
 2	Ministerpräsident	_	NOUN	_	_	24	nsubj	_	_
 3	hatte	_	AUX	_	_	24	aux	_	_
-4	eine	_	NUM	_	_	5	nummod	_	_
+4	eine	_	NUM	_	NumType=Card	5	nummod	_	_
 5	Stunde	_	NOUN	_	_	24	nmod	_	_
 6	zuvor	_	ADV	_	_	5	advmod	_	_
 7	vor	_	ADP	_	_	10	case	_	_
-8	100	_	NUM	_	_	9	nummod	_	_
-9	000	_	NUM	_	_	10	nummod	_	_
+8	100	_	NUM	_	NumType=Card	9	nummod	_	_
+9	000	_	NUM	_	NumType=Card	10	nummod	_	_
 10	Demonstranten	_	NOUN	_	_	24	nmod	_	_
 11	erneut	_	ADV	_	_	24	advmod	_	_
 12	den	_	DET	_	_	13	det	_	_
@@ -12502,6 +13261,7 @@
 24	beschworen	_	VERB	_	_	0	root	_	_
 25	.	_	PUNCT	_	_	24	punct	_	_
 
+# sent_id dev-s760/de
 1	Schmugglern	_	NOUN	_	_	2	iobj	_	_
 2	drohen	_	VERB	_	_	0	root	_	_
 3	Geldstrafen	_	NOUN	_	_	2	nsubj	_	_
@@ -12518,6 +13278,7 @@
 14	heiß	_	ADJ	_	_	2	conj	_	_
 15	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s761/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Denkschrift	_	NOUN	_	_	3	nsubj	_	_
 3	kommt	_	VERB	_	_	12	ccomp	_	_
@@ -12534,6 +13295,7 @@
 14	ein	_	ADV	_	_	12	mark	_	_
 15	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s762/de
 1	Er	_	PRON	_	_	2	nsubj	_	_
 2	fiel	_	VERB	_	_	11	ccomp	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -12551,6 +13313,7 @@
 14	Weizman	_	PROPN	_	_	12	appos	_	_
 15	.	_	PUNCT	_	_	11	punct	_	_
 
+# sent_id dev-s763/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Augen	_	NOUN	_	_	3	nsubj	_	_
 3	blickten	_	VERB	_	_	0	root	_	_
@@ -12562,6 +13325,7 @@
 9	Hoffnung	_	NOUN	_	_	6	conj	_	_
 10	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s764/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Regierung	_	NOUN	_	_	4	nsubj	_	_
 3	Israels	_	PROPN	_	_	2	det	_	_
@@ -12605,6 +13369,7 @@
 41	mit	_	ADP	_	_	30	mark	_	_
 42	.	_	PUNCT	_	_	30	punct	_	_
 
+# sent_id dev-s765/de
 1	Es	_	PRON	_	_	3	nsubj	_	_
 2	war	_	VERB	_	_	3	cop	_	_
 3	klar	_	ADJ	_	_	0	root	_	_
@@ -12616,6 +13381,7 @@
 9	würde	_	AUX	_	_	7	aux	_	_
 10	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s766/de
 1	Und	_	CONJ	_	_	3	cc	_	_
 2	es	_	PRON	_	_	3	nsubj	_	_
 3	braucht	_	VERB	_	_	0	root	_	_
@@ -12631,6 +13397,7 @@
 13	auszuführen	_	VERB	_	_	3	advcl	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s767/de
 1	Alle	_	PRON	_	_	2	nsubj	_	_
 2	wußten	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -12643,6 +13410,7 @@
 10	blieb	_	VERB	_	_	2	ccomp	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s768/de
 1	Ich	_	PRON	_	_	8	nsubj	_	_
 2	kann	_	AUX	_	_	8	aux	_	_
 3	mich	_	PRON	_	_	8	dobj	_	_
@@ -12653,6 +13421,7 @@
 8	ausdrücken	_	VERB	_	_	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s769/de
 1	Dank	_	ADP	_	_	3	case	_	_
 2	der	_	DET	_	_	3	det	_	_
 3	Antibiotika	_	NOUN	_	_	4	nmod	_	_
@@ -12665,6 +13434,7 @@
 10	befürchten	_	VERB	_	_	4	acl	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s770/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Brötchen	_	NOUN	_	_	7	nsubj	_	_
 3	waren	_	VERB	_	_	7	cop	_	_
@@ -12685,6 +13455,7 @@
 17	Mäuse	_	NOUN	_	_	15	conj	_	_
 18	:	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s771/de
 1	Grund	_	NOUN	_	_	0	root	_	_
 2	ist	_	VERB	_	_	1	cop	_	_
 3	vor	_	ADP	_	_	4	case	_	_
@@ -12722,6 +13493,7 @@
 35	finden	_	VERB	_	_	19	conj	_	_
 36	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id dev-s772/de
 1	Helmut	_	PROPN	_	_	2	name	_	_
 2	Kohl	_	PROPN	_	_	6	nsubj	_	_
 3	(	_	PUNCT	_	_	4	punct	_	_
@@ -12756,6 +13528,7 @@
 30	prüfen	_	VERB	_	_	6	ccomp	_	_
 31	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id dev-s773/de
 1	Kohl	_	PROPN	_	_	2	nsubj	_	_
 2	sei	_	VERB	_	_	0	root	_	_
 3	er	_	PRON	_	_	2	dep	_	_
@@ -12773,6 +13546,7 @@
 15	gebe	_	VERB	_	_	5	ccomp	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s774/de
 1	Ich	_	PRON	_	_	5	nsubj	_	_
 2	habe	_	AUX	_	_	5	aux	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -12798,6 +13572,7 @@
 23	überlebte	_	VERB	_	_	17	acl	_	_
 24	.	_	PUNCT	_	_	15	punct	_	_
 
+# sent_id dev-s775/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Beschwerden	_	NOUN	_	_	3	nsubj	_	_
 3	richten	_	VERB	_	_	0	root	_	_
@@ -12816,6 +13591,7 @@
 16	Kindergartenplätzen	_	NOUN	_	_	14	nmod	_	_
 17	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s776/de
 1	Eine	_	DET	_	_	3	det	_	_
 2	ausländische	_	ADJ	_	_	3	amod	_	_
 3	Firma	_	NOUN	_	_	25	nsubj	_	_
@@ -12860,6 +13636,7 @@
 40	trifft	_	VERB	_	_	29	acl	_	_
 41	.	_	PUNCT	_	_	25	punct	_	_
 
+# sent_id dev-s777/de
 1	Es	_	PRON	_	_	2	nsubj	_	_
 2	gibt	_	VERB	_	_	18	ccomp	_	_
 3	keine	_	PRON	_	_	4	neg	_	_
@@ -12894,6 +13671,7 @@
 31	Bremen	_	PROPN	_	_	18	nmod	_	_
 32	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id dev-s778/de
 1	Wir	_	PRON	_	_	5	nsubj	_	_
 2	werden	_	AUX	_	_	5	aux	_	_
 3	dagegen	_	ADV	_	_	5	advmod	_	_
@@ -12907,6 +13685,7 @@
 11	an	_	ADP	_	_	8	mark	_	_
 12	.	_	PUNCT	_	_	8	punct	_	_
 
+# sent_id dev-s779/de
 1	Das	_	PRON	_	_	5	nsubj	_	_
 2	hat	_	AUX	_	_	5	aux	_	_
 3	der	_	DET	_	_	4	det	_	_
@@ -12915,6 +13694,7 @@
 6	.	_	PUNCT	_	_	5	punct	_	_
 7	''	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s780/de
 1	Die	_	DET	_	_	4	det	_	_
 2	New	_	ADJ	_	_	3	compound	_	_
 3	Yorker	_	ADJ	_	_	4	amod	_	_
@@ -12932,6 +13712,7 @@
 15	Washington	_	PROPN	_	_	13	nmod	_	_
 16	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s781/de
 1	Wenn	_	SCONJ	_	_	6	mark	_	_
 2	Rußland	_	PROPN	_	_	6	nsubj	_	_
 3	den	_	DET	_	_	4	det	_	_
@@ -12963,6 +13744,7 @@
 29	Gratschow	_	PROPN	_	_	27	appos	_	_
 30	.	_	PUNCT	_	_	26	punct	_	_
 
+# sent_id dev-s782/de
 1	Aber	_	CONJ	_	_	10	cc	_	_
 2	die	_	DET	_	_	3	det	_	_
 3	Bundesbank	_	PROPN	_	_	10	nsubj	_	_
@@ -12982,6 +13764,7 @@
 17	Bank	_	NOUN	_	_	13	nmod	_	_
 18	.	_	PUNCT	_	_	13	punct	_	_
 
+# sent_id dev-s783/de
 1	Wir	_	PRON	_	_	2	nsubj	_	_
 2	wissen	_	VERB	_	_	0	root	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
@@ -12998,12 +13781,13 @@
 14	wir	_	PRON	_	_	19	nsubj	_	_
 15	das	_	PRON	_	_	19	dobj	_	_
 16	vor	_	ADP	_	_	18	case	_	_
-17	zwanzig	_	NUM	_	_	18	nummod	_	_
+17	zwanzig	_	NUM	_	NumType=Card	18	nummod	_	_
 18	Jahren	_	NOUN	_	_	19	nmod	_	_
 19	gedacht	_	VERB	_	_	11	advcl	_	_
 20	haben	_	AUX	_	_	19	aux	_	_
 21	;	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s784/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Tierversuche	_	NOUN	_	_	4	nsubj	_	_
 3	hätten	_	AUX	_	_	4	aux	_	_
@@ -13027,12 +13811,14 @@
 21	aufwiesen	_	VERB	_	_	4	ccomp	_	_
 22	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s785/de
 1	Naumann	_	PROPN	_	_	4	nsubj	_	_
 2	wurde	_	VERB	_	_	4	cop	_	_
 3	erstmals	_	ADV	_	_	4	advmod	_	_
 4	konkret	_	ADJ	_	_	0	root	_	_
 5	:	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s786/de
 1	Generalsekretär	_	NOUN	_	_	4	nsubj	_	_
 2	Bernd	_	PROPN	_	_	3	name	_	_
 3	Protzner	_	PROPN	_	_	1	appos	_	_
@@ -13056,6 +13842,7 @@
 21	''	_	PUNCT	_	_	19	punct	_	_
 22	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id dev-s787/de
 1	Lennons	_	PROPN	_	_	3	det	_	_
 2	zänkische	_	ADJ	_	_	3	amod	_	_
 3	Witwe	_	NOUN	_	_	17	nsubj	_	_
@@ -13092,12 +13879,13 @@
 34	kursierte	_	VERB	_	_	25	acl	_	_
 35	.	_	PUNCT	_	_	17	punct	_	_
 
+# sent_id dev-s788/de
 1	Die	_	DET	_	_	4	det	_	_
 2	TV	_	NOUN	_	_	4	compound	_	_
 3	--	_	PUNCT	_	_	4	punct	_	_
 4	Werkschau	_	NOUN	_	_	5	nsubj	_	_
 5	kommt	_	VERB	_	_	0	root	_	_
-6	1996	_	NUM	_	_	5	nmod	_	_
+6	1996	_	NUM	_	NumType=Card	5	nmod	_	_
 7	auch	_	ADV	_	_	5	advmod	_	_
 8	als	_	ADP	_	_	9	case	_	_
 9	Video	_	NOUN	_	_	5	nmod	_	_
@@ -13106,6 +13894,7 @@
 12	Markt	_	NOUN	_	_	5	nmod	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s789/de
 1-2	am	_	_	_	_	_	_	_	_
 1	An	_	ADP	_	_	4	case	_	_
 2	dem	_	DET	_	_	4	det	_	_
@@ -13128,6 +13917,7 @@
 19	zugespitzt	_	VERB	_	_	0	root	_	_
 20	.	_	PUNCT	_	_	19	punct	_	_
 
+# sent_id dev-s790/de
 1	Dazu	_	ADV	_	_	2	advmod	_	_
 2	besteht	_	VERB	_	_	0	root	_	_
 3	keine	_	PRON	_	_	5	neg	_	_
@@ -13146,6 +13936,7 @@
 16	.	_	PUNCT	_	_	2	punct	_	_
 17	''	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s791/de
 1	Ministerpräsident	_	NOUN	_	_	7	nsubj	_	_
 2	Manfred	_	PROPN	_	_	3	name	_	_
 3	Stolpe	_	PROPN	_	_	1	appos	_	_
@@ -13163,6 +13954,7 @@
 15	aufzutreten	_	VERB	_	_	7	xcomp	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id dev-s792/de
 1	Es	_	PRON	_	_	2	expl	_	_
 2	fehlt	_	VERB	_	_	0	root	_	_
 3	ein	_	DET	_	_	4	det	_	_
@@ -13172,6 +13964,7 @@
 7	Sicherung	_	NOUN	_	_	4	det	_	_
 8	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id dev-s793/de
 1	Das	_	DET	_	_	2	det	_	_
 2	Wahlergebnis	_	NOUN	_	_	5	nsubjpass	_	_
 3	war	_	AUX	_	_	5	aux	_	_
@@ -13180,9 +13973,10 @@
 6	worden	_	AUX	_	_	5	auxpass	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id dev-s794/de
 1	Bis	_	ADV	_	_	3	advmod	_	_
 2	zu	_	ADV	_	_	1	mwe	_	_
-3	sechs	_	NUM	_	_	4	nummod	_	_
+3	sechs	_	NUM	_	NumType=Card	4	nummod	_	_
 4	Millionen	_	NOUN	_	_	5	nummod	_	_
 5	Bundesbürger	_	NOUN	_	_	12	nsubj	_	_
 6	haben	_	AUX	_	_	12	aux	_	_
@@ -13194,6 +13988,7 @@
 12	abgeschlossen	_	VERB	_	_	0	root	_	_
 13	.	_	PUNCT	_	_	12	punct	_	_
 
+# sent_id dev-s795/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Demonstration	_	NOUN	_	_	16	nsubj	_	_
 3	sollte	_	AUX	_	_	16	aux	_	_
@@ -13212,6 +14007,7 @@
 16	werben	_	VERB	_	_	0	root	_	_
 17	.	_	PUNCT	_	_	16	punct	_	_
 
+# sent_id dev-s796/de
 1	Auf	_	ADP	_	_	2	case	_	_
 2	Dole	_	PROPN	_	_	3	nmod	_	_
 3	entfielen	_	VERB	_	_	0	root	_	_
@@ -13219,13 +14015,13 @@
 4	an	_	ADP	_	_	6	case	_	_
 5	dem	_	DET	_	_	6	det	_	_
 6	Samstag	_	PROPN	_	_	3	nmod	_	_
-7	33	_	NUM	_	_	8	nummod	_	_
+7	33	_	NUM	_	NumType=Card	8	nummod	_	_
 8	Prozent	_	NOUN	_	_	3	nsubj	_	_
 9	der	_	DET	_	_	10	det	_	_
 10	Stimmen	_	NOUN	_	_	8	det	_	_
 11	,	_	PUNCT	_	_	3	punct	_	_
 12	mit	_	ADP	_	_	14	case	_	_
-13	26	_	NUM	_	_	14	nummod	_	_
+13	26	_	NUM	_	NumType=Card	14	nummod	_	_
 14	Prozent	_	NOUN	_	_	15	nmod	_	_
 15	kam	_	VERB	_	_	3	conj	_	_
 16	der	_	DET	_	_	18	det	_	_
@@ -13238,13 +14034,14 @@
 23	zweiten	_	ADJ	_	_	24	amod	_	_
 24	Platz	_	NOUN	_	_	15	nmod	_	_
 25	,	_	PUNCT	_	_	3	punct	_	_
-26	23	_	NUM	_	_	27	nummod	_	_
+26	23	_	NUM	_	NumType=Card	27	nummod	_	_
 27	Prozent	_	NOUN	_	_	28	dobj	_	_
 28	erhielt	_	VERB	_	_	3	conj	_	_
 29	Lamar	_	PROPN	_	_	30	name	_	_
 30	Alexander	_	PROPN	_	_	28	nsubj	_	_
 31	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id dev-s797/de
 1	Die	_	DET	_	_	2	det	_	_
 2	Gruppe	_	NOUN	_	_	10	nsubjpass	_	_
 3	wird	_	AUX	_	_	10	auxpass	_	_
@@ -13258,7 +14055,7 @@
 11	,	_	PUNCT	_	_	10	punct	_	_
 12	die	_	PRON	_	_	18	nsubjpass	_	_
 13	seit	_	ADP	_	_	15	case	_	_
-14	dreieinhalb	_	NUM	_	_	15	nummod	_	_
+14	dreieinhalb	_	NUM	_	NumType=Card	15	nummod	_	_
 15	Jahren	_	NOUN	_	_	18	nmod	_	_
 16	in	_	ADP	_	_	17	case	_	_
 17	Ägypten	_	PROPN	_	_	18	nmod	_	_
@@ -13267,7 +14064,8 @@
 20	sind	_	AUX	_	_	18	aux	_	_
 21	.	_	PUNCT	_	_	10	punct	_	_
 
-1	88	_	NUM	_	_	2	nummod	_	_
+# sent_id dev-s798/de
+1	88	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Rebellen	_	NOUN	_	_	10	nsubjpass	_	_
 3	und	_	CONJ	_	_	2	cc	_	_
 4	Soldaten	_	NOUN	_	_	2	conj	_	_
@@ -13281,6 +14079,7 @@
 12	sein	_	AUX	_	_	10	aux	_	_
 13	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id dev-s799/de
 1	Ein	_	DET	_	_	4	det	_	_
 2	arbeitsloser	_	ADJ	_	_	4	amod	_	_
 3	argentinischer	_	ADJ	_	_	4	amod	_	_
@@ -13298,13 +14097,13 @@
 14	seines	_	PRON	_	_	15	det	_	_
 15	Sohnes	_	NOUN	_	_	13	det	_	_
 16	mit	_	ADP	_	_	18	case	_	_
-17	drei	_	NUM	_	_	18	nummod	_	_
+17	drei	_	NUM	_	NumType=Card	18	nummod	_	_
 18	Tapferkeitsmedaillen	_	NOUN	_	_	25	nmod	_	_
 19	aus	_	ADP	_	_	21	case	_	_
 20	dem	_	DET	_	_	21	det	_	_
 21	Falklandkrieg	_	PROPN	_	_	18	nmod	_	_
 22	von	_	ADP	_	_	23	case	_	_
-23	1982	_	NUM	_	_	21	nmod	_	_
+23	1982	_	NUM	_	NumType=Card	21	nmod	_	_
 24	zu	_	PART	_	_	25	aux	_	_
 25	bezahlen	_	VERB	_	_	10	xcomp	_	_
 26	.	_	PUNCT	_	_	10	punct	_	_
