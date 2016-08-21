@@ -7,26 +7,26 @@
   <size>
     <total><sentences>15894</sentences><tokens>293088</tokens><words>298242</words><fused>5152</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="42294" /><!-- d, ., ,, in, und, sein, ein, von, werden, -, zu, er, mit, an, " -->
   <forms unique="50548" /><!-- ., ,, der, die, in, und, dem, von, -, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
-    <tag name="ADJ">21279</tag><!-- _ -->
-    <tag name="ADP">32362</tag><!-- _ -->
-    <tag name="ADV">14911</tag><!-- _ -->
-    <tag name="AUX">6913</tag><!-- _ -->
-    <tag name="CONJ">8938</tag><!-- _ -->
-    <tag name="DET">37037</tag><!-- _ -->
-    <tag name="NOUN">53291</tag><!-- _ -->
-    <tag name="NUM">7632</tag><!-- _ -->
-    <tag name="PART">2202</tag><!-- _ -->
-    <tag name="PRON">15077</tag><!-- _ -->
-    <tag name="PROPN">32323</tag><!-- _ -->
-    <tag name="PUNCT">39056</tag><!-- _ -->
-    <tag name="SCONJ">1810</tag><!-- _ -->
-    <tag name="VERB">25041</tag><!-- _ -->
-    <tag name="X">370</tag><!-- _ -->
+    <tag name="ADJ">21279</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADP">32362</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
+    <tag name="ADV">14911</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
+    <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
+    <tag name="DET">37037</tag><!-- d, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
+    <tag name="NOUN">53291</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
+    <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
+    <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
+    <tag name="PRON">15077</tag><!-- er, d, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PROPN">32323</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
+    <tag name="PUNCT">39056</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
+    <tag name="SCONJ">1810</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, ob, wie -->
+    <tag name="VERB">25041</tag><!-- sein, haben, werden, geben, kommen, liegen, finden, gehen, machen, gehören -->
+    <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="1">

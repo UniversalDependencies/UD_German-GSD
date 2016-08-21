@@ -7,6 +7,8 @@ The README for that project is included here.
 
 The German UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
+Universal POS tags were assigned manually, while LEMMA and XPOSTAG were
+predicted by TreeTagger (first for release 1.4; see Changelog below).
 
 
 === Machine-readable metadata =================================================
@@ -15,7 +17,7 @@ Data source: automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
 Genre: news reviews wiki
-Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim
+Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
@@ -25,6 +27,9 @@ Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim
 2016-08-21 Dan Zeman
 
 Added sentence ids.
+Added LEMMA and XPOSTAG predicted by TreeTagger with a German model supplied with the tagger and available in Treex
+(http://ufal.mff.cuni.cz/treex, commit 50ad1fe0b9907ac382cbcda0a0f102602abc21a0). The UPOSTAGs from the original data
+(assigned manually) were not modified.
 
 2015-11-08 Wolfgang Seeker
 
