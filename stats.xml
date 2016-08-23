@@ -7,7 +7,7 @@
   <size>
     <total><sentences>15894</sentences><tokens>293088</tokens><words>298242</words><fused>5152</fused></total>
   </size>
-  <lemmas unique="42295" /><!-- der, ., ,, in, und, sein, ein, von, werden, -, zu, d, er, mit, an -->
+  <lemmas unique="42295" /><!-- der, ., ,, in, und, sein, ein, von, werden, -, zu, er, mit, an, " -->
   <forms unique="50548" /><!-- ., ,, der, die, in, und, dem, von, -, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -17,11 +17,11 @@
     <tag name="ADV">14911</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
-    <tag name="DET">37037</tag><!-- der, ein, sein, ihr, d, eine, Ihr|ihr, dies, jen, mein -->
+    <tag name="DET">37037</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
     <tag name="NOUN">53291</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
-    <tag name="PRON">15077</tag><!-- er, d, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PRON">15077</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">32323</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
     <tag name="PUNCT">39056</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
     <tag name="SCONJ">1810</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, ob, wie -->
@@ -29,7 +29,7 @@
     <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="24">
+  <feats unique="27">
     <feat name="Case" value="Acc" upos="PRON">1879</feat><!-- sich, ihn, mich, dich -->
     <feat name="Case" value="Acc,Dat" upos="PRON">121</feat><!-- uns, euch -->
     <feat name="Case" value="Acc,Nom" upos="PRON">2263</feat><!-- sie, es, 's -->
@@ -49,7 +49,10 @@
     <feat name="Polite" value="Inf" upos="PRON">76</feat><!-- ihr, du, euch, Dir, dich -->
     <feat name="Polite" value="Pol" upos="PRON">381</feat><!-- Sie, Ihnen -->
     <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">656</feat><!-- das, die, der, dessen, dem, deren, den, denen, derer, des -->
+    <feat name="PronType" value="Ind" upos="PRON">40</feat><!-- einer, einen, einem, eine, eines, ein -->
     <feat name="PronType" value="Prs" upos="PRON">7765</feat><!-- er, sich, sie, es, ich, wir, ihm, ihn, uns, mir -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">1834</feat><!-- die, der, das, dem, denen, deren, dessen, den, derer -->
     <feat name="Reflex" value="Yes" upos="PRON">1766</feat><!-- sich, mich, uns, mir, Euch -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">22383</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, waren -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3492</feat><!-- werden, sein, lassen, können, empfehlen, machen, haben, finden, erreichen, sehen -->

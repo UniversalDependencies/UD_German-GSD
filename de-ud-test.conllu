@@ -212,7 +212,7 @@
 18	suchten	suchen	VERB	VVFIN	VerbForm=Fin	32	advcl	_	_
 19	,	,	PUNCT	$,	_	32	punct	_	_
 20	in	in	ADP	APPR	_	21	case	_	_
-21	der	d	DET	PRELS	_	29	nmod	_	_
+21	der	der	DET	PRELS	PronType=Rel	29	nmod	_	_
 22	man	man	PRON	PIS	_	29	nsubj	_	_
 23	das	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 24	originelle	originell	ADJ	ADJA	_	25	amod	_	_
@@ -517,7 +517,7 @@
 12	,	,	PUNCT	$,	_	22	punct	_	_
 13	wer	wer	PRON	PWS	_	14	nsubj	_	_
 14	tut	tun	VERB	VVFIN	VerbForm=Fin	11	parataxis	_	_
-15	das	d	PRON	PDS	_	14	dobj	_	_
+15	das	der	PRON	PDS	PronType=Dem	14	dobj	_	_
 16	schon	schon	ADV	ADV	_	17	advmod	_	_
 17	gerne	gerne	ADV	ADV	_	14	advmod	_	_
 18	,	,	PUNCT	$,	_	22	punct	_	_
@@ -553,7 +553,7 @@
 17	Arzt	Arzt	NOUN	NN	_	21	nmod	_	_
 18	oder	oder	CONJ	KON	_	17	cc	_	_
 19	Frieseur	Frieseur	NOUN	NN	_	17	conj	_	_
-20	das	d	PRON	PDS	_	21	nsubj	_	_
+20	das	der	PRON	PDS	PronType=Dem	21	nsubj	_	_
 21	ist	sein	VERB	VAFIN	VerbForm=Fin	13	advcl	_	_
 22	nun	nun	ADV	ADV	_	23	advmod	_	_
 23	mal	mal	ADV	ADV	_	21	advmod	_	_
@@ -650,7 +650,7 @@
 6	den	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Anwälten	Anwalt	NOUN	NN	_	2	nmod	_	_
 8	,	,	PUNCT	$,	_	2	punct	_	_
-9	die	d	PRON	PRELS	_	12	nsubj	_	_
+9	die	der	PRON	PRELS	PronType=Rel	12	nsubj	_	_
 10	gerade	gerade	ADV	ADV	_	11	advmod	_	_
 11	herraus	herraus	ADV	ADJA	_	12	advmod	_	_
 12	sagen	sagen	VERB	VVINF	VerbForm=Inf	7	acl	_	_
@@ -800,7 +800,7 @@
 21	und	und	CONJ	KON	_	20	cc	_	_
 22	beruhigend	beruhigend	ADJ	ADJD	_	20	conj	_	_
 23	auf	auf	ADP	APPR	_	24	case	_	_
-24	einen	ein	PRON	ART	_	25	nmod	_	_
+24	einen	ein	PRON	ART	PronType=Ind	25	nmod	_	_
 25	wirkt	wirken	VERB	VVFIN	VerbForm=Fin	34	advcl	_	_
 26	,	,	PUNCT	$,	_	11	punct	_	_
 27	(	(	PUNCT	$(	_	32	punct	_	_
@@ -860,7 +860,7 @@
 5	war	sein	VERB	VAFIN	VerbForm=Fin	9	advcl	_	_
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	seit	seit	ADP	APPR	_	8	case	_	_
-8	dem	d	DET	PRELS	_	9	nmod	_	_
+8	dem	der	DET	PRELS	PronType=Rel	9	nmod	_	_
 9	gehe	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 11	nur	nur	ADV	ADV	_	12	advmod	_	_
@@ -1168,7 +1168,7 @@
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id test-s71/de
-1	Das	d	PRON	PDS	_	2	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 2	gilt	gelten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
 4	für	für	ADP	APPR	_	8	case	_	_
@@ -1184,7 +1184,7 @@
 14	?	?	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s72/de
-1	Das	d	PRON	PDS	_	6	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	6	nsubj	_	_
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	6	cop	_	_
 3	immer	immer	ADV	ADV	_	6	advmod	_	_
 4	eine	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
@@ -1205,7 +1205,7 @@
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id test-s73/de
-1	Das	d	PRON	PDS	_	7	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	7	nsubj	_	_
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	7	cop	_	_
 3	ja	ja	ADV	ADV	_	7	advmod	_	_
 4	`	`	PUNCT	$(	_	5	punct	_	_
@@ -1228,7 +1228,7 @@
 21	Fragen	Frage	NOUN	NN	_	19	conj	_	_
 
 # sent_id test-s74/de
-1	Das	d	PRON	PDS	_	5	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	5	nsubj	_	_
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	5	cop	_	_
 3	leider	leider	ADV	ADV	_	5	advmod	_	_
 4	keine	kein	PRON	PIAT	_	5	neg	_	_
@@ -1247,7 +1247,7 @@
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s75/de
-1	Das	d	PRON	PDS	_	9	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	9	nsubj	_	_
 2	ist	sein	AUX	VAFIN	VerbForm=Fin	9	aux	_	_
 3	seit	seit	ADP	APPR	_	6	case	_	_
 4	nunmehr	nunmehr	ADV	ADV	_	3	advmod	_	_
@@ -1301,7 +1301,7 @@
 16	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id test-s78/de
-1	Das	d	PRON	PDS	_	2	dobj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	2	dobj	_	_
 2	nennt	nennen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	man	man	PRON	PIS	_	2	nsubj	_	_
 4	Kundennähe	Kundennähe	NOUN	NN	_	2	dobj	_	_
@@ -1362,7 +1362,7 @@
 16	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id test-s82/de
-1	Das	d	PRON	PDS	_	2	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 2	ragt	ragen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	mal	mal	ADV	ADV	_	2	advmod	_	_
 4	angenhem	angenhem	ADV	ADJA	_	2	advmod	_	_
@@ -1388,7 +1388,7 @@
 13	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id test-s84/de
-1	das	d	PRON	PDS	_	7	nsubj	_	_
+1	das	der	PRON	PDS	PronType=Dem	7	nsubj	_	_
 2	sind	sein	VERB	VAFIN	VerbForm=Fin	7	cop	_	_
 3	aber	aber	ADV	ADV	_	7	advmod	_	_
 4	seeeeeehr	seeeeeehr	ADV	ADJD	_	5	advmod	_	_
@@ -1412,7 +1412,7 @@
 12	)	)	PUNCT	$(	_	9	punct	_	_
 13	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	,	,	PUNCT	$,	_	13	punct	_	_
-15	die	d	PRON	PRELS	_	22	nsubj	_	_
+15	die	der	PRON	PRELS	PronType=Rel	22	nsubj	_	_
 16	alle	alle	PRON	PIS	_	22	det	_	_
 17	sehr	sehr	ADV	ADV	_	18	advmod	_	_
 18	viel	viel	PRON	ADV	_	22	dobj	_	_
@@ -1744,7 +1744,7 @@
 21	her	her	ADV	PTKVZ	_	20	advmod	_	_
 22	ist	sein	VERB	VAFIN	VerbForm=Fin	12	ccomp	_	_
 23	und	und	CONJ	KON	_	4	cc	_	_
-24	das	d	PRON	PDS	_	25	nsubj	_	_
+24	das	der	PRON	PDS	PronType=Dem	25	nsubj	_	_
 25	bestätigte	bestätigen	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
 26	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	dobj	_	_
 27	auch	auch	ADV	ADV	_	25	advmod	_	_
@@ -1933,7 +1933,7 @@
 8	Diver	Diver	NOUN	NN	_	9	dobj	_	_
 9	geplant	planen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	,	,	PUNCT	$,	_	9	punct	_	_
-11	den	d	PRON	PRELS	_	16	dobj	_	_
+11	den	der	PRON	PRELS	PronType=Rel	16	dobj	_	_
 12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 13	selbstverständlich	selbstverständlich	ADV	ADJD	_	16	advmod	_	_
 14	wieder	wieder	ADV	ADV	_	16	advmod	_	_
@@ -2019,7 +2019,7 @@
 2	ganz	ganz	ADV	ADV	_	3	advmod	_	_
 3	gut	gut	ADJ	ADJD	_	0	root	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
-5	den	d	DET	PDS	_	6	det	_	_
+5	den	der	DET	PDS	PronType=Dem	6	det	_	_
 6	preis	preis	PART	PTKVZ	_	3	nmod	_	_
 7	,	,	PUNCT	$,	_	3	punct	_	_
 8	jedoch	jedoch	CONJ	ADV	_	3	cc	_	_
@@ -2056,7 +2056,7 @@
 8	einen	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
 9	Kunden	Kunde	NOUN	NN	_	3	nmod	_	_
 10	,	,	PUNCT	$,	_	3	punct	_	_
-11	der	d	PRON	PRELS	_	17	nsubj	_	_
+11	der	der	PRON	PRELS	PronType=Rel	17	nsubj	_	_
 12	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	dobj	_	_
 13	nicht	nicht	PART	PTKNEG	_	17	neg	_	_
 14-15	übers	_	_	_	_	_	_	_	_
@@ -2378,7 +2378,7 @@
 4	moderne	modern	ADJ	ADJA	_	5	amod	_	_
 5	Band	Band	NOUN	NN	_	1	appos	_	_
 6	,	,	PUNCT	$,	_	1	punct	_	_
-7	die	d	PRON	PRELS	_	12	nsubj	_	_
+7	die	der	PRON	PRELS	PronType=Rel	12	nsubj	_	_
 8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
 9	genau	genau	ADV	ADJD	_	12	advmod	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
@@ -2883,7 +2883,7 @@
 18	verständlichen	verständlich	ADJ	ADJA	_	16	conj	_	_
 19	Kostenvoranschläge	Kostenvoranschlag	NOUN	NN	_	6	conj	_	_
 20	,	,	PUNCT	$,	_	6	punct	_	_
-21	die	d	DET	PRELS	_	24	det	_	_
+21	die	der	DET	PRELS	PronType=Rel	24	det	_	_
 22	qualitativ	qualitativ	ADV	ADJD	_	23	advmod	_	_
 23	gute	gut	ADJ	ADJA	_	24	amod	_	_
 24	Ausführung	Ausführung	NOUN	NN	_	6	conj	_	_
@@ -3046,7 +3046,7 @@
 22	Rückenschmerzen	Rückenschmerz	NOUN	NN	_	23	dobj	_	_
 23	bekam	bekommen	VERB	VVFIN	VerbForm=Fin	6	advcl	_	_
 24	,	,	PUNCT	$,	_	6	punct	_	_
-25	die	d	PRON	PRELS	_	29	nsubj	_	_
+25	die	der	PRON	PRELS	PronType=Rel	29	nsubj	_	_
 26	über	über	ADP	APPR	_	27	case	_	_
 27	Wochen	Woche	NOUN	NN	_	29	nmod	_	_
 28	nicht	nicht	PART	PTKNEG	_	29	neg	_	_
@@ -3070,7 +3070,7 @@
 14	,	,	PUNCT	$,	_	8	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	23	mark	_	_
 16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
-17	dessen	d	PRON	PDAT	_	18	det	_	_
+17	dessen	der	PRON	PDAT	PronType=Dem	18	det	_	_
 18	Qualität	Qualität	NOUN	NN	_	23	dobj	_	_
 19	auch	auch	ADV	ADV	_	23	advmod	_	_
 20	mit	mit	ADP	APPR	_	22	case	_	_
@@ -3425,7 +3425,7 @@
 2	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 3	beste	gut	ADJ	ADJA	_	4	amod	_	_
 4	Pizza	Pizza	NOUN	NN	_	0	root	_	_
-5	die	d	PRON	PRELS	_	10	dobj	_	_
+5	die	der	PRON	PRELS	PronType=Rel	10	dobj	_	_
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 7	hier	hier	ADV	ADV	_	10	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
@@ -3451,7 +3451,7 @@
 14	sovielen	sovielen	ADJ	ADJA	_	15	amod	_	_
 15	Jahren	Jahr	NOUN	NN	_	22	nmod	_	_
 16	,	,	PUNCT	$,	_	1	punct	_	_
-17	der	d	DET	PRELS	_	18	det	_	_
+17	der	der	DET	PRELS	PronType=Rel	18	det	_	_
 18	laden	laden	ADJ	VVFIN	_	22	nsubj	_	_
 19	so	so	ADV	ADV	_	20	advmod	_	_
 20	wenig	wenig	PRON	PIAT	_	21	amod	_	_
@@ -3524,7 +3524,7 @@
 1	Keine	kein	PRON	PIAT	_	2	neg	_	_
 2	Playbackveranstaltung	Playbackveranstaltung	NOUN	NN	_	0	root	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
-4	die	d	PRON	PRELS	_	7	nsubj	_	_
+4	die	der	PRON	PRELS	PronType=Rel	7	nsubj	_	_
 5	können	können	AUX	VMFIN	VerbForm=Fin	7	aux	_	_
 6	live	live	ADV	ADJD	_	7	advmod	_	_
 7	spielen	spielen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	_
@@ -3575,7 +3575,7 @@
 10	und	und	CONJ	KON	_	9	cc	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	conj	_	_
 12	,	,	PUNCT	$,	_	21	punct	_	_
-13	die	d	PRON	PRELS	_	18	mark	_	_
+13	die	der	PRON	PRELS	PronType=Rel	18	mark	_	_
 14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 15	um	um	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
@@ -3639,7 +3639,7 @@
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	dobj	_	_
 4	wirklich	wirklich	ADV	ADJD	_	7	advmod	_	_
 5	um	um	ADP	APPR	_	6	case	_	_
-6	einen	ein	PRON	ART	_	7	nmod	_	_
+6	einen	ein	PRON	ART	PronType=Ind	7	nmod	_	_
 7	gekümmert	kümmern	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	und	und	CONJ	KON	_	7	cc	_	_
 9-10	vom	_	_	_	_	_	_	_	_
@@ -3909,7 +3909,7 @@
 4	Unterschied	Unterschied	NOUN	NN	_	0	root	_	_
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
-7	die	d	PRON	ART	_	10	nsubj	_	_
+7	die	der	PRON	ART	PronType=Dem	10	nsubj	_	_
 8	kaum	kaum	ADV	ADV	_	10	advmod	_	_
 9	zu	zu	PART	PTKZU	_	10	aux	_	_
 10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
@@ -4070,7 +4070,7 @@
 11	gutes	gut	ADJ	ADJA	_	12	amod	_	_
 12	Frühstück	Frühstück	NOUN	NN	_	3	conj	_	_
 13	und	und	CONJ	KON	_	3	cc	_	_
-14	das	d	PRON	ART	_	3	det	_	_
+14	das	der	PRON	ART	PronType=Dem	3	det	_	_
 15	alles	alle	PROPN	PIS	_	14	name	_	_
 16	zu	zu	ADP	APPR	_	19	case	_	_
 17	einem	ein	DET	ART	Definite=Ind|PronType=Art	19	det	_	_
@@ -4130,7 +4130,7 @@
 18	Webseite	Webseite	NOUN	NN	_	14	nmod	_	_
 19	nach	nach	ADP	PTKVZ	_	6	mark	_	_
 20	,	,	PUNCT	$,	_	6	punct	_	_
-21	das	d	PRON	PRELS	_	30	nsubjpass	_	_
+21	das	der	PRON	PRELS	PronType=Rel	30	nsubjpass	_	_
 22	von	von	ADP	APPR	_	24	case	_	_
 23	einem	ein	DET	ART	Definite=Ind|PronType=Art	24	det	_	_
 24	Sternekoch	Sternekoch	NOUN	NN	_	30	nmod	_	_
@@ -4163,7 +4163,7 @@
 4	viele	viel	PRON	PIAT	_	5	det	_	_
 5	Banken	Bank	NOUN	NN	_	2	dobj	_	_
 6	,	,	PUNCT	$,	_	2	punct	_	_
-7	die	d	PRON	ART	_	15	nsubj	_	_
+7	die	der	PRON	ART	PronType=Dem	15	nsubj	_	_
 8	billigere	billig	ADJ	ADJA	_	9	amod	_	_
 9	Konzepte	Konzept	NOUN	NN	_	15	dobj	_	_
 10	zu	zu	ADP	APPR	_	11	case	_	_
@@ -4181,8 +4181,8 @@
 22	die	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 23	Hilfe	Hilfe	NOUN	NN	_	20	conj	_	_
 24	,	,	PUNCT	$,	_	2	punct	_	_
-25	die	d	PRON	PRELS	_	30	nsubjpass	_	_
-26	einem	ein	PRON	ART	_	30	iobj	_	_
+25	die	der	PRON	PRELS	PronType=Rel	30	nsubjpass	_	_
+26	einem	ein	PRON	ART	PronType=Ind	30	iobj	_	_
 27	in	in	ADP	APPR	_	29	case	_	_
 28	finanziellen	finanziell	ADJ	ADJA	_	29	amod	_	_
 29	Fragen	Frage	NOUN	NN	_	30	nmod	_	_
@@ -4235,7 +4235,7 @@
 7	super	super	ADJ	ADJD	_	8	amod	_	_
 8	Dienstleister	Dienstleister	NOUN	NN	_	5	conj	_	_
 9	--	--	PUNCT	$(	_	5	punct	_	_
-10	das	d	PRON	PDS	_	11	nsubj	_	_
+10	das	der	PRON	PDS	PronType=Dem	11	nsubj	_	_
 11	gefällt	gefallen	VERB	VVFIN	VerbForm=Fin	5	parataxis	_	_
 12	uns	wir	PRON	PPER	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
 13	.	.	PUNCT	$.	_	5	punct	_	_
@@ -4243,7 +4243,7 @@
 # sent_id test-s259/de
 1	So	so	ADV	ADV	_	4	advmod	_	_
 2	muss	müssen	AUX	VMFIN	VerbForm=Fin	4	aux	_	_
-3	das	d	PRON	PDS	_	4	nsubj	_	_
+3	das	der	PRON	PDS	PronType=Dem	4	nsubj	_	_
 4	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	_
 5	!	!	PUNCT	$.	_	4	punct	_	_
 
@@ -4302,7 +4302,7 @@
 1	Super	Super	ADJ	NN	_	2	amod	_	_
 2	Service	Service	NOUN	NN	_	0	root	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
-4	das	d	PRON	PDS	_	8	nsubj	_	_
+4	das	der	PRON	PDS	PronType=Dem	8	nsubj	_	_
 5	ist	sein	VERB	VAFIN	VerbForm=Fin	8	cop	_	_
 6	jetzt	jetzt	ADV	ADV	_	8	advmod	_	_
 7	mein	mein	PRON	PPOSAT	_	8	det	_	_
@@ -4414,7 +4414,7 @@
 16	Sommerreifen	Sommerreifen	NOUN	NN	_	11	dobj	_	_
 17	drauf	drauf	ADV	PAV	_	11	advmod	_	_
 18	(	(	PUNCT	$(	_	20	punct	_	_
-19	die	d	PRON	PDS	_	20	nsubj	_	_
+19	die	der	PRON	PDS	PronType=Dem	20	nsubj	_	_
 20	waren	sein	VERB	VAFIN	VerbForm=Fin	16	appos	_	_
 21	sowieso	sowieso	ADV	ADV	_	20	advmod	_	_
 22	runter	runter	ADV	PTKVZ	_	20	advmod	_	_
@@ -4464,7 +4464,7 @@
 1	Verständlicher	verständlich	ADJ	ADJA	_	2	amod	_	_
 2	Weise	Weise	NOUN	NN	_	0	root	_	_
 3	bei	bei	ADP	APPR	_	5	case	_	_
-4	der	d	PRON	ART	_	5	det	_	_
+4	der	der	PRON	ART	PronType=Dem	5	det	_	_
 5	Lage	Lage	NOUN	NN	_	2	nmod	_	_
 6	und	und	CONJ	KON	_	5	cc	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
@@ -4525,7 +4525,7 @@
 17	Warendorf	Warendorf	PROPN	NN	_	13	nmod	_	_
 18	motivierte	motiviert	ADJ	ADJA	_	19	amod	_	_
 19	Mitarbeiter	Mitarbeiter	NOUN	NN	_	13	dobj	_	_
-20	die	d	PRON	ART	_	22	nsubj	_	_
+20	die	der	PRON	ART	PronType=Dem	22	nsubj	_	_
 21	stets	stets	ADV	ADV	_	22	advmod	_	_
 22	freundlich	freundlich	ADJ	ADJD	_	19	acl	_	_
 23	sind	sein	VERB	VAFIN	VerbForm=Fin	22	cop	_	_
@@ -4556,7 +4556,7 @@
 
 # sent_id test-s279/de
 1	Warum	warum	ADV	PWAV	_	4	advmod	_	_
-2	die	d	PRON	PDS	_	4	nsubj	_	_
+2	die	der	PRON	PDS	PronType=Dem	4	nsubj	_	_
 3	wieder	wieder	ADV	ADV	_	4	advmod	_	_
 4	aufmachen	aufmachen	VERB	VVINF	VerbForm=Inf	9	csubj	_	_
 5	durften	dürfen	AUX	VMFIN	VerbForm=Fin	4	aux	_	_
@@ -4607,7 +4607,7 @@
 12	lernen	lernen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
 13	möchte	mögen	AUX	VMFIN	VerbForm=Fin	9	aux	_	_
 14	,	,	PUNCT	$,	_	19	punct	_	_
-15	der	d	PRON	PDS	_	19	nsubj	_	_
+15	der	der	PRON	PDS	PronType=Dem	19	nsubj	_	_
 16	ist	sein	VERB	VAFIN	VerbForm=Fin	19	cop	_	_
 17	hier	hier	ADV	ADV	_	19	advmod	_	_
 18	genau	genau	ADV	ADJD	_	19	advmod	_	_
@@ -4690,7 +4690,7 @@
 4	Tapas	Tapas	NOUN	NN	_	5	dobj	_	_
 5	gegessen	essen	VERB	VVPP	VerbForm=Part	0	root	_	_
 6	,	,	PUNCT	$,	_	5	punct	_	_
-7	die	d	PRON	PRELS	_	16	nsubj	_	_
+7	die	der	PRON	PRELS	PronType=Rel	16	nsubj	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Anrichtung	Anrichtung	NOUN	NN	_	16	nmod	_	_
@@ -4821,7 +4821,7 @@
 13	Internet	Internet	NOUN	NN	_	14	nmod	_	_
 14	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 15	und	und	CONJ	KON	_	14	cc	_	_
-16	das	d	PRON	PDS	_	14	appos	_	_
+16	das	der	PRON	PDS	PronType=Dem	14	appos	_	_
 17	noch	noch	ADV	ADV	_	20	advmod	_	_
 18	während	während	ADP	APPR	_	20	case	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -4855,7 +4855,7 @@
 # sent_id test-s299/de
 1-2	zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	APPR	_	3	case	_	_
-2	dem	d	DET	PDS	_	3	det	_	_
+2	dem	der	DET	PDS	PronType=Dem	3	det	_	_
 3	zusammensitzen	zusammensitzen	NOUN	VVFIN	_	7	nmod	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Freunden	Freund	NOUN	NN	_	3	nmod	_	_
@@ -4928,7 +4928,7 @@
 13	Klarheit	Klarheit	NOUN	NN	_	10	conj	_	_
 14	getan	tun	VERB	VVPP	VerbForm=Part	23	ccomp	_	_
 15	,	,	PUNCT	$,	_	23	punct	_	_
-16	die	d	PRON	PRELS	_	19	dobj	_	_
+16	die	der	PRON	PRELS	PronType=Rel	19	dobj	_	_
 17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 18	uns	wir	PRON	PRF	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	iobj	_	_
 19	gewünscht	wünschen	VERB	VVPP	VerbForm=Part	10	acl	_	_
@@ -5385,7 +5385,7 @@
 6	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	worden	werden	AUX	VAPP	VerbForm=Part	6	auxpass	_	_
 8	,	,	PUNCT	$,	_	6	punct	_	_
-9	dessen	d	PRON	PRELAT	_	10	det	_	_
+9	dessen	der	PRON	PRELAT	PronType=Rel	10	det	_	_
 10	Zeit	Zeit	NOUN	NN	_	14	nsubj	_	_
 11	vielleicht	vielleicht	ADV	ADV	_	14	advmod	_	_
 12	erst	erst	ADV	ADV	_	14	advmod	_	_
@@ -5472,7 +5472,7 @@
 1	als	als	SCONJ	KOUS	_	26	mark	_	_
 2	Sahlin	Sahlin	PROPN	NE	_	26	nsubjpass	_	_
 3	,	,	PUNCT	$,	_	29	punct	_	_
-4	die	d	PRON	PRELS	_	13	nsubj	_	_
+4	die	der	PRON	PRELS	PronType=Rel	13	nsubj	_	_
 5	nach	nach	ADP	APPR	_	8	case	_	_
 6	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 7	höchsten	hoch	ADJ	ADJA	_	8	amod	_	_
@@ -5631,7 +5631,7 @@
 9	Feld	Feld	NOUN	NN	_	2	nmod	_	_
 10	,	,	PUNCT	$,	_	2	punct	_	_
 11	auf	auf	ADP	APPR	_	12	case	_	_
-12	dem	d	PRON	PRELS	_	25	nmod	_	_
+12	dem	der	PRON	PRELS	PronType=Rel	25	nmod	_	_
 13	sie	sie	PRON	PPER	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 14	selbst	selbst	ADV	ADV	_	13	advmod	_	_
 15	nach	nach	ADP	APPR	_	17	case	_	_
@@ -5761,7 +5761,7 @@
 22	Stadt	Stadt	NOUN	NN	_	20	det	_	_
 23	freizubekommen	freibekommen	VERB	VVIZU	_	10	xcomp	_	_
 24	--	--	PUNCT	$(	_	26	punct	_	_
-25	das	d	PRON	PDS	_	26	det	_	_
+25	das	der	PRON	PDS	PronType=Dem	26	det	_	_
 26	heißt	heißen	VERB	VVFIN	VerbForm=Fin	23	parataxis	_	_
 27	auch	auch	ADV	ADV	_	26	advmod	_	_
 28	notfalls	notfalls	ADV	ADV	_	29	advmod	_	_
@@ -5941,7 +5941,7 @@
 12	Mark	Mark	NOUN	NN	_	2	nsubj	_	_
 13	,	,	PUNCT	$,	_	2	punct	_	_
 14	für	für	ADP	APPR	_	15	case	_	_
-15	die	d	DET	PRELS	_	20	nmod	_	_
+15	die	der	DET	PRELS	PronType=Rel	20	nmod	_	_
 16	Waigel	Waigel	PROPN	NE	_	20	nsubj	_	_
 17	nicht	nicht	PART	PTKNEG	_	20	neg	_	_
 18	ausreichend	ausreichend	ADV	ADJD	_	17	advmod	_	_
@@ -6134,7 +6134,7 @@
 2	erhielt	erhalten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	Informationen	Information	NOUN	NN	_	2	dobj	_	_
 4	,	,	PUNCT	$,	_	2	punct	_	_
-5	denen	d	PRON	PRELS	_	10	nmod	_	_
+5	denen	der	PRON	PRELS	PronType=Rel	10	nmod	_	_
 6	zufolge	zufolge	ADP	APPO	_	5	case	_	_
 7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Trio	Trio	NOUN	NN	_	10	nsubj	_	_
@@ -6239,7 +6239,7 @@
 16	Abkommen	Abkomme|Abkommen	NOUN	NN	_	17	dobj	_	_
 17	unterzeichnet	unterzeichnen	VERB	VVPP	VerbForm=Part	0	root	_	_
 18	,	,	PUNCT	$,	_	17	punct	_	_
-19	die	d	PRON	PRELS	_	32	nsubj	_	_
+19	die	der	PRON	PRELS	PronType=Rel	32	nsubj	_	_
 20	eine	ein	DET	ART	Definite=Ind|PronType=Art	22	det	_	_
 21	enge	eng	ADJ	ADJA	_	22	amod	_	_
 22	Zusammenarbeit	Zusammenarbeit	NOUN	NN	_	32	dobj	_	_
@@ -6289,7 +6289,7 @@
 12	''	''	PUNCT	$(	_	13	punct	_	_
 13	verschlug	verschlagen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 14	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-15	dem	d	PRON	PDS	_	23	det	_	_
+15	dem	der	PRON	PDS	PronType=Dem	23	det	_	_
 16	ansonsten	ansonsten	ADV	ADV	_	23	advmod	_	_
 17	nicht	nicht	PART	PTKNEG	_	21	neg	_	_
 18	auf	auf	ADP	APPR	_	20	case	_	_
@@ -6384,14 +6384,14 @@
 19	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id test-s369/de
-1	Das	d	PRON	PDS	_	6	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	6	nsubj	_	_
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	6	cop	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 4	erste	erst	ADJ	ADJA	_	6	amod	_	_
 5	intelligente	intelligent	ADJ	ADJA	_	6	amod	_	_
 6	Äußerung	Äußerung	NOUN	NN	_	19	ccomp	_	_
 7	,	,	PUNCT	$,	_	19	punct	_	_
-8	die	d	PRON	PRELS	_	16	dobj	_	_
+8	die	der	PRON	PRELS	PronType=Rel	16	dobj	_	_
 9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 10	von	von	ADP	APPR	_	13	case	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -6432,7 +6432,7 @@
 21	nächsten	nah	ADJ	ADJA	_	22	amod	_	_
 22	Parteitag	Parteitag	NOUN	NN	_	31	nmod	_	_
 23	,	,	PUNCT	$,	_	31	punct	_	_
-24	der	d	PRON	PRELS	_	29	nsubj	_	_
+24	der	der	PRON	PRELS	PronType=Rel	29	nsubj	_	_
 25	für	für	ADP	APPR	_	27	case	_	_
 26	Mitte	Mitte	NOUN	NN	_	27	compound	_	_
 27	Dezember	Dezember	PROPN	NN	_	28	nmod	_	_
@@ -6509,7 +6509,7 @@
 14	EU	EU	PROPN	NE	_	11	nmod	_	_
 15	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	_
 16	,	,	PUNCT	$,	_	15	punct	_	_
-17	die	d	PRON	PRELS	_	24	nsubjpass	_	_
+17	die	der	PRON	PRELS	PronType=Rel	24	nsubjpass	_	_
 18-19	zum	_	_	_	_	_	_	_	_
 18	zu	zu	ADP	APPR	_	22	case	_	_
 19	dem	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
@@ -6627,7 +6627,7 @@
 10	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s381/de
-1	Die	d	PRON	PDS	_	2	nsubj	_	_
+1	Die	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 2	wollen	wollen	VERB	VMFIN	VerbForm=Fin	20	ccomp	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	17	mark	_	_
@@ -6754,7 +6754,7 @@
 22	Frauen	Frau	NOUN	NN	_	20	conj	_	_
 23	handle	handeln	VERB	VVFIN	VerbForm=Fin	2	ccomp	_	_
 24	,	,	PUNCT	$,	_	2	punct	_	_
-25	das	d	PRON	PRELS	_	31	nsubj	_	_
+25	das	der	PRON	PRELS	PronType=Rel	31	nsubj	_	_
 26	den	der	DET	ART	Definite=Def|PronType=Art	27	det	_	_
 27	Anspruch	Anspruch	NOUN	NN	_	31	dobj	_	_
 28	auf	auf	ADP	APPR	_	29	case	_	_
@@ -6947,7 +6947,7 @@
 13	Manfred	Manfred	PROPN	NE	_	14	name	_	_
 14	Bauer	Bauer	PROPN	NE	_	12	appos	_	_
 15	,	,	PUNCT	$,	_	11	punct	_	_
-16	einer	ein	PRON	ART	_	12	appos	_	_
+16	einer	ein	PRON	ART	PronType=Ind	12	appos	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Väter	Vater	NOUN	NN	_	16	det	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -7106,7 +7106,7 @@
 8	bisher	bisher	ADV	ADV	_	6	advmod	_	_
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	könnte	können	AUX	VMFIN	VerbForm=Fin	13	aux	_	_
-11	das	d	PRON	PDS	_	13	nsubj	_	_
+11	das	der	PRON	PDS	PronType=Dem	13	nsubj	_	_
 12	länger	lang	ADV	ADJD	_	13	advmod	_	_
 13	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	_
 14	.	.	PUNCT	$.	_	13	punct	_	_
@@ -7240,7 +7240,7 @@
 # sent_id test-s410/de
 1	Franzose	Franzose	NOUN	NN	_	16	nsubj	_	_
 2	,	,	PUNCT	$,	_	16	punct	_	_
-3	der	d	DET	PRELS	_	10	nsubj	_	_
+3	der	der	DET	PRELS	PronType=Rel	10	nsubj	_	_
 4	über	über	ADP	APPR	_	6	case	_	_
 5	seine	sein	PRON	PPOSAT	_	6	det	_	_
 6	Firma	Firma	NOUN	NN	_	10	nmod	_	_
@@ -7594,7 +7594,7 @@
 24	Schweizer	Schweizer	ADJ	ADJA	_	25	amod	_	_
 25	Nachbarschaft	Nachbarschaft	NOUN	NN	_	21	nmod	_	_
 26	,	,	PUNCT	$,	_	10	punct	_	_
-27	die	d	PRON	PRELS	_	37	nsubj	_	_
+27	die	der	PRON	PRELS	PronType=Rel	37	nsubj	_	_
 28	jenseits	jenseits	ADP	APPR	_	30	case	_	_
 29	der	der	DET	ART	Definite=Def|PronType=Art	30	det	_	_
 30	Landesgrenze	Landesgrenze	NOUN	NN	_	37	nmod	_	_
@@ -7682,13 +7682,13 @@
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	ob	ob	SCONJ	KOUS	_	7	mark	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
-6	das	d	PRON	PDS	_	7	dobj	_	_
+6	das	der	PRON	PDS	PronType=Dem	7	dobj	_	_
 7	überlebten	überleben	VERB	VVFIN	VerbForm=Fin	2	ccomp	_	_
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	ob	ob	SCONJ	KOUS	_	13	mark	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Staat	Staat	NOUN	NN	_	13	nsubj	_	_
-12	das	d	PRON	PDS	_	13	dobj	_	_
+12	das	der	PRON	PDS	PronType=Dem	13	dobj	_	_
 13	überlebte	überleben	VERB	VVFIN	VerbForm=Fin	7	conj	_	_
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -7922,7 +7922,7 @@
 2	in	in	ADP	APPR	_	3	case	_	_
 3	China	China	PROPN	NE	_	1	nmod	_	_
 4	,	,	PUNCT	$,	_	14	punct	_	_
-5	die	d	PRON	PRELS	_	8	nsubj	_	_
+5	die	der	PRON	PRELS	PronType=Rel	8	nsubj	_	_
 6	nun	nun	ADV	ADV	_	8	advmod	_	_
 7	stark	stark	ADV	ADJD	_	8	advmod	_	_
 8	anziehen	anziehen	VERB	VVINF	VerbForm=Inf	1	acl	_	_
@@ -8148,7 +8148,7 @@
 10	Gebäude	Gebäude	NOUN	NN	_	11	nmod	_	_
 11	angelegt	anlegen	VERB	VVPP	VerbForm=Part	0	root	_	_
 12	,	,	PUNCT	$,	_	11	punct	_	_
-13	das	d	PRON	PRELS	_	22	nsubj	_	_
+13	das	der	PRON	PRELS	PronType=Rel	22	nsubj	_	_
 14-15	im	_	_	_	_	_	_	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
@@ -8224,7 +8224,7 @@
 26	Unruhen	Unruhe	NOUN	NN	_	20	nmod	_	_
 27	zuzuwenden	zuwenden	VERB	VVIZU	_	2	xcomp	_	_
 28	,	,	PUNCT	$,	_	2	punct	_	_
-29	denen	d	PRON	PRELS	_	38	iobj	_	_
+29	denen	der	PRON	PRELS	PronType=Rel	38	iobj	_	_
 30	in	in	ADP	APPR	_	32	case	_	_
 31	drei	drei	NUM	CARD	NumType=Card	32	nummod	_	_
 32	Jahren	Jahr	NOUN	NN	_	38	nmod	_	_
@@ -8282,7 +8282,7 @@
 11	Anschlußprogramm	Anschlußprogramm	NOUN	NN	_	20	dobj	_	_
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	''	''	PUNCT	$(	_	20	punct	_	_
-14	die	d	PRON	ART	_	18	nsubj	_	_
+14	die	der	PRON	ART	PronType=Dem	18	nsubj	_	_
 15	von	von	ADP	APPR	_	16	case	_	_
 16	Komatsu	Komatsu	PROPN	NE	_	18	nmod	_	_
 17	produzierten	produziert	ADJ	ADJA	_	18	amod	_	_
@@ -8311,7 +8311,7 @@
 17	Goldsuchern	Goldsucher	NOUN	NN	_	13	nmod	_	_
 18	angeordnet	anordnen	VERB	VVPP	VerbForm=Part	0	root	_	_
 19	,	,	PUNCT	$,	_	18	punct	_	_
-20	die	d	PRON	PRELS	_	30	nsubjpass	_	_
+20	die	der	PRON	PRELS	PronType=Rel	30	nsubjpass	_	_
 21	wegen	wegen	ADP	APPR	_	22	case	_	_
 22	Mordes	Mord	NOUN	NN	_	30	nmod	_	_
 23	an	an	ADP	APPR	_	26	case	_	_
@@ -8353,7 +8353,7 @@
 
 # sent_id test-s461/de
 1	Laß	lassen	VERB	VVIMP	_	0	root	_	_
-2	die	d	PRON	ART	_	1	dobj	_	_
+2	die	der	PRON	ART	PronType=Dem	1	dobj	_	_
 3	erst	erst	ADV	ADV	_	1	advmod	_	_
 4	mal	mal	ADV	ADV	_	3	advmod	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -8398,7 +8398,7 @@
 # sent_id test-s464/de
 1	Lira	Lira	NOUN	NN	_	14	nsubj	_	_
 2	,	,	PUNCT	$,	_	14	punct	_	_
-3	die	d	PRON	PRELS	_	12	nsubj	_	_
+3	die	der	PRON	PRELS	PronType=Rel	12	nsubj	_	_
 4	derzeit	derzeit	ADV	ADV	_	12	advmod	_	_
 5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	_
 6	des	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -8617,7 +8617,7 @@
 16	Kultur	Kultur	NOUN	NN	_	12	conj	_	_
 17	mitverursacht	mitverursachen	VERB	VVPP	VerbForm=Part	0	root	_	_
 18	,	,	PUNCT	$,	_	17	punct	_	_
-19	die	d	PRON	PRELS	_	24	nsubj	_	_
+19	die	der	PRON	PRELS	PronType=Rel	24	nsubj	_	_
 20	zu	zu	ADP	APPR	_	21	case	_	_
 21	Lasten	Last	NOUN	NN	_	24	nmod	_	_
 22	des	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
@@ -8918,7 +8918,7 @@
 22	scharf	scharf	ADV	ADJD	_	23	advmod	_	_
 23	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	_
 24	,	,	PUNCT	$,	_	23	punct	_	_
-25	das	d	PRON	ART	_	37	nsubj	_	_
+25	das	der	PRON	ART	PronType=Dem	37	nsubj	_	_
 26	Arbeitgeber	Arbeitgeber	NOUN	NN	_	37	dobj	_	_
 27-28	zur	_	_	_	_	_	_	_	_
 27	zu	zu	ADP	APPR	_	29	case	_	_
@@ -9277,9 +9277,9 @@
 28	den	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 29	USA	USA	PROPN	NE	_	26	nmod	_	_
 30	sowie	sowie	CONJ	KON	_	24	cc	_	_
-31	derer	d	PRON	PDS	_	24	conj	_	_
+31	derer	der	PRON	PDS	PronType=Dem	24	conj	_	_
 32	,	,	PUNCT	$,	_	13	punct	_	_
-33	die	d	PRON	PRELS	_	36	nsubj	_	_
+33	die	der	PRON	PRELS	PronType=Rel	36	nsubj	_	_
 34	zu	zu	ADP	APPR	_	35	case	_	_
 35	Hause	Haus	NOUN	NN	_	36	nmod	_	_
 36	blieben	bleiben	VERB	VVFIN	VerbForm=Fin	31	acl	_	_
@@ -9464,7 +9464,7 @@
 3	daß	daß	SCONJ	KOUS	_	10	mark	_	_
 4	Sie	Sie|sie	PRON	PPER	Case=Acc,Nom|Person=2|Polite=Pol|PronType=Prs	10	nsubj	_	_
 5	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	iobj	_	_
-6	das	d	PRON	ART	_	10	dobj	_	_
+6	das	der	PRON	ART	PronType=Dem	10	dobj	_	_
 7	nicht	nicht	PART	PTKNEG	_	10	neg	_	_
 8	mehr	mehr	ADV	ADV	_	10	advmod	_	_
 9	gefallen	fallen|gefallen	VERB	VVPP	VerbForm=Part	10	xcomp	_	_
@@ -9542,7 +9542,7 @@
 17	lächelnden	lächelnd	ADJ	ADJA	_	18	amod	_	_
 18	Komödie	Komödie	NOUN	NN	_	14	iobj	_	_
 19	,	,	PUNCT	$,	_	2	punct	_	_
-20	die	d	PRON	PRELS	_	25	nsubj	_	_
+20	die	der	PRON	PRELS	PronType=Rel	25	nsubj	_	_
 21	nicht	nicht	PART	PTKNEG	_	25	neg	_	_
 22	zu	zu	ADP	APPR	_	24	case	_	_
 23	seinen	sein	PRON	PPOSAT	_	24	det	_	_
@@ -9802,7 +9802,7 @@
 2	in	in	ADP	APPR	_	3	case	_	_
 3	Hannover	Hannover	PROPN	NE	_	1	nmod	_	_
 4	sehen	sehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-5	das	d	PRON	PDS	_	4	dobj	_	_
+5	das	der	PRON	PDS	PronType=Dem	4	dobj	_	_
 6	anders	anders	ADV	ADV	_	4	advmod	_	_
 7	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -9828,7 +9828,7 @@
 2	aus	aus	ADP	APPR	_	3	case	_	_
 3	Sofia	Sofia	PROPN	NE	_	1	nmod	_	_
 4	,	,	PUNCT	$,	_	16	punct	_	_
-5	der	d	PRON	PRELS	_	11	nsubj	_	_
+5	der	der	PRON	PRELS	PronType=Rel	11	nsubj	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Kulturstätten	Kulturstätte	NOUN	NN	_	11	dobj	_	_
 8	Europas	Europa	PROPN	NE	_	7	det	_	_
@@ -9912,7 +9912,7 @@
 3	bemängelte	bemängeln	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	24	mark	_	_
-6	die	d	PRON	ART	_	11	det	_	_
+6	die	der	PRON	ART	PronType=Dem	11	det	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Jungsozialisten	Jungsozialist	NOUN	NN	_	10	nmod	_	_
@@ -9957,7 +9957,7 @@
 20	vollzogen	vollziehen	VERB	VVPP	VerbForm=Part	35	ccomp	_	_
 21	worden	werden	AUX	VAPP	VerbForm=Part	20	auxpass	_	_
 22	,	,	PUNCT	$,	_	35	punct	_	_
-23	das	d	PRON	PRELS	_	31	nsubj	_	_
+23	das	der	PRON	PRELS	PronType=Rel	31	nsubj	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 25	neun	neun	NUM	CARD	NumType=Card	26	nummod	_	_
 26	Männer	Mann	NOUN	NN	_	31	dobj	_	_
@@ -10389,7 +10389,7 @@
 22	ROM	ROM	NOUN	NN	_	15	dobj	_	_
 23	,	,	PUNCT	$,	_	15	punct	_	_
 24	mit	mit	ADP	APPR	_	25	case	_	_
-25	der	d	DET	PRELS	_	33	nmod	_	_
+25	der	der	DET	PRELS	PronType=Rel	33	nmod	_	_
 26	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	33	dobj	_	_
 27	die	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
 28	Preise	Preis	NOUN	NN	_	33	nsubj	_	_
@@ -10462,7 +10462,7 @@
 4	arbeitet	arbeiten	VERB	VVFIN	VerbForm=Fin	16	csubj	_	_
 5	,	,	PUNCT	$,	_	19	punct	_	_
 6	kann	können	AUX	VMFIN	VerbForm=Fin	16	aux	_	_
-7	das	d	PRON	PDS	_	16	dobj	_	_
+7	das	der	PRON	PDS	PronType=Dem	16	dobj	_	_
 8	auch	auch	ADV	ADV	_	16	advmod	_	_
 9	noch	noch	ADV	ADV	_	16	advmod	_	_
 10	zwei	zwei	NUM	CARD	NumType=Card	11	nummod	_	_
@@ -10552,7 +10552,7 @@
 4	Formulierungen	Formulierung	NOUN	NN	_	5	dobj	_	_
 5	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	0	root	_	_
 6	,	,	PUNCT	$,	_	5	punct	_	_
-7	die	d	PRON	PRELS	_	12	nsubj	_	_
+7	die	der	PRON	PRELS	PronType=Rel	12	nsubj	_	_
 8	irgendein	irgendein	PRON	PIAT	_	9	det	_	_
 9	Gesetz	Gesetz	NOUN	NN	_	12	dobj	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
@@ -10569,7 +10569,7 @@
 21	``	``	PUNCT	$(	_	5	punct	_	_
 22	,	,	PUNCT	$,	_	5	punct	_	_
 23	und	und	CONJ	KON	_	5	cc	_	_
-24	das	d	PRON	PDS	_	32	nsubj	_	_
+24	das	der	PRON	PDS	PronType=Dem	32	nsubj	_	_
 25	hat	haben	AUX	VAFIN	VerbForm=Fin	32	aux	_	_
 26	uns	wir	PRON	PPER	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	32	dobj	_	_
 27	dennoch	dennoch	ADV	ADV	_	32	advmod	_	_
@@ -10698,7 +10698,7 @@
 5	hohen	hoch	ADJ	ADJA	_	6	amod	_	_
 6	Umweltstandards	Umweltstandard	NOUN	NN	_	2	nmod	_	_
 7	,	,	PUNCT	$,	_	2	punct	_	_
-8	die	d	PRON	PRELS	_	15	nsubj	_	_
+8	die	der	PRON	PRELS	PronType=Rel	15	nsubj	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
 10	einem	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
 11	Nachteil	Nachteil	NOUN	NN	_	15	nmod	_	_
@@ -10786,7 +10786,7 @@
 2	schwieg	schweigen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	dobj	_	_
 4	über	über	ADP	APPR	_	6	case	_	_
-5	deren	d	PRON	PDAT	_	6	det	_	_
+5	deren	der	PRON	PDAT	PronType=Dem	6	det	_	_
 6	Nationalität	Nationalität	NOUN	NN	_	2	nmod	_	_
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
@@ -10819,9 +10819,9 @@
 6	geheimen	geheim	ADJ	ADJA	_	7	amod	_	_
 7	Landkarte	Landkarte	NOUN	NN	_	4	iobj	_	_
 8	,	,	PUNCT	$,	_	4	punct	_	_
-9	die	d	PRON	PRELS	_	17	dobj	_	_
+9	die	der	PRON	PRELS	PronType=Rel	17	dobj	_	_
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-11	der	d	DET	PRELS	_	15	det	_	_
+11	der	der	DET	PRELS	PronType=Rel	15	det	_	_
 12	türkisch	türkisch	ADJ	ADJD	_	14	compound	_	_
 13	--	--	PUNCT	$(	_	14	punct	_	_
 14	zypriotischen	zypriotisch	ADJ	ADJA	_	15	amod	_	_
@@ -10943,7 +10943,7 @@
 19	vorgesehen	vorsehen	VERB	VVPP	VerbForm=Part	0	root	_	_
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	in	in	ADP	APPR	_	22	case	_	_
-22	denen	d	PRON	PRELS	_	27	nmod	_	_
+22	denen	der	PRON	PRELS	PronType=Rel	27	nmod	_	_
 23	Möglichkeiten	Möglichkeit	NOUN	NN	_	27	nsubjpass	_	_
 24	einer	ein	DET	ART	Definite=Ind|PronType=Art	26	det	_	_
 25	parlamentarischen	parlamentarisch	ADJ	ADJA	_	26	amod	_	_
@@ -11003,7 +11003,7 @@
 4	geriet	geraten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 5	vor	vor	ADP	APPR	_	6	case	_	_
 6	allem	alle	PRON	PIS	_	4	nmod	_	_
-7	das	d	PRON	ART	_	12	det	_	_
+7	das	der	PRON	ART	PronType=Dem	12	det	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	Ihrem	Ihr|ihr	PRON	PPOSAT	_	10	det	_	_
 10	Einzugsbereich	Einzugsbereich	NOUN	NN	_	12	nmod	_	_
@@ -11049,7 +11049,7 @@
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Engagement	Engagement	NOUN	NN	_	19	nsubj	_	_
 3	,	,	PUNCT	$,	_	19	punct	_	_
-4	das	d	PRON	PRELS	_	14	dobj	_	_
+4	das	der	PRON	PRELS	PronType=Rel	14	dobj	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 6	inzwischen	inzwischen	ADV	ADV	_	11	advmod	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
@@ -11222,7 +11222,7 @@
 1	In	in	ADP	APPR	_	2	case	_	_
 2	Nigeria	Nigeria	PROPN	NE	_	3	nmod	_	_
 3	plant	planen	NOUN	VVFIN	_	0	root	_	_
-4	der	d	DET	PDS	_	8	det	_	_
+4	der	der	DET	PDS	PronType=Dem	8	det	_	_
 5	niederländisch	niederländisch	NOUN	ADJD	_	7	compound	_	_
 6	--	--	PUNCT	$(	_	7	punct	_	_
 7	britische	britisch	ADJ	ADJA	_	8	amod	_	_
@@ -11474,7 +11474,7 @@
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id test-s607/de
-1	Das	d	PRON	PDS	_	5	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	5	nsubj	_	_
 2	hat	haben	AUX	VAFIN	VerbForm=Fin	5	aux	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Partei	Partei	NOUN	NN	_	5	iobj	_	_
@@ -11580,7 +11580,7 @@
 
 # sent_id test-s614/de
 1	Hat	haben	VERB	VAFIN	VerbForm=Fin	0	root	_	_
-2	das	d	PRON	PDS	_	1	nsubj	_	_
+2	das	der	PRON	PDS	PronType=Dem	1	nsubj	_	_
 3	denn	denn	ADV	ADV	_	1	advmod	_	_
 4-5	zur	_	_	_	_	_	_	_	_
 4	zu	zu	ADP	APPR	_	6	case	_	_
@@ -11687,7 +11687,7 @@
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s620/de
-1	Die	d	PRON	PDS	_	2	nsubj	_	_
+1	Die	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	VerbForm=Fin	18	ccomp	_	_
 3	noch	noch	ADV	ADV	_	4	advmod	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	neg	_	_
@@ -11830,7 +11830,7 @@
 1	Meinen	meinen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Acc,Nom|Person=2|Polite=Pol|PronType=Prs	1	nsubj	_	_
 3	,	,	PUNCT	$,	_	1	punct	_	_
-4	das	d	PRON	PDS	_	7	nsubj	_	_
+4	das	der	PRON	PDS	PronType=Dem	7	nsubj	_	_
 5	ist	sein	VERB	VAFIN	VerbForm=Fin	7	cop	_	_
 6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
 7	Chance	Chance	NOUN	NN	_	1	ccomp	_	_
@@ -11980,7 +11980,7 @@
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Hansestadt	Hansestadt	NOUN	NN	_	14	nsubj	_	_
 3	,	,	PUNCT	$,	_	14	punct	_	_
-4	die	d	PRON	PRELS	_	6	nsubj	_	_
+4	die	der	PRON	PRELS	PronType=Rel	6	nsubj	_	_
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
 6	Brückenkopf	Brückenkopf	NOUN	NN	_	2	acl	_	_
 7	Richtung	Richtung	NOUN	NN	_	11	compound	_	_
@@ -12022,7 +12022,7 @@
 19	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id test-s637/de
-1	Die	d	PRON	PDS	_	10	nsubj	_	_
+1	Die	der	PRON	PDS	PronType=Dem	10	nsubj	_	_
 2	könne	können	AUX	VMFIN	VerbForm=Fin	10	aux	_	_
 3	dann	dann	ADV	ADV	_	2	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -12058,7 +12058,7 @@
 2	von	von	ADP	APPR	_	3	case	_	_
 3	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
 4	,	,	PUNCT	$,	_	16	punct	_	_
-5	die	d	PRON	PRELS	_	10	nsubj	_	_
+5	die	der	PRON	PRELS	PronType=Rel	10	nsubj	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Amt	Amt	NOUN	NN	_	10	nmod	_	_
 8	und	und	CONJ	KON	_	7	cc	_	_
@@ -12072,11 +12072,11 @@
 16	zusammengerafft	zusammenraffen	VERB	VVPP	VerbForm=Part	0	root	_	_
 17	,	,	PUNCT	$,	_	16	punct	_	_
 18	von	von	ADP	APPR	_	19	case	_	_
-19	dem	d	DET	PRELS	_	29	nmod	_	_
+19	dem	der	DET	PRELS	PronType=Rel	29	nmod	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Schahminister	Schahminister	NOUN	NN	_	29	nsubj	_	_
 22	,	,	PUNCT	$,	_	16	punct	_	_
-23	deren	d	PRON	PRELAT	_	24	det	_	_
+23	deren	der	PRON	PRELAT	PronType=Rel	24	det	_	_
 24	Habgier	Habgier	NOUN	NN	_	25	nsubj	_	_
 25	sprichwörtlich	sprichwörtlich	ADJ	ADJD	_	21	acl	_	_
 26	war	sein	VERB	VAFIN	VerbForm=Fin	25	cop	_	_
@@ -12109,7 +12109,7 @@
 20	.	.	PUNCT	$.	_	19	punct	_	_
 
 # sent_id test-s641/de
-1	Das	d	PRON	PDS	_	2	nsubj	_	_
+1	Das	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 2	bedeutet	bedeuten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	25	mark	_	_
@@ -12149,7 +12149,7 @@
 9	physischen	physisch	ADJ	ADJA	_	10	amod	_	_
 10	Gewaltformen	Gewaltform	NOUN	NN	_	5	nmod	_	_
 11	,	,	PUNCT	$,	_	5	punct	_	_
-12	die	d	PRON	PRELS	_	21	nsubj	_	_
+12	die	der	PRON	PRELS	PronType=Rel	21	nsubj	_	_
 13	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	dobj	_	_
 14	über	über	ADP	APPR	_	17	case	_	_
 15	männlich	männlich	ADV	ADJD	_	16	advmod	_	_
@@ -12167,7 +12167,7 @@
 27	psychischen	psychisch	ADJ	ADJA	_	28	amod	_	_
 28	Gewaltformen	Gewaltform	NOUN	NN	_	10	conj	_	_
 29	,	,	PUNCT	$,	_	5	punct	_	_
-30	die	d	PRON	PRELS	_	38	nsubjpass	_	_
+30	die	der	PRON	PRELS	PronType=Rel	38	nsubjpass	_	_
 31	als	als	ADP	KOKOM	_	32	case	_	_
 32	Einzelaktivität	Einzelaktivität	NOUN	NN	_	38	nmod	_	_
 33	eher	eher	ADV	ADV	_	38	advmod	_	_
@@ -12242,7 +12242,7 @@
 11	wurde	werden	AUX	VAFIN	VerbForm=Fin	15	auxpass	_	_
 12	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
 13	auch	auch	ADV	ADV	_	15	advmod	_	_
-14	das	d	PRON	PDS	_	15	nsubjpass	_	_
+14	das	der	PRON	PDS	PronType=Dem	15	nsubjpass	_	_
 15	gestrichen	streichen	VERB	VVPP	VerbForm=Part	0	root	_	_
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -12275,7 +12275,7 @@
 2	die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Bürger	Bürger	NOUN	NN	_	4	nmod	_	_
 4	schafft	schaffen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-5	das	d	PRON	PDS	_	4	nsubj	_	_
+5	das	der	PRON	PDS	PronType=Dem	4	nsubj	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 7	einzige	einzig	ADJ	ADJA	_	8	amod	_	_
 8	Möglichkeit	Möglichkeit	NOUN	NN	_	4	dobj	_	_
@@ -12310,7 +12310,7 @@
 15	Treuhandanstalt	Treuhandanstalt	NOUN	NN	_	16	nmod	_	_
 16	übertragen	übertragen	VERB	VVPP	VerbForm=Part	10	conj	_	_
 17	,	,	PUNCT	$,	_	10	punct	_	_
-18	die	d	PRON	PRELS	_	33	nsubj	_	_
+18	die	der	PRON	PRELS	PronType=Rel	33	nsubj	_	_
 19	über	über	ADP	APPR	_	22	case	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 21	endgültige	endgültig	ADJ	ADJA	_	22	amod	_	_
@@ -12390,7 +12390,7 @@
 11	Wiedereinrichter	Wiedereinrichter	NOUN	NE	_	2	dobj	_	_
 12	,	,	PUNCT	$,	_	2	punct	_	_
 13	''	''	PUNCT	$(	_	2	punct	_	_
-14	die	d	PRON	PRELS	_	23	nsubj	_	_
+14	die	der	PRON	PRELS	PronType=Rel	23	nsubj	_	_
 15	wie	wie	ADP	KOKOM	_	16	case	_	_
 16	Holm	Holm	PROPN	NE	_	23	nmod	_	_
 17	auf	auf	ADP	APPR	_	21	case	_	_
@@ -12434,7 +12434,7 @@
 5	Betriebskonzept	Betriebskonzept	NOUN	NN	_	1	nsubj	_	_
 6	--	--	PUNCT	$(	_	1	punct	_	_
 7	und	und	CONJ	KON	_	5	cc	_	_
-8	das	d	PRON	PDS	_	9	nsubj	_	_
+8	das	der	PRON	PDS	PronType=Dem	9	nsubj	_	_
 9	heißt	heißen	VERB	VVFIN	VerbForm=Fin	1	parataxis	_	_
 10	auch	auch	ADV	ADV	_	9	advmod	_	_
 11	:	:	PUNCT	$.	_	1	punct	_	_
@@ -12480,13 +12480,13 @@
 6	den	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Staat	Staat	NOUN	NN	_	4	nmod	_	_
 8	schreibt	schreiben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-9	die	d	PRON	ART	_	13	det	_	_
+9	die	der	PRON	ART	PronType=Dem	13	det	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Paris	Paris	PROPN	NE	_	12	nmod	_	_
 12	ansässige	ansässig	ADJ	ADJA	_	13	amod	_	_
 13	Organisation	Organisation	NOUN	NN	_	8	nsubj	_	_
 14	,	,	PUNCT	$,	_	8	punct	_	_
-15	das	d	DET	PRELS	_	20	det	_	_
+15	das	der	DET	PRELS	PronType=Rel	20	det	_	_
 16	1990	1990	NUM	CARD	NumType=Card	17	nmod	_	_
 17	beschlossene	beschlossen	ADJ	ADJA	_	20	amod	_	_
 18	``	``	PUNCT	$(	_	19	punct	_	_
@@ -12635,7 +12635,7 @@
 11	von	von	ADP	APPR	_	12	case	_	_
 12	Nachtarbeitern	Nachtarbeiter	NOUN	NN	_	10	nmod	_	_
 13	,	,	PUNCT	$,	_	2	punct	_	_
-14	die	d	PRON	PRELS	_	23	nsubjpass	_	_
+14	die	der	PRON	PRELS	PronType=Rel	23	nsubjpass	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
 16	den	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 17	fünfziger	fünfziger	ADJ	ADJA	_	18	amod	_	_
@@ -12658,7 +12658,7 @@
 7	Frauen	Frau	NOUN	NN	_	5	nmod	_	_
 8	dar	dar	ADV	PTKVZ	_	2	mark	_	_
 9	,	,	PUNCT	$,	_	2	punct	_	_
-10	die	d	PRON	PRELS	_	15	nsubj	_	_
+10	die	der	PRON	PRELS	PronType=Rel	15	nsubj	_	_
 11	oft	oft	ADV	ADV	_	15	advmod	_	_
 12	freiwillig	freiwillig	ADV	ADJD	_	15	advmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
@@ -12667,7 +12667,7 @@
 16	``	``	PUNCT	$(	_	23	punct	_	_
 17	,	,	PUNCT	$,	_	2	punct	_	_
 18	weil	weil	SCONJ	KOUS	_	23	mark	_	_
-19	das	d	DET	PDS	_	23	nsubj	_	_
+19	das	der	DET	PDS	PronType=Dem	23	nsubj	_	_
 20	familiär	familiär	ADV	ADJD	_	23	advmod	_	_
 21	für	für	ADP	APPR	_	22	case	_	_
 22	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	23	nmod	_	_
@@ -12680,7 +12680,7 @@
 1	Chris	Chris	PROPN	NE	_	2	name	_	_
 2	Patten	Patte	PROPN	NN	_	24	nsubj	_	_
 3	,	,	PUNCT	$,	_	24	punct	_	_
-4	der	d	PRON	PRELS	_	21	nsubj	_	_
+4	der	der	PRON	PRELS	PronType=Rel	21	nsubj	_	_
 5	als	als	ADP	KOKOM	_	6	case	_	_
 6	Parteivorsitzender	Parteivorsitzende	NOUN	NN	_	21	nmod	_	_
 7	maßgeblich	maßgeblich	ADV	ADJD	_	21	advmod	_	_
@@ -13234,7 +13234,7 @@
 4	diesjährigen	diesjährig	ADJ	ADJA	_	5	amod	_	_
 5	Parteikongresses	Parteikongreß	NOUN	NN	_	2	det	_	_
 6	,	,	PUNCT	$,	_	31	punct	_	_
-7	der	d	DET	PRELS	_	21	nsubj	_	_
+7	der	der	DET	PRELS	PronType=Rel	21	nsubj	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -13383,7 +13383,7 @@
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Alphabetisierung	Alphabetisierung	NOUN	NN	_	2	det	_	_
 5	,	,	PUNCT	$,	_	27	punct	_	_
-6	der	d	DET	PRELS	_	18	nsubj	_	_
+6	der	der	DET	PRELS	PronType=Rel	18	nsubj	_	_
 7	bei	bei	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Männern	Mann	NOUN	NN	_	18	nmod	_	_
@@ -13554,7 +13554,7 @@
 4	Sorgen	Sorge|Sorgen	NOUN	NN	_	2	nmod	_	_
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	über	über	ADP	APPR	_	7	case	_	_
-7	den	d	DET	PRELS	_	10	nmod	_	_
+7	den	der	DET	PRELS	PronType=Rel	10	nmod	_	_
 8	man	man	NOUN	PIS	_	10	nsubj	_	_
 9	kaum	kaum	ADV	ADV	_	10	advmod	_	_
 10	hinausschauen	hinausschauen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
@@ -13749,7 +13749,7 @@
 33	selbst	selbst	PRON	ADV	_	32	appos	_	_
 34	,	,	PUNCT	$,	_	11	punct	_	_
 35	auf	auf	ADP	APPR	_	36	case	_	_
-36	dem	d	PRON	PRELS	_	40	nmod	_	_
+36	dem	der	PRON	PRELS	PronType=Rel	40	nmod	_	_
 37	die	der	DET	ART	Definite=Def|PronType=Art	38	det	_	_
 38	Entwicklungsländer	Entwicklungsland	NOUN	NN	_	40	nsubj	_	_
 39	ebenfalls	ebenfalls	ADV	ADV	_	40	advmod	_	_
@@ -13785,7 +13785,7 @@
 5	Miyazawa	Miyazawa	PROPN	NE	_	3	nsubj	_	_
 6	wiederum	wiederum	ADV	ADV	_	3	advmod	_	_
 7	,	,	PUNCT	$,	_	22	punct	_	_
-8	der	d	DET	PRELS	_	15	nsubj	_	_
+8	der	der	DET	PRELS	PronType=Rel	15	nsubj	_	_
 9	nach	nach	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 11	regierenden	regierend	ADJ	ADJA	_	12	amod	_	_
@@ -14195,7 +14195,7 @@
 4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Parlament	Parlament	NOUN	NN	_	19	nmod	_	_
 6	,	,	PUNCT	$,	_	19	punct	_	_
-7	das	d	PRON	PRELS	_	15	nsubj	_	_
+7	das	der	PRON	PRELS	PronType=Rel	15	nsubj	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -14416,7 +14416,7 @@
 2	soll	sollen	AUX	VMFIN	VerbForm=Fin	13	aux	_	_
 3	jene	jen	PRON	PDS	_	13	dobj	_	_
 4	,	,	PUNCT	$,	_	13	punct	_	_
-5	die	d	PRON	PRELS	_	10	nsubj	_	_
+5	die	der	PRON	PRELS	PronType=Rel	10	nsubj	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	dobj	_	_
 7	nun	nun	ADV	ADV	_	10	advmod	_	_
 8	über	über	ADP	APPR	_	9	case	_	_
@@ -14609,7 +14609,7 @@
 4	Sortiment	Sortiment	NOUN	NN	_	0	root	_	_
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	für	für	ADP	APPR	_	7	case	_	_
-7	das	d	PRON	PRELS	_	11	nmod	_	_
+7	das	der	PRON	PRELS	PronType=Rel	11	nmod	_	_
 8	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	dobj	_	_
 10	womöglich	womöglich	ADV	ADV	_	11	advmod	_	_
@@ -14634,7 +14634,7 @@
 28	zu	zu	PART	PTKZU	_	29	aux	_	_
 29	gewähren	gewähren	VERB	VVINF	VerbForm=Inf	24	conj	_	_
 30	,	,	PUNCT	$,	_	11	punct	_	_
-31	der	d	DET	PRELS	_	40	nsubj	_	_
+31	der	der	DET	PRELS	PronType=Rel	40	nsubj	_	_
 32	diese	dies	DET	PDAT	_	33	det	_	_
 33	Wundertaten	Wundertat	NOUN	NN	_	40	dobj	_	_
 34	während	während	ADP	APPR	_	37	case	_	_
@@ -14853,7 +14853,7 @@
 1	Einem	eine	DET	ART	_	2	det	_	_
 2	Umstand	Umstand	NOUN	NN	_	0	root	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
-4	dem	d	PRON	PRELS	_	15	iobj	_	_
+4	dem	der	PRON	PRELS	PronType=Rel	15	iobj	_	_
 5	Wüstenrot	Wüstenrot	PROPN	NE	_	7	name	_	_
 6	-	-	PUNCT	$(	_	7	punct	_	_
 7	Geschäftsführer	Geschäftsführer	NOUN	NN	_	15	nsubj	_	_
@@ -15169,7 +15169,7 @@
 1	Der	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Übereifer	Übereifer	NOUN	NN	_	0	root	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
-4	der	d	PRON	PRELS	_	13	nsubjpass	_	_
+4	der	der	PRON	PRELS	PronType=Rel	13	nsubjpass	_	_
 5	dabei	dabei	ADV	PAV	_	13	advmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	München	München	PROPN	NE	_	13	nmod	_	_
@@ -15296,7 +15296,7 @@
 4	außerdem	außerdem	ADV	ADV	_	5	advmod	_	_
 5	fehlt	fehlen	VERB	VVFIN	VerbForm=Fin	7	acl	_	_
 6	,	,	PUNCT	$,	_	5	punct	_	_
-7	das	d	PRON	PDS	_	10	nsubj	_	_
+7	das	der	PRON	PDS	PronType=Dem	10	nsubj	_	_
 8	sind	sein	VERB	VAFIN	VerbForm=Fin	10	cop	_	_
 9	strengere	streng	ADJ	ADJA	_	10	amod	_	_
 10	Kontrollen	Kontrolle	NOUN	NN	_	0	root	_	_
@@ -15438,7 +15438,7 @@
 2	afrikanische	afrikanisch	ADJ	ADJA	_	3	amod	_	_
 3	Asylbewerber	Asylbewerber	NOUN	NN	_	27	nsubj	_	_
 4	,	,	PUNCT	$,	_	27	punct	_	_
-5	die	d	PRON	PRELS	_	19	nsubjpass	_	_
+5	die	der	PRON	PRELS	PronType=Rel	19	nsubjpass	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Nacht	Nacht	NOUN	NN	_	19	nmod	_	_
@@ -15507,7 +15507,7 @@
 3	deutsche	deutsch	ADJ	ADJA	_	4	amod	_	_
 4	Universitätsideal	Universitätsideal	NOUN	NN	_	24	nsubj	_	_
 5	,	,	PUNCT	$,	_	24	punct	_	_
-6	die	d	PRON	PRELS	_	11	det	_	_
+6	die	der	PRON	PRELS	PronType=Rel	11	det	_	_
 7	von	von	ADP	APPR	_	8	case	_	_
 8	Humboldt	Humboldt	PROPN	NE	_	9	nmod	_	_
 9	beschworene	beschwört	ADJ	ADJA	_	11	amod	_	_
@@ -15975,7 +15975,7 @@
 8	Israels	Israel	PROPN	NE	_	7	det	_	_
 9	,	,	PUNCT	$,	_	7	punct	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
-11	den	d	PRON	ART	_	15	nmod	_	_
+11	den	der	PRON	ART	PronType=Dem	15	nmod	_	_
 12	Juden	Jude	NOUN	NN	_	15	nsubj	_	_
 13	einen	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
 14	Anschlag	Anschlag	NOUN	NN	_	15	dobj	_	_
@@ -15993,7 +15993,7 @@
 8	-	-	PUNCT	$(	_	9	punct	_	_
 9	Grünen	Grüne	PROPN	NN	_	5	det	_	_
 10	sagte	sagen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-11	deren	d	PRON	PDAT	_	12	det	_	_
+11	deren	der	PRON	PDAT	PronType=Dem	12	det	_	_
 12	Vorstandssprecher	Vorstandssprecher	NOUN	NN	_	10	nsubj	_	_
 13	Jürgen	Jürgen	PROPN	NE	_	14	name	_	_
 14	Trittin	Trittin	PROPN	NE	_	12	appos	_	_
@@ -16004,7 +16004,7 @@
 18	in	in	ADP	APPR	_	19	case	_	_
 19	Erfurt	Erfurt	PROPN	NE	_	10	nmod	_	_
 20	,	,	PUNCT	$,	_	10	punct	_	_
-21	die	d	DET	PRELS	_	24	det	_	_
+21	die	der	DET	PRELS	PronType=Rel	24	det	_	_
 22	SPD	SPD	PROPN	NE	_	24	name	_	_
 23	-	-	PUNCT	$(	_	24	punct	_	_
 24	Spitze	Spitze	NOUN	NN	_	36	nsubj	_	_
@@ -16121,7 +16121,7 @@
 29	all	all	PRON	PIAT	_	30	det	_	_
 30	derjenigen	diejenige	PRON	PDS	_	19	conj	_	_
 31	,	,	PUNCT	$,	_	3	punct	_	_
-32	die	d	PRON	ART	_	38	nsubj	_	_
+32	die	der	PRON	ART	PronType=Dem	38	nsubj	_	_
 33	Ämter	Amt	NOUN	NN	_	38	dobj	_	_
 34	in	in	ADP	APPR	_	36	case	_	_
 35	San	San	PROPN	NE	_	36	name	_	_
@@ -16180,7 +16180,7 @@
 # sent_id test-s845/de
 1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	macht	machen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-3	das	d	PRON	PDS	_	2	nsubj	_	_
+3	das	der	PRON	PDS	PronType=Dem	2	nsubj	_	_
 4	nichts	nichts	PRON	PIS	_	2	dobj	_	_
 5	aus	aus	ADP	PTKVZ	_	2	mark	_	_
 6	.	.	PUNCT	$.	_	2	punct	_	_
@@ -16506,7 +16506,7 @@
 1	Keine	kein	PRON	PIAT	_	2	neg	_	_
 2	Zeile	Zeile	NOUN	NN	_	0	root	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
-4	die	d	PRON	PRELS	_	6	nsubjpass	_	_
+4	die	der	PRON	PRELS	PronType=Rel	6	nsubjpass	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	neg	_	_
 6	verdreht	verdrehen	VERB	VVPP	VerbForm=Part	2	acl	_	_
 7	,	,	PUNCT	$,	_	6	punct	_	_
@@ -16796,7 +16796,7 @@
 # sent_id test-s882/de
 1	Mischlinge	Mischling	NOUN	NN	_	15	nsubj	_	_
 2	,	,	PUNCT	$,	_	15	punct	_	_
-3	die	d	PRON	PRELS	_	13	nsubj	_	_
+3	die	der	PRON	PRELS	PronType=Rel	13	nsubj	_	_
 4	bisher	bisher	ADV	ADV	_	13	advmod	_	_
 5	gegen	gegen	ADP	APPR	_	8	case	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -16860,7 +16860,7 @@
 20	,	,	PUNCT	$,	_	15	punct	_	_
 21	Werte	Wert	NOUN	NN	_	7	conj	_	_
 22	,	,	PUNCT	$,	_	3	punct	_	_
-23	die	d	PRON	PRELS	_	30	nsubj	_	_
+23	die	der	PRON	PRELS	PronType=Rel	30	nsubj	_	_
 24-25	im	_	_	_	_	_	_	_	_
 24	in	in	ADP	APPR	_	26	case	_	_
 25	dem	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
@@ -17029,7 +17029,7 @@
 6	,	,	PUNCT	$,	_	2	punct	_	_
 7	und	und	CONJ	KON	_	2	cc	_	_
 8	über	über	ADP	APPR	_	9	case	_	_
-9	die	d	PRON	PDS	_	10	nmod	_	_
+9	die	der	PRON	PDS	PronType=Dem	10	nmod	_	_
 10	verhandle	verhandeln	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 12	ab	ab	ADP	APPR	_	14	case	_	_
@@ -17244,7 +17244,7 @@
 6	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Ausland	Ausland	NOUN	NN	_	4	nmod	_	_
 8	,	,	PUNCT	$,	_	19	punct	_	_
-9	der	d	DET	PRELS	_	15	nsubj	_	_
+9	der	der	DET	PRELS	PronType=Rel	15	nsubj	_	_
 10	unter	unter	ADP	APPR	_	11	case	_	_
 11	anderem	ander	PRON	PIS	_	15	nmod	_	_
 12	Geschäftshäuser	Geschäftshaus	NOUN	NN	_	15	dobj	_	_
@@ -17284,7 +17284,7 @@
 3	Regime	Regime	NOUN	NN	_	0	root	_	_
 
 # sent_id test-s911/de
-1	Der	d	PRON	PDS	_	3	nsubj	_	_
+1	Der	der	PRON	PDS	PronType=Dem	3	nsubj	_	_
 2	aber	aber	ADV	ADV	_	3	advmod	_	_
 3	war	sein	VERB	VAFIN	VerbForm=Fin	0	root	_	_
 4	gar	gar	ADV	ADV	_	5	advmod	_	_
@@ -17703,7 +17703,7 @@
 5	Wim	Wim	PROPN	NE	_	6	name	_	_
 6	Wenders	Wenders	PROPN	NE	_	4	appos	_	_
 7	,	,	PUNCT	$,	_	6	punct	_	_
-8	der	d	PRON	PRELS	_	20	nsubj	_	_
+8	der	der	PRON	PRELS	PronType=Rel	20	nsubj	_	_
 9	für	für	ADP	APPR	_	10	case	_	_
 10	Hof	Hof	NOUN	NN	_	20	nmod	_	_
 11	vor	vor	ADP	APPR	_	12	case	_	_
@@ -17843,7 +17843,7 @@
 
 # sent_id test-s938/de
 1	Um	um	ADP	KOUI	_	4	mark	_	_
-2	das	d	PRON	ART	_	4	dobj	_	_
+2	das	der	PRON	ART	PronType=Dem	4	dobj	_	_
 3	zu	zu	PART	PTKZU	_	4	aux	_	_
 4	beziffern	beziffern	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -17912,7 +17912,7 @@
 6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	dobj	_	_
 7	dagegen	dagegen	ADV	PAV	_	5	advmod	_	_
 8	,	,	PUNCT	$,	_	5	punct	_	_
-9	das	d	DET	PRELS	_	11	dobj	_	_
+9	das	der	DET	PRELS	PronType=Rel	11	dobj	_	_
 10	widerstandslos	widerstandslos	ADV	ADJD	_	11	advmod	_	_
 11	hinzunehmen	hinnehmen	VERB	VVIZU	_	5	xcomp	_	_
 12	.	.	PUNCT	$.	_	5	punct	_	_
@@ -18247,7 +18247,7 @@
 14	Dieter	Dieter	PROPN	NE	_	15	name	_	_
 15	Wolf	Wolf	PROPN	NE	_	13	appos	_	_
 16	,	,	PUNCT	$,	_	2	punct	_	_
-17	der	d	DET	PRELS	_	23	nsubj	_	_
+17	der	der	DET	PRELS	PronType=Rel	23	nsubj	_	_
 18	diese	dies	PRON	PDAT	_	19	det	_	_
 19	Kompetenz	Kompetenz	NOUN	NN	_	23	dobj	_	_
 20	für	für	ADP	APPR	_	22	case	_	_
@@ -18283,7 +18283,7 @@
 2	das	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Kartellamt	Kartellamt	NOUN	NN	_	32	nsubj	_	_
 4	,	,	PUNCT	$,	_	36	punct	_	_
-5	das	d	PRON	PRELS	_	13	nsubj	_	_
+5	das	der	PRON	PRELS	PronType=Rel	13	nsubj	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	dobj	_	_
 7	bislang	bislang	ADV	ADV	_	13	advmod	_	_
 8	mit	mit	ADP	APPR	_	13	mark	_	_
@@ -18467,7 +18467,7 @@
 5	Jefferson	Jefferson	PROPN	NE	_	6	name	_	_
 6	Clinton	Clinton	PROPN	NE	_	3	appos	_	_
 7	,	,	PUNCT	$,	_	22	punct	_	_
-8	der	d	DET	PRELS	_	18	nsubj	_	_
+8	der	der	DET	PRELS	PronType=Rel	18	nsubj	_	_
 9	wie	wie	ADP	KOKOM	_	11	case	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
 11	viele	viel	PRON	PIS	_	18	nmod	_	_
