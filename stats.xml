@@ -30,8 +30,8 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="27">
-    <feat name="Case" value="Acc" upos="PRON">1879</feat><!-- sich, ihn, mich, dich -->
-    <feat name="Case" value="Acc,Dat" upos="PRON">121</feat><!-- uns, euch -->
+    <feat name="Case" value="Acc" upos="PRON">249</feat><!-- ihn, mich, dich -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">1751</feat><!-- sich, uns, euch -->
     <feat name="Case" value="Acc,Nom" upos="PRON">2263</feat><!-- sie, es, 's -->
     <feat name="Case" value="Dat" upos="PRON">352</feat><!-- ihm, mir, ihnen, Dir -->
     <feat name="Case" value="Nom" upos="PRON">3149</feat><!-- er, ich, wir, ihr, du -->
