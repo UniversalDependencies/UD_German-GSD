@@ -4090,7 +4090,7 @@
 
 # sent_id test-s252/de
 1	Seit	seit	ADP	APPR	_	3	case	_	_
-2	diser	diser	PRON	ADJA	_	3	det	_	_
+2	diser	diser	ADJ	ADJA	_	3	det	_	_
 3	Zeit	Zeit	NOUN	NN	_	4	nmod	_	_
 4	hatten	haben	VERB	VAFIN	VerbForm=Fin	0	root	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_

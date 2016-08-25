@@ -12,16 +12,16 @@
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
-    <tag name="ADJ">21279</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADJ">21316</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">32362</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14956</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
-    <tag name="DET">37036</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
+    <tag name="DET">37024</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
     <tag name="NOUN">53291</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
-    <tag name="PRON">15020</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PRON">14995</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">32323</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
     <tag name="PUNCT">39056</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
     <tag name="SCONJ">1823</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, ob, wie -->
@@ -29,7 +29,7 @@
     <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="38">
+  <feats unique="39">
     <feat name="Case" value="Acc" upos="PRON">249</feat><!-- ihn, mich, dich -->
     <feat name="Case" value="Acc,Dat" upos="PRON">1751</feat><!-- sich, uns, euch -->
     <feat name="Case" value="Acc,Nom" upos="PRON">2263</feat><!-- sie, es, 's -->
@@ -47,6 +47,7 @@
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">125</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, eure -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">1607</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM,PRON">7809</feat><!-- zwei, drei, beiden, vier, 2007, 2006, fünf, 2009, 1, 2008 -->
+    <feat name="NumType" value="Ord" upos="ADJ">3</feat><!-- erster, zweiten -->
     <feat name="Person" value="1" upos="DET,PRON">1569</feat><!-- ich, wir, uns, mir, mich, meine, unsere, mein, meiner, meinem -->
     <feat name="Person" value="2" upos="DET,PRON">464</feat><!-- Sie, ihr, du, Ihnen, euch, Dir, deinen, dich, euren, eurer -->
     <feat name="Person" value="2,3" upos="DET,PRON">66</feat><!-- Ihr, Ihre, Ihrem, Ihrer -->

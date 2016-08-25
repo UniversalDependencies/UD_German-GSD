@@ -2589,7 +2589,7 @@
 12	Preise	Preis	NOUN	NN	_	16	nsubj	_	_
 13	eher	eher	ADV	ADV	_	16	advmod	_	_
 14	ein	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
-15	bischen	bischen	PRON	ADJA	_	16	nmod	_	_
+15	bischen	bischen	ADJ	ADJA	_	16	nmod	_	_
 16	teuer	teuer	ADJ	ADJD	_	5	advcl	_	_
 17	sind	sein	VERB	VAFIN	VerbForm=Fin	16	cop	_	_
 18	.	.	PUNCT	$.	_	5	punct	_	_
@@ -6341,7 +6341,7 @@
 14	,	,	PUNCT	$,	_	15	punct	_	_
 15	lief	laufen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 16	alles	alle	PRON	PIS	PronType=Tot	17	det	_	_
-17	weitere	weit	PRON	ADJA	_	15	nsubj	_	_
+17	weitere	weit	ADJ	ADJA	_	15	nsubj	_	_
 18	per	per	ADP	APPR	_	21	case	_	_
 19	E	E	NOUN	NN	_	21	compound	_	_
 20	-	-	PUNCT	$(	_	21	punct	_	_
@@ -7932,7 +7932,7 @@
 5	ein	ein	ADV	PTKVZ	_	3	mark	_	_
 6	,	,	PUNCT	$,	_	3	punct	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-8	kleinen	klein	PRON	ADJA	_	9	nsubj	_	_
+8	kleinen	klein	ADJ	ADJA	_	9	nsubj	_	_
 9	bekommen	bekommen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
 10	wenig	wenig	PRON	PIS	PronType=Ind	9	dobj	_	_
 11	.	.	PUNCT	$.	_	3	punct	_	_
@@ -9569,7 +9569,7 @@
 1	Bis	bis	ADP	KON	_	11	case	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	einen	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
-4	einzigen	einzig	PRON	ADJA	_	1	nmod	_	_
+4	einzigen	einzig	ADJ	ADJA	_	1	nmod	_	_
 5	sind	sein	AUX	VAFIN	VerbForm=Fin	11	aux	_	_
 6	alle	alle	ADJ	PIAT	_	8	det	_	_
 7	206	206	NUM	CARD	NumType=Card	8	nummod	_	_
