@@ -4970,7 +4970,7 @@
 19	was	was	PRON	PRELS	Number=Sing|PronType=Rel	23	dobj	_	_
 20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
 21	von	von	ADP	APPR	_	22	case	_	_
-22	Ihm	er|er|es	PRON	PPER	_	23	nmod	_	_
+22	Ihm	er|es	PRON	PPER	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
 23	wollten	wollen	VERB	VMFIN	VerbForm=Fin	17	ccomp	_	_
 24	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -5693,7 +5693,7 @@
 8	Personal	Personal	NOUN	NN	_	9	dobj	_	_
 9	einzusetzen	einsetzen	VERB	VVIZU	_	4	xcomp	_	_
 10	,	,	PUNCT	$,	_	4	punct	_	_
-11	daß	daß	PRON	KOUS	_	18	nsubj	_	_
+11	daß	daß	SCONJ	KOUS	_	18	nsubj	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Abfertigung	Abfertigung	NOUN	NN	_	18	iobj	_	_
 14	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
