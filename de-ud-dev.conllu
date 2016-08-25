@@ -228,7 +228,7 @@
 10	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id dev-s18/de
-1	Mehr	mehr	PRON	ADV	_	5	dobj	_	_
+1	Mehr	mehr	PRON	PIAT	PronType=Ind	5	dobj	_	_
 2	braucht	brauchen	AUX	VVFIN	VerbForm=Fin	5	aux	_	_
 3	man	man	PRON	PIS	PronType=Ind	5	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	neg	_	_
@@ -3247,7 +3247,7 @@
 1	Haben	haben	AUX	VAFIN	VerbForm=Fin	5	aux	_	_
 2	leider	leider	ADV	ADV	_	5	advmod	_	_
 3	nicht	nicht	PART	PTKNEG	_	5	neg	_	_
-4	mehr	mehr	PRON	ADV	_	5	dobj	_	_
+4	mehr	mehr	PRON	PIAT	PronType=Ind	5	dobj	_	_
 5	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	0	root	_	_
 6	können	können	AUX	VMINF	VerbForm=Inf	5	aux	_	_
 7	.	.	PUNCT	$.	_	5	punct	_	_
@@ -3759,7 +3759,7 @@
 4	soviel	soviel	ADV	PIAT	_	5	advmod	_	_
 5	andere	ander	ADJ	ADJA	_	6	amod	_	_
 6	Orte	Ort	NOUN	NN	_	3	dobj	_	_
-7	wo	wo	PRON	PWAV	_	10	mark	_	_
+7	wo	wo	ADV	PWAV	PronType=Int	10	mark	_	_
 8	man	man	PRON	PIS	PronType=Ind	10	nsubj	_	_
 9	Spaß	Spaß	NOUN	NN	_	10	dobj	_	_
 10	haben	haben	VERB	VAINF	VerbForm=Inf	6	acl	_	_
@@ -4407,7 +4407,7 @@
 5	dem	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Niederdorf	Niederdorf	PROPN	NN	_	2	nmod	_	_
 7	,	,	PUNCT	$,	_	18	punct	_	_
-8	wo	wo	PRON	PWAV	_	14	mark	_	_
+8	wo	wo	ADV	PWAV	PronType=Int	14	mark	_	_
 9	Abends	Abend	ADV	NN	_	14	advmod	_	_
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
@@ -7252,7 +7252,7 @@
 4	anderes	ander	PRON	PIS	PronType=Ind	8	nmod	_	_
 5	schon	schon	ADV	ADV	_	8	advmod	_	_
 6	deutlich	deutlich	ADV	ADJD	_	7	advmod	_	_
-7	mehr	mehr	PRON	ADV	_	8	dobj	_	_
+7	mehr	mehr	PRON	PIAT	PronType=Ind	8	dobj	_	_
 8	bezahlt	bezahlen	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -9059,7 +9059,7 @@
 15	Halle	Halle	NOUN	NN	_	13	det	_	_
 16	anzutreffen	antreffen	VERB	VVIZU	_	10	xcomp	_	_
 17	,	,	PUNCT	$,	_	10	punct	_	_
-18	wo	wo	PRON	PWAV	_	33	mark	_	_
+18	wo	wo	ADV	PWAV	PronType=Int	33	mark	_	_
 19	,	,	PUNCT	$,	_	10	punct	_	_
 20	wie	wie	ADV	KOUS	_	21	advmod	_	_
 21	bei	bei	ADP	APPR	_	33	case	_	_
@@ -13018,7 +13018,7 @@
 15	Natal	Natal	PROPN	NN	_	14	appos	_	_
 16	statt	statt	ADP	PTKVZ	_	8	mark	_	_
 17	,	,	PUNCT	$,	_	8	punct	_	_
-18	wo	wo	PRON	PWAV	_	28	mark	_	_
+18	wo	wo	ADV	PWAV	PronType=Int	28	mark	_	_
 19	Unbekannte	Unbekannte	NOUN	NN	_	28	nsubj	_	_
 20-21	am	_	_	_	_	_	_	_	_
 20	an	an	ADP	APPR	_	22	case	_	_

@@ -14,14 +14,14 @@
   <tags unique="15">
     <tag name="ADJ">21279</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">32362</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">14911</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADV">14955</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
     <tag name="DET">37037</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
     <tag name="NOUN">53291</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
-    <tag name="PRON">15077</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PRON">15033</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">32323</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
     <tag name="PUNCT">39056</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
     <tag name="SCONJ">1810</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, ob, wie -->
@@ -55,9 +55,9 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">2445</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
     <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2008</feat><!-- diese, dieser, das, diesem, die, dieses, dies, diesen, der, dessen -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">1496</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehreren, eines, andere -->
-    <feat name="PronType" value="Int" upos="PRON">99</feat><!-- was, wer, welches, Wen, welche, welcher, wem, wieviele -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">370</feat><!-- keine, kein, nichts, keinen, keinem, niemand, keiner, keinerlei, nix, keines -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">1517</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehr, mehreren, eines -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">143</feat><!-- was, wo, wer, welches, Wen, warum, welche, welcher, wem, wieviele -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">371</feat><!-- keine, kein, nichts, keinen, keinem, niemand, keiner, keinerlei, nix, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">10210</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rel" upos="DET,PRON">2064</feat><!-- die, der, das, dem, was, denen, welche, deren, dessen, den -->
     <feat name="PronType" value="Tot" upos="DET,PRON">784</feat><!-- alle, beiden, allem, alles, allen, aller, beide, jede, jeden, jeder -->
