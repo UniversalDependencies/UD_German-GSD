@@ -17,19 +17,19 @@
     <tag name="ADV">14956</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
-    <tag name="DET">37024</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
+    <tag name="DET">37018</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
     <tag name="NOUN">53296</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2202</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
-    <tag name="PRON">14990</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
-    <tag name="PROPN">32323</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
+    <tag name="PRON">14980</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PROPN">32331</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, Weltkrieg -->
     <tag name="PUNCT">39056</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
     <tag name="SCONJ">1823</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, ob, wie -->
     <tag name="VERB">25041</tag><!-- sein, haben, werden, geben, kommen, liegen, finden, gehen, machen, gehören -->
-    <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
+    <tag name="X">378</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="40">
+  <feats unique="41">
     <feat name="Case" value="Acc" upos="PRON">251</feat><!-- ihn, mich, dich, in -->
     <feat name="Case" value="Acc,Dat" upos="PRON">1751</feat><!-- sich, uns, euch -->
     <feat name="Case" value="Acc,Nom" upos="PRON">2263</feat><!-- sie, es, 's -->
@@ -37,6 +37,7 @@
     <feat name="Case" value="Nom" upos="PRON">3149</feat><!-- er, ich, wir, ihr, du -->
     <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
     <feat name="Definite" value="Ind" upos="DET">5098</feat><!-- eine, ein, einer, einen, einem, eines -->
+    <feat name="Foreign" value="Foreign" upos="X">8</feat><!-- I, All, What, a, it, la, the -->
     <feat name="Gender" value="Fem" upos="PRON">522</feat><!-- sie -->
     <feat name="Gender" value="Masc" upos="PRON">2473</feat><!-- er, ihm, ihn, in -->
     <feat name="Gender" value="Masc,Neut" upos="PRON">10</feat><!-- Ihm -->

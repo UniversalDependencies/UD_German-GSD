@@ -1016,7 +1016,7 @@
 16	zwar	zwar	ADV	ADV	_	15	advmod	_	_
 17	Atun	Atun	NOUN	NE	_	20	compound	_	_
 18	a	a	ADP	FM	_	20	compound	_	_
-19	la	la	DET	FM	_	20	compound	_	_
+19	la	la	X	FM	Foreign=Foreign	20	compound	_	_
 20	malaguena	malaguena	NOUN	NE	_	10	conj	_	_
 21	(	(	PUNCT	$(	_	26	punct	_	_
 22	habe	haben	AUX	VAFIN	VerbForm=Fin	26	aux	_	_

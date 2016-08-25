@@ -3773,7 +3773,7 @@
 
 # sent_id dev-s228/de
 1	STELLT	stellen	NOUN	VVFIN	_	0	root	_	_
-2	DIE	DIE	DET	NE	_	3	det	_	_
+2	DIE	DIE	PROPN	NE	_	3	det	_	_
 3	VERANSTALTER	Veranstalter	NOUN	NN	_	1	dobj	_	_
 4-5	zur	_	_	_	_	_	_	_	_
 4	Zu	zu	ADP	APPR	_	6	case	_	_
