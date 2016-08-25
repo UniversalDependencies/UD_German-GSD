@@ -1336,7 +1336,7 @@
 7	scheint	scheinen	VERB	VVFIN	VerbForm=Fin	5	conj	_	_
 8	aber	aber	CONJ	ADV	_	5	cc	_	_
 9	manchmal	manchmal	ADV	ADV	_	7	advmod	_	_
-10	etwas	etwas	PRON	ADV	_	11	advmod	_	_
+10	etwas	etwas	PRON	PIS	PronType=Ind	11	advmod	_	_
 11	überfordert	überfordern	VERB	VVPP	VerbForm=Part	7	xcomp	_	_
 12	zu	zu	PART	PTKZU	_	13	aux	_	_
 13	sein	sein	VERB	VAINF	VerbForm=Inf	11	cop	_	_
@@ -3033,7 +3033,7 @@
 9	,	,	PUNCT	$,	_	6	punct	_	_
 10	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	wäre	sein	VERB	VAFIN	VerbForm=Fin	12	cop	_	_
-12	etwas	etwas	PRON	ADV	_	8	ccomp	_	_
+12	etwas	etwas	PRON	PIS	PronType=Ind	8	ccomp	_	_
 13	für	für	ADP	APPR	_	14	case	_	_
 14	Rentner	Rentner	NOUN	NN	_	12	nmod	_	_
 15	,	,	PUNCT	$,	_	6	punct	_	_
@@ -8562,7 +8562,7 @@
 2	aus	aus	ADP	APPR	_	7	case	_	_
 3	schlechten	schlecht	ADJ	ADJA	_	7	amod	_	_
 4	und	und	CONJ	KON	_	3	cc	_	_
-5	etwas	etwas	PRON	ADV	_	6	advmod	_	_
+5	etwas	etwas	PRON	PIS	PronType=Ind	6	advmod	_	_
 6	besseren	gut	ADJ	ADJA	_	3	amod	_	_
 7	Motiven	Motiv	NOUN	NN	_	1	nmod	_	_
 8	zu	zu	ADP	APPR	_	13	case	_	_

@@ -55,7 +55,7 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">2439</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
     <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2008</feat><!-- diese, dieser, das, diesem, die, dieses, dies, diesen, der, dessen -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">1409</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehreren, eines, was -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">1485</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehreren, eines, andere -->
     <feat name="PronType" value="Int" upos="PRON">99</feat><!-- was, wer, welches, Wen, welche, welcher, wem, wieviele -->
     <feat name="PronType" value="Neg" upos="DET,PRON">370</feat><!-- keine, kein, nichts, keinen, keinem, niemand, keiner, keinerlei, nix, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">10204</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->

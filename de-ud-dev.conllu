@@ -1164,7 +1164,7 @@
 20	länger	lang	ADV	ADJD	_	21	advmod	_	_
 21	sparen	sparen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
 22	und	und	CONJ	KON	_	21	cc	_	_
-23	etwas	etwas	PRON	ADV	_	25	dobj	_	_
+23	etwas	etwas	PRON	PIS	PronType=Ind	25	dobj	_	_
 24	besseres	gut	NOUN	ADJA	_	23	compound	_	_
 25	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	21	conj	_	_
 26	.	.	PUNCT	$.	_	9	punct	_	_
@@ -6871,7 +6871,7 @@
 4	vierbeinigen	vierbeinig	ADJ	ADJA	_	5	amod	_	_
 5	Begleiterin	Begleiterin	NOUN	NN	_	7	nmod	_	_
 6	schon	schon	ADV	ADV	_	7	advmod	_	_
-7	etwas	etwas	PRON	ADV	_	0	root	_	_
+7	etwas	etwas	PRON	PIS	PronType=Ind	0	root	_	_
 8	heißt	heißen	VERB	VVFIN	VerbForm=Fin	7	cop	_	_
 9	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -7161,7 +7161,7 @@
 4	wohl	wohl	ADV	ADV	_	5	advmod	_	_
 5	noch	noch	ADV	ADV	_	11	advmod	_	_
 6	einige	einige	PRON	PIAT	PronType=Ind	8	det	_	_
-7	andere	ander	PRON	ADJA	_	8	det	_	_
+7	andere	ander	PRON	PIAT	PronType=Ind	8	det	_	_
 8	Sauna	Sauna	NOUN	NN	_	11	dobj	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Bremen	Bremen	PROPN	NE	_	8	nmod	_	_
@@ -7581,7 +7581,7 @@
 6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	ohne	ohne	ADP	APPR	_	8	case	_	_
 8	dafür	dafür	ADV	PAV	_	11	advmod	_	_
-9	etwas	etwas	PRON	ADV	_	11	dobj	_	_
+9	etwas	etwas	PRON	PIS	PronType=Ind	11	dobj	_	_
 10	zu	zu	PART	PTKZU	_	11	aux	_	_
 11	berechnen	berechnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 12	!	!	PUNCT	$.	_	6	punct	_	_
@@ -7842,7 +7842,7 @@
 13-14	zum	_	_	_	_	_	_	_	_
 13	zu	zu	ADP	APPR	_	16	case	_	_
 14	dem	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-15	anderen	ander	PRON	ADJA	_	16	det	_	_
+15	anderen	ander	PRON	PIAT	PronType=Ind	16	det	_	_
 16	Hälfte	Hälfte	NOUN	NN	_	17	nmod	_	_
 17	läuft	laufen	VERB	VVFIN	VerbForm=Fin	4	ccomp	_	_
 18	.	.	PUNCT	$.	_	4	punct	_	_
