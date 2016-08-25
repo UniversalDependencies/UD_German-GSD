@@ -1106,7 +1106,7 @@
 5	unserer	unser	PRON	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	Freunde	Freund	NOUN	NN	_	4	det	_	_
 7	führen	fahren|führen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-8	dazu	dazu	PRON	PAV	_	7	dobj	_	_
+8	dazu	dazu	PRON	PAV	PronType=Dem,Rel	7	dobj	_	_
 9	,	,	PUNCT	$,	_	7	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	16	mark	_	_
 11	man	man	PRON	PIS	PronType=Ind	16	nsubj	_	_
@@ -1368,7 +1368,7 @@
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	ob	ob	SCONJ	KOUS	_	8	mark	_	_
 6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	daran	daran	PRON	PAV	_	8	dobj	_	_
+7	daran	daran	PRON	PAV	PronType=Dem,Rel	8	dobj	_	_
 8	lag	liegen	VERB	VVFIN	VerbForm=Fin	2	ccomp	_	_
 9	,	,	PUNCT	$,	_	2	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	12	mark	_	_

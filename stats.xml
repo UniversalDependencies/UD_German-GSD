@@ -7,7 +7,7 @@
   <size>
     <total><sentences>15894</sentences><tokens>293088</tokens><words>298242</words><fused>5152</fused></total>
   </size>
-  <lemmas unique="42295" /><!-- der, ., ,, in, und, sein, ein, von, werden, -, zu, er, mit, an, " -->
+  <lemmas unique="42294" /><!-- der, ., ,, in, und, sein, ein, von, werden, -, zu, er, mit, an, " -->
   <forms unique="50548" /><!-- ., ,, der, die, in, und, dem, von, -, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -29,7 +29,7 @@
     <tag name="X">370</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="35">
+  <feats unique="37">
     <feat name="Case" value="Acc" upos="PRON">249</feat><!-- ihn, mich, dich -->
     <feat name="Case" value="Acc,Dat" upos="PRON">1751</feat><!-- sich, uns, euch -->
     <feat name="Case" value="Acc,Nom" upos="PRON">2263</feat><!-- sie, es, 's -->
@@ -54,14 +54,16 @@
     <feat name="Polite" value="Pol" upos="PRON">381</feat><!-- Sie, Ihnen -->
     <feat name="Poss" value="Yes" upos="DET,PRON">2445</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
     <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">2008</feat><!-- diese, dieser, das, diesem, die, dieses, dies, diesen, der, dessen -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">1517</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehr, mehreren, eines -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">2011</feat><!-- diese, dieser, das, diesem, die, dieses, dies, diesen, der, dessen -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">134</feat><!-- dazu, davon, dafür, darauf, darin, daran, damit, dadurch, darüber, daraus -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">1532</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehr, einen, mehreren -->
     <feat name="PronType" value="Int" upos="ADV,PRON">143</feat><!-- was, wo, wer, welches, Wen, warum, welche, welcher, wem, wieviele -->
+    <feat name="PronType" value="Int,Rel" upos="PRON">26</feat><!-- wodurch, wovon, womit, wonach, worin, wozu, wobei, woraus -->
     <feat name="PronType" value="Neg" upos="DET,PRON">371</feat><!-- keine, kein, nichts, keinen, keinem, niemand, keiner, keinerlei, nix, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">10210</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rel" upos="DET,PRON">2064</feat><!-- die, der, das, dem, was, denen, welche, deren, dessen, den -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">784</feat><!-- alle, beiden, allem, alles, allen, aller, beide, jede, jeden, jeder -->
-    <feat name="Reflex" value="Yes" upos="PRON">1766</feat><!-- sich, mich, uns, mir, Euch -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">785</feat><!-- alle, beiden, allem, alles, allen, aller, beide, jede, jeden, jeder -->
+    <feat name="Reflex" value="Yes" upos="PRON">1769</feat><!-- sich, mich, uns, mir, selbst, Euch -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">22383</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, waren -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3492</feat><!-- werden, sein, lassen, können, empfehlen, machen, haben, finden, erreichen, sehen -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">5431</feat><!-- worden, gegründet, genannt, verwendet, bezeichnet, eingesetzt, genutzt, gewesen, gebaut, gewählt -->

@@ -4833,7 +4833,7 @@
 1-2	zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-3	einen	einen	PRON	ADJA	_	13	nmod	_	_
+3	einen	ein	PRON	PIAT	PronType=Ind	13	nmod	_	_
 4	konnte	können	AUX	VMFIN	VerbForm=Fin	13	aux	_	_
 5	man	man	PRON	PIS	PronType=Ind	13	nsubj	_	_
 6	bei	bei	ADP	APPR	_	8	case	_	_
@@ -13746,7 +13746,7 @@
 30	7	7	NUM	CARD	NumType=Card	32	compound	_	_
 31	-	-	PUNCT	$(	_	32	punct	_	_
 32	Gipfels	Gipfel	NOUN	NN	_	18	conj	_	_
-33	selbst	selbst	PRON	ADV	_	32	appos	_	_
+33	selbst	selbst	PRON	ADV	PronType=Dem|Reflex=Yes	32	appos	_	_
 34	,	,	PUNCT	$,	_	11	punct	_	_
 35	auf	auf	ADP	APPR	_	36	case	_	_
 36	dem	der	PRON	PRELS	PronType=Rel	40	nmod	_	_
@@ -13825,7 +13825,7 @@
 6	nach	nach	ADP	APPR	_	8	case	_	_
 7	überwiegender	überwiegend	ADJ	ADJA	_	8	amod	_	_
 8	Befürchtung	Befürchtung	NOUN	NN	_	5	nmod	_	_
-9	selbst	selbst	PRON	ADV	_	11	nsubj	_	_
+9	selbst	selbst	PRON	ADV	PronType=Dem|Reflex=Yes	11	nsubj	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Offiziellen	Offizielle	NOUN	NN	_	8	det	_	_
 12	nicht	nicht	PART	PTKNEG	_	13	neg	_	_
@@ -13932,7 +13932,7 @@
 26	Präsident	Präsident	NOUN	NN	_	24	nmod	_	_
 27	Saddam	Saddam	PROPN	NE	_	28	name	_	_
 28	Hussein	Hussein	PROPN	NE	_	26	appos	_	_
-29	dafür	dafür	PRON	PAV	_	30	advmod	_	_
+29	dafür	dafür	PRON	PAV	PronType=Dem,Rel	30	advmod	_	_
 30	verantwortlich	verantwortlich	ADJ	ADJD	_	0	root	_	_
 31	.	.	PUNCT	$.	_	30	punct	_	_
 
