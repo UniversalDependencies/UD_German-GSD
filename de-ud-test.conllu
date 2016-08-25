@@ -12002,7 +12002,7 @@
 
 # sent_id test-s636/de
 1	``	``	PUNCT	$(	_	16	punct	_	_
-2	Wie	wie	PRON	PWAV	_	8	mark	_	_
+2	Wie	wie	ADV	PWAV	PronType=Int	8	mark	_	_
 3	kann	können	AUX	VMFIN	VerbForm=Fin	8	aux	_	_
 4	man	man	PRON	PIS	PronType=Ind	8	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
