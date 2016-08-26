@@ -2033,7 +2033,7 @@
 16	!	!	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s124/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	kurzer	kurz	ADJ	ADJA	_	3	amod	_	_
 3	Check	Check	VERB	NN	_	4	nsubj	_	_
 4	ergab	ergeben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
@@ -2046,7 +2046,7 @@
 11	!	!	PUNCT	$.	_	4	punct	_	_
 
 # sent_id test-s125/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	netter	nett	ADJ	ADJA	_	3	amod	_	_
 3	Gruß	Gruß	NOUN	NN	_	0	root	_	_
 4	aus	aus	ADP	APPR	_	6	case	_	_
@@ -2069,7 +2069,7 @@
 20	?	?	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s126/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	sauberer	sauber	ADJ	ADJA	_	3	amod	_	_
 3	Park	Park	NOUN	NN	_	0	root	_	_
 4	für	für	ADP	APPR	_	7	case	_	_
@@ -2079,7 +2079,7 @@
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s127/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	super	super	ADJ	ADJD	_	3	amod	_	_
 3	Fressnapf	Fressnapf	NOUN	NN	_	0	root	_	_
 4	.	.	PUNCT	$.	_	3	punct	_	_
@@ -6774,7 +6774,7 @@
 42	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s388/de
-1	Ein	eine	DET	ART	_	2	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
 2	Großteil	Großteil	NOUN	NN	_	20	nsubjpass	_	_
 3	''	''	PUNCT	$(	_	20	punct	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -11936,7 +11936,7 @@
 30	.	.	PUNCT	$.	_	22	punct	_	_
 
 # sent_id test-s634/de
-1	Einem	eine	DET	ART	_	3	det	_	_
+1	Einem	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	diplomatischen	diplomatisch	ADJ	ADJA	_	3	amod	_	_
 3	Notenwechsel	Notenwechsel	NOUN	NN	_	15	nmod	_	_
 4	zwischen	zwischen	ADP	APPR	_	7	case	_	_
@@ -12709,7 +12709,7 @@
 28	.	.	PUNCT	$.	_	24	punct	_	_
 
 # sent_id test-s664/de
-1	Ein	eine	DET	ART	_	2	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
 2	Sprecher	Sprecher	NOUN	NN	_	6	nsubj	_	_
 3	des	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	japanischen	japanisch	ADJ	ADJA	_	5	amod	_	_
@@ -13817,7 +13817,7 @@
 37	.	.	PUNCT	$.	_	22	punct	_	_
 
 # sent_id test-s722/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	``	``	PUNCT	$(	_	5	punct	_	_
 3	Tschernobyl	Tschernobyl	PROPN	NE	_	5	nsubj	_	_
 4	''	''	PUNCT	$(	_	5	punct	_	_
@@ -14850,7 +14850,7 @@
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s774/de
-1	Einem	eine	DET	ART	_	2	det	_	_
+1	Einem	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
 2	Umstand	Umstand	NOUN	NN	_	0	root	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	dem	der	PRON	PRELS	PronType=Rel	15	iobj	_	_
@@ -15477,7 +15477,7 @@
 3	Großverdiener	Großverdiener	NOUN	NN	_	0	root	_	_
 
 # sent_id test-s806/de
-1	Ein	eine	DET	ART	_	3	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
 2	umfassender	umfassend	ADJ	ADJA	_	3	amod	_	_
 3	Ausbau	Ausbau	NOUN	NN	_	21	nsubj	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -16458,7 +16458,7 @@
 
 # sent_id test-s864/de
 1	``	``	PUNCT	$(	_	5	punct	_	_
-2	Ein	eine	DET	ART	_	4	det	_	_
+2	Ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
 3	halbes	halb	ADJ	ADJA	_	4	amod	_	_
 4	Jahrhundert	Jahrhundert	NOUN	NN	_	5	nmod	_	_
 5	riskierte	riskieren	VERB	VVFIN	VerbForm=Fin	0	root	_	_
@@ -17067,7 +17067,7 @@
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id test-s896/de
-1	Ein	eine	DET	ART	_	4	det	_	_
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
 2	Überlebens	Überleben	NOUN	NN	_	4	compound	_	_
 3	-	-	PUNCT	$(	_	4	punct	_	_
 4	Gen	Gen	NOUN	NN	_	8	nsubj	_	_

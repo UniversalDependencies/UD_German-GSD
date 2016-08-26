@@ -17,7 +17,7 @@
     <tag name="ADV">14957</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">6913</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
     <tag name="CONJ">8938</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, jedoch -->
-    <tag name="DET">37018</tag><!-- der, ein, sein, ihr, eine, Ihr|ihr, dies, jen, mein, unser -->
+    <tag name="DET">37018</tag><!-- der, ein, sein, ihr, Ihr|ihr, dies, jen, mein, unser, alle -->
     <tag name="NOUN">53296</tag><!-- Jahr, zeit, Stadt, Teil, Familie, Frau, Land, Ende, Ort, Tag -->
     <tag name="NUM">7632</tag><!-- zwei, drei, vier, 2007, 2006, ein, fünf, 2009, 1, 2008 -->
     <tag name="PART">2203</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, to -->
@@ -36,7 +36,7 @@
     <feat name="Case" value="Dat" upos="PRON">363</feat><!-- ihm, mir, ihnen, Dir, Mit -->
     <feat name="Case" value="Nom" upos="PRON">3149</feat><!-- er, ich, wir, ihr, du -->
     <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
-    <feat name="Definite" value="Ind" upos="DET">5098</feat><!-- eine, ein, einer, einen, einem, eines -->
+    <feat name="Definite" value="Ind" upos="DET">5262</feat><!-- eine, ein, einer, einem, einen, eines -->
     <feat name="Foreign" value="Foreign" upos="X">9</feat><!-- I, All, What, a, it, la, the, we -->
     <feat name="Gender" value="Fem" upos="PRON">522</feat><!-- sie -->
     <feat name="Gender" value="Masc" upos="PRON">2473</feat><!-- er, ihm, ihn, in -->
@@ -57,7 +57,7 @@
     <feat name="Polite" value="Inf" upos="DET,PRON">83</feat><!-- ihr, du, euch, Dir, deinen, dich, euren, eurer, eure -->
     <feat name="Polite" value="Pol" upos="PRON">381</feat><!-- Sie, Ihnen -->
     <feat name="Poss" value="Yes" upos="DET,PRON">2445</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
-    <feat name="PronType" value="Art" upos="DET">34565</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
+    <feat name="PronType" value="Art" upos="DET">34729</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2012</feat><!-- diese, dieser, das, diesem, die, dieses, dies, diesen, der, dessen -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">134</feat><!-- dazu, davon, dafür, darauf, darin, daran, damit, dadurch, darüber, daraus -->
     <feat name="PronType" value="Ind" upos="DET,PRON">1534</feat><!-- man, einige, mehrere, anderem, viele, einer, eine, mehr, einen, mehreren -->
