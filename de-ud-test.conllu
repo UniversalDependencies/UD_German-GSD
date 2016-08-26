@@ -800,7 +800,7 @@
 21	und	und	CONJ	KON	_	20	cc	_	_
 22	beruhigend	beruhigend	ADJ	ADJD	_	20	conj	_	_
 23	auf	auf	ADP	APPR	_	24	case	_	_
-24	einen	ein	PRON	ART	PronType=Ind	25	nmod	_	_
+24	einen	ein	PRON	PIS	PronType=Ind	25	nmod	_	_
 25	wirkt	wirken	VERB	VVFIN	VerbForm=Fin	34	advcl	_	_
 26	,	,	PUNCT	$,	_	11	punct	_	_
 27	(	(	PUNCT	$(	_	32	punct	_	_
@@ -1209,7 +1209,7 @@
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	7	cop	_	_
 3	ja	ja	ADV	ADV	_	7	advmod	_	_
 4	`	`	PUNCT	$(	_	5	punct	_	_
-5	ne	ne	DET	ART	_	7	det	_	_
+5	ne	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
 6	feine	fein	ADJ	ADJA	_	7	amod	_	_
 7	Sache	Sache	NOUN	NN	_	0	root	_	_
 8	,	,	PUNCT	$,	_	7	punct	_	_
@@ -3056,7 +3056,7 @@
 # sent_id test-s187/de
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 2	hatte	haben	AUX	VAFIN	VerbForm=Fin	8	aux	_	_
-3	einen	ein	DET	PIS	PronType=Ind	5	det	_	_
+3	einen	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
 4	gebacken	backen	ADJ	VVPP	_	5	amod	_	_
 5	Feta	Feta	NOUN	NE	_	8	dobj	_	_
 6	als	als	ADP	KOKOM	_	7	case	_	_
@@ -3639,7 +3639,7 @@
 3	sich	er|es|sie	PRON	PRF	Case=Acc,Dat|Person=3|PronType=Prs|Reflex=Yes	7	dobj	_	_
 4	wirklich	wirklich	ADV	ADJD	_	7	advmod	_	_
 5	um	um	ADP	APPR	_	6	case	_	_
-6	einen	ein	PRON	ART	PronType=Ind	7	nmod	_	_
+6	einen	ein	PRON	PIS	PronType=Ind	7	nmod	_	_
 7	gekümmert	kümmern	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	und	und	CONJ	KON	_	7	cc	_	_
 9-10	vom	_	_	_	_	_	_	_	_
@@ -4182,7 +4182,7 @@
 23	Hilfe	Hilfe	NOUN	NN	_	20	conj	_	_
 24	,	,	PUNCT	$,	_	2	punct	_	_
 25	die	der	PRON	PRELS	PronType=Rel	30	nsubjpass	_	_
-26	einem	ein	PRON	ART	PronType=Ind	30	iobj	_	_
+26	einem	ein	PRON	PIS	PronType=Ind	30	iobj	_	_
 27	in	in	ADP	APPR	_	29	case	_	_
 28	finanziellen	finanziell	ADJ	ADJA	_	29	amod	_	_
 29	Fragen	Frage	NOUN	NN	_	30	nmod	_	_
@@ -6947,7 +6947,7 @@
 13	Manfred	Manfred	PROPN	NE	_	14	name	_	_
 14	Bauer	Bauer	PROPN	NE	_	12	appos	_	_
 15	,	,	PUNCT	$,	_	11	punct	_	_
-16	einer	ein	PRON	ART	PronType=Ind	12	appos	_	_
+16	einer	ein	PRON	PIS	PronType=Ind	12	appos	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Väter	Vater	NOUN	NN	_	16	det	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -7651,7 +7651,7 @@
 10	furchtbare	furchtbar	ADJ	ADJA	_	11	amod	_	_
 11	Verbrechen	Verbrechen	NOUN	NN	_	5	nmod	_	_
 12	an	an	ADP	APPR	_	13	case	_	_
-13	einem	ein	DET	PIS	PronType=Ind	11	nmod	_	_
+13	einem	ein	DET	ART	Definite=Ind|PronType=Art	11	nmod	_	_
 14	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 15	tapferen	tapfer	ADJ	ADJA	_	16	amod	_	_
 16	Führer	Führer	NOUN	NN	_	13	det	_	_
@@ -7781,7 +7781,7 @@
 7	sie	sie	PRON	PPER	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 8	Zuflucht	Zuflucht	NOUN	NN	_	6	dobj	_	_
 9	in	in	ADP	APPR	_	13	case	_	_
-10	einer	ein	DET	PIS	PronType=Ind	13	det	_	_
+10	einer	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
 11	,	,	PUNCT	$,	_	24	punct	_	_
 12	kurdischen	kurdisch	ADJ	ADJA	_	13	amod	_	_
 13	Identität	Identität	NOUN	NN	_	8	nmod	_	_
@@ -14638,7 +14638,7 @@
 32	diese	dies	DET	PDAT	PronType=Dem	33	det	_	_
 33	Wundertaten	Wundertat	NOUN	NN	_	40	dobj	_	_
 34	während	während	ADP	APPR	_	37	case	_	_
-35	einer	ein	DET	PIS	PronType=Ind	37	det	_	_
+35	einer	ein	DET	ART	Definite=Ind|PronType=Art	37	det	_	_
 36	der	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
 37	Strafprozeßordnung	Strafprozeßordnung	NOUN	NN	_	33	nmod	_	_
 38	folgenden	folgend	ADJ	ADJA	_	39	amod	_	_

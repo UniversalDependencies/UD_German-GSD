@@ -10,7 +10,7 @@
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hatte	haben	VERB	VAFIN	VerbForm=Fin	0	root	_	_
 3	Gelegenheit	Gelegenheit	NOUN	NN	_	2	dobj	_	_
-4	eines	ein	DET	PIS	PronType=Ind	6	det	_	_
+4	eines	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
 5	seiner	sein	PRON	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	Seminare	Seminar	NOUN	NN	_	8	dobj	_	_
 7	zu	zu	PART	PTKZU	_	8	aux	_	_
@@ -6452,7 +6452,7 @@
 12	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	iobj	_	_
 13	immer	immer	ADV	ADV	_	14	advmod	_	_
 14	Abends	Abend	ADV	NN	_	10	advmod	_	_
-15	einen	ein	PRON	ART	PronType=Ind	10	dobj	_	_
+15	einen	ein	PRON	PIS	PronType=Ind	10	dobj	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 17	lecker	leck	ADV	ADJA	_	18	advmod	_	_
 18	gefüllten	gefüllt	VERB	ADJA	_	19	acl	_	_
@@ -8311,7 +8311,7 @@
 3	hat	haben	AUX	VAFIN	VerbForm=Fin	13	aux	_	_
 4	sich	er|es|sie	PRON	PRF	Case=Acc,Dat|Person=3|PronType=Prs|Reflex=Yes	13	dobj	_	_
 5	für	für	ADP	APPR	_	11	case	_	_
-6	einen	ein	DET	PIS	PronType=Ind	11	det	_	_
+6	einen	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
 7	deutsch	deutsch	ADJ	ADJD	_	9	compound	_	_
 8	--	--	PUNCT	$(	_	9	punct	_	_
 9	französischen	französisch	ADJ	ADJA	_	11	amod	_	_
