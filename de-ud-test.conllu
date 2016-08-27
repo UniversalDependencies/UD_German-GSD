@@ -4385,7 +4385,7 @@
 3-4	beim	_	_	_	_	_	_	_	_
 3	bei	bei	ADP	APPR	_	6	case	_	_
 4	dem	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-5	ersten	erst	ADJ	ADJA	_	6	amod	_	_
+5	ersten	erst	ADJ	ADJA	NumType=Ord	6	amod	_	_
 6	Besuch	Besuch	NOUN	NN	_	12	nmod	_	_
 7	bei	bei	ADP	APPR	_	8	case	_	_
 8	Tanja	Tanja	PROPN	NE	_	6	nmod	_	_
@@ -5461,7 +5461,7 @@
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	lautet	lauten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 15	ihr	ihr	PRON	PPOSAT	Person=3|Poss=Yes|PronType=Prs	17	det	_	_
-16	erstes	erst	ADJ	ADJA	_	17	amod	_	_
+16	erstes	erst	ADJ	ADJA	NumType=Ord	17	amod	_	_
 17	Mode	Mode	NOUN	NN	_	14	nsubj	_	_
 18	--	--	PUNCT	$(	_	17	punct	_	_
 19	und	und	CONJ	KON	_	17	cc	_	_
@@ -5882,7 +5882,7 @@
 15	abend	abend	ADV	ADV	_	14	advmod	_	_
 16	war	sein	VERB	VAFIN	VerbForm=Fin	19	cop	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
-18	erste	erst	ADJ	ADJA	_	19	amod	_	_
+18	erste	erst	ADJ	ADJA	NumType=Ord	19	amod	_	_
 19	Auftritt	Auftritt	NOUN	NN	_	0	root	_	_
 20	des	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Popstars	Popstar	NOUN	NN	_	19	det	_	_
@@ -6387,7 +6387,7 @@
 1	Das	der	PRON	PDS	PronType=Dem	6	nsubj	_	_
 2	ist	sein	VERB	VAFIN	VerbForm=Fin	6	cop	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-4	erste	erst	ADJ	ADJA	_	6	amod	_	_
+4	erste	erst	ADJ	ADJA	NumType=Ord	6	amod	_	_
 5	intelligente	intelligent	ADJ	ADJA	_	6	amod	_	_
 6	Äußerung	Äußerung	NOUN	NN	_	19	ccomp	_	_
 7	,	,	PUNCT	$,	_	19	punct	_	_
@@ -8129,7 +8129,7 @@
 8	beiden	beide	PRON	PIAT	NumType=Card|PronType=Tot	9	det	_	_
 9	Spitzenreitern	Spitzenreiter	NOUN	NN	_	13	nmod	_	_
 10	des	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	ersten	erst	ADJ	ADJA	_	12	amod	_	_
+11	ersten	erst	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	Wahlgangs	Wahlgang	NOUN	NN	_	9	det	_	_
 13	erbittert	erbittern	ADJ	VVPP	_	0	root	_	_
 14	sein	sein	VERB	VAINF	VerbForm=Inf	13	cop	_	_
@@ -8464,7 +8464,7 @@
 19	die	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Geburt	Geburt	NOUN	NN	_	17	conj	_	_
 21	des	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
-22	ersten	erst	ADJ	ADJA	_	23	amod	_	_
+22	ersten	erst	ADJ	ADJA	NumType=Ord	23	amod	_	_
 23	Kindes	Kind	NOUN	NN	_	20	det	_	_
 24	nach	nach	ADP	APPR	_	28	case	_	_
 25	dem	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
@@ -8481,7 +8481,7 @@
 36	Krebs	Krebs	NOUN	NE	_	37	nmod	_	_
 37	erkrankter	erkrankt	ADJ	ADJA	_	38	amod	_	_
 38	Verwandter	Verwandte|Verwandter	NOUN	NN	_	17	conj	_	_
-39	ersten	erst	ADJ	ADJA	_	40	amod	_	_
+39	ersten	erst	ADJ	ADJA	NumType=Ord	40	amod	_	_
 40	Grades	Grad	NOUN	NN	_	38	det	_	_
 41	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -10138,7 +10138,7 @@
 8	Ausland	Ausland	NOUN	NN	_	1	nmod	_	_
 9	während	während	ADP	APPR	_	12	case	_	_
 10	des	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	ersten	erst	ADJ	ADJA	_	12	amod	_	_
+11	ersten	erst	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	Halbjahres	Halbjahr	NOUN	NN	_	1	nmod	_	_
 13	1995	1995	NUM	CARD	NumType=Card	12	nmod	_	_
 14	hat	haben	AUX	VAFIN	VerbForm=Fin	19	aux	_	_
@@ -10866,7 +10866,7 @@
 1-2	zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	ADJA	_	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	NumType=Ord	4	amod	_	_
 4	Mal	Mal	NOUN	NN	_	21	nmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -10968,7 +10968,7 @@
 11	nordirakischen	nordirakisch	ADJ	ADJA	_	12	amod	_	_
 12	Erbil	Erbil	PROPN	NE	_	17	nmod	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-14	erste	erst	ADJ	ADJA	_	16	amod	_	_
+14	erste	erst	ADJ	ADJA	NumType=Ord	16	amod	_	_
 15	kurdische	kurdisch	ADJ	ADJA	_	16	amod	_	_
 16	Regierung	Regierung	NOUN	NN	_	17	nsubjpass	_	_
 17	gebildet	bilden	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -10987,7 +10987,7 @@
 8	Freude	Freude	NOUN	NN	_	4	nsubj	_	_
 9	über	über	ADP	APPR	_	12	case	_	_
 10	den	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	zweiten	zweit	ADJ	ADJA	_	12	amod	_	_
+11	zweiten	zweit	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	Zusammenschluß	Zusammenschluß	NOUN	NN	_	8	nmod	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -12474,7 +12474,7 @@
 # sent_id test-s656/de
 1	In	in	ADP	APPR	_	4	case	_	_
 2	ihrem	ihr	PRON	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det	_	_
-3	ersten	erst	ADJ	ADJA	_	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	NumType=Ord	4	amod	_	_
 4	Bericht	Bericht	NOUN	NN	_	8	nmod	_	_
 5	über	über	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -13038,7 +13038,7 @@
 
 # sent_id test-s680/de
 1	Die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-2	ersten	erst	ADJ	ADJA	_	4	amod	_	_
+2	ersten	erst	ADJ	ADJA	NumType=Ord	4	amod	_	_
 3	1000	1000	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Bäume	Baum	NOUN	NN	_	17	nsubjpass	_	_
 5-6	zum	_	_	_	_	_	_	_	_
@@ -15970,7 +15970,7 @@
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	neg	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-6	erste	erst	ADJ	ADJA	_	7	amod	_	_
+6	erste	erst	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	Ministerpräsident	Ministerpräsident	NOUN	NN	_	0	root	_	_
 8	Israels	Israel	PROPN	NE	_	7	det	_	_
 9	,	,	PUNCT	$,	_	7	punct	_	_
@@ -16487,9 +16487,9 @@
 1	Selbst	selbst	ADV	ADV	_	2	advmod	_	_
 2	Kinder	Kind	NOUN	NN	_	8	nsubj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-4	zweiten	zweit	ADJ	ADJA	_	7	amod	_	_
+4	zweiten	zweit	ADJ	ADJA	NumType=Ord	7	amod	_	_
 5	und	und	CONJ	KON	_	4	cc	_	_
-6	dritten	dritt	ADJ	ADJA	_	4	conj	_	_
+6	dritten	dritt	ADJ	ADJA	NumType=Ord	4	conj	_	_
 7	Einwanderergeneration	Einwanderergeneration	NOUN	NN	_	2	det	_	_
 8	gälten	gelten	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 9	immer	immer	ADV	ADV	_	10	advmod	_	_
@@ -16569,7 +16569,7 @@
 7	schafft	schaffen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
 8	damit	damit	ADV	PAV	_	7	advmod	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
-10	erste	erst	ADJ	ADJA	_	11	amod	_	_
+10	erste	erst	ADJ	ADJA	NumType=Ord	11	amod	_	_
 11	Gelegenheit	Gelegenheit	NOUN	NN	_	7	dobj	_	_
 12	,	,	PUNCT	$,	_	3	punct	_	_
 13	sein	sein	PRON	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
@@ -16887,7 +16887,7 @@
 12	Wochenende	Wochenende	NOUN	NN	_	6	nmod	_	_
 13	gegen	gegen	ADP	APPR	_	16	case	_	_
 14	eine	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
-15	zweite	zweit	ADJ	ADJA	_	16	amod	_	_
+15	zweite	zweit	ADJ	ADJA	NumType=Ord	16	amod	_	_
 16	Amtszeit	Amtszeit	NOUN	NN	_	6	nmod	_	_
 17	Reischs	Reischs	PROPN	NN	_	16	det	_	_
 18	aus	aus	ADP	PTKVZ	_	6	mark	_	_
@@ -16979,7 +16979,7 @@
 
 # sent_id test-s889/de
 1	Der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-2	erste	erst	ADJ	ADJA	_	4	amod	_	_
+2	erste	erst	ADJ	ADJA	NumType=Ord	4	amod	_	_
 3	große	groß	ADJ	ADJA	_	4	amod	_	_
 4	Volksentscheid	Volksentscheid	NOUN	NN	_	13	nsubjpass	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
@@ -17319,7 +17319,7 @@
 # sent_id test-s914/de
 1	In	in	ADP	APPR	_	5	case	_	_
 2	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-3	ersten	erst	ADJ	ADJA	_	5	amod	_	_
+3	ersten	erst	ADJ	ADJA	NumType=Ord	5	amod	_	_
 4	sechs	sechs	NUM	CARD	NumType=Card	5	amod	_	_
 5	Monaten	Monat	NOUN	NN	_	13	nmod	_	_
 6	des	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
@@ -17761,7 +17761,7 @@
 12	,	,	PUNCT	$,	_	8	punct	_	_
 13	auf	auf	ADP	APPR	_	16	case	_	_
 14	den	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-15	ersten	erst	ADJ	ADJA	_	16	amod	_	_
+15	ersten	erst	ADJ	ADJA	NumType=Ord	16	amod	_	_
 16	Blick	Blick	NOUN	NN	_	18	nmod	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Chronik	Chronik	NOUN	NN	_	8	appos	_	_

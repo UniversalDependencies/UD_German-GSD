@@ -49,7 +49,7 @@
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">125</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, eure -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">1607</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM,PRON">7809</feat><!-- zwei, drei, beiden, vier, 2007, 2006, fünf, 2009, 1, 2008 -->
-    <feat name="NumType" value="Ord" upos="ADJ">3</feat><!-- erster, zweiten -->
+    <feat name="NumType" value="Ord" upos="ADJ">644</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, fünften, siebten -->
     <feat name="Person" value="1" upos="DET,PRON">1570</feat><!-- ich, wir, uns, mir, mich, meine, unsere, mein, meiner, meinem -->
     <feat name="Person" value="2" upos="DET,PRON">465</feat><!-- Sie, ihr, du, Ihnen, euch, Dir, deinen, dich, euren, eurer -->
     <feat name="Person" value="2,3" upos="DET,PRON">66</feat><!-- Ihr, Ihre, Ihrem, Ihrer -->

@@ -677,7 +677,7 @@
 # sent_id dev-s47/de
 1	bei	bei	ADP	APPR	_	4	case	_	_
 2	meinem	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
-3	ersten	erst	ADJ	ADJA	_	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	NumType=Ord	4	amod	_	_
 4	beusch	beusch	NOUN	NN	_	11	nmod	_	_
 5	,	,	PUNCT	$,	_	11	punct	_	_
 6	war	sein	VERB	VAFIN	VerbForm=Fin	11	cop	_	_
@@ -1293,7 +1293,7 @@
 6	gibt	geben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 8	kein	kein	PRON	PIAT	PronType=Neg	9	neg	_	_
-9	zweites	zweit	ADJ	ADJA	_	10	amod	_	_
+9	zweites	zweit	ADJ	ADJA	NumType=Ord	10	amod	_	_
 10	mal	mal	NOUN	ADV	_	6	nmod	_	_
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -1765,7 +1765,7 @@
 11	"	"	PUNCT	$(	_	10	punct	_	_
 12	immer	immer	ADV	ADV	_	15	advmod	_	_
 13	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det	_	_
-14	erste	erst	ADJ	ADJA	_	15	amod	_	_
+14	erste	erst	ADJ	ADJA	NumType=Ord	15	amod	_	_
 15	Wahl	Wahl	NOUN	NN	_	0	root	_	_
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -2402,7 +2402,7 @@
 2	nach	nach	ADP	APPR	_	3	case	_	_
 3	dem	der	PRON	ART	PronType=Dem	7	nmod	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-5	ersten	erst	ADJ	ADJA	_	6	amod	_	_
+5	ersten	erst	ADJ	ADJA	NumType=Ord	6	amod	_	_
 6	Rechnungen	Rechnung	NOUN	NN	_	7	nsubj	_	_
 7	bezahlt	bezahlen	VERB	VVPP	VerbForm=Part	10	advcl	_	_
 8	waren	sein	AUX	VAFIN	VerbForm=Fin	7	aux	_	_
@@ -2562,7 +2562,7 @@
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 12	nach	nach	ADP	APPR	_	15	case	_	_
 13	dem	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
-14	zweiten	zweit	ADJ	ADJA	_	15	amod	_	_
+14	zweiten	zweit	ADJ	ADJA	NumType=Ord	15	amod	_	_
 15	Besuch	Besuch	NOUN	NN	_	10	nmod	_	_
 16	keine	kein	PRON	PIAT	PronType=Neg	18	neg	_	_
 17	komplette	komplett	ADJ	ADJA	_	18	amod	_	_
@@ -3954,7 +3954,7 @@
 8	jetzt	jetzt	ADV	ADV	_	12	advmod	_	_
 9	auch	auch	ADV	ADV	_	10	advmod	_	_
 10	immer	immer	ADV	ADV	_	12	advmod	_	_
-11	erste	erst	ADJ	ADJA	_	12	amod	_	_
+11	erste	erst	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	sahne	sahnen	NOUN	VVFIN	_	0	root	_	_
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
@@ -4618,7 +4618,7 @@
 4-5	zum	_	_	_	_	_	_	_	_
 4	zu	zu	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-6	ersten	erst	ADJ	ADJA	_	7	amod	_	_
+6	ersten	erst	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	Mal	Mal	NOUN	NN	_	14	nmod	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
@@ -4780,7 +4780,7 @@
 1	Kann	können	AUX	VMFIN	VerbForm=Fin	8	aux	_	_
 2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	dobj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-4	ersten	erst	ADJ	ADJA	_	5	amod	_	_
+4	ersten	erst	ADJ	ADJA	NumType=Ord	5	amod	_	_
 5	Bewertung	Bewertung	NOUN	NN	_	8	iobj	_	_
 6	überhaupt	überhaupt	ADV	ADV	_	7	advmod	_	_
 7	nicht	nicht	PART	PTKNEG	_	8	neg	_	_
@@ -4887,7 +4887,7 @@
 1	Bereits	bereits	ADV	ADV	_	5	advmod	_	_
 2	nach	nach	ADP	APPR	_	5	case	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-4	ersten	erst	ADJ	ADJA	_	5	amod	_	_
+4	ersten	erst	ADJ	ADJA	NumType=Ord	5	amod	_	_
 5	Trainingseinheit	Trainingseinheit	NOUN	NN	_	20	nmod	_	_
 6	,	,	PUNCT	$,	_	20	punct	_	_
 7	die	der	PRON	PRELS	PronType=Rel	8	nsubj	_	_
@@ -5932,7 +5932,7 @@
 
 # sent_id dev-s369/de
 1	Meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
-2	erste	erst	ADJ	ADJA	_	3	amod	_	_
+2	erste	erst	ADJ	ADJA	NumType=Ord	3	amod	_	_
 3	Wahl	Wahl	NOUN	NN	_	0	root	_	_
 4	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
 5	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -6164,7 +6164,7 @@
 11	Kristall	Kristall	PROPN	NN	_	12	name	_	_
 12	Leuchten	Leuchte|Leuchten	PROPN	NN	_	9	appos	_	_
 13	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det	_	_
-14	erste	erst	ADJ	ADJA	_	15	amod	_	_
+14	erste	erst	ADJ	ADJA	NumType=Ord	15	amod	_	_
 15	Wahl	Wahl	NOUN	NN	_	9	nsubj	_	_
 16	.	.	PUNCT	$.	_	9	punct	_	_
 
@@ -6300,7 +6300,7 @@
 8	und	und	CONJ	KON	_	7	cc	_	_
 9	vor	vor	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	ersten	erst	ADJ	ADJA	_	12	amod	_	_
+11	ersten	erst	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	Gespräch	Gespräch	NOUN	NN	_	24	nmod	_	_
 13-14	im	_	_	_	_	_	_	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
@@ -6359,7 +6359,7 @@
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-8	ersten	erst	ADJ	ADJA	_	9	amod	_	_
+8	ersten	erst	ADJ	ADJA	NumType=Ord	9	amod	_	_
 9	Mal	Mal	NOUN	NN	_	4	nmod	_	_
 10-11	im	_	_	_	_	_	_	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
@@ -6425,7 +6425,7 @@
 9	erreichbar	erreichbar	ADJ	ADJD	_	0	root	_	_
 10	und	und	CONJ	KON	_	9	cc	_	_
 11	gab	geben	VERB	VVFIN	VerbForm=Fin	9	conj	_	_
-12	erste	erst	ADJ	ADJA	_	13	amod	_	_
+12	erste	erst	ADJ	ADJA	NumType=Ord	13	amod	_	_
 13	Tipps	Tip	NOUN	NN	_	11	dobj	_	_
 14	.	.	PUNCT	$.	_	9	punct	_	_
 
@@ -6859,7 +6859,7 @@
 32-33	vom	_	_	_	_	_	_	_	_
 32	von	von	ADP	APPR	_	35	case	_	_
 33	dem	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
-34	ersten	erst	ADJ	ADJA	_	35	amod	_	_
+34	ersten	erst	ADJ	ADJA	NumType=Ord	35	amod	_	_
 35	Augenblick	Augenblick	NOUN	NN	_	31	nmod	_	_
 36	an	an	ADP	PTKVZ	_	35	mwe	_	_
 37	.	.	PUNCT	$.	_	8	punct	_	_
@@ -8237,7 +8237,7 @@
 4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Ergebnis	Ergebnis	NOUN	NN	_	12	dobj	_	_
 6	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-7	ersten	erst	ADJ	ADJA	_	9	amod	_	_
+7	ersten	erst	ADJ	ADJA	NumType=Ord	9	amod	_	_
 8	freien	frei	ADJ	ADJA	_	9	amod	_	_
 9	Parlamentswahlen	Parlamentswahl	NOUN	NN	_	5	det	_	_
 10	von	von	ADP	APPR	_	11	case	_	_
@@ -8893,7 +8893,7 @@
 4	Bevölkerung	Bevölkerung	NOUN	NN	_	2	det	_	_
 5	beurteilte	beurteilen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
 6	seine	sein	PRON	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
-7	erste	erst	ADJ	ADJA	_	8	amod	_	_
+7	erste	erst	ADJ	ADJA	NumType=Ord	8	amod	_	_
 8	Amtszeit	Amtszeit	NOUN	NN	_	5	dobj	_	_
 9	trotz	trotz	ADP	APPR	_	12	case	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
@@ -10206,7 +10206,7 @@
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-6	zweiten	zweit	ADJ	ADJA	_	7	amod	_	_
+6	zweiten	zweit	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	Anlauf	Anlauf	NOUN	NN	_	2	nmod	_	_
 8	durch	durch	ADP	PTKVZ	_	2	mark	_	_
 9	--	--	PUNCT	$(	_	2	punct	_	_
@@ -10446,7 +10446,7 @@
 9-10	beim	_	_	_	_	_	_	_	_
 9	bei	bei	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	ersten	erst	ADJ	ADJA	_	12	amod	_	_
+11	ersten	erst	ADJ	ADJA	NumType=Ord	12	amod	_	_
 12	Flirt	Flirt	NOUN	NN	_	2	nmod	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -10561,7 +10561,7 @@
 3	wollen	wollen	AUX	VMFIN	VerbForm=Fin	12	aux	_	_
 4	in	in	ADP	APPR	_	8	case	_	_
 5	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-6	ersten	erst	ADJ	ADJA	_	7	amod	_	_
+6	ersten	erst	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	fünf	fünf	NUM	CARD	NumType=Card	8	nummod	_	_
 8	Jahren	Jahr	NOUN	NN	_	12	nmod	_	_
 9	85	85	NUM	CARD	NumType=Card	10	nummod	_	_
@@ -10576,7 +10576,7 @@
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	6	case	_	_
 4	dem	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-5	ersten	erst	ADJ	ADJA	_	6	amod	_	_
+5	ersten	erst	ADJ	ADJA	NumType=Ord	6	amod	_	_
 6	Halbjahr	Halbjahr	NOUN	NN	_	18	nmod	_	_
 7	des	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 8	laufenden	laufend	ADJ	ADJA	_	9	amod	_	_
@@ -14031,7 +14031,7 @@
 20	Gramm	Gramm	PROPN	NN	_	18	appos	_	_
 21	auf	auf	ADP	APPR	_	24	case	_	_
 22	den	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
-23	zweiten	zweit	ADJ	ADJA	_	24	amod	_	_
+23	zweiten	zweit	ADJ	ADJA	NumType=Ord	24	amod	_	_
 24	Platz	Platz	NOUN	NN	_	15	nmod	_	_
 25	,	,	PUNCT	$,	_	3	punct	_	_
 26	23	23	NUM	CARD	NumType=Card	27	nummod	_	_
