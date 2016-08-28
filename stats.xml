@@ -29,23 +29,24 @@
     <tag name="X">379</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="42">
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">8857</feat><!-- sich, ihn, mich, die, es, sie, was, das, uns, Platz -->
-    <feat name="Case" value="Acc,Dat" upos="PRON">71</feat><!-- sich, uns -->
-    <feat name="Case" value="Acc,Nom" upos="PRON">429</feat><!-- es, sie, 's -->
-    <feat name="Case" value="Dat" upos="DET,NOUN,PRON,PROPN">1441</feat><!-- ihm, sich, mir, ihnen, uns, dem, ihr, diesem, einem, der -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">20938</feat><!-- er, sie, die, es, ich, man, der, wir, das, was -->
+  <feats unique="43">
+    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">25004</feat><!-- die, sich, den, das, eine, einen, ein, ihn, diese, mich -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">25</feat><!-- sich -->
+    <feat name="Case" value="Acc,Nom" upos="PRON">418</feat><!-- es, sie, 's -->
+    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">35593</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">1053</feat><!-- der, des, einer, weiteren, eines, Zeit, Krieges, ersten, Weltkriegs, dieser -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,X">33440</feat><!-- die, der, er, das, sie, es, ich, ein, man, eine -->
     <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
     <feat name="Definite" value="Ind" upos="DET">5310</feat><!-- eine, ein, einer, einem, einen, eines, eins, ne -->
     <feat name="Foreign" value="Foreign" upos="X">9</feat><!-- I, All, What, a, it, la, the, we -->
-    <feat name="Gender" value="Fem" upos="PRON">522</feat><!-- sie -->
-    <feat name="Gender" value="Masc" upos="PRON">2473</feat><!-- er, ihm, ihn, in -->
-    <feat name="Gender" value="Masc,Neut" upos="PRON">10</feat><!-- Ihm -->
-    <feat name="Gender" value="Neut" upos="PRON">1122</feat><!-- es, 's -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">29559</feat><!-- die, der, eine, sie, einer, diese, Zeit, dieser, Stadt, den -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">12009</feat><!-- er, der, den, einen, ihm, ihn, dessen, Ort, dieser, die -->
+    <feat name="Gender" value="Masc,Neut" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,SCONJ">17796</feat><!-- dem, ein, einem, Jahr, diesem, des, Jahre, ersten, Teil, Ende -->
+    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,PRON,PROPN">6816</feat><!-- das, es, die, Zeit, dieses, Unternehmen, den, Team, Album, Leben -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET,PRON">1417</feat><!-- seine, seiner, sein, seinen, seinem, seines -->
     <feat name="Negative" value="Neg" upos="PART">1</feat><!-- nicht -->
-    <feat name="Number" value="Plur" upos="PRON">794</feat><!-- wir, sie, uns, ihnen, ihr, euch -->
-    <feat name="Number" value="Sing" upos="PRON">5262</feat><!-- er, es, ich, sie, ihm, was, ihn, mir, mich, nichts -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">16309</feat><!-- die, den, wir, sie, Jahren, uns, diese, der, Menschen, alle -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">73809</feat><!-- dem, der, die, er, das, den, eine, es, ein, ich -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">125</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, eure -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">1607</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM,PRON">7809</feat><!-- zwei, drei, beiden, vier, 2007, 2006, fünf, 2009, 1, 2008 -->

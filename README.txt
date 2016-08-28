@@ -6,11 +6,16 @@ https://code.google.com/p/uni-dep-tb/
 The README for that project is included here.
 
 The German UD conforms to the UD guidelines, but there are some exceptions.
-The primary exception is that there are important morphological features
-missing.
 
 Universal POS tags were assigned manually, while LEMMA and XPOSTAG were
 predicted by TreeTagger (first for release 1.4; see Changelog below).
+Morphological features were assigned using rules based on the values of the
+other columns (UPOSTAG, XPOSTAG, LEMMA, FORM, DEPREL). Gender, number and
+case of nouns and their det/amod children are based on the (manual) syntactic
+annotation, e.g. nsubj => nominative. They should have high precision but
+lower recall because we did not add them where the context did not provide
+enough clues (morphological analyzer / lexicon was not used at this stage).
+
 
 
 === Machine-readable metadata =================================================
@@ -23,6 +28,7 @@ Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zem
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
 
 
 * Changelog
