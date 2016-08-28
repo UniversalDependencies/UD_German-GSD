@@ -30,11 +30,11 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="42">
-    <feat name="Case" value="Acc" upos="PRON">251</feat><!-- ihn, mich, dich, in -->
-    <feat name="Case" value="Acc,Dat" upos="PRON">1751</feat><!-- sich, uns, euch -->
-    <feat name="Case" value="Acc,Nom" upos="PRON">2266</feat><!-- sie, es, 's -->
-    <feat name="Case" value="Dat" upos="PRON">363</feat><!-- ihm, mir, ihnen, Dir, Mit -->
-    <feat name="Case" value="Nom" upos="PRON">3149</feat><!-- er, ich, wir, ihr, du -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">8857</feat><!-- sich, ihn, mich, die, es, sie, was, das, uns, Platz -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">71</feat><!-- sich, uns -->
+    <feat name="Case" value="Acc,Nom" upos="PRON">429</feat><!-- es, sie, 's -->
+    <feat name="Case" value="Dat" upos="DET,NOUN,PRON,PROPN">1441</feat><!-- ihm, sich, mir, ihnen, uns, dem, ihr, diesem, einem, der -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">20938</feat><!-- er, sie, die, es, ich, man, der, wir, das, was -->
     <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
     <feat name="Definite" value="Ind" upos="DET">5310</feat><!-- eine, ein, einer, einem, einen, eines, eins, ne -->
     <feat name="Foreign" value="Foreign" upos="X">9</feat><!-- I, All, What, a, it, la, the, we -->
