@@ -39,8 +39,12 @@ Added sentence ids.
 Added LEMMA and XPOSTAG predicted by TreeTagger with a German model supplied with the tagger and available in Treex
 (http://ufal.mff.cuni.cz/treex, commit 50ad1fe0b9907ac382cbcda0a0f102602abc21a0). The UPOSTAGs from the original data
 (assigned manually) were not modified. Some features were also added if they could be derived from the information
-already present. Features that need a lexicon and/or disambiguation, such as Gender, Number and Case, have not been
-added in this stage.
+already present. Features that need a lexicon and/or disambiguation, such as Gender, Number and Case, have only been
+added if they can be deduced from the (manually annotated) dependency structure, plus a few heuristics (e.g. form
+equal to lemma often but not always means singular).
+
+The work was done mainly using the HamleDT::DE::FixUD block, see
+https://github.com/ufal/treex/blob/master/lib/Treex/Block/HamleDT/DE/FixUD.pm
 
 2015-11-08 Wolfgang Seeker
 
