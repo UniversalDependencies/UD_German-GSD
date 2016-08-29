@@ -29,7 +29,7 @@
     <tag name="X">379</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="43">
+  <feats unique="47">
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">25004</feat><!-- die, sich, den, das, eine, einen, ein, ihn, diese, mich -->
     <feat name="Case" value="Acc,Dat" upos="PRON">25</feat><!-- sich -->
     <feat name="Case" value="Acc,Nom" upos="PRON">418</feat><!-- es, sie, 's -->
@@ -44,17 +44,19 @@
     <feat name="Gender" value="Masc,Neut" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,SCONJ">17796</feat><!-- dem, ein, einem, Jahr, diesem, des, Jahre, ersten, Teil, Ende -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,PRON,PROPN">6816</feat><!-- das, es, die, Zeit, dieses, Unternehmen, den, Team, Album, Leben -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET,PRON">1417</feat><!-- seine, seiner, sein, seinen, seinem, seines -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">10136</feat><!-- ist, wurde, war, sind, wird, hat, kann, hatte, waren, werden -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">352</feat><!-- würde, hätte, hätten, seien, möchte, wäre, könnte, könne, wolle, könnten -->
     <feat name="Negative" value="Neg" upos="PART">1</feat><!-- nicht -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">16309</feat><!-- die, den, wir, sie, Jahren, uns, diese, der, Menschen, alle -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">73809</feat><!-- dem, der, die, er, das, den, eine, es, ein, ich -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">20882</feat><!-- die, den, wurden, sind, wir, waren, werden, sie, haben, Jahren -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">87736</feat><!-- dem, der, die, er, das, ist, wurde, den, eine, es -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">125</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, eure -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">1607</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM,PRON">7809</feat><!-- zwei, drei, beiden, vier, 2007, 2006, fünf, 2009, 1, 2008 -->
     <feat name="NumType" value="Ord" upos="ADJ">644</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, fünften, siebten -->
-    <feat name="Person" value="1" upos="DET,PRON">1570</feat><!-- ich, wir, uns, mir, mich, meine, unsere, mein, meiner, meinem -->
-    <feat name="Person" value="2" upos="DET,PRON">465</feat><!-- Sie, ihr, du, Ihnen, euch, Dir, deinen, dich, euren, eurer -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2474</feat><!-- ich, wir, uns, mir, mich, habe, haben, meine, bin, kann -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">496</feat><!-- Sie, ihr, du, Ihnen, euch, bist, hast, Dir, deinen, dich -->
     <feat name="Person" value="2,3" upos="DET,PRON">66</feat><!-- Ihr, Ihre, Ihrem, Ihrer -->
-    <feat name="Person" value="3" upos="DET,PRON">8126</feat><!-- er, sich, es, sie, seine, seiner, sein, ihre, ihm, seinen -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">27372</feat><!-- er, ist, sich, wurde, war, es, sie, sind, wird, hat -->
     <feat name="Polite" value="Inf" upos="DET,PRON">83</feat><!-- ihr, du, euch, Dir, deinen, dich, euren, eurer, eure -->
     <feat name="Polite" value="Pol" upos="PRON">382</feat><!-- Sie, Ihnen -->
     <feat name="Poss" value="Yes" upos="DET,PRON">2446</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
@@ -69,6 +71,8 @@
     <feat name="PronType" value="Rel" upos="DET,PRON">2064</feat><!-- die, der, das, dem, was, denen, welche, deren, dessen, den -->
     <feat name="PronType" value="Tot" upos="DET,PRON">785</feat><!-- alle, beiden, allem, alles, allen, aller, beide, jede, jeden, jeder -->
     <feat name="Reflex" value="Yes" upos="PRON">1769</feat><!-- sich, mich, uns, mir, selbst, Euch -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">4496</feat><!-- wurde, war, hatte, waren, konnte, hatten, sollte, musste, wollte, konnten -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">5992</feat><!-- ist, sind, wird, hat, kann, werden, haben, habe, können, soll -->
     <feat name="Typo" value="Yes" upos="PRON">3</feat><!-- in, Mit -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">22383</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, waren -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3492</feat><!-- werden, sein, lassen, können, empfehlen, machen, haben, finden, erreichen, sehen -->
