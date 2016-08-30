@@ -29,7 +29,7 @@
     <tag name="X">379</tag><!-- z.B., u.a., =, %, b., etc., /, †, werden, &amp; -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="47">
+  <feats unique="51">
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">25004</feat><!-- die, sich, den, das, eine, einen, ein, ihn, diese, mich -->
     <feat name="Case" value="Acc,Dat" upos="PRON">25</feat><!-- sich -->
     <feat name="Case" value="Acc,Nom" upos="PRON">418</feat><!-- es, sie, 's -->
@@ -38,6 +38,10 @@
     <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,X">33440</feat><!-- die, der, er, das, sie, es, ich, ein, man, eine -->
     <feat name="Definite" value="Def" upos="DET">29467</feat><!-- der, die, dem, den, das, des -->
     <feat name="Definite" value="Ind" upos="DET">5310</feat><!-- eine, ein, einer, einem, einen, eines, eins, ne -->
+    <feat name="Degree" value="Cmp" upos="ADJ">453</feat><!-- weitere, weiteren, besser, früheren, späteren, kleinere, spätere, weiterer, kleineren, weiteres -->
+    <feat name="Degree" value="Cmp,Pos" upos="ADJ">1356</feat><!-- später, großer, erster, kleiner, deutscher, guter, anderer, neuer, verschiedener, letzter -->
+    <feat name="Degree" value="Pos" upos="ADJ">17560</feat><!-- ersten, erste, anderen, neue, neuen, großen, große, deutschen, gut, andere -->
+    <feat name="Degree" value="Sup" upos="ADJ">257</feat><!-- besten, beste, wichtigsten, bester, bedeutendsten, wichtigste, bestes, verschiedensten, äußersten, bekanntesten -->
     <feat name="Foreign" value="Foreign" upos="X">9</feat><!-- I, All, What, a, it, la, the, we -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">29559</feat><!-- die, der, eine, sie, einer, diese, Zeit, dieser, Stadt, den -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">12009</feat><!-- er, der, den, einen, ihm, ihn, dessen, Ort, dieser, die -->
