@@ -13,7 +13,7 @@
 4	eines	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 5	seiner	sein	PRON	PPOSAT	Case=Acc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Seminare	Seminar	NOUN	NN	Case=Acc|Number=Plur	8	dobj	_	_
-7	zu	zu	PART	PTKZU	_	8	aux	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -510,7 +510,7 @@
 13	über	über	ADP	APPR	_	15	case	_	_
 14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Gelände	Gelände	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_
-16	zu	zu	PART	PTKZU	_	17	aux	_	_
+16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	fahren	fahren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 18	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -724,7 +724,7 @@
 
 # sent_id dev-s51/de
 1	Absolut	absolut	ADV	ADJD	_	3	advmod	_	_
-2	zu	zu	PART	PTKZU	_	3	aux	_	_
+2	zu	zu	PART	PTKZU	_	3	mark	_	_
 3	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 
 # sent_id dev-s52/de
@@ -875,7 +875,7 @@
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
-21	zu	zu	PART	PTKZU	_	22	aux	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	12	advcl	_	_
 23	.	.	PUNCT	$.	_	12	punct	_	_
 
@@ -1136,7 +1136,7 @@
 8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Material	Material	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
 10	lässt	lassen	AUX	VVFIN	Number=Sing|Person=3|VerbForm=Fin	12	aux	_	_
-11	zu	zu	PART	PTKVZ	_	12	aux	_	_
+11	zu	zu	PART	PTKVZ	_	12	mark	_	_
 12	wünschen	wünschen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	_
 13	übrig	übrig	ADV	ADJD	_	12	advmod	_	_
 14	.	.	PUNCT	$.	_	6	punct	_	_
@@ -1530,7 +1530,7 @@
 10	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 11	alte	alt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	Vinyl	Vinyl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
-13	zu	zu	PART	PTKZU	_	14	aux	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	stehen	stehen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 15	,	,	PUNCT	$,	_	4	punct	_	_
 16	denn	denn	SCONJ	KON	_	26	mark	_	_
@@ -2448,7 +2448,7 @@
 9	.	.	PUNCT	$.	_	8	punct	_	_
 10	7	7	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Tagen	Tag	NOUN	NN	Case=Acc|Number=Plur	7	dobj	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	liefern	liefern	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
 14	aber	aber	CONJ	KON	_	2	cc	_	_
 15	nach	nach	ADP	APPR	_	17	case	_	_
@@ -2760,7 +2760,7 @@
 6	Wunsch	Wunsch	NOUN	NN	_	0	root	_	_
 7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Vespa	Vespa	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	10	dobj	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	mieten	mieten	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -3041,7 +3041,7 @@
 2	leider	leider	ADV	ADV	_	6	advmod	_	_
 3	nichts	nichts	PRON	PIAT	Case=Acc|Number=Sing|PronType=Neg	6	dobj	_	_
 4	gutes	gut	NOUN	ADJA	_	3	compound	_	_
-5	zu	zu	PART	PTKZU	_	6	aux	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	berichten	berichten	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	da	da	SCONJ	KOUS	_	19	mark	_	_
@@ -3415,7 +3415,7 @@
 9	versucht	versuchen	VERB	VVFIN	VerbForm=Fin	7	conj	_	_
 10	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	dobj	_	_
 11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
 14	,	,	PUNCT	$,	_	7	punct	_	_
 15	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	20	nsubj	_	_
@@ -3651,7 +3651,7 @@
 
 # sent_id dev-s220/de
 1	Nur	nur	ADV	ADV	_	3	advmod	_	_
-2	zu	zu	PART	PTKZU	_	3	aux	_	_
+2	zu	zu	PART	PTKZU	_	3	mark	_	_
 3	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
@@ -3792,7 +3792,7 @@
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	nur	nur	ADV	ADV	_	11	advmod	_	_
 11	weiter	weiter	ADV	ADV	_	13	advmod	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	8	appos	_	_
 14	!	!	PUNCT	$.	_	8	punct	_	_
 
@@ -4223,7 +4223,7 @@
 2	in	in	ADP	APPR	_	3	case	_	_
 3	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
-5	zu	zu	PART	PTKZU	_	6	aux	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	!	!	PUNCT	$.	_	6	punct	_	_
 8	!	!	PUNCT	$.	_	6	punct	_	_
@@ -4468,7 +4468,7 @@
 2	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Städtetripp	Städtetripp	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 4	unbedingt	unbedingt	ADV	ADJD	_	6	advmod	_	_
-5	zu	zu	PART	PTKZU	_	6	aux	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -4873,7 +4873,7 @@
 2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 3	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	7	dobj	_	_
 4	mehr	mehr	ADV	ADV	_	7	advmod	_	_
-5	zu	zu	PART	PTKZU	_	6	aux	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	7	acl	_	_
 7	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	_
 8	,	,	PUNCT	$,	_	9	punct	_	_
@@ -5202,7 +5202,7 @@
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
 8	neues	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	amod	_	_
 9	Haarteil	Haarteil	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	11	dobj	_	_
-10	zu	zu	PART	PTKZU	_	11	aux	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	verkaufen	verkaufen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -5284,7 +5284,7 @@
 22	freundlich	freundlich	ADV	ADJD	_	20	conj	_	_
 23	,	,	PUNCT	$,	_	2	punct	_	_
 24	bedienen	bedienen	VERB	VVINF	VerbForm=Inf	26	xcomp	_	_
-25	zu	zu	PART	PTKZU	_	26	aux	_	_
+25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	lassen	lassen	VERB	VVINF	VerbForm=Inf	14	advcl	_	_
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -5467,7 +5467,7 @@
 2	in	in	ADP	APPR	_	3	case	_	_
 3	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
-5	zu	zu	PART	PTKZU	_	6	aux	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	....	....	PUNCT	NN	_	6	punct	_	_
 
@@ -5517,19 +5517,19 @@
 9	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	dobj	_	_
 10	mit	mit	ADP	APPR	_	11	case	_	_
 11	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	13	nmod	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	treffen	treffen	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
 14	,	,	PUNCT	$,	_	6	punct	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Nacht	Nacht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
-18	zu	zu	PART	PTKZU	_	19	aux	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
 19	starten	starten	VERB	VVINF	VerbForm=Inf	13	conj	_	_
 20	oder	oder	CONJ	KON	_	13	cc	_	_
 21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Abend	Abend	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	dobj	_	_
 23	ausklingen	ausklingen	VERB	VVINF	VerbForm=Inf	25	xcomp	_	_
-24	zu	zu	PART	PTKZU	_	25	aux	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	lassen	lassen	VERB	VVINF	VerbForm=Inf	13	conj	_	_
 26	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -6201,7 +6201,7 @@
 6	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	dobj	_	_
 7	abzusagen	absagen	VERB	VVIZU	_	3	xcomp	_	_
 8	und	und	CONJ	KON	_	7	cc	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	kommen	kommen	VERB	VVINF	VerbForm=Inf	7	conj	_	_
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -6819,7 +6819,7 @@
 9	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	dobj	_	_
 11	getroffen	treffen|triefen	VERB	VVPP	VerbForm=Part	7	xcomp	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	haben	haben	AUX	VAINF	VerbForm=Inf	11	aux	_	_
 14	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -7175,7 +7175,7 @@
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Pol|PronType=Prs	8	nmod	_	_
 6	zusammen	zusammen	ADV	PTKVZ	_	8	mark	_	_
-7	zu	zu	PART	PTKZU	_	8	aux	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -7560,7 +7560,7 @@
 4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	vergessen	vergessen	VERB	VVINF	VerbForm=Inf	0	root	_	_
-7	zu	zu	PART	PTKZU	_	8	aux	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	sagen	sagen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 9	,	,	PUNCT	$,	_	6	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	14	mark	_	_
@@ -7582,7 +7582,7 @@
 7	ohne	ohne	ADP	APPR	_	8	case	_	_
 8	dafür	dafür	ADV	PAV	_	11	advmod	_	_
 9	etwas	etwas	PRON	PIS	Case=Acc|PronType=Ind	11	dobj	_	_
-10	zu	zu	PART	PTKZU	_	11	aux	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	berechnen	berechnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 12	!	!	PUNCT	$.	_	6	punct	_	_
 
@@ -8028,7 +8028,7 @@
 31	weitere	weit	ADJ	ADJA	Degree=Cmp	32	amod	_	_
 32	Politiker	Politiker	NOUN	NN	_	24	conj	_	_
 33	rückgängig	rückgängig	ADJ	ADJD	Degree=Pos	35	xcomp	_	_
-34	zu	zu	PART	PTKZU	_	35	aux	_	_
+34	zu	zu	PART	PTKZU	_	35	mark	_	_
 35	machen	machen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
 36	.	.	PUNCT	$.	_	18	punct	_	_
 
@@ -8391,7 +8391,7 @@
 10	Umsetzung	Umsetzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
 11	dieses	dies	PRON	PDAT	PronType=Dem	12	det	_	_
 12	Abkommens	Abkommen	NOUN	NN	_	10	nmod	_	_
-13	zu	zu	PART	PTKZU	_	14	aux	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	helfen	helfen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -8580,7 +8580,7 @@
 6	Energiebilanz	Energiebilanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	dobj	_	_
 7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Gebäudes	Gebäude	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	nmod	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	3	advcl	_	_
 11	,	,	PUNCT	$,	_	19	punct	_	_
 12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -8975,7 +8975,7 @@
 18	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	23	nsubj	_	_
 19	mit	mit	ADP	APPR	_	20	case	_	_
 20	Feuerlöschen	Feuerlöschen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
-21	zu	zu	PART	PTKZU	_	22	aux	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	tun	tun	VERB	VVINF	VerbForm=Inf	23	xcomp	_	_
 23	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 24	,	,	PUNCT	$,	_	26	punct	_	_
@@ -8990,7 +8990,7 @@
 33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	34	det	_	_
 34	Kanzler	Kanzler	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	38	nmod	_	_
 35	Schritt	Schritt	NOUN	NN	Case=Acc|Number=Sing	37	dobj	_	_
-36	zu	zu	PART	PTKZU	_	37	aux	_	_
+36	zu	zu	PART	PTKZU	_	37	mark	_	_
 37	halten	halten	VERB	VVINF	VerbForm=Inf	38	xcomp	_	_
 38	versucht	versuchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	26	advcl	_	_
 39	.	.	PUNCT	$.	_	26	punct	_	_
@@ -9198,7 +9198,7 @@
 21	zu	zu	ADP	APPR	_	22	case	_	_
 22	ihren	ihr	PRON	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	25	nmod	_	_
 23	eigenen	eigen	ADJ	ADJA	Case=Dat|Degree=Pos	22	amod	_	_
-24	zu	zu	PART	PTKZU	_	25	aux	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	machen	machen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	_
 26	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -9474,7 +9474,7 @@
 20	Schlüsselfragen	Schlüsselfrage	NOUN	NN	Case=Dat|Number=Plur	17	nmod	_	_
 21	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Friedenslösung	Friedenslösung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
-23	zu	zu	PART	PTKZU	_	24	aux	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
 24	überbrücken	überbrücken	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
 25	.	.	PUNCT	$.	_	9	punct	_	_
 
@@ -10660,7 +10660,7 @@
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Verbrauchsteuern	Verbrauchsteuer|Verbrauchsteure	NOUN	NN	Case=Acc|Number=Plur	8	dobj	_	_
-7	zu	zu	PART	PTKZU	_	8	aux	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	senken	senken	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
 9	und	und	CONJ	KON	_	8	cc	_	_
 10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -10772,7 +10772,7 @@
 10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Team	Team	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	12	dobj	_	_
 12	machen	machen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
-13	zu	zu	PART	PTKZU	_	14	aux	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	können	können	AUX	VMINF	VerbForm=Inf	12	xcomp	_	_
 15	.	.	PUNCT	$.	_	2	punct	_	_
 16	''	''	PUNCT	$(	_	2	punct	_	_
@@ -11299,7 +11299,7 @@
 6	von	von	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Rechten	Recht|Rechte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	hören	hören	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
 11	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	14	ccomp	_	_
 12	,	,	PUNCT	$,	_	14	punct	_	_
@@ -11450,7 +11450,7 @@
 7	,	,	PUNCT	$,	_	24	punct	_	_
 8	ethische	ethisch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
 9	Grundsätze	Grundsatz	NOUN	NN	Case=Acc|Number=Plur	11	dobj	_	_
-10	zu	zu	PART	PTKZU	_	11	aux	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	formulieren	formulieren	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 12	,	,	PUNCT	$,	_	24	punct	_	_
 13	sondern	sondern	CONJ	KON	_	6	cc	_	_
@@ -11535,7 +11535,7 @@
 6	über	über	ADP	APPR	_	8	case	_	_
 7	fast	fast	ADV	ADV	_	8	advmod	_	_
 8	alles	alle	PRON	PIS	PronType=Tot	10	nmod	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	reden	reden	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 11	,	,	PUNCT	$,	_	4	punct	_	_
 12	auch	auch	ADV	ADV	_	14	advmod	_	_
@@ -11899,7 +11899,7 @@
 8	--	--	PUNCT	$(	_	9	punct	_	_
 9	Zulieferer	Zulieferer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	dobj	_	_
 10	daran	daran	ADV	PAV	_	12	advmod	_	_
-11	zu	zu	PART	PTKZU	_	12	aux	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	gewöhnen	gewöhnen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 13	,	,	PUNCT	$,	_	4	punct	_	_
 14	uns	wir	PRON	PRF	Case=Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	24	iobj	_	_
@@ -11911,7 +11911,7 @@
 20	U.S.	U.S.	PROPN	NE	_	22	name	_	_
 21	--	--	PUNCT	$(	_	22	punct	_	_
 22	Qualität	Qualität	NOUN	NN	_	17	conj	_	_
-23	zu	zu	PART	PTKZU	_	24	aux	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
 24	liefern	liefern	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
 25	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -11992,7 +11992,7 @@
 9	in	in	ADP	APPR	_	11	case	_	_
 10	seiner	sein	PRON	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Diözese	Diözese	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 14	und	und	CONJ	KON	_	13	cc	_	_
 15	festzustellen	feststellen	VERB	VVIZU	_	13	conj	_	_
@@ -12132,7 +12132,7 @@
 # sent_id dev-s703/de
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
-3	zu	zu	PART	PTKZU	_	4	aux	_	_
+3	zu	zu	PART	PTKZU	_	4	mark	_	_
 4	denken	denken	VERB	VVINF	VerbForm=Inf	5	acl	_	_
 5	geben	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	25	ccomp	_	_
 6	,	,	PUNCT	$,	_	25	punct	_	_
@@ -12270,7 +12270,7 @@
 23	in	in	ADP	APPR	_	25	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
 25	Lande	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	22	nmod	_	_
-26	zu	zu	PART	PTKZU	_	27	aux	_	_
+26	zu	zu	PART	PTKZU	_	27	mark	_	_
 27	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 28	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -12467,7 +12467,7 @@
 9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	bereit	bereit	ADJ	ADJD	Degree=Pos	6	ccomp	_	_
 11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	kandidieren	kandidieren	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -12709,14 +12709,14 @@
 10	Kwasniewski	Kwasniewski	PROPN	NE	_	9	appos	_	_
 11	keine	kein	PRON	PIAT	PronType=Neg	12	neg	_	_
 12	Chance	Chance	NOUN	NN	Case=Acc|Number=Sing	14	dobj	_	_
-13	zu	zu	PART	PTKZU	_	14	aux	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	geben	geben	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 15	und	und	CONJ	KON	_	14	cc	_	_
 16	für	für	ADP	APPR	_	18	case	_	_
 17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Sieg	Sieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
 19	Walesas	Walesa	PROPN	NE	_	18	nmod	_	_
-20	zu	zu	PART	PTKZU	_	21	aux	_	_
+20	zu	zu	PART	PTKZU	_	21	mark	_	_
 21	beten	beten	VERB	VVINF	VerbForm=Inf	14	conj	_	_
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -13049,7 +13049,7 @@
 9	Ring	Ring	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	dobj	_	_
 10	um	um	ADP	APPR	_	11	case	_	_
 11	Sarajewo	Sarajewo	PROPN	NE	Case=Acc|Number=Sing	9	nmod	_	_
-12	zu	zu	PART	PTKZU	_	13	aux	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	öffnen	öffnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -13063,7 +13063,7 @@
 7	Sicherheitskordon	Sicherheitskordon	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	dobj	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Polizei	Polizei	NOUN	NN	_	7	nmod	_	_
-10	zu	zu	PART	PTKZU	_	11	aux	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	durchbrechen	durchbrechen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 12	und	und	CONJ	KON	_	11	cc	_	_
 13	bis	bis	ADP	KOUS	_	18	case	_	_
@@ -13099,7 +13099,7 @@
 21	nun	nun	ADV	ADV	_	25	advmod	_	_
 22	wirklich	wirklich	ADV	ADJD	_	23	advmod	_	_
 23	nachhaltig	nachhaltig	ADV	ADJD	_	25	advmod	_	_
-24	zu	zu	PART	PTKZU	_	25	aux	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	13	advcl	_	_
 26	.	.	PUNCT	$.	_	5	punct	_	_
 27	''	''	PUNCT	$(	_	5	punct	_	_
@@ -13229,7 +13229,7 @@
 13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Bundestagswahlkampfes	Bundestagswahlkampf	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
 15	1998	1998	NUM	CARD	NumType=Card	14	nmod	_	_
-16	zu	zu	PART	PTKZU	_	17	aux	_	_
+16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	machen	machen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -13430,7 +13430,7 @@
 6	größere	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
 7	Epidemie	Epidemie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 8	nicht	nicht	PART	PTKNEG	_	10	neg	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	befürchten	befürchten	VERB	VVINF	VerbForm=Inf	4	acl	_	_
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -13557,7 +13557,7 @@
 8	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 10	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	9	nsubj	_	_
-11	zu	zu	PART	PTKZU	_	12	aux	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	machen	machen	VERB	VVINF	VerbForm=Inf	9	acl	_	_
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	''	''	PUNCT	$(	_	15	punct	_	_
@@ -13773,7 +13773,7 @@
 6	nicht	nicht	PART	PTKNEG	_	7	neg	_	_
 7	so	so	ADV	ADV	_	8	advmod	_	_
 8	schnell	schnell	ADV	ADJD	_	11	advmod	_	_
-9	zu	zu	PART	PTKZU	_	10	aux	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	_
 11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 12	,	,	PUNCT	$,	_	2	punct	_	_
@@ -14104,7 +14104,7 @@
 21	Falklandkrieg	Falklandkrieg	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	nmod	_	_
 22	von	von	ADP	APPR	_	23	case	_	_
 23	1982	1982	NUM	CARD	NumType=Card	21	nmod	_	_
-24	zu	zu	PART	PTKZU	_	25	aux	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
 26	.	.	PUNCT	$.	_	10	punct	_	_
 

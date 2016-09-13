@@ -89,7 +89,7 @@
     <dep name="advmod">16936</dep>
     <dep name="amod">16787</dep>
     <dep name="appos">7159</dep>
-    <dep name="aux">4409</dep>
+    <dep name="aux">3397</dep>
     <dep name="auxpass">3502</dep>
     <dep name="case">31693</dep>
     <dep name="cc">8979</dep>
@@ -105,7 +105,7 @@
     <dep name="dobj">8840</dep>
     <dep name="expl">403</dep>
     <dep name="iobj">1305</dep>
-    <dep name="mark">3820</dep>
+    <dep name="mark">4832</dep>
     <dep name="mwe">158</dep>
     <dep name="name">7413</dep>
     <dep name="neg">1459</dep>
