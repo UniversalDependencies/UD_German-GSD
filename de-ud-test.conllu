@@ -182,7 +182,7 @@
 24	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id test-s12/de
-1	Alles	alle	PRON	PIS	PronType=Tot	6	mwe	_	_
+1	Alles	alle	PRON	PIS	PronType=Tot	6	nmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	Allem	Allem	NOUN	NN	_	1	nmod	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_

@@ -195,7 +195,7 @@
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id dev-s16/de
-1	Alles	alle	PRON	PIS	PronType=Tot	12	mwe	_	_
+1	Alles	alle	PRON	PIS	PronType=Tot	12	nmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	Allem	Allem	NOUN	NN	_	1	nmod	_	_
 4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
@@ -5463,7 +5463,7 @@
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id dev-s341/de
-1	Alles	alle	ADV	PIS	_	6	advmod	_	_
+1	Alles	alle	ADV	PIS	_	6	nmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
@@ -6430,7 +6430,7 @@
 14	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id dev-s404/de
-1	Alles	alle	PRON	PIS	PronType=Tot	5	mwe	_	_
+1	Alles	alle	PRON	PIS	PronType=Tot	5	nmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 4	perfekt	perfekt	ADV	ADJD	_	5	advmod	_	_
