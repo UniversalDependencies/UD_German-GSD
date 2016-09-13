@@ -83,7 +83,7 @@
     <feat name="VerbForm" value="Part" upos="AUX,VERB">5431</feat><!-- worden, gegründet, genannt, verwendet, bezeichnet, eingesetzt, genutzt, gewesen, gebaut, gewählt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="33">
+  <deps unique="34">
     <dep name="acl">2808</dep>
     <dep name="advcl">1485</dep>
     <dep name="advmod">16936</dep>
@@ -100,7 +100,8 @@
     <dep name="csubj">200</dep>
     <dep name="csubjpass">46</dep>
     <dep name="dep">783</dep>
-    <dep name="det">37673</dep>
+    <dep name="det">37100</dep>
+    <dep name="det:poss">2409</dep>
     <dep name="dobj">8840</dep>
     <dep name="expl">403</dep>
     <dep name="iobj">1305</dep>
@@ -109,7 +110,7 @@
     <dep name="name">7413</dep>
     <dep name="neg">1459</dep>
     <dep name="nmod">40432</dep>
-    <dep name="nmod:poss">1915</dep>
+    <dep name="nmod:poss">79</dep>
     <dep name="nsubj">17703</dep>
     <dep name="nsubjpass">3259</dep>
     <dep name="nummod">3223</dep>
