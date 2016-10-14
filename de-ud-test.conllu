@@ -2413,7 +2413,7 @@
 3	Augen	Auge	NOUN	NN	_	1	parataxis	_	_
 4	zu	zu	ADV	PTKVZ	_	3	advmod	_	_
 5	und	und	CONJ	KON	_	3	cc	_	_
-6	durch	durch	ADP	PTKVZ	_	3	case	_	_
+6	durch	durch	ADP	APPO	_	3	case	_	_
 7	,	,	PUNCT	$,	_	1	punct	_	_
 8	allerdings	allerdings	ADV	ADV	_	14	advmod	_	_
 9	läßt	lassen	AUX	VVFIN	Number=Sing|Person=3|VerbForm=Fin	14	aux	_	_
@@ -17949,7 +17949,7 @@
 4	ginge	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	weiter	weiter	ADV	ADV	_	7	advmod	_	_
-7	abwärts	abwärts	ADP	PTKVZ	_	4	case	_	_
+7	abwärts	abwärts	ADP	APPO	_	4	case	_	_
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id test-s945/de

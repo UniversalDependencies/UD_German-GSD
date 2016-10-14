@@ -563,7 +563,7 @@
 4	brach	brechen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	von	von	ADP	APPR	_	6	case	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	4	nmod	_	_
-7	aus	aus	ADP	PTKVZ	_	6	case	_	_
+7	aus	aus	ADP	APZR	_	6	case	_	_
 8	nach	nach	ADP	APPR	_	10	case	_	_
 9	einigen	einige	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	10	det	_	_
 10	Minuten	Minute	NOUN	NN	Case=Dat|Number=Plur	4	nmod	_	_
@@ -4929,7 +4929,7 @@
 4	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 5	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	nsubj	_	_
-7	mit	mit	ADP	PTKVZ	_	10	case	_	_
+7	mit	mit	ADP	APPR	_	10	case	_	_
 8	und	und	CONJ	KON	_	7	cc	_	_
 9	ohne	ohne	ADP	APPR	_	7	conj	_	_
 10	Leine	Leine	NOUN	NE	Case=Dat|Number=Sing	4	nmod	_	_
@@ -9751,7 +9751,7 @@
 1	Schwarze	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	2	amod	_	_
 2	Zahlen	Zahl	NOUN	NN	Case=Acc|Number=Plur	3	dobj	_	_
 3	schreibt	schreiben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
-4	nach	nach	ADP	PTKVZ	_	3	case	_	_
+4	nach	nach	ADP	APPO	_	3	case	_	_
 5	wie	wie	ADV	KOKOM	_	4	mwe	_	_
 6	vor	vor	ADP	APPR	_	5	mwe	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
