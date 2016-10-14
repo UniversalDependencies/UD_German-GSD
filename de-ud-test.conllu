@@ -357,7 +357,7 @@
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	8	neg	_	_
 8	besser	gut	ADJ	ADJD	Degree=Cmp	5	xcomp	_	_
-9	aus	aus	ADP	PTKVZ	_	5	mark	_	_
+9	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	_
 10	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s21/de
@@ -472,7 +472,7 @@
 11	zeichnet	zeichnen	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
 12	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	11	dobj	_	_
 13	genaustens	genaustens	ADV	ADV	_	11	advmod	_	_
-14	vor	vor	ADP	PTKVZ	_	11	mark	_	_
+14	vor	vor	ADP	PTKVZ	_	11	compound:prt	_	_
 15	,	,	PUNCT	$,	_	11	punct	_	_
 16	so	so	ADV	ADV	_	17	advmod	_	_
 17	dass	dass	SCONJ	KOUS	_	20	mark	_	_
@@ -1428,7 +1428,7 @@
 3	jetzt	jetzt	ADV	ADV	_	1	advmod	_	_
 4	seit	seit	ADP	APPR	_	5	case	_	_
 5	Jahren	Jahr	NOUN	NN	_	1	nmod	_	_
-6	hin	hin	ADV	PTKVZ	_	1	mark	_	_
+6	hin	hin	ADV	PTKVZ	_	1	compound:prt	_	_
 7	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id test-s87/de
@@ -1476,7 +1476,7 @@
 18	für	für	ADP	APPR	_	20	case	_	_
 19	spätere	spät	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	20	amod	_	_
 20	Gäste	Gast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	nmod	_	_
-21	zurecht	zurecht	ADV	PTKVZ	_	22	mark	_	_
+21	zurecht	zurecht	ADV	PTKVZ	_	22	compound:prt	_	_
 22	gerückt	rücken	VERB	VVPP	VerbForm=Part	16	conj	_	_
 23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 24	.	.	PUNCT	$.	_	4	punct	_	_
@@ -1550,7 +1550,7 @@
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
 15	verweilen	verweilen	NOUN	VVFIN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
-16	ein	ein	ADV	PTKVZ	_	9	mark	_	_
+16	ein	ein	ADV	PTKVZ	_	9	compound:prt	_	_
 
 # sent_id test-s93/de
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -2270,7 +2270,7 @@
 7	ca	ca	ADV	NE	_	8	advmod	_	_
 8	20	20	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Minuten	Minute	NOUN	NN	Case=Acc|Number=Plur	6	dobj	_	_
-10	an	an	ADP	PTKVZ	_	2	mark	_	_
+10	an	an	ADP	PTKVZ	_	2	compound:prt	_	_
 11	,	,	PUNCT	$,	_	2	punct	_	_
 12	zu	zu	ADP	APPR	_	13	case	_	_
 13	welcher	welch	PRON	PRELS	Case=Dat|PronType=Rel	18	nmod	_	_
@@ -3203,7 +3203,7 @@
 4	immer	immer	ADV	ADV	_	2	advmod	_	_
 5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
 6	bisschen	bißchen	PRON	PIS	PronType=Ind	2	advmod	_	_
-7	durch	durch	ADP	PTKVZ	_	2	mark	_	_
+7	durch	durch	ADP	PTKVZ	_	2	compound:prt	_	_
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s196/de
@@ -4128,7 +4128,7 @@
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	Gebauer	Gebauer	NOUN	NE	_	18	compound	_	_
 18	Webseite	Webseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
-19	nach	nach	ADP	PTKVZ	_	6	mark	_	_
+19	nach	nach	ADP	PTKVZ	_	6	compound:prt	_	_
 20	,	,	PUNCT	$,	_	6	punct	_	_
 21	das	der	PRON	PRELS	Case=Nom|PronType=Rel	30	nsubjpass	_	_
 22	von	von	ADP	APPR	_	24	case	_	_
@@ -4644,7 +4644,7 @@
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	Ihrem	Ihr|ihr	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Hausarzt	Hausarzt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-6	zusammen	zusammen	ADV	PTKVZ	_	2	mark	_	_
+6	zusammen	zusammen	ADV	PTKVZ	_	2	compound:prt	_	_
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s286/de
@@ -4652,14 +4652,14 @@
 2	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 3	jeden	jed	PRON	PIAT	PronType=Tot	4	det	_	_
 4	Freitag	Freitag	PROPN	NN	_	2	nmod	_	_
-5	hin	hin	ADV	PTKVZ	_	2	mark	_	_
+5	hin	hin	ADV	PTKVZ	_	2	compound:prt	_	_
 6	und	und	CONJ	KON	_	2	cc	_	_
 7	kaufen	kaufen	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
 8	für	für	ADP	APPR	_	11	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	ganze	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
-12	ein	ein	ADV	PTKVZ	_	7	mark	_	_
+12	ein	ein	ADV	PTKVZ	_	7	compound:prt	_	_
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s287/de
@@ -5048,7 +5048,7 @@
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
 6	jedoch	jedoch	ADV	ADV	_	3	advmod	_	_
-7	ab	ab	ADP	PTKVZ	_	3	mark	_	_
+7	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	_
 8	.	.	PUNCT	$.	_	3	punct	_	_
 9	"	"	PUNCT	$(	_	3	punct	_	_
 
@@ -5190,7 +5190,7 @@
 2	Provisorium	Provisorium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	Grundgesetz	Grundgesetz	NOUN	NN	_	2	compound	_	_
 4	besteht	bestehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-5	fort	fort	ADV	PTKVZ	_	4	mark	_	_
+5	fort	fort	ADV	PTKVZ	_	4	compound:prt	_	_
 6	"	"	PUNCT	$(	_	4	punct	_	_
 
 # sent_id test-s318/de
@@ -5263,7 +5263,7 @@
 11	Betrug	Betrug	NOUN	NN	Case=Acc|Number=Sing	3	dobj	_	_
 12	und	und	CONJ	KON	_	11	cc	_	_
 13	Bankrott	Bankrott	NOUN	NN	_	11	conj	_	_
-14	vor	vor	ADP	PTKVZ	_	3	mark	_	_
+14	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	_
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s321/de
@@ -5525,7 +5525,7 @@
 6	in	in	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	LPG	LPG	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
-9	auf	auf	ADP	PTKVZ	_	2	mark	_	_
+9	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	_
 10	:	:	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s332/de
@@ -5973,7 +5973,7 @@
 10	Panzerfahrzeugen	Panzerfahrzeug	NOUN	NN	_	7	conj	_	_
 11	gegen	gegen	ADP	APPR	_	12	case	_	_
 12	Lkw	Lkw	NOUN	NN	Case=Acc|Number=Sing	2	nmod	_	_
-13	vor	vor	ADP	PTKVZ	_	2	mark	_	_
+13	vor	vor	ADP	PTKVZ	_	2	compound:prt	_	_
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s350/de
@@ -6034,7 +6034,7 @@
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
-10	fest	fest	ADV	PTKVZ	_	5	mark	_	_
+10	fest	fest	ADV	PTKVZ	_	5	compound:prt	_	_
 11	,	,	PUNCT	$,	_	5	punct	_	_
 12	weil	weil	SCONJ	KOUS	_	20	mark	_	_
 13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
@@ -6093,7 +6093,7 @@
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-6	mit	mit	ADP	PTKVZ	_	2	mark	_	_
+6	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	_
 7	,	,	PUNCT	$,	_	2	punct	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Schnellzug	Schnellzug	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -6112,7 +6112,7 @@
 22	Grenze	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
 23	falle	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	_
 24	vorerst	vorerst	ADV	ADV	_	23	advmod	_	_
-25	aus	aus	ADP	PTKVZ	_	23	mark	_	_
+25	aus	aus	ADP	PTKVZ	_	23	compound:prt	_	_
 26	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s357/de
@@ -6198,7 +6198,7 @@
 6	Ministerpräsidenten	Ministerpräsident	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	iobj	_	_
 7	Oskar	Oskar	PROPN	NE	_	8	name	_	_
 8	Lafontaine	Lafontaine	PROPN	NE	_	6	appos	_	_
-9	vor	vor	ADP	PTKVZ	_	4	mark	_	_
+9	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	_
 10	,	,	PUNCT	$,	_	4	punct	_	_
 11	mit	mit	ADP	APPR	_	13	case	_	_
 12	seiner	sein	PRON	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
@@ -6284,7 +6284,7 @@
 7	Deutschland	Deutschland	PROPN	NE	_	5	nmod	_	_
 8	nicht	nicht	PART	PTKNEG	_	2	neg	_	_
 9	annähernd	annähernd	ADV	ADJD	_	2	advmod	_	_
-10	mit	mit	ADP	PTKVZ	_	2	mark	_	_
+10	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	_
 11	,	,	PUNCT	$,	_	13	punct	_	_
 12	''	''	PUNCT	$(	_	13	punct	_	_
 13	verschlug	verschlagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -6350,7 +6350,7 @@
 8	an	an	ADP	APPR	_	10	case	_	_
 9	mehreren	mehrere	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	10	det	_	_
 10	Fronten	Front	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	_
-11	vor	vor	ADP	PTKVZ	_	3	mark	_	_
+11	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	_
 12	und	und	CONJ	KON	_	3	cc	_	_
 13	könnten	können	AUX	VMFIN	Mood=Sub|Tense=Past|VerbForm=Fin	20	aux	_	_
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -6672,7 +6672,7 @@
 13	offenbar	offenbar	ADV	ADJD	_	5	advmod	_	_
 14	ziemlich	ziemlich	ADV	ADV	_	15	advmod	_	_
 15	gut	gut	ADV	ADJD	_	5	advmod	_	_
-16	an	an	ADP	PTKVZ	_	5	mark	_	_
+16	an	an	ADP	PTKVZ	_	5	compound:prt	_	_
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s383/de
@@ -6733,7 +6733,7 @@
 1	EGB	EGB	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
 2	hebt	heben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	besonders	besonders	ADV	ADV	_	2	advmod	_	_
-4	hervor	hervor	ADV	PTKVZ	_	2	mark	_	_
+4	hervor	hervor	ADV	PTKVZ	_	2	compound:prt	_	_
 5	,	,	PUNCT	$,	_	2	punct	_	_
 6	daß	daß	CONJ	KOUS	_	23	cc	_	_
 7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
@@ -7154,7 +7154,7 @@
 10	hielt	halten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
 11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Streikaufruf	Streikaufruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	dobj	_	_
-13	aufrecht	aufrecht	ADV	PTKVZ	_	10	mark	_	_
+13	aufrecht	aufrecht	ADV	PTKVZ	_	10	compound:prt	_	_
 14	,	,	PUNCT	$,	_	2	punct	_	_
 15	weil	weil	SCONJ	KOUS	_	22	mark	_	_
 16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
@@ -7264,7 +7264,7 @@
 24	dotierte	dotiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
 25	Offerte	Offerte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
 26	nicht	nicht	PART	PTKNEG	_	16	neg	_	_
-27	ein	ein	ADV	PTKVZ	_	16	mark	_	_
+27	ein	ein	ADV	PTKVZ	_	16	compound:prt	_	_
 28	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id test-s411/de
@@ -7533,7 +7533,7 @@
 1	Großbauern	Großbauer	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
 2	streichen	streichen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 3	viel	viel	PRON	PIS	Case=Acc|PronType=Ind	2	dobj	_	_
-4	ein	ein	ADV	PTKVZ	_	2	mark	_	_
+4	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	_
 5	,	,	PUNCT	$,	_	2	punct	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	kleinen	klein	NOUN	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
@@ -7555,7 +7555,7 @@
 11	Vollkosten	Vollkosten	NOUN	NN	_	13	compound	_	_
 12	--	--	PUNCT	$(	_	13	punct	_	_
 13	Tarifen	Tarif	NOUN	NN	Case=Dat|Number=Plur	8	nmod	_	_
-14	an	an	ADP	PTKVZ	_	3	mark	_	_
+14	an	an	ADP	PTKVZ	_	3	compound:prt	_	_
 15	--	--	PUNCT	$(	_	3	punct	_	_
 16	allerdings	allerdings	CONJ	ADV	_	3	cc	_	_
 17	etwas	etwas	ADV	ADV	_	18	advmod	_	_
@@ -7914,7 +7914,7 @@
 23	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	nmod	_	_
 24	Sri	Sri	PROPN	NE	_	25	name	_	_
 25	Lankas	Lanka	PROPN	NE	_	23	nmod	_	_
-26	zurück	zurück	ADV	PTKVZ	_	9	mark	_	_
+26	zurück	zurück	ADV	PTKVZ	_	9	compound:prt	_	_
 27	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id test-s441/de
@@ -8031,7 +8031,7 @@
 5	)	)	PUNCT	$(	_	2	punct	_	_
 6	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 7	davon	davon	ADV	PAV	_	6	advmod	_	_
-8	aus	aus	ADP	PTKVZ	_	6	mark	_	_
+8	aus	aus	ADP	PTKVZ	_	6	compound:prt	_	_
 9	,	,	PUNCT	$,	_	6	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	17	mark	_	_
 11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -8116,7 +8116,7 @@
 1	Junta	Junta	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
 2	richtet	richten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	Oppositionelle	Oppositionelle	NOUN	NN	Case=Acc|Number=Sing	2	dobj	_	_
-4	hin	hin	ADV	PTKVZ	_	2	mark	_	_
+4	hin	hin	ADV	PTKVZ	_	2	compound:prt	_	_
 
 # sent_id test-s451/de
 1	Kampagne	Kampagne	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
@@ -8249,7 +8249,7 @@
 9	und	und	CONJ	KON	_	8	cc	_	_
 10	Tränengasgranaten	Tränengasgranate	NOUN	NN	_	8	conj	_	_
 11	marschierten	marschieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-12	auf	auf	ADP	PTKVZ	_	11	mark	_	_
+12	auf	auf	ADP	PTKVZ	_	11	compound:prt	_	_
 13	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id test-s456/de
@@ -8438,7 +8438,7 @@
 9	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
 10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Projekts	Projekt	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
-12	aus	aus	ADP	PTKVZ	_	3	mark	_	_
+12	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	_
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s466/de
@@ -8809,7 +8809,7 @@
 1	Osten	Osten	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
 2	zieht	zeihen|ziehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	nun	nun	ADV	ADV	_	2	advmod	_	_
-4	nach	nach	ADP	PTKVZ	_	2	mark	_	_
+4	nach	nach	ADP	PTKVZ	_	2	compound:prt	_	_
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s486/de
@@ -8836,7 +8836,7 @@
 21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	westlichen	westlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	Politiker	Politiker	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
-24	an	an	ADP	PTKVZ	_	9	mark	_	_
+24	an	an	ADP	PTKVZ	_	9	compound:prt	_	_
 25	,	,	PUNCT	$,	_	23	punct	_	_
 26	die	der	DET	ART	Case=Nom|Definite=Def|PronType=Art	38	nsubj	_	_
 27	Sozialabbau	Sozialabbau	NOUN	NN	Case=Acc|Number=Sing	38	dobj	_	_
@@ -8867,7 +8867,7 @@
 11	oder	oder	CONJ	KON	_	10	cc	_	_
 12	17,70	17,70	NUM	CARD	NumType=Card	13	nummod	_	_
 13	Mark	Mark	NOUN	NN	_	10	conj	_	_
-14	an	an	ADP	PTKVZ	_	5	mark	_	_
+14	an	an	ADP	PTKVZ	_	5	compound:prt	_	_
 15	,	,	PUNCT	$,	_	5	punct	_	_
 16	nachdem	nachdem	SCONJ	KOUS	_	29	mark	_	_
 17	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
@@ -8967,7 +8967,7 @@
 3	Bundestagsgruppenchef	Bundestagsgruppenchef	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
 4	Gysi	Gysi	PROPN	NE	_	3	appos	_	_
 5	kündigte	kündigen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-6	an	an	ADP	PTKVZ	_	5	mark	_	_
+6	an	an	ADP	PTKVZ	_	5	compound:prt	_	_
 7	,	,	PUNCT	$,	_	5	punct	_	_
 8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 9	wolle	wollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -9040,7 +9040,7 @@
 2	baut	bauen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	angeblich	angeblich	ADV	ADJD	_	2	advmod	_	_
 4	Perosnal	Perosnal	NOUN	NN	Case=Acc|Number=Sing	2	dobj	_	_
-5	ab	ab	ADP	PTKVZ	_	2	mark	_	_
+5	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	_
 
 # sent_id test-s496/de
 1	Präsident	Präsident	NOUN	NN	Case=Nom|Number=Sing	23	nsubj	_	_
@@ -9296,7 +9296,7 @@
 8	kündigten	kündigen	VERB	VVFIN	VerbForm=Fin	5	conj	_	_
 9	juristische	juristisch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
 10	Schritte	Schritt	NOUN	NN	Case=Acc|Number=Plur	8	dobj	_	_
-11	an	an	ADP	PTKVZ	_	8	mark	_	_
+11	an	an	ADP	PTKVZ	_	8	compound:prt	_	_
 12	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s507/de
@@ -9363,7 +9363,7 @@
 3	tiefer	tief	ADJ	ADJA	Degree=Cmp,Pos	4	amod	_	_
 4	Trauer	Trauer	NOUN	NN	_	2	nmod	_	_
 5	kehrte	kehren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-6	zurück	zurück	ADV	PTKVZ	_	5	mark	_	_
+6	zurück	zurück	ADV	PTKVZ	_	5	compound:prt	_	_
 7	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id test-s510/de
@@ -9477,7 +9477,7 @@
 16	Frauen	Frau	NOUN	NN	Case=Dat|Number=Plur	13	iobj	_	_
 17	und	und	CONJ	KON	_	16	cc	_	_
 18	Männern	Mann	NOUN	NN	_	16	conj	_	_
-19	zu	zu	ADP	PTKVZ	_	13	mark	_	_
+19	zu	zu	ADP	PTKVZ	_	13	compound:prt	_	_
 20	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id test-s515/de
@@ -10083,7 +10083,7 @@
 15	Botschafter	Botschafter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	dobj	_	_
 16	aus	aus	ADP	APPR	_	17	case	_	_
 17	Nigeria	Nigeria	PROPN	NE	Case=Dat|Number=Sing	13	nmod	_	_
-18	ab	ab	ADP	PTKVZ	_	13	mark	_	_
+18	ab	ab	ADP	PTKVZ	_	13	compound:prt	_	_
 19	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id test-s541/de
@@ -10229,7 +10229,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Ukraine	Ukraine	PROPN	NE	_	1	nmod	_	_
 4	teilte	teilen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-5	mit	mit	ADP	PTKVZ	_	4	mark	_	_
+5	mit	mit	ADP	PTKVZ	_	4	compound:prt	_	_
 6	,	,	PUNCT	$,	_	4	punct	_	_
 7	daß	daß	CONJ	KOUS	_	20	cc	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -10267,7 +10267,7 @@
 2	Entsetzen	Entsetzen	NOUN	NN	_	6	nmod	_	_
 3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-5	mit	mit	ADP	PTKVZ	_	6	mark	_	_
+5	mit	mit	ADP	PTKVZ	_	6	compound:prt	_	_
 6	ansehen	ansehen	VERB	VVINF	VerbForm=Inf	19	ccomp	_	_
 7	müssen	müssen	AUX	VMINF	VerbForm=Inf	6	aux	_	_
 8	,	,	PUNCT	$,	_	19	punct	_	_
@@ -10792,7 +10792,7 @@
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-10	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+10	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s577/de
@@ -11265,7 +11265,7 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
 17	Quartier	Quartier	PROPN	NN	_	18	name	_	_
 18	Latin	Latin	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
-19	teil	teil	ADV	PTKVZ	_	4	mark	_	_
+19	teil	teil	ADV	PTKVZ	_	4	compound:prt	_	_
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id test-s596/de
@@ -11335,7 +11335,7 @@
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Parteichef	Parteichef	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
-11	an	an	ADP	PTKVZ	_	1	mark	_	_
+11	an	an	ADP	PTKVZ	_	1	compound:prt	_	_
 12	?	?	PUNCT	$.	_	1	punct	_	_
 
 # sent_id test-s599/de
@@ -11343,7 +11343,7 @@
 2	setzte	setzen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	dobj	_	_
 4	dafür	dafür	ADV	PAV	_	2	advmod	_	_
-5	ein	ein	ADV	PTKVZ	_	2	mark	_	_
+5	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	_
 6	,	,	PUNCT	$,	_	2	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	14	mark	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -12656,7 +12656,7 @@
 5	Probleme	Problem	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
 6	für	für	ADP	APPR	_	7	case	_	_
 7	Frauen	Frau	NOUN	NN	Case=Acc|Number=Plur	5	nmod	_	_
-8	dar	dar	ADV	PTKVZ	_	2	mark	_	_
+8	dar	dar	ADV	PTKVZ	_	2	compound:prt	_	_
 9	,	,	PUNCT	$,	_	2	punct	_	_
 10	die	der	PRON	PRELS	Case=Nom|PronType=Rel	15	nsubj	_	_
 11	oft	oft	ADV	ADV	_	15	advmod	_	_
@@ -12896,7 +12896,7 @@
 2	sprach	sprechen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	dobj	_	_
 4	dafür	dafür	ADV	PAV	_	2	advmod	_	_
-5	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+5	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 6	,	,	PUNCT	$,	_	2	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	21	mark	_	_
 8	nicht	nicht	PART	PTKNEG	_	10	neg	_	_
@@ -12930,7 +12930,7 @@
 10	Konflikts	Konflikt	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	Moldawien	Moldawien	PROPN	NN	_	10	nmod	_	_
-13	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+13	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s674/de
@@ -13067,7 +13067,7 @@
 5	in	in	ADP	APPR	_	6	case	_	_
 6	Westeuropa	Westeuropa	NOUN	NE	_	4	nmod	_	_
 7	1993	1993	NUM	CARD	NumType=Card	4	nmod	_	_
-8	an	an	ADP	PTKVZ	_	4	mark	_	_
+8	an	an	ADP	PTKVZ	_	4	compound:prt	_	_
 
 # sent_id test-s682/de
 1	NÜRNBERG	Nürnberg	PROPN	NE	_	0	root	_	_
@@ -13472,7 +13472,7 @@
 32	Festlandstürken	Festlandstürke	NOUN	NN	Case=Dat|Number=Plur	33	nmod	_	_
 33	bewirtschaftete	bewirtschaftet	ADJ	ADJA	Degree=Pos	19	conj	_	_
 34	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_
-35	aus	aus	ADP	PTKVZ	_	12	mark	_	_
+35	aus	aus	ADP	PTKVZ	_	12	compound:prt	_	_
 36	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id test-s703/de
@@ -13774,7 +13774,7 @@
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Stadt	Stadt	NOUN	NN	_	11	compound	_	_
 14	Trebinje	Trebinje	PROPN	NE	_	13	appos	_	_
-15	an	an	ADP	PTKVZ	_	8	mark	_	_
+15	an	an	ADP	PTKVZ	_	8	compound:prt	_	_
 16	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id test-s721/de
@@ -14036,14 +14036,14 @@
 10	Versammlung	Versammlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	Moskau	Moskau	PROPN	NE	_	10	nmod	_	_
-13	fern	fern	ADV	PTKVZ	_	8	mark	_	_
+13	fern	fern	ADV	PTKVZ	_	8	compound:prt	_	_
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id test-s733/de
 1	Rulewski	Rulewski	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
 2	teilte	teilen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	danach	danach	ADV	PAV	_	2	advmod	_	_
-4	mit	mit	ADP	PTKVZ	_	2	mark	_	_
+4	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	_
 5	,	,	PUNCT	$,	_	2	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	17	mark	_	_
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -14672,7 +14672,7 @@
 20	zogen	ziehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Kroaten	Kroate	PROPN	NN	Case=Nom|Number=Plur	20	nsubj	_	_
-23	nach	nach	ADP	PTKVZ	_	20	mark	_	_
+23	nach	nach	ADP	PTKVZ	_	20	compound:prt	_	_
 24	.	.	PUNCT	$.	_	17	punct	_	_
 
 # sent_id test-s766/de
@@ -14798,7 +14798,7 @@
 33	in	in	ADP	APPR	_	35	case	_	_
 34	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Seitenstraße	Seitenstraße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
-36	ab	ab	ADP	PTKVZ	_	3	mark	_	_
+36	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	_
 37	und	und	CONJ	KON	_	3	cc	_	_
 38	schlossen	schließen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
 39	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	38	dobj	_	_
@@ -14814,7 +14814,7 @@
 49	''	''	PUNCT	$(	_	48	punct	_	_
 50	von	von	ADP	APPR	_	51	case	_	_
 51	Polizisten	Polizist	NOUN	NN	Case=Dat|Number=Plur	48	nmod	_	_
-52	ein	ein	ADV	PTKVZ	_	38	mark	_	_
+52	ein	ein	ADV	PTKVZ	_	38	compound:prt	_	_
 53	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s772/de
@@ -15077,7 +15077,7 @@
 5	mit	mit	ADP	APPR	_	7	case	_	_
 6	ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Traktoren	Traktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
-8	auf	auf	ADP	PTKVZ	_	2	mark	_	_
+8	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	_
 9	und	und	CONJ	KON	_	2	cc	_	_
 10	blockierten	blockieren	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
 11	ihrerseits	ihrerseits	ADV	ADV	_	10	advmod	_	_
@@ -15430,7 +15430,7 @@
 3	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 4	mehrere	mehrere	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
 5	Warnschüsse	Warnschuß	NOUN	NN	Case=Acc|Number=Plur	3	dobj	_	_
-6	ab	ab	ADP	PTKVZ	_	3	mark	_	_
+6	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	_
 7	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id test-s803/de
@@ -15664,7 +15664,7 @@
 19	an	an	ADP	APPR	_	21	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
 21	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	nmod	_	_
-22	vor	vor	ADP	PTKVZ	_	16	mark	_	_
+22	vor	vor	ADP	PTKVZ	_	16	compound:prt	_	_
 23	,	,	PUNCT	$,	_	16	punct	_	_
 24	1987	1987	NUM	CARD	NumType=Card	16	nmod	_	_
 25	nur	nur	ADV	ADV	_	27	advmod	_	_
@@ -15691,7 +15691,7 @@
 46	Politiker	Politiker	NOUN	NN	Case=Acc|Number=Sing	42	nmod	_	_
 47	wegen	wegen	ADP	APPR	_	48	case	_	_
 48	Falschaussagen	Falschaussage	NOUN	NN	Case=Gen|Number=Plur	42	nmod	_	_
-49	auf	auf	ADP	PTKVZ	_	38	mark	_	_
+49	auf	auf	ADP	PTKVZ	_	38	compound:prt	_	_
 50	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id test-s816/de
@@ -15820,7 +15820,7 @@
 12	SPD	SPD	PROPN	NE	_	14	name	_	_
 13	-	-	PUNCT	$(	_	14	punct	_	_
 14	Senats	Senat	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
-15	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+15	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s826/de
@@ -15856,7 +15856,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Wahlkommission	Wahlkommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	kündigte	kündigen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-4	an	an	ADP	PTKVZ	_	3	mark	_	_
+4	an	an	ADP	PTKVZ	_	3	compound:prt	_	_
 5	,	,	PUNCT	$,	_	3	punct	_	_
 6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 7	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -16042,7 +16042,7 @@
 16	Nähe	Nähe	NOUN	NN	_	5	conj	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Wirbelsäule	Wirbelsäule	NOUN	NN	_	16	nmod	_	_
-19	zusammen	zusammen	ADV	PTKVZ	_	2	mark	_	_
+19	zusammen	zusammen	ADV	PTKVZ	_	2	compound:prt	_	_
 20	,	,	PUNCT	$,	_	2	punct	_	_
 21	als	als	SCONJ	KOUS	_	34	mark	_	_
 22	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
@@ -16126,7 +16126,7 @@
 34	in	in	ADP	APPR	_	36	case	_	_
 35	San	San	PROPN	NE	_	36	name	_	_
 36	Chamula	Chamula	PROPN	NE	_	38	nmod	_	_
-37	inne	inne	ADV	PTKVZ	_	38	mark	_	_
+37	inne	inne	ADV	PTKVZ	_	38	compound:prt	_	_
 38	haben	haben	VERB	VAINF	VerbForm=Inf	30	acl	_	_
 39	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -16182,7 +16182,7 @@
 2	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
 3	das	der	PRON	PDS	Case=Nom|PronType=Dem	2	nsubj	_	_
 4	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	2	dobj	_	_
-5	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+5	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s846/de
@@ -16205,7 +16205,7 @@
 5	und	und	CONJ	KON	_	4	cc	_	_
 6	biete	bieten	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
 7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	dobj	_	_
-8	an	an	ADP	PTKVZ	_	6	mark	_	_
+8	an	an	ADP	PTKVZ	_	6	compound:prt	_	_
 9	,	,	PUNCT	$,	_	4	punct	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
@@ -16524,7 +16524,7 @@
 5	als	als	ADP	KOKOM	_	6	case	_	_
 6	Präsident	Präsident	NOUN	NN	_	4	nmod	_	_
 7	extensiv	extensiv	ADV	ADJD	_	2	advmod	_	_
-8	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 9	und	und	CONJ	KON	_	2	cc	_	_
 10	balancierte	balancieren	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
 11	nicht	nicht	PART	PTKNEG	_	10	neg	_	_
@@ -16657,7 +16657,7 @@
 # sent_id test-s877/de
 1	Wenige	wenig	ADV	PIAT	_	2	advmod	_	_
 2	Wochen	Woche	NOUN	NN	_	20	nmod	_	_
-3	bevor	bevor	SCONJ	PTKVZ	_	20	mark	_	_
+3	bevor	bevor	SCONJ	PTKVZ	_	20	compound:prt	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 5	Queen	Queen	PROPN	NN	_	7	name	_	_
 6	-	-	PUNCT	$(	_	7	punct	_	_
@@ -16723,7 +16723,7 @@
 28	Mustafa	Mustafa	PROPN	NE	_	29	name	_	_
 29	Hamarneh	Hamarneh	PROPN	NE	_	27	appos	_	_
 30	kategorisch	kategorisch	ADV	ADJD	_	24	advmod	_	_
-31	fest	fest	ADV	PTKVZ	_	24	mark	_	_
+31	fest	fest	ADV	PTKVZ	_	24	compound:prt	_	_
 32	``	``	PUNCT	$(	_	24	punct	_	_
 33	:	:	PUNCT	$.	_	24	punct	_	_
 34	Juden	Jude	NOUN	NN	Case=Nom|Number=Plur	35	nsubj	_	_
@@ -16890,7 +16890,7 @@
 15	zweite	zweit	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
 16	Amtszeit	Amtszeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 17	Reischs	Reischs	PROPN	NN	_	16	nmod	_	_
-18	aus	aus	ADP	PTKVZ	_	6	mark	_	_
+18	aus	aus	ADP	PTKVZ	_	6	compound:prt	_	_
 19	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id test-s886/de
@@ -17097,7 +17097,7 @@
 17	in	in	ADP	APPR	_	19	case	_	_
 18	allen	alle	PRON	PIAT	PronType=Tot	19	advmod	_	_
 19	Sparten	Sparte	NOUN	NN	_	16	nmod	_	_
-20	aus	aus	ADP	PTKVZ	_	2	mark	_	_
+20	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id test-s898/de
@@ -17344,7 +17344,7 @@
 25	Millionen	Million	NOUN	NN	_	26	nummod	_	_
 26	Mark	Mark	NOUN	NN	_	21	appos	_	_
 27	)	)	PUNCT	$(	_	26	punct	_	_
-28	heraus	heraus	ADV	PTKVZ	_	13	mark	_	_
+28	heraus	heraus	ADV	PTKVZ	_	13	compound:prt	_	_
 29	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id test-s915/de
@@ -17532,7 +17532,7 @@
 7	Nordsee	Nordsee	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	dobj	_	_
-10	ab	ab	ADP	PTKVZ	_	5	mark	_	_
+10	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	_
 11	,	,	PUNCT	$,	_	5	punct	_	_
 12	weil	weil	SCONJ	KOUS	_	24	mark	_	_
 13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
@@ -17692,7 +17692,7 @@
 18	Gas	Gas	NOUN	NN	_	16	conj	_	_
 19	kein	kein	PRON	PIAT	PronType=Neg	20	neg	_	_
 20	Weg	Weg	NOUN	NN	Case=Acc|Number=Sing	12	dobj	_	_
-21	vorbei	vorbei	ADV	PTKVZ	_	20	mark	_	_
+21	vorbei	vorbei	ADV	PTKVZ	_	20	compound:prt	_	_
 22	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id test-s934/de
