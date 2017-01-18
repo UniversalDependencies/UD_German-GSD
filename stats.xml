@@ -60,7 +60,7 @@
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">496</feat><!-- Sie, ihr, du, Ihnen, euch, bist, hast, Dir, deinen, dich -->
     <feat name="Person" value="2,3" upos="DET,PRON">66</feat><!-- Ihr, Ihre, Ihrem, Ihrer -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">27372</feat><!-- er, ist, sich, wurde, war, es, sie, sind, wird, hat -->
-    <feat name="Polarity" value="Neg" upos="PART">1</feat><!-- nicht -->
+    <feat name="Polarity" value="Neg" upos="ADV,NOUN,PART,PROPN">1113</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="PRON">382</feat><!-- Sie, Ihnen -->
     <feat name="Polite" value="Infm" upos="DET,PRON">83</feat><!-- ihr, du, euch, Dir, deinen, dich, euren, eurer, eure -->
     <feat name="Poss" value="Yes" upos="DET,PRON">2446</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, seines -->
