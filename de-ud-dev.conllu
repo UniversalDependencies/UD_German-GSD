@@ -721,7 +721,7 @@
 23	Umsetzung	Umsetzung	NOUN	NN	_	20	conj	_	_
 
 # sent_id = dev-s47
-# text = bei meinem ersten beusch, war ich über das hotel erstaunt ...
+# text = bei meinem ersten beusch, war ich über das hotel erstaunt...
 1	bei	bei	ADP	APPR	_	4	case	_	_
 2	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	4	amod	_	_
@@ -732,7 +732,7 @@
 8	über	über	ADP	APPR	_	10	case	_	_
 9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	hotel	Hotel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
-11	erstaunt	erstaunen	ADJ	VVPP	_	0	root	_	_
+11	erstaunt	erstaunen	ADJ	VVPP	_	0	root	_	SpaceAfter=No
 12	...	...	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = dev-s48
@@ -1991,15 +1991,15 @@
 5	Heike	Heike	PROPN	NE	_	3	conj	_	_
 
 # sent_id = dev-s116
-# text = Ich würde nicht empfehlen ....
+# text = Ich würde nicht empfehlen....
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
-4	empfehlen	empfehlen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+4	empfehlen	empfehlen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	....	....	PUNCT	NN	_	4	punct	_	_
 
 # sent_id = dev-s117
-# text = Eigentlich hatte ich mich auf meine neue Küche gefreut ... aber ich hätte es wissen müssen.
+# text = Eigentlich hatte ich mich auf meine neue Küche gefreut... aber ich hätte es wissen müssen.
 1	Eigentlich	eigentlich	ADV	ADV	_	9	advmod	_	_
 2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -2008,7 +2008,7 @@
 6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	Küche	Küche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
-9	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 10	...	...	PUNCT	$.	_	15	punct	_	_
 11	aber	aber	CCONJ	KON	_	15	cc	_	_
 12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
@@ -2821,7 +2821,7 @@
 23	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s161
-# text = Die Behandlung des anderen TA kam leider zu spät und so starb mein Vogel noch am selben Tag ...
+# text = Die Behandlung des anderen TA kam leider zu spät und so starb mein Vogel noch am selben Tag...
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -2841,7 +2841,7 @@
 16	an	an	ADP	APPR	_	19	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	19	det	_	_
 18	selben	selb	ADJ	PDAT	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	19	amod	_	_
-19	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+19	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	SpaceAfter=No
 20	...	...	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s162
@@ -3187,7 +3187,7 @@
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s183
-# text = Meine Kinder sind sonst nicht sehr von Wellness angetan, aber aus dem beheizten Freibad bekomme ich sie nur mit grossen Schwierigkeiten weg ...
+# text = Meine Kinder sind sonst nicht sehr von Wellness angetan, aber aus dem beheizten Freibad bekomme ich sie nur mit grossen Schwierigkeiten weg...
 1	Meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Kinder	Kind	NOUN	NN	Case=Nom|Number=Plur	9	nsubj:pass	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
@@ -3210,7 +3210,7 @@
 20	mit	mit	ADP	APPR	_	22	case	_	_
 21	grossen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_
 22	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	_
-23	weg	weg	ADV	PTKVZ	_	16	compound:prt	_	_
+23	weg	weg	ADV	PTKVZ	_	16	compound:prt	_	SpaceAfter=No
 24	...	...	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s184
@@ -3583,7 +3583,7 @@
 12	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s204
-# text = Also war es bei mir vor zwei Wochen so weit ...
+# text = Also war es bei mir vor zwei Wochen so weit...
 1	Also	also	ADV	ADV	_	10	advmod	_	_
 2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -3593,7 +3593,7 @@
 7	zwei	zwei	NUM	CARD	NumType=Card	8	nummod	_	_
 8	Wochen	Woche	NOUN	NN	_	10	nmod	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
-10	weit	weit	ADJ	ADJD	Degree=Pos	0	root	_	_
+10	weit	weit	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 11	...	...	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = dev-s205
@@ -4425,7 +4425,7 @@
 34	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s254
-# text = Wir haben uns im großen Sonderpostenmarkt für Parkett - und Laminatböden gleich einmal so eingedeckt, dass wir zu Hause 3 Zimmer mit neuen Böden versehen konnten ...
+# text = Wir haben uns im großen Sonderpostenmarkt für Parkett - und Laminatböden gleich einmal so eingedeckt, dass wir zu Hause 3 Zimmer mit neuen Böden versehen konnten...
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
 3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
@@ -4454,7 +4454,7 @@
 25	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	_
 26	Böden	Boden	NOUN	NN	Case=Dat|Number=Plur	27	obl	_	_
 27	versehen	versehen	VERB	VVINF	VerbForm=Inf	16	ccomp	_	_
-28	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	aux	_	_
+28	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	aux	_	SpaceAfter=No
 29	...	...	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s255
@@ -5803,13 +5803,13 @@
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s341
-# text = Alles in allem nur zu empfehlen ....
+# text = Alles in allem nur zu empfehlen....
 1	Alles	alle	ADV	PIS	_	6	obl	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
 5	zu	zu	PART	PTKZU	_	6	mark	_	_
-6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	....	....	PUNCT	NN	_	6	punct	_	_
 
 # sent_id = dev-s342
@@ -6626,11 +6626,11 @@
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s391
-# text = Das hatte ich gehofft ...
+# text = Das hatte ich gehofft...
 1	Das	der	PRON	PDS	Case=Acc|PronType=Dem	4	obj	_	_
 2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	...	...	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s392
@@ -8574,7 +8574,7 @@
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s510
-# text = Der Stabilitätspakt für Europa ist ein wichtiger zusätzlicher Impuls für die Glaubwürdigkeit und Stabilität der europäischen Währung auf den internationalen Finanzmärkten, '' versicherte Waigel.
+# text = Der Stabilitätspakt für Europa ist ein wichtiger zusätzlicher Impuls für die Glaubwürdigkeit und Stabilität der europäischen Währung auf den internationalen Finanzmärkten,'' versicherte Waigel.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Stabilitätspakt	Stabilitätspakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	für	für	ADP	APPR	_	4	case	_	_
@@ -8596,7 +8596,7 @@
 19	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 20	internationalen	international	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
 21	Finanzmärkten	Finanzmarkt	NOUN	NN	Case=Dat|Number=Plur	12	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	$,	_	24	punct	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	24	punct	_	_
 24	versicherte	versichern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 25	Waigel	Waigel	NOUN	NE	Case=Nom|Number=Sing	24	nsubj	_	SpaceAfter=No
@@ -8645,19 +8645,19 @@
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s513
-# text = Ansicht des Ministers wird dadurch der `` innere Frieden in Deutschland gefährdet ''.
+# text = Ansicht des Ministers wird dadurch der ``innere Frieden in Deutschland gefährdet''.
 1	Ansicht	Ansicht	NOUN	NN	_	12	dep	_	_
 2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Ministers	Minister	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
 4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 5	dadurch	dadurch	ADV	PAV	_	12	advmod	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-7	``	``	PUNCT	$(	_	9	punct	_	_
+7	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 8	innere	inner	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	Frieden	Frieden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Deutschland	Deutschland	PROPN	NE	_	9	nmod	_	_
-12	gefährdet	gefährden	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	gefährdet	gefährden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	12	punct	_	_
 
@@ -8704,7 +8704,7 @@
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s517
-# text = Der Sprecher des Weißen Hauses, Michael McCurry, sagte, die USA wollten nun wissen ``, welche neuen Kandidaten sich präsentieren werden ''.
+# text = Der Sprecher des Weißen Hauses, Michael McCurry, sagte, die USA wollten nun wissen ``, welche neuen Kandidaten sich präsentieren werden''.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -8728,7 +8728,7 @@
 21	Kandidaten	Kandidat	NOUN	NN	Case=Nom|Number=Plur	23	nsubj	_	_
 22	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
 23	präsentieren	präsentieren	VERB	VVINF	VerbForm=Inf	16	ccomp	_	_
-24	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+24	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	''	''	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	10	punct	_	_
 
@@ -8830,7 +8830,7 @@
 12	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s525
-# text = Der Außenminister hat sich für einen deutsch -- französischen `` Vertrauensvertrag '' ausgesprochen.
+# text = Der Außenminister hat sich für einen deutsch -- französischen ``Vertrauensvertrag'' ausgesprochen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Außenminister	Außenminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -8840,8 +8840,8 @@
 7	deutsch	deutsch	ADJ	ADJD	Degree=Pos	9	compound	_	_
 8	--	--	PUNCT	$(	_	9	punct	_	_
 9	französischen	französisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-10	``	``	PUNCT	$(	_	11	punct	_	_
-11	Vertrauensvertrag	Vertrauensvertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+10	``	``	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Vertrauensvertrag	Vertrauensvertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 12	''	''	PUNCT	$(	_	11	punct	_	_
 13	ausgesprochen	aussprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
@@ -8924,15 +8924,15 @@
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s529
-# text = Die Verkehrsplaner im islamischen `` Gottesstaat '' halten noch eine andere Überraschung bereit:
+# text = Die Verkehrsplaner im islamischen ``Gottesstaat'' halten noch eine andere Überraschung bereit:
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Verkehrsplaner	Verkehrsplaner	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	7	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
 5	islamischen	islamisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	amod	_	_
-6	``	``	PUNCT	$(	_	7	punct	_	_
-7	Gottesstaat	Gottesstaat	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
+6	``	``	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Gottesstaat	Gottesstaat	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	SpaceAfter=No
 8	''	''	PUNCT	$(	_	7	punct	_	_
 9	halten	halten	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 10	noch	noch	ADV	ADV	_	11	advmod	_	_
@@ -9058,10 +9058,10 @@
 20	.	.	PUNCT	$.	_	19	punct	_	_
 
 # sent_id = dev-s535
-# text = Die `` Weisen '' wollen ihr Gutachten am heutigen Dienstag vorstellen.
+# text = Die ``Weisen'' wollen ihr Gutachten am heutigen Dienstag vorstellen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-2	``	``	PUNCT	$(	_	3	punct	_	_
-3	Weisen	Weise	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+2	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+3	Weisen	Weise	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	3	punct	_	_
 5	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 6	ihr	ihr	PRON	PPER	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	det	_	_
@@ -9108,7 +9108,7 @@
 30	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s537
-# text = Der beste Zeitpunkt, die Energiebilanz eines Gebäudes zu verbessern, ist immer eine anstehende Sanierung, '' sagt Olaf Hildebrandt von ebök.
+# text = Der beste Zeitpunkt, die Energiebilanz eines Gebäudes zu verbessern, ist immer eine anstehende Sanierung,'' sagt Olaf Hildebrandt von ebök.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	beste	gut	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_
 3	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
@@ -9125,7 +9125,7 @@
 14	eine	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
 15	anstehende	anstehend	ADJ	ADJA	Degree=Pos	16	amod	_	_
 16	Sanierung	Sanierung	NOUN	NN	_	19	ccomp	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	19	punct	_	_
+17	,	,	PUNCT	$,	_	19	punct	_	SpaceAfter=No
 18	''	''	PUNCT	$(	_	19	punct	_	_
 19	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 20	Olaf	Olaf	PROPN	NE	_	19	nsubj	_	_
@@ -9170,7 +9170,7 @@
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = dev-s540
-# text = Die Bundesrepublik muß sich entscheiden, ob sie einen Demokratisierungsprozeß aktiv gestalten will oder ein Prinzip der Ungleichheit tolerien will, mit all den gesellschaftlichen Konsequenzen, die daraus resultieren. ''
+# text = Die Bundesrepublik muß sich entscheiden, ob sie einen Demokratisierungsprozeß aktiv gestalten will oder ein Prinzip der Ungleichheit tolerien will, mit all den gesellschaftlichen Konsequenzen, die daraus resultieren.''
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bundesrepublik	Bundesrepublik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
@@ -9201,7 +9201,7 @@
 28	die	der	PRON	ART	Case=Nom|PronType=Dem	30	nsubj	_	_
 29	daraus	daraus	ADV	PAV	_	30	advmod	_	_
 30	resultieren	resultieren	VERB	VVINF	VerbForm=Inf	26	acl	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	5	punct	_	_
+31	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 32	''	''	PUNCT	$(	_	5	punct	_	_
 
 # sent_id = dev-s541
@@ -9236,7 +9236,7 @@
 28	.	.	PUNCT	$.	_	23	punct	_	_
 
 # sent_id = dev-s542
-# text = Die Bundesrepublik werde die militärische Sicherung eines Friedensabkommens `` durch Sanitäter, Pioniereinheiten, Logistiktruppen, Transport -- und Aufklärungsflugzeuge unterstützen ''.
+# text = Die Bundesrepublik werde die militärische Sicherung eines Friedensabkommens ``durch Sanitäter, Pioniereinheiten, Logistiktruppen, Transport -- und Aufklärungsflugzeuge unterstützen''.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
 3	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
@@ -9245,7 +9245,7 @@
 6	Sicherung	Sicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Friedensabkommens	Friedensabkommen	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	nmod	_	_
-9	``	``	PUNCT	$(	_	21	punct	_	_
+9	``	``	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 10	durch	durch	ADP	APPR	_	11	case	_	_
 11	Sanitäter	Sanitäter	NOUN	NN	Case=Acc|Number=Sing	21	obl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
@@ -9257,7 +9257,7 @@
 18	--	--	PUNCT	$(	_	20	punct	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
 20	Aufklärungsflugzeuge	Aufklärungsflugzeug	NOUN	NN	_	17	conj	_	_
-21	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+21	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 22	''	''	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	21	punct	_	_
 
@@ -9412,12 +9412,12 @@
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s552
-# text = Anlaß zur Sorge '' besteht weniger für die Konjunktur in überschaubarer Zeit als vielmehr für die mittel -- und langfristige Perspektive.
+# text = Anlaß zur Sorge'' besteht weniger für die Konjunktur in überschaubarer Zeit als vielmehr für die mittel -- und langfristige Perspektive.
 1	Anlaß	Anlaß	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
 2-3	zur	_	_	_	_	_	_	_	_
 2	zu	zu	ADP	APPR	_	4	case	_	_
 3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Sorge	Sorge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Sorge	Sorge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 5	''	''	PUNCT	$(	_	6	punct	_	_
 6	besteht	bestehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 7	weniger	weniger	CCONJ	ADV	_	10	cc	_	_
@@ -9599,7 +9599,7 @@
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s559
-# text = Die Genossinnen und Genossen, die Scharping anspricht, sind im Foyer der Halle anzutreffen, wo, wie bei jedem SPD -- Parteitag, die Ausstellung `` Lebendiger Ortsverein '' aufgebaut ist.
+# text = Die Genossinnen und Genossen, die Scharping anspricht, sind im Foyer der Halle anzutreffen, wo, wie bei jedem SPD -- Parteitag, die Ausstellung ``Lebendiger Ortsverein'' aufgebaut ist.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Genossinnen	Genossin	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
@@ -9629,18 +9629,18 @@
 26	,	,	PUNCT	$,	_	10	punct	_	_
 27	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Ausstellung	Ausstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	nsubj:pass	_	_
-29	``	``	PUNCT	$(	_	31	punct	_	_
+29	``	``	PUNCT	$(	_	31	punct	_	SpaceAfter=No
 30	Lebendiger	lebendig	ADJ	ADJA	Degree=Cmp,Pos	31	amod	_	_
-31	Ortsverein	Ortsverein	NOUN	NN	_	28	appos	_	_
+31	Ortsverein	Ortsverein	NOUN	NN	_	28	appos	_	SpaceAfter=No
 32	''	''	PUNCT	$(	_	31	punct	_	_
 33	aufgebaut	aufbauen	VERB	VVPP	VerbForm=Part	13	acl	_	_
 34	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = dev-s560
-# text = Unglaublich instinktlos '' findet Katja Wolle das.
+# text = Unglaublich instinktlos'' findet Katja Wolle das.
 1	Unglaublich	unglaublich	ADV	ADJD	_	2	advmod	_	_
-2	instinktlos	instinktlos	ADJ	ADJD	Degree=Pos	4	xcomp	_	_
+2	instinktlos	instinktlos	ADJ	ADJD	Degree=Pos	4	xcomp	_	SpaceAfter=No
 3	''	''	PUNCT	$(	_	4	punct	_	_
 4	findet	finden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 5	Katja	Katja	PROPN	NE	_	4	nsubj	_	_
@@ -9659,7 +9659,7 @@
 7	?	?	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = dev-s562
-# text = Wir stehen in einem harten internationalen Wettbewerb unter starkem wirtschaftspolitischen Druck, '' heißt es darin.
+# text = Wir stehen in einem harten internationalen Wettbewerb unter starkem wirtschaftspolitischen Druck,'' heißt es darin.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	stehen	stehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	14	ccomp	_	_
 3	in	in	ADP	APPR	_	7	case	_	_
@@ -9671,7 +9671,7 @@
 9	starkem	stark	ADJ	ADJA	Degree=Pos	11	amod	_	_
 10	wirtschaftspolitischen	wirtschaftspolitisch	ADJ	ADJA	Degree=Pos	11	amod	_	_
 11	Druck	Druck	NOUN	NN	_	2	obl	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -10000,7 +10000,7 @@
 32	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s577
-# text = Nach Angaben von Bundesgeschäftsführer Franz Müntefering wird das Parteipräsidium unmittelbar nach der Abstimmung entscheiden ``, ob es Konsequenzen aus dieser Wahl geben muß ''.
+# text = Nach Angaben von Bundesgeschäftsführer Franz Müntefering wird das Parteipräsidium unmittelbar nach der Abstimmung entscheiden ``, ob es Konsequenzen aus dieser Wahl geben muß''.
 1	Nach	nach	ADP	APPR	_	2	case	_	_
 2	Angaben	Angabe	NOUN	NN	Case=Dat|Number=Plur	14	obl	_	_
 3	von	von	ADP	APPR	_	4	case	_	_
@@ -10024,7 +10024,7 @@
 21	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
 23	geben	geben	VERB	VVINF	VerbForm=Inf	14	ccomp	_	_
-24	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	_
+24	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	''	''	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	14	punct	_	_
 
@@ -10057,23 +10057,23 @@
 25	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s579
-# text = Eltern dürfen ihren Neugeborenen künftig keine `` lustigen ``, '' unanständigen '' oder `` anmaßenden '' Vornamen mehr geben.
+# text = Eltern dürfen ihren Neugeborenen künftig keine ``lustigen ``,'' unanständigen'' oder ``anmaßenden'' Vornamen mehr geben.
 1	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Sing	20	nsubj	_	_
 2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 3	ihren	ihr	PRON	PPOSAT	Case=Dat|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Neugeborenen	Neugeborene	NOUN	NN	Case=Dat|Number=Plur	20	iobj	_	_
 5	künftig	künftig	ADV	ADJD	_	20	advmod	_	_
 6	keine	kein	PRON	PIAT	PronType=Neg	18	advmod	_	_
-7	``	``	PUNCT	$(	_	8	punct	_	_
+7	``	``	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	lustigen	lustig	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
 9	``	``	PUNCT	$(	_	12	punct	_	SpaceAfter=No
-10	,	,	PUNCT	$,	_	12	punct	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	12	punct	_	_
-12	unanständigen	unanständig	ADJ	ADJA	Degree=Pos	8	conj	_	_
+12	unanständigen	unanständig	ADJ	ADJA	Degree=Pos	8	conj	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	12	punct	_	_
 14	oder	oder	CCONJ	KON	_	16	cc	_	_
-15	``	``	PUNCT	$(	_	16	punct	_	_
-16	anmaßenden	anmaßend	ADJ	ADJA	Degree=Pos	8	conj	_	_
+15	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	anmaßenden	anmaßend	ADJ	ADJA	Degree=Pos	8	conj	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	16	punct	_	_
 18	Vornamen	Vorname	NOUN	NN	Case=Acc|Number=Plur	20	obj	_	_
 19	mehr	mehr	ADV	ADV	_	20	advmod	_	_
@@ -10122,7 +10122,7 @@
 14	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s582
-# text = Ministerpräsident Gyula Horn hatte das Gesetz in einem Brief an seinen slowakischen Kollegen Vladimir Meciar als `` unannehmbaren Schritt zurück '' bezeichnet.
+# text = Ministerpräsident Gyula Horn hatte das Gesetz in einem Brief an seinen slowakischen Kollegen Vladimir Meciar als ``unannehmbaren Schritt zurück'' bezeichnet.
 1	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Number=Sing	22	nsubj	_	_
 2	Gyula	Gyula	PROPN	NE	_	1	appos	_	_
 3	Horn	Horn	PROPN	NE	_	2	flat	_	_
@@ -10139,16 +10139,16 @@
 14	Vladimir	Vladimir	PROPN	NE	_	13	appos	_	_
 15	Meciar	Meciar	PROPN	NE	_	14	flat	_	_
 16	als	als	ADP	KOKOM	_	19	case	_	_
-17	``	``	PUNCT	$(	_	19	punct	_	_
+17	``	``	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 18	unannehmbaren	unannehmbar	ADJ	ADJA	Degree=Pos	19	amod	_	_
 19	Schritt	Schritt	NOUN	NN	_	22	obl	_	_
-20	zurück	zurück	ADV	PTKVZ	_	19	advmod	_	_
+20	zurück	zurück	ADV	PTKVZ	_	19	advmod	_	SpaceAfter=No
 21	''	''	PUNCT	$(	_	19	punct	_	_
 22	bezeichnet	bezeichnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	22	punct	_	_
 
 # sent_id = dev-s583
-# text = Bis auf einen einzigen sind alle 206 Alteigentümer diesem Vorschlag gefolgt, '' berichtet Bauman.
+# text = Bis auf einen einzigen sind alle 206 Alteigentümer diesem Vorschlag gefolgt,'' berichtet Bauman.
 1	Bis	bis	ADP	KON	_	11	case	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	einen	ein	DET	ART	Case=Dat|Definite=Ind|PronType=Art	4	det	_	_
@@ -10160,7 +10160,7 @@
 9	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	10	det	_	_
 10	Vorschlag	Vorschlag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	iobj	_	_
 11	gefolgt	folgen	VERB	VVPP	VerbForm=Part	14	ccomp	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	berichtet	berichten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 15	Bauman	Bauman	NOUN	NE	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
@@ -10193,21 +10193,21 @@
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s586
-# text = Peter lädt in Mai und Oktober zu '' Wandern, Schauen und Erleben `` ein.
+# text = Peter lädt in Mai und Oktober zu'' Wandern, Schauen und Erleben ``ein.
 1	Peter	Peter	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
 2	lädt	laden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Mai	Mai	PROPN	NN	_	2	obl	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	Oktober	Oktober	PROPN	NN	_	4	conj	_	_
-7	zu	zu	ADP	APPR	_	9	case	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	SpaceAfter=No
 8	''	''	PUNCT	$(	_	9	punct	_	_
 9	Wandern	Wandern	NOUN	NN	Case=Dat|Number=Sing	2	obl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	11	punct	_	_
 11	Schauen	Schau|Schauen	NOUN	NN	_	9	conj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Erleben	Erleben	NOUN	NN	_	9	conj	_	_
-14	``	``	PUNCT	$(	_	9	punct	_	_
+14	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 15	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -10365,7 +10365,7 @@
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s594
-# text = Sie braucht Klarheit, auch personelle Klarheit, '' sagt er.
+# text = Sie braucht Klarheit, auch personelle Klarheit,'' sagt er.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
 2	braucht	brauchen	VERB	VVFIN	Person=3|VerbForm=Fin	10	ccomp	_	_
 3	Klarheit	Klarheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
@@ -10373,7 +10373,7 @@
 5	auch	auch	ADV	ADV	_	7	advmod	_	_
 6	personelle	personell	ADJ	ADJA	Degree=Pos	7	amod	_	_
 7	Klarheit	Klarheit	NOUN	NN	_	3	appos	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	10	punct	_	_
+8	,	,	PUNCT	$,	_	10	punct	_	SpaceAfter=No
 9	''	''	PUNCT	$(	_	10	punct	_	_
 10	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
@@ -10405,7 +10405,7 @@
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s596
-# text = France Telecom hat uns ein Angebot unterbreitet, '' erklärt ein Sprecher.
+# text = France Telecom hat uns ein Angebot unterbreitet,'' erklärt ein Sprecher.
 1	France	France	PROPN	NE	_	7	nsubj	_	_
 2	Telecom	Telecom	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -10413,7 +10413,7 @@
 5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obj	_	_
 7	unterbreitet	unterbreiten	VERB	VVPP	VerbForm=Part	10	ccomp	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	10	punct	_	_
+8	,	,	PUNCT	$,	_	10	punct	_	SpaceAfter=No
 9	''	''	PUNCT	$(	_	10	punct	_	_
 10	erklärt	erklären	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
@@ -10431,7 +10431,7 @@
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s598
-# text = Leider gibt es in der Tat eine Reihe von Unternehmen, die mit Schmiergeldzahlungen an öffentliche Aufträge gelangt sind, '' sagte er bei einer vom BVMB veranstalteten Tagung.
+# text = Leider gibt es in der Tat eine Reihe von Unternehmen, die mit Schmiergeldzahlungen an öffentliche Aufträge gelangt sind,'' sagte er bei einer vom BVMB veranstalteten Tagung.
 1	Leider	leider	ADV	ADV	_	2	advmod	_	_
 2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	22	ccomp	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -10451,7 +10451,7 @@
 17	Aufträge	Auftrag	NOUN	NN	_	18	obl	_	_
 18	gelangt	gelangen|langen	VERB	VVPP	VerbForm=Part	10	acl	_	_
 19	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	22	punct	_	_
+20	,	,	PUNCT	$,	_	22	punct	_	SpaceAfter=No
 21	''	''	PUNCT	$(	_	22	punct	_	_
 22	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 23	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
@@ -10723,14 +10723,14 @@
 17	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s611
-# text = Darauf haben wir so lange gewartet, '' entschuldigen die royalen Reporter ihren Überschwang, der sich in Tausenden von Zeitungs -- und Illustriertenseiten niederschlug, seit Joachim und Alexandra am 31. Mai aus heiterem Himmel ihre Verlobung bekanntgaben.
+# text = Darauf haben wir so lange gewartet,'' entschuldigen die royalen Reporter ihren Überschwang, der sich in Tausenden von Zeitungs -- und Illustriertenseiten niederschlug, seit Joachim und Alexandra am 31. Mai aus heiterem Himmel ihre Verlobung bekanntgaben.
 1	Darauf	darauf	ADV	PAV	_	6	advmod	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	lange	lange	ADV	ADV	_	6	advmod	_	_
 6	gewartet	warten	VERB	VVPP	VerbForm=Part	9	ccomp	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	9	punct	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	SpaceAfter=No
 8	''	''	PUNCT	$(	_	9	punct	_	_
 9	entschuldigen	entschuldigen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -10831,7 +10831,7 @@
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s615
-# text = Der Ausländerbeauftragte Lill nannte die friedliche Lösung `` vorbildlich ''.
+# text = Der Ausländerbeauftragte Lill nannte die friedliche Lösung ``vorbildlich''.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Ausländerbeauftragte	Ausländerbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Lill	Lill	PROPN	NE	_	2	appos	_	_
@@ -10839,13 +10839,13 @@
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	friedliche	friedlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-8	``	``	PUNCT	$(	_	9	punct	_	_
-9	vorbildlich	vorbildlich	ADJ	ADJD	Degree=Pos	4	xcomp	_	_
+8	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	vorbildlich	vorbildlich	ADJ	ADJD	Degree=Pos	4	xcomp	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s616
-# text = Es ärgert uns, daß das Amt schlechter mißt als unsere externen Prüfer, '' sagt Sprecher Norbert Schäfer.
+# text = Es ärgert uns, daß das Amt schlechter mißt als unsere externen Prüfer,'' sagt Sprecher Norbert Schäfer.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ärgert	ärgern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	16	ccomp	_	_
 3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
@@ -10859,7 +10859,7 @@
 11	unsere	unser	PRON	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
 12	externen	extern	ADJ	ADJA	Degree=Pos	13	amod	_	_
 13	Prüfer	Prüfer	NOUN	NN	_	8	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	16	punct	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	SpaceAfter=No
 15	''	''	PUNCT	$(	_	16	punct	_	_
 16	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 17	Sprecher	Sprecher	NOUN	NN	Case=Nom|Number=Sing	16	nsubj	_	_
@@ -10868,7 +10868,7 @@
 20	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s617
-# text = Jetzt reagiere ein Teil der Zugewanderten mit `` abgrenzender Gruppenbildung '' auf den Haß, der ihnen in Deutschland entgegenschlage.
+# text = Jetzt reagiere ein Teil der Zugewanderten mit ``abgrenzender Gruppenbildung'' auf den Haß, der ihnen in Deutschland entgegenschlage.
 1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
 2	reagiere	reagieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -10876,9 +10876,9 @@
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Zugewanderten	Zugewanderte	NOUN	NN	_	4	nmod	_	_
 7	mit	mit	ADP	APPR	_	10	case	_	_
-8	``	``	PUNCT	$(	_	10	punct	_	_
+8	``	``	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 9	abgrenzender	abgrenzender	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	Gruppenbildung	Gruppenbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+10	Gruppenbildung	Gruppenbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	10	punct	_	_
 12	auf	auf	ADP	APPR	_	14	case	_	_
 13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -11088,10 +11088,10 @@
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s628
-# text = "Slow Speed '' ist da auf eine Wand geschrieben.
+# text = "Slow Speed'' ist da auf eine Wand geschrieben.
 1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Slow	Slow	X	NE	_	3	compound	_	_
-3	Speed	Speed	X	NE	_	10	nsubj:pass	_	_
+3	Speed	Speed	X	NE	_	10	nsubj:pass	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	3	punct	_	_
 5	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 6	da	da	ADV	ADV	_	10	advmod	_	_
@@ -11158,7 +11158,7 @@
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = dev-s633
-# text = Wir wären weitaus weiter, hätte man uns keine Steine in den Weg gelegt, '' sagt der inzwischen in den Aufsichtsrat des hanseatischen Renommierklubs aufgerückte Versicherungsmakler.
+# text = Wir wären weitaus weiter, hätte man uns keine Steine in den Weg gelegt,'' sagt der inzwischen in den Aufsichtsrat des hanseatischen Renommierklubs aufgerückte Versicherungsmakler.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	wären	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	weitaus	weitaus	ADV	ADV	_	4	advmod	_	_
@@ -11173,7 +11173,7 @@
 12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 14	gelegt	legen	VERB	VVPP	VerbForm=Part	4	advcl	_	SpaceAfter=No
-15	,	,	PUNCT	$,	_	17	punct	_	_
+15	,	,	PUNCT	$,	_	17	punct	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	17	punct	_	_
 17	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 18	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -11228,7 +11228,7 @@
 19	.	.	PUNCT	$.	_	18	punct	_	_
 
 # sent_id = dev-s636
-# text = Früher hatten die Pensionäre Tränen in den Augen, wenn sie gehen mußten, heute stöhnt, wer dabei bleiben soll, '' berichtet Ewald Grom, Betriebsrats -- Vize im Werk Höchst.
+# text = Früher hatten die Pensionäre Tränen in den Augen, wenn sie gehen mußten, heute stöhnt, wer dabei bleiben soll,'' berichtet Ewald Grom, Betriebsrats -- Vize im Werk Höchst.
 1	Früher	früher	ADV	ADV	_	2	advmod	_	_
 2	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	ccomp	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -11250,7 +11250,7 @@
 19	dabei	dabei	ADV	PAV	_	20	advmod	_	_
 20	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	16	csubj	_	_
 21	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
-22	,	,	PUNCT	$,	_	24	punct	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	24	punct	_	_
 24	berichtet	berichten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 25	Ewald	Ewald	PROPN	NE	_	24	nsubj	_	_
@@ -11309,7 +11309,7 @@
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s639
-# text = Die Welt nach Krupp / Thyssen ist nicht mehr die, die sie davor war, '' meint Breuer.
+# text = Die Welt nach Krupp / Thyssen ist nicht mehr die, die sie davor war,'' meint Breuer.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Welt	Welt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 3	nach	nach	ADP	APPR	_	6	case	_	_
@@ -11325,14 +11325,14 @@
 13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	davor	davor	ADV	PAV	_	15	advmod	_	_
 15	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl	_	SpaceAfter=No
-16	,	,	PUNCT	$,	_	18	punct	_	_
+16	,	,	PUNCT	$,	_	18	punct	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	18	punct	_	_
 18	meint	meinen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 19	Breuer	Breuer	PROPN	NE	Case=Nom|Number=Sing	18	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	18	punct	_	_
 
 # sent_id = dev-s640
-# text = Kernpunkte der Dubliner Vereinbarungen sind die Einführung eines `` Frühwarnsystems '' für finanzpolitische Fehlentwicklungen, die Präzisierung und Straffung der Abläufe bei übermäßigen Defiziten unter anderem durch Selbstbindungen der Länder und EU -- Gremien sowie klare Terminvorgaben.
+# text = Kernpunkte der Dubliner Vereinbarungen sind die Einführung eines ``Frühwarnsystems'' für finanzpolitische Fehlentwicklungen, die Präzisierung und Straffung der Abläufe bei übermäßigen Defiziten unter anderem durch Selbstbindungen der Länder und EU -- Gremien sowie klare Terminvorgaben.
 1	Kernpunkte	Kernpunkt	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
 2	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 3	Dubliner	Dubliner	ADJ	NN	_	4	amod	_	_
@@ -11341,8 +11341,8 @@
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Einführung	Einführung	NOUN	NN	_	0	root	_	_
 8	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
-9	``	``	PUNCT	$(	_	10	punct	_	_
-10	Frühwarnsystems	Frühwarnsystem	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+9	``	``	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Frühwarnsystems	Frühwarnsystem	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	10	punct	_	_
 12	für	für	ADP	APPR	_	14	case	_	_
 13	finanzpolitische	finanzpolitisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
@@ -11401,7 +11401,7 @@
 25	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s642
-# text = Ich hoffe, auch aus der Direktion des EWI ein Team machen zu können. ''
+# text = Ich hoffe, auch aus der Direktion des EWI ein Team machen zu können.''
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
@@ -11416,7 +11416,7 @@
 12	machen	machen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	können	können	AUX	VMINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	2	punct	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	2	punct	_	_
 
 # sent_id = dev-s643
@@ -11509,7 +11509,7 @@
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s646
-# text = Es herrscht Bewegung, doch gibt es keine sich bewegenden Objekte, es gibt Aktivität, jedoch keine Handelnden, es gibt keine Tänzer, sondern nur den Tanz. ''
+# text = Es herrscht Bewegung, doch gibt es keine sich bewegenden Objekte, es gibt Aktivität, jedoch keine Handelnden, es gibt keine Tänzer, sondern nur den Tanz.''
 1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	herrscht	herrschen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -11539,7 +11539,7 @@
 27	nur	nur	ADV	ADV	_	29	advmod	_	_
 28	den	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 29	Tanz	Tanz	NOUN	NN	_	24	conj	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	2	punct	_	_
+30	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 31	''	''	PUNCT	$(	_	2	punct	_	_
 
 # sent_id = dev-s647
@@ -11663,7 +11663,7 @@
 26	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = dev-s652
-# text = Der U.S. -- Bürger Milan Panic, 62 Jahre alt, bis vorige Woche noch Chef der kalifornischen ICN Pharmaceuticals Inc, ist im Laufe seiner sprichwörtlichen Schuhputzerkarriere mehrfach mit `` Wachhunden '' der Wall Street, Aktionären, Buchprüfern und Wissenschaftlern in Konflikt gekommen.
+# text = Der U.S. -- Bürger Milan Panic, 62 Jahre alt, bis vorige Woche noch Chef der kalifornischen ICN Pharmaceuticals Inc, ist im Laufe seiner sprichwörtlichen Schuhputzerkarriere mehrfach mit ``Wachhunden'' der Wall Street, Aktionären, Buchprüfern und Wissenschaftlern in Konflikt gekommen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	U.S.	U.S.	PROPN	NE	_	46	nsubj	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
@@ -11696,8 +11696,8 @@
 29	Schuhputzerkarriere	Schuhputzerkarriere	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 30	mehrfach	mehrfach	ADV	ADJD	_	46	advmod	_	_
 31	mit	mit	ADP	APPR	_	33	case	_	_
-32	``	``	PUNCT	$(	_	33	punct	_	_
-33	Wachhunden	Wachhund	NOUN	NN	Case=Dat|Number=Plur	46	obl	_	_
+32	``	``	PUNCT	$(	_	33	punct	_	SpaceAfter=No
+33	Wachhunden	Wachhund	NOUN	NN	Case=Dat|Number=Plur	46	obl	_	SpaceAfter=No
 34	''	''	PUNCT	$(	_	39	punct	_	_
 35	der	der	DET	ART	Definite=Def|PronType=Art	36	det	_	_
 36	Wall	Wall	PROPN	NE	_	33	nmod	_	_
@@ -11729,7 +11729,7 @@
 12	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = dev-s654
-# text = Bürgermeister Christian Ude (SPD,) Bayerns Jusos, die Grünen und Gipfelgegner kritisierten das Polizeivorgehen und den `` Münchner Kessel '' als `` völlig unangemessen '' und zum Teil `` brutal ''.
+# text = Bürgermeister Christian Ude (SPD,) Bayerns Jusos, die Grünen und Gipfelgegner kritisierten das Polizeivorgehen und den ``Münchner Kessel'' als ``völlig unangemessen'' und zum Teil ``brutal''.
 1	Bürgermeister	Bürgermeister	NOUN	NN	Case=Nom|Number=Sing	15	nsubj	_	_
 2	Christian	Christian	PROPN	NE	_	1	appos	_	_
 3	Ude	Ude	PROPN	NE	_	2	flat	_	_
@@ -11749,22 +11749,22 @@
 17	Polizeivorgehen	Polizeivorgehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 18	und	und	CCONJ	KON	_	22	cc	_	_
 19	den	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
-20	``	``	PUNCT	$(	_	22	punct	_	_
+20	``	``	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 21	Münchner	Münchner	ADJ	ADJA	_	22	amod	_	_
-22	Kessel	Kessel	NOUN	NN	_	17	conj	_	_
+22	Kessel	Kessel	NOUN	NN	_	17	conj	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	22	punct	_	_
 24	als	als	CCONJ	KOKOM	_	27	case	_	_
-25	``	``	PUNCT	$(	_	27	punct	_	_
+25	``	``	PUNCT	$(	_	27	punct	_	SpaceAfter=No
 26	völlig	völlig	ADV	ADJD	_	27	advmod	_	_
-27	unangemessen	unangemessen	ADJ	ADJD	Degree=Pos	15	amod	_	_
+27	unangemessen	unangemessen	ADJ	ADJD	Degree=Pos	15	amod	_	SpaceAfter=No
 28	''	''	PUNCT	$(	_	34	punct	_	_
 29	und	und	CCONJ	KON	_	34	cc	_	_
 30-31	zum	_	_	_	_	_	_	_	_
 30	zu	zu	ADP	APPR	_	32	case	_	_
 31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	32	det	_	_
 32	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	34	nmod	_	_
-33	``	``	PUNCT	$(	_	34	punct	_	_
-34	brutal	brutal	ADJ	ADJD	Degree=Pos	27	conj	_	_
+33	``	``	PUNCT	$(	_	34	punct	_	SpaceAfter=No
+34	brutal	brutal	ADJ	ADJD	Degree=Pos	27	conj	_	SpaceAfter=No
 35	''	''	PUNCT	$(	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -11789,7 +11789,7 @@
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s656
-# text = Lech Walesa teilte am Samstag über einen Sprecher mit, er habe `` keine Einwände '' gegen die Kandidatur.
+# text = Lech Walesa teilte am Samstag über einen Sprecher mit, er habe ``keine Einwände'' gegen die Kandidatur.
 1	Lech	Lech	PROPN	NE	_	3	nsubj	_	_
 2	Walesa	Walesa	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
 3	teilte	teilen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -11804,9 +11804,9 @@
 11	,	,	PUNCT	$,	_	3	punct	_	_
 12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-14	``	``	PUNCT	$(	_	16	punct	_	_
+14	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 15	keine	kein	PRON	PIAT	PronType=Neg	16	advmod	_	_
-16	Einwände	Einwand	NOUN	NN	Case=Acc|Number=Plur	13	obj	_	_
+16	Einwände	Einwand	NOUN	NN	Case=Acc|Number=Plur	13	obj	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	16	punct	_	_
 18	gegen	gegen	ADP	APPR	_	20	case	_	_
 19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -11839,13 +11839,13 @@
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s658
-# text = Das ist nicht unsere Sache, '' sagte Konzernchef Cor Herkströter in einem Gespräch mit der Amsterdamer Tageszeitung De Volkskrant.
+# text = Das ist nicht unsere Sache,'' sagte Konzernchef Cor Herkströter in einem Gespräch mit der Amsterdamer Tageszeitung De Volkskrant.
 1	Das	der	PRON	PDS	PronType=Dem	8	ccomp	_	_
 2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
 4	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	8	punct	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	8	punct	_	_
 8	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 9	Konzernchef	Konzernchef	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
@@ -11899,7 +11899,7 @@
 33	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s660
-# text = Die Leute haben nichts gegen die Evangelen, '' meint der 32jährige ``, aber sie sollen ihren Glauben anderswo pflegen.
+# text = Die Leute haben nichts gegen die Evangelen,'' meint der 32jährige ``, aber sie sollen ihren Glauben anderswo pflegen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Leute	Leute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11907,7 +11907,7 @@
 5	gegen	gegen	ADP	APPR	_	7	case	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Evangelen	Evangelen	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	21	punct	_	_
+8	,	,	PUNCT	$,	_	21	punct	_	SpaceAfter=No
 9	''	''	PUNCT	$(	_	21	punct	_	_
 10	meint	meinen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	3	parataxis	_	_
 11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -11924,7 +11924,7 @@
 22	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s661
-# text = Ein junger Mann mit Anti -- Friedens -- Buttons am T -- Shirt meinte, dieses Ende sei `` unvermeidbar '' gewesen:
+# text = Ein junger Mann mit Anti -- Friedens -- Buttons am T -- Shirt meinte, dieses Ende sei ``unvermeidbar'' gewesen:
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 2	junger	jung	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Gender=Masc,Neut|Number=Sing	3	amod	_	_
 3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	15	nsubj	_	_
@@ -11945,14 +11945,14 @@
 17	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
 18	Ende	Ende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
 19	sei	sein	AUX	VAFIN	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	_
-20	``	``	PUNCT	$(	_	21	punct	_	_
-21	unvermeidbar	unvermeidbar	ADJ	ADJD	Degree=Pos	15	ccomp	_	_
+20	``	``	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	unvermeidbar	unvermeidbar	ADJ	ADJD	Degree=Pos	15	ccomp	_	SpaceAfter=No
 22	''	''	PUNCT	$(	_	21	punct	_	_
 23	gewesen	sein	VERB	VAPP	VerbForm=Part	21	cop	_	SpaceAfter=No
 24	:	:	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = dev-s662
-# text = Wir haben genug aufwieglerische Worte von der Rechten zu hören bekommen, '' versuchte Uri Dromi eine Erklärung.
+# text = Wir haben genug aufwieglerische Worte von der Rechten zu hören bekommen,'' versuchte Uri Dromi eine Erklärung.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
 3	genug	genug	ADV	ADV	_	4	advmod	_	_
@@ -11964,7 +11964,7 @@
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	hören	hören	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
 11	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	versuchte	versuchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 15	Uri	Uri	PROPN	NE	_	14	nsubj	_	_
@@ -11988,7 +11988,7 @@
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s664
-# text = Diese Platte war Freddies letzter Wille, danach wird es Queen nicht mehr geben, '' versichert Brian May ``, Freddie wollte damals, daß wir jedesmal ins Studio gingen, wenn er sich einigermaßen gut fühlte.
+# text = Diese Platte war Freddies letzter Wille, danach wird es Queen nicht mehr geben,'' versichert Brian May ``, Freddie wollte damals, daß wir jedesmal ins Studio gingen, wenn er sich einigermaßen gut fühlte.
 1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Platte	Platte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
@@ -12003,7 +12003,7 @@
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
 13	mehr	mehr	ADV	ADV	_	14	advmod	_	_
 14	geben	geben	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
-15	,	,	PUNCT	$,	_	17	punct	_	_
+15	,	,	PUNCT	$,	_	17	punct	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	17	punct	_	_
 17	versichert	versichern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 18	Brian	Brian	PROPN	NE	_	17	nsubj	_	_
@@ -12032,7 +12032,7 @@
 40	.	.	PUNCT	$.	_	17	punct	_	_
 
 # sent_id = dev-s665
-# text = Unter Klimaaspekten gibt dies keinen Anlaß zur Freude, '' räumt der ABB -- Mann ein.
+# text = Unter Klimaaspekten gibt dies keinen Anlaß zur Freude,'' räumt der ABB -- Mann ein.
 1	Unter	unter	ADP	APPR	_	2	case	_	_
 2	Klimaaspekten	Klimaaspekten	NOUN	NN	_	3	obl	_	_
 3	gibt	geben	VERB	VVFIN	Person=3|VerbForm=Fin	12	ccomp	_	_
@@ -12043,7 +12043,7 @@
 7	zu	zu	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Freude	Freude	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	$,	_	12	punct	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	12	punct	_	_
 12	räumt	räumen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -12054,7 +12054,7 @@
 18	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = dev-s666
-# text = Mit dem Aufbau der Stadtwerke haben wir nicht gerechnet. ''
+# text = Mit dem Aufbau der Stadtwerke haben wir nicht gerechnet.''
 1	Mit	mit	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Aufbau	Aufbau	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
@@ -12064,7 +12064,7 @@
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 9	gerechnet	rechnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	9	punct	_	_
 
 # sent_id = dev-s667
@@ -12109,7 +12109,7 @@
 23	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = dev-s669
-# text = Christen dürften sich nicht darauf beschränken, ethische Grundsätze zu formulieren, sondern `` müssen die Last der politischen Verantwortung übernehmen, '' verlangte Günter Brakelmann, Sozialethiker an der Universität Bochum.
+# text = Christen dürften sich nicht darauf beschränken, ethische Grundsätze zu formulieren, sondern ``müssen die Last der politischen Verantwortung übernehmen,'' verlangte Günter Brakelmann, Sozialethiker an der Universität Bochum.
 1	Christen	Christ	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
 2	dürften	dürfen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
@@ -12123,7 +12123,7 @@
 11	formulieren	formulieren	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	24	punct	_	_
 13	sondern	sondern	CCONJ	KON	_	21	cc	_	_
-14	``	``	PUNCT	$(	_	24	punct	_	_
+14	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
 15	müssen	müssen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
 16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Last	Last	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
@@ -12131,7 +12131,7 @@
 19	politischen	politisch	ADJ	ADJA	Degree=Pos	20	amod	_	_
 20	Verantwortung	Verantwortung	NOUN	NN	_	17	nmod	_	_
 21	übernehmen	übernehmen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
-22	,	,	PUNCT	$,	_	24	punct	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	24	punct	_	_
 24	verlangte	verlangen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 25	Günter	Günter	PROPN	NE	_	24	nsubj	_	_
@@ -12315,7 +12315,7 @@
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s680
-# text = Um die 600 Gulden muß man als Anfänger schon investieren, '' sagt Theo.
+# text = Um die 600 Gulden muß man als Anfänger schon investieren,'' sagt Theo.
 1	Um	um	ADV	KOUI	_	3	advmod	_	_
 2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	600	600	NUM	CARD	NumType=Card	4	nummod	_	_
@@ -12326,7 +12326,7 @@
 8	Anfänger	Anfänger	NOUN	NN	_	10	obl	_	_
 9	schon	schon	ADV	ADV	_	10	advmod	_	_
 10	investieren	investieren	VERB	VVINF	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
-11	,	,	PUNCT	$,	_	13	punct	_	_
+11	,	,	PUNCT	$,	_	13	punct	_	SpaceAfter=No
 12	''	''	PUNCT	$(	_	13	punct	_	_
 13	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 14	Theo	Theo	PROPN	NE	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -12387,7 +12387,7 @@
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s684
-# text = Günter Rexrodt (FDP) kündigte am Donnerstag im Bundestag `` ein umfassendes Maßnahmenpaket für Wachstum und Beschäftigung '' an, das soziale Kürzungen vorsieht und Anfang 1996 mit dem Jahreswirtschaftsbericht vorgelegt werden soll.
+# text = Günter Rexrodt (FDP) kündigte am Donnerstag im Bundestag ``ein umfassendes Maßnahmenpaket für Wachstum und Beschäftigung'' an, das soziale Kürzungen vorsieht und Anfang 1996 mit dem Jahreswirtschaftsbericht vorgelegt werden soll.
 1	Günter	Günter	PROPN	NE	_	6	nsubj	_	_
 2	Rexrodt	Rexrodt	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
 3	(	(	PUNCT	$(	_	4	punct	_	SpaceAfter=No
@@ -12402,14 +12402,14 @@
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
 12	Bundestag	Bundestag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
-13	``	``	PUNCT	$(	_	16	punct	_	_
+13	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
 15	umfassendes	umfassend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	16	amod	_	_
 16	Maßnahmenpaket	Maßnahmenpaket	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	6	obj	_	_
 17	für	für	ADP	APPR	_	18	case	_	_
 18	Wachstum	Wachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
-20	Beschäftigung	Beschäftigung	NOUN	NN	_	18	conj	_	_
+20	Beschäftigung	Beschäftigung	NOUN	NN	_	18	conj	_	SpaceAfter=No
 21	''	''	PUNCT	$(	_	16	punct	_	_
 22	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	6	punct	_	_
@@ -12473,7 +12473,7 @@
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s687
-# text = Wir wissen immer noch nichts über die Herkunft des Virus ', '' gibt Murray zu.
+# text = Wir wissen immer noch nichts über die Herkunft des Virus ','' gibt Murray zu.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
 3	immer	immer	ADV	ADV	_	4	advmod	_	_
@@ -12485,7 +12485,7 @@
 9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Virus	Virus	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
 11	'	'	PUNCT	$(	_	10	punct	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 15	Murray	Murray	PROPN	NE	Case=Nom|Number=Sing	14	nsubj	_	_
@@ -12493,8 +12493,8 @@
 17	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = dev-s688
-# text = `` Wie läßt sich die ausgeprägte Furcht von Innovationen sowohl im deutschen Management wie auch bei vielen Arbeitnehmerinnen und Arbeitnehmern überwinden? ''
-1	``	``	PUNCT	$(	_	3	punct	_	_
+# text = ``Wie läßt sich die ausgeprägte Furcht von Innovationen sowohl im deutschen Management wie auch bei vielen Arbeitnehmerinnen und Arbeitnehmern überwinden?''
+1	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Wie	wie	ADV	PWAV	_	3	advmod	_	_
 3	läßt	lassen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -12517,7 +12517,7 @@
 20	und	und	CCONJ	KON	_	21	cc	_	_
 21	Arbeitnehmern	Arbeitnehmer	NOUN	NN	_	19	conj	_	_
 22	überwinden	überwinden	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-23	?	?	PUNCT	$.	_	3	punct	_	_
+23	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No
 24	''	''	PUNCT	$(	_	3	punct	_	_
 
 # sent_id = dev-s689
@@ -12832,7 +12832,7 @@
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s703
-# text = Es muß zu denken geben, daß die deutsche Wirtschaft selbst vor dem Wind einer kräftigen Exportkonjunktur nicht zu mehr Eigendynamik findet, '' stellt das Gutachten fest.
+# text = Es muß zu denken geben, daß die deutsche Wirtschaft selbst vor dem Wind einer kräftigen Exportkonjunktur nicht zu mehr Eigendynamik findet,'' stellt das Gutachten fest.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
 3	zu	zu	PART	PTKZU	_	4	mark	_	_
@@ -12855,7 +12855,7 @@
 20	mehr	mehr	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 21	Eigendynamik	Eigendynamik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
 22	findet	finden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
-23	,	,	PUNCT	$,	_	25	punct	_	_
+23	,	,	PUNCT	$,	_	25	punct	_	SpaceAfter=No
 24	''	''	PUNCT	$(	_	25	punct	_	_
 25	stellt	stellen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 26	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
@@ -12884,7 +12884,7 @@
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s705
-# text = Wer an deutschen Universitäten abgewiesen wird, wendet sich möglicherweise an eine dieser in Deutschland nicht anerkannten Hochschulen, die auch keinen anerkannten Abschluß verleihen kann, '' befürchtet Werner Becker, HRK -- Informationsreferent.
+# text = Wer an deutschen Universitäten abgewiesen wird, wendet sich möglicherweise an eine dieser in Deutschland nicht anerkannten Hochschulen, die auch keinen anerkannten Abschluß verleihen kann,'' befürchtet Werner Becker, HRK -- Informationsreferent.
 1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj:pass	_	_
 2	an	an	ADP	APPR	_	4	case	_	_
 3	deutschen	deutsch	ADJ	ADJA	Degree=Pos	4	amod	_	_
@@ -12911,7 +12911,7 @@
 24	Abschluß	Abschluß	NOUN	NN	Case=Acc|Number=Sing	25	obj	_	_
 25	verleihen	verleihen	VERB	VVINF	VerbForm=Inf	18	acl	_	_
 26	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
-27	,	,	PUNCT	$,	_	29	punct	_	_
+27	,	,	PUNCT	$,	_	29	punct	_	SpaceAfter=No
 28	''	''	PUNCT	$(	_	29	punct	_	_
 29	befürchtet	befürchten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 30	Werner	Werner	PROPN	NE	_	29	nsubj	_	_
@@ -12923,7 +12923,7 @@
 36	.	.	PUNCT	$.	_	29	punct	_	_
 
 # sent_id = dev-s706
-# text = Ich gebe Arbeit ab und bekomme dafür mehr Freizeit, '' sagte Pastor Klaus Onnasch von der Christusgemeinde in Kronshagen bei Kiel.
+# text = Ich gebe Arbeit ab und bekomme dafür mehr Freizeit,'' sagte Pastor Klaus Onnasch von der Christusgemeinde in Kronshagen bei Kiel.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	gebe	geben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	12	ccomp	_	_
 3	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
@@ -12933,7 +12933,7 @@
 7	dafür	dafür	ADV	PAV	_	6	advmod	_	_
 8	mehr	mehr	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	Freizeit	Freizeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-10	,	,	PUNCT	$,	_	12	punct	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	12	punct	_	_
 12	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 13	Pastor	Pastor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -13094,7 +13094,7 @@
 18	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s714
-# text = Menschen könnten zum Beispiel während einer lauten Gesellschaft die Worte des Gesprächspartners nicht mehr von anderen Störgeräuschen unterscheiden und hörten nur noch `` Wortsalat ''.
+# text = Menschen könnten zum Beispiel während einer lauten Gesellschaft die Worte des Gesprächspartners nicht mehr von anderen Störgeräuschen unterscheiden und hörten nur noch ``Wortsalat''.
 1	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	19	nsubj	_	_
 2	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 3-4	zum	_	_	_	_	_	_	_	_
@@ -13119,8 +13119,8 @@
 21	hörten	hören	VERB	VVFIN	VerbForm=Fin	19	conj	_	_
 22	nur	nur	ADV	ADV	_	23	advmod	_	_
 23	noch	noch	ADV	ADV	_	21	advmod	_	_
-24	``	``	PUNCT	$(	_	25	punct	_	_
-25	Wortsalat	Wortsalat	NOUN	NN	Case=Acc|Number=Sing	21	obj	_	_
+24	``	``	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+25	Wortsalat	Wortsalat	NOUN	NN	Case=Acc|Number=Sing	21	obj	_	SpaceAfter=No
 26	''	''	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	19	punct	_	_
 
@@ -13137,16 +13137,16 @@
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s716
-# text = Braune verhängte sechs Jahre Gefängnis wegen `` planmäßiger Staatshetze '' gegen den Familienvater, obwohl die Tat verjährt war und die Schrift überhaupt nicht verbreitet, sondern zu Hause aufbewahrt wurde.
+# text = Braune verhängte sechs Jahre Gefängnis wegen ``planmäßiger Staatshetze'' gegen den Familienvater, obwohl die Tat verjährt war und die Schrift überhaupt nicht verbreitet, sondern zu Hause aufbewahrt wurde.
 1	Braune	braun	PROPN	ADJA	Case=Nom|Number=Plur	2	nsubj	_	_
 2	verhängte	verhängt	VERB	ADJA	_	0	root	_	_
 3	sechs	sechs	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Jahre	Jahr	NOUN	NN	_	5	nmod	_	_
 5	Gefängnis	Gefängnis	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
 6	wegen	wegen	ADP	APPR	_	9	case	_	_
-7	``	``	PUNCT	$(	_	9	punct	_	_
+7	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 8	planmäßiger	planmäßig	ADJ	ADJA	Case=Gen|Degree=Cmp,Pos|Number=Plur	9	amod	_	_
-9	Staatshetze	Staatshetze	NOUN	NN	Case=Gen|Number=Plur	2	obl	_	_
+9	Staatshetze	Staatshetze	NOUN	NN	Case=Gen|Number=Plur	2	obl	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	9	punct	_	_
 11	gegen	gegen	ADP	APPR	_	13	case	_	_
 12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -13207,7 +13207,7 @@
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s720
-# text = Ich bin wählen gegangen, weil die jetzige Situation nicht weiter andauern kann, '' meinte in der Stadt Ouargla ein anderer.
+# text = Ich bin wählen gegangen, weil die jetzige Situation nicht weiter andauern kann,'' meinte in der Stadt Ouargla ein anderer.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	wählen	wählen	VERB	VVINF	VerbForm=Inf	4	acl	_	_
@@ -13221,7 +13221,7 @@
 11	weiter	weiter	ADV	ADV	_	12	advmod	_	_
 12	andauern	andauern	VERB	VVINF	VerbForm=Inf	4	advcl	_	_
 13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	16	punct	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	SpaceAfter=No
 15	''	''	PUNCT	$(	_	16	punct	_	_
 16	meinte	meinen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 17	in	in	ADP	APPR	_	19	case	_	_
@@ -13299,7 +13299,7 @@
 22	.	.	PUNCT	$.	_	18	punct	_	_
 
 # sent_id = dev-s724
-# text = Dafür steht die Firma Syncronys gerade, und wir werden auch die Kosten übernehmen, '' so Poertner.
+# text = Dafür steht die Firma Syncronys gerade, und wir werden auch die Kosten übernehmen,'' so Poertner.
 1	Dafür	dafür	ADV	PAV	_	2	advmod	_	_
 2	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13314,27 +13314,27 @@
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Kosten	Kosten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
 14	übernehmen	übernehmen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
-15	,	,	PUNCT	$,	_	2	punct	_	_
+15	,	,	PUNCT	$,	_	2	punct	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	2	punct	_	_
 17	so	so	ADV	ADV	_	18	advmod	_	_
 18	Poertner	Poertner	PROPN	NN	_	2	appos	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s725
-# text = Das Ergebnis hat uns ermutigt, '' berichtet Nitz.
+# text = Das Ergebnis hat uns ermutigt,'' berichtet Nitz.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
 5	ermutigt	ermutigen	VERB	VVPP	VerbForm=Part	8	ccomp	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	8	punct	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	8	punct	_	_
 8	berichtet	berichten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 9	Nitz	Nitz	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s726
-# text = Doch nicht die Kinder verdienen daran, sondern Hotels, Vermittler, Bordellbetreiber, '' sagt Felizardo.
+# text = Doch nicht die Kinder verdienen daran, sondern Hotels, Vermittler, Bordellbetreiber,'' sagt Felizardo.
 1	Doch	doch	CCONJ	KON	_	5	cc	_	_
 2	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -13348,7 +13348,7 @@
 11	Vermittler	Vermittler	NOUN	NN	_	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	Bordellbetreiber	Bordellbetreiber	NOUN	NN	_	9	conj	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	16	punct	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	SpaceAfter=No
 15	''	''	PUNCT	$(	_	16	punct	_	_
 16	sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 17	Felizardo	Felizardo	PROPN	NE	Case=Nom|Number=Sing	16	nsubj	_	SpaceAfter=No
@@ -13380,7 +13380,7 @@
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s729
-# text = Wir haben alles erreicht, was wir wollten, '' erklärte Japans Außenminister Yohei Kono.
+# text = Wir haben alles erreicht, was wir wollten,'' erklärte Japans Außenminister Yohei Kono.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	4	obj	_	_
@@ -13389,7 +13389,7 @@
 6	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	8	obj	_	_
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 8	wollten	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
-9	,	,	PUNCT	$,	_	11	punct	_	_
+9	,	,	PUNCT	$,	_	11	punct	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	11	punct	_	_
 11	erklärte	erklären	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 12	Japans	Japan	PROPN	NE	_	13	nmod	_	_
@@ -13558,7 +13558,7 @@
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s739
-# text = Den Beschäftigten ist es nicht weiter zuzumuten, ohne Bezahlung weiterzuarbeiten, '' betonte Gesamtbetriebsratschefin Silke Striezel.
+# text = Den Beschäftigten ist es nicht weiter zuzumuten, ohne Bezahlung weiterzuarbeiten,'' betonte Gesamtbetriebsratschefin Silke Striezel.
 1	Den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Beschäftigten	Beschäftigte	NOUN	NN	Case=Dat|Number=Plur	3	iobj	_	_
 3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
@@ -13570,7 +13570,7 @@
 9	ohne	ohne	ADP	KOUI	_	10	case	_	_
 10	Bezahlung	Bezahlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 11	weiterzuarbeiten	weiterarbeiten	VERB	VVIZU	_	7	xcomp	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	14	punct	_	_
 14	betonte	betonen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 15	Gesamtbetriebsratschefin	Gesamtbetriebsratschefin	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
@@ -13579,7 +13579,7 @@
 18	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = dev-s740
-# text = Aber es kommt eine neue Dimension hinzu. ''
+# text = Aber es kommt eine neue Dimension hinzu.''
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -13587,7 +13587,7 @@
 5	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	Dimension	Dimension	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 7	hinzu	hinzu	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	3	punct	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
 9	''	''	PUNCT	$(	_	3	punct	_	_
 
 # sent_id = dev-s741
@@ -13634,14 +13634,14 @@
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s743
-# text = Überall ist unser Geschäft ein politisches, '' resümiert Farnung ``, und beliebig schwierig ''.
+# text = Überall ist unser Geschäft ein politisches,'' resümiert Farnung ``, und beliebig schwierig''.
 1	Überall	überall	ADV	ADV	_	6	advmod	_	_
 2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Geschäft	Geschäft	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	6	nsubj	_	_
 5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
 6	politisches	politisch	ADJ	ADJA	Degree=Pos	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	15	punct	_	_
+7	,	,	PUNCT	$,	_	15	punct	_	SpaceAfter=No
 8	''	''	PUNCT	$(	_	15	punct	_	_
 9	resümiert	resümieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	parataxis	_	_
 10	Farnung	Farnung	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -13649,12 +13649,12 @@
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	beliebig	beliebig	ADV	ADJD	_	15	advmod	_	_
-15	schwierig	schwierig	ADJ	ADJD	Degree=Pos	6	conj	_	_
+15	schwierig	schwierig	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s744
-# text = Es ist vielmehr so, daß der Markt uns richten wird, wenn wir nicht höllisch aufpassen. ''
+# text = Es ist vielmehr so, daß der Markt uns richten wird, wenn wir nicht höllisch aufpassen.''
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vielmehr	vielmehr	ADV	ADV	_	4	advmod	_	_
@@ -13672,7 +13672,7 @@
 15	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
 16	höllisch	höllisch	ADV	ADJD	_	17	advmod	_	_
 17	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	10	advcl	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 19	''	''	PUNCT	$(	_	2	punct	_	_
 
 # sent_id = dev-s745
@@ -13713,13 +13713,13 @@
 20	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s747
-# text = Natürlich nur mit legalen Methoden, '' wie Ellen Waitzis von der Hessischen Verbraucherzentrale betont.
+# text = Natürlich nur mit legalen Methoden,'' wie Ellen Waitzis von der Hessischen Verbraucherzentrale betont.
 1	Natürlich	natürlich	ADV	ADV	_	2	advmod	_	_
 2	nur	nur	ADV	ADV	_	5	advmod	_	_
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	legalen	legal	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
 5	Methoden	Methode	NOUN	NN	Case=Dat|Number=Plur	15	obl	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	15	punct	_	_
+6	,	,	PUNCT	$,	_	15	punct	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	15	punct	_	_
 8	wie	wie	CCONJ	KOUS	_	15	cc	_	_
 9	Ellen	Ellen	PROPN	NE	_	15	nsubj	_	_
@@ -13827,7 +13827,7 @@
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s752
-# text = In Verhandlungen muß man ausloten, bis zu welchem Punkt man gemeinsam gehen kann, um die Arbeitslosigkeit in Deutschland nun wirklich nachhaltig zu bekämpfen. ''
+# text = In Verhandlungen muß man ausloten, bis zu welchem Punkt man gemeinsam gehen kann, um die Arbeitslosigkeit in Deutschland nun wirklich nachhaltig zu bekämpfen.''
 1	In	in	ADP	APPR	_	2	case	_	_
 2	Verhandlungen	Verhandlung	NOUN	NN	_	5	obl	_	_
 3	muß	müssen	AUX	VMFIN	Person=3|VerbForm=Fin	5	aux	_	_
@@ -13853,7 +13853,7 @@
 23	nachhaltig	nachhaltig	ADV	ADJD	_	25	advmod	_	_
 24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	13	advcl	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	5	punct	_	_
+26	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 27	''	''	PUNCT	$(	_	5	punct	_	_
 
 # sent_id = dev-s753
@@ -14039,7 +14039,7 @@
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s761
-# text = Die Denkschrift kommt in bildungspolitisch nicht gerade leichten Zeiten, '' räumte Rau ein.
+# text = Die Denkschrift kommt in bildungspolitisch nicht gerade leichten Zeiten,'' räumte Rau ein.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Denkschrift	Denkschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	12	ccomp	_	_
@@ -14049,7 +14049,7 @@
 7	gerade	gerade	ADV	ADV	_	6	advmod	_	_
 8	leichten	leicht	ADJ	ADJA	Degree=Pos	9	amod	_	_
 9	Zeiten	Zeit	NOUN	NN	_	3	obl	_	SpaceAfter=No
-10	,	,	PUNCT	$,	_	12	punct	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	12	punct	_	_
 12	räumte	räumen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 13	Rau	Rau	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	_
@@ -14057,7 +14057,7 @@
 15	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = dev-s762
-# text = Er fiel im Kampf für den Frieden, '' sagte Präsident Ezer Weizman.
+# text = Er fiel im Kampf für den Frieden,'' sagte Präsident Ezer Weizman.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fiel	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	ccomp	_	_
 3-4	im	_	_	_	_	_	_	_	_
@@ -14067,7 +14067,7 @@
 6	für	für	ADP	APPR	_	8	case	_	_
 7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Frieden	Frieden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	$,	_	11	punct	_	_
+9	,	,	PUNCT	$,	_	11	punct	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	11	punct	_	_
 11	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 12	Präsident	Präsident	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
@@ -14089,7 +14089,7 @@
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s764
-# text = Die Regierung Israels gibt mit tiefer Trauer den Tod des Ministerpräsidenten und Verteidigungsministers Yitzhak Rabin bekannt, der heute von einem Attentäter in Tel Aviv ermordet wurde, '' teilte ein Regierungssprecher vor dem Krankenhaus Journalisten und ängstlich wartenden Israelis mit.
+# text = Die Regierung Israels gibt mit tiefer Trauer den Tod des Ministerpräsidenten und Verteidigungsministers Yitzhak Rabin bekannt, der heute von einem Attentäter in Tel Aviv ermordet wurde,'' teilte ein Regierungssprecher vor dem Krankenhaus Journalisten und ängstlich wartenden Israelis mit.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	Israels	Israel	PROPN	NE	_	2	nmod	_	_
@@ -14117,7 +14117,7 @@
 25	Aviv	Aviv	PROPN	NE	_	24	flat	_	_
 26	ermordet	ermorden	VERB	VVPP	VerbForm=Part	11	acl	_	_
 27	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	SpaceAfter=No
-28	,	,	PUNCT	$,	_	30	punct	_	_
+28	,	,	PUNCT	$,	_	30	punct	_	SpaceAfter=No
 29	''	''	PUNCT	$(	_	30	punct	_	_
 30	teilte	teilen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 31	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	32	det	_	_
@@ -14204,15 +14204,15 @@
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s770
-# text = Die Brötchen waren mit Ameisen `` gespickt, '' im Lagerraum tummelten sich Kakerlaken und Mäuse:
+# text = Die Brötchen waren mit Ameisen ``gespickt,'' im Lagerraum tummelten sich Kakerlaken und Mäuse:
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Brötchen	Brötchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Ameisen	Ameise	NOUN	NN	Case=Dat|Number=Plur	7	nmod	_	_
-6	``	``	PUNCT	$(	_	7	punct	_	_
+6	``	``	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 7	gespickt	spicken	ADJ	VVPP	_	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	13	punct	_	_
+8	,	,	PUNCT	$,	_	13	punct	_	SpaceAfter=No
 9	''	''	PUNCT	$(	_	13	punct	_	_
 10-11	im	_	_	_	_	_	_	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
@@ -14265,7 +14265,7 @@
 36	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = dev-s772
-# text = Helmut Kohl (CDU) kündigte im Bundestag an, er wolle das vom IG -- Metall -- Vorsitzenden Klaus Zwickel angebotene `` Bündnis für Arbeit '' prüfen.
+# text = Helmut Kohl (CDU) kündigte im Bundestag an, er wolle das vom IG -- Metall -- Vorsitzenden Klaus Zwickel angebotene ``Bündnis für Arbeit'' prüfen.
 1	Helmut	Helmut	PROPN	NE	_	6	nsubj	_	_
 2	Kohl	Kohl	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
 3	(	(	PUNCT	$(	_	4	punct	_	SpaceAfter=No
@@ -14292,10 +14292,10 @@
 22	Klaus	Klaus	PROPN	NE	_	17	appos	_	_
 23	Zwickel	Zwickel	PROPN	NN	_	22	flat	_	_
 24	angebotene	angeboten	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
-25	``	``	PUNCT	$(	_	26	punct	_	_
+25	``	``	PUNCT	$(	_	26	punct	_	SpaceAfter=No
 26	Bündnis	Bündnis	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
 27	für	für	ADP	APPR	_	28	case	_	_
-28	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	_
+28	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
 29	''	''	PUNCT	$(	_	26	punct	_	_
 30	prüfen	prüfen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	6	punct	_	_
@@ -14320,7 +14320,7 @@
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s774
-# text = Ich habe den Feuerlöscher leergemacht, aber es war nichts zu machen, '' sagte ein Hausbewohner, der das Unglück unverletzt überlebte.
+# text = Ich habe den Feuerlöscher leergemacht, aber es war nichts zu machen,'' sagte ein Hausbewohner, der das Unglück unverletzt überlebte.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -14333,7 +14333,7 @@
 10	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	9	nsubj	_	_
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	machen	machen	VERB	VVINF	VerbForm=Inf	9	acl	_	SpaceAfter=No
-13	,	,	PUNCT	$,	_	15	punct	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	SpaceAfter=No
 14	''	''	PUNCT	$(	_	15	punct	_	_
 15	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
@@ -14413,7 +14413,7 @@
 41	.	.	PUNCT	$.	_	25	punct	_	_
 
 # sent_id = dev-s777
-# text = Es gibt keine Bedrohung mehr -- wo ist dann die Rechtfertigung für eine Wehrpflicht, ''? fragte der Vorsitzende der Zentralstelle, Ulrich Finckh, am Montag in Bremen.
+# text = Es gibt keine Bedrohung mehr -- wo ist dann die Rechtfertigung für eine Wehrpflicht,''? fragte der Vorsitzende der Zentralstelle, Ulrich Finckh, am Montag in Bremen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	18	ccomp	_	_
 3	keine	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
@@ -14428,7 +14428,7 @@
 12	für	für	ADP	APPR	_	14	case	_	_
 13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Wehrpflicht	Wehrpflicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	$,	_	18	punct	_	_
+15	,	,	PUNCT	$,	_	18	punct	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	18	punct	_	SpaceAfter=No
 17	?	?	PUNCT	$.	_	18	punct	_	_
 18	fragte	fragen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -14449,13 +14449,13 @@
 32	.	.	PUNCT	$.	_	18	punct	_	_
 
 # sent_id = dev-s778
-# text = Wir werden dagegen gerichtlich vorgehen, '' kündigte die Pressesprecherin an.
+# text = Wir werden dagegen gerichtlich vorgehen,'' kündigte die Pressesprecherin an.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	dagegen	dagegen	ADV	PAV	_	5	advmod	_	_
 4	gerichtlich	gerichtlich	ADV	ADJD	_	5	advmod	_	_
 5	vorgehen	vorgehen	VERB	VVINF	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	8	punct	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	8	punct	_	_
 8	kündigte	kündigen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -14464,13 +14464,13 @@
 12	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s779
-# text = Das hat der Partei genutzt. ''
+# text = Das hat der Partei genutzt.''
 1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Partei	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	_
 5	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	5	punct	_	_
 
 # sent_id = dev-s780
@@ -14493,7 +14493,7 @@
 16	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s781
-# text = Wenn Rußland den Vertrag vollständig erfüllt, dann wird das Sicherheitssystem des Landes, besonders an den südlichen und nördlichen Flanken vollständig zerstört, '' sagte Verteidigungsminister Pawel Gratschow.
+# text = Wenn Rußland den Vertrag vollständig erfüllt, dann wird das Sicherheitssystem des Landes, besonders an den südlichen und nördlichen Flanken vollständig zerstört,'' sagte Verteidigungsminister Pawel Gratschow.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	Rußland	Rußland	PROPN	NE	Case=Nom|Number=Sing	6	nsubj	_	_
 3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -14517,7 +14517,7 @@
 21	Flanken	Flanke	NOUN	NN	Case=Dat|Number=Plur	23	obl	_	_
 22	vollständig	vollständig	ADV	ADJD	_	23	advmod	_	_
 23	zerstört	zerstören	VERB	VVPP	VerbForm=Part	26	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	$,	_	26	punct	_	_
+24	,	,	PUNCT	$,	_	26	punct	_	SpaceAfter=No
 25	''	''	PUNCT	$(	_	26	punct	_	_
 26	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 27	Verteidigungsminister	Verteidigungsminister	NOUN	NN	Case=Nom|Number=Sing	26	nsubj	_	_
@@ -14526,7 +14526,7 @@
 30	.	.	PUNCT	$.	_	26	punct	_	_
 
 # sent_id = dev-s782
-# text = Aber die Bundesbank ist natürlich immer für eine Überraschung gut, '' hieß es bei einer Bank.
+# text = Aber die Bundesbank ist natürlich immer für eine Überraschung gut,'' hieß es bei einer Bank.
 1	Aber	aber	CCONJ	KON	_	10	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Bundesbank	Bundesbank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -14537,7 +14537,7 @@
 8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Überraschung	Überraschung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
 10	gut	gut	ADJ	ADJD	Degree=Pos	13	ccomp	_	SpaceAfter=No
-11	,	,	PUNCT	$,	_	13	punct	_	_
+11	,	,	PUNCT	$,	_	13	punct	_	SpaceAfter=No
 12	''	''	PUNCT	$(	_	13	punct	_	_
 13	hieß	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -14604,7 +14604,7 @@
 5	:	:	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s786
-# text = Generalsekretär Bernd Protzner betonte, der Machtwechsel an der SPD -- Spitze stelle `` einen personellen und inhaltlichen Linksruck dar ''.
+# text = Generalsekretär Bernd Protzner betonte, der Machtwechsel an der SPD -- Spitze stelle ``einen personellen und inhaltlichen Linksruck dar''.
 1	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
 2	Bernd	Bernd	PROPN	NE	_	1	appos	_	_
 3	Protzner	Protzner	PROPN	NE	_	2	flat	_	_
@@ -14618,18 +14618,18 @@
 11	--	--	PUNCT	$(	_	10	punct	_	_
 12	Spitze	Spitze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	flat	_	_
 13	stelle	stellen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	_
-14	``	``	PUNCT	$(	_	19	punct	_	_
+14	``	``	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 16	personellen	personell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	inhaltlichen	inhaltlich	ADJ	ADJA	Degree=Pos	16	conj	_	_
 19	Linksruck	Linksruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
-20	dar	dar	ADV	PTKVZ	_	13	compound:prt	_	_
+20	dar	dar	ADV	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
 21	''	''	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s787
-# text = Lennons zänkische Witwe Yoko Ono, die jahrelang mit Paul McCartney über Copyrights gestritten hatte, überreichte den `` Fab Three '' das unvollständige Archivmaterial, das bereits auf illegalen Raubpressungen unter Fans kursierte.
+# text = Lennons zänkische Witwe Yoko Ono, die jahrelang mit Paul McCartney über Copyrights gestritten hatte, überreichte den ``Fab Three'' das unvollständige Archivmaterial, das bereits auf illegalen Raubpressungen unter Fans kursierte.
 1	Lennons	Lennons	PROPN	NN	_	3	nmod	_	_
 2	zänkische	zänkisch	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	Witwe	Witwe	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
@@ -14648,9 +14648,9 @@
 16	,	,	PUNCT	$,	_	17	punct	_	_
 17	überreichte	überreichen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-19	``	``	PUNCT	$(	_	20	punct	_	_
+19	``	``	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 20	Fab	Fab	PROPN	NE	_	17	iobj	_	_
-21	Three	Three	PROPN	NE	Case=Dat|Number=Plur	20	flat	_	_
+21	Three	Three	PROPN	NE	Case=Dat|Number=Plur	20	flat	_	SpaceAfter=No
 22	''	''	PUNCT	$(	_	20	punct	_	_
 23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
 24	unvollständige	unvollständig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
@@ -14707,7 +14707,7 @@
 20	.	.	PUNCT	$.	_	19	punct	_	_
 
 # sent_id = dev-s790
-# text = Dazu besteht keine wirtschaftliche Notwendigkeit, man will in Stuttgart die AEG einfach nicht mehr. ''
+# text = Dazu besteht keine wirtschaftliche Notwendigkeit, man will in Stuttgart die AEG einfach nicht mehr.''
 1	Dazu	dazu	ADV	PAV	_	2	advmod	_	_
 2	besteht	bestehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 3	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
@@ -14723,7 +14723,7 @@
 13	einfach	einfach	ADV	ADJD	_	14	advmod	_	_
 14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
 15	mehr	mehr	ADV	ADV	_	8	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	2	punct	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	2	punct	_	_
 
 # sent_id = dev-s791
