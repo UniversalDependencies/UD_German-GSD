@@ -33,6 +33,9 @@ Contact: zeman@ufal.mff.cuni.cz
 
 * Changelog
 
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines (Dan Zeman)
+
 2016-08-21 Dan Zeman
 
 Added sentence ids.
