@@ -33,6 +33,11 @@ Contact: zeman@ufal.mff.cuni.cz
 
 * Changelog
 
+2017-04-13 Dan Zeman
+
+Removed duplicate sentences from the training data. They were too long to believe that they were naturally
+occurring duplicates.
+
 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman)
 
