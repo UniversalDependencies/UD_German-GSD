@@ -3693,26 +3693,26 @@
 6	Herr	Herr	NOUN	NN	_	8	compound	_	_
 7	Dr.	Dr.	NOUN	NN	_	8	compound	_	_
 8	Sieben	sieben	PROPN	CARD	Case=Acc|Number=Sing	3	obj	_	_
-9	und	und	CCONJ	KON	_	3	cc	_	_
-10	wie	wie	CCONJ	KOUS	_	12	cc	_	_
+9	und	und	CCONJ	KON	_	23	cc	_	_
+10	wie	wie	SCONJ	KOUS	_	12	mark	_	_
 11	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
-12	herausstellte	herausstellen	VERB	VVFIN	VerbForm=Fin	3	appos	_	SpaceAfter=No
-13	,	,	PUNCT	$,	_	3	punct	_	_
-14	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+12	herausstellte	herausstellen	ADV	ADV	_	23	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
 15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	3	punct	_	_
+16	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	_
 18	den	der	PRON	PRELS	Case=Acc|PronType=Rel	21	obj	_	_
 19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
 20	dort	dort	ADV	ADV	_	21	advmod	_	_
 21	bezahlte	bezahlen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	16	acl	_	_
 22	70	70	NUM	CARD	NumType=Card	23	nummod	_	_
-23	%	%	X	NN	_	25	nmod	_	_
+23	%	%	X	NN	_	3	conj	_	_
 24	unter	unter	ADP	APPR	_	25	case	_	_
-25	dem	der	PRON	ART	PronType=Dem	14	obl	_	_
+25	dem	der	PRON	ART	PronType=Dem	23	nmod	_	_
 26	der	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 27	anderen	ander	ADJ	ADJA	Degree=Pos	29	amod	_	_
-28	beiden	beide	PRON	PIAT	NumType=Card|PronType=Tot	29	det	_	_
+28	beiden	beide	DET	PIAT	NumType=Card|PronType=Tot	29	det	_	_
 29	Zahnärzte	Zahnarzt	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 30	!	!	PUNCT	$.	_	3	punct	_	SpaceAfter=No
 31	!	!	PUNCT	$.	_	3	punct	_	SpaceAfter=No
@@ -4129,7 +4129,7 @@
 # text = Die Praxis / Geräte wirken allerdings sehr veraltet.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Praxis	Praxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	/	/	X	$(	_	4	cc	_	_
+3	/	/	PUNCT	$(	_	4	punct	_	_
 4	Geräte	Gerät	NOUN	NN	_	2	conj	_	_
 5	wirken	wirken	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 6	allerdings	allerdings	ADV	ADV	_	5	advmod	_	_
@@ -4165,7 +4165,7 @@
 7	in	in	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Menschen	Mensch	NOUN	NN	Case=Dat|Number=Plur	3	obl	_	_
-10	/	/	X	$(	_	11	cc	_	_
+10	/	/	PUNCT	$(	_	11	punct	_	_
 11	Patienten	Patient	NOUN	NN	_	9	conj	_	_
 12	ein	ein	ADV	PTKVZ	_	3	compound:prt	_	_
 13	und	und	CCONJ	KON	_	18	cc	_	_
@@ -4317,16 +4317,16 @@
 4	TEAM	Team	PROPN	NN	Case=Nom|Number=Sing	3	flat	_	_
 5	bleibt	bleiben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 6	so	so	ADV	ADV	_	5	advmod	_	_
-7	wie	wie	CCONJ	KOKOM	_	9	cc	_	_
-8	ihr	ihr	PRON	PPOSAT	Case=Nom|Person=3|Poss=Yes|PronType=Prs	9	nsubj	_	_
-9	seid	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+7	wie	wie	ADV	ADV	_	6	advcl	_	_
+8	ihr	ihr	PRON	PPOSAT	Case=Nom|Person=3|Poss=Yes|PronType=Prs	7	nsubj	_	_
+9	seid	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 10	!	!	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 11	!	!	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s249
 # text = Ich / Wir freuen uns jetzt schon auf den nächsten Besuch!!
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	/	/	X	$(	_	3	cc	_	_
+2	/	/	PUNCT	$(	_	3	punct	_	_
 3	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	conj	_	_
 4	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 5	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
@@ -4503,19 +4503,19 @@
 # sent_id = dev-s258
 # text = Frische leckere Zutaten, ganz wie bei den Mutter - Restaurants Block - Haus.
 1	Frische	frisch	ADJ	ADJA	Degree=Pos	3	amod	_	_
-2	leckere	lecker	ADJ	ADJA	Degree=Pos	1	conj	_	_
+2	leckere	lecker	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Zutaten	Zutaten	NOUN	NN	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	$,	_	3	punct	_	_
-5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
-6	wie	wie	CCONJ	KOKOM	_	3	cc	_	_
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	ganz	ganz	ADV	ADV	_	11	advmod	_	_
+6	wie	wie	SCONJ	KOKOM	_	11	case	_	_
 7	bei	bei	ADP	APPR	_	11	case	_	_
 8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 9	Mutter	Mutter	NOUN	NN	_	11	compound	_	_
-10	-	-	PUNCT	$(	_	11	punct	_	_
+10	-	-	PUNCT	$(	_	9	punct	_	_
 11	Restaurants	Restaurant	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	_
-12	Block	Block	PROPN	NN	_	11	appos	_	_
+12	Block	Block	NOUN	NN	_	11	appos	_	_
 13	-	-	PUNCT	$(	_	12	punct	_	_
-14	Haus	Haus	PROPN	NN	_	12	flat	_	SpaceAfter=No
+14	Haus	Haus	NOUN	NN	_	12	flat	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s259
@@ -5492,7 +5492,7 @@
 # sent_id = dev-s320
 # text = Aber noch nie bin ich so gut, so schnell und so kompetent wie bei Herrn Klimmet bedient worden.
 1	Aber	aber	CCONJ	KON	_	18	cc	_	_
-2	noch	noch	ADV	ADV	_	3	advmod	_	_
+2	noch	noch	ADV	ADV	_	18	advmod	_	_
 3	nie	nie	ADV	ADV	Polarity=Neg	18	advmod	_	_
 4	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj:pass	_	_
@@ -5504,10 +5504,10 @@
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
 13	kompetent	kompetent	ADV	ADJD	_	7	conj	_	_
-14	wie	wie	CCONJ	KOKOM	_	18	cc	_	_
+14	wie	wie	SCONJ	KOKOM	_	17	cc	_	_
 15	bei	bei	ADP	APPR	_	17	case	_	_
 16	Herrn	Herr	NOUN	NN	_	17	compound	_	_
-17	Klimmet	Klimmet	PROPN	NN	Case=Dat|Number=Sing	18	obl	_	_
+17	Klimmet	Klimmet	PROPN	NN	Case=Dat|Number=Sing	7	obl	_	_
 18	bedient	bedienen	VERB	VVPP	VerbForm=Part	0	root	_	_
 19	worden	werden	AUX	VAPP	VerbForm=Part	18	aux:pass	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	18	punct	_	_
@@ -6661,8 +6661,8 @@
 3	Termin	Termin	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
 4	lief	laufen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
 5	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	4	nsubj	_	_
-6	wie	wie	CCONJ	KOKOM	_	7	cc	_	_
-7	besprochen	besprechen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+6	wie	wie	SCONJ	KOKOM	_	7	mark	_	_
+7	besprochen	besprechen	VERB	VVPP	VerbForm=Part	4	advcl	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s395
@@ -12508,9 +12508,9 @@
 11	in	in	ADP	APPR	_	14	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
 13	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	amod	_	_
-14	Management	Management	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
-15	wie	wie	CCONJ	KOKOM	_	19	cc	_	_
-16	auch	auch	ADV	ADV	_	15	advmod	_	_
+14	Management	Management	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	22	obl	_	_
+15	wie	wie	CCONJ	KON	_	19	cc	_	_
+16	auch	auch	ADV	ADV	_	19	advmod	_	_
 17	bei	bei	ADP	APPR	_	19	case	_	_
 18	vielen	viel	ADJ	PIAT	Degree=Pos	19	amod	_	_
 19	Arbeitnehmerinnen	Arbeitnehmerin	NOUN	NN	_	14	conj	_	_
@@ -13714,22 +13714,22 @@
 
 # sent_id = dev-s747
 # text = Natürlich nur mit legalen Methoden,'' wie Ellen Waitzis von der Hessischen Verbraucherzentrale betont.
-1	Natürlich	natürlich	ADV	ADV	_	2	advmod	_	_
+1	Natürlich	natürlich	ADV	ADV	_	5	advmod	_	_
 2	nur	nur	ADV	ADV	_	5	advmod	_	_
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	legalen	legal	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
-5	Methoden	Methode	NOUN	NN	Case=Dat|Number=Plur	15	obl	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	15	punct	_	SpaceAfter=No
-7	''	''	PUNCT	$(	_	15	punct	_	_
-8	wie	wie	CCONJ	KOUS	_	15	cc	_	_
+5	Methoden	Methode	NOUN	NN	Case=Dat|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	SpaceAfter=No
+7	''	''	PUNCT	$(	_	5	punct	_	_
+8	wie	wie	SCONJ	KOUS	_	15	mark	_	_
 9	Ellen	Ellen	PROPN	NE	_	15	nsubj	_	_
 10	Waitzis	Waitzis	PROPN	NE	Case=Nom|Number=Sing	9	flat	_	_
 11	von	von	ADP	APPR	_	14	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	Hessischen	hessisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	Verbraucherzentrale	Verbraucherzentrale	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
-15	betont	betonen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	_
+15	betont	betonen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s748
 # text = Die Einkünfte werden mit dem persönlichen Einkommensteuersatz von maximal 53 Prozent belegt.
