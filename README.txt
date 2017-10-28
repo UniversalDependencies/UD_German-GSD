@@ -1,3 +1,20 @@
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: news reviews wiki
+Lemmas: automatic
+UPOS: converted from manual
+XPOS: automatic
+Features: automatic
+Relations: converted from manual
+Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 2
+===============================================================================
+(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
 The German UD is converted from the content head version of the universal
 dependency treebank v2.0 (legacy):
 
@@ -17,17 +34,6 @@ lower recall because we did not add them where the context did not provide
 enough clues (morphological analyzer / lexicon was not used at this stage).
 
 
-
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
-Genre: news reviews wiki
-Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
-(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
 
 
