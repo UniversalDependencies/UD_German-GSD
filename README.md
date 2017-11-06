@@ -1,26 +1,10 @@
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
-Includes text: yes
-Genre: news reviews wiki
-Lemmas: automatic
-UPOS: converted from manual
-XPOS: automatic
-Features: automatic
-Relations: converted from manual
-Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
-Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 2
-===============================================================================
-(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+# Summary
 
-The German UD is converted from the content head version of the universal
-dependency treebank v2.0 (legacy):
+The German UD is converted from the content head version of the [universal
+dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
-https://code.google.com/p/uni-dep-tb/
 
-The README for that project is included here.
+# Introduction
 
 The German UD conforms to the UD guidelines, but there are some exceptions.
 
@@ -33,11 +17,7 @@ annotation, e.g. nsubj => nominative. They should have high precision but
 lower recall because we did not add them where the context did not provide
 enough clues (morphological analyzer / lexicon was not used at this stage).
 
-
-
-
-
-* Changelog
+# Changelog
 
 2017-04-13 Dan Zeman
 
@@ -250,3 +230,20 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
+
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: news reviews wiki
+Lemmas: automatic
+UPOS: converted from manual
+XPOS: automatic
+Features: automatic
+Relations: converted from manual
+Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
