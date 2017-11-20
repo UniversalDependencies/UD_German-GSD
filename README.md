@@ -19,6 +19,10 @@ enough clues (morphological analyzer / lexicon was not used at this stage).
 
 # Changelog
 
+2017-11-20 Dan Zeman
+  * Fixed: copula is AUX.
+  * Fixed: capitalization of multi-word tokens at sentence beginning.
+
 2017-04-13 Dan Zeman
 
 Removed duplicate sentences from the training data. They were too long to believe that they were naturally

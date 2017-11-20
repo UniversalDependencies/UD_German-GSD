@@ -15,7 +15,7 @@
     <tag name="ADJ">20887</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31658</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14718</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
-    <tag name="AUX">6784</tag><!-- werden, haben, können, sein, müssen, sollen, wollen, dürfen, mögen, lassen -->
+    <tag name="AUX">11396</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, bleiben, dürfen, gelten -->
     <tag name="CCONJ">8858</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, and, doch -->
     <tag name="DET">36233</tag><!-- der, ein, sein, ihr, Ihr|ihr, dies, jen, mein, unser, all -->
     <tag name="NOUN">52233</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
@@ -25,7 +25,7 @@
     <tag name="PROPN">31467</tag><!-- d, von, Deutschland, de, of, Berlin, the, deutsch, US, SPD -->
     <tag name="PUNCT">38292</tag><!-- ., ,, -, ", ), (, –, !, :, '' -->
     <tag name="SCONJ">1801</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
-    <tag name="VERB">24533</tag><!-- sein, haben, werden, geben, kommen, finden, liegen, gehen, machen, gehören -->
+    <tag name="VERB">19921</tag><!-- haben, geben, sein, kommen, finden, liegen, gehen, gehören, machen, stehen -->
     <tag name="X">369</tag><!-- z.B., u.a., =, %, b., etc., werden, †, &amp;, * -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -100,7 +100,7 @@
     <dep name="cop">4811</dep>
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
-    <dep name="dep">775</dep>
+    <dep name="dep">774</dep>
     <dep name="det">36321</dep>
     <dep name="det:poss">2362</dep>
     <dep name="expl">396</dep>
@@ -116,7 +116,7 @@
     <dep name="obj">8657</dep>
     <dep name="obl">17265</dep>
     <dep name="parataxis">559</dep>
-    <dep name="punct">38294</dep>
+    <dep name="punct">38295</dep>
     <dep name="root">15590</dep>
     <dep name="xcomp">1072</dep>
   </deps>

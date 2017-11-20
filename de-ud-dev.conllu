@@ -1,7 +1,7 @@
 # sent_id = dev-s1
 # text = Manasse ist ein einzigartiger Parfümeur.
 1	Manasse	Manasse	PROPN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
 4	einzigartiger	einzigartig	ADJ	ADJA	Degree=Cmp,Pos	5	amod	_	_
 5	Parfümeur	Parfümeur	NOUN	NN	_	0	root	_	SpaceAfter=No
@@ -22,7 +22,7 @@
 # sent_id = dev-s3
 # text = Es war für mich Ausgangspunkt zu einer Parfümkreation.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	für	für	ADP	APPR	_	4	case	_	_
 4	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
 5	Ausgangspunkt	Ausgangspunkt	NOUN	NN	_	0	root	_	_
@@ -50,7 +50,7 @@
 # sent_id = dev-s5
 # text = Es ist unbeschreiblich.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	unbeschreiblich	unbeschreiblich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -78,7 +78,7 @@
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	was	was	PRON	PRELS	Number=Sing|PronType=Rel	3	acl	_	_
 3	traurig	traurig	ADJ	ADJD	Degree=Pos	0	root	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	das	d	SCONJ	PDS	_	13	mark	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Bedienung	Bedienung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -117,7 +117,7 @@
 4	Feuerwerk	Feuerwerk	NOUN	NN	_	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-7	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	begeistert	begeistert	ADJ	ADJD	Degree=Pos	0	root	_	_
 9	von	von	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -205,7 +205,7 @@
 10	mit	mit	ADP	APPR	_	12	case	_	_
 11	Ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Gründerzeithäusern	Gründerzeithaus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
-13	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	sehenswert	sehenswert	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -214,7 +214,7 @@
 1	Alles	alle	PRON	PIS	PronType=Tot	12	nmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	Allem	Allem	NOUN	NN	_	1	nmod	_	_
-4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 5	dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	Urlaub	Urlaub	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 7	mit	mit	ADP	APPR	_	8	case	_	_
@@ -315,7 +315,7 @@
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	dieser	dies	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	Shop	Shop	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	für	für	ADP	APPR	_	10	case	_	_
 9	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Schnäppchen	Schnäppchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -400,15 +400,15 @@
 # text = Das Personal ist freundlich und authentisch.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	authentisch	authentisch	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s29
-# text = im Mai 2010 haben wir den Geburtstagsgutschein zum 67. meines Vaters eingelöst.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Mai 2010 haben wir den Geburtstagsgutschein zum 67. meines Vaters eingelöst.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	obl	_	_
@@ -431,7 +431,7 @@
 # text = Der Empfang war sehr freundlich.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Empfang	Empfang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -439,7 +439,7 @@
 # sent_id = dev-s31
 # text = Wir waren die letzten Panzerkutscher vor Feierabend, was sich als Nachteil heraus stellte.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	letzten	letzt	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Panzerkutscher	Panzerkutscher	NOUN	NN	_	0	root	_	_
@@ -504,7 +504,7 @@
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
 4	begleitenden	begleitend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	5	amod	_	_
 5	Panzerfahrers	Panzerfahrers	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	unfreundlich	unfreundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
@@ -556,7 +556,7 @@
 1	Für	für	ADP	APPR	_	3	case	_	_
 2	130,00	130,00	NUM	CARD	NumType=Card	3	nummod	_	_
 3	EUR	EUR	PROPN	NN	Case=Acc|Number=Sing	11	nmod	_	_
-4	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
 5	das	der	PRON	PDS	Case=Nom|PronType=Dem	11	nsubj	_	_
 6	für	für	ADP	APPR	_	7	case	_	_
 7	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nmod	_	_
@@ -662,8 +662,8 @@
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s44
-# text = im Nachhinein stellte sich heraus, dass die Qualität des Mitschnittes sehr schlecht war.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Nachhinein stellte sich heraus, dass die Qualität des Mitschnittes sehr schlecht war.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Nachhinein	Nachhinein	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
@@ -678,7 +678,7 @@
 12	Mitschnittes	Mitschnittes	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	10	nmod	_	_
 13	sehr	sehr	ADV	ADV	_	14	advmod	_	_
 14	schlecht	schlecht	ADJ	ADJD	Degree=Pos	4	csubj	_	_
-15	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
+15	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s45
@@ -727,7 +727,7 @@
 3	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	4	amod	_	_
 4	beusch	beusch	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	11	punct	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	cop	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 8	über	über	ADP	APPR	_	10	case	_	_
 9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -767,7 +767,7 @@
 6	Getränke	Getränk	NOUN	NN	_	3	conj	_	_
 7	Preis	Preis	NOUN	NN	_	8	compound	_	_
 8	Leistung	Leistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
 11	gut	gut	ADJ	ADJD	Degree=Pos	3	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
@@ -782,7 +782,7 @@
 # text = Seit 1964 ist mein Mann rund 1 mal pro Jahr Gast in diesem Hotel.
 1	Seit	seit	ADP	APPR	_	2	case	_	_
 2	1964	1964	NUM	CARD	NumType=Card	11	nmod	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 4	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	11	nsubj	_	_
 6	rund	rund	ADV	ADV	_	7	advmod	_	_
@@ -830,7 +830,7 @@
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Beschwerde	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
-8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	unfreundlich	unfreundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 10	und	und	CCONJ	KON	_	9	cc	_	_
 11	ebenfalls	ebenfalls	ADV	ADV	_	9	advmod	_	_
@@ -875,7 +875,7 @@
 # sent_id = dev-s56
 # text = Das ist unsozial und spricht nicht gerade für eine zeitgemäße umweltorientierte Einstellung Ihres Unternehmens.
 1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	unsozial	unsozial	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	spricht	sprechen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
@@ -941,7 +941,7 @@
 # text = Für uns war vor allem der Hausbesuch das Highlight dieses Optikers.
 1	Für	für	ADP	APPR	_	2	case	_	_
 2	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 4	vor	vor	ADP	APPR	_	5	case	_	_
 5	allem	alle	PRON	PIS	PronType=Tot	9	nmod	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -956,7 +956,7 @@
 # text = Meine Mutter ist bettlägerig und er kam einfach mit seinen Geräten zu ihr nach Hause!
 1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	bettlägerig	bettlägerig	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
 6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -1012,7 +1012,7 @@
 # sent_id = dev-s63
 # text = Service war freundlich, wenn auch total gehetzt und spät.
 1	Service	Service	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	wenn	wenn	CCONJ	KOUS	_	8	cc	_	_
@@ -1038,7 +1038,7 @@
 11	weil	weil	SCONJ	KOUS	_	13	mark	_	_
 12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	lecker	lecker	ADJ	ADJD	Degree=Pos	8	advcl	_	_
-14	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	SpaceAfter=No
+14	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s65
@@ -1147,7 +1147,7 @@
 # sent_id = dev-s71
 # text = Ich bin der Meinung, dass niemand in diesem Geschäft kaufen sollte!
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Meinung	Meinung	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -1202,7 +1202,7 @@
 # text = Möbel Boss ist mittlerweile echt teuer und das Material lässt zu wünschen übrig.
 1	Möbel	Möbel	NOUN	NN	_	2	compound	_	_
 2	Boss	Boß	PROPN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	mittlerweile	mittlerweile	ADV	ADV	_	6	advmod	_	_
 5	echt	echt	ADV	ADJD	_	6	advmod	_	_
 6	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	_
@@ -1341,7 +1341,7 @@
 10	dort	dort	ADV	ADV	_	12	advmod	_	_
 11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
 12	nett	nett	ADJ	ADJD	Degree=Pos	6	advcl	_	_
-13	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
+13	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s82
@@ -1351,7 +1351,7 @@
 3	operieren	operieren	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 4	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 5	und	und	CCONJ	KON	_	8	cc	_	_
-6	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	bin	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	jetzt	jetzt	ADV	ADV	_	8	advmod	_	_
 8	beschwerdefrei	beschwerdefrei	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	4	punct	_	_
@@ -1359,7 +1359,7 @@
 # sent_id = dev-s83
 # text = Wahrscheinlich waren das die besten Arbeitsjahre überhaupt.
 1	Wahrscheinlich	wahrscheinlich	ADV	ADJD	_	6	advmod	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 3	das	der	PRON	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 5	besten	gut	ADJ	ADJA	Degree=Sup	6	amod	_	_
@@ -1401,7 +1401,7 @@
 2	Sakko	Sakko	NOUN	NN	_	4	compound	_	_
 3	-	-	PUNCT	$(	_	4	punct	_	_
 4	Ärmel	Ärmel	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	7	nsubj	_	_
-5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 6	zu	zu	ADV	PTKA	_	7	advmod	_	_
 7	lang	lang	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
@@ -1462,11 +1462,11 @@
 10	dass	dass	SCONJ	KOUS	_	12	mark	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 12	weiblich	weiblich	ADJ	ADJD	Degree=Pos	8	ccomp	_	_
-13	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
+13	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	19	punct	_	_
 15	aber	aber	CCONJ	KON	_	19	cc	_	_
 16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-17	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
 18	sehr	sehr	ADV	ADV	_	19	advmod	_	_
 19	nervös	nervös	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	21	punct	_	_
@@ -1508,7 +1508,7 @@
 10	"	"	PUNCT	$(	_	9	punct	_	_
 11	verbracht	verbringen	VERB	VVPP	VerbForm=Part	0	root	_	_
 12	und	und	CCONJ	KON	_	17	cc	_	_
-13	war	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+13	war	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	mehr	mehr	ADV	ADV	_	16	advmod	_	_
 15	als	als	ADP	KOKOM	_	14	case	_	_
 16	angenehm	angenehm	ADV	ADJD	_	17	advmod	_	_
@@ -1553,7 +1553,7 @@
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Preise	Preis	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	_
-14	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	moderat	moderat	ADJ	ADJD	Degree=Pos	10	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	10	punct	_	_
 
@@ -1656,7 +1656,7 @@
 10	Tunnels	Tunnel	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
 11	und	und	CCONJ	KON	_	14	cc	_	_
 12	das	der	PRON	PDS	Case=Nom|PronType=Dem	14	nsubj	_	_
-13	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	Drake	Drake	PROPN	NN	_	3	conj	_	_
 15	records	records	PROPN	ADJD	_	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
@@ -1740,8 +1740,8 @@
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s101
-# text = im letzten Jahr, bin ich auf die Hompepage von Frau Rübben gestoßen und habe dann auch direkt einen Termin gemacht.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im letzten Jahr, bin ich auf die Hompepage von Frau Rübben gestoßen und habe dann auch direkt einen Termin gemacht.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 3	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	4	amod	_	_
@@ -1782,7 +1782,7 @@
 12	Massagen	Massage	NOUN	NN	Case=Acc|Number=Plur	13	obj	_	_
 13	ausprobiert	ausprobieren	VERB	VVPP	VerbForm=Part	2	conj	_	_
 14	und	und	CCONJ	KON	_	18	cc	_	_
-15	war	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
+15	war	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
 16	immer	immer	ADV	ADV	_	18	advmod	_	_
 17	wieder	wieder	ADV	ADV	_	18	advmod	_	_
 18	begeistert	begeistern	ADJ	VVPP	_	2	conj	_	SpaceAfter=No
@@ -1834,7 +1834,7 @@
 5	Massage	Massage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 6	sucht	suchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	acl	_	_
 7	der	der	PRON	ART	Case=Nom|PronType=Dem	11	nsubj	_	_
-8	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	hier	hier	ADV	ADV	_	11	advmod	_	_
 10	genau	genau	ADV	ADJD	_	11	advmod	_	_
 11	richtig	richtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -1864,7 +1864,7 @@
 3	Appetit	Appetit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	aufkommt	aufkommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	15	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	15	punct	_	_
-6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 9	White	White	PROPN	NN	_	15	nsubj	_	_
@@ -1889,7 +1889,7 @@
 9	und	und	CCONJ	KON	_	14	cc	_	_
 10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Ambiente	Ambiente	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
-12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	einfach	einfach	ADV	ADJD	_	14	advmod	_	_
 14	gemütlich	gemütlich	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No
 15	!	!	PUNCT	$.	_	3	punct	_	_
@@ -1906,7 +1906,7 @@
 8	Gruppenfeierlichkeiten	Gruppenfeierlichkeiten	NOUN	NN	_	6	nmod	_	_
 9	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	und	und	CCONJ	KON	_	13	cc	_	_
-11	wurde	werden	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	wurde	werden	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
 12	nie	nie	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	enttäuscht	enttäuscht	ADJ	ADJD	Degree=Pos	9	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	9	punct	_	_
@@ -1946,7 +1946,7 @@
 6	,	,	PUNCT	$,	_	10	punct	_	_
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	Räumlichkeiten	Räumlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
-9	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	sauber	sauber	ADJ	ADJD	Degree=Pos	3	conj	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	angenehm	angenehm	ADV	ADJD	_	13	advmod	_	_
@@ -2127,7 +2127,7 @@
 7	Juni	Juni	PROPN	NN	_	2	obl	_	_
 8	2011	2011	NUM	CARD	NumType=Card	7	nmod	_	_
 9	und	und	CCONJ	KON	_	12	cc	_	_
-10	sind	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	sind	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	hellauf	hellauf	ADV	ADJD	_	12	advmod	_	_
 12	begeistert	begeistern	ADJ	VVPP	_	2	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
@@ -2149,7 +2149,7 @@
 # text = Die Preise sind moderat, die Lieferzeiten wurden exakt eingehalten, die Küchenmonteure waren freundlich und haben auch nicht gemurrt, dass der Aufbau etwas länger als geplant gedauert hat.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Preise	Preis	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	moderat	moderat	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
@@ -2160,7 +2160,7 @@
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Küchenmonteure	Küchenmonteure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-14	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
 15	freundlich	freundlich	ADJ	ADJD	Degree=Pos	4	conj	_	_
 16	und	und	CCONJ	KON	_	20	cc	_	_
 17	haben	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -2250,7 +2250,7 @@
 6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 7	den	der	DET	ART	Definite=Def|PronType=Art	8	dep	_	_
 8	70er	70er	NOUN	ADJA	Case=Dat|Number=Plur	4	nmod	_	_
-9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	etwas	etwas	ADV	ADV	_	11	advmod	_	_
 11	kompliziert	kompliziert	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	16	punct	_	_
@@ -2269,7 +2269,7 @@
 # sent_id = dev-s131
 # text = Wir waren begeistert.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	begeistert	begeistern	ADJ	VVPP	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -2342,7 +2342,7 @@
 9	beurteilen	beurteilen	VERB	VVINF	VerbForm=Inf	15	parataxis	_	_
 10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	15	punct	_	_
-12	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 13	die	der	PRON	PDS	Case=Nom|PronType=Dem	15	nsubj	_	_
 14	deutlich	deutlich	ADV	ADJD	_	15	advmod	_	_
 15	schlechter	schlecht	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
@@ -2407,7 +2407,7 @@
 # text = Die Ausstellungsräume sind fabelhaft und wirklich mit Liebe im Detail präsentiert.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	Ausstellungsräume	Ausstellungsraum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 4	fabelhaft	fabelhaft	ADJ	ADJD	Degree=Pos	12	cop	_	_
 5	und	und	CCONJ	KON	_	12	cc	_	_
 6	wirklich	wirklich	ADV	ADJD	_	8	advmod	_	_
@@ -2460,8 +2460,8 @@
 11	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s142
-# text = im Sommer sehen wir uns bezüglich einer Markise wieder.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Sommer sehen wir uns bezüglich einer Markise wieder.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
@@ -2630,7 +2630,7 @@
 15	freundlich	freundlich	ADJ	ADJD	Degree=Pos	11	conj	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	professionel	professionel	ADJ	ADJD	Degree=Pos	15	conj	_	_
-18	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s151
@@ -2681,7 +2681,7 @@
 5	gut	gut	ADV	ADJD	_	6	advmod	_	_
 6	beraten	beraten	ADJ	VVPP	Degree=Pos	2	xcomp	_	_
 7	und	und	CCONJ	KON	_	13	cc	_	_
-8	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+8	bin	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
 9	mit	mit	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Leistung	Leistung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -2706,7 +2706,7 @@
 # text = Der Arzt ist zwar sehr freundlich, aber es trat selbst nach dem zweiten Besuch keine komplette Heilung durch die verschriebene Salbe ein.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	zwar	zwar	ADV	ADV	_	6	advmod	_	_
 5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
 6	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -2747,7 +2747,7 @@
 14	ein	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
 15	bischen	bischen	ADJ	ADJA	Degree=Pos	16	nmod	_	_
 16	teuer	teuer	ADJ	ADJD	Degree=Pos	5	advcl	_	_
-17	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
+17	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s157
@@ -2848,7 +2848,7 @@
 # text = Das AlPonte ist ein beliebter Motorradtreff mit hübschen Service - Personal!
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	AlPonte	AlPonte	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
 5	beliebter	beliebt	ADJ	ADJA	Degree=Cmp,Pos	6	amod	_	_
 6	Motorradtreff	Motorradtreff	NOUN	NN	_	0	root	_	_
@@ -2866,8 +2866,8 @@
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s164
-# text = beim Betreten des Ladens würdigt der Inhaber dem Kunden keines Blickes.
-1-2	beim	_	_	_	_	_	_	_	_
+# text = Beim Betreten des Ladens würdigt der Inhaber dem Kunden keines Blickes.
+1-2	Beim	_	_	_	_	_	_	_	_
 1	Bei	bei	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Betreten	Betreten	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
@@ -2909,7 +2909,7 @@
 2	Blick	Blick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Besitzers	Besitzer	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-5	bleibt	bleiben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	cop	_	_
+5	bleibt	bleiben	AUX	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	cop	_	_
 6	weiterhin	weiterhin	ADV	ADV	_	10	advmod	_	_
 7	auf	auf	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -2922,7 +2922,7 @@
 1	Grund	Grund	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
 2	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Besuchs	Besuch	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
-4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Wunsch	Wunsch	NOUN	NN	_	0	root	_	_
 7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -2970,8 +2970,8 @@
 34	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = dev-s169
-# text = beim Besuch war dann schließlich keine Vespa mehr da.
-1-2	beim	_	_	_	_	_	_	_	_
+# text = Beim Besuch war dann schließlich keine Vespa mehr da.
+1-2	Beim	_	_	_	_	_	_	_	_
 1	Bei	bei	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Besuch	Besuch	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
@@ -3030,7 +3030,7 @@
 # sent_id = dev-s172
 # text = Es ist sehr traurig!
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	traurig	traurig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	$.	_	4	punct	_	_
@@ -3265,7 +3265,7 @@
 3	150	150	NUM	CARD	NumType=Card	4	nummod	_	_
 4	T	T	X	NN	_	5	nummod	_	_
 5	€	€	X	NN	_	12	nmod	_	_
-6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 8	auch	auch	ADV	ADV	_	12	advmod	_	_
 9	ja	ja	ADV	ADV	_	12	advmod	_	_
@@ -3312,7 +3312,7 @@
 # text = Das Studio ist super ausgestattet mit den neuesten TechnoGym - Geräten und verfügt über saubere Umkleiden, Duschen, Solarien, rollen und Bandmassage, einen großen Gymnastiksaal und Sauna.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Studio	Studio	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	super	super	ADV	ADJD	_	5	advmod	_	_
 5	ausgestattet	ausstatten	ADJ	VVPP	_	0	root	_	_
 6	mit	mit	ADP	APPR	_	9	case	_	_
@@ -3379,7 +3379,7 @@
 # text = Das Personal ist sehr nett und man trainiert in toller Gesellschaft.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	nett	nett	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	8	cc	_	_
@@ -3421,7 +3421,7 @@
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	nur	nur	ADV	ADV	_	14	advmod	_	_
 10	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	14	nsubj	_	_
-11	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
 13	wenig	wenig	ADV	PIS	_	14	advmod	_	_
 14	teuer	teuer	ADJ	ADJD	Degree=Pos	2	conj	_	_
@@ -3429,7 +3429,7 @@
 # sent_id = dev-s196
 # text = Wir sind super glücklich, dass wir sie haben!
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	super	super	ADV	ADJD	_	4	advmod	_	_
 4	glücklich	glücklich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -3452,7 +3452,7 @@
 # sent_id = dev-s198
 # text = Es ist aus meiner Sicht der Stil, der sich als roter Faden durch den Unterricht, die Räumlichkeiten, die Gestaltung des Rahmens, die Begegnung mit den Teilnehmern und auch die Person des Yoga - Lehrers zieht.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	aus	aus	ADP	APPR	_	5	case	_	_
 4	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -3556,7 +3556,7 @@
 # sent_id = dev-s202
 # text = Ich bin der größte Angsthase der Welt was Zahnärzte angeht.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	größte	groß	ADJ	ADJA	_	5	amod	_	_
 5	Angsthase	Angsthase	NOUN	NN	_	0	root	_	_
@@ -3585,7 +3585,7 @@
 # sent_id = dev-s204
 # text = Also war es bei mir vor zwei Wochen so weit...
 1	Also	also	ADV	ADV	_	10	advmod	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 4	bei	bei	ADP	APPR	_	5	case	_	_
 5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
@@ -3637,7 +3637,7 @@
 # sent_id = dev-s207
 # text = Ich bin echt begeistert.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	echt	echt	ADV	ADJD	_	4	advmod	_	_
 4	begeistert	begeistern	ADJ	VVPP	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
@@ -3759,7 +3759,7 @@
 1	Herr	Herr	NOUN	NN	_	3	compound	_	_
 2	Dr.	Dr.	NOUN	NN	_	3	compound	_	_
 3	Sieben	sieben	PROPN	CARD	Case=Nom|Number=Sing	11	nsubj	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 5	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
 6	äußerst	äußerst	ADV	ADV	_	7	advmod	_	_
 7	kompetenter	kompetent	ADJ	ADJA	Degree=Cmp,Pos	11	amod	_	_
@@ -3773,7 +3773,7 @@
 # text = Die Praxis ist sehr schön eingerichtet, freundliches Wartezimmer, schöne und gepflegte Behandlungsräume, alles tiptop!!
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Praxis	Praxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	schön	schön	ADV	ADJD	_	6	advmod	_	_
 6	eingerichtet	einrichten	ADJ	VVPP	_	0	root	_	SpaceAfter=No
@@ -3846,7 +3846,7 @@
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Empfang	Empfang	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 9	ebenso	ebenso	ADV	ADV	_	13	advmod	_	_
@@ -3865,7 +3865,7 @@
 5	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	neuer	neu	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
 7	Hausarzt	Hausarzt	NOUN	NN	_	0	root	_	_
-8	werden	werden	VERB	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
+8	werden	werden	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s220
@@ -3899,7 +3899,7 @@
 # sent_id = dev-s223
 # text = Wir sind unmittelbare Nachbarn vom Rauschgold und leiden sehr unter dem Lärm der dort verursacht wird.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	unmittelbare	unmittelbar	ADJ	ADJA	Degree=Pos	4	amod	_	_
 4	Nachbarn	Nachbar	NOUN	NN	_	0	root	_	_
 5-6	vom	_	_	_	_	_	_	_	_
@@ -3995,7 +3995,7 @@
 13	die	der	PRON	ART	Case=Nom|PronType=Dem	15	nsubj	_	_
 14	socially	socially	ADV	NE	_	15	advmod	_	_
 15	correct	correct	ADJ	NE	Degree=Pos	10	conj	_	_
-16	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+16	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s228
@@ -4013,7 +4013,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Pizzeria	Pizzeria	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	Waldhorn	Waldhorn	PROPN	NE	_	2	appos	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
 6	wirklich	wirklich	ADV	ADJD	_	7	advmod	_	_
 7	gute	gut	ADJ	ADJA	Degree=Pos	8	amod	_	_
@@ -4033,7 +4033,7 @@
 4	bestellt	bestellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	leider	leider	ADV	ADV	_	12	advmod	_	_
-7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 8	zweimal	zweimal	ADV	ADV	_	12	advmod	_	_
 9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Lasagne	Lasagne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -4110,7 +4110,7 @@
 # text = Herr Opitz ist wirklich nett, immer zu einem Pläuschen bereit und wirkt durchaus kompetent.
 1	Herr	Herr	NOUN	NN	_	2	compound	_	_
 2	Opitz	Opitz	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	wirklich	wirklich	ADV	ADJD	_	5	advmod	_	_
 5	nett	nett	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
@@ -4189,7 +4189,7 @@
 3	und	und	CCONJ	KON	_	12	cc	_	_
 4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 7	bis	bis	ADP	KON	_	8	case	_	_
 8	jetzt	jetzt	ADV	ADV	_	12	advmod	_	_
 9	auch	auch	ADV	ADV	_	10	advmod	_	_
@@ -4223,7 +4223,7 @@
 8	auch	auch	ADV	ADV	_	10	advmod	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Fleischgerichte	Fleischgericht	NOUN	NN	_	2	conj	_	_
-11	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
 13	lecker	lecker	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 14	!	!	PUNCT	$.	_	13	punct	_	SpaceAfter=No
@@ -4346,7 +4346,7 @@
 3	und	und	CCONJ	KON	_	5	cc	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Besitzer	Besitzer	NOUN	NN	_	2	conj	_	_
-6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	einfach	einfach	ADV	ADJD	_	8	advmod	_	_
 8	spitze	spitzen	ADJ	VVFIN	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
@@ -4393,7 +4393,7 @@
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	Auswahl	Auswahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
-5	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	cop	_	_
 6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	wirklich	wirklich	ADV	ADJD	_	8	advmod	_	_
 8	überrascht	überraschen	ADJ	VVPP	_	0	root	_	_
@@ -4421,7 +4421,7 @@
 30	,	,	PUNCT	$,	_	8	punct	_	_
 31	wenn	wenn	SCONJ	KOUS	_	32	mark	_	_
 32	Bedarf	Bedarf	NOUN	NN	_	29	advcl	_	_
-33	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
+33	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s254
@@ -4587,7 +4587,7 @@
 3	und	und	CCONJ	KON	_	5	cc	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Salat	Salat	NOUN	NN	_	2	conj	_	_
-6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	immer	immer	ADV	ADV	_	8	advmod	_	_
 8	Frisch	Frisch	ADJ	NE	_	0	root	_	_
 9	und	und	CCONJ	KON	_	12	cc	_	_
@@ -4625,7 +4625,7 @@
 # text = Die Bedingungen sind immer freundlich und der gesamte Laden wirkt sehr gepflegt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Bedingungen	Bedingung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	immer	immer	ADV	ADV	_	5	advmod	_	_
 5	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	10	cc	_	_
@@ -4660,7 +4660,7 @@
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Hinterhof	Hinterhof	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	1	punct	_	_
-8	war	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	war	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
 9	absolut	absolut	ADV	ADJD	_	10	advmod	_	_
 10	ruhig	ruhig	ADJ	ADJD	Degree=Pos	1	parataxis	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	1	punct	_	_
@@ -4684,7 +4684,7 @@
 13	los	los	ADV	ADJD	_	14	mark	_	_
 14	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	18	punct	_	_
-16	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	wirklich	wirklich	ADV	ADJD	_	18	advmod	_	_
 18	sensationel	sensationel	ADJ	NE	Degree=Pos	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	_
@@ -4693,7 +4693,7 @@
 # text = Das Zimmer war sauber und hatte Badewann und einen schönen, grossen Flat - TV, den man sonst von 3 - Sterne - Häusern nicht kennt.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	sauber	sauber	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	hatte	haben	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -4724,7 +4724,7 @@
 # text = Das Frühstück war sehr reichhaltig, frisch und lecker.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Frühstück	Frühstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	reichhaltig	reichhaltig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	7	punct	_	_
@@ -4793,7 +4793,7 @@
 22	etc.	etc.	X	ADV	_	21	cc	_	_
 23	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
-25	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 26	freundlich	freundlich	ADJ	ADJD	Degree=Pos	12	parataxis	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	28	punct	_	_
 28	kompetent	kompetent	ADJ	ADJD	Degree=Pos	26	conj	_	_
@@ -4825,13 +4825,13 @@
 12	Frau	Frau	NOUN	NN	_	13	compound	_	_
 13	Weissenborn	Weissenborn	PROPN	NE	Case=Dat|Number=Sing	10	nmod	_	_
 14	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	0	root	_	_
-15	geworden	werden	VERB	VAPP	VerbForm=Part	14	cop	_	SpaceAfter=No
+15	geworden	werden	AUX	VAPP	VerbForm=Part	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = dev-s277
 # text = Ich bin jetzt schon ca. 4 Jahre Kunde bei Herbalife.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 3	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
 4	schon	schon	ADV	ADV	_	8	advmod	_	_
 5	ca	ca	ADV	NE	_	7	advmod	_	SpaceAfter=No
@@ -4854,7 +4854,7 @@
 7	Kundenberaters	Kundenberaters	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	nmod	_	_
 8	Horst	Horst	PROPN	NE	_	7	appos	_	_
 9	Rosenberger	Rosenberger	PROPN	NE	_	8	flat	_	_
-10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
 13	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -4936,7 +4936,7 @@
 # sent_id = dev-s283
 # text = Essen ist ok.
 1	Essen	Essen	NOUN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ok	ok	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -4958,7 +4958,7 @@
 
 # sent_id = dev-s286
 # text = War ganz nett.
-1	War	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
+1	War	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
 2	ganz	ganz	ADV	ADV	_	3	advmod	_	_
 3	nett	nett	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
@@ -5001,7 +5001,7 @@
 
 # sent_id = dev-s291
 # text = Bin langjähriger Kunde bei CSV und kann die Firma nur weiterempfehlen.
-1	Bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+1	Bin	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	langjähriger	langjährig	ADJ	ADJA	Degree=Cmp,Pos	3	amod	_	_
 3	Kunde	Kunde	NOUN	NN	_	0	root	_	_
 4	bei	bei	ADP	APPR	_	5	case	_	_
@@ -5057,7 +5057,7 @@
 9	Box	Box	PROPN	NN	_	5	conj	_	SpaceAfter=No
 10	;	;	PUNCT	$.	_	1	punct	_	_
 11	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
-12	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	nett	nett	ADJ	ADJD	Degree=Pos	1	parataxis	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	haben	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
@@ -5248,7 +5248,7 @@
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	19	det	_	_
 19	Laufen	Laufen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
 20	heraus	heraus	ADV	ADV	_	19	mark	_	_
-21	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
 22	kein	kein	PRON	PIAT	PronType=Neg	23	advmod	_	_
 23	Problem	Problem	NOUN	NN	_	4	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	4	punct	_	_
@@ -5281,8 +5281,8 @@
 24	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s307
-# text = im Hundezentrum gibt es keine "Massenabfertigung" die Gruppe umfasste maximal vier Hunde.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Hundezentrum gibt es keine "Massenabfertigung" die Gruppe umfasste maximal vier Hunde.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Hundezentrum	Hundezentrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
@@ -5324,7 +5324,7 @@
 # sent_id = dev-s309
 # text = Das ist was Hunde verstehen.
 1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	was	was	PRON	PIAT	Case=Acc|PronType=Ind	5	obj	_	_
 4	Hunde	Hund	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
 5	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -5446,7 +5446,7 @@
 4	Weiterbildung	Weiterbildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 5	Spaß	Spaß	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
-7	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
 9	informativ	informativ	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
 10	!	!	PUNCT	$.	_	2	punct	_	_
@@ -5554,7 +5554,7 @@
 # text = Das Haarteil ist für mich schließlich eine Prothese.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Haarteil	Haarteil	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
 5	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
 6	schließlich	schließlich	ADV	ADV	_	8	advmod	_	_
@@ -5705,7 +5705,7 @@
 2	Qualität	Qualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Schuhe	Schuh	NOUN	NN	_	2	nmod	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	einfach	einfach	ADV	ADJD	_	7	advmod	_	_
 7	ideal	ideal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
@@ -5748,7 +5748,7 @@
 # text = Der Service ist wunderbar.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Service	Service	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	wunderbar	wunderbar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -5774,7 +5774,7 @@
 # text = Die Ferienwohnungen sind größer als man erwartet und der Preis ist gerechtfertigt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Ferienwohnungen	Ferienwohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	größer	groß	ADJ	ADJD	_	0	root	_	_
 5	als	als	SCONJ	KOKOM	_	7	mark	_	_
 6	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
@@ -5782,7 +5782,7 @@
 8	und	und	CCONJ	KON	_	12	cc	_	_
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	gerechtfertigt	rechtfertigen	ADJ	VVPP	_	4	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -5790,7 +5790,7 @@
 # text = Die Ausstattung ist ok und so wie man sich eine Wohnung vorstellt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Ausstattung	Ausstattung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	ok	ok	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	KON	_	12	cc	_	_
 6	so	so	ADV	ADV	_	12	advmod	_	_
@@ -5816,7 +5816,7 @@
 # text = Diese Firma ist schon lange nicht mehr in Neu - Isenburg ansässig und die Faxnummer ist nicht die richtige.
 1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Firma	Firma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 4	schon	schon	ADV	ADV	_	12	advmod	_	_
 5	lange	lange	ADV	ADV	_	12	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
@@ -5829,7 +5829,7 @@
 13	und	und	CCONJ	KON	_	19	cc	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Faxnummer	Faxnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-16	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 17	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
 18	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	richtige	richtig	ADJ	ADJA	Degree=Pos	12	conj	_	SpaceAfter=No
@@ -5853,7 +5853,7 @@
 # text = Das Choclet ist ein guter Ort, um sich mit Freunden zu treffen, in die Nacht zu starten oder den Abend ausklingen zu lassen.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Choclet	Choclet	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
 5	guter	gut	ADJ	ADJA	Degree=Cmp,Pos	6	amod	_	_
 6	Ort	Ort	NOUN	NN	_	0	root	_	SpaceAfter=No
@@ -5891,8 +5891,8 @@
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s347
-# text = am Rosenheimer Bahnhof bekomme ich stets zentral meinen Mietwagen.
-1-2	am	_	_	_	_	_	_	_	_
+# text = Am Rosenheimer Bahnhof bekomme ich stets zentral meinen Mietwagen.
+1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 3	Rosenheimer	Rosenheimer	ADJ	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	amod	_	_
@@ -6003,7 +6003,7 @@
 # text = Metaxa Bay ist eine der neuesten, aber leider nicht eine der Besten.
 1	Metaxa	Metaxa	PROPN	NE	_	4	nsubj	_	_
 2	Bay	Bay	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	eine	ein	PRON	PIS	PronType=Ind	0	root	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	neuesten	neu	ADJ	ADJA	Degree=Sup	4	det	_	SpaceAfter=No
@@ -6031,7 +6031,7 @@
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Humboldthafen	Humboldthafen	PROPN	NN	_	5	conj	_	_
-13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	wirklich	wirklich	ADV	ADJD	_	15	advmod	_	_
 15	prima	prima	ADJ	ADJA	Degree=Pos	0	root	_	SpaceAfter=No
 16	!	!	PUNCT	$.	_	15	punct	_	_
@@ -6099,7 +6099,7 @@
 35	dies	dies	PRON	PDS	Case=Nom|PronType=Dem	37	nsubj	_	_
 36	nicht	nicht	PART	PTKNEG	Polarity=Neg	38	advmod	_	_
 37	möglich	möglich	ADJ	ADJD	Degree=Pos	9	dep	_	_
-38	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	SpaceAfter=No
+38	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s357
@@ -6107,7 +6107,7 @@
 1	Nett	nett	ADJ	ADJD	Degree=Pos	10	cop	_	_
 2	und	und	CCONJ	KON	_	3	cc	_	_
 3	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
-4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Servicekräfte	Servicekräfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
@@ -6142,7 +6142,7 @@
 5	Lautsprechern	Lautsprecher	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
 6	dudelnde	dudelnde	VERB	ADJA	_	7	acl	_	_
 7	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 9	derart	derart	ADV	ADV	_	10	advmod	_	_
 10	laut	laut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
@@ -6177,7 +6177,7 @@
 18	7	7	NUM	CARD	NumType=Card	19	nummod	_	_
 19	Personen	Person	NOUN	NN	_	16	appos	_	SpaceAfter=No
 20	)	)	PUNCT	$(	_	19	punct	_	_
-21	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	cop	_	SpaceAfter=No
+21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	cop	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	9	punct	_	_
 23	die	der	PRON	PRELS	Case=Nom|PronType=Rel	31	nsubj	_	_
 24	von	von	ADP	APPR	_	30	case	_	_
@@ -6188,7 +6188,7 @@
 29	-	-	PUNCT	$(	_	30	punct	_	_
 30	Bespaßung	Bespaßung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
 31	angenervt	annerven	ADJ	VVPP	_	16	acl	_	_
-32	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	SpaceAfter=No
+32	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s361
@@ -6206,7 +6206,7 @@
 # sent_id = dev-s362
 # text = Hier ist der Gast wirklich König.
 1	Hier	hier	ADV	ADV	_	6	advmod	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Gast	Gast	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	wirklich	wirklich	ADV	ADJD	_	6	advmod	_	_
@@ -6233,7 +6233,7 @@
 # sent_id = dev-s364
 # text = Hier ist alles rundum empfehlenswert.
 1	Hier	hier	ADV	ADV	_	5	advmod	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	5	nsubj	_	_
 4	rundum	rundum	ADV	ADV	_	5	advmod	_	_
 5	empfehlenswert	empfehlenswert	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -6261,7 +6261,7 @@
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	Practitioner	Practitioner	NOUN	NN	_	3	appos	_	SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	_
-8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
 10	hilfreich	hilfreich	ADJ	ADJD	Degree=Pos	0	root	_	_
 11	und	und	CCONJ	KON	_	10	cc	_	_
@@ -6349,7 +6349,7 @@
 1	Mit	mit	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Service	Service	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
-4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	cop	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	absolut	absolut	ADV	ADJD	_	7	advmod	_	_
 7	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -6443,7 +6443,7 @@
 # sent_id = dev-s379
 # text = Ich bin sehr zufrieden mit Thomann und werde auch noch weiterhin dort einkaufen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
@@ -6463,7 +6463,7 @@
 2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Shop	Shop	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Thomann	Thomann	PROPN	NE	_	3	appos	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	noch	noch	ADV	ADV	_	8	advmod	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	vielversprechender	vielversprechend	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
@@ -6507,7 +6507,7 @@
 # text = 18.00 Uhr war die Ware bereits versandfertig und 2 Tage später hatte ich die bestellten Artikel zu Hause.
 1	18.00	18.00	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Uhr	Uhr	NOUN	NN	_	7	nmod	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Ware	Ware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	bereits	bereits	ADV	ADV	_	7	advmod	_	_
@@ -6542,7 +6542,7 @@
 4	Luster	Luster	NOUN	NN	Case=Acc|Number=Sing	2	nmod	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	Leuchten	Leuchte|Leuchten	NOUN	NN	_	4	conj	_	_
-7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Fa	Fa	NOUN	NE	_	0	root	_	_
 10	Maresch	Maresch	PROPN	NE	_	9	appos	_	_
@@ -6565,8 +6565,8 @@
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s387
-# text = zum Glück habe ich erst in dem Büro angerufen.
-1-2	zum	_	_	_	_	_	_	_	_
+# text = Zum Glück habe ich erst in dem Büro angerufen.
+1-2	Zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Glück	Glück	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
@@ -6649,13 +6649,13 @@
 3	auf	auf	ADP	APPR	_	5	case	_	_
 4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Hauptverhandlung	Hauptverhandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 7	super	super	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s394
-# text = im Termin lief alles wie besprochen.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Termin lief alles wie besprochen.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Termin	Termin	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
@@ -6717,7 +6717,7 @@
 # text = Das Ergebnis war entsprechend.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	entsprechend	entsprechend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -6819,7 +6819,7 @@
 # text = Der Anwalt war tatsächlich unter der angegebenen Notrufnummer erreichbar und gab erste Tipps.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Anwalt	Anwalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 4	tatsächlich	tatsächlich	ADV	ADJD	_	9	advmod	_	_
 5	unter	unter	ADP	APPR	_	8	case	_	_
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -6904,7 +6904,7 @@
 # text = Das Personal ist klasse, einfach nett.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	klasse	Klasse	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	einfach	einfach	ADV	ADJD	_	7	advmod	_	_
@@ -6952,7 +6952,7 @@
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	dort	dort	ADV	ADV	_	7	advmod	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	5	conj	_	_
 7	schlecht	schlecht	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -6989,7 +6989,7 @@
 12	die	der	PRON	PRELS	Case=Nom|PronType=Rel	14	nsubj	_	_
 13	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
 14	genießbar	genießbar	ADJ	ADJD	Degree=Pos	8	acl	_	_
-15	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
+15	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s415
@@ -6998,7 +6998,7 @@
 2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 6	noch	noch	ADV	ADV	_	7	advmod	_	_
 7	schlechter	schlecht	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
@@ -7034,7 +7034,7 @@
 10	denn	denn	SCONJ	KON	_	17	mark	_	_
 11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Preise	Preis	NOUN	NN	Case=Nom|Number=Plur	17	nsubj	_	_
-13	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+13	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	für	für	ADP	APPR	_	16	case	_	_
 15	das	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	gebotene	geboten	NOUN	ADJA	Case=Acc|Number=Plur	17	nmod	_	_
@@ -7136,7 +7136,7 @@
 # text = Die Gastgeber sind sehr freundlich und hilfsbereit.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Gastgeber	Gastgeber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
@@ -7208,7 +7208,7 @@
 # text = Das Hostel ist sehr heimelig.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Hostel	Hostel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	heimelig	heimelig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -7233,7 +7233,7 @@
 7	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 8	grosse	groß	ADJ	ADJA	Degree=Pos	9	amod	_	_
 9	Aufenthaltsraum	Aufenthaltsraum	NOUN	NN	_	5	conj	_	_
-10	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
 12	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
@@ -7243,7 +7243,7 @@
 1	Durch	durch	ADP	APPR	_	3	case	_	_
 2	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Hinweise	Hinweis	NOUN	NN	Case=Acc|Number=Plur	7	nmod	_	_
-4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	nun	nun	ADV	ADV	_	7	advmod	_	_
 7	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	_
@@ -7263,7 +7263,7 @@
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	11	punct	_	_
@@ -7306,7 +7306,7 @@
 5	Begleiterin	Begleiterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 6	schon	schon	ADV	ADV	_	7	advmod	_	_
 7	etwas	etwas	PRON	PIS	PronType=Ind	0	root	_	_
-8	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	cop	_	SpaceAfter=No
+8	heißt	heißen	AUX	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s435
@@ -7348,7 +7348,7 @@
 # text = Unsere Hündin war ein echter problem Fall!!!
 1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Hündin	Hündin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
 5	echter	echt	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
 6	problem	problem	NOUN	ADJA	_	7	compound	_	_
@@ -7387,7 +7387,7 @@
 6	ausprobiert	ausprobieren	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	aber	aber	CCONJ	KON	_	10	cc	_	_
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 10	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp,Pos	6	conj	_	_
 11	als	als	CCONJ	KOKOM	_	12	case	_	_
 12	besser	gut	ADJ	ADJD	Degree=Cmp	10	amod	_	SpaceAfter=No
@@ -7412,7 +7412,7 @@
 # sent_id = dev-s441
 # text = Wir waren sehr enttäuscht.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	enttäuscht	enttäuscht	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
@@ -7472,7 +7472,7 @@
 # text = Die Gruppe war recht groß, die Hundebesitzer gingen auch recht hart ihre Hunde an und haben teilweise während der Stunde geraucht.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	recht	recht	ADV	ADJD	_	5	advmod	_	_
 5	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
@@ -7544,7 +7544,7 @@
 3	wirkt	wirken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 4	kühl	kühl	ADJ	ADJD	Degree=Pos	3	xcomp	_	_
 5	und	und	CCONJ	KON	_	9	cc	_	_
-6	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
 8	wirklich	wirklich	ADV	ADJD	_	9	advmod	_	_
 9	gemütlich	gemütlich	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No
@@ -7570,7 +7570,7 @@
 # text = Das Hamam ist schön, die Sauna selber finde ich auch nicht so super.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Hamam	Hamam	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -7589,7 +7589,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Außenbereich	Außenbereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	--	--	PUNCT	$(	_	7	punct	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	leider	leider	ADV	ADV	Polarity=Neg	4	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	bedrückend	bedrückend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -7623,7 +7623,7 @@
 # sent_id = dev-s453
 # text = Es war faszinierend mit Ihnen zusammen zu arbeiten.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	faszinierend	faszinierend	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	8	obl	_	_
@@ -7647,7 +7647,7 @@
 # sent_id = dev-s455
 # text = Wir waren sehr überrascht.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	überrascht	überraschen	ADJ	VVPP	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
@@ -7663,7 +7663,7 @@
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Namen	Name	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	nmod	_	_
 9	Sonnendüne	Sonnendüne	PROPN	NN	_	8	appos	_	_
-10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	_
 12	als	als	ADP	KOKOM	_	14	case	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
@@ -7752,7 +7752,7 @@
 # sent_id = dev-s462
 # text = Blickfang ist der offene Küchenblock mitten im Restaurant, das in angenehmen Farben erstrahlt.
 1	Blickfang	Blickfang	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	offene	offen	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Küchenblock	Küchenblock	NOUN	NN	_	0	root	_	_
@@ -7770,8 +7770,8 @@
 16	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s463
-# text = im begehbaren Weinklimaschrank wählt der Gast, wenn er möchte, seinen Wein aus.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im begehbaren Weinklimaschrank wählt der Gast, wenn er möchte, seinen Wein aus.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 3	begehbaren	begehbar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	4	amod	_	_
@@ -7830,7 +7830,7 @@
 # text = Die Parkplätze sind umsonst!!!
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Parkplätze	Parkplatz	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	umsonst	umsonst	ADJ	ADV	Degree=Pos	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	$.	_	4	punct	_	SpaceAfter=No
 6	!	!	PUNCT	$.	_	4	punct	_	SpaceAfter=No
@@ -7839,7 +7839,7 @@
 # sent_id = dev-s467
 # text = Negativ ist: Das zimmer 101 (einzelzimmer) ist SEHR LAUT.
 1	Negativ	negativ	ADJ	ADJD	Degree=Pos	12	parataxis	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+2	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	1	punct	_	_
 4	Das	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	zimmer	zimmern	NOUN	VVIMP	Case=Nom|Number=Plur	12	nsubj	_	_
@@ -7847,7 +7847,7 @@
 7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	einzelzimmer	einzelzimmer	NOUN	NE	_	5	appos	_	SpaceAfter=No
 9	)	)	PUNCT	$(	_	8	punct	_	_
-10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	SEHR	SEHR	ADV	ADJA	_	12	advmod	_	_
 12	LAUT	Laut	ADJ	NN	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
@@ -7868,7 +7868,7 @@
 # text = Die Dusche war etwas eng und Badeschlappen darf ich bei vier Sternen auch erwarten!
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Dusche	Dusche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	etwas	etwas	ADV	ADV	_	5	advmod	_	_
 5	eng	eng	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	14	cc	_	_
@@ -7886,7 +7886,7 @@
 # text = Das Restaurante ist SEHR GUT!
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Restaurante	Restaurante	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	SEHR	SEHR	ADV	NE	_	5	advmod	_	_
 5	GUT	GUT	ADJ	NE	_	0	root	_	SpaceAfter=No
 6	!	!	PUNCT	$.	_	5	punct	_	_
@@ -7925,14 +7925,14 @@
 # sent_id = dev-s473
 # text = Es war fantastisch.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	fantastisch	fantastisch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s474
 # text = Hier waren wir mit Sicherheit nicht das letzte Mal.
 1	Hier	hier	ADV	ADV	_	9	advmod	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Sicherheit	Sicherheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -7959,7 +7959,7 @@
 3	in	in	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
-6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Lokal	Lokal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 9	gut	gut	ADV	ADJD	_	10	advmod	_	_
@@ -7982,7 +7982,7 @@
 # text = Unsere Erfahrungen waren bisher durchgehend positiv.
 1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
-3	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	bisher	bisher	ADV	ADV	_	6	advmod	_	_
 5	durchgehend	durchgehend	ADV	ADJD	_	6	advmod	_	_
 6	positiv	positiv	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -7998,7 +7998,7 @@
 6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	günstig	günstig	ADJ	ADJD	Degree=Pos	4	ccomp	_	_
-9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s480
@@ -8021,7 +8021,7 @@
 # sent_id = dev-s481
 # text = Ausserdem ist das Personal sehr freundlich und der Service ist sehr gut.
 1	Ausserdem	außerdem	ADV	PAV	_	6	advmod	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
@@ -8029,7 +8029,7 @@
 7	und	und	CCONJ	KON	_	12	cc	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Service	Service	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
 12	gut	gut	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	6	punct	_	_
@@ -8110,7 +8110,7 @@
 # text = Der Dreck war auch weg.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Dreck	Dreck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
 5	weg	weg	ADJ	PTKVZ	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -8139,7 +8139,7 @@
 # text = Das Team ist freundlich und bemüht, aber das reicht nicht aus.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	freundlich	freundlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	bemüht	bemüht	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
@@ -8257,12 +8257,12 @@
 12	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = dev-s495
-# text = am telefon waren es dann nur noch 94 €.
-1-2	am	_	_	_	_	_	_	_	_
+# text = Am telefon waren es dann nur noch 94 €.
+1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	telefon	Telefon	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nmod	_	_
-4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 6	dann	dann	ADV	ADV	_	10	advmod	_	_
 7	nur	nur	ADV	ADV	_	8	advmod	_	_
@@ -8274,7 +8274,7 @@
 # sent_id = dev-s496
 # text = Centro ist Wunderbar!
 1	Centro	Centro	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Wunderbar	Wunderbar	ADJ	NN	_	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
@@ -8351,7 +8351,7 @@
 # text = Das Ziel ist vielmehr die Einleitung einer neuen ökonomischen Dynamik, die ihre volkswirtschaftlichen Vorteile aus der Senkung von Rohstoff -- und Energiekosten und der Vermeidung von Umwelt -- und Gesundheitsschäden zieht.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	vielmehr	vielmehr	ADV	ADV	_	6	advmod	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Einleitung	Einleitung	NOUN	NN	_	0	root	_	_
@@ -8485,7 +8485,7 @@
 # sent_id = dev-s506
 # text = Tritium ist radioaktiv und lagert sich leicht im menschlichen Körper ein.
 1	Tritium	Tritium	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	radioaktiv	radioaktiv	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	lagert	lagern	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
@@ -8561,7 +8561,7 @@
 # text = Elf Häuser seien derzeit geschlossen, da die Ware unter Eigentumsvorbehalt stehe.
 1	Elf	elf	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-3	seien	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	derzeit	derzeit	ADV	ADV	_	5	advmod	_	_
 5	geschlossen	schließen	ADJ	VVPP	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
@@ -8579,7 +8579,7 @@
 2	Stabilitätspakt	Stabilitätspakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	für	für	ADP	APPR	_	4	case	_	_
 4	Europa	Europa	PROPN	NE	Case=Acc|Number=Sing	2	nmod	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
 7	wichtiger	wichtig	ADJ	ADJA	Degree=Cmp,Pos	9	amod	_	_
 8	zusätzlicher	zusätzlich	ADJ	ADJA	Degree=Cmp,Pos	9	amod	_	_
@@ -8603,8 +8603,8 @@
 26	.	.	PUNCT	$.	_	24	punct	_	_
 
 # sent_id = dev-s511
-# text = im Dezember soll das Europaparlament über die Verwirklichung der zum 1. Januar 1996 geplanten Zollunion der Türkei mit der EU entscheiden.
-1-2	im	_	_	_	_	_	_	_	_
+# text = Im Dezember soll das Europaparlament über die Verwirklichung der zum 1. Januar 1996 geplanten Zollunion der Türkei mit der EU entscheiden.
+1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	24	obl	_	_
@@ -8801,7 +8801,7 @@
 11	für	für	ADP	APPR	_	12	case	_	_
 12	Bluttaten	Bluttat	NOUN	NN	Case=Acc|Number=Plur	13	nmod	_	_
 13	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	8	acl	_	_
-14	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+14	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s523
@@ -9120,7 +9120,7 @@
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	19	punct	_	_
-12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 13	immer	immer	ADV	ADV	_	16	advmod	_	_
 14	eine	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
 15	anstehende	anstehend	ADJ	ADJA	Degree=Pos	16	amod	_	_
@@ -9359,7 +9359,7 @@
 # sent_id = dev-s548
 # text = Religion ist die Erbin vieler Namen.
 1	Religion	Religion	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Erbin	Erbin	NOUN	NN	_	0	root	_	_
 5	vieler	viel	PRON	PIAT	Case=Gen|Number=Plur|PronType=Ind	6	det	_	_
@@ -9480,7 +9480,7 @@
 # text = Das Geld wird als Zahlungsmittel ungültig, kann aber -- wie bei jedem rein inländischen Austausch einer alten Notenserie -- auch später noch bei den Zentralbanken eingewechselt werden.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	als	als	ADP	KOKOM	_	5	case	_	_
 5	Zahlungsmittel	Zahlungsmittel	NOUN	NN	_	6	nmod	_	_
 6	ungültig	ungültig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -9690,7 +9690,7 @@
 8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	staatlichen	staatlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	Gläubiger	Gläubiger	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-11	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 12	sich	er|es|sie	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	_
 13	untereinander	untereinander	ADV	ADV	_	15	advmod	_	_
 14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
@@ -9754,7 +9754,7 @@
 11	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
 13	imstande	imstande	ADJ	ADV	Degree=Pos	7	ccomp	_	_
-14	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	3	punct	_	_
 16	Bürgeranliegen	Bürgeranliegen	NOUN	NN	Case=Acc|Number=Sing	25	obj	_	_
 17	mit	mit	ADP	APPR	_	20	case	_	_
@@ -9786,7 +9786,7 @@
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Gesellschaft	Gesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 16	bereit	bereit	ADJ	ADJD	Degree=Pos	9	acl	_	_
-17	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	5	punct	_	_
 19	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Kammer	Kammer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
@@ -9808,7 +9808,7 @@
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	viele	viel	PRON	PIAT	PronType=Ind	13	det	_	_
 13	andere	ander	PRON	PIS	PronType=Ind	1	conj	_	_
-14	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	vertreten	vertreten	ADJ	VVPP	Degree=Pos	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -10181,8 +10181,8 @@
 11	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s585
-# text = am 17. Dezember sind Wahlen.
-1-2	am	_	_	_	_	_	_	_	_
+# text = Am 17. Dezember sind Wahlen.
+1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	5	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
 3	17	17	NUM	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing|NumType=Card	5	amod	_	SpaceAfter=No
@@ -10426,7 +10426,7 @@
 2	Kern	Kern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Konflikts	Konflikt	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	vielschichtig	vielschichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -10579,7 +10579,7 @@
 2	Teilnehmer	Teilnehmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Tagung	Tagung	NOUN	NN	_	2	nmod	_	_
-5	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	5	iobj	_	_
 7	darüber	darüber	ADV	PAV	_	8	advmod	_	_
 8	einig	einig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -10930,8 +10930,8 @@
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s620
-# text = am Samstag hatte die spanische Polizei acht bewaffnete deutsche Skinheads festgenommen, die an der Kundgebung teilnehmen wollten.
-1-2	am	_	_	_	_	_	_	_	_
+# text = Am Samstag hatte die spanische Polizei acht bewaffnete deutsche Skinheads festgenommen, die an der Kundgebung teilnehmen wollten.
+1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
@@ -10962,7 +10962,7 @@
 5	Wohlstand	Wohlstand	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	Arbeitsplätze	Arbeitsplatz	NOUN	NN	_	5	conj	_	_
-8	seien	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	um	um	CCONJ	APPR	_	11	cc	_	_
 10	so	so	ADV	ADV	_	9	fixed	_	_
 11	sicherer	sicher	ADJ	ADJD	Degree=Cmp,Pos	3	ccomp	_	SpaceAfter=No
@@ -10971,7 +10971,7 @@
 14	größer	groß	ADJ	ADJD	_	11	advcl	_	_
 15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Export	Export	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-17	sei	sein	VERB	VAFIN	Number=Sing|Person=3|VerbForm=Fin	14	cop	_	SpaceAfter=No
+17	sei	sein	AUX	VAFIN	Number=Sing|Person=3|VerbForm=Fin	14	cop	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	20	punct	_	_
 19	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
 20	eingeschränkt	einschränken	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -11011,7 +11011,7 @@
 9	und	und	CCONJ	KON	_	11	cc	_	_
 10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
 11	attraktiv	attraktiv	ADJ	ADJD	Degree=Pos	8	conj	_	_
-12	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s624
@@ -11160,7 +11160,7 @@
 # sent_id = dev-s633
 # text = Wir wären weitaus weiter, hätte man uns keine Steine in den Weg gelegt,'' sagt der inzwischen in den Aufsichtsrat des hanseatischen Renommierklubs aufgerückte Versicherungsmakler.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	wären	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	weitaus	weitaus	ADV	ADV	_	4	advmod	_	_
 4	weiter	weiter	ADJ	PTKVZ	Degree=Pos	17	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	17	punct	_	_
@@ -11287,7 +11287,7 @@
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	_
 18	tätig	tätig	ADJ	ADJD	Degree=Pos	0	root	_	_
-19	sein	sein	VERB	VAINF	VerbForm=Inf	18	cop	_	SpaceAfter=No
+19	sein	sein	AUX	VAINF	VerbForm=Inf	18	cop	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	18	punct	_	_
 
 # sent_id = dev-s638
@@ -11316,7 +11316,7 @@
 4	Krupp	Krupp	PROPN	NE	_	2	nmod	_	_
 5	/	/	PUNCT	$(	_	6	punct	_	_
 6	Thyssen	Thyssen	PROPN	NE	Case=Dat|Number=Sing	4	conj	_	_
-7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
 9	mehr	mehr	ADV	ADV	_	8	advmod	_	_
 10	die	der	PRON	PDS	PronType=Dem	18	ccomp	_	SpaceAfter=No
@@ -11337,7 +11337,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 3	Dubliner	Dubliner	ADJ	NN	_	4	amod	_	_
 4	Vereinbarungen	Vereinbarung	NOUN	NN	_	1	nmod	_	_
-5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Einführung	Einführung	NOUN	NN	_	0	root	_	_
 8	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -11636,7 +11636,7 @@
 # sent_id = dev-s651
 # text = Ziel sei eine Umwandlung des Zahlungsaufschubs für Rußland in eine reguläre Umschuldung, ähnlich wie bei anderen Schuldnerländern, hieß es in den deutschen Regierungskreisen.
 1	Ziel	Ziel	NOUN	NN	_	20	ccomp	_	_
-2	sei	sein	VERB	VAFIN	Number=Sing|Person=3|VerbForm=Fin	1	cop	_	_
+2	sei	sein	AUX	VAFIN	Number=Sing|Person=3|VerbForm=Fin	1	cop	_	_
 3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Umwandlung	Umwandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
@@ -11841,7 +11841,7 @@
 # sent_id = dev-s658
 # text = Das ist nicht unsere Sache,'' sagte Konzernchef Cor Herkströter in einem Gespräch mit der Amsterdamer Tageszeitung De Volkskrant.
 1	Das	der	PRON	PDS	PronType=Dem	8	ccomp	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
 4	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
@@ -11870,7 +11870,7 @@
 4	Verlängerung	Verlängerung	NOUN	NN	_	2	nmod	_	_
 5	von	von	ADP	APPR	_	6	case	_	_
 6	Pachtverträgen	Pachtvertrag	NOUN	NN	Case=Dat|Number=Plur	4	nmod	_	_
-7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	Teil	Teil	NOUN	NN	_	0	root	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Protestaktion	Protestaktion	NOUN	NN	_	8	nmod	_	_
@@ -11948,7 +11948,7 @@
 20	``	``	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 21	unvermeidbar	unvermeidbar	ADJ	ADJD	Degree=Pos	15	ccomp	_	SpaceAfter=No
 22	''	''	PUNCT	$(	_	21	punct	_	_
-23	gewesen	sein	VERB	VAPP	VerbForm=Part	21	cop	_	SpaceAfter=No
+23	gewesen	sein	AUX	VAPP	VerbForm=Part	21	cop	_	SpaceAfter=No
 24	:	:	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = dev-s662
@@ -11991,7 +11991,7 @@
 # text = Diese Platte war Freddies letzter Wille, danach wird es Queen nicht mehr geben,'' versichert Brian May ``, Freddie wollte damals, daß wir jedesmal ins Studio gingen, wenn er sich einigermaßen gut fühlte.
 1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Platte	Platte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	Freddies	Freddies	PROPN	NE	_	6	nmod	_	_
 5	letzter	letzt	ADJ	ADJA	Degree=Cmp,Pos	6	amod	_	_
 6	Wille	Wille	NOUN	NN	_	17	ccomp	_	SpaceAfter=No
@@ -12186,7 +12186,7 @@
 25	Todesschüsse	Todesschuß	NOUN	NN	Case=Acc|Number=Plur	23	nmod	_	_
 26	und	und	CCONJ	KON	_	27	cc	_	_
 27	Minenverlegung	Minenverlegung	NOUN	NN	_	25	conj	_	_
-28	sein	sein	VERB	VAINF	VerbForm=Inf	11	cop	_	SpaceAfter=No
+28	sein	sein	AUX	VAINF	VerbForm=Inf	11	cop	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = dev-s672
@@ -12202,7 +12202,7 @@
 # text = Wir Gewerkschaften sind bereit, über fast alles zu reden, auch über Lohn -- und Nebenkosten und über Tarifstrukturen.
 1	Wir	wir	PRON	PPER	Case=Nom|Gender=Fem|Number=Plur|Person=1|PronType=Prs	2	det	_	_
 2	Gewerkschaften	Gewerkschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	bereit	bereit	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	über	über	ADP	APPR	_	8	case	_	_
@@ -12526,7 +12526,7 @@
 2	(	(	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 3	SPD	SPD	PROPN	NE	_	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	$(	_	3	punct	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	seit	seit	ADP	APPR	_	7	case	_	_
 7	1988	1988	NUM	CARD	NumType=Card	8	nmod	_	_
 8	Finanzminister	Finanzminister	NOUN	NN	_	0	root	_	_
@@ -12541,7 +12541,7 @@
 1	1988	1988	NUM	CARD	NumType=Card	6	nmod	_	_
 2	und	und	CCONJ	KON	_	3	cc	_	_
 3	1990	1990	NUM	CARD	NumType=Card	1	conj	_	_
-4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	Peres	Peres	PROPN	ADJA	Case=Nom|Number=Sing	6	nsubj	_	_
 6	Finanzminister	Finanzminister	NOUN	NN	_	0	root	_	_
 7	in	in	ADP	APPR	_	10	case	_	_
@@ -12699,21 +12699,21 @@
 20	Inderinnen	Inderin	NOUN	NN	Case=Nom|Number=Plur	22	nsubj	_	_
 21	wirklich	wirklich	ADV	ADJD	_	22	advmod	_	_
 22	Ordensschwestern	Ordensschwester	NOUN	NN	_	15	advcl	_	_
-23	werden	werden	VERB	VAINF	VerbForm=Inf	22	cop	_	_
+23	werden	werden	AUX	VAINF	VerbForm=Inf	22	cop	_	_
 24	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s697
 # text = Auwald ist also ein Wasserwald, sein Herz ist der Fluß.
 1	Auwald	Auwald	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	also	also	ADV	ADV	_	5	advmod	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
 5	Wasserwald	Wasserwald	NOUN	NN	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	sein	sein	PRON	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Herz	Herz	NOUN	NN	_	5	conj	_	_
-9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Fluß	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
@@ -12771,7 +12771,7 @@
 10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
 11	neues	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	12	amod	_	_
 12	Wohlstandsmodell	Wohlstandsmodell	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
-13	werden	werden	VERB	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No
+13	werden	werden	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s700
@@ -13016,7 +13016,7 @@
 # sent_id = dev-s710
 # text = Peymann ist in blendender Verfassung und relativ guter Dinge, das jugendliche Lachen der frühen Zeit ist ihm während seines Wiener Jahrzehnts nicht vergangen.
 1	Peymann	Peymann	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	blendender	blendender	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Verfassung	Verfassung	NOUN	NN	_	9	nmod	_	_
@@ -13156,7 +13156,7 @@
 16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Tat	Tat	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
 18	verjährt	verjähren	ADJ	VVPP	_	2	advcl	_	_
-19	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+19	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
 20	und	und	CCONJ	KON	_	25	cc	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Schrift	Schrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj:pass	_	_
@@ -13183,7 +13183,7 @@
 8	ob	ob	SCONJ	KOUS	_	10	mark	_	_
 9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	bereit	bereit	ADJ	ADJD	Degree=Pos	6	ccomp	_	_
-11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	kandidieren	kandidieren	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
@@ -13358,7 +13358,7 @@
 # text = Die Amerikaner sind ein begeisterungsfähiges, aber auch leichtgläubiges Volk.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Amerikaner	Amerikaner	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 4	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
 5	begeisterungsfähiges	begeisterungsfähig	ADJ	ADJA	Degree=Pos	10	amod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
@@ -13536,7 +13536,7 @@
 # sent_id = dev-s737
 # text = Wir sind laut Vereinsrecht die Hauptverantwortlichen.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	laut	laut	ADP	APPR	_	4	case	_	_
 4	Vereinsrecht	Vereinsrecht	NOUN	NN	_	6	nmod	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -13546,7 +13546,7 @@
 # sent_id = dev-s738
 # text = Letztlich sind die handelnden Personen entscheidend, nicht die Rechtsform.
 1	Letztlich	letztlich	ADV	ADV	_	6	advmod	_	_
-2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	handelnden	handelnd	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
 5	Personen	Person	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
@@ -13611,7 +13611,7 @@
 17	Hälfte	Hälfte	NOUN	NN	_	14	nmod	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Staaten	Staat	NOUN	NN	_	17	nmod	_	_
-20	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Rate	Rate	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
 23	einstellig	einstellig	ADJ	ADJD	Degree=Pos	11	conj	_	SpaceAfter=No
@@ -13636,7 +13636,7 @@
 # sent_id = dev-s743
 # text = Überall ist unser Geschäft ein politisches,'' resümiert Farnung ``, und beliebig schwierig''.
 1	Überall	überall	ADV	ADV	_	6	advmod	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Geschäft	Geschäft	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	6	nsubj	_	_
 5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
@@ -13693,7 +13693,7 @@
 # text = Eine Auseinandersetzung ist ja immer auch ein Eingehen auf die Figuren, die hochgespült werden auf der rechten Seite.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Auseinandersetzung	Auseinandersetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	ja	ja	ADV	ADV	_	8	advmod	_	_
 5	immer	immer	ADV	ADV	_	6	advmod	_	_
 6	auch	auch	ADV	ADV	_	8	advmod	_	_
@@ -14029,7 +14029,7 @@
 5	und	und	CCONJ	KON	_	14	cc	_	_
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Grenzpolizei	Grenzpolizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
-8	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 11	mittlerweile	mittlerweile	ADV	ADV	_	14	advmod	_	_
@@ -14136,7 +14136,7 @@
 # sent_id = dev-s765
 # text = Es war klar, daß er getötet werden würde.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	7	mark	_	_
@@ -14207,7 +14207,7 @@
 # text = Die Brötchen waren mit Ameisen ``gespickt,'' im Lagerraum tummelten sich Kakerlaken und Mäuse:
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Brötchen	Brötchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Ameisen	Ameise	NOUN	NN	Case=Dat|Number=Plur	7	nmod	_	_
 6	``	``	PUNCT	$(	_	7	punct	_	SpaceAfter=No
@@ -14228,7 +14228,7 @@
 # sent_id = dev-s771
 # text = Grund ist vor allem Enttäuschung über die traditionellen Parteien, die sich durch Korruption, Mißwirtschaft oder Machtmißbrauch auszeichneten und kaum Antwort auf die drängenden Fragen wie Verelendung und eine sich verschärfende soziale Krise finden.
 1	Grund	Grund	NOUN	NN	_	0	root	_	_
-2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	vor	vor	ADP	APPR	_	4	case	_	_
 4	allem	alle	PRON	PIS	PronType=Tot	1	nmod	_	_
 5	Enttäuschung	Enttäuschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -14388,7 +14388,7 @@
 17	Amerikanern	Amerikaner	NOUN	NN	Case=Dat|Number=Plur	15	nmod	_	_
 18	trifft	treffen	VERB	VVFIN	Person=3|VerbForm=Fin	3	acl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	25	punct	_	_
-20	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
 22	amerikanischen	amerikanisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	23	amod	_	_
 23	Volk	Volk	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	iobj	_	_
@@ -14530,7 +14530,7 @@
 1	Aber	aber	CCONJ	KON	_	10	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Bundesbank	Bundesbank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 5	natürlich	natürlich	ADV	ADV	_	10	advmod	_	_
 6	immer	immer	ADV	ADV	_	10	advmod	_	_
 7	für	für	ADP	APPR	_	9	case	_	_
@@ -14598,7 +14598,7 @@
 # sent_id = dev-s785
 # text = Naumann wurde erstmals konkret:
 1	Naumann	Naumann	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	_
-2	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	erstmals	erstmals	ADV	ADV	_	4	advmod	_	_
 4	konkret	konkret	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	$.	_	4	punct	_	_
@@ -14683,8 +14683,8 @@
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = dev-s789
-# text = am späten Donnerstag abend hatte sich die Lage in dem Gefängnis durch das Eingreifen von Bereitschaftspolizisten erneut zugespitzt.
-1-2	am	_	_	_	_	_	_	_	_
+# text = Am späten Donnerstag abend hatte sich die Lage in dem Gefängnis durch das Eingreifen von Bereitschaftspolizisten erneut zugespitzt.
+1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
 3	späten	spät	ADJ	ADJA	Degree=Pos	5	amod	_	_
