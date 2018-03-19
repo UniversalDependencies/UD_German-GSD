@@ -18128,14 +18128,14 @@
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = test-s907
-# text = Sie habe die Tür schnell wieder zuschlagen, sagte Chrétien.
+# text = Sie habe die Tür schnell wieder zugeschlagen, sagte Chrétien.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 5	schnell	schnell	ADV	ADJD	_	7	advmod	_	_
 6	wieder	wieder	ADV	ADV	_	7	advmod	_	_
-7	zuschlagen	zuschlagen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+7	zugeschlagen	zuschlagen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	9	punct	_	_
 9	sagte	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 10	Chrétien	Chrétien	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
@@ -19311,10 +19311,10 @@
 3	Füssel	Füssel	PROPN	NN	_	2	flat	_	_
 
 # sent_id = test-s969
-# text = Im HINTERGRUND
-1-2	Im	_	_	_	_	_	_	_	_
-1	In	in	ADP	APPR	_	3	case	_	_
-2	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+# text = IM HINTERGRUND
+1-2	IM	_	_	_	_	_	_	_	_
+1	IN	in	ADP	APPR	_	3	case	_	_
+2	DEM	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	HINTERGRUND	Hintergrund	NOUN	NN	_	0	root	_	_
 
 # sent_id = test-s970
