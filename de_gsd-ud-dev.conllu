@@ -10596,9 +10596,9 @@
 19	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s604
-# text = Das U.S. -- Repräsentantenhaus hat sich strikte Regeln gegen Geschenke von Lobbyisten auferlegt.
+# text = Das US -- Repräsentantenhaus hat sich strikte Regeln gegen Geschenke von Lobbyisten auferlegt.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	U.S.	U.S.	PROPN	NE	_	13	nsubj	_	_
+2	US	US	PROPN	NE	_	13	nsubj	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
 4	Repräsentantenhaus	Repräsentantenhaus	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	_
 5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -11663,9 +11663,9 @@
 26	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = dev-s652
-# text = Der U.S. -- Bürger Milan Panic, 62 Jahre alt, bis vorige Woche noch Chef der kalifornischen ICN Pharmaceuticals Inc, ist im Laufe seiner sprichwörtlichen Schuhputzerkarriere mehrfach mit ``Wachhunden'' der Wall Street, Aktionären, Buchprüfern und Wissenschaftlern in Konflikt gekommen.
+# text = Der US -- Bürger Milan Panic, 62 Jahre alt, bis vorige Woche noch Chef der kalifornischen ICN Pharmaceuticals Inc, ist im Laufe seiner sprichwörtlichen Schuhputzerkarriere mehrfach mit ``Wachhunden'' der Wall Street, Aktionären, Buchprüfern und Wissenschaftlern in Konflikt gekommen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	U.S.	U.S.	PROPN	NE	_	46	nsubj	_	_
+2	US	US	PROPN	NE	_	46	nsubj	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
 4	Bürger	Bürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 5	Milan	Milan	PROPN	NE	_	2	appos	_	_
@@ -11863,7 +11863,7 @@
 21	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s659
-# text = Die Verweigerung der Verlängerung von Pachtverträgen ist Teil der Protestaktion der Bevölkerung Okinawas, die nach dem Vergewaltigungsfall zumindest eine deutliche Reduzierung der dort stationierten rund 30 000 U.S. -- Soldaten fordert.
+# text = Die Verweigerung der Verlängerung von Pachtverträgen ist Teil der Protestaktion der Bevölkerung Okinawas, die nach dem Vergewaltigungsfall zumindest eine deutliche Reduzierung der dort stationierten rund 30 000 US -- Soldaten fordert.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Verweigerung	Verweigerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
@@ -11892,7 +11892,7 @@
 26	rund	rund	ADV	ADV	_	27	advmod	_	_
 27	30	30	NUM	CARD	NumType=Card	28	nummod	_	_
 28	000	000	NUM	CARD	NumType=Card	29	nummod	_	_
-29	U.S.	U.S.	PROPN	NE	_	22	nmod	_	_
+29	US	US	PROPN	NE	_	22	nmod	_	_
 30	--	--	PUNCT	$(	_	29	punct	_	_
 31	Soldaten	Soldat	NOUN	NN	_	29	flat	_	_
 32	fordert	fordern	VERB	VVFIN	Person=3|VerbForm=Fin	12	acl	_	SpaceAfter=No
@@ -12580,14 +12580,14 @@
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s692
-# text = Das größte Problem ist, die U.S. -- Zulieferer daran zu gewöhnen, uns BMW -- Qualität und nicht U.S. -- Qualität zu liefern.
+# text = Das größte Problem ist, die US -- Zulieferer daran zu gewöhnen, uns BMW -- Qualität und nicht US -- Qualität zu liefern.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	größte	groß	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
 3	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	die	der	DET	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	det	_	_
-7	U.S.	U.S.	PROPN	NE	_	12	obj	_	_
+7	US	US	PROPN	NE	_	12	obj	_	_
 8	--	--	PUNCT	$(	_	7	punct	_	_
 9	Zulieferer	Zulieferer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	flat	_	_
 10	daran	daran	ADV	PAV	_	12	advmod	_	_
@@ -12600,7 +12600,7 @@
 17	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	flat	_	_
 18	und	und	CCONJ	KON	_	20	cc	_	_
 19	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
-20	U.S.	U.S.	PROPN	NE	_	15	conj	_	_
+20	US	US	PROPN	NE	_	15	conj	_	_
 21	--	--	PUNCT	$(	_	20	punct	_	_
 22	Qualität	Qualität	NOUN	NN	_	20	flat	_	_
 23	zu	zu	PART	PTKZU	_	24	mark	_	_
@@ -13056,9 +13056,9 @@
 11	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = dev-s712
-# text = Der U.S. -- Handelsbeauftragte Mickey Kantor äußerte sich über das bisherige Ergebnis zufrieden:
+# text = Der US -- Handelsbeauftragte Mickey Kantor äußerte sich über das bisherige Ergebnis zufrieden:
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	U.S.	U.S.	PROPN	NE	_	7	nsubj	_	_
+2	US	US	PROPN	NE	_	7	nsubj	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
 4	Handelsbeauftragte	Handelsbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 5	Mickey	Mickey	PROPN	NE	_	2	appos	_	_

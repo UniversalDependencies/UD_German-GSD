@@ -8539,7 +8539,7 @@
 34	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s448
-# text = Jugoslawiens neuer Ministerpräsident ist ein alter Bekannter der U.S. -- amerikanischen Börsenaufsichtsbeamten.
+# text = Jugoslawiens neuer Ministerpräsident ist ein alter Bekannter der US -- amerikanischen Börsenaufsichtsbeamten.
 1	Jugoslawiens	Jugoslawien	PROPN	NE	_	3	nmod	_	_
 2	neuer	neu	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Number=Sing	3	amod	_	_
 3	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
@@ -8548,7 +8548,7 @@
 6	alter	alt	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
 7	Bekannter	Bekannte	NOUN	NN	_	0	root	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-9	U.S.	U.S.	PROPN	NE	_	12	amod	_	_
+9	US	US	PROPN	NE	_	12	amod	_	_
 10	--	--	PUNCT	$(	_	9	punct	_	_
 11	amerikanischen	amerikanisch	ADJ	ADJA	Degree=Pos	9	flat	_	_
 12	Börsenaufsichtsbeamten	Börsenaufsichtsbeamten	NOUN	NN	_	7	nmod	_	SpaceAfter=No
@@ -9538,10 +9538,10 @@
 5	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	_
 
 # sent_id = test-s496
-# text = Präsident des U.S. -- Repräsentantenhauses, Newt Gingrich, will sich nicht als Kandidat seiner Republikanischen Partei für die Präsidentschaftswahl 1996 aufstellen lassen.
+# text = Präsident des US -- Repräsentantenhauses, Newt Gingrich, will sich nicht als Kandidat seiner Republikanischen Partei für die Präsidentschaftswahl 1996 aufstellen lassen.
 1	Präsident	Präsident	NOUN	NN	Case=Nom|Number=Sing	23	nsubj	_	_
 2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
-3	U.S.	U.S.	PROPN	NE	_	1	nmod	_	_
+3	US	US	PROPN	NE	_	1	nmod	_	_
 4	--	--	PUNCT	$(	_	3	punct	_	_
 5	Repräsentantenhauses	Repräsentantenhaus	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	23	punct	_	_
@@ -10589,8 +10589,8 @@
 13	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = test-s539
-# text = U.S. -- Handelsbeauftragte Mickey Kantor äußerte sich über das bisherige Ergebnis zufrieden:
-1	U.S.	U.S.	PROPN	NE	_	6	nsubj	_	_
+# text = US -- Handelsbeauftragte Mickey Kantor äußerte sich über das bisherige Ergebnis zufrieden:
+1	US	US	PROPN	NE	_	6	nsubj	_	_
 2	--	--	PUNCT	$(	_	1	punct	_	_
 3	Handelsbeauftragte	Handelsbeauftragte	NOUN	NN	Case=Nom|Number=Sing	1	flat	_	_
 4	Mickey	Mickey	PROPN	NE	_	1	appos	_	_
