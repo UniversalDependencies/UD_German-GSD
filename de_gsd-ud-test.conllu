@@ -5728,7 +5728,7 @@
 # sent_id = test-s327
 # text = Im Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten, flogen die Fetzen auf niedrigstem Niveau.
 1-2	Im	_	_	_	_	_	_	_	_
-1	In	in	ADP	APPR	_	3	case	_	_
+1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
 2	dem	der	DET	ART	Case=Dat|Gender=Neut|Number=Sing	3	det	_	_
 3	Abgeordnetenhaus	Abgeordnetenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	dep	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	18	punct	_	_
@@ -5894,7 +5894,7 @@
 # sent_id = test-s333
 # text = Am Anfang eines Films steht immer die Musikalität, der Rhythmus.
 1-2	Am	_	_	_	_	_	_	_	_
-1	An	an	ADP	APPR	_	3	case	_	_
+1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
 2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
 3	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	dep	_	_
 4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -6400,7 +6400,7 @@
 # sent_id = test-s352
 # text = Im Blickpunkt: Die Kurilen-Inseln
 1-2	Im	_	_	_	_	_	_	_	_
-1	In	in	ADP	APPR	_	3	case	_	_
+1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
 2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
 3	Blickpunkt	Blickpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	3	punct	_	_
@@ -9291,7 +9291,7 @@
 # sent_id = test-s477
 # text = Am Montag werde der Aufsichtsrat über mögliche personelle Konsequenzen entscheiden.
 1-2	Am	_	_	_	_	_	_	_	_
-1	An	an	ADP	APPR	_	3	case	_	_
+1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
 2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
 3	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
 4	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
