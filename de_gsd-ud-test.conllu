@@ -15274,7 +15274,7 @@
 6	Westen	Westen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 
 # sent_id = test-s760
-# text = Die Bundesregierung gefährdet nach Auffassung des Präsidenten der Kultusministerkonferenz der Länder (KMK,) Diether Breitenbach (SPD,) mit ``falscher Sparpolitik'' den weiteren Ausbau der mit 1,8 Millionen Studenten überfüllten Hochschulen.
+# text = Die Bundesregierung gefährdet nach Auffassung des Präsidenten der Kultusministerkonferenz der Länder (KMK), Diether Breitenbach (SPD), mit ``falscher Sparpolitik'' den weiteren Ausbau der mit 1,8 Millionen Studenten überfüllten Hochschulen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bundesregierung	Bundesregierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	gefährdet	gefährden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15288,14 +15288,14 @@
 11	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
 12	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 13	KMK	KMK	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	3	punct	_	SpaceAfter=No
-15	)	)	PUNCT	$(	_	13	punct	_	_
+14	)	)	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	3	punct	_	_
 16	Diether	Diether	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
 17	Breitenbach	Breitenbach	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	_
 18	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 19	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	3	punct	_	SpaceAfter=No
-21	)	)	PUNCT	$(	_	19	punct	_	_
+20	)	)	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	3	punct	_	_
 22	mit	mit	ADP	APPR	_	25	case	_	_
 23	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 24	falscher	falsch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	_
@@ -15486,7 +15486,7 @@
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s769
-# text = Insbesondere bei den Sorgenkindern, der Halbleitersparte und der Computer - Tochter Siemens Nixdorf Informationssysteme (SNI,) scheint die Gesundung nicht recht voranzukommen.
+# text = Insbesondere bei den Sorgenkindern, der Halbleitersparte und der Computer - Tochter Siemens Nixdorf Informationssysteme (SNI), scheint die Gesundung nicht recht voranzukommen.
 1	Insbesondere	insbesondere	ADV	ADV	_	4	advmod	_	_
 2	bei	bei	ADP	APPR	_	4	case	_	_
 3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
@@ -15504,8 +15504,8 @@
 15	Informationssysteme	Informationssystem	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	13	flat	_	_
 16	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 17	SNI	SNI	PROPN	NE	Case=Nom|Number=Sing	13	appos	_	SpaceAfter=No
-18	,	,	PUNCT	$,	_	20	punct	_	SpaceAfter=No
-19	)	)	PUNCT	$(	_	17	punct	_	_
+18	)	)	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
 20	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Gesundung	Gesundung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -15646,7 +15646,7 @@
 4	streiken	streiken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = test-s776
-# text = Während Premierminister John Major gestern am Rande des G - 7 - Gipfels in München Bundeskanzler Helmut Kohl und den italienischen Regierungschef Giuliano Amato zur weiteren Kooperation am ``Jäger90'' - Projekt zu bewegen suchte, erörterte in London Verteidigungsminister Malcolm Rifkind mit seinem deutschen Kollegen Volker Rühe die Konsequenzen des deutschen Rückziehers.
+# text = Während Premierminister John Major gestern am Rande des G-7-Gipfels in München Bundeskanzler Helmut Kohl und den italienischen Regierungschef Giuliano Amato zur weiteren Kooperation am ``Jäger90''-Projekt zu bewegen suchte, erörterte in London Verteidigungsminister Malcolm Rifkind mit seinem deutschen Kollegen Volker Rühe die Konsequenzen des deutschen Rückziehers.
 1	Während	während	SCONJ	KOUS	_	38	mark	_	_
 2	Premierminister	Premierminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
 3	John	John	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
@@ -15657,10 +15657,10 @@
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Rande	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	38	obl	_	_
 9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-10	G	G	X	NN	_	14	compound	_	_
-11	-	-	PUNCT	$(	_	14	punct	_	_
-12	7	7	NUM	NN	Case=Gen|Gender=Masc|Number=Sing	14	compound	_	_
-13	-	-	PUNCT	$(	_	14	punct	_	_
+10	G	G	X	NN	_	14	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+12	7	7	NUM	NN	Case=Gen|Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 14	Gipfels	Gipfel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
 16	München	München	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
@@ -15682,8 +15682,8 @@
 30	an	an	ADP	APPR	_	33	case	_	_
 31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
 32	``	``	PUNCT	$(	_	33	punct	_	SpaceAfter=No
-33	Jäger90''	Jäger90''	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	_
-34	-	-	PUNCT	$(	_	33	punct	_	_
+33	Jäger90''	Jäger90''	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+34	-	-	PUNCT	$(	_	33	punct	_	SpaceAfter=No
 35	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	33	flat	_	_
 36	zu	zu	PART	PTKZU	_	37	mark	_	_
 37	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	38	xcomp	_	_
@@ -17106,12 +17106,12 @@
 17	?	?	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s851
-# text = Ich habe gesagt ``: Lieber mal ganz ruhig.''
+# text = Ich habe gesagt: ``Lieber mal ganz ruhig.''
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
-4	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
-5	:	:	PUNCT	$.	_	3	punct	_	_
+4	:	:	PUNCT	$.	_	3	punct	_	_
+5	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 6	Lieber	lieb	ADV	ADJD	_	7	advmod	_	_
 7	mal	mal	ADV	ADV	_	9	advmod	_	_
 8	ganz	ganz	ADV	ADV	_	9	advmod	_	_
@@ -17465,12 +17465,12 @@
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = test-s874
-# text = Die Insassen jubelten ``: Rabin ist tot!
+# text = Die Insassen jubelten: ``Rabin ist tot!
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Insassen	Insasse	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	jubelten	jubeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
-5	:	:	PUNCT	$.	_	3	punct	_	_
+4	:	:	PUNCT	$.	_	3	punct	_	_
+5	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 6	Rabin	Rabin	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	_
 7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	tot	tot	ADJ	ADJD	_	3	ccomp	_	SpaceAfter=No
@@ -17565,7 +17565,7 @@
 35	.	.	PUNCT	$.	_	22	punct	_	_
 
 # sent_id = test-s878
-# text = Noch anläßlich des Massakers von Hebron, als der Siedler und Arzt Baruch Goldstein vor anderthalb Jahren 29 betende Moslems niedergemetzelt hatte, stellte der jordanische Politologe Mustafa Hamarneh kategorisch fest ``: Juden schießen nicht auf Juden.''
+# text = Noch anläßlich des Massakers von Hebron, als der Siedler und Arzt Baruch Goldstein vor anderthalb Jahren 29 betende Moslems niedergemetzelt hatte, stellte der jordanische Politologe Mustafa Hamarneh kategorisch fest: ``Juden schießen nicht auf Juden.''
 1	Noch	noch	ADV	ADV	_	24	advmod	_	_
 2	anläßlich	anläßlich	ADP	APPR	_	4	case	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -17597,8 +17597,8 @@
 29	Hamarneh	Hamarneh	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	flat	_	_
 30	kategorisch	kategorisch	ADV	ADJD	_	24	advmod	_	_
 31	fest	fest	ADV	PTKVZ	_	24	compound:prt	_	_
-32	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
-33	:	:	PUNCT	$.	_	24	punct	_	_
+32	:	:	PUNCT	$.	_	24	punct	_	_
+33	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
 34	Juden	Jude	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	nsubj	_	_
 35	schießen	schießen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
 36	nicht	nicht	PART	PTKNEG	Polarity=Neg	35	advmod	_	_
@@ -18676,7 +18676,7 @@
 49	.	.	PUNCT	$.	_	22	punct	_	_
 
 # sent_id = test-s935
-# text = Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik der Wehrdienstzeit des jungen Berger (Christoph Dostal,) in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil - Paraphrase, lyrisch, wagemutig, überzeugend.
+# text = Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik der Wehrdienstzeit des jungen Berger (Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil-Paraphrase, lyrisch, wagemutig, überzeugend.
 1	Ebenfalls	ebenfalls	ADV	ADV	_	8	appos	_	_
 2	aus	aus	ADP	APPR	_	3	case	_	_
 3	Österreich	Österreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
@@ -18703,8 +18703,8 @@
 24	(	(	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 25	Christoph	Christoph	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
 26	Dostal	Dostal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	SpaceAfter=No
-27	,	,	PUNCT	$,	_	25	punct	_	SpaceAfter=No
-28	)	)	PUNCT	$(	_	25	punct	_	_
+27	)	)	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	25	punct	_	_
 29	in	in	ADP	APPR	_	30	case	_	_
 30	Wahrheit	Wahrheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	nmod	_	_
 31	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
@@ -18731,8 +18731,8 @@
 51	und	und	CCONJ	KON	_	50	conj	_	_
 52	durch	durch	ADP	ADV	_	51	case	_	_
 53	filmische	filmisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	50	fixed	_	_
-54	Musil	Musil	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	56	compound	_	_
-55	-	-	PUNCT	$(	_	56	punct	_	_
+54	Musil	Musil	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	56	compound	_	SpaceAfter=No
+55	-	-	PUNCT	$(	_	56	punct	_	SpaceAfter=No
 56	Paraphrase	Paraphrase	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
 57	,	,	PUNCT	$,	_	56	punct	_	_
 58	lyrisch	lyrisch	ADJ	ADJD	_	18	appos	_	SpaceAfter=No
