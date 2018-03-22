@@ -9216,15 +9216,15 @@
 33	''	''	PUNCT	$(	_	6	punct	_	_
 
 # sent_id = dev-s541
-# text = Die Mobilfunkbetreiber Telekom (D 1,) Mannesmann (D 2) und Thyssen / Veba (E -- plus) erhalten mittelfristig wahrscheinlich neue Konkurrenz.
+# text = Die Mobilfunkbetreiber Telekom (D 1), Mannesmann (D 2) und Thyssen / Veba (E-plus) erhalten mittelfristig wahrscheinlich neue Konkurrenz.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Mobilfunkbetreiber	Mobilfunkbetreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
 3	Telekom	Telekom	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	_
 4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 5	D	D	X	XY	_	3	appos	_	_
 6	1	1	NUM	CARD	NumType=Card	5	nummod	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	9	punct	_	SpaceAfter=No
-8	)	)	PUNCT	$(	_	5	punct	_	_
+7	)	)	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
 9	Mannesmann	Mannesmann	PROPN	NE	Case=Nom|Number=Sing	3	conj	_	_
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 11	D	D	X	XY	_	9	appos	_	_
@@ -9235,8 +9235,8 @@
 16	/	/	PUNCT	$(	_	15	punct	_	_
 17	Veba	Veba	PROPN	NE	Case=Nom|Number=Sing	15	flat	_	_
 18	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-19	E	E	X	NN	_	15	appos	_	_
-20	--	--	PUNCT	$(	_	19	punct	_	_
+19	E	E	X	NN	_	15	appos	_	SpaceAfter=No
+20	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 21	plus	plus	NOUN	NN	_	19	compound	_	SpaceAfter=No
 22	)	)	PUNCT	$(	_	19	punct	_	_
 23	erhalten	erhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
