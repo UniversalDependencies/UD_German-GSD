@@ -17109,7 +17109,7 @@
 # text = Ich habe gesagt: ``Lieber mal ganz ruhig.''
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	3	punct	_	_
 5	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 6	Lieber	lieb	ADV	ADJD	_	7	advmod	_	_
@@ -17468,7 +17468,7 @@
 # text = Die Insassen jubelten: ``Rabin ist tot!
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Insassen	Insasse	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-3	jubelten	jubeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	jubelten	jubeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	3	punct	_	_
 5	``	``	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 6	Rabin	Rabin	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	_
@@ -17596,7 +17596,7 @@
 28	Mustafa	Mustafa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	27	appos	_	_
 29	Hamarneh	Hamarneh	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	flat	_	_
 30	kategorisch	kategorisch	ADV	ADJD	_	24	advmod	_	_
-31	fest	fest	ADV	PTKVZ	_	24	compound:prt	_	_
+31	fest	fest	ADV	PTKVZ	_	24	compound:prt	_	SpaceAfter=No
 32	:	:	PUNCT	$.	_	24	punct	_	_
 33	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
 34	Juden	Jude	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	nsubj	_	_
