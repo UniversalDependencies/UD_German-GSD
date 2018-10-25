@@ -54,6 +54,9 @@ Case and Gender are not unexpectedly the least accurate of the frequent features
 
 # Changelog
 
+2018-11-15 Dan Zeman
+  * Fixed punctuation using udapy -s ud.FixPunct
+
 2018-04-15 Adriane Boyd
   * Fixed morphology (retagged with Mate, see above), re-synchronized with original Tiger data where applicable.
 
