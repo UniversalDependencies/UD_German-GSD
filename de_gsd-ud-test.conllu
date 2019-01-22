@@ -111,7 +111,7 @@
 # sent_id = test-s7
 # text = 10 Euro günstiger selbst hätte kaufen können.
 1	10	10	NUM	CARD	NumType=Card	2	nummod	_	_
-2	Euro	Euro	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	appos	_	_
+2	Euro	Euro	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	_
 3	günstiger	günstig	ADV	ADJD	_	6	advmod	_	_
 4	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 5	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -229,9 +229,9 @@
 22	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	29	nsubj	_	_
 23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
 24	originelle	originell	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	25	amod	_	_
-25	Gericht	Gericht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	appos	_	_
+25	Gericht	Gericht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
 26	"	"	PUNCT	$(	_	27	punct	_	SpaceAfter=No
-27	Labskaus	Labskaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	SpaceAfter=No
+27	Labskaus	Labskaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	flat	_	SpaceAfter=No
 28	"	"	PUNCT	$(	_	27	punct	_	_
 29	essen	essen	VERB	VVINF	VerbForm=Inf	17	acl	_	_
 30	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	SpaceAfter=No
