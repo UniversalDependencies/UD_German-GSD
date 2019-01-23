@@ -13306,7 +13306,7 @@
 14	viele	viele	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
 15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 16	zwangskollektivierten	zwangskollektiviert	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	17	amod	_	_
-17	Kleinbauern	Kleinbauer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	det	_	_
+17	Kleinbauern	Kleinbauer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
 18	besaßen	besitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
 19	nur	nur	ADV	ADV	_	20	advmod	_	_
 20	wenige	weniger	DET	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
