@@ -13320,15 +13320,15 @@
 3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 4	bessere	gut	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
 5	Betriebskonzept	Betriebskonzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
-6	--	--	PUNCT	$(	_	14	punct	_	_
-7	und	und	CCONJ	KON	_	14	cc	_	_
+6	--	--	PUNCT	$(	_	9	punct	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
 8	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
 9	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 10	auch	auch	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 11	:	:	PUNCT	$.	_	14	punct	_	_
 12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	größere	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
-14	Finanzkraft	Finanzkraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+14	Finanzkraft	Finanzkraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s654
