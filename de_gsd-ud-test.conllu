@@ -9063,7 +9063,7 @@
 24	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
 25	nach	nach	ADP	APPR	_	28	case	_	_
 26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
-27	19.	19	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	28	nummod	_	_
+27	19.	19.	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing|NumType=Ord	28	amod	_	_
 28	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	32	punct	_	_
 30	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
