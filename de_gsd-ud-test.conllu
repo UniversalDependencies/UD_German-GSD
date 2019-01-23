@@ -10960,12 +10960,12 @@
 2	Vertrag	Vertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	offiziell	offiziell	ADV	ADJD	_	3	advmod	_	_
-5	bis	bis	ADP	APPR	_	3	case	_	_
+5	bis	bis	ADP	APPR	_	9	case	_	_
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	31.	31	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	_
-9	Dezember	Dezember	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+9	Dezember	Dezember	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 10	1992	1992	NUM	CARD	NumType=Card	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -11013,7 +11013,7 @@
 
 # sent_id = test-s551
 # text = Starr vor Entsetzen habe er mit ansehen müssen, wie sein Freund in den vermeintlich sicheren Tod stürzte, berichtete der unverletzt gebliebene Jones.
-1	Starr	starr	ADJ	ADJD	_	2	dep	_	FixTigerDep=Yes
+1	Starr	starr	ADJ	ADJD	_	3	dep	_	FixTigerDep=Yes
 2	vor	vor	ADP	APPR	_	3	case	_	_
 3	Entsetzen	Entsetzen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
 4	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
