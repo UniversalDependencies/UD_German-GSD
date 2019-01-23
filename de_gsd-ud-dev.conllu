@@ -561,7 +561,7 @@
 6	für	für	ADP	APPR	_	7	case	_	_
 7	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nmod	_	_
 8	natürlich	natürlich	ADV	ADV	_	11	advmod	_	_
-9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	11	advmod	_	_
+9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	11	nmod	_	_
 10	ausreichende	ausreichend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
 11	Entschädigung	Entschädigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
@@ -979,7 +979,7 @@
 4	vorher	vorher	ADV	ADV	_	9	advmod	_	_
 5	noch	noch	ADV	ADV	_	9	advmod	_	_
 6	von	von	ADP	APPR	_	8	case	_	_
-7	keinem	kein	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	advmod	_	_
+7	keinem	kein	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	nmod	_	_
 8	Optiker	Optiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 9	geboten	bieten|gebieten	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
@@ -1534,7 +1534,7 @@
 15	,	,	PUNCT	$,	_	19	punct	_	_
 16	Sonderwünsche	Sonderwunsch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	cop	_	_
 17	-	-	PUNCT	$(	_	16	punct	_	_
-18	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	19	advmod	_	_
+18	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	19	nmod	_	_
 19	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -2104,7 +2104,7 @@
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 3	leider	leider	ADV	ADV	_	7	advmod	_	_
-4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	6	advmod	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	6	nmod	_	_
 5	0	0	NUM	CARD	NumType=Card	6	nummod	_	_
 6	Sterne	Stern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 7	vergeben	vergeben	VERB	VVINF	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -2499,7 +2499,7 @@
 # sent_id = dev-s145
 # text = Leider kein Paradies, sondern ein Glashaus voller Mängel erwartete uns in unserem Wintergarten, der von der Firma Wintergartenbau gefertigt wurde.
 1	Leider	leider	ADV	ADV	_	3	advmod	_	_
-2	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	3	advmod	_	_
+2	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	3	nmod	_	_
 3	Paradies	Paradies	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
 5	sondern	sondern	CCONJ	KON	_	10	cc	_	_
@@ -2606,7 +2606,7 @@
 18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 19	immer	immer	ADV	ADV	_	20	advmod	_	_
 20	noch	noch	ADV	ADV	_	23	advmod	_	_
-21	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	22	advmod	_	_
+21	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	22	nmod	_	_
 22	Ware	Ware	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nsubj	_	_
 23	angekommen	ankommen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
@@ -2719,7 +2719,7 @@
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	zweiten	zweit	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	_
 15	Besuch	Besuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-16	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	advmod	_	_
+16	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	nmod	_	_
 17	komplette	komplett	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	_
 18	Heilung	Heilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	_
 19	durch	durch	ADP	APPR	_	22	case	_	_
@@ -2878,7 +2878,7 @@
 8	Inhaber	Inhaber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
-11	keines	kein	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	12	advmod	_	_
+11	keines	kein	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	12	nmod	_	_
 12	Blickes	Blick	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	iobj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -2978,7 +2978,7 @@
 4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	dann	dann	ADV	ADV	_	6	advmod	_	_
 6	schließlich	schließlich	ADV	ADV	_	4	advmod	_	_
-7	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	8	advmod	_	_
+7	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	8	nmod	_	_
 8	Vespa	Vespa	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 9	mehr	mehr	ADV	ADV	_	4	advmod	_	_
 10	da	da	ADV	ADV	_	4	compound:prt	_	SpaceAfter=No
@@ -4139,7 +4139,7 @@
 
 # sent_id = dev-s237
 # text = Kein Vergleich mit der Praxis in der ich jetzt bin nach meinem Umzug.
-1	Kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	advmod	_	_
+1	Kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	nmod	_	_
 2	Vergleich	Vergleich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -4520,7 +4520,7 @@
 
 # sent_id = dev-s259
 # text = Kein vergelich zu Fastfoodketten, die ihr Essen in Pappschachteln anbieten.
-1	Kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	advmod	_	_
+1	Kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	nmod	_	_
 2	vergelich	vergelich	NOUN	ADJD	_	0	root	_	_
 3	zu	zu	ADP	APPR	_	4	case	_	_
 4	Fastfoodketten	Fastfoodketten	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
@@ -5145,7 +5145,7 @@
 9	Rechner	Rechner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	flat	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	akzeptieren	akzeptieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-12	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	16	advmod	_	_
+12	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	16	nmod	_	_
 13	Mac	Mac	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	16	acl	_	_
 14	-	-	PUNCT	$(	_	15	punct	_	_
 15	Formatierten	Formatierten	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	13	flat	_	_
@@ -5249,7 +5249,7 @@
 19	Laufen	Laufen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
 20	heraus	heraus	ADV	ADV	_	19	mark	_	_
 21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
-22	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	23	advmod	_	_
+22	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	23	nmod	_	_
 23	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -5288,7 +5288,7 @@
 3	Hundezentrum	Hundezentrum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
 4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-6	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	8	advmod	_	_
+6	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	8	nmod	_	_
 7	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	Massenabfertigung	Massenabfertigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 9	"	"	PUNCT	$(	_	8	punct	_	_
@@ -6394,7 +6394,7 @@
 # text = Es gibt kein Problem was von denen nicht gelöst werden kann!
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	4	advmod	_	_
+3	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
 4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
@@ -10084,7 +10084,7 @@
 3	ihren	ihr	PRON	PPOSAT	Case=Dat|Number=Plur|Poss=Yes	4	det:poss	_	_
 4	Neugeborenen	Neugeborener	NOUN	NN	Case=Dat|Number=Plur	20	iobj	_	_
 5	künftig	künftig	ADV	ADJD	_	20	advmod	_	_
-6	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	18	advmod	_	_
+6	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	18	nmod	_	_
 7	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	lustigen	lustig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
@@ -10262,7 +10262,7 @@
 23	unter	unter	ADV	ADV	_	24	advmod	_	_
 24	18	18	NUM	CARD	NumType=Card	25	nummod	_	_
 25	Wochenstunden	Wochenstunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	_
-26	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	27	advmod	_	_
+26	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	27	nmod	_	_
 27	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
 28	auf	auf	ADP	APPR	_	29	case	_	_
 29	Arbeitslosengeld	Arbeitslosengeld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	nmod	_	_
@@ -11209,7 +11209,7 @@
 7	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 8	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	15	nsubj	_	_
 9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	iobj	_	_
-10	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	11	advmod	_	_
+10	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	11	nmod	_	_
 11	Steine	Stein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -11566,7 +11566,7 @@
 6	doch	doch	CCONJ	KON	_	7	cc	_	_
 7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Polarity=Neg|PronType=Neg	12	advmod	_	_
+9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Polarity=Neg|PronType=Neg	12	nmod	_	_
 10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
 11	bewegenden	bewegend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	_
 12	Objekte	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
@@ -11576,12 +11576,12 @@
 16	Aktivität	Aktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	18	punct	_	_
 18	jedoch	jedoch	CCONJ	KON	_	16	cc	_	_
-19	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Number=Plur|Polarity=Neg|PronType=Neg	20	advmod	_	_
+19	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Number=Plur|Polarity=Neg|PronType=Neg	20	nmod	_	_
 20	Handelnden	Handelnd	NOUN	NN	Case=Acc|Number=Plur	16	obj	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	23	punct	_	_
 22	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-24	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	25	advmod	_	_
+24	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	25	nmod	_	_
 25	Tänzer	Tänzer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	30	punct	_	_
 27	sondern	sondern	CCONJ	KON	_	30	cc	_	_
@@ -11857,7 +11857,7 @@
 13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	habe	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 15	``	``	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-16	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	17	advmod	_	_
+16	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	17	nmod	_	_
 17	Einwände	Einwand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 18	''	''	PUNCT	$(	_	21	punct	_	_
 19	gegen	gegen	ADP	APPR	_	21	case	_	_
@@ -12097,7 +12097,7 @@
 3	Klimaaspekten	Klimaaspekt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
 4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 5	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-6	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	7	advmod	_	_
+6	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	_
 7	Anlaß	Anlaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 8-9	zur	_	_	_	_	_	_	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
@@ -12987,7 +12987,7 @@
 20	,	,	PUNCT	$,	_	26	punct	_	_
 21	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	26	nsubj	_	_
 22	auch	auch	ADV	ADV	_	26	advmod	_	_
-23	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	25	advmod	_	_
+23	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	25	nmod	_	_
 24	anerkannten	anerkannt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	_
 25	Abschluß	Abschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
 26	verleihen	verleihen	VERB	VVINF	VerbForm=Inf	19	acl	_	_
@@ -13537,7 +13537,7 @@
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Kommunisten	Kommunist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
 10	Kwasniewski	Kwasniewski	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
-11	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	12	advmod	_	_
+11	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	12	nmod	_	_
 12	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	geben	geben	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
@@ -14439,7 +14439,7 @@
 11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 12	vereinten	vereint	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	13	amod	_	_
 13	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
-14	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	15	advmod	_	_
+14	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	15	nmod	_	_
 15	Alternative	Alternative	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
 16	gebe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
@@ -14542,7 +14542,7 @@
 # text = Es gibt keine Bedrohung mehr -- wo ist dann die Rechtfertigung für eine Wehrpflicht'',? fragte der Vorsitzende der Zentralstelle, Ulrich Finckh, am Montag in Bremen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
-3	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	advmod	_	_
+3	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
 4	Bedrohung	Bedrohung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5	mehr	mehr	ADV	ADV	_	2	advmod	_	_
 6	--	--	PUNCT	$(	_	8	punct	_	_
@@ -14846,7 +14846,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Dazu	Dazu	ADV	PAV	_	3	advmod	_	_
 3	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	6	advmod	_	_
+4	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
 5	wirtschaftliche	wirtschaftlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
 6	Notwendigkeit	Notwendigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
