@@ -1118,14 +1118,14 @@
 # sent_id = dev-s69
 # text = Für mich die Anwaltskanzlei Nummer EINS in Dresden.
 1	Für	für	ADP	APPR	_	2	case	_	_
-2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-4	Anwaltskanzlei	Anwaltskanzlei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	cop	_	_
-5	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	_
-6	EINS	EINS	NOUN	CARD	NumType=Card	0	root	_	_
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Anwaltskanzlei	Anwaltskanzlei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+6	EINS	eins	NUM	CARD	NumType=Card	5	nummod	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	Dresden	Dresden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	6	punct	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s70
 # text = Da kann man darüber hinwegsehen, dass es außerhalb der Aachener City liegt.
@@ -1517,24 +1517,24 @@
 
 # sent_id = dev-s90
 # text = Die Zimmer sauber und ordentlich, der Chef und das Personal freundlich und hilfsbereit, Sonderwünsche - kein Problem.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
-2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	cop	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	sauber	sauber	ADJ	ADJD	_	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	ordentlich	ordentlich	ADJ	ADJD	_	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	11	punct	_	_
-7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-8	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	cop	_	_
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 9	und	und	CCONJ	KON	_	11	cc	_	_
 10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
-12	freundlich	freundlich	ADJ	ADJD	_	11	conj	_	_
+11	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+12	freundlich	freundlich	ADJ	ADJD	_	3	conj	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
-14	hilfsbereit	hilfsbereit	ADJ	ADJD	_	11	conj	_	SpaceAfter=No
+14	hilfsbereit	hilfsbereit	ADJ	ADJD	_	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	19	punct	_	_
-16	Sonderwünsche	Sonderwunsch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	cop	_	_
-17	-	-	PUNCT	$(	_	16	punct	_	_
-18	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	19	nmod	_	_
+16	Sonderwünsche	Sonderwunsch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	-	-	PUNCT	$(	_	19	punct	_	_
+18	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	19	det	_	_
 19	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -1558,9 +1558,9 @@
 16	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = dev-s92
-# text = Das Essen im Restaurant (zartes Rumpsteak, 250g mit Beilagen für rund 14. -- €) ein Gedicht!
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
-2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	cop	_	_
+# text = Das Essen im Restaurant (zartes Rumpsteak, 250g mit Beilagen für rund 14.-- €) ein Gedicht!
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -1575,9 +1575,9 @@
 13	für	für	ADP	APPR	_	18	case	_	_
 14	rund	rund	ADV	ADV	_	15	advmod	_	_
 15	14	14	NUM	CARD	NumType=Card	18	nummod	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	_
+16	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No
 17	--	--	PUNCT	$(	_	15	punct	_	_
-18	€	€	X	NN	_	8	nmod	_	SpaceAfter=No
+18	€	€	SYM	NN	_	8	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	$(	_	8	punct	_	_
 20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
 21	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -2406,19 +2406,19 @@
 # sent_id = dev-s139
 # text = Die Ausstellungsräume sind fabelhaft und wirklich mit Liebe im Detail präsentiert.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Ausstellungsräume	Ausstellungsraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
-3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-4	fabelhaft	fabelhaft	ADJ	ADJD	_	12	cop	_	_
+2	Ausstellungsräume	Ausstellungsraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fabelhaft	fabelhaft	ADJ	ADJD	_	0	root	_	_
 5	und	und	CCONJ	KON	_	12	cc	_	_
 6	wirklich	wirklich	ADV	ADV	_	8	advmod	_	_
 7	mit	mit	ADP	APPR	_	8	case	_	_
-8	Liebe	Liebe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+8	Liebe	Liebe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Detail	Detail	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
-12	präsentiert	präsentieren	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	12	punct	_	_
+12	präsentiert	präsentieren	ADJ	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s140
 # text = Wir haben uns im November für ein Terrassendach entschieden und fanden die schnelle Angebotserstellung und zeitnahe Arbeitsausführung sehr positiv.
