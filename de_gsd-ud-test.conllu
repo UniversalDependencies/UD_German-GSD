@@ -6491,7 +6491,7 @@
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Schnellzug	Schnellzug	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 11	D	D	PROPN	NN	_	10	flat	_	_
-12	1273	1273	PROPN	CARD	NumType=Card	11	nummod	_	_
+12	1273	1273	NUM	CARD	NumType=Card	11	nummod	_	_
 13	von	von	ADP	APPR	_	14	case	_	_
 14	Köln	Köln	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
 15	nach	nach	ADP	APPR	_	16	case	_	_
