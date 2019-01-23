@@ -76,7 +76,7 @@
     <dep name="acl">2745</dep>
     <dep name="acl:relcl">3</dep>
     <dep name="advcl">1461</dep>
-    <dep name="advmod">17343</dep>
+    <dep name="advmod">17319</dep>
     <dep name="amod">16849</dep>
     <dep name="appos">6977</dep>
     <dep name="aux">3327</dep>
@@ -100,18 +100,18 @@
     <dep name="flat">7137</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3229</dep>
-    <dep name="nmod">22771</dep>
+    <dep name="nmod">22553</dep>
     <dep name="nmod:poss">76</dep>
-    <dep name="nsubj">17445</dep>
+    <dep name="nsubj">17430</dep>
     <dep name="nsubj:pass">3190</dep>
     <dep name="nummod">3011</dep>
     <dep name="obj">8415</dep>
-    <dep name="obl">17310</dep>
+    <dep name="obl">17570</dep>
     <dep name="obl:arg">1</dep>
     <dep name="parataxis">563</dep>
     <dep name="punct">38546</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">5</dep>
-    <dep name="xcomp">1071</dep>
+    <dep name="xcomp">1068</dep>
   </deps>
 </treebank>
