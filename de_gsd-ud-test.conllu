@@ -8178,7 +8178,7 @@
 13	einem	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	tapferen	tapfer	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	16	amod	_	_
-16	Führer	Führer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	det	_	_
+16	Führer	Führer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 17	Israels	Israel	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
 18	und	und	CCONJ	KON	_	20	cc	_	_
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -14591,7 +14591,7 @@
 16	bloß	bloß	ADV	ADV	_	17	advmod	_	_
 17	eins	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	conj	_	_
 18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	Politiker	Politiker	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	det	_	SpaceAfter=No
+19	Politiker	Politiker	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s715

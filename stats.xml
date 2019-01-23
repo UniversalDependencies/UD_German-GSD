@@ -86,7 +86,7 @@
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1158</dep>
-    <dep name="det">36327</dep>
+    <dep name="det">36290</dep>
     <dep name="det:poss">2362</dep>
     <dep name="expl">396</dep>
     <dep name="expl:pv">209</dep>
@@ -94,7 +94,7 @@
     <dep name="flat">7140</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3222</dep>
-    <dep name="nmod">22282</dep>
+    <dep name="nmod">22319</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17338</dep>
     <dep name="nsubj:pass">3190</dep>

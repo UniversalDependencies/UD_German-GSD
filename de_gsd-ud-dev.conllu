@@ -423,7 +423,7 @@
 11	67	67	NUM	CARD	NumType=Card	15	obl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
 13	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
-14	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	det	_	_
+14	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 15	eingelöst	einlösen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
