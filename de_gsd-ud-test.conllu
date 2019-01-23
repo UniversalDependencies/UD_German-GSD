@@ -13731,8 +13731,8 @@
 18	in	in	ADP	APPR	_	20	case	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	Dokument	Dokument	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
-21	,	,	PUNCT	$,	_	28	punct	_	_
-22	``	``	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	16	punct	_	_
+22	``	``	PUNCT	$(	_	34	punct	_	SpaceAfter=No
 23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 24	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	ANC	ANC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
@@ -13745,8 +13745,8 @@
 32	politischen	politisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	_
 33	Wettbewerb	Wettbewerb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	iobj	_	_
 34	angepaßt	anpassen	VERB	VVPP	VerbForm=Part	16	ccomp	_	SpaceAfter=No
-35	.	.	PUNCT	$.	_	28	punct	_	SpaceAfter=No
-36	''	''	PUNCT	$(	_	16	punct	_	_
+35	.	.	PUNCT	$.	_	34	punct	_	SpaceAfter=No
+36	''	''	PUNCT	$(	_	34	punct	_	_
 
 # sent_id = test-s669
 # text = Für nach 1986 gebaute respektive gekaufte Häuser entfällt der Ansatz eines Mietwertes für die eigene Wohnung.
