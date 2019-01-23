@@ -11051,13 +11051,13 @@
 8	mehr	mehr	DET	PIAT	Definite=Ind|PronType=Ind	9	amod	_	_
 9	Quartiere	Quartier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
 10	herausspringen	herausspringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-11	als	als	ADP	KOKOM	_	10	case	_	_
+11	als	als	ADP	KOKOM	_	16	case	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	16	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 14	herkömmlichen	herkömmlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
 15	sozialen	sozial	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
-16	Wohnungsbau	Wohnungsbau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	Wohnungsbau	Wohnungsbau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s553
