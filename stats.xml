@@ -77,7 +77,7 @@
     <dep name="acl:relcl">3</dep>
     <dep name="advcl">1461</dep>
     <dep name="advmod">17343</dep>
-    <dep name="amod">16829</dep>
+    <dep name="amod">16849</dep>
     <dep name="appos">6977</dep>
     <dep name="aux">3327</dep>
     <dep name="aux:pass">3426</dep>
@@ -91,7 +91,7 @@
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1149</dep>
-    <dep name="det">36299</dep>
+    <dep name="det">36279</dep>
     <dep name="det:poss">2362</dep>
     <dep name="discourse">4</dep>
     <dep name="expl">397</dep>
