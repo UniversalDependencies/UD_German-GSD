@@ -13751,8 +13751,8 @@
 # sent_id = test-s669
 # text = Für nach 1986 gebaute respektive gekaufte Häuser entfällt der Ansatz eines Mietwertes für die eigene Wohnung.
 1	Für	für	ADP	APPR	_	7	case	_	_
-2	nach	nach	ADP	APPR	_	4	case	_	_
-3	1986	1986	NUM	CARD	NumType=Card	2	nmod	_	_
+2	nach	nach	ADP	APPR	_	3	case	_	_
+3	1986	1986	NUM	CARD	NumType=Card	4	obl	_	_
 4	gebaute	gebaut	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	7	amod	_	_
 5	respektive	respektiv	CCONJ	KON	_	6	cc	_	_
 6	gekaufte	gekauft	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	_
