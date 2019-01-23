@@ -7,17 +7,17 @@
   <size>
     <total><sentences>15590</sentences><tokens>287740</tokens><words>292788</words><fused>5048</fused></total>
   </size>
-  <lemmas unique="42361" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42358" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">20573</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADJ">20570</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31689</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14759</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">11396</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, bleiben, dürfen, gelten -->
     <tag name="CCONJ">8865</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
-    <tag name="DET">36860</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
+    <tag name="DET">36863</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
     <tag name="NOUN">52222</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7374</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 1 -->
     <tag name="PART">2166</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, her -->
@@ -51,7 +51,7 @@
     <feat name="Person" value="2" upos="ADP,AUX,DET,PRON,VERB">84</feat><!-- du, ihr, euch, bist, Dir, Siehe, dich, gebt, gehst, hast -->
     <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">27774</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
     <feat name="Polarity" value="Neg" upos="ADV,DET,NOUN,PART,PRON,PROPN">1402</feat><!-- nicht, keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, garnicht -->
-    <feat name="Poss" value="Yes" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">2398</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
+    <feat name="Poss" value="Yes" upos="DET,NOUN,PRON,PROPN,VERB">2398</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="ADP,ADV,AUX,DET,PART,PRON,PUNCT,SCONJ,X">34726</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADP,DET,PRON,SCONJ,VERB">1795</feat><!-- diese, dieser, das, diesem, dieses, dies, diesen, dessen, deren, die -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON,VERB">2689</feat><!-- man, alle, viele, beiden, allem, einige, mehrere, alles, anderem, vielen -->
@@ -74,7 +74,7 @@
     <dep name="advmod">18054</dep>
     <dep name="amod">16445</dep>
     <dep name="appos">7012</dep>
-    <dep name="aux">3337</dep>
+    <dep name="aux">3326</dep>
     <dep name="aux:pass">3426</dep>
     <dep name="case">30998</dep>
     <dep name="cc">8768</dep>
@@ -93,7 +93,7 @@
     <dep name="fixed">150</dep>
     <dep name="flat">7140</dep>
     <dep name="iobj">1276</dep>
-    <dep name="mark">3222</dep>
+    <dep name="mark">3233</dep>
     <dep name="nmod">22319</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17338</dep>

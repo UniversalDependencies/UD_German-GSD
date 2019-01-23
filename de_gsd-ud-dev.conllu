@@ -886,7 +886,7 @@
 10	zeitgemäße	zeitgemäß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
 11	umweltorientierte	umweltorientiert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
 12	Einstellung	Einstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
-13	Ihres	ihr	ADJ	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	14	det	_	_
+13	Ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	14	det	_	_
 14	Unternehmens	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -926,7 +926,7 @@
 11	Fähre	Fähre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
 12	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 13	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-14	um	um	ADP	KOUI	_	22	aux	_	_
+14	um	um	ADP	KOUI	_	22	mark	_	_
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Biergarten	Biergarten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
 17	auf	auf	ADP	APPR	_	20	case	_	_
@@ -973,7 +973,7 @@
 
 # sent_id = dev-s61
 # text = Hab 'ich vorher noch von keinem Optiker geboten bekommen.
-1	Hab	Hab	AUX	NE	Case=Nom|Number=Sing	9	aux	_	_
+1	Hab	haben	AUX	NE	Case=Nom|Number=Sing	9	aux	_	_
 2	'	'	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 4	vorher	vorher	ADV	ADV	_	9	advmod	_	_
@@ -6314,7 +6314,7 @@
 
 # sent_id = dev-s370
 # text = Hab hier schon oft bestellt und werde es immer wieder tun!
-1	Hab	Hab	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+1	Hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 2	hier	hier	ADV	ADV	_	5	advmod	_	_
 3	schon	schon	ADV	ADV	_	4	advmod	_	_
 4	oft	oft	ADV	ADV	_	5	advmod	_	_
@@ -7608,7 +7608,7 @@
 # sent_id = dev-s452
 # text = Da werd ich wohl noch einige andere Sauna in Bremen ausprobieren.
 1	Da	da	ADV	ADV	_	11	advmod	_	_
-2	werd	werd	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+2	werd	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 4	wohl	wohl	ADV	ADV	_	5	advmod	_	_
 5	noch	noch	ADV	ADV	_	11	advmod	_	_
@@ -11518,7 +11518,7 @@
 18	nach	nach	ADP	APPR	_	19	case	_	_
 19	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	42	punct	_	_
-21	um	um	ADP	KOUI	_	42	aux	_	_
+21	um	um	ADP	KOUI	_	42	mark	_	_
 22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	autonome	autonom	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
 24	Szene	Szene	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	obj	_	_
