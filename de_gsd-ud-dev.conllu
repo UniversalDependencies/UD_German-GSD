@@ -2592,11 +2592,11 @@
 4	Firma	Firma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Ware	Ware	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
-7	in	in	ADP	APPR	_	13	case	_	_
+7	in	in	ADP	APPR	_	11	case	_	_
 8	ca	ca	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	10	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 10	7	7	NUM	CARD	NumType=Card	11	nummod	_	_
-11	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obj	_	_
+11	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	liefern	liefern	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
 14	aber	aber	CCONJ	ADV	_	23	cc	_	_
@@ -2695,10 +2695,10 @@
 2	mit	mit	ADP	APPR	_	4	case	_	_
 3	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
 4	Kater	Kater	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
-5	wegen	wegen	ADP	APPR	_	1	case	_	_
+5	wegen	wegen	ADP	APPR	_	8	case	_	_
 6	eines	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 7	entzündetem	entzündet	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	8	amod	_	_
-8	Auge	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	_
+8	Auge	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
 9	dort	dort	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -3858,7 +3858,7 @@
 
 # sent_id = dev-s219
 # text = Wird auf jeden Fall mein neuer Hausarzt werden.
-1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux	_	_
+1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -4816,7 +4816,7 @@
 3	Google	Google	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 4	Maps	Maps	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	_
 5	Eintrag	Eintrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	flat	_	_
-6	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+6	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -5830,7 +5830,7 @@
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Faxnummer	Faxnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-17	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
 18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	richtige	richtig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	12	punct	_	_
@@ -6097,7 +6097,7 @@
 33	,	,	PUNCT	$,	_	32	punct	_	_
 34	daß	daß	SCONJ	KOUS	_	37	mark	_	_
 35	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	37	nsubj	_	_
-36	nicht	nicht	PART	PTKNEG	Polarity=Neg	38	advmod	_	_
+36	nicht	nicht	PART	PTKNEG	Polarity=Neg	37	advmod	_	_
 37	möglich	möglich	ADJ	ADJD	_	9	dep	_	_
 38	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	9	punct	_	_
@@ -6169,7 +6169,7 @@
 10	,	,	PUNCT	$,	_	16	punct	_	_
 11	daß	daß	CCONJ	KOUS	_	16	cc	_	_
 12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
-13	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
 16	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	ccomp	_	_
@@ -6987,7 +6987,7 @@
 10	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
-13	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
 14	genießbar	genießbar	ADJ	ADJD	_	8	acl	_	_
 15	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
@@ -7251,7 +7251,7 @@
 9	richtige	richtig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
 10	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 11	getroffen	treffen|triefen	VERB	VVPP	VerbForm=Part	7	xcomp	_	_
-12	zu	zu	PART	PTKZU	_	13	mark	_	_
+12	zu	zu	PART	PTKZU	_	11	mark	_	_
 13	haben	haben	AUX	VAINF	VerbForm=Inf	11	aux	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -7590,7 +7590,7 @@
 2	Außenbereich	Außenbereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	--	--	PUNCT	$(	_	2	punct	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-5	leider	leider	ADV	ADV	_	4	advmod	_	_
+5	leider	leider	ADV	ADV	_	7	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	bedrückend	bedrückend	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
@@ -9709,7 +9709,7 @@
 9	staatlichen	staatlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	_
 10	Gläubiger	Gläubiger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-12	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	_
+12	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	iobj	_	_
 13	untereinander	untereinander	ADV	ADV	_	15	advmod	_	_
 14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
 15	einig	einig	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
@@ -9771,7 +9771,7 @@
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	daß	daß	CCONJ	KOUS	_	14	cc	_	_
 12	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
-13	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
 14	imstande	imstande	ADJ	ADV	_	8	ccomp	_	_
 15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	26	punct	_	_
@@ -10532,9 +10532,9 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Sozialdemokraten	Sozialdemokrat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	äußerten	äußern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	nach	nach	ADP	APPR	_	3	case	_	_
+4	nach	nach	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+6	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
 7	Lafontaines	Lafontaine	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Hoffnung	Hoffnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
@@ -10612,7 +10612,7 @@
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Tagung	Tagung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
-6	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	iobj	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
 7	darüber	darüber	ADV	PAV	_	8	advmod	_	_
 8	einig	einig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
@@ -10787,10 +10787,10 @@
 30	und	und	CCONJ	KON	_	31	cc	_	_
 31	Alexandra	Alexandra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	29	conj	_	_
 32-33	am	_	_	_	_	_	_	_	_
-32	an	an	ADP	APPR	_	41	case	_	_
+32	an	an	ADP	APPR	_	35	case	_	_
 33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	41	det	_	_
 34	31.	31	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	35	amod	_	_
-35	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	32	obj	_	_
+35	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	_
 36	aus	aus	ADP	APPR	_	38	case	_	_
 37	heiterem	heiter	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	38	amod	_	_
 38	Himmel	Himmel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	_
@@ -11314,7 +11314,7 @@
 # text = Die Beschäftigten werden vom 1. Juli an 38 statt bisher 36 Stunden in der Woche tätig sein.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Beschäftigten	Beschäftigter	NOUN	NN	Case=Nom|Number=Plur	17	nsubj	_	_
-3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux	_	_
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	aux	_	_
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -11362,7 +11362,7 @@
 6	/	/	PUNCT	$(	_	7	punct	_	_
 7	Thyssen	Thyssen	PROPN	NE	Case=Dat|Number=Sing	5	conj	_	_
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-9	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
 10	mehr	mehr	ADV	ADV	_	9	advmod	_	_
 11	die	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	16	punct	_	_
@@ -11896,7 +11896,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	ccomp	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
 5	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
 6	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -12000,7 +12000,7 @@
 17	,	,	PUNCT	$,	_	22	punct	_	_
 18	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
 19	Ende	Ende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
-20	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+20	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 21	``	``	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 22	unvermeidbar	unvermeidbar	ADJ	ADJD	_	16	ccomp	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	24	punct	_	_
@@ -12229,7 +12229,7 @@
 5	und	und	CCONJ	KON	_	7	cc	_	_
 6	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	7	det:poss	_	_
 7	Genossen	Genosse	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
-8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	vermutlich	vermutlich	ADV	ADV	_	11	advmod	_	_
 11	längste	lang	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -12776,7 +12776,7 @@
 22	wirklich	wirklich	ADV	ADJD	_	23	advmod	_	_
 23	Ordensschwestern	Ordensbruder	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	advcl	_	_
 24	werden	werden	AUX	VAINF	VerbForm=Inf	23	cop	_	_
-25	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+25	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s697
@@ -12840,7 +12840,7 @@
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	konsequenten	konsequent	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
 4	Klimaschutzstrategie	Klimaschutzstrategie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
-5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Kirche	Kirche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	Vorreiter	Vorreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -14145,7 +14145,7 @@
 5	,	,	PUNCT	$,	_	15	punct	_	_
 6	und	und	CCONJ	KON	_	15	cc	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Grenzpolizei	Grenzpolizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
+8	Grenzpolizei	Grenzpolizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_
 9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -14454,11 +14454,11 @@
 6	leergemacht	leermachen	VERB	VVPP	VerbForm=Part	16	ccomp	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	aber	aber	CCONJ	KON	_	6	cc	_	_
-9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
 10	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-11	nichts	nichts	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	10	nsubj	_	_
+11	nichts	nichts	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	6	nsubj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
-13	machen	machen	VERB	VVINF	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	machen	machen	VERB	VVINF	VerbForm=Inf	6	acl	_	SpaceAfter=No
 14	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	6	punct	_	_
 16	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14517,7 +14517,7 @@
 20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 22	amerikanischen	amerikanisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	23	amod	_	_
-23	Volk	Volk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	iobj	_	_
+23	Volk	Volk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	iobj	_	_
 24	viel	viel	ADV	ADV	_	25	advmod	_	_
 25	nützlicher	nützlich	ADJ	ADJD	_	0	root	_	_
 26	als	als	ADP	KOKOM	_	29	case	_	_

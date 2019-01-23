@@ -575,7 +575,7 @@
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 9	/	/	PUNCT	$(	_	10	punct	_	_
-10	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+10	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 11	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	13	nsubj	_	_
 12	mal	mal	ADV	ADV	_	13	advmod	_	_
 13	warten	warten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -886,7 +886,7 @@
 
 # sent_id = test-s50
 # text = Bin via Zeitungsannonce im Stadtanzeiger und Guller auf Lasting Beauty aufmerksam geworden.
-1	Bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+1	Bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
 2	via	via	ADP	APPR	_	3	case	_	_
 3	Zeitungsannonce	Zeitungsannonce	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -1418,7 +1418,7 @@
 9	manchmal	manchmal	ADV	ADV	_	7	advmod	_	_
 10	etwas	etwas	PRON	ADV	_	11	advmod	_	_
 11	überfordert	überfordern	VERB	ADJD	_	7	xcomp	_	_
-12	zu	zu	PART	PTKZU	_	13	mark	_	_
+12	zu	zu	PART	PTKZU	_	11	mark	_	_
 13	sein	sein	AUX	VAINF	VerbForm=Inf	11	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -1770,7 +1770,7 @@
 5	Karte	Karte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
 6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 7	zwar	zwar	ADV	ADV	_	10	advmod	_	_
-8	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
 9	allzu	allzu	ADV	PTKA	_	10	advmod	_	_
 10	groß	groß	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	19	punct	_	_
@@ -2258,7 +2258,7 @@
 8	finden	finden	VERB	VVINF	VerbForm=Inf	12	csubj	_	_
 9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 10	gar	gar	ADV	ADV	_	12	advmod	_	_
-11	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
 12	einfach	einfach	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
@@ -2405,10 +2405,10 @@
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Wartezeit	Wartezeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
-6	von	von	ADP	APPR	_	5	case	_	_
+6	von	von	ADP	APPR	_	9	case	_	_
 7	ca	ca	ADV	ADV	_	8	advmod	_	_
 8	20	20	NUM	CARD	NumType=Card	9	nummod	_	_
-9	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
 10	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	18	punct	_	_
 12	zu	zu	ADP	APPR	_	13	case	_	_
@@ -3384,10 +3384,10 @@
 29	inkompetent	inkompetent	ADJ	ADJD	_	4	parataxis	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	31	punct	_	_
 31	sofern	sofern	SCONJ	KOUS	_	4	mark	_	_
-32	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
-33	überhaupt	überhaupt	ADV	ADV	_	35	advmod	_	_
-34	aufzufinden	auffinden	VERB	VVIZU	VerbForm=Inf	35	acl	_	_
-35	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
+32	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+33	überhaupt	überhaupt	ADV	ADV	_	4	advmod	_	_
+34	aufzufinden	auffinden	VERB	VVIZU	VerbForm=Inf	4	acl	_	_
+35	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s195
@@ -3490,7 +3490,7 @@
 5	zu	zu	ADP	APPR	_	8	case	_	_
 6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 7	großen	groß	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	8	amod	_	_
-8	Erlebnis	Erlebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+8	Erlebnis	Erlebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
 9	werden	werden	AUX	VAINF	VerbForm=Inf	10	aux	_	_
 10	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
@@ -3603,7 +3603,7 @@
 17	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
 18	auch	auch	ADV	ADV	_	21	advmod	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-20	Ambiente	Ambiente	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	iobj	_	_
+20	Ambiente	Ambiente	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	iobj	_	_
 21	entsprechend	entsprechend	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -3680,7 +3680,7 @@
 35	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	36	det:poss	_	_
 36	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
 37	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	31	advcl	_	_
-38	zu	zu	PART	PTKZU	_	39	mark	_	_
+38	zu	zu	PART	PTKZU	_	37	mark	_	_
 39	können	können	AUX	VMINF	VerbForm=Inf	37	aux	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -4218,7 +4218,7 @@
 # sent_id = test-s243
 # text = Räume nicht sehr schön (Kosmetikbehandlungen werden in einem Kellerraum abgehalten) war aber nicht so schlecht, ist noch ausbaufähig Nicht mit einem normalen und richtigen Kosmetikstudio vergleichbar.
 1	Räume	Raum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	cop	_	_
-2	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	schön	schön	ADJ	ADJD	_	0	root	_	_
 5	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
@@ -4231,7 +4231,7 @@
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	aber	aber	ADV	ADV	_	17	advmod	_	_
-15	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
 16	so	so	ADV	ADV	_	17	advmod	_	_
 17	schlecht	schlecht	ADJ	ADJD	_	4	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	21	punct	_	_
@@ -4840,7 +4840,7 @@
 4	aufmachen	aufmachen	VERB	VVINF	VerbForm=Inf	9	csubj	_	_
 5	durften	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
 8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Rätsel	Rätsel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 10	!	!	PUNCT	$.	_	9	punct	_	_
@@ -4899,7 +4899,7 @@
 # sent_id = test-s283
 # text = Wer nicht zufrieden ist, sollte in ein anderes Hotel und mehr bezahlen!
 1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
-2	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
 3	zufrieden	zufrieden	ADJ	ADJD	_	6	csubj	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	3	punct	_	_
@@ -5423,7 +5423,7 @@
 21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Lage	Lage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	iobj	_	_
 23	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	_
-24	zu	zu	PART	PTKZU	_	25	mark	_	_
+24	zu	zu	PART	PTKZU	_	23	mark	_	_
 25	werden	werden	AUX	VAINF	VerbForm=Inf	23	cop	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No
 27	"	"	PUNCT	$(	_	15	punct	_	_
@@ -6612,7 +6612,7 @@
 17	Lande	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
 18	ebenso	ebenso	ADV	ADV	_	19	advmod	_	_
 19	gescheitert	scheitern	VERB	VVPP	VerbForm=Part	5	xcomp	_	_
-20	zu	zu	PART	PTKZU	_	21	mark	_	_
+20	zu	zu	PART	PTKZU	_	19	mark	_	_
 21	sein	sein	AUX	VAINF	VerbForm=Inf	19	aux	_	_
 22	wie	wie	CCONJ	KOKOM	_	19	dep	_	_
 23	mit	mit	ADP	APPR	_	25	case	_	_
@@ -6866,7 +6866,7 @@
 # text = Die Demokratie müsse direkter werden, sagte sie.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Demokratie	Demokratie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	direkter	direkt	ADJ	ADJD	_	7	ccomp	_	_
 5	werden	werden	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	4	punct	_	_
@@ -8198,7 +8198,7 @@
 9	nur	nur	ADV	ADV	_	11	advmod	_	_
 10	irgend	irgend	ADV	ADV	_	11	advmod	_	_
 11	möglich	möglich	ADV	ADJD	_	7	advmod	_	_
-12	zu	zu	PART	PTKZU	_	13	mark	_	_
+12	zu	zu	PART	PTKZU	_	7	mark	_	_
 13	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -8686,7 +8686,7 @@
 # text = Die Kampagne mag in der Stichwahl zwischen den beiden Spitzenreitern des ersten Wahlgangs erbittert sein;
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Kampagne	Kampagne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
-3	mag	mögen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+3	mag	mögen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Stichwahl	Stichwahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
@@ -8848,7 +8848,7 @@
 
 # sent_id = test-s458
 # text = Außerdem können sie ihren Kunden künftig auch das ``Bagger-Anschlußprogramm'', die von Komatsu produzierten Abräumfahrzeuge, anbieten.
-1	Außerdem	außerdem	ADV	PAV	_	2	dep	_	FixTigerDep=Yes
+1	Außerdem	außerdem	ADV	PAV	_	21	dep	_	FixTigerDep=Yes
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 4	ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	5	det:poss	_	_
@@ -10190,9 +10190,9 @@
 3	sicher	sicher	ADJ	ADJD	_	12	ccomp	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-6	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
 7	heute	heute	ADV	ADV	_	3	advmod	_	_
-8	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
 9	mehr	mehr	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	3	punct	_	_
@@ -11637,7 +11637,7 @@
 22	darüber	darüber	ADV	PAV	_	24	advmod	_	_
 23	öffentlich	öffentlich	ADV	ADJD	_	24	advmod	_	_
 24	erregen	erregen	VERB	VVINF	VerbForm=Inf	17	advcl	_	_
-25	zu	zu	PART	PTKZU	_	26	mark	_	_
+25	zu	zu	PART	PTKZU	_	24	mark	_	_
 26	können	können	AUX	VMINF	VerbForm=Inf	24	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -12122,7 +12122,7 @@
 # sent_id = test-s597
 # text = Den Politikern auf der anderen Seite wäre der Weg verbaut, sich mit dem Hinweis auf die Verfassung dem aktuellen Problem zu entziehen.
 1	Den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Politikern	Politiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	iobj	_	_
+2	Politikern	Politiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
 3	auf	auf	ADP	APPR	_	6	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	anderen	anderer	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
@@ -12340,7 +12340,7 @@
 21	ihren	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	22	det:poss	_	_
 22	Beitritt	Beitritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 23	verhandeln	verhandeln	VERB	VVINF	VerbForm=Inf	10	advcl	_	_
-24	zu	zu	PART	PTKZU	_	25	mark	_	_
+24	zu	zu	PART	PTKZU	_	23	mark	_	_
 25	können	können	AUX	VMINF	VerbForm=Inf	23	aux	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -12352,7 +12352,7 @@
 4	ökonomischen	ökonomisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
 5	Krise	Krise	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-7	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 8	ihre	ihr	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
 9	Lösung	Lösung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	9	punct	_	_
@@ -12555,7 +12555,7 @@
 12	unter	unter	ADP	APPR	_	13	case	_	_
 13	Kontrolle	Kontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
 14	haben	haben	VERB	VAINF	VerbForm=Inf	7	xcomp	_	_
-15	zu	zu	PART	PTKZU	_	16	mark	_	_
+15	zu	zu	PART	PTKZU	_	14	mark	_	_
 16	müssen	müssen	AUX	VMINF	VerbForm=Inf	14	aux	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	3	punct	_	_
@@ -12896,7 +12896,7 @@
 # text = Die könne dann von den Bewohnern sozial flexible Preise kassieren.
 1	Die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	nsubj	_	_
 2	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-3	dann	dann	ADV	ADV	_	2	advmod	_	_
+3	dann	dann	ADV	ADV	_	10	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
 5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	Bewohnern	Bewohner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
@@ -12976,7 +12976,7 @@
 12	Erden	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	3	punct	_	_
 14	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
-15	jedenfalls	jedenfalls	ADV	ADV	_	14	advmod	_	_
+15	jedenfalls	jedenfalls	ADV	ADV	_	19	advmod	_	_
 16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	Unruhen	Unruhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
@@ -13481,7 +13481,7 @@
 21	Milliarden	Milliarde	NUM	NN	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	22	nummod	_	_
 22	Mark	Mark	NOUN	NN	Gender=Fem	18	nmod	_	_
 23	aufbessern	aufbessern	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
-24	zu	zu	PART	PTKZU	_	25	mark	_	_
+24	zu	zu	PART	PTKZU	_	23	mark	_	_
 25	können	können	AUX	VMINF	VerbForm=Inf	23	aux	_	_
 26	--	--	PUNCT	$(	_	28	punct	_	_
 27	tatsächlich	tatsächlich	ADV	ADJD	_	28	advmod	_	_
@@ -14709,7 +14709,7 @@
 39	ebenfalls	ebenfalls	ADV	ADV	_	40	advmod	_	_
 40	vertreten	vertreten	ADJ	VVPP	VerbForm=Part	32	acl	_	_
 41	sein	sein	AUX	VAINF	VerbForm=Inf	40	cop	_	_
-42	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	41	aux	_	SpaceAfter=No
+42	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	40	aux	_	SpaceAfter=No
 43	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = test-s720
@@ -15293,7 +15293,7 @@
 20	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	conj	_	_
 21	Mark	Mark	NOUN	NN	Gender=Fem	20	nummod	_	_
 22	aufstocken	aufstocken	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
-23	zu	zu	PART	PTKZU	_	24	mark	_	_
+23	zu	zu	PART	PTKZU	_	22	mark	_	_
 24	dürfen	dürfen	AUX	VMINF	VerbForm=Inf	22	aux	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	10	punct	_	_
 
@@ -16043,7 +16043,7 @@
 # text = Es sollte aber, nachdem die Pariser Regierung am Sonntag abend die gewaltsame Räumung von Straßensperren angeordnet hatte, noch bis in die frühen Morgenstunden dauern, bis die Fahrer und zahlreichen Schaulustige in den Genuß eines Spektakels ganz anderer Art kommen sollten.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
-3	aber	aber	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+3	aber	aber	ADV	ADV	_	27	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	nachdem	nachdem	SCONJ	KOUS	_	18	mark	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -16274,7 +16274,7 @@
 13	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 14	moslemischen	moslemisch	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	15	amod	_	_
 15	Bosnien	Bosnien	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
-16	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
 17	allein	allein	ADV	ADV	_	16	advmod	_	_
 18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	serbische	serbisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
@@ -16726,7 +16726,7 @@
 31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Macht	Macht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
 33	gekommen	kommen	VERB	VVPP	VerbForm=Part	16	xcomp	_	_
-34	zu	zu	PART	PTKZU	_	35	mark	_	_
+34	zu	zu	PART	PTKZU	_	33	mark	_	_
 35	sein	sein	AUX	VAINF	VerbForm=Inf	33	aux	_	SpaceAfter=No
 36	,	,	PUNCT	$,	_	38	punct	_	_
 37	und	und	CCONJ	KON	_	38	cc	_	_
@@ -17038,7 +17038,7 @@
 1	Rabin	Rabin	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
 2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	erste	erster	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -18554,24 +18554,24 @@
 15	abend	abend	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	29	punct	_	_
 17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Reform	Reform	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+18	Reform	Reform	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 19-20	zum	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	1.	1.	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Card	22	amod	_	_
 22	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
 23	1996	1996	NUM	CARD	NumType=Card	22	nmod	_	_
-24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	aux	_	_
+24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 25	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
-26	konjunkturpolitisch	konjunkturpolitisch	ADV	ADJD	_	29	advmod	_	_
-27	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
-28	positives	positiv	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	29	amod	_	_
+26	konjunkturpolitisch	konjunkturpolitisch	ADV	ADJD	_	4	advmod	_	_
+27	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+28	positives	positiv	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
 29	Signal	Signal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	aux:pass	_	SpaceAfter=No
 30	''	''	PUNCT	$(	_	31	punct	_	_
-31	für	für	ADP	APPR	_	29	case	_	_
+31	für	für	ADP	APPR	_	4	case	_	_
 32	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	nsubj	_	_
-34	gewesen	sein	AUX	VAPP	VerbForm=Part	29	cop	_	SpaceAfter=No
+34	gewesen	sein	AUX	VAPP	VerbForm=Part	4	cop	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s919
@@ -19170,9 +19170,9 @@
 22	von	von	ADP	APPR	_	21	case	_	_
 23	morgen	morgen	ADV	ADV	_	22	advmod	_	_
 24	sein	sein	AUX	VAINF	VerbForm=Inf	21	cop	_	_
-25	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+25	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 26	und	und	CCONJ	KON	_	27	cc	_	_
-27	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	SpaceAfter=No
+27	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s947
