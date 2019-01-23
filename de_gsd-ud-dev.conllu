@@ -13592,7 +13592,7 @@
 6	bei	bei	ADP	APPR	_	10	case	_	_
 7	rund	rund	ADV	ADJD	_	8	advmod	_	_
 8	800	800	NUM	CARD	NumType=Card	9	nummod	_	_
-9	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nummod	_	_
+9	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	_
 10	Mark	Mark	PROPN	NN	Gender=Fem	11	obl	_	_
 11	angesetzt	ansetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
@@ -13925,12 +13925,12 @@
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	durchbrechen	durchbrechen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 13	und	und	CCONJ	KON	_	19	cc	_	_
-14	bis	bis	ADP	APPR	_	19	case	_	_
+14	bis	bis	ADP	APPR	_	18	case	_	_
 15-16	zur	_	_	_	_	_	_	_	_
 15	zu	zu	ADP	APPR	_	18	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	deutschen	deutsch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	_
-18	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+18	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
 19	vorzudringen	vordringen	VERB	VVIZU	VerbForm=Inf	12	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -13943,10 +13943,10 @@
 5	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
 6	ausloten	ausloten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	14	punct	_	_
-8	bis	bis	ADP	APPR	_	14	case	_	_
-9	zu	zu	ADP	APPR	_	8	fixed	_	_
+8	bis	bis	ADP	APPR	_	11	case	_	_
+9	zu	zu	ADP	APPR	_	11	case	_	_
 10	welchem	welch	PRON	PWAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	11	det	_	_
-11	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
 12	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
 13	gemeinsam	gemeinsam	ADV	ADJD	_	14	advmod	_	_
 14	gehen	gehen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	_
@@ -14908,7 +14908,7 @@
 1	Bis	bis	ADV	ADV	_	3	advmod	_	_
 2	zu	zu	ADV	ADV	_	1	fixed	_	_
 3	sechs	sechs	NUM	CARD	NumType=Card	4	nummod	_	_
-4	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nummod	_	_
+4	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nmod	_	_
 5	Bundesbürger	Bundesbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 7	daneben	daneben	ADV	PAV	_	12	advmod	_	_
