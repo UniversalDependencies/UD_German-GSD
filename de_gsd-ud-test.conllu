@@ -1704,8 +1704,8 @@
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	nett	nett	ADJ	ADJD	_	0	root	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
-7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	Atmosphäre	Atmosphäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	cop	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Atmosphäre	Atmosphäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	ruhig	ruhig	ADJ	ADJD	_	5	conj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	entspannt	entspannt	ADJ	ADJD	_	9	conj	_	SpaceAfter=No
