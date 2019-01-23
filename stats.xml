@@ -7,7 +7,7 @@
   <size>
     <total><sentences>15590</sentences><tokens>287740</tokens><words>292788</words><fused>5048</fused></total>
   </size>
-  <lemmas unique="42358" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42357" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,16 +18,16 @@
     <tag name="AUX">11396</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, bleiben, dürfen, gelten -->
     <tag name="CCONJ">8865</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
     <tag name="DET">36793</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
-    <tag name="NOUN">52220</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
-    <tag name="NUM">7446</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
+    <tag name="NOUN">52219</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
+    <tag name="NUM">7447</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2166</tag><!-- nicht, zu, aus, an, ja, nein, es, hallo, hin, her -->
     <tag name="PRON">15094</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">31184</tag><!-- von, Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg -->
     <tag name="PUNCT">38509</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1802</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
-    <tag name="SYM">4</tag><!-- ", ° -->
+    <tag name="SYM">5</tag><!-- ", °, € -->
     <tag name="VERB">19922</tag><!-- haben, geben, sein, kommen, finden, liegen, gehen, gehören, machen, stehen -->
-    <tag name="X">369</tag><!-- z.B., u.a., =, %, b., etc., werden, †, &amp;, * -->
+    <tag name="X">368</tag><!-- z.B., u.a., =, %, b., etc., werden, †, &amp;, * -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="35">
@@ -71,22 +71,22 @@
   <deps unique="36">
     <dep name="acl">2749</dep>
     <dep name="advcl">1460</dep>
-    <dep name="advmod">17342</dep>
-    <dep name="amod">16828</dep>
-    <dep name="appos">7012</dep>
+    <dep name="advmod">17341</dep>
+    <dep name="amod">16827</dep>
+    <dep name="appos">7011</dep>
     <dep name="aux">3326</dep>
     <dep name="aux:pass">3426</dep>
     <dep name="case">30998</dep>
-    <dep name="cc">8768</dep>
+    <dep name="cc">8769</dep>
     <dep name="ccomp">868</dep>
-    <dep name="compound">1537</dep>
+    <dep name="compound">1536</dep>
     <dep name="compound:prt">1507</dep>
-    <dep name="conj">11827</dep>
-    <dep name="cop">4810</dep>
+    <dep name="conj">11829</dep>
+    <dep name="cop">4801</dep>
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1158</dep>
-    <dep name="det">36299</dep>
+    <dep name="det">36301</dep>
     <dep name="det:poss">2362</dep>
     <dep name="expl">396</dep>
     <dep name="expl:pv">209</dep>
@@ -94,13 +94,13 @@
     <dep name="flat">7140</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3233</dep>
-    <dep name="nmod">22642</dep>
+    <dep name="nmod">22639</dep>
     <dep name="nmod:poss">76</dep>
-    <dep name="nsubj">17338</dep>
+    <dep name="nsubj">17346</dep>
     <dep name="nsubj:pass">3190</dep>
-    <dep name="nummod">3147</dep>
+    <dep name="nummod">3148</dep>
     <dep name="obj">8446</dep>
-    <dep name="obl">17261</dep>
+    <dep name="obl">17263</dep>
     <dep name="parataxis">559</dep>
     <dep name="punct">38546</dep>
     <dep name="root">15590</dep>
