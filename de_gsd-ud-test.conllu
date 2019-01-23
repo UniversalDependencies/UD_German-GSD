@@ -18726,8 +18726,8 @@
 11	Kritik	Kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	Natürschützer	Natürschützer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
-14	für	für	ADP	APPR	_	9	case	_	_
-15	übertrieben	übertrieben	ADJ	ADJD	_	14	amod	_	SpaceAfter=No
+14	für	für	ADP	APPR	_	15	case	_	_
+15	übertrieben	übertrieben	ADJ	ADJD	_	9	xcomp	_	SpaceAfter=No
 16	:	:	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s927
@@ -18771,10 +18771,10 @@
 10	Titel	Titel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
 11	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	compound	_	_
 12	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
-13	als	als	ADP	APPR	_	17	case	_	_
+13	als	als	ADP	APPR	_	16	case	_	_
 14	Fischer	Fischer	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	16	compound	_	SpaceAfter=No
 15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
-16	Taschenbuch	Taschenbuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	appos	_	_
+16	Taschenbuch	Taschenbuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	acl	_	_
 17	erhältlich	erhältlich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	17	punct	_	_
 
@@ -18879,10 +18879,10 @@
 12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	_
 13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Beinamen	Beiname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
-15	``	``	PUNCT	$(	_	16	dep	_	SpaceAfter=No
-16	Home	Home	NOUN	FM	Foreign=Yes	14	appos	_	_
-17	of	of	ADP	FM	Foreign=Yes	18	compound	_	_
-18	Films	Film	PROPN	FM	Foreign=Yes	16	appos	_	SpaceAfter=No
+15	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Home	Home	X	FM	Foreign=Yes	14	appos	_	_
+17	of	of	X	FM	Foreign=Yes	16	flat	_	_
+18	Films	Film	X	FM	Foreign=Yes	16	flat	_	SpaceAfter=No
 19	''	''	PUNCT	$(	_	16	punct	_	_
 20	erfand	erfinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	4	punct	_	_
@@ -18968,9 +18968,9 @@
 48	und	und	CCONJ	KON	_	47	cc	_	_
 49	zugleich	zugleich	ADV	ADV	_	47	amod	_	_
 50	durch	durch	ADP	ADV	_	49	conj	_	_
-51	und	und	CCONJ	KON	_	50	conj	_	_
-52	durch	durch	ADP	ADV	_	51	case	_	_
-53	filmische	filmisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	50	fixed	_	_
+51	und	und	CCONJ	KON	_	50	fixed	_	_
+52	durch	durch	ADP	ADV	_	50	fixed	_	_
+53	filmische	filmisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	56	amod	_	_
 54	Musil	Musil	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	56	compound	_	SpaceAfter=No
 55	-	-	PUNCT	$(	_	54	punct	_	SpaceAfter=No
 56	Paraphrase	Paraphrase	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
@@ -19484,10 +19484,10 @@
 5	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	13	nsubj	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
 7	bislang	bislang	ADV	ADV	_	13	advmod	_	_
-8	mit	mit	ADP	APPR	_	13	mark	_	_
+8	mit	mit	ADP	APPR	_	11	case	_	_
 9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	komplexen	komplex	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
-11	Materie	Materie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	Materie	Materie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
 12	kaum	kaum	ADV	ADV	_	13	advmod	_	_
 13	beschäftigt	beschäftigen	VERB	VVPP	VerbForm=Part	3	acl	_	_
 14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
