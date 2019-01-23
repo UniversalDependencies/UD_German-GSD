@@ -11125,7 +11125,7 @@
 
 # sent_id = test-s556
 # text = Und während DRV-Präsident Gerd Hesselmann noch auf die Unvergleichbarkeit touristischer Leistungen verweist, fordern andere Branchenvertreter bereits eine CD-ROM, mit der sich die Preise der verschiedenen Veranstalter vergleichen lassen.
-1	Und	und	CCONJ	KON	_	2	dep	_	FixTigerDep=Yes
+1	Und	und	CCONJ	KON	_	16	cc	_	FixTigerDep=Yes
 2	während	während	SCONJ	KOUS	_	14	mark	_	_
 3	DRV	DRV	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
@@ -11178,7 +11178,7 @@
 
 # sent_id = test-s558
 # text = Immer wenn es Druck gab, hat das Theater auch Gegendruck entwickelt und ist zu sich selbst gekommen.
-1	Immer	immer	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Immer	immer	ADV	ADV	_	12	advmod	_	FixTigerDep=Yes
 2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
