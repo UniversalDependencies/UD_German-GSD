@@ -15425,9 +15425,9 @@
 8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 10	und	und	CCONJ	KON	_	16	cc	_	_
-11	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	16	mark	_	_
+11	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	16	nsubj	_	_
 12	noch	noch	ADV	ADV	_	16	advmod	_	_
-13	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	_
+13	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
 14	auf	auf	ADP	APPR	_	15	case	_	_
 15	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	obl	_	_
 16	wartet	warten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
@@ -15826,7 +15826,7 @@
 # sent_id = test-s772
 # text = Die beiden Parteien sind von der Regierung selbst gegründet und zu Beginn auch finanziert worden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-2	beiden	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	3	cc	_	_
+2	beiden	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
@@ -16419,10 +16419,10 @@
 5	''	''	PUNCT	$(	_	4	punct	_	_
 6	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 7-8	am	_	_	_	_	_	_	_	_
-7	an	an	ADP	APPR	_	12	mark	_	_
-8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-9	12.	12.	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Card	10	amod	_	_
-10	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
+7	an	an	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	12.	12.	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
 11	erstmals	erstmals	ADV	ADV	_	12	advmod	_	_
 12	ausgegeben	ausgeben	VERB	VVPP	VerbForm=Part	0	root	_	_
 13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	SpaceAfter=No
@@ -17006,8 +17006,8 @@
 16	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
 17	Furcht	Furcht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 18	aber	aber	ADV	ADV	_	15	advmod	_	_
-19	für	für	ADP	APPR	_	15	case	_	_
-20	unbegründet	unbegründet	ADJ	ADJD	_	19	amod	_	SpaceAfter=No
+19	für	für	ADP	APPR	_	20	case	_	_
+20	unbegründet	unbegründet	ADJ	ADJD	_	15	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s833
@@ -17993,9 +17993,9 @@
 # sent_id = test-s885
 # text = Mit 98 zu 95 Stimmen sprach sich ein Unterbezirksparteitag am Wochenende gegen eine zweite Amtszeit Reischs aus.
 1	Mit	mit	ADP	APPR	_	5	case	_	_
-2	98	98	NUM	CARD	NumType=Card	3	nummod	_	_
-3	zu	zu	ADP	APPR	_	5	case	_	_
-4	95	95	NUM	CARD	NumType=Card	3	nummod	_	_
+2	98	98	NUM	CARD	NumType=Card	5	nummod	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	95	95	NUM	CARD	NumType=Card	2	conj	_	_
 5	Stimmen	Stimme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
 6	sprach	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
@@ -18024,8 +18024,8 @@
 7	von	von	ADP	APPR	_	9	case	_	_
 8	mehreren	mehrere	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	9	nmod	_	_
 9	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	$,	_	6	punct	_	_
-11	unwissend	unwissend	ADJ	ADJD	_	20	appos	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	unwissend	unwissend	ADJ	ADJD	_	1	acl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	14	nsubj	_	_
 14	folgen	folgen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	_
@@ -18348,7 +18348,7 @@
 # text = Zudem wollen beide Seiten noch 1995 in Verhandlungen über eine neue betriebliche Altersversorgung einsteigen.
 1	Zudem	zudem	ADV	PAV	_	14	advmod	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-3	beide	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	4	cc	_	_
+3	beide	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	Seiten	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 5	noch	noch	ADV	ADV	_	6	advmod	_	_
 6	1995	1995	NUM	CARD	NumType=Card	14	obl	_	_
@@ -18512,7 +18512,7 @@
 8	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	Erwin	Erwin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
 10	Huber	Huber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	6	punct	_	_
+11	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = test-s917
 # text = Die von einem Datenbankproblem vorübergehend lahmgelegte Frankfurter Aktienbörse hat zum Wochenbeginn etwas schwächer geschlossen.
@@ -18554,24 +18554,24 @@
 15	abend	abend	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	29	punct	_	_
 17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Reform	Reform	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+18	Reform	Reform	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
 19-20	zum	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	1.	1.	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Card	22	amod	_	_
+21	1.	1.	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
 22	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
-23	1996	1996	NUM	CARD	NumType=Card	22	nmod	_	_
-24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-25	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
-26	konjunkturpolitisch	konjunkturpolitisch	ADV	ADJD	_	4	advmod	_	_
-27	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-28	positives	positiv	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
-29	Signal	Signal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	aux:pass	_	SpaceAfter=No
-30	''	''	PUNCT	$(	_	31	punct	_	_
+23	1996	1996	NUM	CARD	NumType=Card	22	nummod	_	_
+24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
+25	``	``	PUNCT	$(	_	29	punct	_	SpaceAfter=No
+26	konjunkturpolitisch	konjunkturpolitisch	ADV	ADJD	_	29	advmod	_	_
+27	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
+28	positives	positiv	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	29	amod	_	_
+29	Signal	Signal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	SpaceAfter=No
+30	''	''	PUNCT	$(	_	29	punct	_	_
 31	für	für	ADP	APPR	_	33	case	_	_
 32	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
-34	gewesen	sein	AUX	VAPP	VerbForm=Part	4	cop	_	SpaceAfter=No
+33	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	_
+34	gewesen	sein	AUX	VAPP	VerbForm=Part	29	cop	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s919
