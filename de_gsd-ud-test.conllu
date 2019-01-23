@@ -12643,11 +12643,11 @@
 15	rühren	rühren	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	22	punct	_	_
 17	noch	noch	ADV	ADV	_	18	advmod	_	_
-18	mehr	mehr	ADV	ADV	_	15	advmod	_	_
+18	mehr	mehr	ADV	ADV	_	22	obj	_	_
 19	in	in	ADP	APPR	_	20	case	_	_
-20	Optimismus	Optimismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+20	Optimismus	Optimismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
-22	machen	machen	VERB	VVINF	VerbForm=Inf	15	cc	_	SpaceAfter=No
+22	machen	machen	VERB	VVINF	VerbForm=Inf	15	conj	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s625
