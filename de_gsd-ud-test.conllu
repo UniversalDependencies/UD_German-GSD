@@ -13722,7 +13722,7 @@
 9	von	von	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Apartheid	Apartheid	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
-12	befreit	befreien	VERB	VVPP	VerbForm=Part	28	advcl	_	_
+12	befreit	befreien	VERB	VVPP	VerbForm=Part	34	advcl	_	_
 13	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	''	''	PUNCT	$(	_	12	punct	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	12	punct	_	_
@@ -13764,7 +13764,7 @@
 12	Mietwertes	Mietwert	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	für	für	ADP	APPR	_	16	case	_	_
 14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	eigene	eigen	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	det	_	_
+15	eigene	eigen	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
 16	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
