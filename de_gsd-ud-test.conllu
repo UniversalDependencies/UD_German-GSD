@@ -4571,11 +4571,11 @@
 7	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	8	det:poss	_	_
 8	Stammladen	Stammladen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	parataxis	_	_
 9	solange	solange	SCONJ	ADV	_	13	mark	_	_
-10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
-12	Rheinfelden	Rheinfelden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
-13	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	8	advcl	_	_
-14	bleiben	bleiben	AUX	VVINF	VerbForm=Inf	13	aux	_	_
+12	Rheinfelden	Rheinfelden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+13	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	14	xcomp	_	_
+14	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	8	advcl	_	_
 15	:-)	:-)	X	NE	_	2	dep	_	_
 
 # sent_id = test-s264
