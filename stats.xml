@@ -100,11 +100,11 @@
     <dep name="flat">7137</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3229</dep>
-    <dep name="nmod">22642</dep>
+    <dep name="nmod">22771</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17445</dep>
     <dep name="nsubj:pass">3190</dep>
-    <dep name="nummod">3140</dep>
+    <dep name="nummod">3011</dep>
     <dep name="obj">8415</dep>
     <dep name="obl">17310</dep>
     <dep name="obl:arg">1</dep>
