@@ -12173,7 +12173,7 @@
 7	daß	daß	SCONJ	KOUS	_	14	mark	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Westen	Weste|Westen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-10	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	12	advmod	_	_
+10	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	_
 11	ungebührlich	ungebührlich	ADV	ADJD	_	12	advmod	_	_
 12	harten	hart	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	13	amod	_	_
 13	Bedingungen	Bedingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
