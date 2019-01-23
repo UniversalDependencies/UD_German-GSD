@@ -13738,13 +13738,13 @@
 25	ANC	ANC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 26	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
 27	noch	noch	ADV	ADV	_	28	advmod	_	_
-28	immer	immer	ADV	ADV	_	16	ccomp	_	_
-29	nicht	nicht	PART	PTKNEG	Polarity=Neg	28	advmod	_	_
+28	immer	immer	ADV	ADV	_	34	advmod	_	_
+29	nicht	nicht	PART	PTKNEG	Polarity=Neg	34	advmod	_	_
 30	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 31	demokratischen	demokratisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	_
 32	politischen	politisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	_
-33	Wettbewerb	Wettbewerb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	iobj	_	_
-34	angepaßt	anpassen	VERB	VVPP	VerbForm=Part	28	fixed	_	SpaceAfter=No
+33	Wettbewerb	Wettbewerb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	iobj	_	_
+34	angepaßt	anpassen	VERB	VVPP	VerbForm=Part	16	ccomp	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	28	punct	_	SpaceAfter=No
 36	''	''	PUNCT	$(	_	16	punct	_	_
 
