@@ -14,7 +14,7 @@
   <tags unique="17">
     <tag name="ADJ">20569</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31685</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">14765</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADV">14828</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">11313</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, gelten, betragen -->
     <tag name="CCONJ">8863</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
     <tag name="DET">36794</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
@@ -22,10 +22,10 @@
     <tag name="NOUN">52221</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7449</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2161</tag><!-- nicht, zu, aus, an, ja, nein, hin, es, her, to -->
-    <tag name="PRON">15086</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PRON">15082</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">31180</tag><!-- von, Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg -->
     <tag name="PUNCT">38509</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
-    <tag name="SCONJ">1810</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
+    <tag name="SCONJ">1751</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">10</tag><!-- ", °, €, &, /, :-), o -->
     <tag name="VERB">20005</tag><!-- haben, geben, sein, kommen, finden, liegen, gehen, machen, gehören, stehen -->
     <tag name="X">363</tag><!-- z.B., u.a., =, %, b., etc., werden, †, &amp;, * -->
@@ -76,7 +76,7 @@
     <dep name="acl">2746</dep>
     <dep name="acl:relcl">4</dep>
     <dep name="advcl">1461</dep>
-    <dep name="advmod">17283</dep>
+    <dep name="advmod">17346</dep>
     <dep name="amod">16831</dep>
     <dep name="appos">6972</dep>
     <dep name="aux">3326</dep>
@@ -99,7 +99,7 @@
     <dep name="fixed">150</dep>
     <dep name="flat">7140</dep>
     <dep name="iobj">1276</dep>
-    <dep name="mark">3226</dep>
+    <dep name="mark">3163</dep>
     <dep name="nmod">22583</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17429</dep>
