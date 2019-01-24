@@ -1128,7 +1128,7 @@
 6	Gästen	Gast	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
 7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 8	beklagt	beklagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	das	d	SCONJ	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	mark	_	_
+9	das	dass	SCONJ	KOUS	Typo=Yes	13	mark	_	CorrectForm=dass
 10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 11	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	12	det	_	_
 12	verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
@@ -2321,7 +2321,7 @@
 7	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 8	darauf	darauf	ADV	PAV	_	9	advmod	_	_
 9	hinwies	hinweisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	_	_
-10	das	d	SCONJ	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	mark	_	_
+10	das	dass	SCONJ	KOUS	Typo=Yes	14	mark	_	CorrectForm=dass
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 12	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	nmod	_	_
 13	Lust	Lust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
@@ -2333,7 +2333,7 @@
 19	zu	zu	PART	PTKZU	_	20	mark	_	_
 20	essen	essen	VERB	VVINF	VerbForm=Inf	14	xcomp	_	_
 21	UND	UND	CCONJ	KON	_	29	cc	_	_
-22	das	d	SCONJ	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	29	mark	_	_
+22	das	dass	SCONJ	KOUS	Typo=Yes	29	mark	_	CorrectForm=dass
 23	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	det	_	_
 25	15	15	NUM	CARD	NumType=Card	26	nummod	_	_
