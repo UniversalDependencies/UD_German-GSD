@@ -6935,7 +6935,7 @@
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Schuchmann	Schuchmann	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
-8	's	es	PART	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	case	_	SpaceAfter=No
+8	's	's	X	PPER	Foreign=Yes	7	flat	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s411
@@ -7740,7 +7740,7 @@
 9	Best	gut	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
 10	Western	Western	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	_
 11	Donner	Donner	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-12	's	es	PART	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	case	_	_
+12	's	's	X	ART	Foreign=Yes	11	flat	_	_
 13	Hotel	Hotel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	_
 14	in	in	ADP	APPR	_	15	case	_	_
 15	Cuxhaven	Cuxhaven	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
