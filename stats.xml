@@ -13,7 +13,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">20569</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
-    <tag name="ADP">31685</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
+    <tag name="ADP">31837</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14828</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">11313</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, gelten, betragen -->
     <tag name="CCONJ">8863</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
@@ -23,7 +23,7 @@
     <tag name="NUM">7449</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2161</tag><!-- nicht, zu, aus, an, ja, nein, hin, es, her, to -->
     <tag name="PRON">15082</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
-    <tag name="PROPN">31180</tag><!-- von, Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg -->
+    <tag name="PROPN">31028</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38509</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1751</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">10</tag><!-- ", °, €, &, /, :-), o -->
