@@ -81,7 +81,7 @@
     <dep name="appos">6963</dep>
     <dep name="aux">3320</dep>
     <dep name="aux:pass">3425</dep>
-    <dep name="case">30677</dep>
+    <dep name="case">30676</dep>
     <dep name="cc">8765</dep>
     <dep name="ccomp">874</dep>
     <dep name="compound">1525</dep>
@@ -110,7 +110,7 @@
     <dep name="obl:arg">1</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">563</dep>
-    <dep name="punct">38545</dep>
+    <dep name="punct">38546</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">5</dep>
     <dep name="xcomp">1160</dep>
