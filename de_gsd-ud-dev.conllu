@@ -7299,15 +7299,15 @@
 
 # sent_id = dev-s434
 # text = Was bei meiner vierbeinigen Begleiterin schon etwas heißt.
-1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	7	nsubj	_	_
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	_
 2	bei	bei	ADP	APPR	_	5	case	_	_
 3	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
 4	vierbeinigen	vierbeinig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	_
 5	Begleiterin	Begleiterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
-6	schon	schon	ADV	ADV	_	7	advmod	_	_
-7	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	0	root	_	_
-8	heißt	heißen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	7	punct	_	_
+6	schon	schon	ADV	ADV	_	8	advmod	_	_
+7	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	8	xcomp	_	_
+8	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s435
 # text = Noch am selben Abend erhielt ich eine Email mit einer Zusammenfassung der Einzelstunden und eine Beschreibung des weiteren Trainings.
