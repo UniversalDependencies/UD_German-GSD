@@ -2363,18 +2363,18 @@
 
 # sent_id = test-s137
 # text = Er hat vor einigen Jahren einen Orden von ihrem Hause überreicht bekommen und dies sicherlich nicht für überteuerte Preise.
-1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 3	vor	vor	ADP	APPR	_	5	case	_	_
 4	einigen	einige	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
-5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
+5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
 6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Orden	Orden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	ihrem	ihr	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	10	det:poss	_	_
-10	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
-11	überreicht	überreichen	VERB	VVPP	VerbForm=Part	0	root	_	_
-12	bekommen	bekommen	AUX	VVPP	VerbForm=Inf	11	aux	_	_
+10	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+11	überreicht	überreichen	VERB	VVPP	VerbForm=Part	12	xcomp	_	_
+12	bekommen	bekommen	VERB	VVPP	VerbForm=Inf	0	root	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	dies	dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	conj	_	_
 15	sicherlich	sicherlich	ADV	ADV	_	14	advmod	_	_
@@ -2382,7 +2382,7 @@
 17	für	für	ADP	APPR	_	19	case	_	_
 18	überteuerte	überteuert	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	19	amod	_	_
 19	Preise	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	11	punct	_	_
+20	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = test-s138
 # text = Er ist im höchstem Maße weiter zu empfehlen.
