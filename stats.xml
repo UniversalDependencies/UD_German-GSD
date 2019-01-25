@@ -15,7 +15,7 @@
     <tag name="ADJ">20567</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31989</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14861</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
-    <tag name="AUX">11315</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, gelten, betragen -->
+    <tag name="AUX">11310</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, gelten, betragen -->
     <tag name="CCONJ">8859</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
     <tag name="DET">36796</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
@@ -27,7 +27,7 @@
     <tag name="PUNCT">38513</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1748</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">92</tag><!-- &, =, /, ×, %, +, °, *, €, " -->
-    <tag name="VERB">19994</tag><!-- haben, geben, kommen, sein, finden, liegen, gehen, machen, gehören, stehen -->
+    <tag name="VERB">19999</tag><!-- haben, geben, kommen, sein, finden, liegen, gehen, machen, gehören, stehen -->
     <tag name="X">344</tag><!-- 's, b., u.a., %, etc., werden, z.B., a, z., † -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -88,7 +88,7 @@
     <dep name="compound">1522</dep>
     <dep name="compound:prt">1508</dep>
     <dep name="conj">11899</dep>
-    <dep name="cop">4549</dep>
+    <dep name="cop">4544</dep>
     <dep name="csubj">193</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1076</dep>
@@ -117,6 +117,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">5</dep>
-    <dep name="xcomp">1174</dep>
+    <dep name="xcomp">1179</dep>
   </deps>
 </treebank>

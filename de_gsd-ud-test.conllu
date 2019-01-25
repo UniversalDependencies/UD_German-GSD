@@ -19508,12 +19508,12 @@
 29	Mark	Mark	NOUN	NN	Gender=Fem	30	obj	_	_
 30	umfassenden	umfassend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	31	amod	_	_
 31	Zukunftsmarkt	Zukunftsmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
-32	übernehmen	übernehmen	VERB	VVINF	VerbForm=Inf	36	csubj	_	_
+32	übernehmen	übernehmen	VERB	VVINF	VerbForm=Inf	35	csubj	_	_
 33	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	SpaceAfter=No
 34	,	,	PUNCT	$,	_	32	punct	_	_
-35	erscheint	erscheinen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
-36	fraglich	fraglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-37	.	.	PUNCT	$.	_	36	punct	_	_
+35	erscheint	erscheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	fraglich	fraglich	ADJ	ADJD	_	35	xcomp	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	35	punct	_	_
 
 # sent_id = test-s964
 # text = SPD
