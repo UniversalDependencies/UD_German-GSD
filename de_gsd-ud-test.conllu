@@ -11419,7 +11419,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
-4	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+4	''	''	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	16	punct	_	_
 6	so	so	CCONJ	ADV	_	8	cc	_	_
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
