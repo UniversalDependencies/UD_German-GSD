@@ -10255,22 +10255,22 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
-4	Abgeordneten	abgeordnet	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+4	Abgeordneten	abgeordnet	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 5	Otto	Otto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 6	Schily	Schily	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Friedhelm	Friedhelm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 9	Julius	Julius	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
 10	Beucher	Beucher	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
-11	nannten	nennen	AUX	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+11	nannten	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	Antworten	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 14	``	``	PUNCT	$(	_	13	punct	_	SpaceAfter=No
-15	lückenhaft	lückenhaft	ADJ	ADJD	_	0	root	_	_
+15	lückenhaft	lückenhaft	ADJ	ADJD	_	11	xcomp	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	ausweichend	ausweichend	ADJ	ADJD	_	15	conj	_	SpaceAfter=No
-18	''	''	PUNCT	$(	_	15	punct	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	15	punct	_	_
+18	''	''	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = test-s521
 # text = SPD solle sich doch bitte, auch in Schwerin, ``in der Sache profilieren --'' sowohl gegenüber der CDU als auch in die andere Richtung:
