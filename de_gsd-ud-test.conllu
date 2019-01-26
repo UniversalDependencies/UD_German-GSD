@@ -18742,10 +18742,10 @@
 7	Arbeitsplatz	Arbeitsplatz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Argument	Argument	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
-10	läßt	lassen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	läßt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
-13	gelten	gelten	VERB	VVINF	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	gelten	gelten	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = test-s928
