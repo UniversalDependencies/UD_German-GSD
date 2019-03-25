@@ -1906,7 +1906,7 @@
 8	Gruppenfeierlichkeiten	Gruppenfeierlichkeiten	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 9	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	und	und	CCONJ	KON	_	13	cc	_	_
-11	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	cop	_	_
+11	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
 12	nie	nie	ADV	ADV	_	13	advmod	_	_
 13	enttäuscht	enttäuscht	ADJ	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	9	punct	_	_
@@ -3786,7 +3786,7 @@
 13	gepflegte	gepflegt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	_
 14	Behandlungsräume	Behandlungsraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
-16	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	cop	_	_
+16	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	nsubj	_	_
 17	tiptop	tiptop	ADJ	ADJD	_	6	appos	_	SpaceAfter=No
 18	!	!	PUNCT	$.	_	6	punct	_	SpaceAfter=No
 19	!	!	PUNCT	$.	_	6	punct	_	_
@@ -3858,15 +3858,15 @@
 
 # sent_id = dev-s219
 # text = Wird auf jeden Fall mein neuer Hausarzt werden.
-1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux	_	_
+1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 5	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
 6	neuer	neu	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
-7	Hausarzt	Hausarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-8	werden	werden	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	7	punct	_	_
+7	Hausarzt	Hausarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	xcomp	_	_
+8	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s220
 # text = Nur zu empfehlen!
@@ -4178,7 +4178,7 @@
 
 # sent_id = dev-s239
 # text = Alles perfect.
-1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	cop	_	_
+1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	perfect	perfect	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -4816,17 +4816,17 @@
 3	Google	Google	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
 4	Maps	Maps	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	_
 5	Eintrag	Eintrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	flat	_	_
-6	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
-7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+6	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Website	Website	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	compound	_	_
 13	Weissenborn	Weissenborn	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
-14	aufmerksam	aufmerksam	ADJ	ADJD	_	0	root	_	_
-15	geworden	werden	AUX	VAPP	VerbForm=Part	14	cop	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	14	punct	_	_
+14	aufmerksam	aufmerksam	ADJ	ADJD	_	15	xcomp	_	_
+15	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = dev-s277
 # text = Ich bin jetzt schon ca. 4 Jahre Kunde bei Herbalife.
@@ -7385,10 +7385,10 @@
 4	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Hundeschulen	Hundeschulen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	ausprobiert	ausprobieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	aber	aber	CCONJ	KON	_	10	cc	_	_
-8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
-10	schlimmer	schlimm	ADJ	ADJD	_	6	conj	_	_
+7	aber	aber	CCONJ	KON	_	9	cc	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	schlimmer	schlimm	ADJ	ADJD	_	9	xcomp	_	_
 11	als	als	CCONJ	KOKOM	_	12	case	_	_
 12	besser	gut	ADJ	ADJD	_	10	amod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	6	punct	_	_
@@ -9494,11 +9494,11 @@
 # sent_id = dev-s554
 # text = Das Geld wird als Zahlungsmittel ungültig, kann aber -- wie bei jedem rein inländischen Austausch einer alten Notenserie -- auch später noch bei den Zentralbanken eingewechselt werden.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	als	als	ADP	KOKOM	_	5	case	_	_
 5	Zahlungsmittel	Zahlungsmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
-6	ungültig	ungültig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+6	ungültig	ungültig	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	27	punct	_	_
 8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 9	aber	aber	CCONJ	ADV	_	27	cc	_	_
@@ -9521,7 +9521,7 @@
 26	Zentralbanken	Zentralbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	27	obl	_	_
 27	eingewechselt	einwechseln	VERB	VVPP	VerbForm=Part	6	conj	_	_
 28	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	27	aux:pass	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	6	punct	_	_
+29	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s555
 # text = Das ist so, als ob man eine Feuerwehr besucht und sagt, Bitte nichts zeigen, was mit Feuerlöschen zu tun hat, 'kommentiert ein Delegationsmitglied, während es mit dem Kanzler Schritt zu halten versucht.
@@ -12768,15 +12768,15 @@
 14	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	festzustellen	feststellen	VERB	VVIZU	VerbForm=Inf	14	conj	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	23	punct	_	_
-18	ob	ob	SCONJ	KOUS	_	23	mark	_	_
+17	,	,	PUNCT	$,	_	24	punct	_	_
+18	ob	ob	SCONJ	KOUS	_	24	mark	_	_
 19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 20	jungen	jung	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	amod	_	_
-21	Inderinnen	Inderin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
-22	wirklich	wirklich	ADV	ADJD	_	23	advmod	_	_
-23	Ordensschwestern	Ordensbruder	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	advcl	_	_
-24	werden	werden	AUX	VAINF	VerbForm=Inf	23	cop	_	_
-25	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
+21	Inderinnen	Inderin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+22	wirklich	wirklich	ADV	ADJD	_	24	advmod	_	_
+23	Ordensschwestern	Ordensbruder	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	xcomp	_	_
+24	werden	werden	VERB	VAINF	VerbForm=Inf	16	advcl	_	_
+25	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s697
@@ -12840,16 +12840,16 @@
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	konsequenten	konsequent	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
 4	Klimaschutzstrategie	Klimaschutzstrategie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
-5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Kirche	Kirche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-8	Vorreiter	Vorreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	Kirche	Kirche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+8	Vorreiter	Vorreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
 9	für	für	ADP	APPR	_	12	case	_	_
 10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 11	neues	neu	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	_
 12	Wohlstandsmodell	Wohlstandsmodell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
-13	werden	werden	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	8	punct	_	_
+13	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = dev-s700
 # text = Knapp 45 Prozent der marktweiten Aufwendungen entfielen 1994 auf adressierte und unadressierte Postsendungen, zwölf Prozent auf Telefonaktivitäten und gut ein Drittel auf Anzeigen und Beilagen.
@@ -14142,17 +14142,17 @@
 2	Schmugglern	Schmuggler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_
 3	drohen	drohen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Geldstrafen	Geldstrafe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	$,	_	15	punct	_	_
-6	und	und	CCONJ	KON	_	15	cc	_	_
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Grenzpolizei	Grenzpolizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_
-9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+9	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-12	mittlerweile	mittlerweile	ADV	ADV	_	15	advmod	_	_
+11	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	mittlerweile	mittlerweile	ADV	ADV	_	9	advmod	_	_
 13	etwas	etwas	ADV	ADV	_	14	advmod	_	_
-14	zu	zu	ADV	PTKA	_	15	advmod	_	_
-15	heiß	heiß	ADJ	ADJD	_	3	conj	_	SpaceAfter=No
+14	zu	zu	ADV	PTKA	_	9	advmod	_	_
+15	heiß	heiß	ADJ	ADJD	_	9	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s761
@@ -14729,11 +14729,11 @@
 # sent_id = dev-s785
 # text = Generalinspekteur Naumann wurde erstmals konkret:
 1	Generalinspekteur	Generalinspekteur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	FixTigerDep=Yes
-2	Naumann	Naumann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	cop	_	_
-4	erstmals	erstmals	ADV	ADV	_	5	advmod	_	_
-5	konkret	konkret	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-6	:	:	PUNCT	$.	_	5	punct	_	_
+2	Naumann	Naumann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	erstmals	erstmals	ADV	ADV	_	3	advmod	_	_
+5	konkret	konkret	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s786
 # text = CSU-Generalsekretär Bernd Protzner betonte, der Machtwechsel an der SPD-Spitze stelle ``einen personellen und inhaltlichen Linksruck dar''.

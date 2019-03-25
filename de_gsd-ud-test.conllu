@@ -886,7 +886,7 @@
 
 # sent_id = test-s50
 # text = Bin via Zeitungsannonce im Stadtanzeiger und Guller auf Lasting Beauty aufmerksam geworden.
-1	Bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+1	Bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
 2	via	via	ADP	APPR	_	3	case	_	_
 3	Zeitungsannonce	Zeitungsannonce	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -898,9 +898,9 @@
 9	auf	auf	ADP	APPR	_	10	case	_	_
 10	Lasting	Lasting	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
 11	Beauty	Beauty	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	_
-12	aufmerksam	aufmerksam	ADJ	ADJD	_	0	root	_	_
-13	geworden	werden	AUX	VAPP	VerbForm=Part	12	cop	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	12	punct	_	_
+12	aufmerksam	aufmerksam	ADJ	ADJD	_	13	xcomp	_	_
+13	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = test-s51
 # text = Bis ich bei Uwe war, seit dem gehe ich nur noch zu ihm.
@@ -5419,12 +5419,12 @@
 17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 18	lokalen	lokal	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	19	amod	_	_
 19	Machthabern	Machthaber	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	iobj	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	23	punct	_	_
+20	,	,	PUNCT	$,	_	25	punct	_	_
 21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Lage	Lage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	iobj	_	_
-23	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	_
-24	zu	zu	PART	PTKZU	_	23	mark	_	_
-25	werden	werden	AUX	VAINF	VerbForm=Inf	23	cop	_	SpaceAfter=No
+23	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	xcomp	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
+25	werden	werden	VERB	VAINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No
 27	"	"	PUNCT	$(	_	15	punct	_	_
 
@@ -6865,11 +6865,11 @@
 # sent_id = test-s371
 # text = Die Demokratie müsse direkter werden, sagte sie.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	Demokratie	Demokratie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	direkter	direkt	ADJ	ADJD	_	7	ccomp	_	_
-5	werden	werden	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	4	punct	_	_
+2	Demokratie	Demokratie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	direkter	direkt	ADJ	ADJD	_	5	xcomp	_	_
+5	werden	werden	VERB	VAINF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
 7	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	7	punct	_	_
@@ -7838,13 +7838,13 @@
 
 # sent_id = test-s414
 # text = ,Für Frauen wurde nichts besser'
-1	,	,	PUNCT	$,	_	6	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Für	für	ADP	APPR	_	3	case	_	_
 3	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
-4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
-5	nichts	nichts	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	6	nsubj	_	_
-6	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-7	'	'	PUNCT	$(	_	6	punct	_	_
+4	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	nichts	nichts	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	4	nsubj	_	_
+6	besser	gut	ADJ	ADJD	_	4	xcomp	_	SpaceAfter=No
+7	'	'	PUNCT	$(	_	4	punct	_	_
 
 # sent_id = test-s415
 # text = Sogenannte Gastarbeiter sollen jederzeit nach Deutschland zurückkehren können, wenn sie mindestens 15 Jahre rechtmäßig hier gelebt haben und über ``ausreichend'' Rente sowie Krankheitsschutz verfügen.
@@ -9096,12 +9096,12 @@
 # text = Immer mehr Menschen in Deutschland werden obdachlos.
 1	Immer	immer	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
 2	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	3	amod	_	_
-3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 4	in	in	ADP	APPR	_	5	case	_	_
 5	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
-6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	obdachlos	obdachlos	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	_
+6	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	obdachlos	obdachlos	ADJ	ADJD	_	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = test-s469
 # text = Die Mehrheit der Abgeordneten sah darin einen wichtigen Schritt auf dem Weg zur Vollmitgliedschaft in der EG.
@@ -14542,10 +14542,10 @@
 
 # sent_id = test-s711
 # text = Werden Sie bockig.
-1	Werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-3	bockig	bockig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	_
+1	Werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
+3	bockig	bockig	ADJ	ADJD	_	1	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s712
 # text = Die Stimmung auf dem Mifa-Gelände ist aufgeheizt.
@@ -16177,16 +16177,16 @@
 # text = Höchste Zeit, denn die Luft in Chiles Moskauer Botschaft wird dünn.
 1	Höchste	hoch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	$,	_	12	punct	_	_
-4	denn	denn	SCONJ	KON	_	12	mark	_	_
+3	,	,	PUNCT	$,	_	11	punct	_	_
+4	denn	denn	SCONJ	KON	_	11	mark	_	_
 5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Luft	Luft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	Luft	Luft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 7	in	in	ADP	APPR	_	10	case	_	_
 8	Chiles	Chile	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 9	Moskauer	Moskauer	ADJ	ADJA	_	10	amod	_	_
 10	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
-11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	dünn	dünn	ADJ	ADJD	_	2	advcl	_	SpaceAfter=No
+11	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+12	dünn	dünn	ADJ	ADJD	_	11	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s790
@@ -16512,9 +16512,9 @@
 
 # sent_id = test-s805
 # text = Guerilla wurde Großverdiener
-1	Guerilla	Guerilla	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-3	Großverdiener	Großverdiener	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+1	Guerilla	Guerilla	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Großverdiener	Großverdiener	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
 
 # sent_id = test-s806
 # text = Ein umfassender Ausbau der Verkehrswege in der Bundesrepublik bis zum Jahre 2005 würde weit mehr als eine Billion Mark verschlingen.
@@ -17500,10 +17500,10 @@
 
 # sent_id = test-s861
 # text = Damit werden Arbeitsplätze sicherer, Arbeitslose finden Arbeit, und die 35-Stunden-Woche wird nicht durch Überstunden ausgehebelt.
-1	Damit	damit	ADV	PAV	_	4	advmod	_	_
-2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	_
-3	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-4	sicherer	sicher	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+1	Damit	damit	ADV	PAV	_	2	advmod	_	_
+2	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	sicherer	sicher	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	Arbeitslose	Arbeitslose	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
 7	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -17521,7 +17521,7 @@
 19	durch	durch	ADP	APPR	_	20	case	_	_
 20	Überstunden	Überstunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obl	_	_
 21	ausgehebelt	ausgehebelen	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	4	punct	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s862
 # text = Andere nagen am Hungertuch.
@@ -18133,15 +18133,15 @@
 # text = Der Schweizer Schriftsteller Peter Bichsel wird 1996 Stadtschreiber von Mainz.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	Schweizer	Schweizer	ADJ	ADJA	_	3	amod	_	_
-3	Schriftsteller	Schriftsteller	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Schriftsteller	Schriftsteller	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	Peter	Peter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
 5	Bichsel	Bichsel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
-6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	1996	1996	NUM	CARD	NumType=Card	8	nmod	_	_
-8	Stadtschreiber	Stadtschreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	Stadtschreiber	Stadtschreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	_
 9	von	von	ADP	APPR	_	10	case	_	_
 10	Mainz	Mainz	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	8	punct	_	_
+11	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = test-s892
 # text = Festspiele
@@ -18503,12 +18503,12 @@
 # sent_id = test-s916
 # text = Sein Nachfolger wird der frühere CSU-Generalsekretär Erwin Huber.
 1	Sein	sein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	det:poss	_	_
-2	Nachfolger	Nachfolger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	Nachfolger	Nachfolger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	compound	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	frühere	früh	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
-6	CSU	CSU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
-7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	CSU	CSU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	Erwin	Erwin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
 10	Huber	Huber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
