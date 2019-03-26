@@ -1240,7 +1240,7 @@
 21	sparen	sparen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
 22	und	und	CCONJ	KON	_	25	cc	_	_
 23	etwas	etwas	PRON	PIAT	Definite=Ind|PronType=Ind	25	obj	_	_
-24	besseres	gut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	compound	_	_
+24	besseres	gut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	_
 25	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	21	conj	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	9	punct	_	_
 
@@ -2777,7 +2777,7 @@
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	verschrieb	verschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 8	etwas	etwas	PRON	PIAT	Definite=Ind|PronType=Ind	7	obj	_	_
-9	Antibakterielles	Antibakterielles	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	compound	_	SpaceAfter=No
+9	Antibakterielles	Antibakterielles	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s159

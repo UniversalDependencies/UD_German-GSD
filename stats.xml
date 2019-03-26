@@ -15,18 +15,18 @@
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20569</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADJ">20568</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31989</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14862</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10594</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">8859</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
     <tag name="DET">36796</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
-    <tag name="NOUN">52199</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
+    <tag name="NOUN">52202</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7453</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2153</tag><!-- nicht, zu, aus, an, ja, nein, hin, einnehmen, her, preis -->
     <tag name="PRON">15041</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
-    <tag name="PROPN">30859</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
+    <tag name="PROPN">30857</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38513</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1748</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">92</tag><!-- &, =, /, ×, %, +, °, *, €, " -->
@@ -49,8 +49,8 @@
     <feat name="Mood" value="Imp" upos="ADP,PROPN,VERB,X">45</feat><!-- siehe, laßt, vgl., Brecht, EVTA, Gebt, Kambodschas, Kenne, Laß, Schaut -->
     <feat name="Mood" value="Ind" upos="ADJ,ADP,ADV,AUX,CCONJ,NOUN,PART,PRON,PROPN,PUNCT,VERB,X">21574</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, werden -->
     <feat name="Mood" value="Sub" upos="ADJ,AUX,NOUN,PROPN,SCONJ,VERB">775</feat><!-- sei, habe, würde, hätte, werde, hätten, seien, wäre, möchte, könnte -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,SYM,VERB,X">34303</feat><!-- die, den, der, sind, sie, wurden, sich, wir, werden, waren -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X">132860</feat><!-- der, dem, die, das, ist, er, des, eine, ein, wurde -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,SYM,VERB,X">34302</feat><!-- die, den, der, sind, sie, wurden, sich, wir, werden, waren -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X">132861</feat><!-- der, dem, die, das, ist, er, des, eine, ein, wurde -->
     <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7913</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM">6</feat><!-- erste, 1., 12., 19., Ersten -->
     <feat name="Person" value="1" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB,X">2138</feat><!-- ich, wir, uns, mir, mich, habe, haben, bin, kann, war -->
@@ -81,13 +81,13 @@
     <dep name="advcl">1463</dep>
     <dep name="advmod">17332</dep>
     <dep name="amod">16721</dep>
-    <dep name="appos">6931</dep>
+    <dep name="appos">6929</dep>
     <dep name="aux">3281</dep>
     <dep name="aux:pass">3425</dep>
     <dep name="case">30637</dep>
     <dep name="cc">8781</dep>
     <dep name="ccomp">873</dep>
-    <dep name="compound">1522</dep>
+    <dep name="compound">1520</dep>
     <dep name="compound:prt">1507</dep>
     <dep name="conj">11899</dep>
     <dep name="cop">3842</dep>
@@ -104,7 +104,7 @@
     <dep name="goeswith">2</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3171</dep>
-    <dep name="nmod">22101</dep>
+    <dep name="nmod">22105</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17412</dep>
     <dep name="nsubj:pass">3192</dep>
