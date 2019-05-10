@@ -54,6 +54,9 @@ Case and Gender are not unexpectedly the least accurate of the frequent features
 
 # Changelog
 
+2019-05-15 Dan Zeman
+  * Fixed numerous bugs found by the new validator.
+
 2018-11-15 Dan Zeman
   * Fixed punctuation using udapy -s ud.FixPunct
 
