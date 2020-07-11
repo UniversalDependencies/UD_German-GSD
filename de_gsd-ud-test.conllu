@@ -7601,8 +7601,8 @@
 10	mehr	mehr	ADV	ADV	_	9	advmod	_	_
 11	damit	damit	ADV	PAV	_	13	advmod	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
-13	tun	tun	VERB	VVINF	VerbForm=Inf	14	acl	_	_
-14	haben	haben	AUX	VAINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+13	tun	tun	VERB	VVINF	VerbForm=Inf	14	xcomp	_	_
+14	haben	haben	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = test-s404
@@ -19172,7 +19172,7 @@
 24	sein	sein	AUX	VAINF	VerbForm=Inf	21	cop	_	_
 25	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 26	und	und	CCONJ	KON	_	27	cc	_	_
-27	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	SpaceAfter=No
+27	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s947
