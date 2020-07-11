@@ -13,7 +13,7 @@
 2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 4	eines	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
-5	seiner	sein	PRON	PPOSAT	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes	6	det:poss	_	_
+5	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Seminare	Seminar	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	8	obj	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
@@ -91,7 +91,7 @@
 14	sonder	sondern	CCONJ	KON	_	22	cc	_	_
 15	lieber	lieb	ADV	ADV	_	22	advmod	_	_
 16	mit	mit	ADP	APPR	_	18	case	_	_
-17	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	18	det:poss	_	_
+17	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Kolegin	Kolegin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 19	über	über	ADP	APPR	_	21	case	_	_
 20	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
@@ -203,7 +203,7 @@
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Region	Region	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
-11	Ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	12	det:poss	_	_
+11	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Gründerzeithäusern	Gründerzeithaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	_
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	sehenswert	sehenswert	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
@@ -317,7 +317,7 @@
 6	Shop	Shop	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	für	für	ADP	APPR	_	10	case	_	_
-9	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	10	det:poss	_	_
+9	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Schnäppchen	Schnäppchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	_
 11	bekannt	bekennen	ADJ	ADJD	_	2	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
@@ -422,7 +422,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	67	67	NUM	CARD	NumType=Card	15	obl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
-13	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 15	eingelöst	einlösen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
@@ -485,7 +485,7 @@
 
 # sent_id = dev-s34
 # text = Mein Vater hat diese Einweisung verständlicherweise nicht sofort umsetzen können.
-1	Mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 4	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
@@ -522,7 +522,7 @@
 7	Einweisung	Einweisung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 8	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	_
 9	und	und	CCONJ	KON	_	15	cc	_	_
-10	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	_
+10	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 12	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 13	somit	somit	ADV	ADV	_	15	advmod	_	_
@@ -590,7 +590,7 @@
 3	Diskussion	Diskussion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	fuhr	fahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	dann	dann	ADV	ADV	_	4	advmod	_	_
-6	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Lebensgefährte	Lebensgefährte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Panzer	Panzer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -644,7 +644,7 @@
 18	von	von	ADP	APPR	_	20	case	_	NamedEntity=Maybe
 19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	NamedEntity=Maybe
 20	Panzerfahrt	Panzerfahrt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
-21	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	22	det:poss	_	_
+21	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
 23	bestellt	bestellen	VERB	VVPP	VerbForm=Part	2	csubj	_	_
 24	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
@@ -708,7 +708,7 @@
 10	Engagement	Engagement	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	verdienen	verdienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-13	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 15	nach	nach	ADP	APPO	_	14	case	_	_
 16	5	5	NUM	CARD	NumType=Card	17	nummod	_	_
@@ -723,7 +723,7 @@
 # sent_id = dev-s47
 # text = bei meinem ersten beusch, war ich über das hotel erstaunt...
 1	bei	bei	ADP	APPR	_	4	case	_	_
-2	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	_
+2	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	ersten	erst	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
 4	beusch	beusch	NOUN	ADJD	_	11	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -783,7 +783,7 @@
 1	Seit	seit	ADP	APPR	_	2	case	_	_
 2	1964	1964	NUM	CARD	NumType=Card	11	nmod	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-4	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 6	rund	rund	ADV	ADV	_	7	advmod	_	_
 7	1	1	NUM	CARD	NumType=Card	8	nummod	_	_
@@ -809,14 +809,14 @@
 9	und	und	CCONJ	KON	_	8	fixed	_	_
 10	nach	nach	ADP	ADV	_	8	fixed	_	_
 11	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-12	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	13	det:poss	_	_
+12	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
 14	und	und	CCONJ	KON	_	20	cc	_	_
 15	nun	nun	ADV	ADV	_	16	advmod	_	_
 16	auch	auch	ADV	ADV	_	20	advmod	_	_
 17	deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem	20	det	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
-19	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	17	conj	_	_
+19	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	conj	_	_
 20	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
 21	mit	mit	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	3	punct	_	_
@@ -828,7 +828,7 @@
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Kapitäns	Kapitän	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
-6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Beschwerde	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
 8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	unfreundlich	unfreundlich	ADJ	ADJD	_	0	root	_	_
@@ -886,7 +886,7 @@
 10	zeitgemäße	zeitgemäß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
 11	umweltorientierte	umweltorientiert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
 12	Einstellung	Einstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
-13	Ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	14	det	_	_
+13	Ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	Unternehmens	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -954,7 +954,7 @@
 
 # sent_id = dev-s60
 # text = Meine Mutter ist bettlägerig und er kam einfach mit seinen Geräten zu ihr nach Hause!
-1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	bettlägerig	bettlägerig	ADJ	ADJD	_	0	root	_	_
@@ -963,7 +963,7 @@
 7	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 8	einfach	einfach	ADV	ADV	_	7	advmod	_	_
 9	mit	mit	ADP	APPR	_	11	case	_	_
-10	seinen	sein	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	11	det:poss	_	_
+10	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
 12	zu	zu	ADP	APPR	_	13	case	_	_
 13	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
@@ -993,7 +993,7 @@
 4	wie	wie	ADV	KOUS	_	14	advmod	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-7	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	10	det:poss	_	_
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 8	völlig	völlig	ADV	ADJD	_	9	advmod	_	_
 9	überlasteten	überlastet	ADJ	ADJA	Case=Dat|Number=Plur	10	amod	_	_
 10	Angestellten	Angestellte	NOUN	NN	Case=Dat|Number=Plur	14	obj	_	_
@@ -1066,7 +1066,7 @@
 21	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	26	nsubj	_	_
 22	genau	genau	ADV	ADV	_	26	advmod	_	_
 23	auf	auf	ADP	APPR	_	25	case	_	_
-24	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	25	det:poss	_	_
+24	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
 26	zugeschnitten	zuschneiden	VERB	VVPP	VerbForm=Part	18	acl	_	_
 27	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
@@ -1110,7 +1110,7 @@
 5	gute	gut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
 6	Betreuung	Betreuung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
 7	in	in	ADP	APPR	_	10	case	_	_
-8	meinen	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	10	det:poss	_	_
+8	meinen	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 9	bisherigen	bisherig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	10	amod	_	_
 10	Rechtsfällen	Rechtsfällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
@@ -1172,11 +1172,11 @@
 
 # sent_id = dev-s73
 # text = Unsere Erfahrung und die unserer Freunde führen dazu, dass man diesen Laden nicht mehr unterstützen sollte -- aus liebe zu den Tieren!!
-1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	die	der	PRON	PDS	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	conj	_	_
-5	unserer	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	6	det:poss	_	_
+5	unserer	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
 7	führen	fahren|führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dazu	dazu	PRON	PAV	_	7	obj	_	SpaceAfter=No
@@ -1259,7 +1259,7 @@
 # sent_id = dev-s77
 # text = Mit meinem Hund war ich einige Male bei Herrn Wienrich in der Praxis, habe ihn aber persönlich nie dort gesehen.
 1	Mit	mit	ADP	APPR	_	3	case	_	_
-2	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	_
+2	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -1311,7 +1311,7 @@
 10	,	,	PUNCT	$,	_	16	punct	_	_
 11	zumindest	zumindest	ADV	ADV	_	16	advmod	_	_
 12	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
-13	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	_
 15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
 16	geholfen	helfen	VERB	VVPP	VerbForm=Part	5	advcl	_	_
@@ -1397,7 +1397,7 @@
 
 # sent_id = dev-s86
 # text = Mein Sakko - Ärmel war zu lang, da haben sie es wie original gekürzt.
-1	Mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	_
+1	Mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 2	Sakko	Sakko	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
 3	-	-	PUNCT	$(	_	2	punct	_	_
 4	Ärmel	Ärmel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -1602,7 +1602,7 @@
 2	freu	freuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	auf	auf	ADP	APPR	_	7	case	_	_
-5	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+5	meinen	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	nächsten	nah	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
 8-9	im	_	_	_	_	_	_	_	_
@@ -1871,7 +1871,7 @@
 10	House	House	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	SpaceAfter=No|NamedEntity=Yes
 11	"	"	PUNCT	$(	_	9	punct	_	NamedEntity=Maybe
 12	immer	immer	ADV	ADV	_	15	advmod	_	_
-13	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
+13	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	erste	erst	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
 15	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
@@ -2005,7 +2005,7 @@
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
 5	auf	auf	ADP	APPR	_	8	case	_	_
-6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+6	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	neue	neu	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
 8	Küche	Küche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 9	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -2052,7 +2052,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
 10	Küchenstudio	Küchenstudio	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
-11	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+11	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Küche	Küche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 13	bestellt	bestellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
@@ -2082,7 +2082,7 @@
 
 # sent_id = dev-s121
 # text = Unsere Küche wurde geliefert und schon beim Einbau haben wir einige Mängel festgestellt.
-1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Küche	Küche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux:pass	_	_
 4	geliefert	liefern	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -2110,7 +2110,7 @@
 7	vergeben	vergeben	VERB	VVINF	VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
-10	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+10	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 11	ehrliche	ehrlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
 12	Wertung	Wertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 13	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
@@ -2120,7 +2120,7 @@
 # text = Wir haben unsere Küche jetzt seit Juni 2011 und sind hellauf begeistert.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Küche	Küche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
 6	seit	seit	ADP	APPR	_	7	case	_	NamedEntity=Maybe
@@ -2212,7 +2212,7 @@
 # sent_id = dev-s128
 # text = Habe meine Küche dort gekauft.
 1	Habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+2	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Küche	Küche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 4	dort	dort	ADV	ADV	_	5	advmod	_	_
 5	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -2244,7 +2244,7 @@
 # text = Der Grundriss unseres Hauses aus den den 70er ist etwas kompliziert, aber Herr Walther hatte sofort die Lösung für unser Problem.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grundriss	Grundriß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-3	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	aus	aus	ADP	APPR	_	8	case	_	_
 6	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	8	det	_	_
@@ -2262,7 +2262,7 @@
 18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
 20	für	für	ADP	APPR	_	22	case	_	_
-21	unser	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	22	det:poss	_	_
+21	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -2284,12 +2284,12 @@
 7	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 9	auch	auch	ADV	ADV	_	7	advmod	_	_
-10	unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	_
+10	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
 14	auch	auch	ADV	ADV	_	17	advmod	_	_
-15	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	16	det:poss	_	_
+15	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Vorstellungen	Vorstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	iobj	_	_
 17	entsprach	entsprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	7	punct	_	_
@@ -2368,7 +2368,7 @@
 10	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
 11	Leistungen	Leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
-13	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Auftrag	Auftrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
 15	ausgeführt	ausführen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
@@ -2397,7 +2397,7 @@
 20	und	und	CCONJ	KON	_	21	cc	_	_
 21	ordentlich	ordentlich	ADV	ADJD	_	19	conj	_	_
 22	nach	nach	ADP	APPR	_	24	case	_	_
-23	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	24	det:poss	_	_
+23	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Wünschen	Wunsch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
 25	realisiert	realisieren	VERB	VVPP	VerbForm=Part	12	advcl	_	_
 26	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	25	aux:pass	_	SpaceAfter=No
@@ -2510,7 +2510,7 @@
 10	erwartete	erwarten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 11	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
-13	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Wintergarten	Wintergarten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj:pass	_	_
@@ -2693,7 +2693,7 @@
 # text = War mit meinem Kater wegen eines entzündetem Auge dort.
 1	War	sein	NOUN	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mit	mit	ADP	APPR	_	4	case	_	_
-3	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Kater	Kater	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
 5	wegen	wegen	ADP	APPR	_	8	case	_	_
 6	eines	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -2733,7 +2733,7 @@
 # text = Grunduntersuchung bei unserem Hund war dagegen in Ordnung auch wenn die Preise eher ein bischen teuer sind.
 1	Grunduntersuchung	Grunduntersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	bei	bei	ADP	APPR	_	4	case	_	_
-3	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
 5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	dagegen	dagegen	ADV	PAV	_	5	advmod	_	_
@@ -2834,7 +2834,7 @@
 10	und	und	CCONJ	KON	_	12	cc	_	_
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	starb	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
-13	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Vogel	Vogel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 15	noch	noch	ADV	ADV	_	12	advmod	_	_
 16-17	am	_	_	_	_	_	_	_	_
@@ -2920,7 +2920,7 @@
 # sent_id = dev-s167
 # text = Grund unseres Besuchs war der Wunsch eine Vespa zu mieten.
 1	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	_
+2	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Besuchs	Besuch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3133,7 +3133,7 @@
 8	da	da	SCONJ	KOUS	_	15	mark	_	_
 9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 10	für	für	ADP	APPR	_	12	case	_	_
-11	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	12	det:poss	_	_
+11	meine	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Bedürfnisse	Bedürfnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	_
 13	bessere	gut	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	_
 14	Orte	Ort	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
@@ -3168,7 +3168,7 @@
 2	gehe	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	gerne	gerne	ADV	ADV	_	2	advmod	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
-5	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+5	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 7-8	ins	_	_	_	_	_	_	_	_
 7	in	in	ADP	APPR	_	9	case	_	NamedEntity=Maybe
@@ -3188,7 +3188,7 @@
 
 # sent_id = dev-s183
 # text = Meine Kinder sind sonst nicht sehr von Wellness angetan, aber aus dem beheizten Freibad bekomme ich sie nur mit grossen Schwierigkeiten weg...
-1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	2	det:poss	_	_
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 4	sonst	sonst	ADV	ADV	_	9	advmod	_	_
@@ -3454,7 +3454,7 @@
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	aus	aus	ADP	APPR	_	5	case	_	_
-4	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Stil	Stil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -3498,7 +3498,7 @@
 2	verdient	verdienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Torsten	Torsten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	NamedEntity=Yes
 4	Burrichter	Burrichter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
-5	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	NamedEntity=Maybe
+5	meinen	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	NamedEntity=Maybe
 6	besonderen	besonder	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	Respekt	Respekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
@@ -3515,7 +3515,7 @@
 8	Burrichter	Burrichter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	NamedEntity=Yes
 9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	NamedEntity=Maybe
 10	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
-11	seiner	sein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	14	det:poss	_	_
+11	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 12	Yoga	Yoga	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	compound	_	_
 13	-	-	PUNCT	$(	_	12	punct	_	_
 14	Stunden	Stunde|Stunden	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
@@ -3614,7 +3614,7 @@
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
-5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+5	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 7	eingestellt	einstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
@@ -3862,7 +3862,7 @@
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-5	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+5	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	neuer	neu	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Hausarzt	Hausarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	xcomp	_	_
 8	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -3930,7 +3930,7 @@
 8	immer	immer	ADV	ADV	_	13	advmod	_	_
 9	wieder	wieder	ADV	ADV	_	8	advmod	_	_
 10	um	um	ADP	APPR	_	12	case	_	_
-11	Ihren	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	12	det:poss	_	_
+11	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Schlaf	Schlaf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 13	gebracht	bringen	VERB	VVPP	VerbForm=Part	5	acl	_	_
 14	werden	werden	AUX	VAFIN	VerbForm=Inf|Voice=Pass	13	aux:pass	_	SpaceAfter=No
@@ -4150,7 +4150,7 @@
 9	jetzt	jetzt	ADV	ADV	_	10	advmod	_	_
 10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	_
 11	nach	nach	ADP	APPR	_	13	case	_	_
-12	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	13	det:poss	_	_
+12	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Umzug	Umzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -4365,7 +4365,7 @@
 9	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	aux:pass	_	NamedEntity=Maybe
 10	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	14	iobj	_	NamedEntity=Maybe
 11	von	von	ADP	APPR	_	13	case	_	NamedEntity=Maybe
-12	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	13	det:poss	_	NamedEntity=Maybe
+12	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	NamedEntity=Maybe
 13	Handwerker	Handwerker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
 14	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
@@ -4560,7 +4560,7 @@
 6	Hauptzeiten	Hauptzeiten	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
 7	leider	leider	ADV	ADV	_	4	advmod	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
-9	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	10	det:poss	_	_
+9	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Kapazitätsgrenze	Kapazitätsgrenze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -4774,7 +4774,7 @@
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 5	seit	seit	ADP	APPR	_	8	case	_	_
-6	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	_
+6	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	8	amod	_	_
 8	Besuch	Besuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
 9	stark	stark	ADV	ADJD	_	10	advmod	_	_
@@ -4850,7 +4850,7 @@
 3	Beratung	Beratung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	Belieferung	Belieferung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	_
-6	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Kundenberaters	Kundenberaters	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 8	Horst	Horst	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 9	Rosenberger	Rosenberger	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
@@ -4863,13 +4863,13 @@
 # sent_id = dev-s279
 # text = Durch seine Hilfe habe ich relativ einfach mein Wunschgewicht ereicht und auch gehalten im Gegensatz zu etlichen anderen Diätversuchen mit wiederkehrendem Jojo - Effekt.
 1	Durch	durch	ADP	APPR	_	3	case	_	_
-2	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+2	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 6	relativ	relativ	ADV	ADJD	_	7	advmod	_	_
 7	einfach	einfach	ADV	ADV	_	10	advmod	_	_
-8	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	mein	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Wunschgewicht	Wunschgewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 10	ereicht	ereicht	VERB	VVPP	VerbForm=Part	0	root	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
@@ -5204,7 +5204,7 @@
 15	fast	fast	ADV	ADV	_	16	advmod	_	_
 16	normal	normal	ADV	ADJD	_	20	advmod	_	_
 17	mit	mit	ADP	APPR	_	19	case	_	_
-18	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	19	det:poss	_	_
+18	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
 20	laufen	laufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	20	punct	_	_
@@ -5232,7 +5232,7 @@
 2	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
 3	später	spät	ADV	ADJD	_	4	advmod	_	_
 4	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	6	det:poss	_	_
+5	unser	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 7	mit	mit	ADP	APPR	_	10	case	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
@@ -5269,7 +5269,7 @@
 12	Hundeschulen	Hundeschulen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	_
 13	gedauert	dauern	VERB	VVPP	VerbForm=Part	4	ccomp	_	_
 14	bis	bis	SCONJ	KOUS	_	17	mark	_	_
-15	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+15	unser	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 17	verstand	verstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	23	punct	_	_
@@ -5379,7 +5379,7 @@
 4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Signale	Signal	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-7	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	_
+7	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Hundes	Hund	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -5404,7 +5404,7 @@
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 4	über	über	ADP	APPR	_	9	case	_	_
-5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+5	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 6	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 7	alten	alt	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 8	"	"	PUNCT	$(	_	7	punct	_	_
@@ -5757,7 +5757,7 @@
 1	Hier	hier	ADV	ADV	_	2	advmod	_	_
 2	lasse	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-4	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	mein	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 6	gerne	gerne	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	!	!	PUNCT	$.	_	2	punct	_	_
@@ -5901,7 +5901,7 @@
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 7	stets	stets	ADV	ADV	_	8	advmod	_	_
 8	zentral	zentral	ADV	ADJD	_	5	advmod	_	_
-9	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	_
+9	meinen	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Mietwagen	Mietwagen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -6066,7 +6066,7 @@
 4	nur	nur	ADV	ADV	_	9	advmod	_	_
 5	lange	lange	ADV	ADV	_	9	advmod	_	_
 6	auf	auf	ADP	APPR	_	8	case	_	_
-7	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	8	det:poss	_	_
+7	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Getränke	Getränk	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_
 9	warten	warten	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
@@ -6292,7 +6292,7 @@
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj:pass	_	_
 2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
-4	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
 6	dort	dort	ADV	ADV	_	7	advmod	_	_
 7	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -6300,7 +6300,7 @@
 
 # sent_id = dev-s369
 # text = Meine erste Wahl wenn es um Musikinstrumente und Audioequipment geht.
-1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
 3	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
@@ -6381,7 +6381,7 @@
 3	seit	seit	ADP	APPR	_	4	case	_	_
 4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	_
 5	dort	dort	ADV	ADV	_	2	advmod	_	_
-6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Technik	Technik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 8	und	und	CCONJ	KON	_	12	cc	_	_
 9	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	aux:pass	_	_
@@ -6548,7 +6548,7 @@
 10	Maresch	Maresch	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	NamedEntity=Yes
 11	Kristall	Kristall	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	NamedEntity=Yes
 12	Leuchten	Leuchte|Leuchten	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	flat	_	NamedEntity=Yes
-13	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	NamedEntity=Maybe
+13	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	NamedEntity=Maybe
 14	erste	erst	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
 15	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	9	punct	_	_
@@ -6686,7 +6686,7 @@
 
 # sent_id = dev-s396
 # text = Meine E - Mails wurden sofort beantwortet und vor dem ersten Gespräch im Büro hatte man bereits alles erforderliche in die Wege geleitet.
-1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+1	Meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 2	E	E	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	_
 3	-	-	PUNCT	$(	_	2	punct	_	_
 4	Mails	Mails	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
@@ -6773,7 +6773,7 @@
 19	zuvor	zuvor	ADV	ADV	_	32	advmod	_	_
 20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	21	det	_	_
 21	Ermittlungsakte	Ermittlungsakte	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	32	obj	_	_
-22	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	23	det:poss	_	_
+22	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Strafsache	Strafsache	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24	professionell	professionell	ADV	ADJD	_	25	advmod	_	_
 25	verschlüsselt	verschlüsseln	VERB	ADJD	_	32	acl	_	_
@@ -6793,7 +6793,7 @@
 2	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	zu	zu	ADP	APPR	_	7	case	_	_
-5	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	_
+5	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	größten	groß	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
 7	Zufriedenheit	Zufriedenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	3	punct	_	_
@@ -6844,7 +6844,7 @@
 # sent_id = dev-s405
 # text = Wenn meine Frau mal nicht zu Hause ist, hole ich mir immer Abends einen der lecker gefüllten Pfannenkuchen.
 1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
-2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+2	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 4	mal	mal	ADV	ADV	_	5	advmod	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
@@ -6885,7 +6885,7 @@
 17	hier	hier	ADV	ADV	_	16	advmod	_	_
 18	voll	voll	ADV	ADJD	_	21	advmod	_	_
 19	auf	auf	ADP	APPR	_	21	case	_	_
-20	seine	sein	PRON	PPOSAT	Case=Acc|Number=Plur|Poss=Yes	21	det:poss	_	_
+20	seine	sein	DET	PPOSAT	Case=Acc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	16	obl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -6930,7 +6930,7 @@
 # text = Leider viel unsere Wahl auf das Schuchmann 's.
 1	Leider	leider	ADV	ADV	_	2	advmod	_	_
 2	viel	viel	VERB	ADV	_	0	root	_	_
-3	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	NamedEntity=Maybe
 6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	NamedEntity=Maybe
@@ -6996,7 +6996,7 @@
 # text = Das Essen meiner Frau war noch schlechter.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
-3	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 6	noch	noch	ADV	ADV	_	7	advmod	_	_
@@ -7075,7 +7075,7 @@
 6	nach	nach	ADP	APPR	_	7	case	_	NamedEntity=Maybe
 7	Russland	Rußland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	NamedEntity=Yes
 8	mit	mit	ADP	APPR	_	10	case	_	NamedEntity=Maybe
-9	unserem	unser	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	10	det:poss	_	NamedEntity=Maybe
+9	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	NamedEntity=Maybe
 10	Wohnmobil	Wohnmobil	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 11	bei	bei	ADP	APPR	_	12	case	_	NamedEntity=Maybe
 12	Miriam	Miriam	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
@@ -7089,7 +7089,7 @@
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 3	hier	hier	ADV	ADV	_	10	advmod	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
-5	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	6	det:poss	_	_
+5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Gäste	Gast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	kleines	klein	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
@@ -7241,7 +7241,7 @@
 # sent_id = dev-s432
 # text = Durch Ihre Hinweise sind wir nun sicher die richtige Entscheidung getroffen zu haben.
 1	Durch	durch	ADP	APPR	_	3	case	_	_
-2	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	3	det:poss	_	_
+2	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
@@ -7275,13 +7275,13 @@
 15	Ton	Ton	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
 16	statt	statt	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	22	punct	_	_
-18	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes	19	nsubj	_	_
+18	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	nsubj	_	_
 19	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj:pass	_	_
 20	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	22	aux:pass	_	_
 21	ausführlich	ausführlich	ADV	ADJD	_	22	advmod	_	_
 22	beantwortet	beantworten	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	29	punct	_	_
-24	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	25	det:poss	_	_
+24	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
 26	"	"	PUNCT	$(	_	27	punct	_	SpaceAfter=No|NamedEntity=Maybe
 27	Emiliy	Emiliy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No|NamedEntity=Yes
@@ -7301,7 +7301,7 @@
 # text = Was bei meiner vierbeinigen Begleiterin schon etwas heißt.
 1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	_
 2	bei	bei	ADP	APPR	_	5	case	_	_
-3	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+3	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	vierbeinigen	vierbeinig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	_
 5	Begleiterin	Begleiterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 6	schon	schon	ADV	ADV	_	8	advmod	_	_
@@ -7346,7 +7346,7 @@
 
 # sent_id = dev-s437
 # text = Unsere Hündin war ein echter problem Fall!!!
-1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Hündin	Hündin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7482,7 +7482,7 @@
 10	auch	auch	ADV	ADV	_	9	advmod	_	_
 11	recht	recht	ADV	ADV	_	12	advmod	_	_
 12	hart	hart	ADV	ADJD	_	9	advmod	_	_
-13	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	14	det:poss	_	_
+13	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Hunde	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 15	an	an	ADP	PTKVZ	_	9	compound:prt	_	_
 16	und	und	CCONJ	KON	_	22	cc	_	_
@@ -7784,7 +7784,7 @@
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	möchte	mögen	VERB	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
-13	seinen	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Wein	Wein	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 15	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	5	punct	_	_
@@ -7974,13 +7974,13 @@
 4	lösen	lösen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 6	all	all	DET	PIAT	Definite=Ind|PronType=Ind	8	det	_	_
-7	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	8	det:poss	_	_
+7	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Fahradprobleme	Fahradprobleme	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s478
 # text = Unsere Erfahrungen waren bisher durchgehend positiv.
-1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	bisher	bisher	ADV	ADV	_	6	advmod	_	_
@@ -8006,7 +8006,7 @@
 1	Für	für	ADP	APPR	_	3	case	_	_
 2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Reparatur	Reparatur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
-4	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Ölbremse	Ölbremse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
 7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
@@ -8046,7 +8046,7 @@
 8	sagen	sagen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	14	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	14	mark	_	_
-11	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+11	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Schaltung	Schaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 13	neu	neu	ADV	ADJD	_	14	advmod	_	_
 14	eingestellt	einstellen	VERB	VVPP	VerbForm=Part	8	ccomp	_	_
@@ -8231,7 +8231,7 @@
 5	da	da	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	da	da	SCONJ	KOUS	_	13	mark	_	_
-8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
 10	wegen	wegen	ADP	APPR	_	12	case	_	_
 11	kaputter	kaputt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
@@ -8248,7 +8248,7 @@
 3	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	11	nsubj	_	_
 4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
 5	für	für	ADP	APPR	_	8	case	_	_
-6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+6	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	alte	alt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
 8	Lichtmaschine	Lichtmaschine	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	150	150	NUM	CARD	NumType=Card	10	nummod	_	_
@@ -8361,7 +8361,7 @@
 10	Dynamik	Dynamik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	32	punct	_	_
 12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	32	nsubj	_	_
-13	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	15	det:poss	_	_
+13	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	volkswirtschaftlichen	volkswirtschaftlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	15	amod	_	_
 15	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
 16	aus	aus	ADP	APPR	_	18	case	_	_
@@ -8695,7 +8695,7 @@
 7	25jährige	25jährig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
 8	Attentäter	Attentäter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 9	und	und	CCONJ	KON	_	14	cc	_	_
-10	sein	sein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+10	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 11	zwei	zwei	NUM	CARD	NumType=Card	12	nummod	_	_
 12	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
 13	älterer	alt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
@@ -8975,7 +8975,7 @@
 4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-7	seinen	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	_
+7	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Gegner	Gegner	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
 9	durch	durch	ADP	APPR	_	10	case	_	_
 10	Taktik	Taktik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
@@ -9317,7 +9317,7 @@
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|NamedEntity=Maybe
 7	Konzern	Konzern	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
 8	wegen	wegen	ADP	APPR	_	10	case	_	_
-9	seiner	sein	PRON	PPOSAT	Gender=Fem|Number=Sing|Poss=Yes	10	det:poss	_	_
+9	seiner	sein	DET	PPOSAT	Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Unternehmenspolitik	Unternehmenspolitik	NOUN	NN	Gender=Fem|Number=Sing	17	obl	_	_
 11	in	in	ADP	APPR	_	12	case	_	NamedEntity=Maybe
 12	Nigeria	Nigeria	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	NamedEntity=Yes
@@ -9460,7 +9460,7 @@
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Bevölkerung	Bevölkerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	beurteilte	beurteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+6	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	erste	erster	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
 8	Amtszeit	Amtszeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 9	trotz	trotz	ADP	APPR	_	12	case	_	_
@@ -9763,7 +9763,7 @@
 2	Soziale	sozial	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
 3	Bewegungen	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	leiten	leiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Legitimation	Legitimation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 7	auch	auch	ADV	ADV	_	4	advmod	_	_
 8	daraus	daraus	ADV	PAV	_	4	advmod	_	_
@@ -9781,7 +9781,7 @@
 20	gebotenen	geboten	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	21	amod	_	_
 21	Konsequenz	Konsequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
 22	zu	zu	ADP	APPR	_	23	case	_	_
-23	ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	26	obl	_	_
+23	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	obl	_	_
 24	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	23	amod	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	machen	machen	VERB	VVINF	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
@@ -9841,14 +9841,14 @@
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	bis	bis	SCONJ	KOUS	_	10	mark	_	_
 7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
-8	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Einschätzung	Einschätzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 10	abgeklärt	abklären	VERB	VVPP	VerbForm=Part	4	advcl	_	_
 11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 14	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
-15	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	16	det:poss	_	_
+15	meine	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Eindrücke	Eindruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
 17	sofort	sofort	ADV	ADV	_	18	advmod	_	_
 18	umsetzen	umsetzen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
@@ -9977,7 +9977,7 @@
 8	gegen	gegen	ADP	APPR	_	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Abflachung	Abflachung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
-11	ihrer	ihr	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	NamedEntity=Maybe
+11	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	NamedEntity=Maybe
 12	Melatonin	Melatonin	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	NamedEntity=Yes
 13	--	--	PUNCT	$(	_	14	punct	_	NamedEntity=Maybe
 14	Rhythmik	Rhythmik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	flat	_	_
@@ -9997,7 +9997,7 @@
 9	Naumann	Naumann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
 10	gaben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
-12	ihren	ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	13	det:poss	_	_
+12	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Eröffnungsreden	Eröffnungsrede	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
 14	auf	auf	ADP	APPR	_	17	case	_	_
 15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -10081,7 +10081,7 @@
 # text = Eltern dürfen ihren Neugeborenen künftig keine ``lustigen, ``'' unanständigen'' oder ``anmaßenden'' Vornamen mehr geben.
 1	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	20	nsubj	_	_
 2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-3	ihren	ihr	PRON	PPOSAT	Case=Dat|Number=Plur|Poss=Yes	4	det:poss	_	_
+3	ihren	ihr	DET	PPOSAT	Case=Dat|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Neugeborenen	Neugeborener	NOUN	NN	Case=Dat|Number=Plur	20	iobj	_	_
 5	künftig	künftig	ADV	ADJD	_	20	advmod	_	_
 6	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	18	nmod	_	_
@@ -10156,7 +10156,7 @@
 9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Brief	Brief	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
 11	an	an	ADP	APPR	_	14	case	_	_
-12	seinen	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+12	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	slowakischen	slowakisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
 14	Kollegen	Kollege	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 15	Vladimir	Vladimir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	NamedEntity=Yes
@@ -10768,7 +10768,7 @@
 11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	royalen	royal	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	13	amod	_	_
 13	Reporter	Reporter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
-14	ihren	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	15	det:poss	_	_
+14	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Überschwang	Überschwang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	26	punct	_	_
 17	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	26	nsubj	_	_
@@ -10794,7 +10794,7 @@
 36	aus	aus	ADP	APPR	_	38	case	_	NamedEntity=Maybe
 37	heiterem	heiter	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	38	amod	_	_
 38	Himmel	Himmel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	_
-39	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	40	det:poss	_	_
+39	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	det:poss	_	_
 40	Verlobung	Verlobung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	41	obj	_	_
 41	bekanntgaben	bekanntgeben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	10	punct	_	_
@@ -10814,7 +10814,7 @@
 10	dazu	dazu	ADV	PAV	_	5	advmod	_	_
 11	auf	auf	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
-13	sein	sein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Verhältnis	Verhältnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
 15	zu	zu	ADP	APPR	_	16	case	_	NamedEntity=Maybe
 16	Ostdeutschland	Ostdeutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	NamedEntity=Yes
@@ -10890,7 +10890,7 @@
 9	schlechter	schlecht	ADV	ADJD	_	10	advmod	_	_
 10	mißt	messen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 11	als	als	CCONJ	KOKOM	_	14	case	_	_
-12	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	14	det:poss	_	_
+12	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	externen	extern	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	14	amod	_	_
 14	Prüfer	Prüfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 15	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
@@ -11335,7 +11335,7 @@
 
 # sent_id = dev-s638
 # text = Sein Ziel ist es, die Verbrauchsteuern zu senken und die Steuern auf Vermögen anzuheben.
-1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	dep	_	FixTigerDep=Yes
+1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
 2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
@@ -11434,7 +11434,7 @@
 12	begründen	begründen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	Frankfurter	Frankfurter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
-15	ihren	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+15	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	gleichzeitig	gleichzeitig	ADV	ADJD	_	19	advmod	_	_
@@ -11670,7 +11670,7 @@
 15	unter	unter	ADP	APPR	_	3	case	_	_
 16	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	fixed	_	_
 17	wegen	wegen	ADP	APPR	_	19	case	_	_
-18	seiner	sein	PRON	PPOSAT	Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
+18	seiner	sein	DET	PPOSAT	Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Verantwortung	Verantwortung	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
 20	für	für	ADP	APPR	_	22	case	_	_
 21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -11741,7 +11741,7 @@
 24	in	in	ADP	APPR	_	26	case	_	NamedEntity=Maybe
 25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	NamedEntity=Maybe
 26	Laufe	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	46	obl	_	_
-27	seiner	sein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	29	det:poss	_	_
+27	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 28	sprichwörtlichen	sprichwörtlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	_
 29	Schuhputzerkarriere	Schuhputzerkarriere	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 30	mehrfach	mehrfach	ADV	ADJD	_	46	advmod	_	_
@@ -11897,7 +11897,7 @@
 2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	ccomp	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
-5	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+5	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	2	punct	_	_
@@ -11972,7 +11972,7 @@
 16	aber	aber	CCONJ	KON	_	22	cc	_	_
 17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 18	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-19	ihren	ihr	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	20	det:poss	_	_
+19	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Glauben	Glauben	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
 21	anderswo	anderswo	ADV	ADV	_	22	advmod	_	_
 22	pflegen	pflegen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
@@ -12165,7 +12165,7 @@
 17	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
 19	ohne	ohne	CCONJ	KOUI	_	17	cc	_	_
-20	ihre	ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	22	det:poss	_	_
+20	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 21	alte	alt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
 22	Staatsbürgerschaft	Staatsbürgerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 23	aufzugeben	aufgeben	VERB	VVIZU	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
@@ -12227,7 +12227,7 @@
 3	gegen	gegen	ADP	APPR	_	4	case	_	NamedEntity=Maybe
 4	Krenz	Krenz	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
 5	und	und	CCONJ	KON	_	7	cc	_	NamedEntity=Maybe
-6	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	7	det:poss	_	NamedEntity=Maybe
+6	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	NamedEntity=Maybe
 7	Genossen	Genosse	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
 8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -12364,7 +12364,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Unternehmer	Unternehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	und	und	CCONJ	KON	_	5	cc	_	_
-4	seine	sein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
 6	tauchten	tauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	damals	damals	ADV	ADV	_	6	advmod	_	_
@@ -12434,7 +12434,7 @@
 10	20,52	20,52	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Zähler	Zähler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
 12	über	über	ADP	APPR	_	14	case	_	_
-13	seinem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Endstand	Endstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
 15-16	vom	_	_	_	_	_	_	_	_
 15	von	von	ADP	APPR	_	17	case	_	NamedEntity=Maybe
@@ -12505,7 +12505,7 @@
 4	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	NamedEntity=Maybe
 5	gerne	gerne	ADV	ADV	_	9	advmod	_	_
 6	für	für	ADP	APPR	_	8	case	_	_
-7	seine	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Rettung	Rettung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 9	mitstreiten	mitstreiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	11	punct	_	_
@@ -12762,7 +12762,7 @@
 8	entsprechende	entsprechend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	_
 9	Klöster	Kloster	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
-11	seiner	sein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+11	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Diözese	Diözese	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
@@ -12788,7 +12788,7 @@
 5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Wasserwald	Wasserwald	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
-8	sein	sein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
 10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -13120,7 +13120,7 @@
 18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 19	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
 20	während	während	ADP	APPR	_	23	case	_	_
-21	seines	sein	PRON	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	23	det:poss	_	_
+21	seines	sein	DET	PPOSAT	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 22	Wiener	Wiener	ADJ	ADJA	_	23	amod	_	_
 23	Jahrzehnts	Jahrzehnt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
 24	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	_
@@ -13741,7 +13741,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Überall	überall	ADV	ADV	_	7	advmod	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Geschäft	Geschäft	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	politisches	politisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -14052,7 +14052,7 @@
 18	und	und	CCONJ	KON	_	20	cc	_	_
 19	vollen	voll	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	_
 20	Einsatz	Einsatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	conj	_	_
-21	seiner	sein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	22	det:poss	_	_
+21	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Persönlichkeit	Persönlichkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
 23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Frieden	Frieden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
@@ -14071,7 +14071,7 @@
 2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No|NamedEntity=Maybe
 3	Gurion	Gurion	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes
 4	und	und	CCONJ	KON	_	6	cc	_	NamedEntity=Maybe
-5	seine	sein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	NamedEntity=Maybe
+5	seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	NamedEntity=Maybe
 6	Außenministerin	Außenministerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 7	Golda	Golda	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	NamedEntity=Yes
 8	Meir	Meir	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	NamedEntity=Yes
@@ -15031,7 +15031,7 @@
 11	,	,	PUNCT	$,	_	25	punct	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	Schulgebühren	Schulgebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
-14	seines	sein	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	15	det:poss	_	_
+14	seines	sein	DET	PPOSAT	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Sohnes	Sohn	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 16	mit	mit	ADP	APPR	_	18	case	_	_
 17	drei	drei	NUM	CARD	NumType=Card	18	nummod	_	_
