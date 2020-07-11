@@ -18,7 +18,7 @@
     <tag name="ADJ">20568</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">31989</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14862</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
-    <tag name="AUX">10594</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
+    <tag name="AUX">10592</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">8859</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
     <tag name="DET">36796</tag><!-- der, ein, sein, ihr, viel, wenig, Ihr|ihr, meist, selb, dies -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">38513</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1748</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">92</tag><!-- &, =, /, ×, %, +, °, *, €, " -->
-    <tag name="VERB">20712</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
+    <tag name="VERB">20714</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
     <tag name="X">344</tag><!-- 's, b., u.a., %, etc., werden, z.B., a, z., † -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -76,24 +76,24 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">2728</dep>
+    <dep name="acl">2727</dep>
     <dep name="acl:relcl">6</dep>
     <dep name="advcl">1463</dep>
     <dep name="advmod">17332</dep>
-    <dep name="amod">16721</dep>
-    <dep name="appos">6928</dep>
-    <dep name="aux">3281</dep>
+    <dep name="amod">16720</dep>
+    <dep name="appos">6927</dep>
+    <dep name="aux">3282</dep>
     <dep name="aux:pass">3425</dep>
     <dep name="case">30637</dep>
     <dep name="cc">8781</dep>
     <dep name="ccomp">873</dep>
     <dep name="compound">1520</dep>
     <dep name="compound:prt">1507</dep>
-    <dep name="conj">11899</dep>
+    <dep name="conj">11898</dep>
     <dep name="cop">3842</dep>
     <dep name="csubj">193</dep>
     <dep name="csubj:pass">46</dep>
-    <dep name="dep">1075</dep>
+    <dep name="dep">1074</dep>
     <dep name="det">36265</dep>
     <dep name="det:poss">2362</dep>
     <dep name="discourse">5</dep>
@@ -104,13 +104,13 @@
     <dep name="goeswith">2</dep>
     <dep name="iobj">1276</dep>
     <dep name="mark">3172</dep>
-    <dep name="nmod">22104</dep>
+    <dep name="nmod">22106</dep>
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17412</dep>
     <dep name="nsubj:pass">3192</dep>
     <dep name="nummod">2994</dep>
     <dep name="obj">8408</dep>
-    <dep name="obl">17726</dep>
+    <dep name="obl">17727</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">12</dep>
@@ -119,6 +119,6 @@
     <dep name="reparandum">1</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">5</dep>
-    <dep name="xcomp">1893</dep>
+    <dep name="xcomp">1894</dep>
   </deps>
 </treebank>
