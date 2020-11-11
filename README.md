@@ -54,7 +54,10 @@ Case and Gender are not unexpectedly the least accurate of the frequent features
 
 # Changelog
 
-* 2019-11-15 v2.5
+2020-11-15 Dan Zeman
+  * Fixed UPOS of possessives mein, dein, sein, ihr, unser, euer from PRON (or even PROPN) to DET.
+
+2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
     This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
 
