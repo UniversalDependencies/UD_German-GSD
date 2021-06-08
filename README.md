@@ -54,6 +54,9 @@ Case and Gender are not unexpectedly the least accurate of the frequent features
 
 # Changelog
 
+2021-11-15 v2.9
+  * Fixed UPOS and DEPREL of attributive usages of 'manche'.
+
 2020-11-15 Dan Zeman
   * Fixed UPOS of possessives mein, dein, sein, ihr, unser, euer from PRON (or even PROPN) to DET.
 

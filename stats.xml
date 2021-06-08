@@ -20,12 +20,12 @@
     <tag name="ADV">14862</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10592</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">8859</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
-    <tag name="DET">37375</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
+    <tag name="DET">37388</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
     <tag name="NOUN">52200</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7453</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2153</tag><!-- nicht, zu, aus, an, ja, nein, hin, einnehmen, her, preis -->
-    <tag name="PRON">14477</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
+    <tag name="PRON">14464</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">30844</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38513</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1748</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
@@ -83,7 +83,7 @@
     <dep name="acl:relcl">6</dep>
     <dep name="advcl">1463</dep>
     <dep name="advmod">17332</dep>
-    <dep name="amod">16720</dep>
+    <dep name="amod">16716</dep>
     <dep name="appos">6927</dep>
     <dep name="aux">3282</dep>
     <dep name="aux:pass">3425</dep>
@@ -97,7 +97,7 @@
     <dep name="csubj">193</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1074</dep>
-    <dep name="det">36265</dep>
+    <dep name="det">36269</dep>
     <dep name="det:poss">2362</dep>
     <dep name="discourse">5</dep>
     <dep name="expl">397</dep>
