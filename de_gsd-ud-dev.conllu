@@ -3881,7 +3881,7 @@
 2	und	und	CCONJ	KON	_	4	cc	_	_
 3	kompetente	kompetent	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-5	bis	bis	ADV	APPR	_	4	advmod	_	_
+5	bis	bis	ADP	APPR	_	4	advmod	_	_
 6-7	zur	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -8338,7 +8338,7 @@
 9	von	von	ADP	APPR	_	11	case	_	_
 10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
-12	bis	bis	ADV	APPR	_	16	advmod	_	_
+12	bis	bis	ADP	APPR	_	16	advmod	_	_
 13-14	zum	_	_	_	_	_	_	_	_
 13	zu	zu	ADP	APPR	_	16	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
@@ -11322,7 +11322,7 @@
 7	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
 8	an	an	ADP	APZR	_	7	fixed	_	_
 9	38	38	NUM	CARD	NumType=Card	13	nummod	_	_
-10	statt	statt	ADV	APPR	_	13	advmod	_	_
+10	statt	statt	ADP	APPR	_	13	advmod	_	_
 11	bisher	bisher	ADV	ADV	_	13	advmod	_	_
 12	36	36	NUM	CARD	NumType=Card	13	nummod	_	_
 13	Stunden	Stunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
@@ -11804,7 +11804,7 @@
 21	Münchner	Münchner	ADJ	ADJA	_	22	amod	_	_
 22	Kessel	Kessel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
 23	''	''	PUNCT	$(	_	27	punct	_	_
-24	als	als	CCONJ	APPR	_	27	case	_	_
+24	als	als	ADP	APPR	_	27	case	_	_
 25	``	``	PUNCT	$(	_	27	punct	_	SpaceAfter=No
 26	völlig	völlig	ADV	ADJD	_	27	advmod	_	_
 27	unangemessen	unangemessen	ADJ	ADJD	_	15	amod	_	SpaceAfter=No
@@ -12384,7 +12384,7 @@
 # sent_id = dev-s680
 # text = ``Um die 600 Gulden muß man als Anfänger schon investieren'', sagt Theo.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Um	um	ADV	APPR	_	4	advmod	_	_
+2	Um	um	ADP	APPR	_	4	advmod	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 4	600	600	NUM	CARD	NumType=Card	5	nummod	_	_
 5	Gulden	Gulden	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	NamedEntity=Yes

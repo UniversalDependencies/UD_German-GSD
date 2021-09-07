@@ -2815,7 +2815,7 @@
 19	von	von	ADP	APPR	_	21	case	_	_
 20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Gleitjolle	Gleitjolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
-22	bis	bis	CCONJ	APPR	_	26	dep	_	_
+22	bis	bis	ADP	APPR	_	26	dep	_	_
 23-24	zur	_	_	_	_	_	_	_	_
 23	zu	zu	ADP	APPR	_	25	case	_	_
 24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -7982,7 +7982,7 @@
 # text = Deutsche Gesellschaft für Soziale Psychiatrie diskutierte langsame Fortschritte bei gemeindenaher Versorgung der Patienten
 1	Deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	FixTigerDep=Yes
 2	Gesellschaft	Gesellschaft	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	NamedEntity=Yes
-3	für	für	PROPN	APPR	_	2	flat	_	NamedEntity=Yes
+3	für	für	ADP	APPR	_	2	flat	_	NamedEntity=Yes
 4	Soziale	sozial	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	2	flat	_	NamedEntity=Yes
 5	Psychiatrie	Psychiatrie	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	flat	_	NamedEntity=Yes
 6	diskutierte	diskutieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9478,7 +9478,7 @@
 32	Industrien	Industrie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
 33	in	in	ADP	APPR	_	34	case	_	_
 34	Osteuropa	Osteuropa	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	32	nmod	_	_
-35	als	als	ADV	APPR	_	37	advmod	_	_
+35	als	als	ADP	APPR	_	37	advmod	_	_
 36	``	``	PUNCT	$(	_	35	punct	_	SpaceAfter=No
 37	unvermeidlich	unvermeidlich	ADJ	ADJD	_	39	xcomp	_	SpaceAfter=No
 38	''	''	PUNCT	$(	_	37	punct	_	_
@@ -18112,7 +18112,7 @@
 8	von	von	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Bürgerinitiative	Bürgerinitiative	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-11	Pro	pro	PROPN	APPR	_	10	appos	_	NamedEntity=Yes
+11	Pro	pro	ADP	APPR	_	10	appos	_	NamedEntity=Yes
 12	Autobahn	Autobahn	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	flat	_	NamedEntity=Yes
 13	initiiert	initiieren	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	13	aux:pass	_	SpaceAfter=No

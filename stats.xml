@@ -15,23 +15,23 @@
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20568</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
-    <tag name="ADP">31989</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">14862</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADJ">20566</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADP">32117</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
+    <tag name="ADV">14833</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10592</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
-    <tag name="CCONJ">8859</tag><!-- und, oder, sowie, aber, als, sondern, wie, sowohl, doch, and -->
+    <tag name="CCONJ">8848</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">37388</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
-    <tag name="NOUN">52200</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
+    <tag name="NOUN">52197</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7453</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
-    <tag name="PART">2153</tag><!-- nicht, zu, aus, an, ja, nein, hin, einnehmen, her, preis -->
+    <tag name="PART">2147</tag><!-- nicht, zu, aus, ja, nein, an, hin, einnehmen, her, preis -->
     <tag name="PRON">14464</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
-    <tag name="PROPN">30844</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
+    <tag name="PROPN">30777</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38513</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
-    <tag name="SCONJ">1748</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
+    <tag name="SCONJ">1743</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">92</tag><!-- &, =, /, ×, %, +, °, *, €, " -->
-    <tag name="VERB">20714</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
-    <tag name="X">344</tag><!-- 's, b., u.a., %, etc., werden, z.B., a, z., † -->
+    <tag name="VERB">20713</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
+    <tag name="X">340</tag><!-- 's, b., u.a., %, etc., werden, z.B., a, z., † -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="41">
