@@ -13827,7 +13827,7 @@
 6	Methoden	Methode	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	16	punct	_	_
-9	wie	wie	SCONJ	PWAV	PronType=Int	16	mark	_	_
+9	wie	wie	SCONJ	KOUS	_	16	mark	_	_
 10	Ellen	Ellen	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	NamedEntity=Yes
 11	Waitzis	Waitzis	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	NamedEntity=Yes
 12	von	von	ADP	APPR	_	15	case	_	_
