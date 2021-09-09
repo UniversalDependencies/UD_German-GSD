@@ -150,7 +150,7 @@
 13	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	16	nsubj	_	_
 14	nur	nur	ADV	ADV	_	16	advmod	_	_
 15	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	obj	_	_
-16	Sagen	Sage|Sagen	VERB	NN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+16	Sagen	sagen	VERB	VVINF	Typo=Yes|VerbForm=Inf	0	root	_	CorrectForm=sagen
 17	--	--	PUNCT	$(	_	18	punct	_	_
 18	PEFERKTION	PEFERKTION	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	appos	_	_
 
@@ -849,7 +849,7 @@
 22	beruhigend	beruhigend	ADJ	ADJD	_	20	conj	_	_
 23	auf	auf	ADP	APPR	_	24	case	_	_
 24	einen	ein	PRON	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	obl	_	_
-25	wirkt	wirken	VERB	NN	Case=Acc|Gender=Masc|Number=Sing	34	advcl	_	SpaceAfter=No
+25	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	32	punct	_	_
 27	(	(	PUNCT	$(	_	32	punct	_	SpaceAfter=No
 28	nach	nach	ADP	APPR	_	30	case	_	_
@@ -1634,7 +1634,7 @@
 6	angelegt	anlegen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
-9	läd	läd	VERB	VVFIN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	läd	laden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	conj	_	CorrectForm=lädt
 10	bei	bei	ADP	APPR	_	12	case	_	_
 11	schönem	schön	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
 12	Wetter	Wetter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
@@ -2159,7 +2159,7 @@
 # text = Ein kurzer Check ergab: Dies war tatsächlich der Fall!
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	kurzer	kurz	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
-3	Check	Check	VERB	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Check	Check	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	ergab	ergeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	$.	_	10	punct	_	_
 6	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
@@ -13171,7 +13171,7 @@
 16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Politik	Politik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 18	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	Frage	Frage	VERB	NN	Case=Acc|Gender=Fem|Number=Sing	4	ccomp	_	SpaceAfter=No
+19	Frage	fragen	VERB	VVINF	Typo=Yes|VerbForm=Inf	4	ccomp	_	SpaceAfter=No|CorrectForm=fragen
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s648
