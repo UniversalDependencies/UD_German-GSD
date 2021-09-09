@@ -4083,7 +4083,7 @@
 12	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Öl	Öl	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
-15	bzw	bzw	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	17	cc	_	SpaceAfter=No
+15	bzw	bzw	CCONJ	KON	Abbr=Yes	17	cc	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 17	Butter	Butter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	_
 18	getränkt	getränkt	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No
