@@ -6,7 +6,27 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Introduction
 
-The German UD conforms to the UD guidelines, but there are some exceptions.
+The ACL 2013 paper (https://github.com/ryanmcd/uni-dep-tb/blob/master/ACL2013.pdf,
+McDonald et al.) describes version 1.0 of the corpus, of which there are 2200
+train/800 dev/1000 test sentences in German. According to the paper they
+consist of Reviews and News genres (the news data being from the TIGER
+Treebank, Reviews presumably from Google).
+
+The subsequent 2.0 release has more data: 14118 train/799 dev/977 test
+sentences. Some of the sentences in 1.0 turned out to be duplicated across
+splits, which was fixed for 2.0. There is no indication in the READMEs
+of where the new German sentences came from.
+
+Based on the above and the mappings in not-to-release/ud-tiger-mapping.txt,
+it appears that the genres are:
+
+train: Reviews=s1-s1500, News=s1501-s2200, Web=s2201-s14118
+By searching for a selection of sentences in the s2201-s14118 range, i.e. the
+new ones in version 2.0, it looks like they are from Wikipedia and other
+websites.
+dev: Reviews=s1-s500, News=s501-s799
+test: Reviews=s1-s301, News=s302-s977
+
 
 # Morphology in release 2.0
 
@@ -21,17 +41,34 @@ enough clues (morphological analyzer / lexicon was not used at this stage).
 
 # Morphology in release 2.2
 
-The XPOS and FEATS have been updated using the mate parser with Tueba-D/Z. The mate parser model was trained on the first 80% of Tueba-D/Z as converted by an updated version of the TuebaUdConverter that improved the morphological tag extraction. Tueba-D/Z tokens containing hyphens were split into multiple tokens to align with the UD tokenization.
+The XPOS and FEATS have been updated using the mate parser with Tueba-D/Z.
+The mate parser model was trained on the first 80% of Tueba-D/Z as converted
+by an updated version of the TuebaUdConverter that improved the morphological
+tag extraction. Tueba-D/Z tokens containing hyphens were split into multiple
+tokens to align with the UD tokenization.
 
-During tagging, `` '' and -- were temporarily normalized to " and - and some new spellings were normalized back to old spellings to be compatible with the Tueba-D/Z model. Tueba-D/Z is fairly homogenous and somewhat dated, so the tagger does not perform as well on user-generated content as on older newspaper text. A detailed analysis is below.
+During tagging, `` '' and -- were temporarily normalized to " and - and some
+new spellings were normalized back to old spellings to be compatible with the
+Tueba-D/Z model. Tueba-D/Z is fairly homogenous and somewhat dated, so the
+tagger does not perform as well on user-generated content as on older
+newspaper text. A detailed analysis is below.
 
-After incorporating the automatic mate POSTAG and FEATS, the UD sentences were aligned with Tiger using the mapping in #13 and LEMMA (for content words) and POSTAG and FEATS (for all tokens) were updated with gold values from Tiger. The only exception the feature Voice, whose value is passed through from mate since it's not annotated on the aux in Tiger.
+After incorporating the automatic mate POSTAG and FEATS, the UD sentences
+were aligned with Tiger using the mapping in #13 and LEMMA (for content words)
+and POSTAG and FEATS (for all tokens) were updated with gold values from
+Tiger. The only exception was the feature Voice, whose value is passed through
+from mate since it is not annotated on the aux in Tiger.
 
-Ordinal numbers split into two tokens in UD (e.g., "3 .") were rejoined as in Tiger and compounds were reanalyzed in order to provide consistent FEATS for all subparts. If any subpart of a compound was tagged as NE by the mate parser, the deprel flat was used, otherwise compound.
+Ordinal numbers split into two tokens in UD (e.g., "3 .") were rejoined as in
+Tiger and compounds were reanalyzed in order to provide consistent FEATS for
+all subparts. If any subpart of a compound was tagged as NE by the mate
+parser, the deprel flat was used, otherwise compound.
 
 Mate model analysis:
 
-The accuracy on Tueba-D/Z test data for XPOSTAG is 98.3% and for FEATS as an unanalyzed string is 91.7%. Analyzing the individual morphological tags, the results are:
+The accuracy on Tueba-D/Z test data for XPOSTAG is 98.3% and for FEATS as an
+unanalyzed string is 91.7%. Analyzing the individual morphological tags, the
+results are:
 
            Acc.    Prec. Rec.  F1
 Case       0.95580 0.996 0.911 0.952
@@ -50,9 +87,15 @@ Tense      0.99567 0.983 0.962 0.972
 VerbForm   0.99492 0.993 0.965 0.978
 Voice      0.99934 0.934 0.967 0.950
 
-Case and Gender are not unexpectedly the least accurate of the frequent features. Foreign could potentially be removed, although when inspecting the UD instances the precision seems relatively high.
+Case and Gender are not unexpectedly the least accurate of the frequent
+features. Foreign could potentially be removed, although when inspecting the
+UD instances the precision seems relatively high.
 
 # Changelog
+
+2021-11-15 v2.9
+  * Fixed UPOS and DEPREL of attributive usages of 'manche'.
+  * Fixed UPOS of prepositions based on XPOS==APPR (especially in multi-word named entities).
 
 2020-11-15 Dan Zeman
   * Fixed UPOS of possessives mein, dein, sein, ihr, unser, euer from PRON (or even PROPN) to DET.
@@ -76,31 +119,31 @@ Case and Gender are not unexpectedly the least accurate of the frequent features
 
 2017-04-13 Dan Zeman
 
-Removed duplicate sentences from the training data. They were too long to believe that they were naturally
-occurring duplicates.
+  * Removed duplicate sentences from the training data. They were too long to believe that they were naturally
+    occurring duplicates.
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman)
 
 2016-08-21 Dan Zeman
 
-Added sentence ids.
-Added LEMMA and XPOSTAG predicted by TreeTagger with a German model supplied with the tagger and available in Treex
-(http://ufal.mff.cuni.cz/treex, commit 50ad1fe0b9907ac382cbcda0a0f102602abc21a0). The UPOSTAGs from the original data
-(assigned manually) were not modified. Some features were also added if they could be derived from the information
-already present. Features that need a lexicon and/or disambiguation, such as Gender, Number and Case, have only been
-added if they can be deduced from the (manually annotated) dependency structure, plus a few heuristics (e.g. form
-equal to lemma often but not always means singular).
+  * Added sentence ids.
+  * Added LEMMA and XPOSTAG predicted by TreeTagger with a German model supplied with the tagger and available in Treex
+    (http://ufal.mff.cuni.cz/treex, commit 50ad1fe0b9907ac382cbcda0a0f102602abc21a0). The UPOSTAGs from the original data
+    (assigned manually) were not modified. Some features were also added if they could be derived from the information
+    already present. Features that need a lexicon and/or disambiguation, such as Gender, Number and Case, have only been
+    added if they can be deduced from the (manually annotated) dependency structure, plus a few heuristics (e.g. form
+    equal to lemma often but not always means singular).
 
-The work was done mainly using the HamleDT::DE::FixUD block, see
-https://github.com/ufal/treex/blob/master/lib/Treex/Block/HamleDT/DE/FixUD.pm
+    The work was done mainly using the HamleDT::DE::FixUD block, see
+    https://github.com/ufal/treex/blob/master/lib/Treex/Block/HamleDT/DE/FixUD.pm
 
 2015-11-08 Wolfgang Seeker
 
-Removed sentences from test due to overlap with dev
-(sent-no. 6, 8, 79, 80, 88, 108, 109, 118, 152, 154, 164, 167, 190, 191, 195, 206, 215, 220, 229, 247, 295, 346, 451)
-Removed sentences from dev due to overlap with train
-(sent-no. 616)
+  * Removed sentences from test due to overlap with dev
+    (sent-no. 6, 8, 79, 80, 88, 108, 109, 118, 152, 154, 164, 167, 190, 191, 195, 206, 215, 220, 229, 247, 295, 346, 451)
+    Removed sentences from dev due to overlap with train
+    (sent-no. 616)
 
 
 
