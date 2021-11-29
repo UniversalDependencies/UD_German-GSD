@@ -411,21 +411,20 @@
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
+3	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	NamedEntity=Yes
 4	2010	2010	NUM	CARD	NumType=Card	3	nmod	_	_
-5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
-6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Geburtstagsgutschein	Geburtstagsgutschein	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+8	Geburtstagsgutschein	Geburtstagsgutschein	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
 9-10	zum	_	_	_	_	_	_	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	67	67	NUM	CARD	NumType=Card	15	obl	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	_
-13	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
-14	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
-15	eingelöst	einlösen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	_
+11	67.	67.	ADJ	ADJA	NumType=Ord	14	obl	_	_
+12	meines	mein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	eingelöst	einlösen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = dev-s30
 # text = Der Empfang war sehr freundlich.
@@ -1560,7 +1559,7 @@
 # sent_id = dev-s92
 # text = Das Essen im Restaurant (zartes Rumpsteak, 250g mit Beilagen für rund 14.-- €) ein Gedicht!
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -1572,16 +1571,15 @@
 10	250g	250g	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nmod	_	_
 11	mit	mit	ADP	APPR	_	12	case	_	_
 12	Beilagen	Beilage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
-13	für	für	ADP	APPR	_	18	case	_	_
+13	für	für	ADP	APPR	_	17	case	_	_
 14	rund	rund	ADV	ADV	_	15	advmod	_	_
-15	14	14	NUM	CARD	NumType=Card	18	nummod	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No
-17	--	--	PUNCT	$(	_	15	punct	_	_
-18	€	€	SYM	NN	_	8	nmod	_	SpaceAfter=No
-19	)	)	PUNCT	$(	_	8	punct	_	_
-20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
-21	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-22	!	!	PUNCT	$.	_	21	punct	_	_
+15	14.	14.	ADJ	ADJA	NumType=Ord	17	amod	_	SpaceAfter=No
+16	--	--	PUNCT	$(	_	15	punct	_	_
+17	€	€	SYM	NN	_	8	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	$(	_	8	punct	_	_
+19	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+21	!	!	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = dev-s93
 # text = Ein Kompliment von hier aus nochmal an den Koch!
@@ -7729,25 +7727,24 @@
 # sent_id = dev-s461
 # text = Das Restaurant im 6. Stock des Best Western Donner 's Hotel in Cuxhaven wurde völlig umgstaltet.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
+2	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
 3-4	im	_	_	_	_	_	_	_	_
-3	in	in	ADP	APPR	_	7	case	_	_
-4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-5	6	6	NUM	CARD	NumType=Card	7	amod	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	_
-7	Stock	Stock	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
-8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	Best	gut	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes
-10	Western	Western	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	NamedEntity=Yes
-11	Donner	Donner	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
-12	's	's	X	ART	Foreign=Yes	11	flat	_	_
-13	Hotel	Hotel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	_
-14	in	in	ADP	APPR	_	15	case	_	_
-15	Cuxhaven	Cuxhaven	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	NamedEntity=Yes
-16	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	aux:pass	_	_
-17	völlig	völlig	ADV	ADJD	_	18	advmod	_	_
-18	umgstaltet	umgstaltet	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	18	punct	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	6.	6.	ADJ	ADJA	NumType=Ord	6	amod	_	_
+6	Stock	Stock	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Best	gut	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	NamedEntity=Yes
+9	Western	Western	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
+10	Donner	Donner	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
+11	's	's	X	ART	Foreign=Yes	10	flat	_	_
+12	Hotel	Hotel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	flat	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Cuxhaven	Cuxhaven	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	NamedEntity=Yes
+15	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	aux:pass	_	_
+16	völlig	völlig	ADV	ADJD	_	17	advmod	_	_
+17	umgstaltet	umgstaltet	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
 
 # sent_id = dev-s462
 # text = Blickfang ist der offene Küchenblock mitten im Restaurant, das in angenehmen Farben erstrahlt.
@@ -8612,30 +8609,29 @@
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
-4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+3	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	NamedEntity=Yes
+4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Europaparlament	Europaparlament	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	NamedEntity=Yes
+6	Europaparlament	Europaparlament	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	NamedEntity=Yes
 7	über	über	ADP	APPR	_	9	case	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Verwirklichung	Verwirklichung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
-10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+9	Verwirklichung	Verwirklichung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 11-12	zum	_	_	_	_	_	_	_	_
-11	zu	zu	ADP	APPR	_	15	case	_	_
-12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
-13	1	1	NUM	CARD	NumType=Card	15	amod	_	SpaceAfter=No
-14	.	.	PUNCT	$(	_	13	punct	_	_
-15	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
-16	1996	1996	NUM	CARD	NumType=Card	15	nmod	_	_
-17	geplanten	geplant	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	_
-18	Zollunion	Zollunion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
-19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Türkei	Türkei	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	NamedEntity=Yes
-21	mit	mit	ADP	APPR	_	23	case	_	_
-22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	NamedEntity=Yes
-24	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	24	punct	_	_
+11	zu	zu	ADP	APPR	_	14	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+13	1.	1.	ADJ	ADJA	NumType=Ord	14	amod	_	_
+14	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
+15	1996	1996	NUM	CARD	NumType=Card	14	nmod	_	_
+16	geplanten	geplant	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Zollunion	Zollunion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Türkei	Türkei	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	NamedEntity=Yes
+20	mit	mit	ADP	APPR	_	22	case	_	_
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	NamedEntity=Yes
+23	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
 
 # sent_id = dev-s512
 # text = Die Sozialdemokraten suchen wieder Nachfolger für Ministerpräsident Carlsson.

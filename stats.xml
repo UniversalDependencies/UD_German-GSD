@@ -5,17 +5,17 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>15590</sentences><tokens>287740</tokens><words>292788</words><fused>5048</fused></total>
-    <train><sentences>13814</sentences><tokens>259194</tokens><words>263804</words><fused>4610</fused></train>
-    <dev><sentences>799</sentences><tokens>12322</tokens><words>12486</words><fused>164</fused></dev>
-    <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
+    <total><sentences>15590</sentences><tokens>287725</tokens><words>292773</words><fused>5048</fused></total>
+    <train><sentences>13814</sentences><tokens>259184</tokens><words>263794</words><fused>4610</fused></train>
+    <dev><sentences>799</sentences><tokens>12318</tokens><words>12482</words><fused>164</fused></dev>
+    <test><sentences>977</sentences><tokens>16223</tokens><words>16497</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42354" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
-  <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
+  <lemmas unique="42358" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <forms unique="50596" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20603</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADJ">20618</tag><!-- groß, erst, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">32104</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14856</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10592</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
@@ -23,11 +23,11 @@
     <tag name="DET">37391</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
     <tag name="NOUN">52222</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
-    <tag name="NUM">7453</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
+    <tag name="NUM">7438</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2147</tag><!-- nicht, zu, aus, ja, nein, an, hin, einnehmen, her, preis -->
     <tag name="PRON">14470</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">30774</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
-    <tag name="PUNCT">38512</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
+    <tag name="PUNCT">38497</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
     <tag name="SYM">92</tag><!-- &, =, /, ×, %, +, °, *, €, " -->
     <tag name="VERB">20656</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
@@ -54,8 +54,8 @@
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SYM,VERB,X">132801</feat><!-- der, dem, die, das, ist, er, des, eine, ein, wurde -->
     <feat name="Number[psor]" value="Plur" upos="DET">123</feat><!-- unsere, unser, unserer, unserem, unseren, unseres -->
     <feat name="Number[psor]" value="Sing" upos="DET">1587</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
-    <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7913</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
-    <feat name="NumType" value="Ord" upos="ADJ,NUM">6</feat><!-- erste, 1., 12., 19., Ersten -->
+    <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7898</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">21</feat><!-- 1., 1943., 6., erste, 12., 14., 16., 19., 2., 3. -->
     <feat name="Person" value="1" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB,X">2464</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">88</feat><!-- du, ihr, euch, bist, deinen, Dir, Siehe, dein, dich, gebt -->
     <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">29764</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
@@ -84,7 +84,7 @@
     <dep name="acl:relcl">6</dep>
     <dep name="advcl">1463</dep>
     <dep name="advmod">17323</dep>
-    <dep name="amod">16749</dep>
+    <dep name="amod">16750</dep>
     <dep name="appos">6925</dep>
     <dep name="aux">3282</dep>
     <dep name="aux:pass">3425</dep>
@@ -112,14 +112,14 @@
     <dep name="nmod:poss">76</dep>
     <dep name="nsubj">17411</dep>
     <dep name="nsubj:pass">3192</dep>
-    <dep name="nummod">2994</dep>
+    <dep name="nummod">2993</dep>
     <dep name="obj">8407</dep>
     <dep name="obl">17737</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">563</dep>
-    <dep name="punct">38511</dep>
+    <dep name="punct">38496</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">6</dep>
