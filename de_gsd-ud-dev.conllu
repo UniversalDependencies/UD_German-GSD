@@ -8911,7 +8911,7 @@
 
 # sent_id = dev-s528
 # text = 10. Interessierte Länder und Organisationen werden gebeten, bei der Umsetzung dieses Abkommens zu helfen.
-1	10.	10.	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	10.	10.	ADJ	ADJA	NumType=Ord	2	dep	_	FixTigerDep=Yes
 2	Interessierte	interessiert	ADJ	ADJA	Case=Nom|Number=Plur	3	amod	_	_
 3	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -9755,7 +9755,7 @@
 
 # sent_id = dev-s566
 # text = 2. Soziale Bewegungen leiten ihre Legitimation auch daraus ab, daß Parteien nicht imstande sind, Bürgeranliegen mit der gebotenen Konsequenz zu ihren eigenen zu machen.
-1	2.	2.	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	2.	2.	ADJ	ADJA	NumType=Ord	2	dep	_	FixTigerDep=Yes
 2	Soziale	sozial	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
 3	Bewegungen	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	leiten	leiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9997,7 +9997,7 @@
 13	Eröffnungsreden	Eröffnungsrede	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
 14	auf	auf	ADP	APPR	_	17	case	_	_
 15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-16	35.	35	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+16	35.	35.	ADJ	ADJA	NumType=Ord	17	amod	_	_
 17	Kommandeurstagung	Kommandeurstagung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
 18-19	am	_	_	_	_	_	_	_	_
 18	an	an	ADP	APPR	_	20	case	_	_
@@ -10205,7 +10205,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	17.	17	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+3	17.	17.	ADJ	ADJA	NumType=Ord	4	amod	_	_
 4	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
 5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Wahlen	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
@@ -10687,7 +10687,7 @@
 7	Gipsfassaden	Gipsfassade	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
 8	aus	aus	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-10	18.	18	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	_
+10	18.	18.	ADJ	ADJA	NumType=Ord	11	amod	_	_
 11	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
 12	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
@@ -10722,10 +10722,10 @@
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-6	2.	2	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	_
+6	2.	2.	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
 8	bis	bis	ADP	APPR	_	10	case	_	_
-9	13.	13	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
+9	13.	13.	ADJ	ADJA	NumType=Ord	10	amod	_	_
 10	August	August	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|NamedEntity=Yes
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -10743,7 +10743,7 @@
 10-11	vom	_	_	_	_	_	_	_	_
 10	von	von	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
-12	13.	13	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	_
+12	13.	13.	ADJ	ADJA	NumType=Ord	13	amod	_	_
 13	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
 14	1945	1945	NUM	CARD	NumType=Card	13	nmod	_	_
 15	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
@@ -10785,7 +10785,7 @@
 32-33	am	_	_	_	_	_	_	_	_
 32	an	an	ADP	APPR	_	35	case	_	_
 33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	41	det	_	_
-34	31.	31	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	35	amod	_	_
+34	31.	31.	ADJ	ADJA	NumType=Ord	35	amod	_	_
 35	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	NamedEntity=Yes
 36	aus	aus	ADP	APPR	_	38	case	_	_
 37	heiterem	heiter	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	38	amod	_	_
@@ -10986,7 +10986,7 @@
 
 # sent_id = dev-s621
 # text = 4. Die gängige Auffassung, Wohlstand und Arbeitsplätze seien um so sicherer, je größer der Export sei, muß eingeschränkt werden.
-1	4.	4.	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	4.	4.	ADJ	ADJA	NumType=Ord	2	dep	_	FixTigerDep=Yes
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	gängige	gängig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	Auffassung	Auffassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
@@ -11314,7 +11314,7 @@
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-6	1.	1	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	_
+6	1.	1.	ADJ	ADJA	NumType=Ord	7	amod	_	_
 7	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
 8	an	an	ADP	APZR	_	7	fixed	_	_
 9	38	38	NUM	CARD	NumType=Card	13	nummod	_	_
