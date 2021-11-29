@@ -4654,7 +4654,7 @@
 3-4	beim	_	_	_	_	_	_	_	_
 3	bei	bei	ADP	APPR	_	6	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	_
+5	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	Besuch	Besuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
 7	bei	bei	ADP	APPR	_	8	case	_	_
 8	Tanja	Tanja	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	NamedEntity=Yes
@@ -5800,7 +5800,7 @@
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	lautet	lauten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	18	det:poss	_	_
-17	erstes	erster	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	_
+17	erstes	erst	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	18	amod	_	_
 18	Mode	Mode	NOUN	TRUNC	Case=Nom|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No
 19	-	-	PUNCT	$(	_	21	punct	_	_
 20	und	und	CCONJ	KON	_	21	cc	_	_
@@ -6250,7 +6250,7 @@
 16	abend	abend	ADV	ADV	_	15	advmod	_	_
 17	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
 18	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	erste	erster	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
+19	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
 20	Auftritt	Auftritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Popstars	Popstar	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
@@ -6805,7 +6805,7 @@
 2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-5	erste	erster	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+5	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
 6	intelligente	intelligent	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
 7	Äußerung	Äußerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	17	punct	_	_
@@ -8694,7 +8694,7 @@
 9	beiden	beide	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	Spitzenreitern	Spitzenreiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	ersten	erster	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	_
+12	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
 13	Wahlgangs	Wahlgang	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 14	erbittert	erbittert	ADJ	ADJD	_	0	root	_	_
 15	sein	sein	AUX	VAINF	VerbForm=Inf	14	cop	_	SpaceAfter=No
@@ -9058,7 +9058,7 @@
 20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Geburt	Geburt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
 22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
-23	ersten	erster	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	24	amod	_	_
+23	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	24	amod	_	_
 24	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
 25	nach	nach	ADP	APPR	_	28	case	_	_
 26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
@@ -9074,7 +9074,7 @@
 36	Krebs	Krebs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	37	nmod	_	_
 37	erkrankter	erkrankt	ADJ	ADJA	Case=Acc|Number=Sing	38	amod	_	_
 38	Verwandter	Verwandte	NOUN	NN	Case=Acc|Number=Sing	18	conj	_	_
-39	ersten	erster	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	40	amod	_	_
+39	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	40	amod	_	_
 40	Grades	Grad	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	16	punct	_	_
 
@@ -10875,7 +10875,7 @@
 9	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
 10	während	während	ADP	APPR	_	13	case	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
-12	ersten	erster	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	13	amod	_	_
+12	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	13	amod	_	_
 13	Halbjahres	Halbjahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 14	1995	1995	NUM	CARD	NumType=Card	13	nmod	_	_
 15	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -11671,7 +11671,7 @@
 2-3	Zum	_	_	_	_	_	_	_	_
 2	Zu	zu	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-4	ersten	erster	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	_
+4	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 5	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -11776,7 +11776,7 @@
 11	nordirakischen	nordirakisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
 12	Erbil	Erbil	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	NamedEntity=Yes
 13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-14	erste	erster	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+14	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
 15	kurdische	kurdisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
 16	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 17	gebildet	bilden	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -11796,7 +11796,7 @@
 8	Freude	Freude	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 9	über	über	ADP	APPR	_	12	case	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	zweiten	zweiter	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+11	zweiten	zweit	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
 12	Zusammenschluß	Zusammenschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -13364,7 +13364,7 @@
 # text = In ihrem ersten Bericht über den Staat schreibt die in Paris ansässige Organisation, das 1990 beschlossene ``bahnbrechende Programm zur Umwandlung der Wirtschaft'' habe ``drastische Verbesserungen'' gebracht.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
-3	ersten	erster	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 4	Bericht	Bericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
 5	über	über	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -13952,7 +13952,7 @@
 # sent_id = test-s680
 # text = Die ersten 1000 Bäume zum Andenken an die getöteten Sportler sollen am 4. September gepflanzt werden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-2	ersten	erster	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
+2	ersten	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
 3	1000	1000	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Bäume	Baum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 5-6	zum	_	_	_	_	_	_	_	_
@@ -14671,7 +14671,7 @@
 3-4	vom	_	_	_	_	_	_	_	_
 3	von	von	ADP	APPR	_	9	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-5	Dritte	dritt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No
+5	Dritte	dritt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing|NumType=Ord	7	compound	_	SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Welt	Welt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
@@ -17039,7 +17039,7 @@
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	erste	erster	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+6	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	Israels	Israel	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|NamedEntity=Yes
 9	,	,	PUNCT	$,	_	15	punct	_	_
@@ -17587,9 +17587,9 @@
 1	Selbst	selbst	ADV	ADV	_	2	advmod	_	_
 2	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-4	zweiten	zweiter	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+4	zweiten	zweit	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
-6	dritten	dritter	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+6	dritten	dritt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	4	conj	_	_
 7	Einwanderergeneration	Einwanderergeneration	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 8	gälten	gelten	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	immer	immer	ADV	ADV	_	10	advmod	_	_
@@ -17675,7 +17675,7 @@
 7	schafft	schaffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 8	damit	damit	ADV	PAV	_	7	advmod	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	erste	erster	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
+10	erste	erst	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
 11	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
@@ -18006,7 +18006,7 @@
 12	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
 13	gegen	gegen	ADP	APPR	_	16	case	_	_
 14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	zweite	zweiter	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+15	zweite	zweit	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
 16	Amtszeit	Amtszeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 17	Reischs	Reisch	PROPN	NE	Case=Gen|Number=Sing	16	nmod	_	NamedEntity=Yes
 18	aus	aus	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
@@ -18102,7 +18102,7 @@
 # sent_id = test-s889
 # text = Der erste große Volksentscheid in Sachsen war von der Bürgerinitiative Pro Autobahn initiiert worden.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-2	erste	erster	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 3	große	groß	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 4	Volksentscheid	Volksentscheid	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
@@ -18467,7 +18467,7 @@
 # text = In den ersten sechs Monaten des bis 31. März reichenden Geschäftsjahres 1995/96 sprang ein Rekordgewinn vor Steuern von 430 Millionen Pfund (umgerechnet 960 Millionen Mark) heraus.
 1	In	in	ADP	APPR	_	5	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-3	ersten	erster	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	amod	_	_
+3	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
 4	sechs	sechs	NUM	CARD	NumType=Card	5	amod	_	_
 5	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
@@ -18930,7 +18930,7 @@
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	auf	auf	ADP	APPR	_	16	case	_	_
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	ersten	erster	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	_
+15	ersten	erst	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
 16	Blick	Blick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Chronik	Chronik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
