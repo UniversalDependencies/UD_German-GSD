@@ -34,7 +34,7 @@
     <tag name="X">341</tag><!-- 's, b., u.a., %, etc., werden, z.B., a, z., † -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
+  <feats unique="45">
     <feat name="Abbr" value="Yes" upos="ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">20</feat><!-- bzgl, bzw, u, ET, FK, GT, Mrd, N, P, S -->
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PART,PRON,PROPN,SYM,X">30981</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,SYM,X">46579</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, seiner -->
@@ -42,7 +42,8 @@
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PART,PRON,PROPN,SYM,X">48940</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET,PRON">29026</feat><!-- der, die, dem, den, das, des, 's, KPO -->
     <feat name="Definite" value="Ind" upos="ADV,DET,PART,PRON,X">8189</feat><!-- eine, ein, einer, einem, einen, man, eines, alle, keine, viele -->
-    <feat name="Degree" value="Cmp" upos="ADJ">568</feat><!-- weitere, weiteren, früheren, größere, späteren, höhere, ältere, spätere, weiterer, weiteres -->
+    <feat name="Degree" value="Cmp" upos="ADJ">752</feat><!-- später, weitere, weiteren, früheren, größere, späteren, höhere, ältere, spätere, weiterer -->
+    <feat name="Degree" value="Pos" upos="ADJ">19656</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">366</feat><!-- größten, besten, beste, größte, höchste, wichtigsten, bester, ältesten, bedeutendsten, älteste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PROPN,SCONJ,VERB,X">2473</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PART,PRON,PROPN,SYM,X">51486</feat><!-- der, die, eine, einer, sie, den, seine, diese, seiner, Zeit -->

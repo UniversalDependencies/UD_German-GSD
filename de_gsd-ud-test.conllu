@@ -8527,7 +8527,7 @@
 # text = Wenige Jahre später beschrieb Daniel Bell die post-industrielle Gesellschaft durch Wissensarbeit, Ressourcenschonung und die Verschiebung der Arbeit vom Produktions- in den Dienstleistungssektor.
 1	Wenige	wenig	DET	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	_
-3	später	spät	ADJ	ADJD	Degree=Pos	4	amod	_	_
+3	später	spät	ADJ	ADJD	Degree=Cmp	4	amod	_	_
 4	beschrieb	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Daniel	Daniel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NamedEntity=Yes
 6	Bell	Bell	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes
