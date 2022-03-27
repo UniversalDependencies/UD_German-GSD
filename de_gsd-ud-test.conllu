@@ -2143,11 +2143,11 @@
 3	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
 5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	preis	preis	PART	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Typo=Yes	3	obl	_	CorrectForm=Preis|SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	jedoch	jedoch	CCONJ	ADV	_	10	cc	_	_
-9	ungepflegtes	ungepflegt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
-10	ambiente	ambiente	NOUN	ADJA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	ungepflegtes	ungepflegt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	ambiente	Ambiente	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Typo=Yes	3	conj	_	CorrectForm=Ambiente
 11	und	und	CCONJ	KON	_	15	cc	_	_
 12	schön	schön	ADV	ADJD	_	13	advmod	_	_
 13	langsam	langsam	ADV	ADJD	_	15	advmod	_	_
@@ -9345,7 +9345,7 @@
 
 # sent_id = test-s480
 # text = Nein zur Produktion in Sichtweite
-1	Nein	nein	PART	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+1	Nein	nein	PART	PTKNEG	Polarity=Neg	0	root	_	_
 2-3	zur	_	_	_	_	_	_	_	_
 2	zu	zu	ADP	APPR	_	4	case	_	_
 3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -16137,7 +16137,7 @@
 23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	NamedEntity=Yes
 25	nachmittag	nachmittag	ADV	ADV	_	24	advmod	_	_
-26	keine	kein	PART	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	27	advmod	_	_
+26	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	27	det	_	_
 27	Rede	Rede	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
 28	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	28	punct	_	_
