@@ -743,7 +743,7 @@
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	motiviert	motiviert	ADJ	ADJD	Degree=Pos	8	xcomp	_	_
-8	wirkten	wirken	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
+8	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s49
