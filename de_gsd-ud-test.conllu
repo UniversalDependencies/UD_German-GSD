@@ -2374,7 +2374,7 @@
 9	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
 11	überreicht	überreichen	VERB	VVPP	VerbForm=Part	12	xcomp	_	_
-12	bekommen	bekommen	VERB	VVPP	VerbForm=Inf	0	root	_	_
+12	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	dies	dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	conj	_	_
 15	sicherlich	sicherlich	ADV	ADV	_	14	advmod	_	_
