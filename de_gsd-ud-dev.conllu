@@ -6339,7 +6339,7 @@
 10	immer	immer	ADV	ADV	_	13	advmod	_	_
 11	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	nsubj	_	_
 12	reibungslos	reibungslos	ADV	ADJD	_	13	advmod	_	_
-13	funktioniert	funktionieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	funktioniert	funktionieren	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s372
