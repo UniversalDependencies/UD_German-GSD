@@ -1140,7 +1140,7 @@
 17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Zahlung	Zahlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
 19	warten	warten	VERB	VVINF	VerbForm=Inf	20	xcomp	_	_
-20	lassen	lassen	VERB	VVFIN	VerbForm=Inf	8	conj	_	SpaceAfter=No
+20	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = test-s65
@@ -1273,7 +1273,7 @@
 14	vorbei	vorbei	ADV	ADV	_	15	mark	_	_
 15	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
-17	mithelfen	mithelfen	VERB	VVFIN	VerbForm=Inf	15	conj	_	SpaceAfter=No
+17	mithelfen	mithelfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = test-s73
@@ -1504,7 +1504,7 @@
 19	von	von	ADP	APPR	_	21	case	_	_
 20	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Handwerk	Handwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
-22	verstehen	verstehen	VERB	VVFIN	VerbForm=Inf	7	acl	_	SpaceAfter=No
+22	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = test-s86
@@ -8124,7 +8124,7 @@
 33	seit	seit	ADP	APPR	_	34	case	_	_
 34	Jahrzehnten	jahrzehnte	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	36	obl	_	_
 35	Pachtland	Pachtland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	36	obj	_	_
-36	bewirtschaften	bewirtschaften	VERB	VVFIN	VerbForm=Inf	20	acl	_	SpaceAfter=No
+36	bewirtschaften	bewirtschaften	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s427
