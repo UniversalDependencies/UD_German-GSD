@@ -2105,7 +2105,7 @@
 4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	6	nmod	_	_
 5	0	0	NUM	CARD	NumType=Card	6	nummod	_	_
 6	Sterne	Stern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
-7	vergeben	vergeben	VERB	VVINF	VerbForm=Part	0	root	_	SpaceAfter=No
+7	vergeben	vergeben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
 10	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_

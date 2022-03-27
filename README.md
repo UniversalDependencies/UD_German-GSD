@@ -96,6 +96,7 @@ UD instances the precision seems relatively high.
 2022-05-15 v2.10
   * Fixed tokenization, lemmatization and tagging of ordinal numerals.
   * Added the Degree feature to adjectives.
+  * Fixed values of VerbForm where they did not match XPOS.
 
 2021-11-15 v2.9
   * Fixed UPOS and DEPREL of attributive usages of 'manche'.
