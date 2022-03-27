@@ -9339,7 +9339,7 @@
 13	Dauer	Dauer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 14	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
 15	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
-16	abspeisen	abspeisen	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	xcomp	_	SpaceAfter=No
+16	abspeisen	abspeisen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	10	punct	_	_
 
