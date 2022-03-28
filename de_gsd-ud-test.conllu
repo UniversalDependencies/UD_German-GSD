@@ -848,7 +848,7 @@
 21	und	und	CCONJ	KON	_	22	cc	_	_
 22	beruhigend	beruhigend	ADJ	ADJD	Degree=Pos	20	conj	_	_
 23	auf	auf	ADP	APPR	_	24	case	_	_
-24	einen	ein	PRON	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	obl	_	_
+24	einen	ein	PRON	PIS	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
 25	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	32	punct	_	_
 27	(	(	PUNCT	$(	_	32	punct	_	SpaceAfter=No
@@ -3861,7 +3861,7 @@
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 4	wirklich	wirklich	ADV	ADV	_	7	advmod	_	_
 5	um	um	ADP	APPR	_	6	case	_	_
-6	einen	ein	PRON	PIS	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obl	_	_
+6	einen	ein	PRON	PIS	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
 7	gekümmert	kümmern	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	und	und	CCONJ	KON	_	15	cc	_	_
 9-10	vom	_	_	_	_	_	_	_	_
