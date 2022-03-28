@@ -1238,14 +1238,14 @@
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = test-s71
-# text = Das gilt vielleicht für 's Zwiebelmarkt - Wochenende aber den Rest des Jahres?
+# text = Das gilt vielleicht für's Zwiebelmarkt-Wochenende aber den Rest des Jahres?
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
-4	für	für	ADP	APPR	_	8	case	_	_
-5	's	es	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-6	Zwiebelmarkt	Zwiebelmarkt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	_
-7	-	-	PUNCT	$(	_	6	punct	_	_
+4	für	für	ADP	APPR	_	8	case	_	SpaceAfter=No
+5	's	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+6	Zwiebelmarkt	Zwiebelmarkt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
 9	aber	aber	CCONJ	ADV	_	11	cc	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
