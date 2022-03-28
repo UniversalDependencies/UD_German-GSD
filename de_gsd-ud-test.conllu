@@ -5729,7 +5729,7 @@
 # text = Im Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten, flogen die Fetzen auf niedrigstem Niveau.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
-2	dem	der	DET	ART	Case=Dat|Gender=Neut|Number=Sing	3	det	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Abgeordnetenhaus	Abgeordnetenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	dep	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	sonst	sonst	ADV	ADV	_	7	advmod	_	_
@@ -5895,7 +5895,7 @@
 # text = Am Anfang eines Films steht immer die Musikalität, der Rhythmus.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
-2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	dep	_	_
 4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Films	Film	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -6401,7 +6401,7 @@
 # text = Im Blickpunkt: Die Kurilen-Inseln
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
-2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Blickpunkt	Blickpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	6	punct	_	_
 5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -9254,7 +9254,7 @@
 # text = Am Mittwoch im Parlament ist (fast) alles anders.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
-2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -9291,7 +9291,7 @@
 # text = Am Montag werde der Aufsichtsrat über mögliche personelle Konsequenzen entscheiden.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
-2	dem	der	DET	ART	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 4	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -19548,7 +19548,7 @@
 # text = IM HINTERGRUND
 1-2	IM	_	_	_	_	_	_	_	_
 1	IN	in	ADP	APPR	_	3	case	_	_
-2	DEM	der	DET	NE	Case=Dat|Gender=Masc|Number=Sing	3	det	_	_
+2	DEM	der	DET	NE	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	HINTERGRUND	Hintergrund	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = test-s970
