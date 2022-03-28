@@ -41,7 +41,7 @@
     <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">18074</feat><!-- der, des, eines, einer, seiner, deren, dieser, dessen, Stadt, seines -->
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48952</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29310</feat><!-- der, die, dem, den, das, des, 's -->
-    <feat name="Definite" value="Ind" upos="ADV,DET,PART,PRON">5951</feat><!-- eine, ein, einer, einem, einen, eines, keine, viele, kein, vielen -->
+    <feat name="Definite" value="Ind" upos="ADV,DET,PART,PRON">5663</feat><!-- eine, ein, einer, einem, einen, eines, viele, vielen, meisten, wenige -->
     <feat name="Degree" value="Cmp" upos="ADJ">753</feat><!-- später, weitere, weiteren, früheren, größere, späteren, höhere, ältere, spätere, weiterer -->
     <feat name="Degree" value="Pos" upos="ADJ">19654</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">366</feat><!-- größten, besten, beste, größte, höchste, wichtigsten, bester, ältesten, bedeutendsten, älteste -->
