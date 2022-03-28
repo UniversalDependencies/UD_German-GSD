@@ -20,11 +20,11 @@
     <tag name="ADV">14844</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10593</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">8843</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">37660</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
+    <tag name="DET">37661</tag><!-- der, ein, sein, ihr, mein, viel, unser, Ihr|ihr, wenig, meist -->
     <tag name="INTJ">5</tag><!-- hallo, Ok, ade -->
     <tag name="NOUN">52202</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7407</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
-    <tag name="PART">2143</tag><!-- nicht, zu, aus, ja, nein, an, hin, einnehmen, her, wie -->
+    <tag name="PART">2142</tag><!-- nicht, zu, aus, ja, nein, an, hin, einnehmen, her, wie -->
     <tag name="PRON">14203</tag><!-- er, der, er|es|sie, dies, es, ich, sie, alle, wir, man -->
     <tag name="PROPN">30680</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38497</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
@@ -41,7 +41,7 @@
     <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">18074</feat><!-- der, des, eines, einer, seiner, deren, dieser, dessen, Stadt, seines -->
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48952</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29310</feat><!-- der, die, dem, den, das, des, 's -->
-    <feat name="Definite" value="Ind" upos="ADV,DET,PART">5649</feat><!-- eine, ein, einer, einem, einen, eines, viele, vielen, meisten, wenige -->
+    <feat name="Definite" value="Ind" upos="DET">5191</feat><!-- eine, ein, einer, einem, einen, eines, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ">753</feat><!-- später, weitere, weiteren, früheren, größere, späteren, höhere, ältere, spätere, weiterer -->
     <feat name="Degree" value="Pos" upos="ADJ">19654</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">366</feat><!-- größten, besten, beste, größte, höchste, wichtigsten, bester, ältesten, bedeutendsten, älteste -->
@@ -62,13 +62,13 @@
     <feat name="Person" value="1" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB,X">2467</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">88</feat><!-- du, ihr, euch, bist, deinen, Dir, Siehe, dein, dich, gebt -->
     <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">29831</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET,NOUN,PART,PRON,PROPN">1401</feat><!-- nicht, keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, Nein -->
+    <feat name="Polarity" value="Neg" upos="ADV,DET,NOUN,PART,PRON,PROPN">1400</feat><!-- nicht, keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, Nein -->
     <feat name="Poss" value="Yes" upos="DET,PRON,PROPN">2406</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">34501</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1784</feat><!-- diese, dieser, das, diesem, dieses, dies, diesen, dessen, deren, die -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2699</feat><!-- man, alle, viele, beiden, allem, einige, mehrere, alles, anderem, vielen -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">496</feat><!-- wo, was, wobei, wer, wie, welche, warum, wodurch, wovon, weshalb -->
-    <feat name="PronType" value="Neg" upos="DET,PART,PRON">298</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keines, nichts, reine -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">298</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keines, nichts, reine -->
     <feat name="PronType" value="Prs" upos="DET,PRON,X">9986</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="DET,PRON,X">2145</feat><!-- die, der, das, dem, was, denen, den, deren, welche, dessen -->
@@ -87,7 +87,7 @@
     <dep name="acl">2691</dep>
     <dep name="acl:relcl">8</dep>
     <dep name="advcl">1463</dep>
-    <dep name="advmod">17321</dep>
+    <dep name="advmod">17320</dep>
     <dep name="amod">16752</dep>
     <dep name="appos">6924</dep>
     <dep name="aux">3282</dep>
@@ -102,7 +102,7 @@
     <dep name="csubj">193</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1070</dep>
-    <dep name="det">36504</dep>
+    <dep name="det">36505</dep>
     <dep name="det:poss">2363</dep>
     <dep name="discourse">6</dep>
     <dep name="expl">397</dep>

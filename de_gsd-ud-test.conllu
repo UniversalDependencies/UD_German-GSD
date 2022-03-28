@@ -7,7 +7,7 @@
 5	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	aber	aber	CCONJ	KON	_	11	cc	_	_
-8	alles	alle	ADV	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	nmod	_	_
+8	alles	alle	ADV	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	11	nmod	_	_
 9	andere	ander	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	dep	_	_
 10	als	als	ADP	KOKOM	_	8	case	_	_
 11	umwerfend	umwerfend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -495,7 +495,7 @@
 5	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	iobj	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
-8	viel	viel	DET	PIAT	Definite=Ind|PronType=Ind	9	amod	_	_
+8	viel	viel	DET	PIAT	PronType=Ind	9	amod	_	_
 9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	zeichnet	zeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -537,7 +537,7 @@
 2	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
-5	viel	viel	ADV	PIS	Definite=Ind|PronType=Ind	11	advmod	_	_
+5	viel	viel	ADV	PIS	PronType=Ind	11	advmod	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
 7	Besuchen	Besuch|Besuchen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
 8-9	beim	_	_	_	_	_	_	_	_
@@ -1393,7 +1393,7 @@
 4	klasse	Klasse	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	vor	vor	ADP	APPR	_	7	case	_	_
-7	allem	alle	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	advmod	_	_
+7	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	advmod	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 10	und	und	CCONJ	KON	_	2	cc	_	_
@@ -2346,7 +2346,7 @@
 32	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 33	für	für	ADP	APPR	_	36	case	_	_
 34	so	so	ADV	ADV	_	35	advmod	_	_
-35	viel	viel	DET	PIAT	Definite=Ind|PronType=Ind	36	amod	_	_
+35	viel	viel	DET	PIAT	PronType=Ind	36	amod	_	_
 36	Spass	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
 37	gesorgt	sorgen	VERB	VVPP	VerbForm=Part	29	advcl	_	_
 38	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
@@ -2958,7 +2958,7 @@
 4	W	W	PROPN	NE	Case=Nom|Number=Sing	2	conj	_	NamedEntity=Yes
 5	Team	Team	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	SpaceAfter=No|NamedEntity=Yes
 6	,	,	PUNCT	$,	_	8	punct	_	_
-7	vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	amod	_	_
+7	vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	amod	_	_
 8	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 9	nochmal	nochmal	ADV	ADV	_	8	advmod	_	_
 10	für	für	ADP	APPR	_	15	case	_	_
@@ -3656,7 +3656,7 @@
 11	,	,	PUNCT	$,	_	22	punct	_	_
 12	dass	dass	SCONJ	KOUS	_	22	mark	_	_
 13	nach	nach	ADP	APPR	_	15	case	_	_
-14	sovielen	sovielen	DET	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	15	amod	_	_
+14	sovielen	sovielen	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	15	amod	_	_
 15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	det	_	_
@@ -4134,7 +4134,7 @@
 # sent_id = test-s236
 # text = Niemals mehr Carglass!
 1	Niemals	niemals	ADV	ADV	_	3	advmod	_	_
-2	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	1	advmod	_	_
+2	mehr	mehr	ADV	PIAT	PronType=Ind	1	advmod	_	_
 3	Carglass	Carglass	PROPN	FM	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No|NamedEntity=Yes
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
@@ -4747,13 +4747,13 @@
 
 # sent_id = test-s274
 # text = Viele Grüße.
-1	Viele	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	amod	_	_
+1	Viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	amod	_	_
 2	Grüße	Gruß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s275
 # text = Vielen Dank für den wunderbaren Grillkochkurs vor 2 Wochen.
-1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+1	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
 3	für	für	ADP	APPR	_	6	case	_	_
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -4784,7 +4784,7 @@
 # sent_id = test-s277
 # text = Während viele Apotheken heutzutage mit unmotivierten Mitarbeitern den Kunden eher vergraulen, findet man hier in Warendorf motivierte Mitarbeiter die stets freundlich sind.
 1	Während	während	SCONJ	KOUS	_	11	mark	_	_
-2	viele	viel	DET	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	_
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	_
 3	Apotheken	Apotheke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 4	heutzutage	heutzutage	ADV	ADV	_	11	advmod	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
@@ -5111,7 +5111,7 @@
 7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
-10	viel	viel	ADV	PIS	Definite=Ind|PronType=Ind	14	advmod	_	_
+10	viel	viel	ADV	PIS	PronType=Ind	14	advmod	_	_
 11-12	im	_	_	_	_	_	_	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
@@ -5707,7 +5707,7 @@
 
 # sent_id = test-s326
 # text = Mancherlei Abfälliges ist über den Fünfakter geschrieben worden, dessen Zeit vielleicht erst jetzt gekommen ist.
-1	Mancherlei	mancherlei	DET	PIAT	Definite=Ind|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mancherlei	mancherlei	DET	PIAT	PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Abfälliges	Abfällige	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	über	über	ADP	APPR	_	6	case	_	_
@@ -5979,7 +5979,7 @@
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 6	vor	vor	ADP	APPR	_	3	advmod	_	_
-7	allem	alle	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	fixed	_	_
+7	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	6	fixed	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Feld	Feld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
@@ -7900,7 +7900,7 @@
 
 # sent_id = test-s417
 # text = Viele Gerichte, so die Konsumentenschützer, verpflichteten die Manager schon zu ``Bedingungen in Dur''.
-1	Viele	vieler	DET	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Viele	vieler	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Gerichte	Gericht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	so	so	ADV	ADV	_	6	advmod	_	_
@@ -8008,7 +8008,7 @@
 
 # sent_id = test-s422
 # text = Viele Göttinger ``Autonome'' laufen zur Zeit mit einem unguten Gefühl durch die Stadt.
-1	Viele	vieler	DET	PIAT	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Göttinger	Göttinger	ADJ	ADJA	Degree=Pos	4	compound	_	_
 3	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Autonome	autonome	PROPN	NN	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No|NamedEntity=Yes
@@ -8060,7 +8060,7 @@
 
 # sent_id = test-s425
 # text = Mehrere große Gesellschaften heben zum Jahreswechsel die Beiträge in den Vollkosten-Tarifen an -- allerdings etwas moderater als in der Vergangenheit.
-1	Mehrere	mehrere	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mehrere	mehrere	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	Gesellschaften	Gesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	heben	heben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8174,7 +8174,7 @@
 10	furchtbare	furchtbar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	Verbrechen	Verbrechen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
 12	an	an	ADP	APPR	_	13	case	_	_
-13	einem	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	_
+13	einem	ein	DET	PIS	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	tapferen	tapfer	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
 16	Führer	Führer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
@@ -8472,7 +8472,7 @@
 9	anziehen	anziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	2	punct	_	_
 11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-12	mehr	mehr	ADV	PIS	Definite=Ind|PronType=Ind	13	advmod	_	_
+12	mehr	mehr	ADV	PIS	PronType=Ind	13	advmod	_	_
 13	als	als	CCONJ	KOKOM	_	14	dep	_	_
 14	nur	nur	ADV	ADV	_	15	advmod	_	_
 15	wünschenswert	wünschenswert	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -8485,7 +8485,7 @@
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Konferenz	Konferenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 5	als	als	ADP	APPR	_	6	case	_	_
-6	solche	solcher	ADV	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	advmod	_	_
+6	solche	solcher	ADV	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	advmod	_	_
 7	``	``	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
@@ -8525,7 +8525,7 @@
 
 # sent_id = test-s444
 # text = Wenige Jahre später beschrieb Daniel Bell die post-industrielle Gesellschaft durch Wissensarbeit, Ressourcenschonung und die Verschiebung der Arbeit vom Produktions- in den Dienstleistungssektor.
-1	Wenige	wenig	DET	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	_
 3	später	spät	ADJ	ADJD	Degree=Cmp	4	amod	_	_
 4	beschrieb	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8810,7 +8810,7 @@
 
 # sent_id = test-s455
 # text = Mehrere Kompanien der Bereitschaftspolizei CRS, ausgerüstet mit Schutzschilden und Tränengasgranaten marschierten auf.
-1	Mehrere	mehrere	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mehrere	mehrere	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Kompanien	Kompanie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Bereitschaftspolizei	Bereitschaftspolizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -9795,7 +9795,7 @@
 
 # sent_id = test-s501
 # text = Beide Regierungen unterzeichneten auch vier Abkommen zur Gründung eines ``Dialogforums für Hochtechnologie'', über bilaterale Studien der chinesischen Infrastrukturentwicklung, über Export- und Importverträge und naturwissenschaftliche Forschungen.
-1	Beide	beide	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Beide	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Regierungen	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	unterzeichneten	unterzeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	auch	auch	ADV	ADV	_	3	advmod	_	_
@@ -10475,7 +10475,7 @@
 
 # sent_id = test-s527
 # text = Keine Statistik erfaßt, wieviele Anhänger Kwasniewski und Walesa ohne das ``Nicht'', also ohne das Schreckbild ihres Gegners, auf sich vereinen könnten:
-1	Keine	keiner	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	2	dep	_	FixTigerDep=Yes
+1	Keine	keiner	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	2	dep	_	FixTigerDep=Yes
 2	Statistik	Statistik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	erfaßt	erfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	25	punct	_	_
@@ -10566,7 +10566,7 @@
 
 # sent_id = test-s531
 # text = Wenige Stunden später wurde in Belfast ein Katholik angeschossen und schwer verletzt.
-1	Wenige	weniger	DET	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Wenige	weniger	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
 3	später	spät	ADV	ADJD	_	2	advmod	_	_
 4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	aux:pass	_	_
@@ -11047,7 +11047,7 @@
 5	bei	bei	ADP	APPR	_	7	case	_	_
 6	gleichem	gleich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	Einsatz	Einsatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-8	mehr	mehr	DET	PIAT	Definite=Ind|PronType=Ind	9	amod	_	_
+8	mehr	mehr	DET	PIAT	PronType=Ind	9	amod	_	_
 9	Quartiere	Quartier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
 10	herausspringen	herausspringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 11	als	als	ADP	KOKOM	_	16	case	_	_
@@ -11096,7 +11096,7 @@
 
 # sent_id = test-s555
 # text = Keine Wahlmöglichkeit besteht zunächst beim Übergang von einer Ausbildung in ein festes Arbeitsverhältnis oder bei einem Wechsel im gleichen Unternehmen.
-1	Keine	kein	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	2	dep	_	FixTigerDep=Yes
+1	Keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	2	dep	_	FixTigerDep=Yes
 2	Wahlmöglichkeit	Wahlmöglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	zunächst	zunächst	ADV	ADV	_	3	advmod	_	_
@@ -12201,7 +12201,7 @@
 2	Tokio	Tokio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	_
+5	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	_
 6	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	überzeugt	überzeugen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	18	punct	_	_
@@ -12988,7 +12988,7 @@
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	25	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	6	amod	_	_
+5	viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	amod	_	_
 6	Sorgen	Sorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Nöte	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
@@ -13077,7 +13077,7 @@
 # text = Wenn auch viele Kubaner ihre Teilnahme ohne Konsequenzen verweigern konnten, so wurde Violeta Romeros hartnäckige Ablehnung letztlich für ihren Rausschmiß aus der Partei benutzt, erzählt ihr Ehemann.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	auch	auch	ADV	ADV	_	9	advmod	_	_
-3	viele	vieler	DET	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	_
+3	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	_
 4	Kubaner	Kubaner	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	NamedEntity=Yes
 5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Teilnahme	Teilnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -13109,7 +13109,7 @@
 # sent_id = test-s645
 # text = Während manche Suspendierung mit einer Weiterzahlung des Gehaltes einhergeht, wurde ihm auch das gestrichen.
 1	Während	während	SCONJ	KOUS	_	9	mark	_	_
-2	manche	manch	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	manche	manch	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	Suspendierung	Suspendierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
 5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -13253,7 +13253,7 @@
 22	,	,	PUNCT	$,	_	25	punct	_	_
 23	aber	aber	CCONJ	KON	_	25	cc	_	_
 24	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	_
-25	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	21	conj	_	_
+25	mehr	mehr	ADV	PIAT	PronType=Ind	21	conj	_	_
 26	als	als	ADP	KOKOM	_	29	case	_	_
 27	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 28	Handvoll	Handvoll	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	compound	_	_
@@ -13302,13 +13302,13 @@
 11	Flächenzersplitterung	Flächenzersplitterung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	denn	denn	SCONJ	KON	_	18	mark	_	_
-14	viele	viele	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+14	viele	viele	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
 15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 16	zwangskollektivierten	zwangskollektiviert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
 17	Kleinbauern	Kleinbauer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
 18	besaßen	besitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
 19	nur	nur	ADV	ADV	_	20	advmod	_	_
-20	wenige	weniger	DET	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
+20	wenige	weniger	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
 21	Hektar	Hektar	NOUN	NN	Gender=Neut	18	obj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -14337,7 +14337,7 @@
 23	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	27	nmod	_	_
 25	um	um	ADP	APPR	_	26	case	_	_
-26	etliches	etlicher	DET	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	amod	_	_
+26	etliches	etlicher	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	27	amod	_	_
 27	geringer	gering	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 28	:	:	PUNCT	$.	_	27	punct	_	_
 
@@ -14419,7 +14419,7 @@
 4	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
-7	vielen	vieler	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	vielen	vieler	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 8	Fällen	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
 9	erst	erst	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	18	punct	_	_
@@ -14464,7 +14464,7 @@
 7	''	''	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	unter	unter	ADP	APPR	_	10	case	_	_
-10	anderem	anderer	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	nmod	_	_
+10	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	nmod	_	_
 11	wegen	wegen	ADP	APPR	_	14	mark	_	_
 12	der	der	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	anhaltenden	anhaltend	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
@@ -14588,7 +14588,7 @@
 14	eben	eben	ADV	ADV	_	17	advmod	_	_
 15	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
 16	bloß	bloß	ADV	ADV	_	17	advmod	_	_
-17	eins	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	conj	_	_
+17	eins	ein	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	9	conj	_	_
 18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	Politiker	Politiker	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	9	punct	_	_
@@ -15848,7 +15848,7 @@
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 4	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 5	davon	davon	ADV	PAV	_	2	advmod	_	_
-6	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	7	advmod	_	_
+6	mehr	mehr	ADV	PIAT	PronType=Ind	7	advmod	_	_
 7	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
 8	für	für	ADP	APPR	_	11	case	_	_
 9	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
@@ -16464,7 +16464,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	mehrere	mehrere	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	amod	_	_
+4	mehrere	mehrere	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	amod	_	_
 5	Warnschüsse	Warnschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 6	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
@@ -16533,7 +16533,7 @@
 13	2005	2005	NUM	CARD	NumType=Card	12	nmod	_	_
 14	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
 15	weit	weit	ADV	ADJD	_	16	advmod	_	_
-16	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	18	advmod	_	_
+16	mehr	mehr	ADV	PIAT	PronType=Ind	18	advmod	_	_
 17	als	als	ADP	KOKOM	_	18	case	_	_
 18	eine	ein	NUM	ART	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	20	nummod	_	_
 19	Billion	Billion	NUM	NN	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	20	compound	_	_
@@ -17598,7 +17598,7 @@
 12	Ausländer	Ausländer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
 14	entsprechend	entsprechend	ADV	ADJD	_	16	advmod	_	_
-15	weniger	weniger	DET	PIAT	Definite=Ind|PronType=Ind	16	amod	_	_
+15	weniger	weniger	DET	PIAT	PronType=Ind	16	amod	_	_
 16	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -17760,13 +17760,13 @@
 4	Amirs	Amir	PROPN	NE	Case=Gen|Number=Sing	5	nmod	_	NamedEntity=Yes
 5	Mitgliedschaft	Mitgliedschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
-7	irgendeiner	irgendein	DET	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+7	irgendeiner	irgendein	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	Extremistenorganisation	Extremistenorganisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s877
 # text = Wenige Wochen bevor der Queen-Sänger am 24. November 1991 an den Folgen seiner Aids-Infektion starb, sang und komponierte er in seinem Studio in Montreux noch mehrere neue Songs.
-1	Wenige	weniger	ADV	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	advmod	_	_
+1	Wenige	weniger	ADV	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	advmod	_	_
 2	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
 3	bevor	bevor	SCONJ	KOUS	_	20	compound:prt	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -18212,7 +18212,7 @@
 2	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	vor	vor	ADP	APPR	_	5	case	_	_
-5	allem	alle	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	_
+5	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	_
 6	``	``	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 7	interne	intern	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
 8	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
@@ -18331,7 +18331,7 @@
 3	Präparate	Präparat	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	unter	unter	ADP	APPR	_	6	case	_	_
-6	anderem	anderer	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
+6	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Schering	Schering	PROPN	NE	Case=Nom|Number=Sing	0	root	_	NamedEntity=Yes
 9	AG	AG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	NamedEntity=Yes
@@ -18602,7 +18602,7 @@
 1	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Und	und	CCONJ	KON	_	6	cc	_	_
 3	wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	_
-4	viele	vieler	DET	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	5	amod	_	_
+4	viele	vieler	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	amod	_	_
 5	Divisionen	Division	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -18621,7 +18621,7 @@
 7	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	mehr	mehr	ADV	PIS	Definite=Ind|PronType=Ind	12	advmod	_	_
+10	mehr	mehr	ADV	PIS	PronType=Ind	12	advmod	_	_
 11	als	als	ADP	KOKOM	_	10	case	_	_
 12	nur	nur	ADV	ADV	_	13	advmod	_	_
 13	Macht	Macht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
