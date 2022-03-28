@@ -1314,7 +1314,7 @@
 10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Kaktus	Kaktus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 12	für	für	ADP	APPR	_	14	case	_	_
-13	die	der	DET	ART	Case=Acc|Number=Plur|PronType=Art	14	det	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Angestellten	Angestellte	NOUN	NN	Case=Acc|Number=Plur	11	nmod	_	_
 15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Restaurants	Restaurant	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
@@ -1733,7 +1733,7 @@
 
 # sent_id = test-s99
 # text = Die anderen hatten teilweise Gemüse, was mir auch eher nach Tiefkühlkost aussah.
-1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	anderen	ander	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	3	nsubj	_	_
 3	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	teilweise	teilweise	ADV	ADV	_	3	advmod	_	_
@@ -3874,7 +3874,7 @@
 15	günstiger	günstig	ADJ	ADJD	Degree=Pos	7	conj	_	_
 16	als	als	ADP	KOKOM	_	19	case	_	_
 17	bei	bei	ADP	APPR	_	19	case	_	_
-18	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	19	det	_	_
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	meisten	meist	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -12189,7 +12189,7 @@
 6	Geiselnehmer	Geiselnehmer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
 7	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
-9	der	der	DET	ART	Case=Gen|Number=Plur|PronType=Art	11	det	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 10	beiden	beide	PRON	PIAT	Case=Gen|Definite=Ind|Number=Plur|PronType=Ind	11	det	_	_
 11	Angeklagten	angeklagt	NOUN	NN	Case=Gen|Number=Plur	8	nmod	_	_
 12	Reue	Reue	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
@@ -18074,7 +18074,7 @@
 21	widerwärtigen	widerwärtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
 22	Kampf	Kampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_
 23	gegen	gegen	ADP	APPR	_	24	case	_	_
-24	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	nmod	_	_
+24	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
 25	Widerwärtige	Widerwärtige	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	15	punct	_	_
 27	ausgeliefert	ausliefern	ADJ	VVPP	Degree=Pos|VerbForm=Part	28	xcomp	_	_
