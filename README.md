@@ -180,7 +180,7 @@ we will distinguish between two portions of the data.
 2. The annotations -- part-of-speech tags and dependency annotations. These are
    made available under a CC BY-SA 4.0. GOOGLE MAKES
    THEM AVAILABLE TO YOU 'AS IS', WITHOUT ANY WARRANTY OF ANY KIND, WHETHER
-   EXPRESS OR IMPLIED. See attached LICENSE file for the text of CC BY-NC-SA.
+   EXPRESS OR IMPLIED. See attached LICENSE file for the text of CC BY-SA.
 
 Portions of the German data were sampled from the CoNLL 2006 Tiger Treebank
 data. Hans Uszkoreit graciously gave permission to use the underlying
