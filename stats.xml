@@ -10,8 +10,8 @@
     <dev><sentences>799</sentences><tokens>12318</tokens><words>12482</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16223</tokens><words>16497</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42328" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
-  <forms unique="50595" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
+  <lemmas unique="42321" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <forms unique="50590" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
@@ -42,9 +42,9 @@
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48952</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29310</feat><!-- der, die, dem, den, das, des, 's -->
     <feat name="Definite" value="Ind" upos="DET">5191</feat><!-- eine, ein, einer, einem, einen, eines, ne -->
-    <feat name="Degree" value="Cmp" upos="ADJ">753</feat><!-- später, weitere, weiteren, früheren, größere, späteren, höhere, ältere, spätere, weiterer -->
-    <feat name="Degree" value="Pos" upos="ADJ">19654</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
-    <feat name="Degree" value="Sup" upos="ADJ,DET">366</feat><!-- größten, besten, beste, größte, höchste, wichtigsten, bester, ältesten, bedeutendsten, älteste -->
+    <feat name="Degree" value="Cmp" upos="ADJ">1025</feat><!-- später, weitere, weiteren, weiter, besser, früheren, früher, größere, späteren, höhere -->
+    <feat name="Degree" value="Pos" upos="ADJ">19281</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
+    <feat name="Degree" value="Sup" upos="ADJ,DET">467</feat><!-- nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste, ältesten -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PROPN,SCONJ,VERB,X">2475</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51485</feat><!-- der, die, eine, einer, sie, den, seine, diese, seiner, Zeit -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">53288</feat><!-- dem, der, er, den, des, die, ein, einen, einem, ihm -->
