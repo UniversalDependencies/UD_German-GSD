@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
 Evaluating the following revision of UD_German-GSD:
-commit bbdce5fe28b79f92c42a44340bb57ed0456f2d9b
-Merge: 393e0ec f3d956e
+commit 21f6b567f92361f7b2c0b588f236a321d43031b5
+Merge: 54ca25e c46c167
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 292773 of 292773 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.358795129441.
@@ -25,12 +25,38 @@ Udapi: found 982 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 292773 words.
 Genres: found 3 out of 17 known.
 validate.py --lang de --max-err=10 UD_German-GSD/de_gsd-ud-dev.conllu
-*** PASSED ***
+[Line 5328 Sent dev-s309 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 10946 Sent dev-s618 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11835 Sent dev-s655 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12231 Sent dev-s671 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14450 Sent dev-s774 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
 validate.py --lang de --max-err=10 UD_German-GSD/de_gsd-ud-test.conllu
-*** PASSED ***
+[Line 1907 Sent test-s108 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2051 Sent test-s117 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3359 Sent test-s194 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14880 Sent test-s724 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 16299 Sent test-s792 Node 39]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [24, 36]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
 validate.py --lang de --max-err=10 UD_German-GSD/de_gsd-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 1224 Sent train-s68 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 17197 Sent train-s1117 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20828 Sent train-s1335 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 28773 Sent train-s1754 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 29634 Sent train-s1796 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 35458 Sent train-s2077 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 37268 Sent train-s2166 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 47351 Sent train-s2583 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [21, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 50580 Sent train-s2724 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 57
+*** FAILED *** with 57 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -39,6 +65,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.966458655682047) = 0.297371894056014
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.752669002938602) * (availability=1) * (validity=1) = 0.752669002938602
-STARS = 4
-UD_German-GSD	0.752669002938602	4
+(TOTAL score=0.752669002938602) * (availability=1) * (validity=0.01) = 0.00752669002938602
+STARS = 0
+UD_German-GSD	0.00752669002938602	0
