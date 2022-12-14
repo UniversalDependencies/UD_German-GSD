@@ -110,14 +110,14 @@
     <dep name="fixed">141</dep>
     <dep name="flat">8200</dep>
     <dep name="goeswith">2</dep>
-    <dep name="iobj">1275</dep>
+    <dep name="iobj">1259</dep>
     <dep name="mark">3154</dep>
-    <dep name="nmod">21865</dep>
+    <dep name="nmod">21975</dep>
     <dep name="nmod:poss">75</dep>
     <dep name="nsubj">17411</dep>
     <dep name="nsubj:pass">3192</dep>
     <dep name="nummod">2991</dep>
-    <dep name="obj">8408</dep>
+    <dep name="obj">8314</dep>
     <dep name="obl">17741</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:arg">1</dep>
