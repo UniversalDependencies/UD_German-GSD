@@ -259,7 +259,7 @@
 12	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	25	aux:pass	_	_
 13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj:pass	_	_
-15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 16	von	von	ADP	APPR	_	17	case	_	_
 17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	nmod	_	_
 18	gemachten	gemacht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
@@ -1341,7 +1341,7 @@
 4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 6	vor	vor	ADP	APPR	_	9	case	_	_
-7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+7	ein	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	paar	paar	PRON	PIAT	PronType=Ind	9	nmod	_	_
 9	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
 10	dort	dort	ADV	ADV	_	4	advmod	_	_
@@ -1947,7 +1947,7 @@
 10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Autobahn	Autobahn	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
-13	kombiniert	kombinieren	ADJ	VVFIN	Degree=Pos|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	amod	_	_
+13	kombiniert	kombinieren	ADJ	VVFIN	Case=Dat|Degree=Pos|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	amod	_	_
 14	mit	mit	ADP	APPR	_	15	case	_	_
 15	DB	DB	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|NamedEntity=Yes
 16	,	,	PUNCT	$,	_	19	punct	_	_
@@ -2129,7 +2129,7 @@
 11	noch	noch	ADV	ADV	_	13	cc	_	_
 12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Durchschrift	Durchschrift	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
-14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+14	des	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 15	von	von	ADP	APPR	_	16	case	_	_
 16	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	nmod	_	_
 17	unterschriebenen	unterschrieben	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
@@ -2460,7 +2460,7 @@
 10	dass	dass	SCONJ	KOUS	_	15	mark	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
-13	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Mobilität	Mobilität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 15	gefragt	fragen	VERB	VVPP	VerbForm=Part	8	ccomp	_	_
 16	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
@@ -2798,7 +2798,7 @@
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
 4	auf	auf	ADP	APPR	_	7	case	_	_
-5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	Galeonen	Galeonen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
@@ -5466,7 +5466,7 @@
 8	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Chefin	Chefin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
-11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Zentralbank	Zentralbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	14	punct	_	_
 14	Tatjana	Tatjana	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	NamedEntity=Yes
@@ -6459,7 +6459,7 @@
 17	weiter	weiter	ADV	ADV	_	15	advmod	_	_
 18	in	in	ADP	APPR	_	22	case	_	_
 19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-20	Berliner	Berliner	ADJ	ADJA	Degree=Pos	22	amod	_	_
+20	Berliner	Berliner	ADJ	ADJA	Case=Dat|Degree=Pos	22	amod	_	_
 21	``	``	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 22	Sonntagspost	Sonntagspost	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|NamedEntity=Yes
 23	''	''	PUNCT	$(	_	22	punct	_	SpaceAfter=No
@@ -6705,7 +6705,7 @@
 20	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Mund	Mund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
 22	gefallenen	gefallen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
-23	Bremer	Bremer	ADJ	ADJA	Degree=Pos	24	amod	_	_
+23	Bremer	Bremer	ADJ	ADJA	Case=Dat|Degree=Pos	24	amod	_	_
 24	Kollegen	Kollege	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
 25	Willi	Willi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	appos	_	NamedEntity=Yes
 26	Lemke	Lemke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	NamedEntity=Yes
@@ -6942,7 +6942,7 @@
 19-20	zum	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
-21	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	22	amod	_	_
+21	1.	1.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	22	amod	_	_
 22	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	_
 23	1996	1996	NUM	CARD	NumType=Card	22	nmod	_	_
 24	geplant	planen	VERB	VVPP	VerbForm=Part	10	acl	_	_
@@ -8093,7 +8093,7 @@
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	6	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-5	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
+5	6.	6.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	6	amod	_	_
 6	Mai	Mai	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 7	vergangenen	vergangen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
@@ -8111,7 +8111,7 @@
 20	Bauern	Bauer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_
 21	aus	aus	ADP	APPR	_	24	case	_	_
 22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	Schweizer	Schweizer	ADJ	ADJA	Degree=Pos	24	amod	_	_
+23	Schweizer	Schweizer	ADJ	ADJA	Case=Dat|Degree=Pos	24	amod	_	_
 24	Nachbarschaft	Nachbarschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	36	punct	_	_
 26	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	36	nsubj	_	_
@@ -8148,7 +8148,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-6	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	_
+6	5.	5.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	7	amod	_	_
 7	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
 8	1877	1877	NUM	CARD	NumType=Card	7	nmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
@@ -8720,8 +8720,8 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
-18	der	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Witterung	Witterung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	iobj	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Witterung	Witterung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	iobj	_	_
 20	nur	nur	ADV	ADV	_	22	advmod	_	_
 21	geringe	gering	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
 22	Angriffsfläche	Angriffsfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
@@ -9062,7 +9062,7 @@
 24	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
 25	nach	nach	ADP	APPR	_	28	case	_	_
 26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
-27	19.	19.	ADJ	ADJA	Degree=Pos|NumType=Ord	28	amod	_	_
+27	19.	19.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	28	amod	_	_
 28	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	32	punct	_	_
 30	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
@@ -10963,7 +10963,7 @@
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-8	31.	31.	ADJ	ADJA	Degree=Pos|NumType=Ord	9	amod	_	_
+8	31.	31.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	9	amod	_	_
 9	Dezember	Dezember	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 10	1992	1992	NUM	CARD	NumType=Card	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
@@ -11622,11 +11622,11 @@
 8	,	,	PUNCT	$,	_	18	punct	_	_
 9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	17	obj	_	_
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 12	türkisch	türkisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	compound	_	_
 13	--	--	PUNCT	$(	_	12	punct	_	_
-14	zypriotischen	zypriotisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
-15	Presse	Presse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	iobj	_	_
+14	zypriotischen	zypriotisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Presse	Presse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	_
 16	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 17	zustekken	zustekken	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
 18	lassen	lassen	VERB	VVINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
@@ -11817,7 +11817,7 @@
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Einzugsbereich	Einzugsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
-11	zählende	zählend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+11	zählende	zählend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 12	Revier	Revier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 13	Bernau	Bernau	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	SpaceAfter=No|NamedEntity=Yes
 14	,	,	PUNCT	$,	_	18	punct	_	_
@@ -12183,7 +12183,7 @@
 # text = Bei dem Stuttgarter Prozeß gegen Geiselnehmer zeigt einer der beiden Angeklagten Reue.
 1	Bei	bei	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	Stuttgarter	Stuttgarter	ADJ	ADJA	Degree=Pos	4	amod	_	_
+3	Stuttgarter	Stuttgarter	ADJ	ADJA	Case=Dat|Degree=Pos	4	amod	_	_
 4	Prozeß	Prozeß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
 5	gegen	gegen	ADP	APPR	_	6	case	_	_
 6	Geiselnehmer	Geiselnehmer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
@@ -12672,7 +12672,7 @@
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	mit	mit	ADP	APPR	_	15	case	_	_
 13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	Weimarer	Weimarer	ADJ	ADJA	Degree=Pos	15	amod	_	_
+14	Weimarer	Weimarer	ADJ	ADJA	Case=Dat|Degree=Pos	15	amod	_	_
 15	Rechten	Rechte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -12809,7 +12809,7 @@
 3	Notenwechsel	Notenwechsel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
 4	zwischen	zwischen	ADP	APPR	_	7	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	Schweizer	Schweizer	ADJ	ADJA	Degree=Pos	7	amod	_	_
+6	Schweizer	Schweizer	ADJ	ADJA	Case=Dat|Degree=Pos	7	amod	_	_
 7	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
 9	Wien	Wien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes
@@ -13266,7 +13266,7 @@
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
-5	ganz	ganz	ADJ	ADJD	Degree=Pos	6	amod	_	_
+5	ganz	ganz	ADJ	ADJD	Case=Dat|Degree=Pos	6	amod	_	_
 6	Ostdeutschland	Ostdeutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NamedEntity=Yes
 7	erst	erst	ADV	ADV	_	11	advmod	_	_
 8	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
@@ -13533,7 +13533,7 @@
 14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	23	nsubj:pass	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
 16	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
-17	fünfziger	fünfziger	ADJ	ADJA	Degree=Pos	18	amod	_	_
+17	fünfziger	fünfziger	ADJ	ADJA	Case=Dat|Degree=Pos	18	amod	_	_
 18	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	_
 19	in	in	ADP	APPR	_	22	case	_	_
 20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
@@ -13967,7 +13967,7 @@
 13-14	am	_	_	_	_	_	_	_	_
 13	an	an	ADP	APPR	_	16	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	16	amod	_	_
+15	4.	4.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	16	amod	_	_
 16	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
 17	gepflanzt	pflanzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	SpaceAfter=No
@@ -14035,7 +14035,7 @@
 11	Aktien	Aktie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
 12	an	an	ADP	APPR	_	15	case	_	_
 13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	Kopenhagener	Kopenhagener	ADJ	ADJA	Degree=Pos	15	amod	_	_
+14	Kopenhagener	Kopenhagener	ADJ	ADJA	Case=Dat|Degree=Pos	15	amod	_	_
 15	Börse	Börse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 16	ausgesetzt	aussetzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 17	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	16	aux:pass	_	SpaceAfter=No
@@ -14196,7 +14196,7 @@
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj:pass	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	Oxforder	Oxforder	ADJ	ADJA	Degree=Pos	7	amod	_	_
+6	Oxforder	Oxforder	ADJ	ADJA	Case=Dat|Degree=Pos	7	amod	_	_
 7	Historiker	Historiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
 8	Norman	Norman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 9	Stone	Stone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
@@ -15636,7 +15636,7 @@
 32	diese	dies	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	33	det	_	_
 33	Wundertaten	Wundertat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	40	obj	_	_
 34	während	während	ADP	APPR	_	37	case	_	_
-35	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+35	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 36	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 37	Strafprozeßordnung	Strafprozeßordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	nmod	_	_
 38	folgenden	folgend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
@@ -15797,8 +15797,8 @@
 27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Begrüßungszeremonie	Begrüßungszeremonie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 29	nahe	nahe	ADP	APPR	_	32	case	_	_
-30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-31	Münchner	Münchner	ADJ	ADJA	Degree=Pos	32	amod	_	_
+30	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	Münchner	Münchner	ADJ	ADJA	Case=Dat|Degree=Pos	32	amod	_	_
 32	Residenz	Residenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
 33	in	in	ADP	APPR	_	35	case	_	_
 34	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -15936,7 +15936,7 @@
 45	Rifkind	Rifkind	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	44	flat	_	NamedEntity=Yes
 46	mit	mit	ADP	APPR	_	49	case	_	_
 47	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det:poss	_	_
-48	deutschen	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+48	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
 49	Kollegen	Kollege	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	40	obl	_	_
 50	Volker	Volker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	49	nmod	_	NamedEntity=Yes
 51	Rühe	Rühe	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	50	flat	_	NamedEntity=Yes
@@ -16182,7 +16182,7 @@
 6	Luft	Luft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 7	in	in	ADP	APPR	_	10	case	_	_
 8	Chiles	Chile	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	NamedEntity=Yes
-9	Moskauer	Moskauer	ADJ	ADJA	Degree=Pos	10	amod	_	_
+9	Moskauer	Moskauer	ADJ	ADJA	Case=Dat|Degree=Pos	10	amod	_	_
 10	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
 11	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 12	dünn	dünn	ADJ	ADJD	Degree=Pos	11	xcomp	_	SpaceAfter=No
@@ -16420,7 +16420,7 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	10	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	12.	12.	ADJ	ADJA	Degree=Pos|NumType=Ord	10	amod	_	_
+9	12.	12.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	10	amod	_	_
 10	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
 11	erstmals	erstmals	ADV	ADV	_	12	advmod	_	_
 12	ausgegeben	ausgeben	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -16903,7 +16903,7 @@
 17-18	am	_	_	_	_	_	_	_	_
 17	an	an	ADP	APPR	_	20	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	24.	24.	ADJ	ADJA	Degree=Pos|NumType=Ord	20	amod	_	_
+19	24.	24.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	20	amod	_	_
 20	März	März	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 21	1996	1996	NUM	CARD	NumType=Card	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
@@ -17598,7 +17598,7 @@
 12	Ausländer	Ausländer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
 14	entsprechend	entsprechend	ADV	ADJD	_	16	advmod	_	_
-15	weniger	weniger	DET	PIAT	PronType=Ind	16	amod	_	_
+15	weniger	weniger	DET	PIAT	Case=Dat|PronType=Ind	16	amod	_	_
 16	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -17776,7 +17776,7 @@
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	24.	24.	ADJ	ADJA	Degree=Pos|NumType=Ord	11	amod	_	_
+10	24.	24.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	11	amod	_	_
 11	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	NamedEntity=Yes
 12	1991	1991	NUM	CARD	NumType=Card	11	nmod	_	_
 13	an	an	ADP	APPR	_	15	case	_	_
@@ -18160,7 +18160,7 @@
 10	verhandle	verhandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 12	ab	ab	ADP	APPR	_	14	case	_	_
-13	7.	7.	ADJ	ADJA	Degree=Pos|NumType=Ord	14	amod	_	_
+13	7.	7.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	14	amod	_	_
 14	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|NamedEntity=Yes
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
@@ -18294,7 +18294,7 @@
 17-18	am	_	_	_	_	_	_	_	_
 17	an	an	ADP	APPR	_	20	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	22.	22.	ADJ	ADJA	Degree=Pos|NumType=Ord	20	amod	_	_
+19	22.	22.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	20	amod	_	_
 20	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 21	zu	zu	ADP	APPR	_	24	case	_	_
 22	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
@@ -18468,7 +18468,7 @@
 1	In	in	ADP	APPR	_	5	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 3	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
-4	sechs	sechs	NUM	CARD	NumType=Card	5	amod	_	_
+4	sechs	sechs	NUM	CARD	Case=Dat|NumType=Card	5	amod	_	_
 5	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 7	bis	bis	ADP	APPR	_	9	case	_	_
@@ -18557,7 +18557,7 @@
 19-20	zum	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	22	amod	_	_
+21	1.	1.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	22	amod	_	_
 22	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
 23	1996	1996	NUM	CARD	NumType=Card	22	nummod	_	_
 24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
@@ -19311,7 +19311,7 @@
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	Münchner	Münchner	ADJ	ADJA	Degree=Pos	9	amod	_	_
+8	Münchner	Münchner	ADJ	ADJA	Case=Dat|Degree=Pos	9	amod	_	_
 9	Mischkonzern	Mischkonzern	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
 10	Viag	Viag	PROPN	NE	Case=Nom|Number=Sing	9	appos	_	NamedEntity=Yes
 11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
