@@ -9927,7 +9927,7 @@
 4	zwei	zwei	NUM	CARD	NumType=Card	5	nummod	_	_
 5	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	_
 6	währenden	während	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
-7	Rechtsstreit	Rechtsstreit	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	iobj	_	_
+7	Rechtsstreit	Rechtsstreit	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
 8	um	um	ADP	APPR	_	10	case	_	_
 9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Atomkraftwerk	Atomkraftwerk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
