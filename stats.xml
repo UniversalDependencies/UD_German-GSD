@@ -36,10 +36,10 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="46">
     <feat name="Abbr" value="Yes" upos="ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">20</feat><!-- bzgl, bzw, u, ET, FK, GT, Mrd, N, P, S -->
-    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30906</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">46652</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
-    <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">18075</feat><!-- der, des, eines, einer, seiner, deren, dieser, Stadt, dessen, seines -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48937</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
+    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30879</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">46733</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
+    <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">18070</feat><!-- der, des, eines, einer, seiner, deren, dieser, Stadt, dessen, seines -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48895</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29310</feat><!-- der, die, dem, den, das, des, 's -->
     <feat name="Definite" value="Ind" upos="DET">5191</feat><!-- eine, ein, einer, einem, einen, eines, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ">1025</feat><!-- später, weitere, weiteren, weiter, besser, früheren, früher, größere, späteren, höhere -->

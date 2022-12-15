@@ -14780,7 +14780,7 @@
 18	überreichte	überreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 19	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 20	``	``	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-21	Fab	Fab	PROPN	NE	_	18	iobj	_	NamedEntity=Yes
+21	Fab	Fab	PROPN	NE	Case=Dat	18	iobj	_	NamedEntity=Yes
 22	Three	Three	PROPN	NE	Case=Dat|Number=Plur	21	flat	_	SpaceAfter=No|NamedEntity=Yes
 23	''	''	PUNCT	$(	_	26	punct	_	_
 24	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
