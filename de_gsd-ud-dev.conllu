@@ -2877,7 +2877,7 @@
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
 11	keines	kein	PRON	PIAT	Case=Gen|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	12	nmod	_	_
-12	Blickes	Blick	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	iobj	_	SpaceAfter=No
+12	Blickes	Blick	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s165

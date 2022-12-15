@@ -10683,7 +10683,7 @@
 26	neun	neun	NUM	CARD	NumType=Card	27	nummod	_	_
 27	Männer	Mann	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
 28	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Mordes	Mord	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	32	iobj	_	_
+29	Mordes	Mord	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	32	obl:arg	_	_
 30	für	für	ADP	APPR	_	31	case	_	_
 31	schuldig	schuldig	ADJ	ADJD	Degree=Pos	32	xcomp	_	_
 32	befunden	befinden	VERB	VVPP	VerbForm=Part	20	acl	_	_
