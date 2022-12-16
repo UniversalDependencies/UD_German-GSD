@@ -83,19 +83,19 @@
     <feat name="Voice" value="Pass" upos="AUX,PUNCT,VERB,X">3147</feat><!-- wurde, werden, wird, wurden, worden, werde, würden, würde -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
+  <deps unique="45">
     <dep name="acl">2687</dep>
     <dep name="acl:relcl">14</dep>
     <dep name="advcl">1465</dep>
     <dep name="advmod">17325</dep>
     <dep name="amod">16751</dep>
-    <dep name="appos">6927</dep>
+    <dep name="appos">6928</dep>
     <dep name="aux">3283</dep>
     <dep name="aux:pass">3424</dep>
     <dep name="case">30673</dep>
     <dep name="cc">8781</dep>
     <dep name="ccomp">873</dep>
-    <dep name="compound">1532</dep>
+    <dep name="compound">1529</dep>
     <dep name="compound:prt">1509</dep>
     <dep name="conj">11920</dep>
     <dep name="cop">3859</dep>
@@ -110,9 +110,8 @@
     <dep name="fixed">140</dep>
     <dep name="flat">8183</dep>
     <dep name="goeswith">2</dep>
-    <dep name="iobj">1247</dep>
     <dep name="mark">3154</dep>
-    <dep name="nmod">21948</dep>
+    <dep name="nmod">21950</dep>
     <dep name="nmod:poss">74</dep>
     <dep name="nsubj">17349</dep>
     <dep name="nsubj:outer">3</dep>
@@ -121,7 +120,7 @@
     <dep name="obj">8331</dep>
     <dep name="obl">17749</dep>
     <dep name="obl:agent">2</dep>
-    <dep name="obl:arg">11</dep>
+    <dep name="obl:arg">1258</dep>
     <dep name="obl:tmod">9</dep>
     <dep name="orphan">18</dep>
     <dep name="parataxis">565</dep>
