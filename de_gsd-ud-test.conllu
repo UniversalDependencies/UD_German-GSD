@@ -7823,7 +7823,7 @@
 5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	nach	nach	ADP	APPR	_	7	case	_	_
 7	Ansicht	Ansicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
-8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 9	Sinn	Sinn	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No|NamedEntity=Yes
 10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 11	Fein	Fein	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -9982,7 +9982,7 @@
 # sent_id = test-s508
 # text = Schritt des IG-Metall-Vorsitzenden Klaus Zwickel, der Unternehmern und Regierung ein ``Bündnis für Arbeit'' angeboten hat, sagte Kanzler Kohl am Mittwoch im Bundestag ``: Wir werden dieses Angebot aufnehmen und darüber sprechen.''
 1	Schritt	Schritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	dep	_	_
-2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 3	IG	IG	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No|NamedEntity=Yes
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 5	Metall	Metall	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -10520,8 +10520,8 @@
 2	Stuart	Stuart	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NamedEntity=Yes
 3	Card	Card	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4-5	vom	_	_	_	_	_	_	_	_
-4	von	von	ADP	APPR	_	8	case	_	_
-5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+4	von	von	ADP	APPR	_	10	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 6	Xerox	Xerox	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|NamedEntity=Yes
 7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Parc	Parc	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -11285,8 +11285,8 @@
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	Intervention	Intervention	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
 19-20	im	_	_	_	_	_	_	_	_
-19	in	in	ADP	APPR	_	16	case	_	_
-20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+19	in	in	ADP	APPR	_	14	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 21	Kindes	Kind	NOUN	TRUNC	Case=Dat|Gender=Neut|Number=Sing	16	compound	_	SpaceAfter=No
 22	-	-	PUNCT	$(	_	24	punct	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_

@@ -10418,8 +10418,8 @@
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Teilnahme	Teilnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 12-13	am	_	_	_	_	_	_	_	_
-12	an	an	ADP	APPR	_	16	case	_	_
-13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+12	an	an	ADP	APPR	_	18	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
 14	Asien	Asien	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No|NamedEntity=Yes
 15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 16	Pazifik	Pazifik	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -14402,8 +14402,8 @@
 14	wolle	wollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
 16-17	vom	_	_	_	_	_	_	_	_
-16	von	von	ADP	APPR	_	20	case	_	_
-17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+16	von	von	ADP	APPR	_	22	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 18	IG	IG	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	compound	_	SpaceAfter=No|NamedEntity=Yes
 19	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
 20	Metall	Metall	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	22	compound	_	SpaceAfter=No|NamedEntity=Yes
