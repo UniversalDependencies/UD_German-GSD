@@ -5321,7 +5321,7 @@
 
 # sent_id = dev-s309
 # text = Das ist was Hunde verstehen.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj:outer	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	was	was	PRON	PIAT	PronType=Ind	5	obj	_	_
 4	Hunde	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -10924,7 +10924,7 @@
 # sent_id = dev-s618
 # text = Ihr Argument: Wenn nur wenige große Parteien in die Duma einziehen und viele kleine scheitern, werde der Wählerwillen verzerrt.
 1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det	_	FixTigerDep=Yes
-2	Argument	Argument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+2	Argument	Argument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	21	punct	_	_
 4	Wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
 5	nur	nur	ADV	ADV	_	12	advmod	_	_
@@ -10943,8 +10943,8 @@
 18	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	_
 19	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Wählerwillen	Wählerwille	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
-21	verzerrt	verzerren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	21	punct	_	_
+21	verzerrt	verzerren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s619
 # text = Der Beschluß muß noch vom Senat bestätigt werden.
@@ -11818,11 +11818,11 @@
 # sent_id = dev-s655
 # text = Viele Fehler wurden gegen 15 Uhr und die allermeisten Fehler wurden gegen drei Uhr nachts registriert.
 1	Viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	amod	_	_
-2	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	_
-3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	_
+2	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	gegen	gegen	ADP	APPR	_	6	case	_	_
 5	15	15	NUM	CARD	NumType=Card	6	nummod	_	_
-6	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 7	und	und	CCONJ	KON	_	16	cc	_	_
 8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	allermeisten	allermeister	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	amod	_	_
@@ -11832,8 +11832,8 @@
 13	drei	drei	NUM	CARD	NumType=Card	14	nummod	_	_
 14	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 15	nachts	nachts	ADV	ADV	_	14	advmod	_	_
-16	registriert	registrieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	_
+16	registriert	registrieren	VERB	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s656
 # text = Staatspräsident Lech Walesa teilte am Samstag über einen Sprecher mit, er habe ``keine Einwände'' gegen die Kandidatur.
@@ -12229,12 +12229,12 @@
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	vermutlich	vermutlich	ADV	ADV	_	11	advmod	_	_
 11	längste	lang	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-12	,	,	PUNCT	$,	_	13	punct	_	_
-13	sicherlich	sicherlich	ADV	ADV	_	11	advmod	_	_
-14	auch	auch	ADV	ADV	_	11	advmod	_	_
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	sicherlich	sicherlich	ADV	ADV	_	17	advmod	_	_
+14	auch	auch	ADV	ADV	_	17	advmod	_	_
 15	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 16	bedeutendste	bedeutend	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	17	amod	_	_
-17	Verfahren	Verfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+17	Verfahren	Verfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
 18-19	zur	_	_	_	_	_	_	_	_
 18	zu	zu	ADP	APPR	_	21	case	_	_
 19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -12273,9 +12273,9 @@
 10	reden	reden	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	auch	auch	ADV	ADV	_	14	advmod	_	_
-13	über	über	ADP	APPR	_	10	case	_	_
-14	Lohn	Lohn	NOUN	TRUNC	Case=Acc|Number=Plur	10	compound	_	SpaceAfter=No
-15	-	-	PUNCT	$(	_	17	punct	_	_
+13	über	über	ADP	APPR	_	14	case	_	_
+14	Lohn	Lohn	NOUN	TRUNC	Case=Acc|Number=Plur	10	obl	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	14	punct	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	Nebenkosten	Nebenkosten	NOUN	NN	Case=Acc|Number=Plur	14	conj	_	_
 18	und	und	CCONJ	KON	_	20	cc	_	_
@@ -14442,19 +14442,19 @@
 
 # sent_id = dev-s774
 # text = ``Ich habe den Feuerlöscher leergemacht, aber es war nichts zu machen'', sagte ein Hausbewohner, der das Unglück unverletzt überlebte.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Feuerlöscher	Feuerlöscher	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 6	leergemacht	leermachen	VERB	VVPP	VerbForm=Part	16	ccomp	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	6	punct	_	_
-8	aber	aber	CCONJ	KON	_	6	cc	_	_
-9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
-10	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-11	nichts	nichts	PRON	PIS	Gender=Neut|PronType=Ind	6	nsubj	_	_
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	aber	aber	CCONJ	KON	_	10	cc	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+10	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	nichts	nichts	PRON	PIS	Gender=Neut|PronType=Ind	10	nsubj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
-13	machen	machen	VERB	VVINF	VerbForm=Inf	6	acl	_	SpaceAfter=No
+13	machen	machen	VERB	VVINF	VerbForm=Inf	11	acl	_	SpaceAfter=No
 14	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	6	punct	_	_
 16	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
