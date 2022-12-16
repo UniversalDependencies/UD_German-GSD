@@ -2467,7 +2467,7 @@
 17	und	und	CCONJ	KON	_	21	cc	_	_
 18	auf	auf	ADP	APPR	_	20	case	_	_
 19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Strassenbahn	Straßenbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+20	Strassenbahn	Straßenbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 21	angewiesen	anweisen	ADJ	ADJD	Degree=Pos	15	conj	_	_
 22	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	8	punct	_	_
@@ -5910,11 +5910,11 @@
 
 # sent_id = test-s334
 # text = Nach Angaben von Bundesbildungsminister Jürgen Rüttgers haben seither 55 000 Gesellen, Facharbeiter und andere Interessenten einen Antrag auf finanzielle Förderung ihrer Weiterbildung zum Meister, Techniker oder für vergleichbare Qualifikationen gestellt.
-1	Nach	nach	ADP	APPR	_	2	dep	_	FixTigerDep=Yes
-2	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	33	dep	_	_
+1	Nach	nach	ADP	APPR	_	2	case	_	_
+2	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	33	obl	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
-4	Bundesbildungsminister	Bundesbildungsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
-5	Jürgen	Jürgen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
+4	Bundesbildungsminister	Bundesbildungsminister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Jürgen	Jürgen	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	NamedEntity=Yes
 6	Rüttgers	Rüttgers	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes
 7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 8	seither	seither	ADV	ADV	_	33	advmod	_	_
@@ -5934,9 +5934,9 @@
 22	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Weiterbildung	Weiterbildung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24-25	zum	_	_	_	_	_	_	_	_
-24	zu	zu	ADP	APPR	_	23	case	_	_
-25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-26	Meister	Meister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+24	zu	zu	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Meister	Meister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	28	punct	_	_
 28	Techniker	Techniker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	conj	_	_
 29	oder	oder	CCONJ	KON	_	32	cc	_	_

@@ -7429,7 +7429,7 @@
 10	auch	auch	ADV	ADV	_	12	advmod	_	_
 11	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Hunden	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
-13	gegenüber	gegenüber	ADV	APPO	_	12	advmod	_	SpaceAfter=No
+13	gegenüber	gegenüber	ADP	APPO	_	12	case	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s443
