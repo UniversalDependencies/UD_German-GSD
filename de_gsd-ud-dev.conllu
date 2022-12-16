@@ -1093,7 +1093,7 @@
 3	gut	gut	ADV	ADJD	_	8	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Kanzlei	Kanzlei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+6	Kanzlei	Kanzlei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl:agent	_	_
 7	Singewald	Singewald	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	NamedEntity=Yes
 8	verteitigt	verteitigt	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
@@ -2232,7 +2232,7 @@
 11-12	vom	_	_	_	_	_	_	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Inhaber	Inhaber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+13	Inhaber	Inhaber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl:agent	_	_
 14	Michael	Michael	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
 15	Walther	Walther	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	NamedEntity=Yes
 16	bedient	bedienen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
@@ -2454,7 +2454,7 @@
 7	gearbeitet	arbeiten	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	Monteuren	Monteur	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	Monteuren	Monteur	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = dev-s142
@@ -2514,7 +2514,7 @@
 16	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj:pass	_	_
 17	von	von	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Firma	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+19	Firma	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl:agent	_	_
 20	Wintergartenbau	Wintergartenbau	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	19	appos	_	NamedEntity=Yes
 21	gefertigt	fertigen	VERB	VVPP	VerbForm=Part	14	acl	_	_
 22	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	aux:pass	_	SpaceAfter=No
@@ -3193,7 +3193,7 @@
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	9	advmod	_	_
 7	von	von	ADP	APPR	_	8	case	_	_
-8	Wellness	Wellness	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+8	Wellness	Wellness	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	9	obl:agent	_	_
 9	angetan	antun	VERB	ADJD	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	16	punct	_	_
 11	aber	aber	CCONJ	KON	_	16	cc	_	_
@@ -4364,7 +4364,7 @@
 10	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	14	obl:arg	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
-13	Handwerker	Handwerker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+13	Handwerker	Handwerker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl:agent	_	_
 14	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
@@ -6291,7 +6291,7 @@
 2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
 4	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
-5	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+5	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl:agent	_	_
 6	dort	dort	ADV	ADV	_	7	advmod	_	_
 7	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
@@ -6396,7 +6396,7 @@
 4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
-7	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem	9	obl	_	_
+7	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem	9	obl:agent	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 9	gelöst	lösen	VERB	VVPP	VerbForm=Part	4	acl	_	_
 10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	_
@@ -9095,7 +9095,7 @@
 12	von	von	ADP	APPR	_	15	case	_	_
 13	fast	fast	ADV	ADV	_	14	advmod	_	_
 14	leibeigenen	leibeigen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
-15	Dienstmädchen	Dienstmädchen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	_
+15	Dienstmädchen	Dienstmädchen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl:agent	_	_
 16	verrichtet	verrichten	VERB	VVPP	VerbForm=Part	0	root	_	_
 17	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	16	aux:pass	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	16	punct	_	_
@@ -9103,7 +9103,7 @@
 20	von	von	ADP	APPR	_	23	case	_	_
 21	stundenweise	stundenweise	ADV	ADV	_	22	advmod	_	_
 22	angeheuerten	angeheuert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
-23	Haushaltsprofis	Haushaltsprofi	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+23	Haushaltsprofis	Haushaltsprofi	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl:agent	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	29	punct	_	_
 25	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	29	nsubj	_	_
 26	durch	durch	ADP	APPR	_	28	case	_	_
@@ -9339,7 +9339,7 @@
 10	aber	aber	CCONJ	ADV	_	15	cc	_	_
 11	gestern	gestern	ADV	ADV	_	15	advmod	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
-13	Monsanto	Monsanto	PROPN	NE	Case=Dat|Number=Sing	15	obl	_	NamedEntity=Yes
+13	Monsanto	Monsanto	PROPN	NE	Case=Dat|Number=Sing	15	obl:agent	_	NamedEntity=Yes
 14	darüber	darüber	ADV	PAV	_	15	advmod	_	_
 15	informiert	informieren	VERB	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	21	punct	_	_
@@ -10955,7 +10955,7 @@
 5-6	vom	_	_	_	_	_	_	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Senat	Senat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+7	Senat	Senat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl:agent	_	_
 8	bestätigt	bestätigen	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
@@ -14227,7 +14227,7 @@
 20	heute	heute	ADV	ADV	_	27	advmod	_	_
 21	von	von	ADP	APPR	_	23	case	_	_
 22	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Attentäter	Attentäter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+23	Attentäter	Attentäter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl:agent	_	_
 24	in	in	ADP	APPR	_	25	case	_	_
 25	Tel	Tel	PROPN	NE	_	27	obl	_	NamedEntity=Yes
 26	Aviv	Aviv	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	flat	_	NamedEntity=Yes

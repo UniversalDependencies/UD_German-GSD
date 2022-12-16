@@ -118,8 +118,8 @@
     <dep name="nsubj:pass">3192</dep>
     <dep name="nummod">2989</dep>
     <dep name="obj">8331</dep>
-    <dep name="obl">17749</dep>
-    <dep name="obl:agent">2</dep>
+    <dep name="obl">17269</dep>
+    <dep name="obl:agent">482</dep>
     <dep name="obl:arg">1258</dep>
     <dep name="obl:tmod">9</dep>
     <dep name="orphan">18</dep>

@@ -328,7 +328,7 @@
 2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Vodafone	Vodafone	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	NamedEntity=Yes
+5	Vodafone	Vodafone	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl:agent	_	NamedEntity=Yes
 6	-	-	PUNCT	$(	_	7	punct	_	_
 7	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	flat	_	_
 8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
@@ -1161,7 +1161,7 @@
 14-15	vom	_	_	_	_	_	_	_	_
 14	von	von	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Chef	Chef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+16	Chef	Chef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl:agent	_	_
 17	begrüßt	begrüßen	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -1489,7 +1489,7 @@
 4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
 6	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
-7	Trainern	Trainer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+7	Trainern	Trainer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl:agent	_	_
 8	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 9	je	je	ADV	ADV	_	11	advmod	_	_
 10	nach	nach	ADP	APPR	_	11	case	_	_
@@ -4386,7 +4386,7 @@
 21	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
 22	von	von	ADP	APPR	_	24	case	_	_
 23	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Sternekoch	Sternekoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
+24	Sternekoch	Sternekoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl:agent	_	_
 25	speziell	speziell	ADV	ADV	_	30	advmod	_	_
 26	für	für	ADP	APPR	_	28	case	_	_
 27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -8156,7 +8156,7 @@
 11	Robinson	Robinson	PROPN	NE	Case=Nom|Number=Sing	10	flat	_	NamedEntity=Yes
 12	von	von	ADP	APPR	_	14	case	_	_
 13	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Soldaten	Soldat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+14	Soldaten	Soldat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl:agent	_	_
 15	erstochen	erstechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -8628,7 +8628,7 @@
 15	September	September	NOUN	NN	Gender=Masc|Number=Sing	20	obl	_	_
 16	von	von	ADP	APPR	_	18	case	_	_
 17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Allied	Allied	PROPN	NE	_	20	obl	_	NamedEntity=Yes
+18	Allied	Allied	PROPN	NE	_	20	obl:agent	_	NamedEntity=Yes
 19	Bank	Bank	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	18	flat	_	NamedEntity=Yes
 20	gepfändet	pfänden	VERB	VVPP	VerbForm=Part	5	ccomp	_	_
 21	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	20	aux:pass	_	SpaceAfter=No
@@ -8953,7 +8953,7 @@
 4	von	von	ADP	APPR	_	7	case	_	_
 5	rund	rund	ADV	ADJD	_	6	advmod	_	_
 6	zehn	zehn	NUM	CARD	NumType=Card	7	nummod	_	_
-7	Polizeifahrzeugen	Polizeifahrzeug	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	_
+7	Polizeifahrzeugen	Polizeifahrzeug	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl:agent	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
@@ -12276,7 +12276,7 @@
 21	geplanten	geplant	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
 22	Industrieparks	Industriepark	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 23	von	von	ADP	APPR	_	24	case	_	_
-24	Deutschen	Deutsche	NOUN	NN	Case=Dat|Number=Plur	25	obl	_	_
+24	Deutschen	Deutsche	NOUN	NN	Case=Dat|Number=Plur	25	obl:agent	_	_
 25	übernommen	übernehmen	VERB	VVPP	VerbForm=Part	10	ccomp	_	_
 26	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	aux:pass	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	10	punct	_	_
@@ -14197,7 +14197,7 @@
 4	von	von	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	Oxforder	Oxforder	ADJ	ADJA	Case=Dat|Degree=Pos	7	amod	_	_
-7	Historiker	Historiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+7	Historiker	Historiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl:agent	_	_
 8	Norman	Norman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 9	Stone	Stone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
 10	.	.	PUNCT	$.	_	1	punct	_	_
@@ -14520,7 +14520,7 @@
 4	18.	18.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	_
 5	Wirtschaftsgipfel	Wirtschaftsgipfel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
-7	Bundeskanzler	Bundeskanzler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
+7	Bundeskanzler	Bundeskanzler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obl:agent	_	_
 8	Helmut	Helmut	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 9	Kohl	Kohl	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
@@ -15830,7 +15830,7 @@
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+7	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl:agent	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	_
 9	gegründet	gründen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	und	und	CCONJ	KON	_	14	cc	_	_
@@ -17739,7 +17739,7 @@
 20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 21	von	von	ADP	APPR	_	23	case	_	_
 22	israelischen	israelisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
-23	Reportern	Reporter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	32	obl	_	_
+23	Reportern	Reporter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	32	obl:agent	_	_
 24	auf	auf	ADP	APPR	_	28	case	_	_
 25	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 26	mögliche	möglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
@@ -18110,7 +18110,7 @@
 7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Bürgerinitiative	Bürgerinitiative	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+10	Bürgerinitiative	Bürgerinitiative	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl:agent	_	_
 11	Pro	pro	ADP	APPR	_	10	appos	_	NamedEntity=Yes
 12	Autobahn	Autobahn	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	flat	_	NamedEntity=Yes
 13	initiiert	initiieren	VERB	VVPP	VerbForm=Part	0	root	_	_
