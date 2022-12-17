@@ -2689,7 +2689,7 @@
 
 # sent_id = dev-s154
 # text = War mit meinem Kater wegen eines entzündetem Auge dort.
-1	War	sein	NOUN	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	War	sein	NOUN	VAFIN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mit	mit	ADP	APPR	_	4	case	_	_
 3	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Kater	Kater	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
@@ -3329,7 +3329,7 @@
 19	,	,	PUNCT	$,	_	20	punct	_	_
 20	Solarien	Solarie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	22	punct	_	_
-22	rollen	rollen	NOUN	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	rollen	rollen	NOUN	VMFIN	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	conj	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_
 24	Bandmassage	Bandmassage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	28	punct	_	_
@@ -5634,7 +5634,7 @@
 
 # sent_id = dev-s328
 # text = Kam mit großen Zahnschmerzen zu Dr. Brune aufgrund einer Empfehlung.
-1	Kam	kommen	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Kam	kommen	NOUN	VVFIN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mit	mit	ADP	APPR	_	4	case	_	_
 3	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	Zahnschmerzen	Zahnschmerz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	_
@@ -6545,7 +6545,7 @@
 9	Fa	Fa	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 10	Maresch	Maresch	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	NamedEntity=Yes
 11	Kristall	Kristall	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	NamedEntity=Yes
-12	Leuchten	Leuchte|Leuchten	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	flat	_	NamedEntity=Yes
+12	Leuchten	Leuchte|Leuchten	PROPN	VVFIN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	flat	_	NamedEntity=Yes
 13	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
 15	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No

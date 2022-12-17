@@ -59,9 +59,9 @@
     <feat name="Number[psor]" value="Sing" upos="DET">1588</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
     <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7869</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
     <feat name="NumType" value="Ord" upos="ADJ">813</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, 5., fünften -->
-    <feat name="Person" value="1" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB,X">2467</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
+    <feat name="Person" value="1" upos="ADJ,ADP,AUX,CCONJ,DET,PART,PRON,VERB,X">2461</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">88</feat><!-- du, ihr, euch, bist, deinen, Dir, Siehe, dein, dich, gebt -->
-    <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">29831</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
+    <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,PART,PRON,PUNCT,SCONJ,VERB,X">29748</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
     <feat name="Polarity" value="Neg" upos="ADV,DET,NOUN,PART,PRON,PROPN">1400</feat><!-- nicht, keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, Nein -->
     <feat name="Poss" value="Yes" upos="DET,PRON,PROPN">2406</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">34501</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
