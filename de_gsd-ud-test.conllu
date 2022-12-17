@@ -16012,12 +16012,12 @@
 2-3	ums	_	_	_	_	_	_	_	_
 2	um	um	ADP	APPR	_	4	case	_	_
 3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-4	Überleben	Überleben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+4	Überleben	Überleben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 5	kämpfende	kämpfend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 6	dänische	dänisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
-7	Versicherungskonzern	Versicherungskonzern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	_
-8	Hafnia	Hafnia	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	NamedEntity=Yes
-9	scheint	scheinen	ADV	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Versicherungskonzern	Versicherungskonzern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	Hafnia	Hafnia	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	NamedEntity=Yes
+9	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	vorerst	vorerst	ADV	ADV	_	11	advmod	_	_
 11	gerettet	retten	VERB	VVPP	VerbForm=Part	9	xcomp	_	_
 12	zu	zu	PART	PTKZU	_	11	mark	_	_
