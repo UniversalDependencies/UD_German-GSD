@@ -736,14 +736,14 @@
 
 # sent_id = dev-s48
 # text = tolle engangierte mitarbeiter die auch sehr motiviert wirkten.
-1	tolle	toll	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-2	engangierte	engangiert	ADJ	VVFIN	Degree=Pos|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
-3	mitarbeiter	Mitarbeiter	NOUN	ADJD	_	0	root	_	_
-4	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	_
-5	auch	auch	ADV	ADV	_	6	advmod	_	_
+1	tolle	toll	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+2	engangierte	engangiert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+3	mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj	_	_
+5	auch	auch	ADV	ADV	_	7	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	motiviert	motiviert	ADJ	ADJD	Degree=Pos	8	xcomp	_	_
-8	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
+8	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s49
