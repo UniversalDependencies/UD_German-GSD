@@ -1509,13 +1509,14 @@
 
 # sent_id = test-s86
 # text = DasFahren wir jetzt seit Jahren hin.
-1	DasFahren	DasFahren	X	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
-3	jetzt	jetzt	ADV	ADV	_	1	advmod	_	_
-4	seit	seit	ADP	APPR	_	5	case	_	_
-5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	_
-6	hin	hin	ADV	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	1	punct	_	_
+1	Das	der	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+2	Fahren	fahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+5	seit	seit	ADP	APPR	_	6	case	_	_
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl:tmod	_	_
+7	hin	hin	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s87
 # text = Dazu haben wir am Mittag telefonisch im unteren Bereich des Restaurant 15 Plätze mit Snacks reserevieren lassen
