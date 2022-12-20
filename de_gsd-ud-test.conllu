@@ -7,7 +7,7 @@
 5	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	aber	aber	CCONJ	KON	_	11	cc	_	_
-8	alles	alle	ADV	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	11	nmod	_	_
+8	alles	alle	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	det	_	_
 9	andere	ander	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	dep	_	_
 10	als	als	ADP	KOKOM	_	8	case	_	_
 11	umwerfend	umwerfend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 
 # sent_id = test-s11
 # text = Alle am Wort Gottes interessierte Personen sind herzlich eingelanden, Gottesdienst mit Liedern, Gebeten und Predigten mit den Mitgliedern zu feiern.
-1	Alle	alle	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	7	det	_	_
+1	Alle	alle	DET	PIAT	Case=Nom|Number=Plur|PronType=Tot	7	det	_	_
 2-3	am	_	_	_	_	_	_	_	_
 2	an	an	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -194,7 +194,7 @@
 
 # sent_id = test-s12
 # text = Alles in Allem ein super Erlebnis.
-1	Alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	6	nmod	_	_
+1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	Allem	Allem	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -275,7 +275,7 @@
 # sent_id = test-s15
 # text = Also alles bestens, wie immer :)
 1	Also	also	ADV	ADV	_	3	advmod	_	_
-2	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nsubj	_	_
 3	bestens	bestens	ADJ	ADV	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	5	punct	_	_
 5	wie	wie	CCONJ	KOKOM	_	3	appos	_	_
@@ -422,14 +422,14 @@
 # text = Ansonsten war alles bestens.
 1	Ansonsten	ansonsten	ADV	ADV	_	4	advmod	_	_
 2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
-3	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	_
 4	bestens	bestens	ADJ	ADV	Degree=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s25
 # text = Auch alle anderen Speisen und der Kuchen aus eigener Herstellung.
 1	Auch	auch	ADV	ADV	_	4	advmod	_	_
-2	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+2	alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 3	anderen	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
 4	Speisen	Speise|Speisen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
@@ -499,7 +499,7 @@
 9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	zeichnet	zeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-12	alles	alle	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
+12	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	11	obj	_	_
 13	genaustens	genaustens	ADV	ADV	_	11	advmod	_	_
 14	vor	vor	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	20	punct	_	_
@@ -955,7 +955,7 @@
 5	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 7	und	und	CCONJ	KON	_	9	cc	_	_
-8	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	_
+8	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	obj	_	_
 9	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -1393,7 +1393,7 @@
 4	klasse	Klasse	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	vor	vor	ADP	APPR	_	7	case	_	_
-7	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	advmod	_	_
+7	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 10	und	und	CCONJ	KON	_	2	cc	_	_
@@ -1498,7 +1498,7 @@
 13	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	22	punct	_	_
 15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
-16	alle	alle	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	22	det	_	_
+16	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	22	det	_	_
 17	sehr	sehr	ADV	ADV	_	18	advmod	_	_
 18	viel	viel	PRON	PIS	PronType=Ind	22	obj	_	_
 19	von	von	ADP	APPR	_	21	case	_	_
@@ -1553,7 +1553,7 @@
 7	besagter	besagt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	ServiceMA	ServiceMA	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 9	gerade	gerade	ADV	ADV	_	16	advmod	_	_
-10	alle	alle	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+10	alle	alle	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	11	det	_	_
 11	Stühle	Stuhl	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	15	case	_	_
@@ -1614,7 +1614,7 @@
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	_
 9	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
-10	alles	alle	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	14	obj	_	_
 13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	_
@@ -1918,7 +1918,7 @@
 3	beherrschen	beherrschen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Instrumente	Instrument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
-6	alle	alle	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	3	det	_	_
+6	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	3	det	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
@@ -2427,7 +2427,7 @@
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	vor	vor	ADP	APPR	_	4	case	_	_
-4	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	_
+4	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
 7	üblichen	üblich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
@@ -2477,7 +2477,7 @@
 # text = Es ist alles sehr sauber und man wird sofort an der Tür freundlich begrüßt.
 1	Es	es	PRON	PPER	PronType=Prs	5	expl	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
+3	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	sauber	sauber	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	14	cc	_	_
@@ -2704,7 +2704,7 @@
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	_
 6	dann	dann	ADV	ADV	_	21	advmod	_	_
 7	an	an	ADP	APPR	_	10	case	_	_
-8	allen	alle	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	10	amod	_	_
+8	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	10	amod	_	_
 9	angebotenen	angeboten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	Kursen	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
 11	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
@@ -2822,7 +2822,7 @@
 24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Regattajacht	Regattajacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
 26	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	appos	_	_
-27	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	26	nsubj	_	_
+27	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	26	nsubj	_	_
 28	dabei	dabei	ADV	PAV	_	26	mark	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -2841,7 +2841,7 @@
 # sent_id = test-s163
 # text = Ging alles sehr schnell und kundenfreundlich
 1	Ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-2	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	1	nsubj	_	_
+2	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	1	nsubj	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
 4	schnell	schnell	ADJ	ADJD	Degree=Pos	1	xcomp	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
@@ -3071,7 +3071,7 @@
 28	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
 29	freundliche	freundlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
 30	Auftreten	Auftreten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
-31	aller	alle	PRON	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
+31	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	33	det	_	_
 32	beteiligten	beteiligt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_
 33	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	2	punct	_	_
@@ -3574,7 +3574,7 @@
 3	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	wünsche	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-6	allen	alle	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
 7	Lesern	Leser	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	_	_
 8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 9	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
@@ -3811,7 +3811,7 @@
 2	und	und	CCONJ	KON	_	6	cc	_	_
 3	so	so	ADV	ADV	_	6	advmod	_	_
 4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
-5	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	nsubj	_	_
 6	klar	klar	ADJ	ADJD	Degree=Pos	1	conj	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -4322,7 +4322,7 @@
 12	Frühstück	Frühstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
 13	und	und	CCONJ	KON	_	12	cc	_	_
 14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
-15	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	14	flat	_	_
+15	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	14	flat	_	_
 16	zu	zu	ADP	APPR	_	19	case	_	_
 17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	fairem	fair	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
@@ -4777,7 +4777,7 @@
 8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	allerdings	allerdings	ADV	ADV	_	8	advmod	_	_
 10	noch	noch	ADV	ADV	_	8	advmod	_	_
-11	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	nsubj	_	_
+11	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	8	nsubj	_	_
 12	in	in	ADP	APPR	_	13	case	_	_
 13	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 14	...	...	PUNCT	$(	_	8	punct	_	_
@@ -5076,7 +5076,7 @@
 6	schmuddelig	schmuddelig	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
 8	vor	vor	ADP	APPR	_	9	case	_	_
-9	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	13	nmod	_	_
+9	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	13	det	_	_
 10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Bad	Bad	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
 12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -5372,7 +5372,7 @@
 5	,	,	PUNCT	$,	_	16	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	16	mark	_	_
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
-8	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+8	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	9	det	_	_
 9	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
 10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
 11	letzten	letzter	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
@@ -5786,7 +5786,7 @@
 # sent_id = test-s329
 # text = ``Alles, was die Aufmerksamkeit auf den Mund lenkt ist gut'', lautet ihr erstes Mode- und Schminkgebot.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	12	nsubj	_	SpaceAfter=No
+2	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	10	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5980,7 +5980,7 @@
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 6	vor	vor	ADP	APPR	_	3	advmod	_	_
-7	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	6	fixed	_	_
+7	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	6	fixed	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Feld	Feld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
@@ -7261,7 +7261,7 @@
 4	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 6	aber	aber	ADV	ADV	_	12	advmod	_	_
-7	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	12	nsubj	_	_
+7	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	nsubj	_	_
 8	unter	unter	ADP	APPR	_	9	case	_	_
 9	Dach	Dach	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
@@ -9265,7 +9265,7 @@
 8	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 9	fast	fast	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 10	)	)	PUNCT	$(	_	9	punct	_	_
-11	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	12	nsubj	_	_
+11	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	nsubj	_	_
 12	anders	anders	ADJ	ADV	Degree=Pos	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
@@ -9930,7 +9930,7 @@
 15	Jose	Jose	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	NamedEntity=Yes
 16	Yglesias	Yglesias	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	NamedEntity=Yes
 17	vor	vor	ADP	APPR	_	18	case	_	_
-18	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	obl	_	_
+18	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	14	obl	_	_
 19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
 21	mittel	mitteln	NOUN	TRUNC	Case=Gen|Gender=Masc|Number=Plur	24	compound	_	SpaceAfter=No
@@ -11323,7 +11323,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-4	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+4	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
 5	Formulierungen	Formulierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
@@ -11687,7 +11687,7 @@
 16	Mitarbeitergruppen	Mitarbeitergruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	sondern	sondern	CCONJ	KON	_	20	cc	_	_
-19	alle	alle	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+19	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	20	det	_	_
 20	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	_
 21	Optionen	Option	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
 22	erwerben	erwerben	VERB	VVINF	VerbForm=Inf	25	ccomp	_	SpaceAfter=No
@@ -11813,7 +11813,7 @@
 3	Schlagzeilen	Schlagzeile	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
 4	geriet	geraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	vor	vor	ADP	APPR	_	6	case	_	_
-6	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	_
+6	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	4	obl	_	_
 7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
@@ -12821,7 +12821,7 @@
 14	zufolge	zufolge	ADP	APPO	_	3	case	_	_
 15	geschieht	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	_
-17	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	16	amod	_	_
+17	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	16	amod	_	_
 18	``	``	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 19-20	im	_	_	_	_	_	_	_	_
 19	in	in	ADP	APPR	_	22	case	_	_
@@ -14221,7 +14221,7 @@
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Rückzug	Rückzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
-16	aller	alle	PRON	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	21	amod	_	_
+16	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	21	amod	_	_
 17	schwer	schwer	ADV	ADJD	_	18	advmod	_	_
 18	bewaffneten	bewaffnet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 19	Mudjaheddin	Mudjaheddin	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	21	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -14631,7 +14631,7 @@
 7	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 8	österreichischen	österreichisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Grenzen	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
-10	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
+10	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
 11	wieder	wieder	ADV	ADV	_	5	advmod	_	_
 12	scheinbar	scheinbar	ADV	ADJD	_	5	advmod	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
@@ -15326,7 +15326,7 @@
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
 10	vor	vor	ADP	APPR	_	11	case	_	_
-11	allem	alle	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	19	nmod	_	_
+11	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	19	det	_	_
 12	auf	auf	ADP	APPR	_	19	case	_	_
 13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 14	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
@@ -15427,7 +15427,7 @@
 10	und	und	CCONJ	KON	_	16	cc	_	_
 11	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	16	nsubj	_	_
 12	noch	noch	ADV	ADV	_	16	advmod	_	_
-13	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
+13	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	det	_	_
 14	auf	auf	ADP	APPR	_	15	case	_	_
 15	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	obl	_	_
 16	wartet	warten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
@@ -16341,7 +16341,7 @@
 # sent_id = test-s795
 # text = Fast alle der rund 4000 für internationale Routen bestimmten Lastwagen Spaniens stehen still, 500 stecken in den Staus in Frankreich.
 1	Fast	fast	ADV	ADV	_	2	advmod	_	_
-2	alle	alle	PRON	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	12	nsubj	_	_
+2	alle	alle	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	12	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 4	rund	rund	ADV	ADJD	_	5	advmod	_	_
 5	4000	4000	NUM	CARD	NumType=Card	10	nummod	_	_
@@ -18213,7 +18213,7 @@
 2	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	vor	vor	ADP	APPR	_	5	case	_	_
-5	allem	alle	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	_
+5	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	_
 6	``	``	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 7	interne	intern	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
 8	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
@@ -18227,7 +18227,7 @@
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	Volumensteigerungen	Volumensteigerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	conj	_	_
 17	in	in	ADP	APPR	_	19	case	_	_
-18	allen	alle	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	19	nmod	_	_
+18	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	19	det	_	_
 19	Sparten	Sparte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	_
 20	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
@@ -19082,7 +19082,7 @@
 # sent_id = test-s942
 # text = aber alles in mir wehrt sich dagegen, das widerstandslos hinzunehmen.
 1	aber	aber	CCONJ	KON	_	5	cc	_	_
-2	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 5	wehrt	wehren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
