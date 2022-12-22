@@ -10922,7 +10922,7 @@
 
 # sent_id = dev-s618
 # text = Ihr Argument: Wenn nur wenige große Parteien in die Duma einziehen und viele kleine scheitern, werde der Wählerwillen verzerrt.
-1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det	_	FixTigerDep=Yes
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	FixTigerDep=Yes
 2	Argument	Argument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	21	punct	_	_
 4	Wenn	wenn	SCONJ	KOUS	_	12	mark	_	_

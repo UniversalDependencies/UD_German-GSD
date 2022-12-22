@@ -10325,7 +10325,7 @@
 
 # sent_id = test-s523
 # text = Ihr Sprecher Thomas Schlier kritisiert, für den Bürger sei bisher nicht klar, was bei einer Umstellung aus seiner Geldanlage und seinen Krediten werde und wie sich die Zinsen dann entwickeln.
-1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	dep	_	FixTigerDep=Yes
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
 2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Thomas	Thomas	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
 4	Schlier	Schlier	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
