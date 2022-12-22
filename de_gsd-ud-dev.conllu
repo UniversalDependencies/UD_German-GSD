@@ -13342,7 +13342,7 @@
 18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_
 20	heute	heute	ADV	ADV	_	18	advmod	_	_
-21	nicht	nicht	ADV	PTKNEG	Polarity=Neg	24	advmod	_	_
+21	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	_
 22	unter	unter	ADP	APPR	_	24	case	_	_
 23	300	300	NUM	CARD	NumType=Card	24	nummod	_	_
 24	Mark	Mark	PROPN	NN	Gender=Fem	18	obl	_	SpaceAfter=No|NamedEntity=Yes
