@@ -11385,11 +11385,11 @@
 5	Wirtschaft	Wirtschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
 6	lernen	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
-8	eurer	euer	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	eurer	euer	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Erniedrigung	Erniedrigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 10	und	und	CCONJ	KON	_	13	cc	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
-12	euren	euer	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	13	det:poss	_	_
+12	euren	euer	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Skandalen	Skandal	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	21	punct	_	_
 15	daß	daß	SCONJ	KOUS	_	21	mark	_	_
@@ -12457,11 +12457,11 @@
 5	Wirtschaft	Wirtschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
 6	lernen	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
-8	eurer	euer	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	eurer	euer	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Erniedrigung	Erniedrigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 10	und	und	CCONJ	KON	_	13	cc	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
-12	euren	euer	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	13	det:poss	_	_
+12	euren	euer	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Skandalen	Skandal	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	21	punct	_	_
 15	daß	daß	SCONJ	KOUS	_	21	mark	_	_
