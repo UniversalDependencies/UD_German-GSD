@@ -6976,7 +6976,7 @@
 2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Sauerbraten	Sauerbraten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	9	punct	_	_
-5	welcher	welch	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
+5	welcher	welcher	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj:pass	_	_
 6	mit	mit	ADP	APPR	_	8	case	_	_
 7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Fertigsauce	Fertigsauce	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
@@ -8724,7 +8724,7 @@
 16	wissen	wissen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	23	punct	_	_
 18	``	``	PUNCT	$(	_	23	punct	_	SpaceAfter=No
-19	welche	welch	PRON	PWAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	21	det	_	_
+19	welche	welcher	DET	PWAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	21	det	_	_
 20	neuen	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 21	Kandidaten	Kandidat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
 22	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
@@ -13940,7 +13940,7 @@
 7	,	,	PUNCT	$,	_	14	punct	_	_
 8	bis	bis	ADP	APPR	_	11	case	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
-10	welchem	welch	PRON	PWAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	11	det	_	_
+10	welchem	welcher	DET	PWAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Int,Rel	11	det	_	_
 11	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
 12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	_
 13	gemeinsam	gemeinsam	ADV	ADJD	_	14	advmod	_	_

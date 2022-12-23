@@ -10,7 +10,7 @@
     <dev><sentences>799</sentences><tokens>12317</tokens><words>12481</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42313" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42312" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,12 +20,12 @@
     <tag name="ADV">14836</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">39686</tag><!-- der, ein, sein, dieser, ihr, alle, kein, mein, viel, unser -->
+    <tag name="DET">39804</tag><!-- der, ein, sein, dieser, ihr, alle, kein, mein, viel, unser -->
     <tag name="INTJ">6</tag><!-- hallo, Ok, ade, wehe -->
     <tag name="NOUN">52238</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7406</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2146</tag><!-- nicht, zu, aus, ja, nein, an, hin, her, wie, 's -->
-    <tag name="PRON">12200</tag><!-- er, der, sich, es, ich, sie, wir, man, Sie|sie, was -->
+    <tag name="PRON">12082</tag><!-- er, der, sich, es, ich, sie, wir, man, Sie|sie, was -->
     <tag name="PROPN">30574</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38494</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
@@ -34,7 +34,7 @@
     <tag name="X">320</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="46">
+  <feats unique="47">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">35</feat><!-- bzgl, bzw, l, sog, u, AG, Chr, ET, FK, GT -->
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30689</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">47759</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
@@ -67,11 +67,12 @@
     <feat name="PronType" value="Art" upos="DET">34529</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1785</feat><!-- diese, dieser, das, diesem, dieses, dies, diesen, dessen, deren, die -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2220</feat><!-- man, viele, beiden, einige, mehrere, anderem, vielen, mehr, einer, nichts -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">496</feat><!-- wo, was, wobei, wer, wie, welche, warum, wodurch, wovon, weshalb -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">465</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
+    <feat name="PronType" value="Int,Rel" upos="DET">119</feat><!-- welche, welches, welcher, welchem, welchen, welch -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">301</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts, reine -->
     <feat name="PronType" value="Prs" upos="DET,PRON">10044</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- einander -->
-    <feat name="PronType" value="Rel" upos="DET,PRON,X">2144</feat><!-- die, der, das, dem, was, denen, den, deren, welche, dessen -->
+    <feat name="PronType" value="Rel" upos="DET,PRON,X">2056</feat><!-- die, der, das, dem, was, denen, den, deren, dessen, derer -->
     <feat name="PronType" value="Tot" upos="DET">461</feat><!-- alle, allem, alles, allen, aller -->
     <feat name="Reflex" value="Yes" upos="PRON">1696</feat><!-- sich, mich, uns, mir, dich -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,NOUN,PROPN,VERB">10761</feat><!-- wurde, war, wurden, hatte, waren, konnte, kam, gab, erhielt, hatten -->
@@ -102,7 +103,7 @@
     <dep name="csubj">192</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1047</dep>
-    <dep name="det">36864</dep>
+    <dep name="det">36867</dep>
     <dep name="det:poss">2438</dep>
     <dep name="discourse">9</dep>
     <dep name="expl">397</dep>
@@ -111,7 +112,7 @@
     <dep name="flat">8173</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3148</dep>
-    <dep name="nmod">21552</dep>
+    <dep name="nmod">21549</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">17347</dep>
     <dep name="nsubj:outer">3</dep>
