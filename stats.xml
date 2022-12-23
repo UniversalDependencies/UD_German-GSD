@@ -20,12 +20,12 @@
     <tag name="ADV">14836</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">39665</tag><!-- der, ein, sein, dieser, ihr, alle, kein, mein, viel, unser -->
+    <tag name="DET">39686</tag><!-- der, ein, sein, dieser, ihr, alle, kein, mein, viel, unser -->
     <tag name="INTJ">6</tag><!-- hallo, Ok, ade, wehe -->
     <tag name="NOUN">52238</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7406</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2146</tag><!-- nicht, zu, aus, ja, nein, an, hin, her, wie, 's -->
-    <tag name="PRON">12221</tag><!-- er, der, sich, es, ich, sie, wir, man, Sie|sie, was -->
+    <tag name="PRON">12200</tag><!-- er, der, sich, es, ich, sie, wir, man, Sie|sie, was -->
     <tag name="PROPN">30574</tag><!-- Deutschland, de, of, US, Berlin, the, deutsch, SPD, Weltkrieg, Frankreich -->
     <tag name="PUNCT">38494</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->

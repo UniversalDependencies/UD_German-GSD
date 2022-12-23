@@ -15400,7 +15400,7 @@
 # text = Sie soll jene, die sich nun über sie hermachen, nicht erkennen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-3	jene	jen	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem	13	obj	_	SpaceAfter=No
+3	jene	jener	DET	PDS	Case=Acc|Number=Plur|PronType=Dem	13	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
