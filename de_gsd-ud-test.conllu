@@ -1500,7 +1500,7 @@
 15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
 16	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	22	det	_	_
 17	sehr	sehr	ADV	ADV	_	18	advmod	_	_
-18	viel	viel	PRON	PIS	PronType=Ind	22	obj	_	_
+18	viel	viel	DET	PIS	PronType=Ind	22	obj	_	_
 19	von	von	ADP	APPR	_	21	case	_	_
 20	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Handwerk	Handwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
@@ -1718,7 +1718,7 @@
 2	für	für	ADP	APPR	_	3	case	_	_
 3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
 4	und	und	CCONJ	KON	_	6	cc	_	_
-5	viele	viel	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	det	_	_
+5	viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	det	_	_
 6	andere	ander	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	3	conj	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Nr.1	Nr.1	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
@@ -4416,7 +4416,7 @@
 1	Sicherlich	sicherlich	ADV	ADV	_	2	advmod	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	viele	viel	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+4	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Banken	Bank	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	15	punct	_	_
 7	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	_
@@ -4700,7 +4700,7 @@
 4	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 6	bei	bei	ADP	APPR	_	7	case	_	_
-7	vielem	viel	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
+7	vielem	viel	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
 8	mitfahren	mitfahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	11	punct	_	_
 10	jedoch	jedoch	CCONJ	ADV	_	11	cc	_	_
@@ -5557,7 +5557,7 @@
 5	durchweg	durchweg	ADV	ADV	_	6	advmod	_	_
 6	trocken	trocken	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
-8	viele	viel	PRON	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	11	nsubj:pass	_	_
+8	viele	viel	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	11	nsubj:pass	_	_
 9	sollten	sollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 10	jung	jung	ADJ	ADJD	_	11	advmod	_	_
 11	getrunken	trinken	VERB	VVPP	VerbForm=Part	6	conj	_	_
@@ -7024,7 +7024,7 @@
 22	leider	leider	ADV	ADV	_	23	advmod	_	_
 23	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
 24	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
-25	viele	viel	PRON	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	23	nsubj	_	_
+25	viele	viel	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	23	nsubj	_	_
 26	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	_
 27	besten	gut	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	28	amod	_	_
 28	Dozenten	Dozent	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
@@ -7901,7 +7901,7 @@
 
 # sent_id = test-s417
 # text = Viele Gerichte, so die Konsumentenschützer, verpflichteten die Manager schon zu ``Bedingungen in Dur''.
-1	Viele	vieler	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Gerichte	Gericht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	so	so	ADV	ADV	_	6	advmod	_	_
@@ -8009,7 +8009,7 @@
 
 # sent_id = test-s422
 # text = Viele Göttinger ``Autonome'' laufen zur Zeit mit einem unguten Gefühl durch die Stadt.
-1	Viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Göttinger	Göttinger	ADJ	ADJA	Degree=Pos	4	compound	_	_
 3	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Autonome	autonome	PROPN	NN	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No|NamedEntity=Yes
@@ -8051,7 +8051,7 @@
 # text = Großbauern streichen viel ein, die kleinen bekommen wenig
 1	Großbauern	Großbauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	streichen	streichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	viel	viel	PRON	PIS	PronType=Ind	2	obj	_	_
+3	viel	viel	DET	PIS	PronType=Ind	2	obj	_	_
 4	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -9837,7 +9837,7 @@
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Erbin	Erbin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-6	vieler	viel	PRON	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	vieler	viel	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	Namen	Name	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 8	''	''	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
@@ -12202,7 +12202,7 @@
 2	Tokio	Tokio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
 6	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	überzeugt	überzeugen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	18	punct	_	_
@@ -12928,7 +12928,7 @@
 
 # sent_id = test-s639
 # text = Viele von ihnen, die in Amt und Würde sind, haben inzwischen ein Vermögen zusammengerafft, von dem die Schahminister, deren Habgier sprichwörtlich war, nur träumen konnten.
-1	Viele	viel	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	16	nsubj	_	_
+1	Viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	16	nsubj	_	_
 2	von	von	ADP	APPR	_	3	case	_	_
 3	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
@@ -12989,7 +12989,7 @@
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	25	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	det	_	_
+5	viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	det	_	_
 6	Sorgen	Sorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Nöte	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
@@ -13078,7 +13078,7 @@
 # text = Wenn auch viele Kubaner ihre Teilnahme ohne Konsequenzen verweigern konnten, so wurde Violeta Romeros hartnäckige Ablehnung letztlich für ihren Rausschmiß aus der Partei benutzt, erzählt ihr Ehemann.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	auch	auch	ADV	ADV	_	9	advmod	_	_
-3	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+3	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 4	Kubaner	Kubaner	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	NamedEntity=Yes
 5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Teilnahme	Teilnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -13303,7 +13303,7 @@
 11	Flächenzersplitterung	Flächenzersplitterung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	denn	denn	SCONJ	KON	_	18	mark	_	_
-14	viele	viele	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+14	viele	viel	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
 15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 16	zwangskollektivierten	zwangskollektiviert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
 17	Kleinbauern	Kleinbauer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
@@ -14420,7 +14420,7 @@
 4	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
-7	vielen	vieler	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 8	Fällen	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
 9	erst	erst	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	18	punct	_	_
@@ -15506,7 +15506,7 @@
 
 # sent_id = test-s759
 # text = Viele Studenten wechseln in den Westen
-1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Studenten	Student	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	wechseln	wechseln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -16447,7 +16447,7 @@
 
 # sent_id = test-s801
 # text = Viele Kleinaktionäre wollen zudem die Höhe ihrer Abfindung gerichtlich festlegen lassen.
-1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Kleinaktionäre	Kleinaktionär	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 4	zudem	zudem	ADV	PAV	_	10	advmod	_	_
@@ -17470,7 +17470,7 @@
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	noch	noch	ADV	ADV	_	3	advmod	_	_
-5	vieles	viel	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
+5	vieles	viel	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
 6-7	im	_	_	_	_	_	_	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -18603,7 +18603,7 @@
 1	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Und	und	CCONJ	KON	_	6	cc	_	_
 3	wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	_
-4	viele	vieler	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+4	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Divisionen	Division	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -19682,7 +19682,7 @@
 8	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
 9	wie	wie	ADP	KOKOM	_	11	case	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
-11	viele	viel	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	18	obl	_	_
+11	viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	18	obl	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 13	tiefe	tief	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
