@@ -5557,9 +5557,9 @@
 5	durchweg	durchweg	ADV	ADV	_	6	advmod	_	_
 6	trocken	trocken	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
-8	viele	viel	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	nsubj:pass	_	_
-9	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
-10	jung	jung	ADV	ADJD	_	11	advmod	_	_
+8	viele	viel	PRON	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	11	nsubj:pass	_	_
+9	sollten	sollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	jung	jung	ADJ	ADJD	_	11	advmod	_	_
 11	getrunken	trinken	VERB	VVPP	VerbForm=Part	6	conj	_	_
 12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
