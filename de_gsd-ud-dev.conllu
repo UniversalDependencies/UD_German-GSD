@@ -6924,15 +6924,15 @@
 12	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = dev-s410
-# text = Leider viel unsere Wahl auf das Schuchmann 's.
+# text = Leider viel unsere Wahl auf das Schuchmann's.
 1	Leider	leider	ADV	ADV	_	2	advmod	_	_
-2	viel	viel	VERB	ADV	_	0	root	_	_
+2	viel	fallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=fiel
 3	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-7	Schuchmann	Schuchmann	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	NamedEntity=Yes
-8	's	's	X	PPER	Foreign=Yes	7	flat	_	SpaceAfter=No
+7	Schuchmann	Schuchmann	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|NamedEntity=Yes
+8	's	's	PART	FM	Foreign=Yes	7	case	_	Lang=en|SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s411
