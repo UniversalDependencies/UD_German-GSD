@@ -36,7 +36,7 @@
 19-20	im	_	_	_	_	_	_	_	_
 19	in	in	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
-21	selben	selb	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	22	amod	_	_
+21	selben	selb	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	22	det	_	_
 22	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
 23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	AOWD	AOWD	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	NamedEntity=Yes
@@ -495,7 +495,7 @@
 5	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl:arg	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
-8	viel	viel	DET	PIAT	PronType=Ind	9	amod	_	_
+8	viel	viel	DET	PIAT	PronType=Ind	9	det	_	_
 9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	zeichnet	zeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -2347,7 +2347,7 @@
 32	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 33	für	für	ADP	APPR	_	36	case	_	_
 34	so	so	ADV	ADV	_	35	advmod	_	_
-35	viel	viel	DET	PIAT	PronType=Ind	36	amod	_	_
+35	viel	viel	DET	PIAT	PronType=Ind	36	det	_	_
 36	Spass	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
 37	gesorgt	sorgen	VERB	VVPP	VerbForm=Part	29	advcl	_	_
 38	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
@@ -2704,7 +2704,7 @@
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	_
 6	dann	dann	ADV	ADV	_	21	advmod	_	_
 7	an	an	ADP	APPR	_	10	case	_	_
-8	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	10	amod	_	_
+8	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
 9	angebotenen	angeboten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	Kursen	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
 11	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
@@ -2959,7 +2959,7 @@
 4	W	W	PROPN	NE	Case=Nom|Number=Sing	2	conj	_	NamedEntity=Yes
 5	Team	Team	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	SpaceAfter=No|NamedEntity=Yes
 6	,	,	PUNCT	$,	_	8	punct	_	_
-7	vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	amod	_	_
+7	vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 9	nochmal	nochmal	ADV	ADV	_	8	advmod	_	_
 10	für	für	ADP	APPR	_	15	case	_	_
@@ -3657,7 +3657,7 @@
 11	,	,	PUNCT	$,	_	22	punct	_	_
 12	dass	dass	SCONJ	KOUS	_	22	mark	_	_
 13	nach	nach	ADP	APPR	_	15	case	_	_
-14	sovielen	sovielen	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	15	amod	_	_
+14	sovielen	sovielen	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	_
 15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -4748,13 +4748,13 @@
 
 # sent_id = test-s274
 # text = Viele Grüße.
-1	Viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	amod	_	_
+1	Viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Grüße	Gruß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s275
 # text = Vielen Dank für den wunderbaren Grillkochkurs vor 2 Wochen.
-1	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+1	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
 3	für	für	ADP	APPR	_	6	case	_	_
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -4785,7 +4785,7 @@
 # sent_id = test-s277
 # text = Während viele Apotheken heutzutage mit unmotivierten Mitarbeitern den Kunden eher vergraulen, findet man hier in Warendorf motivierte Mitarbeiter die stets freundlich sind.
 1	Während	während	SCONJ	KOUS	_	11	mark	_	_
-2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	_
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	Apotheken	Apotheke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 4	heutzutage	heutzutage	ADV	ADV	_	11	advmod	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
@@ -11048,7 +11048,7 @@
 5	bei	bei	ADP	APPR	_	7	case	_	_
 6	gleichem	gleich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	Einsatz	Einsatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-8	mehr	mehr	DET	PIAT	PronType=Ind	9	amod	_	_
+8	mehr	mehr	DET	PIAT	PronType=Ind	9	det	_	_
 9	Quartiere	Quartier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
 10	herausspringen	herausspringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 11	als	als	ADP	KOKOM	_	16	case	_	_
@@ -12202,7 +12202,7 @@
 2	Tokio	Tokio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes
 3	allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	_
+5	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
 6	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	überzeugt	überzeugen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	18	punct	_	_
@@ -12821,7 +12821,7 @@
 14	zufolge	zufolge	ADP	APPO	_	3	case	_	_
 15	geschieht	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	_
-17	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	16	amod	_	_
+17	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	16	det	_	_
 18	``	``	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 19-20	im	_	_	_	_	_	_	_	_
 19	in	in	ADP	APPR	_	22	case	_	_
@@ -12989,7 +12989,7 @@
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	25	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-5	viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	amod	_	_
+5	viele	vieler	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	6	det	_	_
 6	Sorgen	Sorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Nöte	Not	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
@@ -13078,7 +13078,7 @@
 # text = Wenn auch viele Kubaner ihre Teilnahme ohne Konsequenzen verweigern konnten, so wurde Violeta Romeros hartnäckige Ablehnung letztlich für ihren Rausschmiß aus der Partei benutzt, erzählt ihr Ehemann.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	auch	auch	ADV	ADV	_	9	advmod	_	_
-3	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	_
+3	viele	vieler	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 4	Kubaner	Kubaner	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	NamedEntity=Yes
 5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Teilnahme	Teilnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -14221,7 +14221,7 @@
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Rückzug	Rückzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
-16	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	21	amod	_	_
+16	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	21	det	_	_
 17	schwer	schwer	ADV	ADJD	_	18	advmod	_	_
 18	bewaffneten	bewaffnet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 19	Mudjaheddin	Mudjaheddin	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	21	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -14338,7 +14338,7 @@
 23	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	27	nmod	_	_
 25	um	um	ADP	APPR	_	26	case	_	_
-26	etliches	etlicher	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	27	amod	_	_
+26	etliches	etlicher	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	27	det	_	_
 27	geringer	gering	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No
 28	:	:	PUNCT	$.	_	27	punct	_	_
 
@@ -16465,7 +16465,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	mehrere	mehrere	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	amod	_	_
+4	mehrere	mehrere	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	Warnschüsse	Warnschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 6	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
@@ -17599,7 +17599,7 @@
 12	Ausländer	Ausländer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
 14	entsprechend	entsprechend	ADV	ADJD	_	16	advmod	_	_
-15	weniger	weniger	DET	PIAT	Case=Dat|PronType=Ind	16	amod	_	_
+15	weniger	weniger	DET	PIAT	Case=Dat|PronType=Ind	16	det	_	_
 16	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -18603,7 +18603,7 @@
 1	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Und	und	CCONJ	KON	_	6	cc	_	_
 3	wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	_
-4	viele	vieler	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	amod	_	_
+4	viele	vieler	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Divisionen	Division	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
