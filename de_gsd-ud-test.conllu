@@ -17193,7 +17193,7 @@
 26	Ortsvorsteher	Ortsvorsteher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	30	punct	_	_
 28	und	und	CCONJ	KON	_	30	cc	_	_
-29	all	all	PRON	PIAT	PronType=Ind	30	det	_	_
+29	all	alle	DET	PIAT	PronType=Tot	30	det	_	_
 30	derjenigen	diejenige	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	19	conj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	38	punct	_	_
 32	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	38	nsubj	_	_

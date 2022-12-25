@@ -7597,7 +7597,7 @@
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
 13	eingeengt	einengen	ADJ	ADJD	Degree=Pos|VerbForm=Part	10	xcomp	_	_
 14	mit	mit	ADP	APPR	_	17	case	_	_
-15	all	all	DET	PIAT	Case=Dat|PronType=Ind	17	det	_	_
+15	all	alle	DET	PIAT	PronType=Tot	17	det	_	_
 16	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
 17	Häusermauern	Häusermauer	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	7	punct	_	_
@@ -7969,7 +7969,7 @@
 3	Werkstatt	Werkstatt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	lösen	lösen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-6	all	all	DET	PIAT	PronType=Ind	8	det	_	_
+6	all	alle	DET	PIAT	PronType=Tot	8	det	_	_
 7	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Fahradprobleme	Fahradprobleme	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	4	punct	_	_
@@ -9199,7 +9199,7 @@
 21	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	27	punct	_	_
 23	mit	mit	ADP	APPR	_	27	case	_	_
-24	all	all	PRON	PIAT	Case=Dat|PronType=Ind	27	det	_	_
+24	all	alle	DET	PIAT	PronType=Tot	27	det	_	_
 25	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 26	gesellschaftlichen	gesellschaftlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_
 27	Konsequenzen	Konsequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
