@@ -14497,7 +14497,7 @@
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	über	über	ADP	APPR	_	7	case	_	_
 7	den	der	DET	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
-8	man	Man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 9	kaum	kaum	ADV	ADV	_	10	advmod	_	_
 10	hinausschauen	hinausschauen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
 11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No

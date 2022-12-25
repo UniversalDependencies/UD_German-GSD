@@ -1559,7 +1559,7 @@
 # sent_id = dev-s92
 # text = Das Essen im Restaurant (zartes Rumpsteak, 250g mit Beilagen für rund 14.-- €) ein Gedicht!
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -1568,18 +1568,17 @@
 7	zartes	zart	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	Rumpsteak	Rumpsteak	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	10	punct	_	_
-10	250g	250g	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nmod	_	_
+10	250g	250g	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	appos	_	_
 11	mit	mit	ADP	APPR	_	12	case	_	_
-12	Beilagen	Beilage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
-13	für	für	ADP	APPR	_	17	case	_	_
+12	Beilagen	Beilage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	_
+13	für	für	ADP	APPR	_	16	case	_	_
 14	rund	rund	ADV	ADV	_	15	advmod	_	_
-15	14.	14.	ADJ	ADJA	Degree=Pos|NumType=Ord	17	amod	_	SpaceAfter=No
-16	--	--	PUNCT	$(	_	15	punct	_	_
-17	€	€	SYM	NN	_	8	nmod	_	SpaceAfter=No
-18	)	)	PUNCT	$(	_	8	punct	_	_
-19	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-20	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-21	!	!	PUNCT	$.	_	20	punct	_	_
+15	14.--	14.--	NUM	CARD	NumType=Card	16	nummod	_	_
+16	€	€	SYM	NN	_	10	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	$(	_	8	punct	_	_
+18	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+20	!	!	PUNCT	$.	_	19	punct	_	_
 
 # sent_id = dev-s93
 # text = Ein Kompliment von hier aus nochmal an den Koch!
