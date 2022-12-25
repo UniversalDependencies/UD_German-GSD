@@ -5316,10 +5316,10 @@
 1	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
-4	nichts	Nichts	PRON	PIS	Gender=Neut|PronType=Ind	3	obj	_	_
+4	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	3	obj	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	11	nsubj	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
