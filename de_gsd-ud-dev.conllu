@@ -13123,8 +13123,8 @@
 
 # sent_id = dev-s711
 # text = Melden Sie die Gäste an, sonst droht eine Geldstrafe.
-1	Melden	melden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+1	Melden	melden	VERB	VVFIN	Mood=Imp|Person=2|Polite=Form|VerbForm=Fin	0	root	_	_
+2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	Gäste	Gast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
 5	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
