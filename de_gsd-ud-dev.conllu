@@ -347,7 +347,7 @@
 
 # sent_id = dev-s25
 # text = Sie hingen zum Schluss hin wie ein nasser Sack an mir.
-1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	hingen	hängen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3-4	zum	_	_	_	_	_	_	_	_
 3	zu	zu	ADP	APPR	_	5	case	_	_
@@ -5708,7 +5708,7 @@
 
 # sent_id = dev-s334
 # text = Sie halten wesentlich länger, als Billig - Schuhe, daher spart man sehr viel Geld.
-1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	wesentlich	wesentlich	ADV	ADJD	_	4	advmod	_	_
 4	länger	lang	ADV	ADJD	_	2	advmod	_	SpaceAfter=No
