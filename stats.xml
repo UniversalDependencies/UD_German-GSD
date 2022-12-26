@@ -5,95 +5,96 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>15590</sentences><tokens>287722</tokens><words>292770</words><fused>5048</fused></total>
+    <total><sentences>15590</sentences><tokens>287721</tokens><words>292769</words><fused>5048</fused></total>
     <train><sentences>13814</sentences><tokens>259181</tokens><words>263791</words><fused>4610</fused></train>
-    <dev><sentences>799</sentences><tokens>12317</tokens><words>12481</words><fused>164</fused></dev>
+    <dev><sentences>799</sentences><tokens>12316</tokens><words>12480</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42307" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42309" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20807</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
+    <tag name="ADJ">20810</tag><!-- erst, groß, gut, neu, weit, spät, ander, deutsch, alt, hoch -->
     <tag name="ADP">32106</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14836</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">40175</tag><!-- der, ein, sein, dieser, ihr, alle, kein, viel, mein, jeder -->
+    <tag name="DET">40180</tag><!-- der, ein, sein, dieser, ihr, alle, kein, viel, mein, jeder -->
     <tag name="INTJ">7</tag><!-- hallo, Ok, ach, ade, wehe -->
-    <tag name="NOUN">52240</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
-    <tag name="NUM">7406</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
-    <tag name="PART">2148</tag><!-- nicht, zu, aus, ja, nein, an, hin, 's, her, wie -->
-    <tag name="PRON">11794</tag><!-- er, der, sich, es, ich, sie, wir, man, Sie|sie, was -->
-    <tag name="PROPN">30469</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
-    <tag name="PUNCT">38494</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
+    <tag name="NOUN">52267</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
+    <tag name="NUM">7408</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
+    <tag name="PART">2149</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
+    <tag name="PRON">11770</tag><!-- er, der, sich, es, sie, ich, wir, man, was, Sie|sie -->
+    <tag name="PROPN">30456</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
+    <tag name="PUNCT">38493</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
     <tag name="SYM">95</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
     <tag name="VERB">20684</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
-    <tag name="X">318</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
+    <tag name="X">317</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="47">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">35</feat><!-- bzgl, bzw, l, sog, u, AG, Chr, ET, FK, GT -->
-    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30685</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">47742</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
-    <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">17856</feat><!-- der, des, eines, einer, seiner, deren, dieser, Stadt, seines, dessen -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48753</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
+  <feats unique="48">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,VERB,X">38</feat><!-- bzgl, bzw, l, sog, u, AG, Chr, Dr., ET, FK -->
+    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30683</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">47745</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
+    <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">17852</feat><!-- der, des, eines, einer, seiner, deren, dieser, Stadt, seines, dessen -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48752</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29411</feat><!-- der, die, dem, den, das, des, the, 's -->
     <feat name="Definite" value="Ind" upos="DET">5193</feat><!-- eine, ein, einer, einem, einen, eines, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ">1040</feat><!-- später, weitere, weiteren, weiter, besser, früheren, früher, größere, späteren, höhere -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">19275</feat><!-- ersten, erste, anderen, neue, zweiten, bekannt, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">467</feat><!-- nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste, ältesten -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2525</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51514</feat><!-- der, die, eine, einer, sie, den, seine, diese, seiner, Zeit -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">53278</feat><!-- dem, der, er, den, des, die, ein, einen, einem, ihm -->
-    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">32944</feat><!-- das, dem, es, ein, des, die, jahr, den, Jahre, Jahren -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2532</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51515</feat><!-- der, die, eine, einer, sie, den, seine, diese, seiner, Zeit -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">53276</feat><!-- dem, der, er, den, des, die, ein, einen, einem, ihm -->
+    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">32947</feat><!-- das, dem, es, ein, des, die, jahr, den, Jahre, Jahren -->
+    <feat name="Gender[psor]" value="Fem" upos="DET">3</feat><!-- Ihr -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">1388</feat><!-- seine, seiner, sein, seinen, seinem, seines -->
     <feat name="Mood" value="Imp" upos="PROPN,VERB,X">45</feat><!-- siehe, laßt, vgl., Brecht, EVTA, Gebt, Kambodschas, Kenne, Laß, Schaut -->
     <feat name="Mood" value="Ind" upos="AUX,NOUN,PROPN,VERB">21619</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, werden -->
     <feat name="Mood" value="Sub" upos="AUX,NOUN,PROPN,VERB">769</feat><!-- sei, habe, würde, hätte, werde, hätten, seien, wäre, möchte, könnte -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">34344</feat><!-- die, den, der, sind, sie, wurden, sich, wir, werden, waren -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">132681</feat><!-- der, dem, die, das, ist, er, des, eine, ein, wurde -->
-    <feat name="Number[psor]" value="Plur" upos="DET">130</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, eure, ihres -->
-    <feat name="Number[psor]" value="Sing" upos="DET">1588</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
-    <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7867</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
-    <feat name="NumType" value="Ord" upos="ADJ,NUM">815</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, 5., fünften -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">34338</feat><!-- die, den, der, sind, sie, wurden, sich, wir, werden, waren -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">132684</feat><!-- der, dem, die, das, ist, er, des, eine, ein, wurde -->
+    <feat name="Number[psor]" value="Plur" upos="DET">131</feat><!-- unsere, unser, unserer, unserem, unseren, unseres, euren, eurer, Ihr, eure -->
+    <feat name="Number[psor]" value="Sing" upos="DET">1591</feat><!-- seine, seiner, sein, seinen, seinem, seines, meine, mein, meiner, meinem -->
+    <feat name="NumType" value="Card" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,X">7868</feat><!-- zwei, drei, vier, 1, 2007, 2, fünf, 2006, 3, 2009 -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">814</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, 5., fünften -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2459</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">93</feat><!-- du, ihr, euch, bist, deinen, Dir, Siehe, dein, dich, euren -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">29745</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">92</feat><!-- du, ihr, euch, bist, deinen, Dir, Siehe, dein, dich, euren -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">29744</feat><!-- ist, er, sich, wurde, war, sie, es, sind, wird, hat -->
     <feat name="Polarity" value="Neg" upos="PART">1102</feat><!-- nicht, Nein, garnicht, nich -->
     <feat name="Poss" value="Yes" upos="DET,PRON,PROPN">2410</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">34629</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1785</feat><!-- diese, dieser, das, diesem, dieses, dies, diesen, dessen, deren, die -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2053</feat><!-- man, viele, beiden, einige, mehrere, anderem, vielen, mehr, einer, viel -->
-    <feat name="PronType" value="Int" upos="ADV,PRON">465</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1783</feat><!-- diese, dieser, das, diesem, dieses, dies, diesen, dessen, deren, die -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2045</feat><!-- man, viele, beiden, einige, mehrere, anderem, vielen, mehr, einer, viel -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">463</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
     <feat name="PronType" value="Int,Rel" upos="DET">119</feat><!-- welche, welches, welcher, welchem, welchen, welch -->
-    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">301</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts, reine -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">10068</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">302</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts, reine -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">10066</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- einander -->
-    <feat name="PronType" value="Rel" upos="DET,PRON,X">2056</feat><!-- die, der, das, dem, was, denen, den, deren, dessen, derer -->
+    <feat name="PronType" value="Rel" upos="DET,PRON,X">2053</feat><!-- die, der, das, dem, was, denen, den, deren, dessen, derer -->
     <feat name="PronType" value="Tot" upos="DET">617</feat><!-- alle, allem, alles, allen, aller, jede, jeden, jeder, jedem, jedes -->
     <feat name="Reflex" value="Yes" upos="PRON">1696</feat><!-- sich, mich, uns, mir, dich -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,NOUN,PROPN,VERB">10763</feat><!-- wurde, war, wurden, hatte, waren, konnte, kam, gab, erhielt, hatten -->
     <feat name="Tense" value="Pres" upos="AUX,NOUN,PROPN,VERB">11629</feat><!-- ist, sind, wird, hat, kann, werden, haben, gibt, habe, liegt -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,NOUN,SCONJ,VERB">54</feat><!-- das, fuer, läd, viel, Empfelen, Fischen, Frage, Probefahren, Repariert, Sagen -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">57</feat><!-- das, Ihr, fuer, läd, viel, Empfelen, Fischen, Frage, Probefahren, Repariert -->
     <feat name="VerbForm" value="Fin" upos="ADJ,AUX,NOUN,PROPN,VERB,X">22434</feat><!-- ist, wurde, war, sind, wird, hat, wurden, kann, hatte, werden -->
-    <feat name="VerbForm" value="Inf" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB,X">3604</feat><!-- werden, sein, empfehlen, lassen, haben, können, machen, finden, erreichen, sehen -->
+    <feat name="VerbForm" value="Inf" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB,X">3603</feat><!-- werden, sein, empfehlen, lassen, haben, können, machen, finden, erreichen, sehen -->
     <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB">5859</feat><!-- worden, gegründet, genannt, verwendet, eingesetzt, genutzt, bezeichnet, gewesen, gebaut, gewählt -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">3146</feat><!-- wurde, werden, wird, wurden, worden, werde, würden, würde -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">3147</feat><!-- wurde, werden, wird, wurden, worden, werde, würden, würde -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
-    <dep name="acl">2680</dep>
-    <dep name="acl:relcl">22</dep>
+    <dep name="acl">2679</dep>
+    <dep name="acl:relcl">23</dep>
     <dep name="advcl">1467</dep>
-    <dep name="advmod">17332</dep>
-    <dep name="amod">16396</dep>
-    <dep name="appos">6932</dep>
+    <dep name="advmod">17334</dep>
+    <dep name="amod">16394</dep>
+    <dep name="appos">6934</dep>
     <dep name="aux">3283</dep>
-    <dep name="aux:pass">3424</dep>
-    <dep name="case">30674</dep>
+    <dep name="aux:pass">3423</dep>
+    <dep name="case">30675</dep>
     <dep name="cc">8782</dep>
     <dep name="ccomp">873</dep>
     <dep name="compound">1531</dep>
@@ -102,30 +103,30 @@
     <dep name="cop">3859</dep>
     <dep name="csubj">192</dep>
     <dep name="csubj:pass">46</dep>
-    <dep name="dep">1046</dep>
-    <dep name="det">37269</dep>
+    <dep name="dep">1044</dep>
+    <dep name="det">37271</dep>
     <dep name="det:poss">2438</dep>
     <dep name="discourse">10</dep>
     <dep name="expl">397</dep>
     <dep name="expl:pv">214</dep>
     <dep name="fixed">139</dep>
-    <dep name="flat">8171</dep>
+    <dep name="flat">8164</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3148</dep>
-    <dep name="nmod">21491</dep>
+    <dep name="nmod">21489</dep>
     <dep name="nmod:poss">1</dep>
-    <dep name="nsubj">17347</dep>
+    <dep name="nsubj">17348</dep>
     <dep name="nsubj:outer">3</dep>
-    <dep name="nsubj:pass">3198</dep>
-    <dep name="nummod">2988</dep>
-    <dep name="obj">8335</dep>
-    <dep name="obl">17285</dep>
+    <dep name="nsubj:pass">3199</dep>
+    <dep name="nummod">2990</dep>
+    <dep name="obj">8336</dep>
+    <dep name="obl">17286</dep>
     <dep name="obl:agent">492</dep>
     <dep name="obl:arg">1258</dep>
     <dep name="obl:tmod">32</dep>
-    <dep name="orphan">18</dep>
+    <dep name="orphan">19</dep>
     <dep name="parataxis">568</dep>
-    <dep name="punct">38493</dep>
+    <dep name="punct">38492</dep>
     <dep name="reparandum">3</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">6</dep>
