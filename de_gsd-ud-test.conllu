@@ -17165,7 +17165,7 @@
 
 # sent_id = test-s840
 # text = Ihr Auftauchen zerrte nicht nur an der Sozialstruktur und stellte Traditionen in Frage, sie untergrub auch die Machtbasis der Kaziken, einer Art ungewählter Ortsvorsteher, und all derjenigen, die Ämter in San Chamula inne haben.
-1	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det:poss	_	_
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Auftauchen	Auftauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	zerrte	zerren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
