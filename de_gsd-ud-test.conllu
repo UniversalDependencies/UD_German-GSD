@@ -10145,7 +10145,7 @@
 2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	11	mark	_	_
-5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+5	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
 7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
@@ -17334,7 +17334,7 @@
 6	Situation	Situation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	15	punct	_	_
 8	wo	wo	ADV	PWAV	PronType=Int	15	advmod	_	_
-9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+9	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	_
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
