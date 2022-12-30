@@ -7609,7 +7609,7 @@
 4	wohl	wohl	ADV	ADV	_	5	advmod	_	_
 5	noch	noch	ADV	ADV	_	11	advmod	_	_
 6	einige	einige	PRON	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
-7	andere	ander	PRON	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	det	_	_
+7	andere	ander	DET	ADJA	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
 8	Sauna	Sauna	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	obj	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Bremen	Bremen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	NamedEntity=Yes
@@ -7704,7 +7704,7 @@
 1	Hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 2	für	für	ADP	APPR	_	4	case	_	_
 3	ganz	ganz	ADV	ADV	_	4	advmod	_	_
-4	anderes	ander	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
+4	anderes	ander	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
 5	schon	schon	ADV	ADV	_	8	advmod	_	_
 6	deutlich	deutlich	ADV	ADJD	_	7	advmod	_	_
 7	mehr	mehr	PRON	PIS	PronType=Ind	8	obj	_	_
@@ -8126,7 +8126,7 @@
 12	Ecke	Ecke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	andere	ander	PRON	ADJA	Case=Acc|Number=Plur|PronType=Ind	16	obl	_	_
+15	andere	ander	DET	ADJA	Case=Acc|Number=Plur|PronType=Ind	16	obl	_	_
 16	geblasen	blasen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
@@ -8337,7 +8337,7 @@
 13-14	zum	_	_	_	_	_	_	_	_
 13	zu	zu	ADP	APPR	_	16	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-15	anderen	ander	PRON	ADJA	Case=Dat|Gender=Neut|Number=Sing	16	det	_	_
+15	anderen	ander	DET	ADJA	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	16	det	_	_
 16	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
 17	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	4	punct	_	_
@@ -8475,7 +8475,7 @@
 16	eine	ein	PRON	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	14	nmod	_	_
 17	nach	nach	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	anderen	ander	PRON	PIS	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	16	nmod	_	_
+19	anderen	ander	DET	PIS	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	16	nmod	_	_
 20	passen	passen	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -8771,7 +8771,7 @@
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	ergänzt	ergänzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	andere	ander	PRON	PIS	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+7	andere	ander	DET	PIS	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s521
@@ -9821,7 +9821,7 @@
 11	Messager	Messager	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	NamedEntity=Yes
 12	und	und	CCONJ	KON	_	14	cc	_	_
 13	viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	14	det	_	_
-14	andere	ander	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	2	conj	_	_
+14	andere	ander	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	conj	_	_
 15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	vertreten	vertreten	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
@@ -11398,7 +11398,7 @@
 24	übermäßigen	übermäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
 25	Defiziten	Defizit	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
 26	unter	unter	ADP	APPR	_	18	appos	_	_
-27	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	26	fixed	_	_
+27	anderem	ander	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	26	fixed	_	_
 28	durch	durch	ADP	APPR	_	29	case	_	_
 29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	nmod	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	31	det	_	_
@@ -11662,7 +11662,7 @@
 13	vor	vor	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	3	punct	_	_
 15	unter	unter	ADP	APPR	_	3	case	_	_
-16	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	15	fixed	_	_
+16	anderem	ander	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	15	fixed	_	_
 17	wegen	wegen	ADP	APPR	_	19	case	_	_
 18	seiner	sein	DET	PPOSAT	Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Verantwortung	Verantwortung	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
@@ -13316,7 +13316,7 @@
 20	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
 21	Ouargla	Ouargla	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	20	appos	_	NamedEntity=Yes
 22	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	anderer	ander	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	SpaceAfter=No
+23	anderer	ander	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	17	punct	_	_
 
 # sent_id = dev-s721
@@ -13337,7 +13337,7 @@
 14	Bebel	Bebel	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes
 15	und	und	CCONJ	KON	_	17	cc	_	_
 16	etlichen	etlich	PRON	ADJA	Case=Dat|Number=Plur	17	det	_	_
-17	anderen	ander	PRON	PIS	Case=Dat|Number=Plur|PronType=Ind	7	conj	_	_
+17	anderen	ander	DET	PIS	Case=Dat|Number=Plur|PronType=Ind	7	conj	_	_
 18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_
 20	heute	heute	ADV	ADV	_	18	advmod	_	_
