@@ -6295,7 +6295,7 @@
 14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	Beziehungen	Beziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
 16	zwischen	zwischen	ADP	APPR	_	18	case	_	_
-17	beiden	beide	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+17	beiden	beide	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	18	det	_	_
 18	Staaten	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	13	punct	_	_
 
@@ -6650,7 +6650,7 @@
 22	enge	eng	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
 24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	det	_	_
-25	beiden	beide	PRON	PIAT	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	26	det	_	_
+25	beiden	beide	DET	PIAT	Case=Gen|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	26	det	_	_
 26	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
 27	in	in	ADP	APPR	_	28	case	_	_
 28	Wirtschaft	Wirtschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
@@ -7941,7 +7941,7 @@
 17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 18	wesentlichen	wesentlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
 19	Standpunkten	Standpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
-20	beider	beide	PRON	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+20	beider	beide	DET	PIAT	Case=Gen|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	21	det	_	_
 21	Seiten	Seite	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
 22	nichts	nichts	PRON	PIS	Gender=Neut|PronType=Ind	23	nsubj	_	_
 23	geändert	ändern	VERB	VVPP	VerbForm=Part	5	ccomp	_	_
@@ -8692,7 +8692,7 @@
 6	Stichwahl	Stichwahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
 7	zwischen	zwischen	ADP	APPR	_	10	case	_	_
 8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-9	beiden	beide	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+9	beiden	beide	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	10	det	_	_
 10	Spitzenreitern	Spitzenreiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	ersten	erst	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
@@ -9796,7 +9796,7 @@
 
 # sent_id = test-s501
 # text = Beide Regierungen unterzeichneten auch vier Abkommen zur Gründung eines ``Dialogforums für Hochtechnologie'', über bilaterale Studien der chinesischen Infrastrukturentwicklung, über Export- und Importverträge und naturwissenschaftliche Forschungen.
-1	Beide	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Beide	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	2	dep	_	FixTigerDep=Yes
 2	Regierungen	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	unterzeichneten	unterzeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	auch	auch	ADV	ADV	_	3	advmod	_	_
@@ -9957,7 +9957,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Schatzmeister	Schatzmeister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-4	beiden	beide	PRON	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+4	beiden	beide	DET	PIAT	Case=Gen|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	5	det	_	_
 5	Parteien	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 6	protestierten	protestieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	dagegen	dagegen	ADV	PAV	_	6	advmod	_	_
@@ -12191,7 +12191,7 @@
 7	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
 9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	beiden	beide	PRON	PIAT	Case=Gen|Number=Plur|PronType=Ind	11	det	_	_
+10	beiden	beide	DET	PIAT	Case=Gen|Number=Plur|NumType=Card|PronType=Tot	11	det	_	_
 11	Angeklagten	angeklagt	NOUN	NN	Case=Gen|Number=Plur	8	nmod	_	_
 12	Reue	Reue	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	7	punct	_	_
@@ -12224,7 +12224,7 @@
 2	Tradition	Tradition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 3	entsprechend	entsprechend	ADP	ADJD	_	2	case	_	_
 4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	beide	beide	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+5	beide	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	6	det	_	_
 6	Seiten	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 7	Geschenke	Geschenk	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
 8	an	an	ADP	APPR	_	9	case	_	_
@@ -15826,7 +15826,7 @@
 # sent_id = test-s772
 # text = Die beiden Parteien sind von der Regierung selbst gegründet und zu Beginn auch finanziert worden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-2	beiden	beide	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+2	beiden	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	3	det	_	_
 3	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
@@ -18348,7 +18348,7 @@
 # text = Zudem wollen beide Seiten noch 1995 in Verhandlungen über eine neue betriebliche Altersversorgung einsteigen.
 1	Zudem	zudem	ADV	PAV	_	14	advmod	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-3	beide	beide	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+3	beide	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	4	det	_	_
 4	Seiten	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 5	noch	noch	ADV	ADV	_	6	advmod	_	_
 6	1995	1995	NUM	CARD	NumType=Card	14	obl	_	_

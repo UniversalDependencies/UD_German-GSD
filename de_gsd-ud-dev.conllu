@@ -3672,7 +3672,7 @@
 13	Zahnärzten	Zahnarzt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	20	punct	_	_
 15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	20	nsubj	_	_
-16	beide	beide	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	15	compound	_	_
+16	beide	beide	DET	PIS	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	15	compound	_	_
 17	unverschämte	unverschämt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
 18	Preise	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
 19	dafür	dafür	ADV	PAV	_	20	advmod	_	_
@@ -3709,7 +3709,7 @@
 25	dem	der	PRON	PDS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	23	nmod	_	_
 26	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 27	anderen	ander	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
-28	beiden	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+28	beiden	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	29	det	_	_
 29	Zahnärzte	Zahnarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 30	!	!	PUNCT	$.	_	3	punct	_	SpaceAfter=No
 31	!	!	PUNCT	$.	_	3	punct	_	SpaceAfter=No
@@ -5833,7 +5833,7 @@
 
 # sent_id = dev-s343
 # text = Beides sollte gelöscht werden!
-1	Beides	beide	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj:pass	_	_
+1	Beides	beide	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|NumType=Card|PronType=Tot	3	nsubj:pass	_	_
 2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
 3	gelöscht	löschen	VERB	VVPP	VerbForm=Part	0	root	_	_
 4	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	3	aux:pass	_	SpaceAfter=No
