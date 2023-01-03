@@ -1131,7 +1131,7 @@
 1	Da	da	ADV	ADV	_	5	advmod	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	_
-4	darüber	darüber	ADV	PAV	_	5	advmod	_	_
+4	darüber	darüber	ADV	PAV	PronType=Dem	5	advmod	_	_
 5	hinwegsehen	hinwegsehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	dass	dass	SCONJ	KOUS	_	13	mark	_	_
@@ -1178,7 +1178,7 @@
 5	unserer	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
 7	führen	fahren|führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	dazu	dazu	PRON	PAV	_	7	obj	_	SpaceAfter=No
+8	dazu	dazu	ADV	PAV	PronType=Dem	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	16	mark	_	_
 11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	_
@@ -1455,7 +1455,7 @@
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	ob	ob	SCONJ	KOUS	_	8	mark	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	daran	daran	PRON	PAV	_	8	obj	_	_
+7	daran	daran	ADV	PAV	PronType=Dem	8	obj	_	_
 8	lag	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	dass	dass	SCONJ	KOUS	_	12	mark	_	_
@@ -1683,7 +1683,7 @@
 21	immer	immer	ADV	ADV	_	19	advmod	_	_
 22	wieder	wieder	ADV	ADV	_	21	advmod	_	_
 23	was	was	PRON	PIS	PronType=Ind	19	obj	_	_
-24	dazu	dazu	ADV	PTKVZ	_	19	mark	_	_
+24	dazu	dazu	ADV	PTKVZ	PronType=Dem	19	mark	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
 26	stoße	stoßen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
 27	auf	auf	ADP	APPR	_	29	case	_	_
@@ -2636,7 +2636,7 @@
 2	sollte	sollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	_
 4	abends	abends	ADV	ADV	_	6	advmod	_	_
-5	damit	damit	ADV	PAV	_	6	advmod	_	_
+5	damit	damit	ADV	PAV	PronType=Dem	6	advmod	_	_
 6	rechnen	rechnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	das	dass	SCONJ	KOUS	Typo=Yes	15	mark	_	CorrectForm=dass
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -2733,7 +2733,7 @@
 3	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
 5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	dagegen	dagegen	ADV	PAV	_	5	advmod	_	_
+6	dagegen	dagegen	ADV	PAV	PronType=Dem	5	advmod	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
 9	auch	auch	ADV	ADV	_	16	advmod	_	_
@@ -2984,7 +2984,7 @@
 # sent_id = dev-s170
 # text = Aber dafür selbstverständlich ein anderer kleiner Roller für denselben Preis.
 1	Aber	aber	CCONJ	KON	_	7	cc	_	_
-2	dafür	dafür	ADV	PAV	_	7	advmod	_	_
+2	dafür	dafür	ADV	PAV	PronType=Dem	7	advmod	_	_
 3	selbstverständlich	selbstverständlich	ADV	ADJD	_	7	advmod	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 5	anderer	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -3301,7 +3301,7 @@
 3	hier	hier	ADV	ADV	_	7	advmod	_	_
 4	mal	mal	ADV	ADV	_	7	advmod	_	_
 5	positiv	positiv	ADV	ADJD	_	7	advmod	_	_
-6	darüber	darüber	ADV	PAV	_	7	advmod	_	_
+6	darüber	darüber	ADV	PAV	PronType=Dem	7	advmod	_	_
 7	berichten	berichten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -3675,7 +3675,7 @@
 16	beide	beide	DET	PIS	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	15	compound	_	_
 17	unverschämte	unverschämt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
 18	Preise	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
-19	dafür	dafür	ADV	PAV	_	20	advmod	_	_
+19	dafür	dafür	ADV	PAV	PronType=Dem	20	advmod	_	_
 20	haben	haben	VERB	VAINF	VerbForm=Inf	13	acl	_	_
 21	wollten	wollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	6	punct	_	_
@@ -5460,7 +5460,7 @@
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	fühle	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
-12	damit	damit	ADV	PAV	_	10	advmod	_	_
+12	damit	damit	ADV	PAV	PronType=Dem	10	advmod	_	_
 13	auch	auch	ADV	ADV	_	10	advmod	_	_
 14	sehr	sehr	ADV	ADV	_	15	advmod	_	_
 15	wohl	wohl	ADJ	ADV	Degree=Pos	10	xcomp	_	SpaceAfter=No
@@ -5513,7 +5513,7 @@
 1	ALLE	alle	NOUN	ADJD	_	2	nsubj	_	_
 2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	nur	nur	ADV	ADV	_	2	advmod	_	_
-4	darauf	darauf	ADV	PAV	_	2	advmod	_	_
+4	darauf	darauf	ADV	PAV	PronType=Dem	2	advmod	_	_
 5	aus	aus	ADP	APPR	_	2	mark	_	_
 6	einem	ein	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	11	obl:arg	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
@@ -5718,7 +5718,7 @@
 8	-	-	PUNCT	$(	_	7	punct	_	_
 9	Schuhe	Schuh	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	12	punct	_	_
-11	daher	daher	ADV	PAV	_	12	advmod	_	_
+11	daher	daher	ADV	PAV	PronType=Dem	12	advmod	_	_
 12	spart	sparen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	_
 14	sehr	sehr	ADV	ADV	_	15	advmod	_	_
@@ -5946,7 +5946,7 @@
 
 # sent_id = dev-s350
 # text = Damit meine ich sowohl den Bahnhof als auch den Standort der Isarstrasse!
-1	Damit	damit	ADV	PAV	_	2	advmod	_	_
+1	Damit	damit	ADV	PAV	PronType=Dem	2	advmod	_	_
 2	meine	meinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 4	sowohl	sowohl	CCONJ	KON	_	6	cc	_	_
@@ -6666,7 +6666,7 @@
 1	Liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	wohl	wohl	ADV	ADV	_	3	advmod	_	_
 3	auch	auch	ADV	ADV	_	1	advmod	_	_
-4	daran	daran	ADV	PAV	_	1	advmod	_	SpaceAfter=No
+4	daran	daran	ADV	PAV	PronType=Dem	1	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	14	punct	_	_
 6	dass	dass	SCONJ	KOUS	_	14	mark	_	_
 7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -6892,7 +6892,7 @@
 3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	kaum	kaum	ADV	ADV	_	5	advmod	_	_
 5	genug	genug	ADV	PIS	PronType=Ind	7	advmod	_	_
-6	davon	davon	ADV	PAV	_	7	advmod	_	_
+6	davon	davon	ADV	PAV	PronType=Dem	7	advmod	_	_
 7	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -8058,7 +8058,7 @@
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
 6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	ohne	ohne	ADP	KOUI	_	8	case	_	_
-8	dafür	dafür	ADV	PAV	_	11	advmod	_	_
+8	dafür	dafür	ADV	PAV	PronType=Dem	11	advmod	_	_
 9	etwas	etwas	PRON	PIS	PronType=Ind	11	obj	_	_
 10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	berechnen	berechnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
@@ -8191,7 +8191,7 @@
 
 # sent_id = dev-s492
 # text = Darüber hinaus sollten auch noch die Winterreifen gewechselt werden, das wurde nicht geschafft, obwohl das Auto 10 Tage in der Werkstatt stand.
-1	Darüber	darüber	ADV	PAV	_	8	advmod	_	_
+1	Darüber	darüber	ADV	PAV	PronType=Dem	8	advmod	_	_
 2	hinaus	hinaus	ADV	ADV	_	1	advmod	_	_
 3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
@@ -8440,7 +8440,7 @@
 # text = Ich bin dagegen, daß wir alle Erfahrungen der letzten 30 Jahre über Bord werfen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dagegen	dagegen	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+3	dagegen	dagegen	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	15	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	15	mark	_	_
 6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
@@ -8650,7 +8650,7 @@
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Ministers	Minister	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
-6	dadurch	dadurch	ADV	PAV	_	13	advmod	_	_
+6	dadurch	dadurch	ADV	PAV	PronType=Dem	13	advmod	_	_
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 8	``	``	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	innere	innen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -9204,7 +9204,7 @@
 27	Konsequenzen	Konsequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	31	punct	_	_
 29	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	31	nsubj	_	_
-30	daraus	daraus	ADV	PAV	_	31	advmod	_	_
+30	daraus	daraus	ADV	PAV	PronType=Dem	31	advmod	_	_
 31	resultieren	resultieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
 33	''	''	PUNCT	$(	_	6	punct	_	_
@@ -9338,7 +9338,7 @@
 11	gestern	gestern	ADV	ADV	_	15	advmod	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
 13	Monsanto	Monsanto	PROPN	NE	Case=Dat|Number=Sing	15	obl:agent	_	NamedEntity=Yes
-14	darüber	darüber	ADV	PAV	_	15	advmod	_	_
+14	darüber	darüber	ADV	PAV	PronType=Dem	15	advmod	_	_
 15	informiert	informieren	VERB	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	21	punct	_	_
 17	daß	daß	SCONJ	KOUS	_	21	mark	_	_
@@ -9687,7 +9687,7 @@
 14	,	,	PUNCT	$,	_	3	punct	_	_
 15	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-17	darin	darin	ADV	PAV	_	15	advmod	_	SpaceAfter=No
+17	darin	darin	ADV	PAV	PronType=Dem	15	advmod	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = dev-s563
@@ -9760,7 +9760,7 @@
 5	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Legitimation	Legitimation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 7	auch	auch	ADV	ADV	_	4	advmod	_	_
-8	daraus	daraus	ADV	PAV	_	4	advmod	_	_
+8	daraus	daraus	ADV	PAV	PronType=Dem	4	advmod	_	_
 9	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	daß	daß	CCONJ	KOUS	_	14	cc	_	_
@@ -9898,7 +9898,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Südafrikaner	Südafrikaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	reagierte	reagieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	damit	damit	ADV	PAV	_	3	advmod	_	_
+4	damit	damit	ADV	PAV	PronType=Dem	3	advmod	_	_
 5	auf	auf	ADP	APPR	_	6	case	_	_
 6	Berichte	Bericht	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	19	punct	_	_
@@ -10607,7 +10607,7 @@
 4	Tagung	Tagung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obl:arg	_	_
-7	darüber	darüber	ADV	PAV	_	8	advmod	_	_
+7	darüber	darüber	ADV	PAV	PronType=Dem	8	advmod	_	_
 8	einig	einig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	16	mark	_	_
@@ -10750,7 +10750,7 @@
 # sent_id = dev-s611
 # text = ``Darauf haben wir so lange gewartet'', entschuldigen die royalen Reporter ihren Überschwang, der sich in Tausenden von Zeitungs- und Illustriertenseiten niederschlug, seit Joachim und Alexandra am 31. Mai aus heiterem Himmel ihre Verlobung bekanntgaben.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Darauf	darauf	ADV	PAV	_	7	advmod	_	_
+2	Darauf	darauf	ADV	PAV	PronType=Dem	7	advmod	_	_
 3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
@@ -10805,7 +10805,7 @@
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
-10	dazu	dazu	ADV	PAV	_	5	advmod	_	_
+10	dazu	dazu	ADV	PAV	PronType=Dem	5	advmod	_	_
 11	auf	auf	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
@@ -11362,7 +11362,7 @@
 12	,	,	PUNCT	$,	_	16	punct	_	_
 13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	obj	_	_
 14	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	davor	davor	ADV	PAV	_	16	advmod	_	_
+15	davor	davor	ADV	PAV	PronType=Dem	16	advmod	_	_
 16	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
 17	''	''	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	11	punct	_	_
@@ -12172,7 +12172,7 @@
 3	dürften	dürfen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
-6	darauf	darauf	ADV	PAV	_	7	advmod	_	_
+6	darauf	darauf	ADV	PAV	PronType=Dem	7	advmod	_	_
 7	beschränken	beschränken	VERB	VVINF	VerbForm=Inf	25	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	ethische	ethisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
@@ -12424,7 +12424,7 @@
 6	Punkten	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	lag	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-9	damit	damit	ADV	PAV	_	8	advmod	_	_
+9	damit	damit	ADV	PAV	PronType=Dem	8	advmod	_	_
 10	20,52	20,52	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Zähler	Zähler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
 12	über	über	ADP	APPR	_	14	case	_	_
@@ -12658,7 +12658,7 @@
 8	US	US	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No|NamedEntity=Yes
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Zulieferer	Zulieferer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
-11	daran	daran	ADV	PAV	_	13	advmod	_	_
+11	daran	daran	ADV	PAV	PronType=Dem	13	advmod	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	gewöhnen	gewöhnen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	25	punct	_	_
@@ -12881,7 +12881,7 @@
 2	Kasseler	Kasseler	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Richter	Richter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-5	damit	damit	ADV	PAV	_	10	advmod	_	_
+5	damit	damit	ADV	PAV	PronType=Dem	10	advmod	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Bundesverwaltungsgericht	Bundesverwaltungsgericht	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl:arg	_	NamedEntity=Yes
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -13006,7 +13006,7 @@
 5	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	bekomme	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-8	dafür	dafür	ADV	PAV	_	7	advmod	_	_
+8	dafür	dafür	ADV	PAV	PronType=Dem	7	advmod	_	_
 9	mehr	mehr	PRON	PIAT	PronType=Ind	10	det	_	_
 10	Freizeit	Freizeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 11	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
@@ -13031,7 +13031,7 @@
 3	Herzog	Herzog	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
-6	dafür	dafür	ADV	PAV	_	7	advmod	_	_
+6	dafür	dafür	ADV	PAV	PronType=Dem	7	advmod	_	_
 7	ausgesprochen	aussprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	28	punct	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -13061,7 +13061,7 @@
 # sent_id = dev-s708
 # text = ``Dazu will Haider eine politische Kulturrevolution, er ist gegen die Parteien, gegen die Sozialpartner.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Dazu	dazu	ADV	PAV	_	3	advmod	_	_
+2	Dazu	dazu	ADV	PAV	PronType=Dem	3	advmod	_	_
 3	will	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Haider	Haider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NamedEntity=Yes
 5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -13389,7 +13389,7 @@
 # sent_id = dev-s724
 # text = ``Dafür steht die Firma Syncronys gerade, und wir werden auch die Kosten übernehmen'', so Poertner.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Dafür	dafür	ADV	PAV	_	3	advmod	_	_
+2	Dafür	dafür	ADV	PAV	PronType=Dem	3	advmod	_	_
 3	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Firma	Firma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -13431,7 +13431,7 @@
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 6	verdienen	verdienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
-7	daran	daran	ADV	PAV	_	6	advmod	_	SpaceAfter=No
+7	daran	daran	ADV	PAV	PronType=Dem	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	sondern	sondern	CCONJ	KON	_	10	cc	_	_
 10	Hotels	Hotel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No
@@ -14573,7 +14573,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-4	dagegen	dagegen	ADV	PAV	_	6	advmod	_	_
+4	dagegen	dagegen	ADV	PAV	PronType=Dem	6	advmod	_	_
 5	gerichtlich	gerichtlich	ADV	ADJD	_	6	advmod	_	_
 6	vorgehen	vorgehen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -14838,7 +14838,7 @@
 # sent_id = dev-s790
 # text = ``Dazu besteht keine wirtschaftliche Notwendigkeit, man will in Stuttgart die AEG einfach nicht mehr.''
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Dazu	Dazu	ADV	PAV	_	3	advmod	_	_
+2	Dazu	dazu	ADV	PAV	PronType=Dem	3	advmod	_	_
 3	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	6	det	_	_
 5	wirtschaftliche	wirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
