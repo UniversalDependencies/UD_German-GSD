@@ -6407,7 +6407,7 @@
 2	freundlicher	freundlich	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
 3	Kundenservice	Kundenservice	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
-5	top	top	DET	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	det	_	_
+5	top	top	ADJ	ADJD	Foreign=Yes	6	amod	_	Lang=en
 6	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Spitzenservice	Spitzenservice	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
