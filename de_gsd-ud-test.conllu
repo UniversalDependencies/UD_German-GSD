@@ -6319,7 +6319,7 @@
 16	die	der	DET	PRELS	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	21	obl	_	_
 17	Waigel	Waigel	PROPN	NE	Case=Nom|Number=Sing	21	nsubj	_	NamedEntity=Yes
 18	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
-19	ausreichend	ausreichend	ADV	ADJD	_	18	advmod	_	_
+19	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	18	advmod	_	_
 20	Vorsorge	Vorsorge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 21	getroffen	treffen	VERB	VVPP	VerbForm=Part	13	acl	_	_
 22	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No

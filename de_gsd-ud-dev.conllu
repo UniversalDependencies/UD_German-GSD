@@ -2961,7 +2961,7 @@
 28	es	es	PRON	PPER	PronType=Prs	33	expl	_	_
 29	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	aux	_	_
 30	noch	noch	ADV	ADV	_	31	advmod	_	_
-31	ausreichend	ausreichend	ADV	PIAT	PronType=Ind	33	advmod	_	_
+31	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	33	advmod	_	_
 32	Mietfahrzeuge	Mietfahrzeuge	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	33	nsubj	_	_
 33	vorhanden	vorhanden	VERB	ADJD	_	22	conj	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	11	punct	_	_
