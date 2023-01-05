@@ -2367,7 +2367,7 @@
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 3	vor	vor	ADP	APPR	_	5	case	_	_
-4	einigen	einige	PRON	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
+4	einigen	einige	PRON	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	5	nmod	_	_
 5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
 6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Orden	Orden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
@@ -3258,7 +3258,7 @@
 14	,	,	PUNCT	$,	_	23	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	23	mark	_	_
 16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
-17	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+17	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	nmod	_	_
 18	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 19	auch	auch	ADV	ADV	_	23	advmod	_	_
 20	mit	mit	ADP	APPR	_	21	case	_	_
@@ -4253,7 +4253,7 @@
 # text = Schade das solche Daten nicht geprüft werden.
 1	Schade	schade	ADJ	ADJD	Degree=Pos	0	root	_	_
 2	das	dass	SCONJ	KOUS	Typo=Yes	6	mark	_	CorrectForm=dass
-3	solche	solch	PRON	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
+3	solche	solch	PRON	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	4	nmod	_	_
 4	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj:pass	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
 6	geprüft	prüfen	VERB	VVPP	VerbForm=Part	1	ccomp	_	_
@@ -4321,7 +4321,7 @@
 11	gutes	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	Frühstück	Frühstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
 13	und	und	CCONJ	KON	_	12	cc	_	_
-14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 15	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	14	flat	_	_
 16	zu	zu	ADP	APPR	_	19	case	_	_
 17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -4347,7 +4347,7 @@
 3	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 4	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-6	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	_
 7	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	klären	klären	VERB	VVINF	VerbForm=Inf	4	acl	_	_
@@ -4400,7 +4400,7 @@
 # sent_id = test-s254
 # text = Seit einiger Zeit hat man hier sogar eine Onlineapotheke eingerichtet.
 1	Seit	seit	ADP	APPR	_	3	case	_	_
-2	einiger	einige	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	einiger	einige	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
 4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
@@ -5717,7 +5717,7 @@
 7	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	7	aux:pass	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
-10	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	11	det	_	_
+10	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	11	nmod	_	_
 11	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 12	vielleicht	vielleicht	ADV	ADV	_	15	advmod	_	_
 13	erst	erst	ADV	ADV	_	15	advmod	_	_
@@ -5800,7 +5800,7 @@
 13	''	''	PUNCT	$(	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	lautet	lauten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	15	det:poss	_	_
+16	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	15	nmod:poss	_	_
 17	erstes	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	15	amod	_	_
 18	Mode	Mode	NOUN	TRUNC	Case=Nom|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No
 19	-	-	PUNCT	$(	_	21	punct	_	_
@@ -6123,7 +6123,7 @@
 23	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24	freizubekommen	freibekommen	VERB	VVIZU	VerbForm=Inf	11	xcomp	_	_
 25	--	--	PUNCT	$(	_	27	punct	_	_
-26	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	det	_	_
+26	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nmod	_	_
 27	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
 28	auch	auch	ADV	ADV	_	27	advmod	_	_
 29	notfalls	notfalls	ADV	ADV	_	30	advmod	_	_
@@ -6763,7 +6763,7 @@
 7	kroatische	kroatisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	_
 8	Kräfte	Kraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
-10	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+10	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	11	nmod	_	_
 11	Fronten	Front	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
 12	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	_
 13	und	und	CCONJ	KON	_	21	cc	_	_
@@ -6839,7 +6839,7 @@
 8	Landesausschusses	Landesausschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	32	punct	_	_
 10	über	über	ADP	APPR	_	12	case	_	_
-11	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	12	nmod	_	_
 12	Anträge	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	32	obl	_	_
 13	für	für	ADP	APPR	_	15	case	_	_
 14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -7632,7 +7632,7 @@
 6	Kompromiß	Kompromiß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
-9	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	_
+9	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	10	nmod:poss	_	_
 10	Verband	Verband	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -9039,7 +9039,7 @@
 1	Patricia	Patricia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	FixTigerDep=Yes|NamedEntity=Yes
 2	Madigan	Madigan	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	NamedEntity=Yes
 3	und	und	CCONJ	KON	_	5	cc	_	_
-4	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	5	nmod:poss	_	_
 5	Forschungsteam	Forschungsteam	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
 6-7	vom	_	_	_	_	_	_	_	_
 6	von	von	ADP	APPR	_	11	case	_	_
@@ -9313,7 +9313,7 @@
 5	Burgtheater	Burgtheater	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes
 6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-8	solches	solch	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
+8	solches	solch	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	nmod	_	_
 9	lokalbezogenes	lokalbezogen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 10	literarisches	literarisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	Segment	Segment	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
@@ -10840,7 +10840,7 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Vorabend	Vorabend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
 18	mit	mit	ADP	APPR	_	20	case	_	_
-19	solcher	solch	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
+19	solcher	solch	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	20	nmod	_	_
 20	Leichtigkeit	Leichtigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
 21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Ministerpräsidenten	Ministerpräsident	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
@@ -11328,7 +11328,7 @@
 6	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	_
-9	irgendein	irgendein	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
+9	irgendein	irgendein	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	nmod	_	_
 10	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	Kuba	Kuba	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	NamedEntity=Yes
@@ -11585,7 +11585,7 @@
 3	schwieg	schweigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	über	über	ADP	APPR	_	7	case	_	_
-6	deren	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	7	det	_	_
+6	deren	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem,Rel	7	nmod	_	_
 7	Nationalität	Nationalität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
@@ -12950,7 +12950,7 @@
 20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	Schahminister	Schahminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	25	punct	_	_
-23	deren	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	24	det	_	_
+23	deren	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	24	nmod	_	_
 24	Habgier	Habgier	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
 25	sprichwörtlich	sprichwörtlich	ADJ	ADJD	Degree=Pos	21	acl	_	_
 26	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	SpaceAfter=No
@@ -13038,7 +13038,7 @@
 21	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	28	punct	_	_
 23	und	und	CCONJ	KON	_	28	cc	_	_
-24	solchen	solch	PRON	PIS	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	28	det	_	SpaceAfter=No
+24	solchen	solch	PRON	PIS	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	28	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	24	punct	_	_
 26	eher	eher	ADV	ADV	_	27	advmod	_	_
 27	psychischen	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
@@ -13103,7 +13103,7 @@
 25	benutzt	benutzen	VERB	VVPP	VerbForm=Part	27	ccomp	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	25	punct	_	_
 27	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-28	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	29	det:poss	_	_
+28	ihr	ihr	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	29	nmod:poss	_	_
 29	Ehemann	Ehemann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	27	punct	_	_
 
@@ -13270,7 +13270,7 @@
 5	ganz	ganz	ADJ	ADJD	Case=Dat|Degree=Pos	6	amod	_	_
 6	Ostdeutschland	Ostdeutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NamedEntity=Yes
 7	erst	erst	ADV	ADV	_	11	advmod	_	_
-8	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	_
 9	tausend	tausend	NUM	CARD	NumType=Card	11	nummod	_	_
 10	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 11	Wiedereinrichter	Wiedereinrichter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
@@ -13680,7 +13680,7 @@
 # sent_id = test-s667
 # text = Eine solche tiefverankerte Gesinnung speise sich aus der Erinnerung an die Geschichte des Leidens und der Befreiung des Menschen, aus der Vorstellung des ``leidenden Gottes''.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-2	solche	solch	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+2	solche	solch	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	nmod	_	_
 3	tiefverankerte	tiefverankert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	Gesinnung	Gesinnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	speise	speisen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17064,7 +17064,7 @@
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Grünen	Grüne	PROPN	NN	Case=Gen|Number=Plur	5	nmod	_	NamedEntity=Yes
 10	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	deren	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	12	det	_	_
+11	deren	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem,Rel	12	nmod	_	_
 12	Vorstandssprecher	Vorstandssprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 13	Jürgen	Jürgen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	appos	_	NamedEntity=Yes
 14	Trittin	Trittin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes
@@ -17214,7 +17214,7 @@
 
 # sent_id = test-s842
 # text = Solch ein Gewinn lockt.
-1	Solch	solch	PRON	PIS	PronType=Ind	3	det	_	_
+1	Solch	solch	PRON	PIS	PronType=Ind	3	nmod	_	_
 2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Gewinn	Gewinn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	lockt	locken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -18615,7 +18615,7 @@
 # text = Wer unter solchen Umständen Einfluß ausüben will, braucht mehr als nur Macht:
 1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj	_	_
 2	unter	unter	ADP	APPR	_	4	case	_	_
-3	solchen	solch	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+3	solchen	solch	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	_
 4	Umständen	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
 5	Einfluß	Einfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 6	ausüben	ausüben	VERB	VVINF	VerbForm=Inf	9	csubj	_	_
