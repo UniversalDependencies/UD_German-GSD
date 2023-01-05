@@ -6045,7 +6045,7 @@
 9	einzusetzen	einsetzen	VERB	VVIZU	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	18	punct	_	_
 11	daß	daß	SCONJ	KOUS	_	18	nsubj	_	_
-12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Abfertigung	Abfertigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl:arg	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	Besuchermengen	Besuchermengen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
@@ -9955,7 +9955,7 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	enthielt	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
-10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Kommentare	Kommentar	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl:arg	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
