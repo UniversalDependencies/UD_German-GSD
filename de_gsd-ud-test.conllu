@@ -9944,7 +9944,7 @@
 29	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 30	USA	USA	PROPN	NE	Case=Dat|Number=Plur	27	nmod	_	NamedEntity=Yes
 31	sowie	sowie	CCONJ	KON	_	32	cc	_	_
-32	derer	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	25	conj	_	SpaceAfter=No
+32	derer	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem,Rel	25	conj	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	37	punct	_	_
 34	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	37	nsubj	_	_
 35	zu	zu	ADP	APPR	_	36	case	_	_
