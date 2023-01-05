@@ -3258,7 +3258,7 @@
 14	,	,	PUNCT	$,	_	23	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	23	mark	_	_
 16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
-17	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	nmod	_	_
+17	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nmod	_	_
 18	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 19	auch	auch	ADV	ADV	_	23	advmod	_	_
 20	mit	mit	ADP	APPR	_	21	case	_	_
@@ -5717,7 +5717,7 @@
 7	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	7	aux:pass	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
-10	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	11	nmod	_	_
+10	dessen	der	PRON	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	11	nmod	_	_
 11	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 12	vielleicht	vielleicht	ADV	ADV	_	15	advmod	_	_
 13	erst	erst	ADV	ADV	_	15	advmod	_	_
