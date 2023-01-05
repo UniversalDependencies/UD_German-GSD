@@ -14465,11 +14465,11 @@
 7	''	''	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	unter	unter	ADP	APPR	_	10	case	_	_
-10	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	nmod	_	_
+10	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	obl	_	_
 11	wegen	wegen	ADP	APPR	_	14	mark	_	_
-12	der	der	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	anhaltenden	anhaltend	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
-14	Abwanderung	Abwanderung	NOUN	NN	Gender=Fem|Number=Sing	2	advcl	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	anhaltenden	anhaltend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Abwanderung	Abwanderung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	advcl	_	_
 15	von	von	ADP	APPR	_	16	case	_	_
 16	Fachkräften	Fachkraft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
 17	in	in	ADP	APPR	_	19	case	_	_

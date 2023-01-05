@@ -9458,9 +9458,9 @@
 7	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
 8	Amtszeit	Amtszeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 9	trotz	trotz	ADP	APPR	_	12	case	_	_
-10	der	der	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	deutlichen	deutlich	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
-12	Neigung	Neigung	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	deutlichen	deutlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Neigung	Neigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
 13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Präsidenten	Präsident	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 15-16	zum	_	_	_	_	_	_	_	_
@@ -11226,17 +11226,17 @@
 
 # sent_id = dev-s634
 # text = Die Partner wollen in den ersten fünf Jahren 85 Millionen Dollar investieren.
-1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	Partner	Partner	NOUN	NN	_	12	nsubj	_	_
-3	wollen	wollen	AUX	VMFIN	_	12	aux	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Partner	Partner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 4	in	in	ADP	APPR	_	8	case	_	_
-5	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-6	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur|NumType=Ord	7	amod	_	_
 7	fünf	fünf	NUM	CARD	NumType=Card	8	nummod	_	_
-8	Jahren	Jahr	NOUN	NN	_	12	obl	_	_
+8	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
 9	85	85	NUM	CARD	NumType=Card	10	nummod	_	_
-10	Millionen	Million	NOUN	NN	_	11	nmod	_	_
-11	Dollar	Dollar	NOUN	NN	_	12	obj	_	_
+10	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+11	Dollar	Dollar	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 12	investieren	investieren	VERB	VVINF	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
