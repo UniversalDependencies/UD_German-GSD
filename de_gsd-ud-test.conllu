@@ -225,7 +225,7 @@
 18	suchten	suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	29	punct	_	_
 20	in	in	ADP	APPR	_	21	case	_	_
-21	der	der	DET	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	29	obl	_	_
+21	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	29	obl	_	_
 22	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	_
 23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
 24	originelle	originell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
@@ -548,7 +548,7 @@
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	14	nsubj	_	_
 14	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
-15	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	_
+15	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	_
 16	schon	schon	ADV	ADV	_	17	advmod	_	_
 17	gerne	gerne	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	11	punct	_	_
@@ -585,7 +585,7 @@
 17	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
 18	oder	oder	CCONJ	KON	_	19	cc	_	_
 19	Frieseur	Frieseur	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	conj	_	_
-20	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	_
+20	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 21	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 22	nun	nun	ADV	ADV	_	23	advmod	_	_
 23	mal	mal	ADV	ADV	_	21	advmod	_	_
@@ -688,7 +688,7 @@
 6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	Anwälten	Anwalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
-9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	_
 10	gerade	gerade	ADV	ADV	_	11	advmod	_	_
 11	herraus	herraus	ADV	ADV	_	12	advmod	_	_
 12	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
@@ -911,7 +911,7 @@
 5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	seit	seit	ADP	APPR	_	8	case	_	_
-8	dem	der	DET	PDS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_
+8	dem	der	PRON	PDS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	obl	_	_
 9	gehe	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 11	nur	nur	ADV	ADV	_	12	advmod	_	_
@@ -1239,7 +1239,7 @@
 
 # sent_id = test-s71
 # text = Das gilt vielleicht für's Zwiebelmarkt-Wochenende aber den Rest des Jahres?
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	_
 2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
 4	für	für	ADP	APPR	_	8	case	_	SpaceAfter=No
@@ -1256,7 +1256,7 @@
 
 # sent_id = test-s72
 # text = Das ist immer eine schöne Einleitung ins Wochenende, besonders wenn Freunde vorbei kommen und mithelfen.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	immer	immer	ADV	ADV	_	6	advmod	_	_
 4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -1278,7 +1278,7 @@
 
 # sent_id = test-s73
 # text = Das ist ja ` ne feine Sache, man spart durch die Videos über die Mietangebote jede Menge Zeit und Fragen
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	ja	ja	ADV	ADV	_	7	advmod	_	_
 4	`	`	PUNCT	$(	_	3	punct	_	_
@@ -1302,7 +1302,7 @@
 
 # sent_id = test-s74
 # text = Das ist leider keine Kundenorientierung und deshalb gibt es einen Kaktus für die Angestellten des Restaurants.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	leider	leider	ADV	ADV	_	5	advmod	_	_
 4	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	5	det	_	_
@@ -1322,7 +1322,7 @@
 
 # sent_id = test-s75
 # text = Das ist seit nunmehr 20 Stunden noch nicht passiert.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 3	seit	seit	ADP	APPR	_	6	case	_	_
 4	nunmehr	nunmehr	ADV	ADV	_	5	advmod	_	_
@@ -1379,7 +1379,7 @@
 
 # sent_id = test-s78
 # text = Das nennt man Kundennähe...
-1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	_
 2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 4	Kundennähe	Kundennähe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
@@ -1444,7 +1444,7 @@
 
 # sent_id = test-s82
 # text = Das ragt mal angenhem heraus aus dem Einheitssbrei.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	_
 2	ragt	ragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mal	mal	ADV	ADV	_	2	advmod	_	_
 4	angenhem	angenhem	ADV	PIS	_	2	advmod	_	_
@@ -1472,7 +1472,7 @@
 
 # sent_id = test-s84
 # text = das sind aber seeeeeehr lange 15 Minuten.
-1	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+1	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	_
 2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	aber	aber	ADV	ADV	_	7	advmod	_	_
 4	seeeeeehr	sehr	ADV	ADV	_	5	advmod	_	_
@@ -1497,7 +1497,7 @@
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	22	punct	_	_
-15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	22	nsubj	_	_
 16	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	22	det	_	_
 17	sehr	sehr	ADV	ADV	_	18	advmod	_	_
 18	viel	viel	DET	PIS	PronType=Ind	22	obj	_	_
@@ -1509,7 +1509,7 @@
 
 # sent_id = test-s86
 # text = DasFahren wir jetzt seit Jahren hin.
-1	Das	der	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+1	Das	der	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 2	Fahren	fahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 4	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
@@ -1850,7 +1850,7 @@
 21	her	her	ADV	ADV	_	20	advmod	_	_
 22	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 23	und	und	CCONJ	KON	_	25	cc	_	_
-24	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	nsubj	_	_
+24	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	25	nsubj	_	_
 25	bestätigte	bestätigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 26	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
 27	auch	auch	ADV	ADV	_	25	advmod	_	SpaceAfter=No
@@ -2051,7 +2051,7 @@
 8	Diver	Diver	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
 9	geplant	planen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	16	punct	_	_
-11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	16	obj	_	_
+11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	obj	_	_
 12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 13	selbstverständlich	selbstverständlich	ADV	ADJD	_	16	advmod	_	_
 14	wieder	wieder	ADV	ADV	_	16	advmod	_	_
@@ -2182,7 +2182,7 @@
 8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	18	punct	_	_
-11	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
+11	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 12	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
 13	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	_
 14-15	übers	_	_	_	_	_	_	_	_
@@ -2525,7 +2525,7 @@
 4	moderne	modern	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	Band	Band	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	12	punct	_	_
-7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
 8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
 9	genau	genau	ADV	ADJD	_	12	advmod	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
@@ -3055,13 +3055,13 @@
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Angebotsphase	Angebotsphase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	19	punct	_	_
-15	die	der	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	19	det	_	_
+15	die	der	PRON	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	19	nmod	_	_
 16	übersichtlichen	übersichtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	_
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	verständlichen	verständlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	_
 19	Kostenvoranschläge	Kostenvoranschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	24	punct	_	_
-21	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Rel	24	det	_	_
+21	die	der	PRON	ART	Case=Nom|Number=Plur|PronType=Dem,Rel	24	nmod	_	_
 22	qualitativ	qualitativ	ADV	ADJD	_	23	advmod	_	_
 23	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	Ausführung	Ausführung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
@@ -3233,7 +3233,7 @@
 22	Rückenschmerzen	Rückenschmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
 23	bekam	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	29	punct	_	_
-25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	29	nsubj	_	_
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	29	nsubj	_	_
 26	über	über	ADP	APPR	_	27	case	_	_
 27	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	obl	_	_
 28	nicht	nicht	PART	PTKNEG	Polarity=Neg	29	advmod	_	_
@@ -3633,7 +3633,7 @@
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	beste	gut	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
 4	Pizza	Pizza	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-5	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	10	obj	_	_
+5	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	10	obj	_	_
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 7	hier	hier	ADV	ADV	_	10	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
@@ -3739,7 +3739,7 @@
 1	Keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	Playbackveranstaltung	Playbackveranstaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	--	--	PUNCT	$(	_	7	punct	_	_
-4	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	7	nsubj	_	_
+4	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	_
 5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	live	live	ADV	ADJD	_	7	advmod	_	_
 7	spielen	spielen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
@@ -3793,7 +3793,7 @@
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
-13	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	_
+13	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	expl	_	_
 15	um	um	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -4147,7 +4147,7 @@
 4	Unterschied	Unterschied	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
-7	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	10	nsubj	_	_
+7	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	_
 8	kaum	kaum	ADV	ADV	_	10	advmod	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
@@ -4321,7 +4321,7 @@
 11	gutes	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	Frühstück	Frühstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
 13	und	und	CCONJ	KON	_	12	cc	_	_
-14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nmod	_	_
 15	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	14	flat	_	_
 16	zu	zu	ADP	APPR	_	19	case	_	_
 17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -4384,7 +4384,7 @@
 18	Webseite	Webseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
 19	nach	nach	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	30	punct	_	_
-21	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
+21	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	30	nsubj:pass	_	_
 22	von	von	ADP	APPR	_	24	case	_	_
 23	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Sternekoch	Sternekoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl:agent	_	_
@@ -4419,7 +4419,7 @@
 4	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Banken	Bank	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	15	punct	_	_
-7	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	_
+7	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	15	nsubj	_	_
 8	billigere	billig	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	_
 9	Konzepte	Konzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
 10	zu	zu	ADP	APPR	_	11	case	_	_
@@ -4437,7 +4437,7 @@
 22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	30	punct	_	_
-25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
+25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	30	nsubj:pass	_	_
 26	einem	ein	PRON	PIS	Case=Dat|Number=Sing|PronType=Ind	30	obl:arg	_	_
 27	in	in	ADP	APPR	_	29	case	_	_
 28	finanziellen	finanziell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_
@@ -4494,7 +4494,7 @@
 7	super	super	ADJ	ADJA	Degree=Pos	8	amod	_	_
 8	Dienstleister	Dienstleister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
 9	--	--	PUNCT	$(	_	11	punct	_	_
-10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
+10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	_
 11	gefällt	gefallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 12	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
@@ -4503,7 +4503,7 @@
 # text = So muss das sein!
 1	So	so	ADV	ADV	_	4	advmod	_	_
 2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	_
 4	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	$.	_	4	punct	_	_
 
@@ -4566,7 +4566,7 @@
 1	Super	Super	ADJ	ADJA	Degree=Pos	2	amod	_	_
 2	Service	Service	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	--	--	PUNCT	$(	_	8	punct	_	_
-4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	_
 5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	jetzt	jetzt	ADV	ADV	_	8	advmod	_	_
 7	mein	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
@@ -4685,7 +4685,7 @@
 16	Sommerreifen	Sommerreifen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
 17	drauf	drauf	ADV	PTKVZ	_	11	advmod	_	_
 18	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No
-19	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	20	nsubj	_	_
+19	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	20	nsubj	_	_
 20	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	appos	_	_
 21	sowieso	sowieso	ADV	ADV	_	20	advmod	_	_
 22	runter	runter	ADV	ADJD	_	20	advmod	_	SpaceAfter=No
@@ -4803,7 +4803,7 @@
 17	Warendorf	Warendorf	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	NamedEntity=Yes
 18	motivierte	motiviert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
 19	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obj	_	_
-20	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	22	nsubj	_	_
+20	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	22	nsubj	_	_
 21	stets	stets	ADV	ADV	_	22	advmod	_	_
 22	freundlich	freundlich	ADJ	ADJD	Degree=Pos	19	acl	_	_
 23	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	SpaceAfter=No
@@ -4836,7 +4836,7 @@
 # sent_id = test-s279
 # text = Warum die wieder aufmachen durften ist mir ein Rätsel!
 1	Warum	warum	ADV	PWAV	PronType=Int	4	advmod	_	_
-2	die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	4	nsubj	_	_
 3	wieder	wieder	ADV	ADV	_	4	advmod	_	_
 4	aufmachen	aufmachen	VERB	VVINF	VerbForm=Inf	9	csubj	_	_
 5	durften	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
@@ -4890,7 +4890,7 @@
 12	lernen	lernen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
 13	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	9	punct	_	_
-15	der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+15	der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	19	nsubj	_	_
 16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 17	hier	hier	ADV	ADV	_	19	advmod	_	_
 18	genau	genau	ADV	ADV	_	19	advmod	_	_
@@ -4980,7 +4980,7 @@
 4	Tapas	Tapas	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 5	gegessen	essen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	16	punct	_	_
-7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	_
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Anrichtung	Anrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
@@ -5119,7 +5119,7 @@
 13	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
 14	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 15	und	und	CCONJ	KON	_	14	cc	_	_
-16	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	appos	_	_
+16	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	appos	_	_
 17	noch	noch	ADV	ADV	_	20	advmod	_	_
 18	während	während	ADP	APPR	_	20	case	_	_
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -5232,7 +5232,7 @@
 13	Klarheit	Klarheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	_
 14	getan	tun	VERB	VVPP	VerbForm=Part	23	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	19	punct	_	_
-16	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	19	obj	_	_
+16	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem,Rel	19	obj	_	_
 17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 18	uns	wir	PRON	PRF	Case=Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	obl:arg	_	_
 19	gewünscht	wünschen	VERB	VVPP	VerbForm=Part	10	acl	_	_
@@ -5814,7 +5814,7 @@
 2	als	als	SCONJ	KOUS	_	27	mark	_	_
 3	Sahlin	Sahlin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	SpaceAfter=No|NamedEntity=Yes
 4	,	,	PUNCT	$,	_	14	punct	_	_
-5	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+5	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	14	nsubj	_	_
 6	nach	nach	ADP	APPR	_	9	case	_	_
 7	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
 8	höchsten	hoch	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	9	amod	_	_
@@ -5986,7 +5986,7 @@
 10	Feld	Feld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	26	punct	_	_
 12	auf	auf	ADP	APPR	_	13	case	_	_
-13	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Rel	26	obl	_	_
+13	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	26	obl	_	_
 14	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 15	selbst	selbst	ADV	ADV	_	14	advmod	_	_
 16	nach	nach	ADP	APPR	_	18	case	_	_
@@ -6123,7 +6123,7 @@
 23	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24	freizubekommen	freibekommen	VERB	VVIZU	VerbForm=Inf	11	xcomp	_	_
 25	--	--	PUNCT	$(	_	27	punct	_	_
-26	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nmod	_	_
+26	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	27	nmod	_	_
 27	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
 28	auch	auch	ADV	ADV	_	27	advmod	_	_
 29	notfalls	notfalls	ADV	ADV	_	30	advmod	_	_
@@ -6316,7 +6316,7 @@
 13	Mark	Mark	NOUN	NN	Gender=Fem	3	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	21	punct	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
-16	die	der	DET	PRELS	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	21	obl	_	_
+16	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem,Rel	21	obl	_	_
 17	Waigel	Waigel	PROPN	NE	Case=Nom|Number=Sing	21	nsubj	_	NamedEntity=Yes
 18	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
 19	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	18	advmod	_	_
@@ -6645,7 +6645,7 @@
 17	Abkommen	Abkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
 18	unterzeichnet	unterzeichnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	33	punct	_	_
-20	die	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	33	nsubj	_	_
+20	die	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem,Rel	33	nsubj	_	_
 21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	enge	eng	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
@@ -6803,14 +6803,14 @@
 # sent_id = test-s369
 # text = ``Das ist die erste intelligente Äußerung, die ich von der IG Metall seit Jahren höre'', sagte Stihl der FR.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 5	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
 6	intelligente	intelligent	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	Äußerung	Äußerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	17	punct	_	_
-9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	17	obj	_	_
+9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	17	obj	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -6853,7 +6853,7 @@
 22	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	23	amod	_	_
 23	Parteitag	Parteitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	30	punct	_	_
-25	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	30	nsubj	_	_
+25	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	30	nsubj	_	_
 26	für	für	ADP	APPR	_	28	case	_	_
 27	Mitte	Mitte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	compound	_	_
 28	Dezember	Dezember	PROPN	NN	Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
@@ -6939,7 +6939,7 @@
 15	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	NamedEntity=Yes
 16	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	24	punct	_	_
-18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	24	nsubj:pass	_	_
+18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	24	nsubj:pass	_	_
 19-20	zum	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
@@ -7067,7 +7067,7 @@
 # sent_id = test-s381
 # text = ``Die wollen, daß ich im Westjordanland oder im Gaza-Streifen eine Fabrik baue'', erzählt der Fleischfabrikant Heinz Annuss.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	3	nsubj	_	_
 3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	18	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	18	mark	_	_
@@ -7205,7 +7205,7 @@
 23	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	conj	_	_
 24	handle	handeln	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	32	punct	_	_
-26	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	32	nsubj	_	_
+26	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	32	nsubj	_	_
 27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
 29	auf	auf	ADP	APPR	_	30	case	_	_
@@ -7233,7 +7233,7 @@
 5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	Entscheidungen	Entscheidung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	12	punct	_	_
-8	die	der	DET	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	12	nsubj	_	_
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	12	nsubj	_	_
 9	Einwanderer	Einwanderer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	Minderheiten	Minderheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
@@ -7583,7 +7583,7 @@
 8	bisher	bisher	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	6	punct	_	_
 10	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
-11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	_
+11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	_
 12	länger	lang	ADV	ADJD	_	13	advmod	_	_
 13	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
@@ -7733,7 +7733,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Franzose	Franzose	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	11	punct	_	_
-4	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
+4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	11	nsubj	_	_
 5	über	über	ADP	APPR	_	7	case	_	_
 6	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -8115,7 +8115,7 @@
 23	Schweizer	Schweizer	ADJ	ADJA	Case=Dat|Degree=Pos	24	amod	_	_
 24	Nachbarschaft	Nachbarschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	36	punct	_	_
-26	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	36	nsubj	_	_
+26	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	36	nsubj	_	_
 27	jenseits	jenseits	ADP	APPR	_	29	case	_	_
 28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Landesgrenze	Landesgrenze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	36	obl	_	_
@@ -8209,13 +8209,13 @@
 3	,	,	PUNCT	$,	_	7	punct	_	_
 4	ob	ob	SCONJ	KOUS	_	7	mark	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
-6	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	_
+6	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	obj	_	_
 7	überlebten	überleben	VERB	VVFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	13	punct	_	_
 9	ob	ob	SCONJ	KOUS	_	13	mark	_	_
 10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Staat	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-12	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	_
+12	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	obj	_	_
 13	überlebte	überleben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -8467,7 +8467,7 @@
 3	in	in	ADP	APPR	_	4	case	_	_
 4	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
 5	,	,	PUNCT	$,	_	9	punct	_	_
-6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	9	nsubj	_	_
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	9	nsubj	_	_
 7	nun	nun	ADV	ADV	_	9	advmod	_	_
 8	stark	stark	ADV	ADJD	_	9	advmod	_	_
 9	anziehen	anziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
@@ -8716,7 +8716,7 @@
 11	Gebäude	Gebäude	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
 12	angelegt	anlegen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	23	punct	_	_
-14	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	23	nsubj	_	_
+14	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 15-16	im	_	_	_	_	_	_	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -8862,7 +8862,7 @@
 12	Anschlußprogramm	Anschlußprogramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
 13	''	''	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	19	punct	_	_
-15	die	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	19	nsubj	_	_
+15	die	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem,Rel	19	nsubj	_	_
 16	von	von	ADP	APPR	_	17	case	_	_
 17	Komatsu	Komatsu	PROPN	NE	Case=Dat|Number=Sing	19	nmod	_	NamedEntity=Yes
 18	produzierten	produziert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	_
@@ -8893,7 +8893,7 @@
 18	Goldsuchern	Goldsucher	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
 19	angeordnet	anordnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	31	punct	_	_
-21	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	31	nsubj:pass	_	_
+21	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	31	nsubj:pass	_	_
 22	wegen	wegen	ADP	APPR	_	23	case	_	_
 23	Mordes	Mord	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
 24	an	an	ADP	APPR	_	27	case	_	_
@@ -8938,7 +8938,7 @@
 # sent_id = test-s461
 # text = Laß die erst mal die Klingel suchen.
 1	Laß	lassen	VERB	VVIMP	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-2	die	der	PRON	PDS	Case=Acc|PronType=Dem	1	obj	_	_
+2	die	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	1	obj	_	_
 3	erst	erst	ADV	ADV	_	1	advmod	_	_
 4	mal	mal	ADV	ADV	_	3	advmod	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -8989,7 +8989,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Lira	Lira	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	13	punct	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	nsubj	_	_
 5	derzeit	derzeit	ADV	ADV	_	13	advmod	_	_
 6	innerhalb	innerhalb	ADP	APPR	_	8	case	_	_
 7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -9225,7 +9225,7 @@
 17	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
 18	mitverursacht	mitverursachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	25	punct	_	_
-20	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	25	nsubj	_	_
+20	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	25	nsubj	_	_
 21	zu	zu	ADP	APPR	_	22	case	_	_
 22	Lasten	Last	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	25	obl	_	_
 23	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -9470,7 +9470,7 @@
 24	Politiker	Politiker	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
 25	an	an	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	39	punct	_	_
-27	die	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	39	nsubj	_	_
+27	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	39	nsubj	_	_
 28	Sozialabbau	Sozialabbau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
 29	und	und	CCONJ	KON	_	30	cc	_	_
 30	Schließung	Schließung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	conj	_	_
@@ -9553,7 +9553,7 @@
 22	scharf	scharf	ADV	ADJD	_	23	advmod	_	_
 23	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	37	punct	_	_
-25	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	37	nsubj	_	_
+25	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	37	nsubj	_	_
 26	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	37	obj	_	_
 27-28	zur	_	_	_	_	_	_	_	_
 27	zu	zu	ADP	APPR	_	29	case	_	_
@@ -9946,7 +9946,7 @@
 31	sowie	sowie	CCONJ	KON	_	32	cc	_	_
 32	derer	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem,Rel	25	conj	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	37	punct	_	_
-34	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	37	nsubj	_	_
+34	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	37	nsubj	_	_
 35	zu	zu	ADP	APPR	_	36	case	_	_
 36	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	37	obl	_	_
 37	blieben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	acl	_	SpaceAfter=No
@@ -9992,7 +9992,7 @@
 8	Klaus	Klaus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	NamedEntity=Yes
 9	Zwickel	Zwickel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
 10	,	,	PUNCT	$,	_	21	punct	_	_
-11	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+11	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 12	Unternehmern	Unternehmer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl:arg	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	_
@@ -10147,7 +10147,7 @@
 4	daß	daß	SCONJ	KOUS	_	11	mark	_	_
 5	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
-7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	_
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obj	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
 9	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 10	gefallen	gefallen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
@@ -10234,7 +10234,7 @@
 18	lächelnden	lächelnd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
 19	Komödie	Komödie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl:arg	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	26	punct	_	_
-21	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	26	nsubj	_	_
+21	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	26	nsubj	_	_
 22	nicht	nicht	PART	PTKNEG	Polarity=Neg	26	advmod	_	_
 23	zu	zu	ADP	APPR	_	25	case	_	_
 24	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
@@ -10511,7 +10511,7 @@
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Hannover	Hannover	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes
 5	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+6	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	_
 7	anders	anders	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -10541,7 +10541,7 @@
 3	aus	aus	ADP	APPR	_	4	case	_	_
 4	Sofia	Sofia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
 5	,	,	PUNCT	$,	_	12	punct	_	_
-6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	Kulturstätten	Kulturstätte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
 9	Europas	Europa	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	NamedEntity=Yes
@@ -10679,7 +10679,7 @@
 21	vollzogen	vollziehen	VERB	VVPP	VerbForm=Part	36	ccomp	_	_
 22	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	21	aux:pass	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	32	punct	_	_
-24	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	32	nsubj	_	_
+24	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	32	nsubj	_	_
 25	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 26	neun	neun	NUM	CARD	NumType=Card	27	nummod	_	_
 27	Männer	Mann	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
@@ -11150,7 +11150,7 @@
 23	ROM	ROM	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	34	punct	_	_
 25	mit	mit	ADP	APPR	_	26	case	_	_
-26	der	der	DET	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	34	obl	_	_
+26	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	34	obl	_	_
 27	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	34	obj	_	_
 28	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
@@ -11230,7 +11230,7 @@
 5	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	csubj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-8	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	_
+8	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	obj	_	_
 9	auch	auch	ADV	ADV	_	17	advmod	_	_
 10	noch	noch	ADV	ADV	_	17	advmod	_	_
 11	zwei	zwei	NUM	CARD	NumType=Card	13	nummod	_	_
@@ -11327,7 +11327,7 @@
 5	Formulierungen	Formulierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
-8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	_
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	13	nsubj	_	_
 9	irgendein	irgendein	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	nmod	_	_
 10	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
@@ -11344,7 +11344,7 @@
 22	,	,	PUNCT	$,	_	33	punct	_	_
 23	``	``	PUNCT	$(	_	33	punct	_	SpaceAfter=No
 24	und	und	CCONJ	KON	_	33	cc	_	_
-25	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	33	nsubj	_	_
+25	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	33	nsubj	_	_
 26	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 27	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	33	obj	_	_
 28	dennoch	dennoch	ADV	ADV	_	33	advmod	_	_
@@ -11489,7 +11489,7 @@
 6	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
 7	Umweltstandards	Umweltstandard	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	16	punct	_	_
-9	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	16	nsubj	_	_
+9	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	16	nsubj	_	_
 10	zu	zu	ADP	APPR	_	12	case	_	_
 11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Nachteil	Nachteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
@@ -11621,7 +11621,7 @@
 6	geheimen	geheim	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	Landkarte	Landkarte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	18	punct	_	_
-9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	17	obj	_	_
+9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	17	obj	_	_
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 12	türkisch	türkisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	compound	_	_
@@ -11862,7 +11862,7 @@
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Engagement	Engagement	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	14	punct	_	_
-4	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	14	obj	_	_
+4	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 6	inzwischen	inzwischen	ADV	ADV	_	11	advmod	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
@@ -12308,7 +12308,7 @@
 
 # sent_id = test-s607
 # text = Das hat der Partei genutzt.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Partei	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl:arg	_	_
@@ -12424,7 +12424,7 @@
 # sent_id = test-s614
 # text = Hat das denn zur Folge, daß die Jugendlichen sich Orientierungen suchen außerhalb der bislang traditionellen Vorbilder aus Familie und Schule?
 1	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	1	nsubj	_	_
 3	denn	denn	ADV	ADV	_	1	advmod	_	_
 4-5	zur	_	_	_	_	_	_	_	_
 4	zu	zu	ADP	APPR	_	6	case	_	_
@@ -12542,7 +12542,7 @@
 # sent_id = test-s620
 # text = ``Die haben noch nicht unsere Neurose, sich immer streng unter Kontrolle haben zu müssen'', befindet der Lachspezialist.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	3	nsubj	_	_
 3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
 4	noch	noch	ADV	ADV	_	5	advmod	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
@@ -12569,7 +12569,7 @@
 1	Zwei	zwei	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	8	punct	_	_
-4	die	der	DET	PRELS	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	8	obj	_	_
+4	die	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem,Rel	8	obj	_	_
 5	Perot	Perot	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	NamedEntity=Yes
 6	immer	immer	ADV	ADV	_	7	advmod	_	_
 7	wieder	wieder	ADV	ADV	_	8	advmod	_	_
@@ -12693,7 +12693,7 @@
 1	Meinen	meinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	7	punct	_	_
-4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	_
 5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Chance	Chance	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
@@ -12850,7 +12850,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Hansestadt	Hansestadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	6	punct	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	6	nsubj	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	6	nsubj	_	_
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
 6	Brückenkopf	Brückenkopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	acl	_	_
 7	Richtung	Richtung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	compound	_	_
@@ -12894,7 +12894,7 @@
 
 # sent_id = test-s637
 # text = Die könne dann von den Bewohnern sozial flexible Preise kassieren.
-1	Die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	nsubj	_	_
+1	Die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	10	nsubj	_	_
 2	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 3	dann	dann	ADV	ADV	_	10	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -12932,7 +12932,7 @@
 2	von	von	ADP	APPR	_	3	case	_	_
 3	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
-5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
@@ -12946,7 +12946,7 @@
 16	zusammengerafft	zusammenraffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	29	punct	_	_
 18	von	von	ADP	APPR	_	19	case	_	_
-19	dem	der	DET	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Rel	29	obl	_	_
+19	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	29	obl	_	_
 20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	Schahminister	Schahminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	25	punct	_	_
@@ -12985,7 +12985,7 @@
 
 # sent_id = test-s641
 # text = Das bedeutet, daß viele Sorgen, Nöte und Wünsche von Kindern und Jugendlichen häufig in den übrig gelassenen Zeitlücken der beruflich flexibilisierten Erwachsenen hineingestopft werden.
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	_
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	25	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	25	mark	_	_
@@ -13026,7 +13026,7 @@
 9	physischen	physisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
 10	Gewaltformen	Gewaltform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	21	punct	_	_
-12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	21	nsubj	_	_
+12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	21	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
 14	über	über	ADP	APPR	_	17	case	_	_
 15	männlich	männlich	ADV	ADJD	_	16	advmod	_	_
@@ -13044,7 +13044,7 @@
 27	psychischen	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
 28	Gewaltformen	Gewaltform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	38	punct	_	_
-30	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	38	nsubj:pass	_	_
+30	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	38	nsubj:pass	_	_
 31	als	als	ADP	APPR	_	32	case	_	_
 32	Einzelaktivität	Einzelaktivität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	obl	_	_
 33	eher	eher	ADV	ADV	_	38	advmod	_	_
@@ -13122,7 +13122,7 @@
 11	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
 12	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl:arg	_	_
 13	auch	auch	ADV	ADV	_	15	advmod	_	_
-14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj:pass	_	_
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	15	nsubj:pass	_	_
 15	gestrichen	streichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -13157,7 +13157,7 @@
 2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	Bürger	Bürger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
 4	schafft	schaffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
@@ -13193,7 +13193,7 @@
 15	Treuhandanstalt	Treuhandanstalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 16	übertragen	übertragen	VERB	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	33	punct	_	_
-18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	33	nsubj	_	_
+18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	33	nsubj	_	_
 19	über	über	ADP	APPR	_	22	case	_	_
 20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	endgültige	endgültig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
@@ -13276,7 +13276,7 @@
 11	Wiedereinrichter	Wiedereinrichter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 12	''	''	PUNCT	$(	_	23	punct	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	23	punct	_	_
-14	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	23	nsubj	_	_
+14	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	23	nsubj	_	_
 15	wie	wie	ADP	KOKOM	_	16	case	_	_
 16	Holm	Holm	PROPN	NE	Case=Nom|Number=Sing	23	obl	_	NamedEntity=Yes
 17	auf	auf	ADP	APPR	_	21	case	_	_
@@ -13322,7 +13322,7 @@
 5	Betriebskonzept	Betriebskonzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
 6	--	--	PUNCT	$(	_	9	punct	_	_
 7	und	und	CCONJ	KON	_	9	cc	_	_
-8	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
+8	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	_
 9	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 10	auch	auch	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 11	:	:	PUNCT	$.	_	14	punct	_	_
@@ -13531,7 +13531,7 @@
 11	von	von	ADP	APPR	_	12	case	_	_
 12	Nachtarbeitern	Nachtarbeiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	23	punct	_	_
-14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	23	nsubj:pass	_	_
+14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	23	nsubj:pass	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
 16	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
 17	fünfziger	fünfziger	ADJ	ADJA	Case=Dat|Degree=Pos	18	amod	_	_
@@ -13555,7 +13555,7 @@
 7	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
 8	dar	dar	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
-10	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	15	nsubj	_	_
+10	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	15	nsubj	_	_
 11	oft	oft	ADV	ADV	_	15	advmod	_	_
 12	freiwillig	freiwillig	ADV	ADJD	_	15	advmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
@@ -13564,7 +13564,7 @@
 16	,	,	PUNCT	$,	_	23	punct	_	_
 17	``	``	PUNCT	$(	_	23	punct	_	SpaceAfter=No
 18	weil	weil	SCONJ	KOUS	_	23	mark	_	_
-19	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	_	_
+19	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 20	familiär	familiär	ADV	ADJD	_	23	advmod	_	_
 21	für	für	ADP	APPR	_	22	case	_	_
 22	mich	ich	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	23	nmod	_	_
@@ -13578,7 +13578,7 @@
 1	Chris	Chris	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	NamedEntity=Yes
 2	Patten	Patten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
 3	,	,	PUNCT	$,	_	21	punct	_	_
-4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 5	als	als	ADP	APPR	_	6	case	_	_
 6	Parteivorsitzender	Parteivorsitzender	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
 7	maßgeblich	maßgeblich	ADV	ADJD	_	21	advmod	_	_
@@ -14161,7 +14161,7 @@
 4	diesjährigen	diesjährig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	Parteikongresses	Parteikongreß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	21	punct	_	_
-7	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -14318,7 +14318,7 @@
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Alphabetisierung	Alphabetisierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	18	punct	_	_
-6	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
+6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 7	bei	bei	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
@@ -14496,7 +14496,7 @@
 4	Sorgen	Sorge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	über	über	ADP	APPR	_	7	case	_	_
-7	den	der	DET	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
+7	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	10	obl	_	_
 8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 9	kaum	kaum	ADV	ADV	_	10	advmod	_	_
 10	hinausschauen	hinausschauen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
@@ -14703,7 +14703,7 @@
 33	selbst	selbst	PRON	ADV	_	32	appos	_	SpaceAfter=No
 34	,	,	PUNCT	$,	_	40	punct	_	_
 35	auf	auf	ADP	APPR	_	36	case	_	_
-36	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	40	nmod	_	_
+36	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	40	nmod	_	_
 37	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	38	det	_	_
 38	Entwicklungsländer	Entwicklungsland	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	40	nsubj	_	_
 39	ebenfalls	ebenfalls	ADV	ADV	_	40	advmod	_	_
@@ -14741,7 +14741,7 @@
 5	Miyazawa	Miyazawa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes
 6	wiederum	wiederum	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	15	punct	_	_
-8	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	nsubj	_	_
 9	nach	nach	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	regierenden	regierend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
@@ -15169,7 +15169,7 @@
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Parlament	Parlament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	15	punct	_	_
-7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	_
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	15	nsubj	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -15402,7 +15402,7 @@
 2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 3	jene	jener	DET	PDS	Case=Acc|Number=Plur|PronType=Dem	13	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
-5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 7	nun	nun	ADV	ADV	_	10	advmod	_	_
 8	über	über	ADP	APPR	_	9	case	_	_
@@ -15608,7 +15608,7 @@
 4	Sortiment	Sortiment	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	11	punct	_	_
 6	für	für	ADP	APPR	_	7	case	_	_
-7	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obl	_	_
+7	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obl	_	_
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
 10	womöglich	womöglich	ADV	ADV	_	11	advmod	_	_
@@ -15633,7 +15633,7 @@
 28	zu	zu	PART	PTKZU	_	29	mark	_	_
 29	gewähren	gewähren	VERB	VVINF	VerbForm=Inf	24	conj	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	40	punct	_	_
-31	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	40	nsubj	_	_
+31	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	40	nsubj	_	_
 32	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	33	det	_	_
 33	Wundertaten	Wundertat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	40	obj	_	_
 34	während	während	ADP	APPR	_	37	case	_	_
@@ -15862,7 +15862,7 @@
 1	Einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Umstand	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	15	punct	_	_
-4	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	15	obl:arg	_	_
+4	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	obl:arg	_	_
 5	Wüstenrot	Wüstenrot	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Geschäftsführer	Geschäftsführer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -16194,7 +16194,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Übereifer	Übereifer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	13	punct	_	_
-4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj:pass	_	_
+4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	nsubj:pass	_	_
 5	dabei	dabei	ADV	PAV	_	13	advmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	München	München	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	NamedEntity=Yes
@@ -16325,7 +16325,7 @@
 4	außerdem	außerdem	ADV	PAV	_	5	advmod	_	_
 5	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
-7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	_
 8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	strengere	streng	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	10	amod	_	_
 10	Kontrollen	Kontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
@@ -16476,7 +16476,7 @@
 2	afrikanische	afrikanisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 3	Asylbewerber	Asylbewerber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	19	punct	_	_
-5	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	19	nsubj:pass	_	_
+5	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	19	nsubj:pass	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Nacht	Nacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
@@ -17045,7 +17045,7 @@
 8	Israels	Israel	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|NamedEntity=Yes
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
-11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	15	obl	_	_
+11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	obl	_	_
 12	Juden	Jude	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Anschlag	Anschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
@@ -17196,7 +17196,7 @@
 29	all	alle	DET	PIAT	PronType=Tot	30	det	_	_
 30	derjenigen	diejenige	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	19	conj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	38	punct	_	_
-32	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	38	nsubj	_	_
+32	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	38	nsubj	_	_
 33	Ämter	Amt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	38	obj	_	_
 34	in	in	ADP	APPR	_	35	case	_	_
 35	San	San	PROPN	NE	_	38	obl	_	NamedEntity=Yes
@@ -17260,7 +17260,7 @@
 # text = Mir macht das nichts aus.
 1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl:arg	_	_
 2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	_
 4	nichts	nichts	PRON	PIS	Gender=Neut|PronType=Ind	2	obj	_	_
 5	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
@@ -17608,7 +17608,7 @@
 1	Keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	Zeile	Zeile	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	6	punct	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	6	nsubj:pass	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	6	nsubj:pass	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
 6	verdreht	verdrehen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
@@ -17913,7 +17913,7 @@
 # text = Mischlinge, die bisher gegen die ``Schwarzen'' im ANC stimmten, entscheiden jetzt eher anhand von Sachfragen.
 1	Mischlinge	Mischling	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	13	punct	_	_
-3	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	_
+3	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	13	nsubj	_	_
 4	bisher	bisher	ADV	ADV	_	13	advmod	_	_
 5	gegen	gegen	ADP	APPR	_	8	case	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -17979,7 +17979,7 @@
 20	,	,	PUNCT	$,	_	21	punct	_	_
 21	Werte	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	30	punct	_	_
-23	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	30	nsubj	_	_
+23	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	30	nsubj	_	_
 24-25	im	_	_	_	_	_	_	_	_
 24	in	in	ADP	APPR	_	26	case	_	_
 25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
@@ -18157,7 +18157,7 @@
 6	``	``	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 7	und	und	CCONJ	KON	_	10	cc	_	_
 8	über	über	ADP	APPR	_	9	case	_	_
-9	die	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	10	obl	_	_
+9	die	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem,Rel	10	obl	_	_
 10	verhandle	verhandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 12	ab	ab	ADP	APPR	_	14	case	_	_
@@ -18387,7 +18387,7 @@
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	15	punct	_	_
-9	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+9	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	nsubj	_	_
 10	unter	unter	ADP	APPR	_	11	case	_	_
 11	anderem	ander	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	15	obl	_	_
 12	Geschäftshäuser	Geschäftshaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
@@ -18430,7 +18430,7 @@
 
 # sent_id = test-s911
 # text = Der aber war gar nicht da.
-1	Der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+1	Der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	3	nsubj	_	_
 2	aber	aber	ADV	ADV	_	3	advmod	_	_
 3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	gar	gar	ADV	ADV	_	5	advmod	_	_
@@ -18872,7 +18872,7 @@
 5	Wim	Wim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	NamedEntity=Yes
 6	Wenders	Wenders	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
 7	,	,	PUNCT	$,	_	20	punct	_	_
-8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	20	nsubj	_	_
+8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	20	nsubj	_	_
 9	für	für	ADP	APPR	_	10	case	_	_
 10	Hof	Hof	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
 11	vor	vor	ADP	APPR	_	12	case	_	_
@@ -19016,7 +19016,7 @@
 # sent_id = test-s938
 # text = Um das zu beziffern, benötigt jedoch niemand Umschreibungen mit mißverständlichem Tremolo.
 1	Um	um	ADP	KOUI	_	4	mark	_	_
-2	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+2	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	obj	_	_
 3	zu	zu	PART	PTKZU	_	4	mark	_	_
 4	beziffern	beziffern	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -19089,7 +19089,7 @@
 6	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	dagegen	dagegen	ADV	PAV	PronType=Dem	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	11	punct	_	_
-9	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	_
+9	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obj	_	_
 10	widerstandslos	widerstandslos	ADV	ADJD	_	11	advmod	_	_
 11	hinzunehmen	hinnehmen	VERB	VVIZU	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
@@ -19442,7 +19442,7 @@
 14	Dieter	Dieter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
 15	Wolf	Wolf	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|NamedEntity=Yes
 16	,	,	PUNCT	$,	_	23	punct	_	_
-17	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_
+17	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 18	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
 19	Kompetenz	Kompetenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 20	für	für	ADP	APPR	_	22	case	_	_
@@ -19481,7 +19481,7 @@
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Kartellamt	Kartellamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	13	punct	_	_
-5	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	13	nsubj	_	_
+5	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
 7	bislang	bislang	ADV	ADV	_	13	advmod	_	_
 8	mit	mit	ADP	APPR	_	11	case	_	_
@@ -19679,7 +19679,7 @@
 5	Jefferson	Jefferson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes
 6	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No|NamedEntity=Yes
 7	,	,	PUNCT	$,	_	18	punct	_	_
-8	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
+8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 9	wie	wie	ADP	KOKOM	_	11	case	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
 11	viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	18	obl	_	_
