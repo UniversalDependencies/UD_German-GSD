@@ -130,7 +130,7 @@
 # sent_id = dev-s10
 # text = Habe die bestellten Artikel prompt erhalten.
 1	Habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 3	bestellten	bestellt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
 4	Artikel	Artikel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 5	prompt	prompt	ADV	ADJD	_	6	advmod	_	_
@@ -198,7 +198,7 @@
 3	wunderschöne	wunderschön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	Spaziergänge	Spaziergang	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
 5	und	und	CCONJ	KON	_	14	cc	_	_
-6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	_
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Region	Region	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -439,7 +439,7 @@
 # text = Wir waren die letzten Panzerkutscher vor Feierabend, was sich als Nachteil heraus stellte.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
-3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	letzten	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	Panzerkutscher	Panzerkutscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 6	vor	vor	ADP	APPR	_	7	case	_	_
@@ -567,7 +567,7 @@
 
 # sent_id = dev-s39
 # text = Die Gäste zahlen normalerweise für die Mitfahrt ca. 10, -- EUR!
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Gäste	Gast	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	normalerweise	normalerweise	ADV	ADV	_	3	advmod	_	_
@@ -739,7 +739,7 @@
 1	tolle	toll	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 2	engangierte	engangiert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
 3	mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	8	nsubj	_	_
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	_
 5	auch	auch	ADV	ADV	_	7	advmod	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	motiviert	motiviert	ADJ	ADJD	Degree=Pos	8	xcomp	_	_
@@ -846,7 +846,7 @@
 4	dass	dass	SCONJ	KOUS	_	14	mark	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Betreiber	Betreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Rheinfähre	Rheinfähre	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Düsseldorf	Düsseldorf	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	NamedEntity=Yes
@@ -1174,7 +1174,7 @@
 1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	2	conj	_	_
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	2	conj	_	_
 5	unserer	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
 7	führen	fahren|führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1360,7 +1360,7 @@
 1	Wahrscheinlich	wahrscheinlich	ADV	ADV	_	6	advmod	_	_
 2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	_
-4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 5	besten	gut	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	6	amod	_	_
 6	Arbeitsjahre	Arbeitsjahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
 7	überhaupt	überhaupt	ADV	ADV	_	6	advmod	_	SpaceAfter=No
@@ -1516,7 +1516,7 @@
 
 # sent_id = dev-s90
 # text = Die Zimmer sauber und ordentlich, der Chef und das Personal freundlich und hilfsbereit, Sonderwünsche - kein Problem.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	sauber	sauber	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -1550,7 +1550,7 @@
 9	Hotel	Hotel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
 10	mithalten	mithalten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	15	punct	_	_
-12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	moderat	moderat	ADJ	ADJD	Degree=Pos	10	parataxis	_	SpaceAfter=No
@@ -1807,7 +1807,7 @@
 # text = Auch sind die Termine immer so gelegt, dass man nicht auf andere Kunden trifft.
 1	Auch	auch	ADV	ADV	_	7	advmod	_	_
 2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Termine	Termin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 5	immer	immer	ADV	ADV	_	7	advmod	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
@@ -1899,7 +1899,7 @@
 4	schon	schon	ADV	ADV	_	9	advmod	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
-7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Gruppenfeierlichkeiten	Gruppenfeierlichkeiten	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 9	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	und	und	CCONJ	KON	_	13	cc	_	_
@@ -1941,7 +1941,7 @@
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	gut	gut	ADV	ADJD	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	10	punct	_	_
-7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Räumlichkeiten	Räumlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
 9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	sauber	sauber	ADJ	ADJD	Degree=Pos	3	conj	_	_
@@ -2144,18 +2144,18 @@
 
 # sent_id = dev-s125
 # text = Die Preise sind moderat, die Lieferzeiten wurden exakt eingehalten, die Küchenmonteure waren freundlich und haben auch nicht gemurrt, dass der Aufbau etwas länger als geplant gedauert hat.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	moderat	moderat	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
-6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Lieferzeiten	Lieferzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 8	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
 9	exakt	exakt	ADV	ADJD	_	10	advmod	_	_
 10	eingehalten	einhalten	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	15	punct	_	_
-12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Küchenmonteure	Küchenmonteure	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
 15	freundlich	freundlich	ADJ	ADJD	Degree=Pos	4	conj	_	_
@@ -2402,7 +2402,7 @@
 
 # sent_id = dev-s139
 # text = Die Ausstellungsräume sind fabelhaft und wirklich mit Liebe im Detail präsentiert.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Ausstellungsräume	Ausstellungsraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	fabelhaft	fabelhaft	ADJ	ADJD	Degree=Pos	0	root	_	_
@@ -2557,7 +2557,7 @@
 13	äußerst	äußerst	ADV	ADV	_	14	advmod	_	_
 14	freundliche	freundlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 15	Ton	Ton	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Verkäufer	Verkäufer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	Inhaber	Inhaber	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
@@ -2738,7 +2738,7 @@
 8	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
 9	auch	auch	ADV	ADV	_	16	advmod	_	_
 10	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
-11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
 13	eher	eher	ADV	ADV	_	16	advmod	_	_
 14	ein	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
@@ -3234,7 +3234,7 @@
 13	Arbeiten	Arbeit|Arbeiten	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Teilabnahme	Teilabnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Rechnungen	Rechnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
 19	bezahlt	bezahlen	VERB	VVPP	VerbForm=Part	6	advcl	_	_
@@ -3465,7 +3465,7 @@
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Unterricht	Unterricht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	19	punct	_	_
-18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	Räumlichkeiten	Räumlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	22	punct	_	_
 21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -3837,7 +3837,7 @@
 
 # sent_id = dev-s218
 # text = Die Sprechstundenhilfen am Empfang sind sehr freundlich ebenso auch die Frau Doktor.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Sprechstundenhilfen	Sprechstundenhilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
@@ -3967,7 +3967,7 @@
 8	fern	fern	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	damit	damit	SCONJ	KOUS	_	15	mark	_	_
-11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Ruhe	Ruhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
@@ -3998,7 +3998,7 @@
 # sent_id = dev-s228
 # text = STELLT DIE VERANSTALTER ZUR REDE
 1	STELLT	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	DIE	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	DIE	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	VERANSTALTER	Veranstalter	NOUN	NE	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
 4-5	ZUR	_	_	_	_	_	_	_	_
 4	ZU	zu	ADP	APPR	_	6	case	_	_
@@ -4218,7 +4218,7 @@
 6	Salate	Salat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	_
 7	und	und	CCONJ	KON	_	10	cc	_	_
 8	auch	auch	ADV	ADV	_	10	advmod	_	_
-9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Fleischgerichte	Fleischgericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
 11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
@@ -4588,7 +4588,7 @@
 7	immer	immer	ADV	ADV	_	8	advmod	_	_
 8	Frisch	Frisch	ADJ	ADJD	Degree=Pos	0	root	_	_
 9	und	und	CCONJ	KON	_	12	cc	_	_
-10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Burger	Burger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 12	schmecken	schmecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 13	super	super	ADJ	ADJD	Degree=Pos	12	xcomp	_	SpaceAfter=No
@@ -4599,7 +4599,7 @@
 1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dort	dort	ADV	ADV	_	2	advmod	_	_
-4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 5	verschiedensten	verschieden	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	7	amod	_	_
 6	Burger	Burger	NOUN	NN	_	7	compound	_	_
 7	Varianten	Variante	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
@@ -4620,7 +4620,7 @@
 
 # sent_id = dev-s265
 # text = Die Bedingungen sind immer freundlich und der gesamte Laden wirkt sehr gepflegt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Bedingungen	Bedingung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	immer	immer	ADV	ADV	_	5	advmod	_	_
@@ -4639,7 +4639,7 @@
 1	Für	für	ADP	APPR	_	2	case	_	_
 2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 3	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
-4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 5	besten	gut	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	7	amod	_	_
 6	Burger	Burger	NOUN	ADJA	Case=Gen|Gender=Masc|Number=Plur	7	compound	_	_
 7	Läden	Laden	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
@@ -4787,7 +4787,7 @@
 20	,	,	PUNCT	$,	_	21	punct	_	_
 21	Käse	Käse	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	conj	_	_
 22	etc.	etc.	X	ADV	_	21	cc	_	_
-23	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
 25	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 26	freundlich	freundlich	ADJ	ADJD	Degree=Pos	12	parataxis	_	SpaceAfter=No
@@ -5130,7 +5130,7 @@
 
 # sent_id = dev-s300
 # text = Die Betreiber des Copyshops benutzen ausschließlich Windows-Rechner und akzeptieren keine Mac-Formatierten USB-Sticks.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Betreiber	Betreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Copyshops	Copyshops	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -5624,7 +5624,7 @@
 10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	_
 11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	Handykap	Handykap	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
-13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Kunden	Kunde	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 15	voll	voll	ADV	ADJD	_	16	advmod	_	_
 16	ausnutzen	ausnutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
@@ -5699,7 +5699,7 @@
 # text = Die Qualität der Schuhe ist einfach ideal.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Qualität	Qualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Schuhe	Schuh	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	einfach	einfach	ADV	ADV	_	7	advmod	_	_
@@ -5768,7 +5768,7 @@
 
 # sent_id = dev-s339
 # text = Die Ferienwohnungen sind größer als man erwartet und der Preis ist gerechtfertigt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Ferienwohnungen	Ferienwohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	größer	groß	ADJ	ADJD	Degree=Cmp	0	root	_	_
@@ -6001,14 +6001,14 @@
 2	Bay	Bay	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	NamedEntity=Yes
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	eine	ein	PRON	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
-5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	neuesten	neu	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	aber	aber	CCONJ	KON	_	11	cc	_	_
 9	leider	leider	ADV	ADV	_	11	advmod	_	_
 10	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 11	eine	ein	PRON	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	conj	_	_
-12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Besten	Beste	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -6047,7 +6047,7 @@
 11	daß	daß	SCONJ	KOUS	_	18	nsubj	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Abfertigung	Abfertigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl:arg	_	_
-14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Besuchermengen	Besuchermengen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
 16	auch	auch	ADV	ADV	_	18	advmod	_	_
 17	gerecht	rechen	ADJ	ADJD	Degree=Pos	18	xcomp	_	_
@@ -6104,7 +6104,7 @@
 2	und	und	CCONJ	KON	_	3	cc	_	_
 3	freundlich	freundlich	ADJ	ADJD	Degree=Pos	1	conj	_	_
 4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
-5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Servicekräfte	Servicekräfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	aber	aber	CCONJ	KON	_	10	cc	_	_
@@ -6156,9 +6156,9 @@
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Blick	Blick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
-4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Gesichter	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_
-6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 7	anderen	ander	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 8	Besucher	Besucher	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 9	bestätigte	bestätigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6514,7 +6514,7 @@
 11	später	spät	ADV	ADJD	_	10	advmod	_	_
 12	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
 13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 15	bestellten	bestellt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
 16	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 17	zu	zu	ADP	APPR	_	18	case	_	_
@@ -6704,7 +6704,7 @@
 19	alles	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	20	det	_	_
 20	erforderliche	erforderlich	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
-22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	Wege	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
 24	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	7	punct	_	_
@@ -6767,7 +6767,7 @@
 17	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	32	nsubj	_	_
 18	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	32	obl:arg	_	_
 19	zuvor	zuvor	ADV	ADV	_	32	advmod	_	_
-20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	21	det	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	Ermittlungsakte	Ermittlungsakte	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	32	obj	_	_
 22	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Strafsache	Strafsache	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
@@ -6854,7 +6854,7 @@
 13	immer	immer	ADV	ADV	_	14	advmod	_	_
 14	Abends	Abend	ADV	ADV	_	10	advmod	_	_
 15	einen	ein	PRON	PIS	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
-16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+16	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 17	lecker	leck	ADV	ADJD	_	18	advmod	_	_
 18	gefüllten	gefüllt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 19	Pfannenkuchen	Pfannenkuchen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
@@ -7028,7 +7028,7 @@
 8	Spass	Spaß	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	17	punct	_	_
 10	denn	denn	SCONJ	KON	_	17	mark	_	_
-11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
 13	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	für	für	ADP	APPR	_	16	case	_	_
@@ -7122,7 +7122,7 @@
 12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	einer	ein	PRON	PIS	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	18	obl	_	_
-15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+15	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 16	gläubigen	gläubig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
 17	Hütten	Hütte	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
 18	übernachten	übernachten	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
@@ -7130,7 +7130,7 @@
 
 # sent_id = dev-s424
 # text = Die Gastgeber sind sehr freundlich und hilfsbereit.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Gastgeber	Gastgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
@@ -7148,7 +7148,7 @@
 5	abgeschliffen	abschleifen	VERB	VVPP	VerbForm=Part	0	root	_	_
 6	und	und	CCONJ	KON	_	17	cc	_	_
 7	uns	wir	PRON	PRF	Case=Dat|Number=Plur|Person=1|PronType=Prs	17	obl:arg	_	_
-8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Maschinen	Maschine	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
 10	bei	bei	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -7186,7 +7186,7 @@
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Service	Service	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 4	und	und	CCONJ	KON	_	6	cc	_	_
-5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Preise	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -7253,7 +7253,7 @@
 
 # sent_id = dev-s433
 # text = Die Einzelstunden am Sonntag war sehr gut, sie fand in einem freundschaftlichen Ton statt, meine Fragen wurden ausführlich beantwortet, mein Hund "Emiliy" liebt die Trainerin vom ersten Augenblick an.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Einzelstunden	Einzelstunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
@@ -7472,7 +7472,7 @@
 4	recht	recht	ADV	ADV	_	5	advmod	_	_
 5	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
-7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Hundebesitzer	Hundebesitzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 10	auch	auch	ADV	ADV	_	9	advmod	_	_
@@ -7662,7 +7662,7 @@
 10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	_
 12	als	als	ADP	KOKOM	_	14	case	_	_
-13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Bilder	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -7715,7 +7715,7 @@
 # text = Wir werden die Sonnendüne als Geheimtipp handeln.
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
-3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Sonnendüne	Sonnendüne	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 5	als	als	ADP	KOKOM	_	6	case	_	_
 6	Geheimtipp	Geheimtip	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
@@ -7823,7 +7823,7 @@
 
 # sent_id = dev-s466
 # text = Die Parkplätze sind umsonst!!!
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Parkplätze	Parkplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	umsonst	umsonst	ADJ	ADV	Degree=Pos	0	root	_	SpaceAfter=No
@@ -8196,7 +8196,7 @@
 3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
 5	noch	noch	ADV	ADV	_	8	advmod	_	_
-6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Winterreifen	Winterreifen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 8	gewechselt	wechseln	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	SpaceAfter=No
@@ -8415,7 +8415,7 @@
 33	Produktion	Produktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	conj	_	_
 34	noch	noch	ADV	ADV	_	35	advmod	_	_
 35	nicht	nicht	PART	PTKNEG	Polarity=Neg	39	advmod	_	_
-36	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+36	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 37	entscheidenden	entscheidend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	_
 38	Folgerungen	Folgerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	_
 39	gezogen	ziehen	VERB	VVPP	VerbForm=Part	15	ccomp	_	_
@@ -8424,7 +8424,7 @@
 
 # sent_id = dev-s503
 # text = Die Großbauern streichen viel ein, die kleinen bekommen wenig.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Großbauern	Großbauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	streichen	streichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	viel	viel	DET	PIS	PronType=Ind	3	obj	_	_
@@ -8446,7 +8446,7 @@
 6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 7	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_
 8	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
-9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 10	letzten	letzt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	_
 11	30	30	NUM	CARD	NumType=Card	12	nummod	_	_
 12	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
@@ -8463,12 +8463,12 @@
 4	noch	noch	ADV	ADV	_	3	advmod	_	_
 5	Helfer	Helfer	NOUN	NN	Case=Acc|Gender=Masc	3	obj	_	_
 6	für	für	ADP	APPR	_	9	case	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 8	kommenden	kommend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	20	punct	_	_
 11	doch	doch	SCONJ	KON	_	20	mark	_	_
-12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 13	versammelten	versammelt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
 14	Zugpflegeleiterinnen	Zugpflegeleiterin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
 15	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -8499,7 +8499,7 @@
 
 # sent_id = dev-s507
 # text = Die EU-Staaten, die USA und Polen hatten Nigerias Präsidenten Sani Abacha schon am Donnerstag aufgefordert, das Urteil gegen den Schriftsteller Ken Saro-Wiwa und acht weitere Politiker rückgängig zu machen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	EU	EU	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No|NamedEntity=Yes
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
@@ -8633,7 +8633,7 @@
 
 # sent_id = dev-s512
 # text = Die Sozialdemokraten suchen wieder Nachfolger für Ministerpräsident Carlsson.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Sozialdemokraten	Sozialdemokrat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	suchen	suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	wieder	wieder	ADV	ADV	_	3	advmod	_	_
@@ -8750,12 +8750,12 @@
 
 # sent_id = dev-s519
 # text = Die Machthaber wollen das Ergebnis der ersten freien Parlamentswahlen von 1991 löschen
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Machthaber	Machthaber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Ergebnis	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
-6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 7	ersten	erst	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|NumType=Ord	9	amod	_	_
 8	freien	frei	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Parlamentswahlen	Parlamentswahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
@@ -8789,7 +8789,7 @@
 
 # sent_id = dev-s522
 # text = Die Maßnahmen gelten natürlich nicht für diejenige Personen, die für Bluttaten verantwortlich sind.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	gelten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	natürlich	natürlich	ADV	ADV	_	5	advmod	_	_
@@ -8818,7 +8818,7 @@
 
 # sent_id = dev-s524
 # text = Die Chefs der Industrie -- und Unternehmerverbände akzeptieren den KCTU nicht.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Chefs	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Industrie	Industrie	NOUN	TRUNC	_	2	nmod	_	_
@@ -8856,7 +8856,7 @@
 4	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Regierungspartei	Regierungspartei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 8	meisten	meist	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	Stimmen	Stimme|Stimmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
@@ -8928,7 +8928,7 @@
 
 # sent_id = dev-s529
 # text = Die Verkehrsplaner im islamischen ``Gottesstaat'' halten noch eine andere Überraschung bereit:
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Verkehrsplaner	Verkehrsplaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	7	case	_	_
@@ -9041,7 +9041,7 @@
 # text = Die Zahl der unter 18jährigen Straftäter für dieses Delikt habe sich von 1985 bis 1993 auf 61 000 verdoppelt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 4	unter	unter	ADP	ADV	_	5	case	_	_
 5	18jährigen	18jährig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 6	Straftäter	Straftäter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -9103,7 +9103,7 @@
 22	angeheuerten	angeheuert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
 23	Haushaltsprofis	Haushaltsprofi	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl:agent	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	29	punct	_	_
-25	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	29	nsubj	_	_
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	29	nsubj	_	_
 26	durch	durch	ADP	APPR	_	28	case	_	_
 27	verdreckte	verdreckt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
 28	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	obl	_	_
@@ -9203,7 +9203,7 @@
 26	gesellschaftlichen	gesellschaftlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_
 27	Konsequenzen	Konsequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	31	punct	_	_
-29	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	31	nsubj	_	_
+29	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	31	nsubj	_	_
 30	daraus	daraus	ADV	PAV	PronType=Dem	31	advmod	_	_
 31	resultieren	resultieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
@@ -9211,7 +9211,7 @@
 
 # sent_id = dev-s541
 # text = Die Mobilfunkbetreiber Telekom (D 1), Mannesmann (D 2) und Thyssen / Veba (E-plus) erhalten mittelfristig wahrscheinlich neue Konkurrenz.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Mobilfunkbetreiber	Mobilfunkbetreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
 3	Telekom	Telekom	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	NamedEntity=Yes
 4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
@@ -9393,7 +9393,7 @@
 3	häufen	häufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	jedoch	jedoch	ADV	ADV	_	3	advmod	_	_
-6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Fälle	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -9405,7 +9405,7 @@
 4	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	16	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	16	mark	_	_
-7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 8	entsprechenden	entsprechend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Vorkehrungen	Vorkehrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 10-11	im	_	_	_	_	_	_	_	_
@@ -9699,7 +9699,7 @@
 5	Mißverständnis	Mißverständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	15	punct	_	_
 7	oder	oder	CCONJ	KON	_	15	cc	_	_
-8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	staatlichen	staatlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	Gläubiger	Gläubiger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -9727,7 +9727,7 @@
 
 # sent_id = dev-s565
 # text = Die Konferenzdokumente, insbesondere die Agenda 21 der UNCED, schreiben neue Partizipationsmöglichkeiten für die NGO im internationalen System fest.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Konferenzdokumente	Konferenzdokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	6	punct	_	_
 4	insbesondere	insbesondere	ADV	ADV	_	6	advmod	_	_
@@ -9785,7 +9785,7 @@
 # text = Die Zahl der Kammern hängt von den gesellschaftlichen Feldern ab, für die die Gesellschaft bereit ist, eine Kammer einzurichten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Kammern	Kammer	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 5	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	von	von	ADP	APPR	_	9	case	_	_
@@ -9795,7 +9795,7 @@
 10	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	16	punct	_	_
 12	für	für	ADP	APPR	_	13	case	_	_
-13	die	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem,Rel	16	nmod	_	_
+13	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	16	nmod	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Gesellschaft	Gesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 16	bereit	bereit	ADJ	ADJD	Degree=Pos	9	acl	_	_
@@ -9880,7 +9880,7 @@
 4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Medienentwicklung	Medienentwicklung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	verändere	verändern	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 10	menschlichen	menschlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
@@ -9889,7 +9889,7 @@
 13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
 15	und	und	CCONJ	KON	_	17	cc	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Werte	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -9961,7 +9961,7 @@
 
 # sent_id = dev-s575
 # text = Die Menschen sollten lieber auf andere Weise gegen die Abflachung ihrer Melatonin -- Rhythmik ankämpfen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 4	lieber	lieb	ADV	ADV	_	15	advmod	_	_
@@ -10007,7 +10007,7 @@
 24	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 25	vor	vor	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
 26	:	:	PUNCT	$.	_	29	punct	_	_
-27	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	29	det	_	_
+27	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 28	wachsenden	wachsend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	29	amod	_	_
 29	Personalprobleme	Personalproblem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	appos	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -10045,7 +10045,7 @@
 
 # sent_id = dev-s578
 # text = Die Delegationen aus Bosnien, Serbien und Kroatien setzten sich jetzt mit Vorschlägen auseinander, die Meinungsunterschiede in den Schlüsselfragen einer Friedenslösung zu überbrücken.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Delegationen	Delegation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
 3	aus	aus	ADP	APPR	_	4	case	_	_
 4	Bosnien	Bosnien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
@@ -10060,7 +10060,7 @@
 13	Vorschlägen	Vorschlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
 14	auseinander	auseinander	ADV	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	24	punct	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Meinungsunterschiede	Meinungsunterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
 18	in	in	ADP	APPR	_	20	case	_	_
 19	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -10121,7 +10121,7 @@
 
 # sent_id = dev-s581
 # text = Die 33 000 Wahlbüros öffneten um acht Uhr und sollen um 19 Uhr schließen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	33	33	NUM	CARD	NumType=Card	3	nummod	_	_
 3	000	000	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Wahlbüros	Wahlbüro	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
@@ -10266,7 +10266,7 @@
 
 # sent_id = dev-s588
 # text = Die 18 Staaten streben eine Freihandelszone bis zum Jahr 2020 an.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	18	18	NUM	CARD	NumType=Card	3	nummod	_	_
 3	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	streben	streben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10319,7 +10319,7 @@
 3	Görtz	Görtz	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	für	für	ADP	APPR	_	9	case	_	_
-6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 7	nächsten	nah	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	9	amod	_	_
 8	achtzehn	achtzehn	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
@@ -10347,7 +10347,7 @@
 9	nur	nur	ADV	ADV	_	10	advmod	_	_
 10	noch	noch	ADV	ADV	_	16	advmod	_	_
 11	jenseits	jenseits	ADP	APPR	_	13	case	_	_
-12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Grenzen	Grenze	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
 14	in	in	ADP	APPR	_	15	case	_	_
 15	Erweiterungsprojekte	Erweiterungsprojekte	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
@@ -10468,7 +10468,7 @@
 10	von	von	ADP	APPR	_	11	case	_	_
 11	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	19	punct	_	_
-13	die	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem,Rel	19	nsubj	_	_
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	19	nsubj	_	_
 14	mit	mit	ADP	APPR	_	15	case	_	_
 15	Schmiergeldzahlungen	Schmiergeldzahlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
 16	an	an	ADP	APPR	_	18	case	_	_
@@ -10503,7 +10503,7 @@
 9	Hoffnung	Hoffnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	26	punct	_	_
 11	daß	daß	SCONJ	KOUS	_	26	mark	_	_
-12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Sozialdemokraten	Sozialdemokrat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
 14	nun	nun	ADV	ADV	_	26	advmod	_	_
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -10523,7 +10523,7 @@
 
 # sent_id = dev-s600
 # text = Die Sozialdemokraten äußerten nach der Wahl Lafontaines die Hoffnung, daß sich die SPD mit dem neuen Parteichef wieder auf die Sacharbeit konzentrieren könne.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Sozialdemokraten	Sozialdemokrat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	äußerten	äußern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	nach	nach	ADP	APPR	_	6	case	_	_
@@ -10601,7 +10601,7 @@
 
 # sent_id = dev-s603
 # text = Die Teilnehmer der Tagung waren sich darüber einig, daß zwischen deren Erwerbstätigkeit und Ausbeutung unterschieden werden müsse.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Teilnehmer	Teilnehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Tagung	Tagung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -10652,7 +10652,7 @@
 1	4600	4600	NUM	CARD	NumType=Card	2	dep	_	FixTigerDep=Yes
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
-4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	meisten	meist	PRON	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	appos	_	_
 6	deutschsprechend	deutschsprechend	ADV	ADJD	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	2	punct	_	_
@@ -10759,7 +10759,7 @@
 8	''	''	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	7	punct	_	_
 10	entschuldigen	entschuldigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 12	royalen	royal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
 13	Reporter	Reporter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 14	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
@@ -10817,7 +10817,7 @@
 
 # sent_id = dev-s613
 # text = Die Pflanzen bestehen aus einem einzelnen, bandförmigen Blatt, einem Blattstiel und einem wurzelähnlichen Organ zum Festhalten.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aus	aus	ADP	APPR	_	9	case	_	_
@@ -10974,7 +10974,7 @@
 11	Skinheads	Skinhead	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 12	festgenommen	festnehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	18	punct	_	_
-14	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	18	nsubj	_	_
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	18	nsubj	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Kundgebung	Kundgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
@@ -11010,7 +11010,7 @@
 
 # sent_id = dev-s622
 # text = Die Sachzwänge des Weltmarktes und nicht mehr der Wille der Bürgerinnen und Bürger bestimmen dann die Politik.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Sachzwänge	Sachzwang	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Weltmarktes	Weltmarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -11063,7 +11063,7 @@
 
 # sent_id = dev-s625
 # text = Die Unternehmen bestehen aber auch auf Einzelverträgen unter Umgehung der Gewerkschaft.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aber	aber	ADV	ADV	_	3	advmod	_	_
@@ -11156,9 +11156,9 @@
 4	freilich	freilich	ADV	ADV	_	3	advmod	_	_
 5	weitgehend	weitgehend	ADV	ADJD	_	3	advmod	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Taschen	Tasche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
-9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Unternehmer	Unternehmer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Vermögensbesitzer	Vermögensbesitzer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
@@ -11176,7 +11176,7 @@
 
 # sent_id = dev-s632
 # text = Die Bankschulden wurden von 930 Millionen Mark in der Spitze auf 430 Millionen verringert.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Bankschulden	Bankschuld	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	_
 3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	aux:pass	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
@@ -11258,7 +11258,7 @@
 13	September	September	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	NamedEntity=Yes
 14	tiefer	tief	ADV	ADJD	_	18	advmod	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 17	roten	rot	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
 18	Zahlen	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
 19	gerutscht	rutschen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -11269,7 +11269,7 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Früher	früher	ADV	ADV	_	3	advmod	_	_
 3	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	ccomp	_	_
-4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Pensionäre	Pensionär	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 6	Tränen	Träne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
@@ -11334,12 +11334,12 @@
 3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
-6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Verbrauchsteuern	Verbrauchsteuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	senken	senken	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
 10	und	und	CCONJ	KON	_	15	cc	_	_
-11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Steuern	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 13	auf	auf	ADP	APPR	_	14	case	_	_
 14	Vermögen	Vermögen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
@@ -11374,7 +11374,7 @@
 # text = Weitere Kernpunkte der Dubliner Vereinbarungen sind die Einführung eines ``Frühwarnsystems'' für finanzpolitische Fehlentwicklungen, die Präzisierung und Straffung der Abläufe bei übermäßigen Defiziten unter anderem durch Selbstbindungen der Länder und EU-Gremien sowie klare Terminvorgaben.
 1	Weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	2	dep	_	FixTigerDep=Yes
 2	Kernpunkte	Kernpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
-3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	Dubliner	Dubliner	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Vereinbarungen	Vereinbarung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -11392,7 +11392,7 @@
 18	Präzisierung	Präzisierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
 20	Straffung	Straffung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
-21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Abläufe	Ablauf	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
 23	bei	bei	ADP	APPR	_	25	case	_	_
 24	übermäßigen	übermäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
@@ -11401,7 +11401,7 @@
 27	anderem	ander	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	26	fixed	_	_
 28	durch	durch	ADP	APPR	_	29	case	_	_
 29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	nmod	_	_
-30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	31	det	_	_
+30	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	_
 32	und	und	CCONJ	KON	_	33	cc	_	_
 33	EU	EU	PROPN	NN	Case=Gen|Gender=Neut|Number=Plur	35	compound	_	SpaceAfter=No|NamedEntity=Yes
@@ -11426,7 +11426,7 @@
 10	Bedeutung	Bedeutung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	12	punct	_	_
 12	begründen	begründen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Frankfurter	Frankfurter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 15	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
@@ -11475,7 +11475,7 @@
 11	liefert	liefern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 12	Betreiberkonzepte	Betreiberkonzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
 13	für	für	ADP	APPR	_	17	case	_	_
-14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 15	Bank	Bank	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	compound	_	SpaceAfter=No
 16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
 17	Cafés	Café	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	nmod	_	_
@@ -11485,7 +11485,7 @@
 21	auch	auch	ADV	ADV	_	19	advmod	_	_
 22	selbst	selbst	ADV	ADV	_	19	advmod	_	_
 23	als	als	ADP	APPR	_	25	case	_	_
-24	deren	der	PRON	PDS	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem,Rel	25	nmod	_	_
+24	deren	der	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem,Rel	25	nmod	_	_
 25	Betreiber	Betreiber	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
 26	an	an	ADP	PTKVZ	_	19	compound:prt	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	9	punct	_	_
@@ -11538,7 +11538,7 @@
 
 # sent_id = dev-s645
 # text = Die Bauern laufen Sturm, wenn sie solche Sätze hören.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Bauern	Bauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Sturm	Sturm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
@@ -11667,7 +11667,7 @@
 18	seiner	sein	DET	PPOSAT	Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Verantwortung	Verantwortung	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
 20	für	für	ADP	APPR	_	22	case	_	_
-21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Todesschüsse	Todesschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nmod	_	_
 23	an	an	ADP	APPR	_	27	case	_	_
 24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -11724,7 +11724,7 @@
 14	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
 15	noch	noch	ADV	ADV	_	16	advmod	_	_
 16	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
-17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	kalifornischen	kalifornisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 19	ICN	ICN	PROPN	NE	_	16	nmod	_	NamedEntity=Yes
 20	Pharmaceuticals	Pharmaceuticals	PROPN	NE	_	19	flat	_	NamedEntity=Yes
@@ -11822,7 +11822,7 @@
 5	15	15	NUM	CARD	NumType=Card	6	nummod	_	_
 6	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 7	und	und	CCONJ	KON	_	16	cc	_	_
-8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	allermeisten	allermeister	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	_
 11	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	_
@@ -11934,7 +11934,7 @@
 20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	deutliche	deutlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
 22	Reduzierung	Reduzierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
-23	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+23	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 24	dort	dort	ADV	ADV	_	25	advmod	_	_
 25	stationierten	stationiert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_
 26	rund	rund	ADV	ADJD	_	27	advmod	_	_
@@ -11954,7 +11954,7 @@
 4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	nichts	nichts	PRON	PIS	Gender=Neut|PronType=Ind	4	obj	_	_
 6	gegen	gegen	ADP	APPR	_	8	case	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Evangelen	Evangele	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|NamedEntity=Yes
 9	''	''	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	11	punct	_	_
@@ -12113,7 +12113,7 @@
 2	Mit	mit	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Aufbau	Aufbau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Stadtwerke	Stadtwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
 7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
@@ -12129,7 +12129,7 @@
 3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	gerade	gerade	ADV	ADV	_	3	advmod	_	_
 5	wegen	wegen	ADP	APPR	_	9	case	_	_
-6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 7	anstehenden	anstehend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 8	schweren	schwer	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Aufgaben	Aufgabe	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
@@ -12145,7 +12145,7 @@
 3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 4	Ausländer	Ausländer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	13	punct	_	_
-6	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem,Rel	13	nsubj	_	_
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	_
 7	seit	seit	ADP	APPR	_	10	case	_	_
 8	mindestens	mindestens	ADV	ADV	_	9	advmod	_	_
 9	fünf	fünf	NUM	CARD	NumType=Card	10	nummod	_	_
@@ -12167,7 +12167,7 @@
 
 # sent_id = dev-s669
 # text = Die Christen dürften sich nicht darauf beschränken, ethische Grundsätze zu formulieren, sondern ``müssen die Last der politischen Verantwortung übernehmen'', verlangte Günter Brakelmann, Sozialethiker an der Universität Bochum.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Christen	Christ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 3	dürften	dürfen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
@@ -12295,7 +12295,7 @@
 
 # sent_id = dev-s675
 # text = Die Kampfflugzeuge flogen am Dienstag laut UN Aufklärungseinsätze über Ostslawonien.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Kampfflugzeuge	Kampfflugzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	flogen	fliegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4-5	am	_	_	_	_	_	_	_	_
@@ -12379,7 +12379,7 @@
 # text = ``Um die 600 Gulden muß man als Anfänger schon investieren'', sagt Theo.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Um	um	ADP	APPR	_	5	case	_	_
-3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	600	600	NUM	CARD	NumType=Card	5	nummod	_	_
 5	Gulden	Gulden	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	NamedEntity=Yes
 6	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -12438,11 +12438,11 @@
 
 # sent_id = dev-s683
 # text = Die dänischen Rentner müssen die hohen Steuern zahlen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 2	dänischen	dänisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 3	Rentner	Rentner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	Steuern	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
 8	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -12517,7 +12517,7 @@
 
 # sent_id = dev-s686
 # text = Die Entschädigungen für die Familienangehörigen belaufen sich auf umgerechnet zwischen etwa 150 000 und 225 000 Mark.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Entschädigungen	Entschädigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 3	für	für	ADP	APPR	_	5	case	_	_
 4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -12654,7 +12654,7 @@
 4	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	13	punct	_	_
-7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 8	US	US	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No|NamedEntity=Yes
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Zulieferer	Zulieferer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
@@ -12681,7 +12681,7 @@
 2	Stimmabgabe	Stimmabgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
-5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Sicherheitskräfte	Sicherheitskraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
 7	vorverlegt	vorverlegen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	18	punct	_	_
@@ -12764,7 +12764,7 @@
 16	festzustellen	feststellen	VERB	VVIZU	VerbForm=Inf	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	24	punct	_	_
 18	ob	ob	SCONJ	KOUS	_	24	mark	_	_
-19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 20	jungen	jung	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
 21	Inderinnen	Inderin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
 22	wirklich	wirklich	ADV	ADJD	_	24	advmod	_	_
@@ -12850,7 +12850,7 @@
 1	Knapp	knapp	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
 2	45	45	NUM	CARD	NumType=Card	3	nummod	_	_
 3	Prozent	Prozent	NOUN	NN	Gender=Neut	7	nsubj	_	_
-4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 5	marktweiten	marktweit	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 6	Aufwendungen	Aufwendung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 7	entfielen	entfallen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12877,7 +12877,7 @@
 
 # sent_id = dev-s701
 # text = Die Kasseler Richter haben damit dem Bundesverwaltungsgericht die Gefolgschaft verweigert.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 2	Kasseler	Kasseler	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Richter	Richter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -13071,11 +13071,11 @@
 9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 11	gegen	gegen	ADP	APPR	_	13	case	_	_
-12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Parteien	Partei	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	gegen	gegen	ADP	APPR	_	17	case	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Sozialpartner	Sozialpartner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -13125,7 +13125,7 @@
 # text = Melden Sie die Gäste an, sonst droht eine Geldstrafe.
 1	Melden	melden	VERB	VVFIN	Mood=Imp|Person=2|Polite=Form|VerbForm=Fin	0	root	_	_
 2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
-3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Gäste	Gast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
 5	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
@@ -13154,7 +13154,7 @@
 
 # sent_id = dev-s713
 # text = Die Nationen des Wirtschaftsforums repräsentieren rund 56 Prozent der Weltproduktion und 46 Prozent des Handels auf dem Globus.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Nationen	Nation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Wirtschaftsforums	Wirtschaftsforum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
@@ -13187,7 +13187,7 @@
 8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	lauten	laut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	Gesellschaft	Gesellschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
-11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Worte	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
 13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Gesprächspartners	Gesprächspartner	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -13428,7 +13428,7 @@
 1	``	``	PUNCT	$(	_	17	punct	_	SpaceAfter=No|FixTigerDep=Yes
 2	Doch	doch	CCONJ	KON	_	6	cc	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
-4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 6	verdienen	verdienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 7	daran	daran	ADV	PAV	PronType=Dem	6	advmod	_	SpaceAfter=No
@@ -13447,7 +13447,7 @@
 
 # sent_id = dev-s727
 # text = Die Amerikaner sind ein begeisterungsfähiges, aber auch leichtgläubiges Volk.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Amerikaner	Amerikaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -13504,7 +13504,7 @@
 10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	19	nsubj	_	_
 11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Freiheitskampf	Freiheitskampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
-13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Polen	Pole	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 15	und	und	CCONJ	KON	_	18	cc	_	_
 16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -13546,14 +13546,14 @@
 
 # sent_id = dev-s732
 # text = Die Bruttoeinkommen sollen um sieben Prozent, die Einnahmen aus unselbständiger Arbeit hingegen nur um 1,5 Prozent steigen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Bruttoeinkommen	Bruttoeinkommen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
 3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 4	um	um	ADP	APPR	_	6	case	_	_
 5	sieben	sieben	NUM	CARD	NumType=Card	6	nummod	_	_
 6	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
-8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Einnahmen	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
 10	aus	aus	ADP	APPR	_	12	case	_	_
 11	unselbständiger	unselbständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
@@ -13578,7 +13578,7 @@
 
 # sent_id = dev-s734
 # text = Die Investitionen werden 1998 erneut bei rund 800 Millionen Mark angesetzt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Investitionen	Investition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	_
 4	1998	1998	NUM	CARD	NumType=Card	11	obl	_	_
@@ -13593,7 +13593,7 @@
 
 # sent_id = dev-s735
 # text = Die Skandinavier wollen in Thüringen 100 Arbeitsplätze schaffen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Skandinavier	Skandinavier	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 4	in	in	ADP	APPR	_	5	case	_	_
@@ -13605,7 +13605,7 @@
 
 # sent_id = dev-s736
 # text = Die Gewinne liegen nach den Worten des Geschäftsführers seit Jahren zwischen 100 000 und 750 000 Mark nach Steuern.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Gewinne	Gewinn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	nach	nach	ADP	APPR	_	6	case	_	_
@@ -13641,7 +13641,7 @@
 # text = Letztlich sind die handelnden Personen entscheidend, nicht die Rechtsform.
 1	Letztlich	letztlich	ADV	ADV	_	6	advmod	_	_
 2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	handelnden	handelnd	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 6	entscheidend	entscheidend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -13705,7 +13705,7 @@
 15	als	als	ADP	KOKOM	_	17	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
-18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	Staaten	Staat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
 20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -13799,10 +13799,10 @@
 7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Eingehen	Eingehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 9	auf	auf	ADP	APPR	_	11	case	_	_
-10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Figuren	Figur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
-13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	14	nsubj:pass	_	_
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj:pass	_	_
 14	hochgespült	hochspülen	VERB	VVPP	VerbForm=Part	11	acl	_	_
 15	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	_
 16	auf	auf	ADP	APPR	_	19	case	_	_
@@ -13833,7 +13833,7 @@
 
 # sent_id = dev-s748
 # text = Die Einkünfte werden mit dem persönlichen Einkommensteuersatz von maximal 53 Prozent belegt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Einkünfte	Einkunft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	_
 3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	_
 4	mit	mit	ADP	APPR	_	7	case	_	_
@@ -13997,7 +13997,7 @@
 13	sofortiger	sofortig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
 15	für	für	ADP	APPR	_	20	case	_	_
-16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 17	rund	rund	ADV	ADJD	_	18	advmod	_	_
 18	400	400	NUM	CARD	NumType=Card	19	nummod	_	_
 19	000	000	NUM	CARD	NumType=Card	20	nummod	_	_
@@ -14190,7 +14190,7 @@
 
 # sent_id = dev-s763
 # text = Die Augen blickten leer ohne Verständnis, ohne Hoffnung.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Augen	Auge	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	blickten	blicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	leer	leer	ADV	ADJD	_	3	advmod	_	_
@@ -14321,7 +14321,7 @@
 
 # sent_id = dev-s770
 # text = Die Brötchen waren mit Ameisen ``gespickt'', im Lagerraum tummelten sich Kakerlaken und Mäuse:
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Brötchen	Brötchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
@@ -14350,11 +14350,11 @@
 5	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	det	_	_
 6	Enttäuschung	Enttäuschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 7	über	über	ADP	APPR	_	10	case	_	_
-8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	traditionellen	traditionell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
 10	Parteien	Partei	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	20	punct	_	_
-12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem,Rel	20	nsubj	_	_
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	20	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
 14	durch	durch	ADP	APPR	_	15	case	_	_
 15	Korruption	Korruption	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
@@ -14367,7 +14367,7 @@
 22	kaum	kaum	ADV	ADV	_	36	advmod	_	_
 23	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
 24	auf	auf	ADP	APPR	_	27	case	_	_
-25	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+25	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 26	drängenden	drängend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_
 27	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	nmod	_	_
 28	wie	wie	CCONJ	KOKOM	_	29	case	_	_
@@ -14468,7 +14468,7 @@
 
 # sent_id = dev-s775
 # text = Die Beschwerden richten sich gegen die unzureichende Finanzausstattung der Kommunen bei der vorgeschriebenen Schaffung von Kindergartenplätzen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	richten	richten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -14476,7 +14476,7 @@
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	unzureichende	unzureichend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	Finanzausstattung	Finanzausstattung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
-9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Kommunen	Kommune	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
 11	bei	bei	ADP	APPR	_	14	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -14697,7 +14697,7 @@
 
 # sent_id = dev-s784
 # text = Die Tierversuche hätten ergeben, daß Tiere, deren tägliche Futterrationen um die Hälfte reduziert wurden, eine erhöhte Melatoninkonzentration aufwiesen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Tierversuche	Tierversuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	ergeben	ergeben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -14920,7 +14920,7 @@
 3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 4	nach	nach	ADP	APPR	_	5	case	_	_
 5	Darstellung	Darstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
-6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Veranstalter	Veranstalter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 8	für	für	ADP	APPR	_	11	case	_	_
 9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -14944,7 +14944,7 @@
 6	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
 7	33	33	NUM	CARD	NumType=Card	8	nummod	_	_
 8	Prozent	Prozent	NOUN	NN	Gender=Neut	3	nsubj	_	_
-9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Stimmen	Stimme	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	mit	mit	ADP	APPR	_	14	case	_	_
@@ -14976,7 +14976,7 @@
 4	für	für	ADP	APPR	_	6	case	_	_
 5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Großteil	Großteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
-7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Gewalttaten	Gewalttat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 9	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	10	xcomp	_	_
 10	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -15023,7 +15023,7 @@
 9	erfolglos	erfolglos	ADV	ADJD	_	10	advmod	_	_
 10	versucht	versuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	25	punct	_	_
-12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Schulgebühren	Schulgebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
 14	seines	sein	DET	PPOSAT	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Sohnes	Sohn	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
