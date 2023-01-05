@@ -6394,7 +6394,7 @@
 4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
-7	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem	9	obl:agent	_	_
+7	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem,Rel	9	obl:agent	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 9	gelöst	lösen	VERB	VVPP	VerbForm=Part	4	acl	_	_
 10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	_

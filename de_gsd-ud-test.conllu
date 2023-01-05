@@ -6532,7 +6532,7 @@
 3	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	11	punct	_	_
-6	denen	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Plur|PronType=Rel	11	obl	_	_
+6	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	11	obl	_	_
 7	zufolge	zufolge	ADP	APPO	Case=Dat	6	case	_	_
 8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Trio	Trio	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
@@ -8796,7 +8796,7 @@
 27	Unruhen	Unruhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	_
 28	zuzuwenden	zuwenden	VERB	VVIZU	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	39	punct	_	_
-30	denen	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Plur|PronType=Rel	39	obl:arg	_	_
+30	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	39	obl:arg	_	_
 31	in	in	ADP	APPR	_	33	case	_	_
 32	drei	drei	NUM	CARD	NumType=Card	33	nummod	_	_
 33	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	39	obl	_	_
@@ -11751,7 +11751,7 @@
 19	vorgesehen	vorsehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	27	punct	_	_
 21	in	in	ADP	APPR	_	22	case	_	_
-22	denen	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Plur|PronType=Rel	27	obl	_	_
+22	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	27	obl	_	_
 23	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	27	nsubj:pass	_	_
 24	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	parlamentarischen	parlamentarisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
