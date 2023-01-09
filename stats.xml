@@ -10,7 +10,7 @@
     <dev><sentences>799</sentences><tokens>12316</tokens><words>12480</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42304" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42303" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,12 +20,12 @@
     <tag name="ADV">14960</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">40432</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
+    <tag name="DET">40444</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
     <tag name="NOUN">52282</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7409</tag><!-- zwei, drei, vier, 2007, fünf, 2006, ein, 2009, sechs, 2010 -->
     <tag name="PART">2149</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
-    <tag name="PRON">11584</tag><!-- er, der, sich, sie, es, ich, wir, man, was, ein -->
+    <tag name="PRON">11572</tag><!-- er, der, sich, sie, es, ich, wir, man, was, ein -->
     <tag name="PROPN">30442</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
@@ -67,7 +67,7 @@
     <feat name="Polite" value="Form" upos="AUX,DET,PRON,VERB">43</feat><!-- Sie, Ihnen, Ihre, Ihrem, Ihrer, Melden, beschreiben, haben, sehen -->
     <feat name="Poss" value="Yes" upos="DET,PRON,PROPN">2409</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">34629</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2112</feat><!-- diese, dieser, diesem, damit, dieses, dies, dazu, diesen, davon, darauf -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2113</feat><!-- diese, dieser, diesem, damit, dieses, dies, dazu, diesen, davon, darauf -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">2356</feat><!-- die, der, das, dem, deren, dessen, denen, den, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2111</feat><!-- man, anderen, viele, andere, einige, mehrere, anderem, vielen, mehr, einer -->
     <feat name="PronType" value="Int" upos="ADV,PRON">463</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->

@@ -2942,7 +2942,7 @@
 10	Ladenschluss	Ladenschluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
 11	angefragt	anfragen	VERB	VVPP	VerbForm=Part	0	root	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
-13	derselbe	derselbe	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
+13	derselbe	derselbe	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
 14	Verkäufer	Verkäufer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 15	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
 16	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	obl:arg	_	SpaceAfter=No
