@@ -15628,7 +15628,7 @@
 23	zu	zu	PART	PTKZU	_	24	mark	_	_
 24	setzen	setzen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
 25	und	und	CCONJ	KON	_	29	cc	_	_
-26	demjenigen	derjenige	PRON	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	29	obl:arg	_	_
+26	demjenigen	derjenige	DET	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	29	obl:arg	_	_
 27	Strafrabatt	Strafrabatt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
 28	zu	zu	PART	PTKZU	_	29	mark	_	_
 29	gewähren	gewähren	VERB	VVINF	VerbForm=Inf	24	conj	_	SpaceAfter=No
@@ -17194,7 +17194,7 @@
 27	,	,	PUNCT	$,	_	30	punct	_	_
 28	und	und	CCONJ	KON	_	30	cc	_	_
 29	all	alle	DET	PIAT	PronType=Tot	30	det	_	_
-30	derjenigen	diejenige	PRON	PDS	Case=Gen|Number=Plur|PronType=Dem	19	conj	_	SpaceAfter=No
+30	derjenigen	derjenige	DET	PDS	Case=Gen|Number=Plur|PronType=Dem	19	conj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	38	punct	_	_
 32	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	38	nsubj	_	_
 33	Ämter	Amt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	38	obj	_	_
