@@ -4343,14 +4343,14 @@
 # sent_id = test-s252
 # text = Seit diser Zeit hatten wir einige Fälle zu klären und wir fühlten uns stets in guten Händen.
 1	Seit	seit	ADP	APPR	_	3	case	_	_
-2	diser	diser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+2	diser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem|Typo=Yes	3	det	_	CorrectForm=dieser
+3	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
 4	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 6	einige	einige	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	_
 7	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
-9	klären	klären	VERB	VVINF	VerbForm=Inf	4	acl	_	_
+9	klären	klären	VERB	VVINF	VerbForm=Inf	7	acl	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
 11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 12	fühlten	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	conj	_	_
