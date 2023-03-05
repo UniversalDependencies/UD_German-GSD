@@ -4876,7 +4876,7 @@
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Gegensatz	Gegensatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
 17	zu	zu	ADP	APPR	_	20	case	_	_
-18	etlichen	etlich	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+18	etlichen	etliche	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
 19	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	20	amod	_	_
 20	Diätversuchen	Diätversuchen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
 21	mit	mit	ADP	APPR	_	25	case	_	_
@@ -13336,7 +13336,7 @@
 13	August	August	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NamedEntity=Yes
 14	Bebel	Bebel	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes
 15	und	und	CCONJ	KON	_	17	cc	_	_
-16	etlichen	etlich	PRON	ADJA	Case=Dat|Number=Plur	17	nmod	_	_
+16	etlichen	etliche	DET	ADJA	Case=Dat|Number=Plur|PronType=Ind	17	nmod	_	_
 17	anderen	anderer	DET	PIS	Case=Dat|Number=Plur|PronType=Ind	7	conj	_	_
 18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_

@@ -14338,7 +14338,7 @@
 23	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	27	nmod	_	_
 25	um	um	ADP	APPR	_	26	case	_	_
-26	etliches	etlicher	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	27	det	_	_
+26	etliches	etliche	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	27	det	_	_
 27	geringer	gering	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No
 28	:	:	PUNCT	$.	_	27	punct	_	_
 
