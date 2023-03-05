@@ -5272,7 +5272,7 @@
 19	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	23	obj	_	_
 20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
 21	von	von	ADP	APPR	_	22	case	_	_
-22	Ihm	er|es	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+22	Ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
 23	wollten	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	4	punct	_	_
 
