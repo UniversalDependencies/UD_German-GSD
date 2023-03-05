@@ -1238,7 +1238,7 @@
 20	länger	lang	ADV	ADJD	_	21	advmod	_	_
 21	sparen	sparen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
 22	und	und	CCONJ	KON	_	25	cc	_	_
-23	etwas	etwas	PRON	PIAT	PronType=Ind	25	obj	_	_
+23	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	25	obj	_	_
 24	besseres	gut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	_
 25	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	21	conj	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	9	punct	_	_
@@ -1291,7 +1291,7 @@
 7	,	,	PUNCT	$,	_	12	punct	_	_
 8	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	12	obj	_	_
 9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-10	etwas	etwas	ADV	ADV	_	11	advmod	_	_
+10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	_
 11	unpersönlich	unpersönlich	ADJ	ADJD	Degree=Pos	12	xcomp	_	_
 12	finde	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
@@ -2168,7 +2168,7 @@
 22	dass	dass	SCONJ	KOUS	_	29	mark	_	_
 23	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Aufbau	Aufbau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
-25	etwas	etwas	ADV	ADV	_	26	advmod	_	_
+25	etwas	etwas	ADV	ADV	PronType=Ind	26	advmod	_	_
 26	länger	lang	ADJ	ADJD	Degree=Cmp	29	xcomp	_	_
 27	als	als	CCONJ	KOKOM	_	28	case	_	_
 28	geplant	planen	ADJ	ADJD	Degree=Pos	26	amod	_	_
@@ -2248,7 +2248,7 @@
 7	den	der	DET	PIAT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	dep	_	_
 8	70er	70er	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	_
 9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	etwas	etwas	ADV	ADV	_	11	advmod	_	_
+10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	_
 11	kompliziert	kompliziert	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	16	punct	_	_
 13	aber	aber	CCONJ	KON	_	16	cc	_	_
@@ -2773,7 +2773,7 @@
 5	Hoffnung	Hoffnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	verschrieb	verschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
-8	etwas	etwas	PRON	PIAT	PronType=Ind	7	obj	_	_
+8	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	7	obj	_	_
 9	Antibakterielles	Antibakterielles	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -4412,7 +4412,7 @@
 24	,	,	PUNCT	$,	_	29	punct	_	_
 25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	29	nsubj	_	_
 26	auch	auch	ADV	ADV	_	29	advmod	_	_
-27	etwas	etwas	ADV	ADV	_	28	advmod	_	_
+27	etwas	etwas	ADV	ADV	PronType=Ind	28	advmod	_	_
 28	tiefer	tief	ADV	ADJD	_	29	advmod	_	_
 29	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	32	punct	_	_
@@ -7301,7 +7301,7 @@
 4	vierbeinigen	vierbeinig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	Begleiterin	Begleiterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 6	schon	schon	ADV	ADV	_	8	advmod	_	_
-7	etwas	etwas	PRON	PIS	PronType=Ind	8	xcomp	_	_
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	xcomp	_	_
 8	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -7864,7 +7864,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Dusche	Dusche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-4	etwas	etwas	ADV	ADV	_	5	advmod	_	_
+4	etwas	etwas	ADV	ADV	PronType=Ind	5	advmod	_	_
 5	eng	eng	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	und	und	CCONJ	KON	_	14	cc	_	_
 7	Badeschlappen	Badeschlappe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
@@ -8059,7 +8059,7 @@
 6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	ohne	ohne	ADP	KOUI	_	8	case	_	_
 8	dafür	dafür	ADV	PAV	PronType=Dem	11	advmod	_	_
-9	etwas	etwas	PRON	PIS	PronType=Ind	11	obj	_	_
+9	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
 10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	berechnen	berechnen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 12	!	!	PUNCT	$.	_	6	punct	_	_
@@ -14144,7 +14144,7 @@
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 12	mittlerweile	mittlerweile	ADV	ADV	_	9	advmod	_	_
-13	etwas	etwas	ADV	ADV	_	14	advmod	_	_
+13	etwas	etwas	ADV	ADV	PronType=Ind	14	advmod	_	_
 14	zu	zu	ADV	PTKA	_	9	advmod	_	_
 15	heiß	heiß	ADJ	ADJD	Degree=Pos	9	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_

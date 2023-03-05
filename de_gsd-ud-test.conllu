@@ -1416,7 +1416,7 @@
 7	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 8	aber	aber	CCONJ	ADV	_	7	cc	_	_
 9	manchmal	manchmal	ADV	ADV	_	7	advmod	_	_
-10	etwas	etwas	ADV	ADV	_	11	advmod	_	_
+10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	_
 11	überfordert	überfordern	VERB	ADJD	_	7	xcomp	_	_
 12	zu	zu	PART	PTKZU	_	11	mark	_	_
 13	sein	sein	AUX	VAINF	VerbForm=Inf	11	cop	_	SpaceAfter=No
@@ -3220,7 +3220,7 @@
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
-12	etwas	etwas	PRON	PIS	PronType=Ind	8	ccomp	_	_
+12	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	ccomp	_	_
 13	für	für	ADP	APPR	_	14	case	_	_
 14	Rentner	Rentner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	23	punct	_	_
@@ -8079,7 +8079,7 @@
 15	an	an	ADP	PTKVZ	_	4	compound:prt	_	_
 16	--	--	PUNCT	$(	_	4	punct	_	_
 17	allerdings	allerdings	CCONJ	ADV	_	4	cc	_	_
-18	etwas	etwas	ADV	ADV	_	19	advmod	_	_
+18	etwas	etwas	ADV	ADV	PronType=Ind	19	advmod	_	_
 19	moderater	moderat	ADJ	ADJD	Degree=Pos	4	amod	_	_
 20	als	als	CCONJ	KOKOM	_	19	dep	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
@@ -9168,7 +9168,7 @@
 3	aus	aus	ADP	APPR	_	8	case	_	_
 4	schlechten	schlecht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
 5	und	und	CCONJ	KON	_	4	cc	_	_
-6	etwas	etwas	ADV	ADV	_	7	advmod	_	_
+6	etwas	etwas	ADV	ADV	PronType=Ind	7	advmod	_	_
 7	besseren	gut	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Neut|Number=Plur	4	amod	_	_
 8	Motiven	Motiv	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
 9	zu	zu	ADP	APPR	_	14	case	_	_
@@ -18529,7 +18529,7 @@
 10	zu	zu	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Wochenbeginn	Wochenbeginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
-13	etwas	etwas	ADV	ADV	_	14	advmod	_	_
+13	etwas	etwas	ADV	ADV	PronType=Ind	14	advmod	_	_
 14	schwächer	schwach	ADV	ADJD	_	15	advmod	_	_
 15	geschlossen	schließen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
