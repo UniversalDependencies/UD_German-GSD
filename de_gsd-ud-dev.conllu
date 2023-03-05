@@ -9706,7 +9706,7 @@
 12	sich	sich	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	obl:arg	_	_
 13	untereinander	untereinander	ADV	ADV	_	15	advmod	_	_
 14	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
-15	einig	einig	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+15	einig	einige	DET	ADJD	PronType=Ind	2	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = dev-s564
@@ -10608,7 +10608,7 @@
 5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obl:arg	_	_
 7	darüber	darüber	ADV	PAV	PronType=Dem	8	advmod	_	_
-8	einig	einig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+8	einig	einige	DET	ADJD	PronType=Ind	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	16	mark	_	_
 11	zwischen	zwischen	ADP	APPR	_	13	case	_	_
