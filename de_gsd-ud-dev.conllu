@@ -467,7 +467,7 @@
 
 # sent_id = dev-s33
 # text = Es fand eine dreiminütige Einweisung bei laufendem Panzer - Motor über Funk statt.
-1	Es	es	PRON	PPER	PronType=Prs	2	expl	_	_
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 4	dreiminütige	dreiminütig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -2958,7 +2958,7 @@
 25	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	NamedEntity=Yes
 26	morgen	morgen	ADV	VVINF	_	25	advmod	_	_
 27	und	und	CCONJ	KON	_	33	cc	_	_
-28	es	es	PRON	PPER	PronType=Prs	33	expl	_	_
+28	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	_	_
 29	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	aux	_	_
 30	noch	noch	ADV	ADV	_	31	advmod	_	_
 31	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	33	advmod	_	_
@@ -7415,7 +7415,7 @@
 
 # sent_id = dev-s442
 # text = Es herrscht ein rauher, unhöflicher Ton -- teilweise auch den Hunden gegenüber.
-1	Es	es	PRON	PPER	PronType=Prs	2	nsubj	_	_
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	herrscht	herrschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
 4	rauher	rauh	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
@@ -7453,7 +7453,7 @@
 9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	_
 10	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
-12	es	es	PRON	PPER	PronType=Prs	13	expl	_	_
+12	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
 13	fanden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 14	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
 15	Müll	Müll	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
@@ -14878,7 +14878,7 @@
 
 # sent_id = dev-s792
 # text = Es fehlt ein System umfassender sozialer Sicherung.
-1	Es	es	PRON	PPER	PronType=Prs	2	expl	_	_
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
 4	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
