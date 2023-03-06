@@ -15,9 +15,9 @@
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20619</tag><!-- erst, groß, gut, neu, weit, spät, deutsch, alt, hoch, klein -->
+    <tag name="ADJ">20618</tag><!-- erst, groß, gut, neu, weit, spät, deutsch, alt, hoch, klein -->
     <tag name="ADP">32107</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">14960</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADV">14962</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">40866</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
@@ -25,7 +25,7 @@
     <tag name="NOUN">52281</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7336</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 2008 -->
     <tag name="PART">2149</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
-    <tag name="PRON">11220</tag><!-- er, der, sich, sie, es, ich, wir, man, was, mehrere -->
+    <tag name="PRON">11219</tag><!-- er, der, sich, sie, es, ich, wir, man, was, mehrere -->
     <tag name="PROPN">30442</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
@@ -43,7 +43,7 @@
     <feat name="Definite" value="Def" upos="DET">29411</feat><!-- der, die, dem, den, das, des, the, 's -->
     <feat name="Definite" value="Ind" upos="DET">5471</feat><!-- eine, ein, einer, einen, einem, eines, eins, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ">1041</feat><!-- später, weitere, weiteren, weiter, besser, früheren, früher, größere, späteren, höhere -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">19074</feat><!-- ersten, erste, neue, zweiten, bekannt, neuen, großen, große, deutschen, gut -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">19073</feat><!-- ersten, erste, neue, zweiten, bekannt, neuen, großen, große, deutschen, gut -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">467</feat><!-- nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste, ältesten -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2540</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50163</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
@@ -69,7 +69,7 @@
     <feat name="PronType" value="Art" upos="DET">34883</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2115</feat><!-- diese, dieser, diesem, damit, dieses, dies, dazu, diesen, davon, darauf -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">2356</feat><!-- die, der, das, dem, deren, dessen, denen, den, derer -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1966</feat><!-- man, anderen, viele, andere, einige, mehrere, anderem, etwas, vielen, mehr -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1973</feat><!-- man, anderen, viele, andere, einige, mehrere, anderem, etwas, vielen, mehr -->
     <feat name="PronType" value="Int" upos="ADV,PRON">463</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
     <feat name="PronType" value="Int,Rel" upos="DET">119</feat><!-- welche, welches, welcher, welchem, welchen, welch -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">301</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts -->
@@ -91,8 +91,8 @@
     <dep name="acl">2676</dep>
     <dep name="acl:relcl">26</dep>
     <dep name="advcl">1467</dep>
-    <dep name="advmod">17365</dep>
-    <dep name="amod">16349</dep>
+    <dep name="advmod">17389</dep>
+    <dep name="amod">16344</dep>
     <dep name="appos">6932</dep>
     <dep name="aux">3283</dep>
     <dep name="aux:pass">3423</dep>
@@ -115,14 +115,14 @@
     <dep name="flat">8165</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3148</dep>
-    <dep name="nmod">21920</dep>
+    <dep name="nmod">21903</dep>
     <dep name="nmod:poss">85</dep>
     <dep name="nsubj">17347</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">3199</dep>
     <dep name="nummod">2917</dep>
     <dep name="obj">8337</dep>
-    <dep name="obl">17261</dep>
+    <dep name="obl">17259</dep>
     <dep name="obl:agent">491</dep>
     <dep name="obl:arg">1258</dep>
     <dep name="obl:tmod">34</dep>
