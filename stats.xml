@@ -15,12 +15,12 @@
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">20613</tag><!-- erst, groß, gut, neu, weit, spät, deutsch, alt, hoch, klein -->
+    <tag name="ADJ">20619</tag><!-- erst, groß, gut, neu, weit, spät, deutsch, alt, hoch, klein -->
     <tag name="ADP">32107</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">14960</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10623</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
-    <tag name="DET">40872</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
+    <tag name="DET">40866</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
     <tag name="NOUN">52281</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7336</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 2008 -->
@@ -69,7 +69,7 @@
     <feat name="PronType" value="Art" upos="DET">34883</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2115</feat><!-- diese, dieser, diesem, damit, dieses, dies, dazu, diesen, davon, darauf -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">2356</feat><!-- die, der, das, dem, deren, dessen, denen, den, derer -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1972</feat><!-- man, anderen, viele, andere, einige, mehrere, anderem, etwas, vielen, mehr -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1966</feat><!-- man, anderen, viele, andere, einige, mehrere, anderem, etwas, vielen, mehr -->
     <feat name="PronType" value="Int" upos="ADV,PRON">463</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
     <feat name="PronType" value="Int,Rel" upos="DET">119</feat><!-- welche, welches, welcher, welchem, welchen, welch -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">301</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts -->
@@ -92,7 +92,7 @@
     <dep name="acl:relcl">26</dep>
     <dep name="advcl">1467</dep>
     <dep name="advmod">17365</dep>
-    <dep name="amod">16343</dep>
+    <dep name="amod">16349</dep>
     <dep name="appos">6932</dep>
     <dep name="aux">3283</dep>
     <dep name="aux:pass">3423</dep>
@@ -106,7 +106,7 @@
     <dep name="csubj">193</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">1041</dep>
-    <dep name="det">36958</dep>
+    <dep name="det">36952</dep>
     <dep name="det:poss">2356</dep>
     <dep name="discourse">11</dep>
     <dep name="expl">398</dep>
