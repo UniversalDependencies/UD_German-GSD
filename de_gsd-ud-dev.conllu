@@ -965,7 +965,7 @@
 10	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
 12	zu	zu	ADP	APPR	_	13	case	_	_
-13	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+13	ihr	sie	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 14	nach	nach	ADP	APPR	_	15	case	_	_
 15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
 16	!	!	PUNCT	$.	_	4	punct	_	_
@@ -3343,7 +3343,7 @@
 # text = Gleich wenn ihr das Studio betretet findet Ihr ein tolles Ambiente mit neuen Ledercouches, einer tollen Theke, passenden Tischchen mit aufwendiger Deko und schöne leuchtende Farben vor!
 1	Gleich	gleich	ADV	ADV	_	6	advmod	_	_
 2	wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-3	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	ihr	sie	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Studio	Studio	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
 6	betretet	betretet	VERB	VVFIN	_	7	advcl	_	_
@@ -4523,7 +4523,7 @@
 4	Fastfoodketten	Fastfoodkette	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	11	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	_
-7	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	Essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Pappschachteln	Pappschachtel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
@@ -9067,7 +9067,7 @@
 3	Weisen	Weise	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	3	punct	_	_
 5	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-6	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	7	nmod	_	_
+6	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	Gutachten	Gutachten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	11	case	_	_
@@ -12730,7 +12730,7 @@
 12	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	NamedEntity=Yes
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Straßburg	Straßburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	NamedEntity=Yes
-15	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+15	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
 16	gemeinsames	gemeinsam	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
 17	Projekt	Projekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
 18	für	für	ADP	APPR	_	21	case	_	_
@@ -13336,7 +13336,7 @@
 13	August	August	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NamedEntity=Yes
 14	Bebel	Bebel	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes
 15	und	und	CCONJ	KON	_	17	cc	_	_
-16	etlichen	etliche	DET	ADJA	Case=Dat|Number=Plur|PronType=Ind	17	nmod	_	_
+16	etlichen	etliche	DET	ADJA	Case=Dat|Number=Plur|PronType=Ind	17	det	_	_
 17	anderen	anderer	DET	PIS	Case=Dat|Number=Plur|PronType=Ind	7	conj	_	_
 18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_
@@ -13691,7 +13691,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Inflation	Inflation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-4	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+4	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
 5	niedrigstes	niedrig	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	_
 6	Niveau	Niveau	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 7	seit	seit	ADP	APPR	_	10	case	_	_
