@@ -25,13 +25,13 @@
     <tag name="NOUN">52281</tag><!-- Jahr, zeit, Stadt, Teil, Frau, Land, Familie, Ende, Ort, Tag -->
     <tag name="NUM">7336</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 2008 -->
     <tag name="PART">2149</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
-    <tag name="PRON">11196</tag><!-- er, der, sich, sie, es, ich, wir, man, was, mehrere -->
-    <tag name="PROPN">30444</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
+    <tag name="PRON">11203</tag><!-- er, der, sich, sie, es, ich, wir, man, was, mehrere -->
+    <tag name="PROPN">30438</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
     <tag name="SYM">99</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
     <tag name="VERB">20686</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
-    <tag name="X">315</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
+    <tag name="X">314</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="50">
@@ -48,7 +48,7 @@
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2540</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50163</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51288</feat><!-- dem, der, er, den, des, ein, einen, einem, ihm, eines -->
-    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">32083</feat><!-- das, dem, es, ein, des, jahr, Jahre, Jahren, einem, was -->
+    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">32093</feat><!-- das, dem, es, ein, des, jahr, Jahre, Jahren, einem, was -->
     <feat name="Gender[psor]" value="Fem" upos="DET">46</feat><!-- Ihr, Ihre -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">1388</feat><!-- seine, seiner, sein, seinen, seinem, seines -->
     <feat name="Mood" value="Imp" upos="PROPN,VERB,X">47</feat><!-- siehe, laßt, vgl., Brecht, EVTA, Gebt, Kambodschas, Kenne, Laß, Let -->
@@ -62,7 +62,7 @@
     <feat name="NumType" value="Ord" upos="ADJ,NUM">815</feat><!-- ersten, erste, zweiten, zweite, dritten, erster, dritte, erstes, 5., fünften -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2458</feat><!-- ich, wir, uns, mir, mich, habe, bin, haben, meine, kann -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">135</feat><!-- Sie, du, ihr, euch, Ihnen, Ihre, Ihrem, bist, deinen, Dir -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">29791</feat><!-- ist, er, sich, wurde, war, es, sie, sind, wird, hat -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">29801</feat><!-- ist, er, sich, wurde, war, es, sie, sind, wird, hat -->
     <feat name="Polarity" value="Neg" upos="PART">1102</feat><!-- nicht, Nein, garnicht, nich -->
     <feat name="Polite" value="Form" upos="AUX,DET,PRON,VERB">43</feat><!-- Sie, Ihnen, Ihre, Ihrem, Ihrer, Melden, beschreiben, haben, sehen -->
     <feat name="Poss" value="Yes" upos="DET,PRON,PROPN">2409</feat><!-- seine, seiner, sein, ihre, seinen, seinem, ihren, ihrer, ihr, ihrem -->
@@ -73,7 +73,7 @@
     <feat name="PronType" value="Int" upos="ADV,PRON">463</feat><!-- wo, was, wobei, wer, wie, warum, wodurch, wovon, weshalb, woraufhin -->
     <feat name="PronType" value="Int,Rel" upos="DET">119</feat><!-- welche, welches, welcher, welchem, welchen, welch -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">301</feat><!-- keine, kein, keinen, keinem, keiner, keinerlei, keineswegs, keines, nichts -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">10076</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">10086</feat><!-- er, sich, sie, es, ich, seine, wir, seiner, sein, ihre -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">96</feat><!-- was -->
     <feat name="PronType" value="Tot" upos="DET">796</feat><!-- alle, beiden, allem, alles, allen, aller, beide, jede, jeden, jeder -->
