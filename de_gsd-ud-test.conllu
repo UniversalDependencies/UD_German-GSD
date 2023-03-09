@@ -10476,7 +10476,7 @@
 
 # sent_id = test-s527
 # text = Keine Statistik erfaßt, wieviele Anhänger Kwasniewski und Walesa ohne das ``Nicht'', also ohne das Schreckbild ihres Gegners, auf sich vereinen könnten:
-1	Keine	keiner	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	2	dep	_	FixTigerDep=Yes
+1	Keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	2	dep	_	FixTigerDep=Yes
 2	Statistik	Statistik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	erfaßt	erfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	25	punct	_	_
