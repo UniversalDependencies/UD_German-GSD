@@ -13110,7 +13110,7 @@
 # sent_id = test-s645
 # text = Während manche Suspendierung mit einer Weiterzahlung des Gehaltes einhergeht, wurde ihm auch das gestrichen.
 1	Während	während	SCONJ	KOUS	_	9	mark	_	_
-2	manche	manch	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	Suspendierung	Suspendierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
 5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	_
