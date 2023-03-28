@@ -3876,7 +3876,7 @@
 16	als	als	ADP	KOKOM	_	19	case	_	_
 17	bei	bei	ADP	APPR	_	19	case	_	_
 18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	meisten	meist	PRON	PIS	Case=Dat|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
+19	meisten	meist	DET	PIS	Case=Dat|Degree=Sup|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = test-s223
