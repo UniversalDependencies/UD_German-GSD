@@ -2709,7 +2709,7 @@
 10	Kursen	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
 11	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 12	täglich	täglich	ADV	ADJD	_	14	advmod	_	_
-13	mehrere	mehrere	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	14	amod	_	_
+13	mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
 14	Kurse	Kurs	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
 16	auch	auch	ADV	ADV	_	17	advmod	_	_
@@ -2937,7 +2937,7 @@
 12	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
 13	Weib	Weib	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 14	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
-15	mehr	mehr	PRON	PIAT	PronType=Ind	16	amod	_	_
+15	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	16	det	_	_
 16	Haare	Haar	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
 18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -3527,7 +3527,7 @@
 7	Selbstbedienung	Selbstbedienung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 8	und	und	CCONJ	KON	_	7	cc	_	_
 9	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
-10	mehr	mehr	PRON	PIAT	PronType=Ind	11	amod	_	_
+10	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	11	det	_	_
 11	Gäste	Gast	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 12	erwartet	erwarten	VERB	VVPP	VerbForm=Part	7	advcl	_	_
 13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	SpaceAfter=No
@@ -3721,7 +3721,7 @@
 # text = Jugendherbergen haben mehr zu bieten.
 1	Jugendherbergen	Jugendherberge	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-3	mehr	mehr	PRON	ADV	_	5	obj	_	_
+3	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	5	obj	_	_
 4	zu	zu	PART	PTKZU	_	5	mark	_	_
 5	bieten	bieten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -3903,7 +3903,7 @@
 
 # sent_id = test-s225
 # text = Mehrere kleine Schrauben waren nun nicht mehr mit einer Mutter festgezogen, sondern geklebt..
-1	Mehrere	mehrere	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	3	amod	_	_
+1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 2	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	Schrauben	Schraube|Schrauben	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
@@ -6343,7 +6343,7 @@
 2	Bereitschaftspolizei	Bereitschaftspolizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	rückte	rücken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	an	an	ADP	APPR	_	7	case	_	_
-5	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	7	amod	_	_
+5	mehreren	mehr	DET	PIAT	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
 6	zentralen	zentral	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	Sperren	Sperre	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
 8	massiv	massiv	ADV	ADJD	_	3	advmod	_	_
@@ -6763,7 +6763,7 @@
 7	kroatische	kroatisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	_
 8	Kräfte	Kraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
-10	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	11	nmod	_	_
+10	mehreren	mehr	DET	PIAT	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
 11	Fronten	Front	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
 12	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	_
 13	und	und	CCONJ	KON	_	21	cc	_	_
@@ -8061,7 +8061,7 @@
 
 # sent_id = test-s425
 # text = Mehrere große Gesellschaften heben zum Jahreswechsel die Beiträge in den Vollkosten-Tarifen an -- allerdings etwas moderater als in der Vergangenheit.
-1	Mehrere	mehrere	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	Gesellschaften	Gesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	heben	heben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8811,7 +8811,7 @@
 
 # sent_id = test-s455
 # text = Mehrere Kompanien der Bereitschaftspolizei CRS, ausgerüstet mit Schutzschilden und Tränengasgranaten marschierten auf.
-1	Mehrere	mehrere	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Kompanien	Kompanie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Bereitschaftspolizei	Bereitschaftspolizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -9095,7 +9095,7 @@
 # sent_id = test-s468
 # text = Immer mehr Menschen in Deutschland werden obdachlos.
 1	Immer	immer	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
-2	mehr	mehr	PRON	PIAT	PronType=Ind	3	amod	_	_
+2	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 4	in	in	ADP	APPR	_	5	case	_	_
 5	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	NamedEntity=Yes
@@ -11048,7 +11048,7 @@
 5	bei	bei	ADP	APPR	_	7	case	_	_
 6	gleichem	gleich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	Einsatz	Einsatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-8	mehr	mehr	DET	PIAT	PronType=Ind	9	det	_	_
+8	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	9	det	_	_
 9	Quartiere	Quartier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
 10	herausspringen	herausspringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 11	als	als	ADP	KOKOM	_	16	case	_	_
@@ -11472,7 +11472,7 @@
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 4	noch	noch	ADV	ADV	_	5	advmod	_	_
-5	mehr	mehr	PRON	PIS	PronType=Ind	3	obj	_	SpaceAfter=No
+5	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	3	obj	_	SpaceAfter=No
 6	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	3	punct	_	_
 8	betont	betonen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11933,7 +11933,7 @@
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 14	seit	seit	ADP	APPR	_	15	case	_	_
 15	1984	1984	NUM	CARD	NumType=Card	21	obl	_	_
-16	mehr	mehr	PRON	ADV	_	19	obl	_	_
+16	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	19	obl	_	_
 17	als	als	ADP	KOKOM	_	16	fixed	_	_
 18	13	13	NUM	CARD	NumType=Card	19	compound	_	_
 19	000	000	NUM	CARD	NumType=Card	20	nummod	_	_
@@ -16465,7 +16465,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	mehrere	mehrere	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+4	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	Warnschüsse	Warnschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 6	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
@@ -17799,7 +17799,7 @@
 29	in	in	ADP	APPR	_	30	case	_	_
 30	Montreux	Montreux	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	NamedEntity=Yes
 31	noch	noch	ADV	ADV	_	22	advmod	_	_
-32	mehrere	mehrere	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	34	nmod	_	_
+32	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
 33	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	34	amod	_	_
 34	Songs	Song	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	22	punct	_	_
@@ -18022,7 +18022,7 @@
 5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	_
 6	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
-8	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	9	nmod	_	_
+8	mehreren	mehr	DET	PIAT	Case=Dat|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	_
 9	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	11	punct	_	_
 11	unwissend	unwissend	ADJ	ADJD	Degree=Pos	1	acl	_	SpaceAfter=No
@@ -19403,7 +19403,7 @@
 8	Lohnnebenkosten	Lohnnebenkosten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 9	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	_
 10	und	und	CCONJ	KON	_	18	cc	_	_
-11	mehr	mehr	PRON	PIAT	PronType=Ind	12	nmod	_	_
+11	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	12	det	_	_
 12	Flexibilität	Flexibilität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
 13	bei	bei	ADP	APPR	_	15	case	_	_
 14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -19501,7 +19501,7 @@
 22	Aufsicht	Aufsicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
 23	über	über	ADP	APPR	_	31	case	_	_
 24	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	31	det	_	_
-25	mehr	mehr	PRON	PIAT	PronType=Ind	27	obl	_	_
+25	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	27	obl	_	_
 26	als	als	ADV	KOKOM	_	25	advmod	_	_
 27	100	100	NUM	CARD	NumType=Card	28	nummod	_	_
 28	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	nmod	_	_
