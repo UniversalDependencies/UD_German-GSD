@@ -19022,7 +19022,7 @@
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	benötigt	benötigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	jedoch	jedoch	ADV	ADV	_	6	advmod	_	_
-8	niemand	niemand	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+8	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	6	nsubj	_	_
 9	Umschreibungen	Umschreibung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
 11	mißverständlichem	mißverständlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
