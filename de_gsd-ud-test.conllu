@@ -3663,7 +3663,7 @@
 17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	laden	Laden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 19	so	so	ADV	ADV	_	20	advmod	_	_
-20	wenig	wenig	DET	PIAT	PronType=Ind	21	nmod	_	_
+20	wenig	wenig	DET	PIAT	PronType=Ind	21	det	_	_
 21	Bewertungen	Bewertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
 22	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	31	punct	_	_
@@ -4253,7 +4253,7 @@
 # text = Schade das solche Daten nicht geprüft werden.
 1	Schade	schade	ADJ	ADJD	Degree=Pos	0	root	_	_
 2	das	dass	SCONJ	KOUS	Typo=Yes	6	mark	_	CorrectForm=dass
-3	solche	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	4	nmod	_	_
+3	solche	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
 4	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj:pass	_	_
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
 6	geprüft	prüfen	VERB	VVPP	VerbForm=Part	1	ccomp	_	_
@@ -9313,7 +9313,7 @@
 5	Burgtheater	Burgtheater	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes
 6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
-8	solches	solcher	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	nmod	_	_
+8	solches	solcher	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
 9	lokalbezogenes	lokalbezogen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 10	literarisches	literarisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	Segment	Segment	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
@@ -10840,7 +10840,7 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Vorabend	Vorabend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
 18	mit	mit	ADP	APPR	_	20	case	_	_
-19	solcher	solcher	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	20	nmod	_	_
+19	solcher	solcher	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
 20	Leichtigkeit	Leichtigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
 21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Ministerpräsidenten	Ministerpräsident	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
@@ -13038,7 +13038,7 @@
 21	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	28	punct	_	_
 23	und	und	CCONJ	KON	_	28	cc	_	_
-24	solchen	solcher	DET	PIS	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	28	nmod	_	SpaceAfter=No
+24	solchen	solcher	DET	PIS	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	28	det	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	24	punct	_	_
 26	eher	eher	ADV	ADV	_	27	advmod	_	_
 27	psychischen	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
@@ -13680,7 +13680,7 @@
 # sent_id = test-s667
 # text = Eine solche tiefverankerte Gesinnung speise sich aus der Erinnerung an die Geschichte des Leidens und der Befreiung des Menschen, aus der Vorstellung des ``leidenden Gottes''.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
-2	solche	solcher	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
+2	solche	solcher	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	tiefverankerte	tiefverankert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	Gesinnung	Gesinnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	speise	speisen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17214,7 +17214,7 @@
 
 # sent_id = test-s842
 # text = Solch ein Gewinn lockt.
-1	Solch	solcher	DET	PIS	PronType=Dem	3	nmod	_	_
+1	Solch	solcher	DET	PIS	PronType=Dem	3	det	_	_
 2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	_
 3	Gewinn	Gewinn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	lockt	locken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -18615,7 +18615,7 @@
 # text = Wer unter solchen Umständen Einfluß ausüben will, braucht mehr als nur Macht:
 1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	unter	unter	ADP	APPR	_	4	case	_	_
-3	solchen	solcher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	4	nmod	_	_
+3	solchen	solcher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	Umständen	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
 5	Einfluß	Einfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 6	ausüben	ausüben	VERB	VVINF	VerbForm=Inf	9	csubj	_	_

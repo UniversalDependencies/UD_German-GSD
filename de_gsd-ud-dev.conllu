@@ -7311,7 +7311,7 @@
 2-3	am	_	_	_	_	_	_	_	_
 2	an	an	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	selben	selber	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Emp	5	nmod	_	_
+4	selben	selber	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Emp	5	det	_	_
 5	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 6	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -11545,7 +11545,7 @@
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
 7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-8	solche	solcher	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	nmod	_	_
+8	solche	solcher	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
 9	Sätze	Satz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 10	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
@@ -12311,7 +12311,7 @@
 
 # sent_id = dev-s676
 # text = Solche Argumente würden jedoch bei einem Prozeß in der Bundesrepublik besser greifen.
-1	Solche	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	nmod	_	_
+1	Solche	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
 2	Argumente	Argument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
 3	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 4	jedoch	jedoch	ADV	ADV	_	12	advmod	_	_
