@@ -632,7 +632,7 @@
 # text = Auf unserer Elberadweg-Tour haben wir im "Kranhaus" einen Abend verweilen können und haben es sehr genossen.
 1	Auf	auf	ADP	APPR	_	3	case	_	_
 2	unserer	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
-3	Elberadweg	Elberadweg	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|NamedEntity=Yes
+3	Elberadweg	Elberadweg	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	NamedEntity=Yes|SpaceAfter=No
 4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 5	Tour	Tour	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	flat	_	_
 6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -943,7 +943,7 @@
 11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Genius	Genius	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	NamedEntity=Yes
 13	-	-	PUNCT	$(	_	14	punct	_	_
-14	Bar	Bar	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	SpaceAfter=No|NamedEntity=Yes
+14	Bar	Bar	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	NamedEntity=Yes|SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = test-s54
@@ -1101,7 +1101,7 @@
 # sent_id = test-s62
 # text = Danke Rosemarie! :-)
 1	Danke	danke	PART	PTKANT	_	0	root	_	_
-2	Rosemarie	Rosemarie	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	1	vocative	_	SpaceAfter=No|NamedEntity=Yes
+2	Rosemarie	Rosemarie	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	1	vocative	_	NamedEntity=Yes|SpaceAfter=No
 3	!	!	PUNCT	$.	_	1	punct	_	_
 4	:-)	:-)	SYM	NE	Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
 
@@ -1402,7 +1402,7 @@
 13	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 14	Oberkelner	Oberkelner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	SpaceAfter=No
 15	"	"	PUNCT	$(	_	14	punct	_	_
-16	Dennis	Dennis	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	SpaceAfter=No|NamedEntity=Yes
+16	Dennis	Dennis	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	NamedEntity=Yes|SpaceAfter=No
 17	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s80
@@ -1509,7 +1509,7 @@
 
 # sent_id = test-s86
 # text = DasFahren wir jetzt seit Jahren hin.
-1	Das	der	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+1	Das	der	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 2	Fahren	fahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 4	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
@@ -1950,7 +1950,7 @@
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	kombiniert	kombinieren	ADJ	ADJD	Degree=Pos|Tense=Past|VerbForm=Part	11	amod	_	_
 14	mit	mit	ADP	APPR	_	15	case	_	_
-15	DB	DB	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|NamedEntity=Yes
+15	DB	DB	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	also	also	ADV	ADV	_	19	advmod	_	_
 18	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
@@ -2220,7 +2220,7 @@
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Yoga	Yoga	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
-7	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|NamedEntity=Yes
+7	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
 8	!	!	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s129
@@ -2582,7 +2582,7 @@
 4	Prevention	Prevention	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	compound	_	_
 5	Center	Center	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
-7	Zürich	Zürich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|NamedEntity=Yes
+7	Zürich	Zürich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s150
@@ -2715,7 +2715,7 @@
 16	auch	auch	ADV	ADV	_	17	advmod	_	_
 17	Samstag	Samstag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	NamedEntity=Yes
 18	und	und	CCONJ	KON	_	19	cc	_	_
-19	Sonntag	Sonntag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No|NamedEntity=Yes
+19	Sonntag	Sonntag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	NamedEntity=Yes|SpaceAfter=No
 20	)	)	PUNCT	$(	_	14	punct	_	_
 21	teilnehmen	teilnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	21	punct	_	_
@@ -2957,7 +2957,7 @@
 2	G	G	PROPN	NE	Case=Nom|Number=Sing	5	nmod	_	NamedEntity=Yes
 3	&	&	SYM	NE	_	4	cc	_	_
 4	W	W	PROPN	NE	Case=Nom|Number=Sing	2	conj	_	NamedEntity=Yes
-5	Team	Team	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	SpaceAfter=No|NamedEntity=Yes
+5	Team	Team	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	NamedEntity=Yes|SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
@@ -2974,7 +2974,7 @@
 # text = Hallo Herr Mark, ich nenne Sie jezt so und nicht mit ihrem richtigen Namen.
 1	Hallo	hallo	INTJ	ITJ	_	0	root	_	_
 2	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	_
-3	Mark	Mark	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No|NamedEntity=Yes
+3	Mark	Mark	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	1	punct	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	nenne	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -3095,7 +3095,7 @@
 4	schön	schön	ADJ	ADJD	Degree=Pos	2	xcomp	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Lasting	Lasting	PROPN	FM	Foreign=Yes	2	obl	_	NamedEntity=Yes
-7	Beauty	Beauty	PROPN	FM	Foreign=Yes	6	flat	_	SpaceAfter=No|NamedEntity=Yes
+7	Beauty	Beauty	PROPN	FM	Foreign=Yes	6	flat	_	NamedEntity=Yes|SpaceAfter=No
 8	...	...	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 9	!	!	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 10	!	!	PUNCT	$.	_	2	punct	_	SpaceAfter=No
@@ -3770,7 +3770,7 @@
 # sent_id = test-s216
 # text = Leider wenig Erfahrung im kosmetischen Bereich.
 1	Leider	leider	ADV	ADV	_	3	advmod	_	_
-2	wenig	wenig	DET	PIAT	PronType=Ind	3	amod	_	_
+2	wenig	wenig	DET	PIAT	PronType=Ind	3	det	_	_
 3	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	7	case	_	_
@@ -4136,7 +4136,7 @@
 # text = Niemals mehr Carglass!
 1	Niemals	niemals	ADV	ADV	_	3	advmod	_	_
 2	mehr	mehr	ADV	PIAT	PronType=Ind	1	advmod	_	_
-3	Carglass	Carglass	PROPN	FM	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No|NamedEntity=Yes
+3	Carglass	Carglass	PROPN	FM	Case=Nom|Number=Plur	0	root	_	NamedEntity=Yes|SpaceAfter=No
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s237
@@ -4272,7 +4272,7 @@
 7	in	in	ADP	APPR	_	10	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 9	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
-10	Schienfatt	Schienfatt	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|NamedEntity=Yes
+10	Schienfatt	Schienfatt	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	NamedEntity=Yes|SpaceAfter=No
 11	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -4288,7 +4288,7 @@
 1	Schöne	schön	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	Grüße	Gruß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	4	punct	_	_
-4	Mare	Mare	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|NamedEntity=Yes
+4	Mare	Mare	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	NamedEntity=Yes|SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s248
@@ -4869,7 +4869,7 @@
 11	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
 12	innerhalb	innerhalb	ADV	ADV	_	16	advmod	_	_
 13	von	von	ADP	APPR	_	15	case	_	_
-14	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	15	amod	_	_
+14	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	Sekunden	Sekunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	_
 16	entlassen	entlassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
@@ -5063,7 +5063,7 @@
 4	Fahrschule	Fahrschule	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	Fahrschule	Fahrschule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	_
-7	Rauer	Rauer	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|NamedEntity=Yes
+7	Rauer	Rauer	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	appos	_	NamedEntity=Yes|SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s295
@@ -5148,7 +5148,7 @@
 16	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
 18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Elbe	Elbe	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|NamedEntity=Yes
+19	Elbe	Elbe	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	NamedEntity=Yes|SpaceAfter=No
 20	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = test-s299
@@ -5471,7 +5471,7 @@
 12	Zentralbank	Zentralbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	14	punct	_	_
 14	Tatjana	Tatjana	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	NamedEntity=Yes
-15	Paramonowa	Paramonowa	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	14	flat	_	SpaceAfter=No|NamedEntity=Yes
+15	Paramonowa	Paramonowa	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	14	flat	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	10	punct	_	_
 17	entlassen	entlassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No
@@ -5527,7 +5527,7 @@
 11	Entwicklung	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	Wighard	Wighard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-14	Härdtl	Härdtl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No|NamedEntity=Yes
+14	Härdtl	Härdtl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	$,	_	2	punct	_	_
 16	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 17	Ende	Ende	NOUN	NN	Gender=Neut|Number=Sing	18	nmod	_	_
@@ -5680,7 +5680,7 @@
 
 # sent_id = test-s325
 # text = Über 60 Prozent werden für Direktzahlungen ausgegeben, für Flächenprämien, für Umweltprogramme, für die Unterstützung von Bergbauern, benachteiligte Gebiete und ähnliches.
-1	Über	über	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Über	über	ADV	ADV	_	2	advmod	_	_
 2	60	60	NUM	CARD	NumType=Card	3	nummod	_	_
 3	Prozent	Prozent	NOUN	NN	Gender=Neut	7	nsubj:pass	_	_
 4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
@@ -5729,7 +5729,7 @@
 # sent_id = test-s327
 # text = Im Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten, flogen die Fetzen auf niedrigstem Niveau.
 1-2	Im	_	_	_	_	_	_	_	_
-1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
+1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Abgeordnetenhaus	Abgeordnetenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	dep	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
@@ -5757,19 +5757,19 @@
 # sent_id = test-s328
 # text = Die Aerospace-Gruppe des Triebwerkherstellers Rolls-Royce hat mit dem amerikanischen EDV-Dienstleister Electronic Data Systems (EDS) einen Zehnjahresvertrag abgeschlossen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	Aerospace	Aerospace	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	Aerospace	Aerospace	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Triebwerkherstellers	Triebwerkhersteller	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-7	Rolls	Rolls	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|NamedEntity=Yes
+7	Rolls	Rolls	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	NamedEntity=Yes|SpaceAfter=No
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Royce	Royce	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	NamedEntity=Yes
 10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 11	mit	mit	ADP	APPR	_	16	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 13	amerikanischen	amerikanisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
-14	EDV	EDV	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No|NamedEntity=Yes
+14	EDV	EDV	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	compound	_	NamedEntity=Yes|SpaceAfter=No
 15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 16	Dienstleister	Dienstleister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	_
 17	Electronic	Electronic	PROPN	NE	_	14	appos	_	NamedEntity=Yes
@@ -5785,7 +5785,7 @@
 
 # sent_id = test-s329
 # text = ``Alles, was die Aufmerksamkeit auf den Mund lenkt ist gut'', lautet ihr erstes Mode- und Schminkgebot.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	10	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
@@ -5810,9 +5810,9 @@
 
 # sent_id = test-s330
 # text = Denn als Sahlin, die nach den höchsten Ämtern in Partei und Regierung strebte, wegen des Mißbrauchs staatlicher Kreditkarten für private Zwecke zur Rechenschaft gezogen wurde, nutzte sie ihren hektischen Alltag als Politikerin und Mutter von drei Kindern wirkungsvoll zu ihrer Verteidigung:
-1	Denn	denn	CCONJ	KON	_	27	cc	_	FixTigerDep=Yes
+1	Denn	denn	CCONJ	KON	_	27	cc	_	_
 2	als	als	SCONJ	KOUS	_	27	mark	_	_
-3	Sahlin	Sahlin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	SpaceAfter=No|NamedEntity=Yes
+3	Sahlin	Sahlin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	14	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	14	nsubj	_	_
 6	nach	nach	ADP	APPR	_	9	case	_	_
@@ -5895,7 +5895,7 @@
 # sent_id = test-s333
 # text = Am Anfang eines Films steht immer die Musikalität, der Rhythmus.
 1-2	Am	_	_	_	_	_	_	_	_
-1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
+1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	dep	_	_
 4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
@@ -6045,7 +6045,7 @@
 4	Jürgen	Jürgen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
 5	Möllemann	Möllemann	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
 6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
-7	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|NamedEntity=Yes
+7	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	NamedEntity=Yes|SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	SpaceAfter=No
 9	)	)	PUNCT	$(	_	7	punct	_	_
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
@@ -6087,7 +6087,7 @@
 8	Einschätzung	Einschätzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
 9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 10	Münchner	Münchner	ADJ	ADJA	Degree=Pos	13	amod	_	_
-11	Ifo	Ifo	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No|NamedEntity=Yes
+11	Ifo	Ifo	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	13	compound	_	NamedEntity=Yes|SpaceAfter=No
 12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	Instituts	Institut	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 14	1996	1996	NUM	CARD	NumType=Card	16	obl	_	_
@@ -6189,7 +6189,7 @@
 38	in	in	ADP	APPR	_	39	case	_	_
 39	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	37	nmod	_	NamedEntity=Yes
 40	und	und	CCONJ	KON	_	41	cc	_	_
-41	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	39	conj	_	SpaceAfter=No|NamedEntity=Yes
+41	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	39	conj	_	NamedEntity=Yes|SpaceAfter=No
 42	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = test-s342
@@ -6236,9 +6236,9 @@
 3	Jacksons	Jackson	PROPN	NE	Case=Gen|Number=Sing	2	nmod	_	NamedEntity=Yes
 4	in	in	ADP	APPR	_	6	case	_	_
 5	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	Wetten	wetten	PROPN	VVINF	VerbForm=Inf	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
+6	Wetten	wetten	PROPN	VVINF	VerbForm=Inf	2	nmod	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
-8	daß	daß	PROPN	KOUS	_	6	flat	_	SpaceAfter=No|NamedEntity=Yes
+8	daß	daß	PROPN	KOUS	_	6	flat	_	NamedEntity=Yes|SpaceAfter=No
 9	''	''	PUNCT	$(	_	12	punct	_	_
 10-11	im	_	_	_	_	_	_	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
@@ -6262,7 +6262,7 @@
 27	Show	Show	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
 28	außerhalb	außerhalb	ADP	APPR	_	30	case	_	_
 29	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	USA	USA	PROPN	NE	Case=Gen|Number=Plur	27	nmod	_	SpaceAfter=No|NamedEntity=Yes
+30	USA	USA	PROPN	NE	Case=Gen|Number=Plur	27	nmod	_	NamedEntity=Yes|SpaceAfter=No
 31	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = test-s345
@@ -6334,7 +6334,7 @@
 5	Bündnis	Bündnis	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	NamedEntity=Yes
 6	Arbeit	Arbeit	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	NamedEntity=Yes
 7	und	und	CCONJ	KON	_	5	compound	_	_
-8	Natur	Natur	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
+8	Natur	Natur	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	NamedEntity=Yes|SpaceAfter=No
 9	''	''	PUNCT	$(	_	5	punct	_	_
 
 # sent_id = test-s349
@@ -6377,7 +6377,7 @@
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Eigentümerfamilie	Eigentümerfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-21	May	May	PROPN	NN	Case=Gen|Gender=Neut|Number=Plur	23	compound	_	SpaceAfter=No|NamedEntity=Yes
+21	May	May	PROPN	NN	Case=Gen|Gender=Neut|Number=Plur	23	compound	_	NamedEntity=Yes|SpaceAfter=No
 22	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 23	Werke	Werk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
@@ -6401,18 +6401,18 @@
 # sent_id = test-s352
 # text = Im Blickpunkt: Die Kurilen-Inseln
 1-2	Im	_	_	_	_	_	_	_	_
-1	In	in	ADP	APPR	_	3	case	_	FixTigerDep=Yes
+1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Blickpunkt	Blickpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	6	punct	_	_
 5	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	Kurilen	Kurilen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	SpaceAfter=No|NamedEntity=Yes
+6	Kurilen	Kurilen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	Inseln	Insel	NOUN	NE	Case=Nom|Gender=Fem|Number=Plur	6	flat	_	_
 
 # sent_id = test-s353
 # text = Nur Bonns Zukunftsminister Jürgen Rüttgers hält noch am Projekt fest, weil er ITER im ostdeutschen Städtchen Greifswald hochziehen lassen will.
-1	Nur	nur	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
 2	Bonns	Bonn	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	NamedEntity=Yes
 3	Zukunftsminister	Zukunftsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	Jürgen	Jürgen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	NamedEntity=Yes
@@ -6462,7 +6462,7 @@
 19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 20	Berliner	Berliner	ADJ	ADJA	Case=Dat|Degree=Pos	22	amod	_	_
 21	``	``	PUNCT	$(	_	20	punct	_	SpaceAfter=No
-22	Sonntagspost	Sonntagspost	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|NamedEntity=Yes
+22	Sonntagspost	Sonntagspost	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	NamedEntity=Yes|SpaceAfter=No
 23	''	''	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -6594,7 +6594,7 @@
 # sent_id = test-s361
 # text = Der CDU-Chef warf dem Ministerpräsidenten Oskar Lafontaine vor, mit seiner Finanzpolitik im Lande ebenso gescheitert zu sein wie mit seiner Stahl- oder Wirtschaftspolitik.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	warf	werfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6684,7 +6684,7 @@
 
 # sent_id = test-s364
 # text = ``Da kommen die anderen Vereine in Deutschland nicht annähernd mit'', verschlug es dem ansonsten nicht auf den Mund gefallenen Bremer Kollegen Willi Lemke fast die Sprache.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Da	da	ADV	ADV	_	3	advmod	_	_
 3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -6738,7 +6738,7 @@
 
 # sent_id = test-s366
 # text = ``Dann steigen die Kosten, aber mein Umsatz bleibt gleich.''
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Dann	dann	ADV	ADV	_	3	advmod	_	_
 3	steigen	steigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -6779,7 +6779,7 @@
 
 # sent_id = test-s368
 # text = ``Das Damoklesschwert einer militärischen Intervention wird über den Serben hängen'', hieß es in der deutschen Delegation.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Damoklesschwert	Damoklesschwert	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
 4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	_
@@ -6802,7 +6802,7 @@
 
 # sent_id = test-s369
 # text = ``Das ist die erste intelligente Äußerung, die ich von der IG Metall seit Jahren höre'', sagte Stihl der FR.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6824,7 +6824,7 @@
 20	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 21	Stihl	Stihl	PROPN	NE	Case=Nom|Number=Sing	20	nsubj	_	NamedEntity=Yes
 22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	FR	FR	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	20	obl:arg	_	SpaceAfter=No|NamedEntity=Yes
+23	FR	FR	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	20	obl:arg	_	NamedEntity=Yes|SpaceAfter=No
 24	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = test-s370
@@ -6894,10 +6894,10 @@
 15	Jüdischen	jüdisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	Gemeinde	Gemeinde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 17	zu	zu	ADP	APPR	_	18	case	_	_
-18	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|NamedEntity=Yes
+18	Berlin	Berlin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	NamedEntity=Yes|SpaceAfter=No
 19	,	,	PUNCT	$,	_	20	punct	_	_
 20	Jerzy	Jerzy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
-21	Kanal	Kanal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	SpaceAfter=No|NamedEntity=Yes
+21	Kanal	Kanal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	NamedEntity=Yes|SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = test-s373
@@ -6952,7 +6952,7 @@
 
 # sent_id = test-s376
 # text = ``Die Einrichtungen der evangelischen Kirche benötigen Wärme und Energie in der Größenordnung einer Stadt wie Hannover'', sagt Uwe Ilgemann vom Öko-Institut Freiburg.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Einrichtungen	Einrichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -6968,7 +6968,7 @@
 14	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 15	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	wie	wie	CCONJ	KOKOM	_	17	case	_	_
-17	Hannover	Hannover	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|NamedEntity=Yes
+17	Hannover	Hannover	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	nmod	_	NamedEntity=Yes|SpaceAfter=No
 18	''	''	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	7	punct	_	_
 20	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6977,10 +6977,10 @@
 23-24	vom	_	_	_	_	_	_	_	_
 23	von	von	ADP	APPR	_	27	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
-25	Öko	Öko	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	27	compound	_	SpaceAfter=No|NamedEntity=Yes
+25	Öko	Öko	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	27	compound	_	NamedEntity=Yes|SpaceAfter=No
 26	-	-	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 27	Institut	Institut	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	NamedEntity=Yes
-28	Freiburg	Freiburg	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	25	flat	_	SpaceAfter=No|NamedEntity=Yes
+28	Freiburg	Freiburg	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	25	flat	_	NamedEntity=Yes|SpaceAfter=No
 29	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = test-s377
@@ -7000,7 +7000,7 @@
 
 # sent_id = test-s378
 # text = ``Die lokale Nähe von Universität und Wirtschaft ist sehr wichtig'', betont Stanford-Vizedekan George Parker, ``leider machen sich viele unserer besten Dozenten irgendwann selbständig''.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	lokale	lokal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	Nähe	Nähe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -7014,11 +7014,11 @@
 12	''	''	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	11	punct	_	_
 14	betont	betonen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	Stanford	Stanford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+15	Stanford	Stanford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 17	Vizedekan	Vizedekan	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	_
 18	George	George	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	NamedEntity=Yes
-19	Parker	Parker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No|NamedEntity=Yes
+19	Parker	Parker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	NamedEntity=Yes|SpaceAfter=No
 20	,	,	PUNCT	$,	_	23	punct	_	_
 21	``	``	PUNCT	$(	_	23	punct	_	SpaceAfter=No
 22	leider	leider	ADV	ADV	_	23	advmod	_	_
@@ -7035,7 +7035,7 @@
 
 # sent_id = test-s379
 # text = ``Die ursprünglich vorgesehene Quote von 2500 ist 1995 nicht mehr zu erreichen.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 3	ursprünglich	ursprünglich	ADV	ADJD	_	4	advmod	_	_
 4	vorgesehene	vorgesehen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -7052,7 +7052,7 @@
 
 # sent_id = test-s380
 # text = ``Die Wissenschaft ist das beste, was wir haben.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Wissenschaft	Wissenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -7066,7 +7066,7 @@
 
 # sent_id = test-s381
 # text = ``Die wollen, daß ich im Westjordanland oder im Gaza-Streifen eine Fabrik baue'', erzählt der Fleischfabrikant Heinz Annuss.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	3	nsubj	_	_
 3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	18	punct	_	_
@@ -7080,7 +7080,7 @@
 11-12	im	_	_	_	_	_	_	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Gaza	Gaza	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|NamedEntity=Yes
+13	Gaza	Gaza	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
 15	Streifen	Streifen	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes
 16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	17	det	_	_
@@ -7092,7 +7092,7 @@
 22	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Fleischfabrikant	Fleischfabrikant	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
 24	Heinz	Heinz	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	NamedEntity=Yes
-25	Annuss	Annuss	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No|NamedEntity=Yes
+25	Annuss	Annuss	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	NamedEntity=Yes|SpaceAfter=No
 26	.	.	PUNCT	$.	_	21	punct	_	_
 
 # sent_id = test-s382
@@ -7124,7 +7124,7 @@
 4	``	``	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 5	Herzog	Herzog	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
-7	Gothland	Gothland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|NamedEntity=Yes
+7	Gothland	Gothland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
 8	''	''	PUNCT	$(	_	5	punct	_	_
 9-10	am	_	_	_	_	_	_	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
@@ -7147,7 +7147,7 @@
 
 # sent_id = test-s385
 # text = Nur drei von zehn Frauen leben in den Städten wie Bombay, Neu-Delhi oder Kalkutta.
-1	Nur	nur	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
 2	drei	drei	NUM	CARD	NumType=Card	6	nsubj	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
 4	zehn	zehn	NUM	CARD	NumType=Card	5	nummod	_	_
@@ -7157,13 +7157,13 @@
 8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
 10	wie	wie	CCONJ	KOKOM	_	9	dep	_	_
-11	Bombay	Bombay	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|NamedEntity=Yes
+11	Bombay	Bombay	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	NamedEntity=Yes|SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
-13	Neu	Neu	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|NamedEntity=Yes
+13	Neu	Neu	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
 15	Delhi	Delhi	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	13	flat	_	NamedEntity=Yes
 16	oder	oder	CCONJ	KON	_	17	cc	_	_
-17	Kalkutta	Kalkutta	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|NamedEntity=Yes
+17	Kalkutta	Kalkutta	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = test-s386
@@ -7218,7 +7218,7 @@
 36	erst	erst	ADV	ADV	_	42	advmod	_	_
 37	in	in	ADP	APPR	_	41	case	_	_
 38	drei	drei	NUM	CARD	NumType=Card	41	nummod	_	_
-39	EU	EU	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	41	compound	_	SpaceAfter=No|NamedEntity=Yes
+39	EU	EU	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	41	compound	_	NamedEntity=Yes|SpaceAfter=No
 40	-	-	PUNCT	$(	_	39	punct	_	SpaceAfter=No
 41	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	42	obl	_	_
 42	existiere	existieren	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	SpaceAfter=No
@@ -7226,7 +7226,7 @@
 
 # sent_id = test-s388
 # text = ``Ein Großteil'' der Entscheidungen, die Einwanderer und Minderheiten betreffen, werde bislang auf Bundes- und Landesebene getroffen, ohne diese anzuhören.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	_
 3	Großteil	Großteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	6	punct	_	_
@@ -7320,7 +7320,7 @@
 
 # sent_id = test-s392
 # text = ``Er kann seine Hände nicht in Unschuld waschen und vorgeben, nichts damit zu tun zu haben.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 4	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -7372,16 +7372,16 @@
 11	Siedler	Siedler	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 12	aus	aus	ADP	APPR	_	13	case	_	_
 13	Kyriat	Kyriat	PROPN	NE	_	11	nmod	_	NamedEntity=Yes
-14	Arba	Arba	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	SpaceAfter=No|NamedEntity=Yes
+14	Arba	Arba	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	$,	_	16	punct	_	_
 16	Abraham	Abraham	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	NamedEntity=Yes
 17	Ben	Ben	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	NamedEntity=Yes
-18	David	David	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No|NamedEntity=Yes
+18	David	David	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	16	flat	_	NamedEntity=Yes|SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s395
 # text = ``Es handelt sich wieder einmal um die falsche Fragestellung'', moniert Katrin Grüber.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -7395,12 +7395,12 @@
 12	,	,	PUNCT	$,	_	3	punct	_	_
 13	moniert	monieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	Katrin	Katrin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	NamedEntity=Yes
-15	Grüber	Grüber	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	14	flat	_	SpaceAfter=No|NamedEntity=Yes
+15	Grüber	Grüber	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	14	flat	_	NamedEntity=Yes|SpaceAfter=No
 16	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = test-s396
 # text = ``Es ist ein Bohren von dicken Brettern'', sagte Professor Manfred Bauer, einer der Väter der Sozialpsychiatrie in Deutschland.
-1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
@@ -7413,7 +7413,7 @@
 11	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	Professor	Professor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	Manfred	Manfred	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	appos	_	NamedEntity=Yes
-14	Bauer	Bauer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No|NamedEntity=Yes
+14	Bauer	Bauer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	$,	_	16	punct	_	_
 16	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	12	appos	_	_
 17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -7421,12 +7421,12 @@
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Sozialpsychiatrie	Sozialpsychiatrie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	in	in	ADP	APPR	_	22	case	_	_
-22	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|NamedEntity=Yes
+22	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	NamedEntity=Yes|SpaceAfter=No
 23	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = test-s397
 # text = ``Es ist ja nicht so, daß die Europäer plötzlich die DM regieren.
-1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ja	ja	ADV	ADV	_	3	advmod	_	_
@@ -7474,7 +7474,7 @@
 
 # sent_id = test-s399
 # text = ``Es zog sie den ganzen Sommer schon so unwiderstehlich in die Schweiz, sie wollte noch die lieben Berge, Wärme und Sonnenschein genießen und hat sie genossen mit dem Gefühl gebesserter Gesundheit'', berichtet Valerie, die Tochter von Sisi.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	zog	ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	ccomp	_	_
 4	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
@@ -7486,7 +7486,7 @@
 10	unwiderstehlich	unwiderstehlich	ADV	ADJD	_	3	advmod	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Schweiz	Schweiz	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|NamedEntity=Yes
+13	Schweiz	Schweiz	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	$,	_	25	punct	_	_
 15	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 16	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
@@ -7511,12 +7511,12 @@
 35	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 36	,	,	PUNCT	$,	_	3	punct	_	_
 37	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-38	Valerie	Valerie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+38	Valerie	Valerie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 39	,	,	PUNCT	$,	_	41	punct	_	_
 40	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Tochter	Tochter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	appos	_	_
 42	von	von	ADP	APPR	_	43	case	_	_
-43	Sisi	Sisi	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No|NamedEntity=Yes
+43	Sisi	Sisi	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	41	nmod	_	NamedEntity=Yes|SpaceAfter=No
 44	.	.	PUNCT	$.	_	37	punct	_	_
 
 # sent_id = test-s400
@@ -7702,13 +7702,13 @@
 27	auf	auf	ADP	APPR	_	29	case	_	_
 28	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Halbinsel	Halbinsel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
-30	Jaffna	Jaffna	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	29	appos	_	SpaceAfter=No|NamedEntity=Yes
+30	Jaffna	Jaffna	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	29	appos	_	NamedEntity=Yes|SpaceAfter=No
 31	,	,	PUNCT	$,	_	33	punct	_	_
 32	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Hochburg	Hochburg	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	appos	_	_
 34	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	36	det	_	_
 35	aufständischen	aufständisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	36	amod	_	_
-36	Tamilen	Tamile	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No|NamedEntity=Yes
+36	Tamilen	Tamile	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	NamedEntity=Yes|SpaceAfter=No
 37	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = test-s409
@@ -7720,12 +7720,12 @@
 5	Widerspruch	Widerspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 6	bei	bei	ADP	APPR	_	7	case	_	_
 7	Heidemarie	Heidemarie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	NamedEntity=Yes
-8	Wieczorek	Wieczorek	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	SpaceAfter=No|NamedEntity=Yes
+8	Wieczorek	Wieczorek	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 10	Zeul	Zeul	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	NamedEntity=Yes
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Oskar	Oskar	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NamedEntity=Yes
-13	Lafontaine	Lafontaine	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No|NamedEntity=Yes
+13	Lafontaine	Lafontaine	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	flat	_	NamedEntity=Yes|SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s410
@@ -7769,7 +7769,7 @@
 5	zahlreichen	zahlreich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 6	Konferenzen	Konferenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	_
 7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-8	EU	EU	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	EU	EU	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Mitgliedsstaaten	Mitgliedsstaat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
@@ -7782,7 +7782,7 @@
 18	,	,	PUNCT	$,	_	28	punct	_	_
 19	in	in	ADP	APPR	_	23	case	_	_
 20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-21	UN	UN	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	23	compound	_	SpaceAfter=No|NamedEntity=Yes
+21	UN	UN	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	23	compound	_	NamedEntity=Yes|SpaceAfter=No
 22	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 23	Abstimmung	Abstimmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	_
 24	``	``	PUNCT	$(	_	23	punct	_	SpaceAfter=No
@@ -7825,9 +7825,9 @@
 6	nach	nach	ADP	APPR	_	7	case	_	_
 7	Ansicht	Ansicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
 8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-9	Sinn	Sinn	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No|NamedEntity=Yes
+9	Sinn	Sinn	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	NamedEntity=Yes|SpaceAfter=No
 10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
-11	Fein	Fein	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No|NamedEntity=Yes
+11	Fein	Fein	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	13	compound	_	NamedEntity=Yes|SpaceAfter=No
 12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	Präsidenten	Präsident	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 14	Gerry	Gerry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	NamedEntity=Yes
@@ -7839,7 +7839,7 @@
 
 # sent_id = test-s414
 # text = ,Für Frauen wurde nichts besser'
-1	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No
 2	Für	für	ADP	APPR	_	3	case	_	_
 3	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
 4	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8012,7 +8012,7 @@
 1	Viele	viel	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Göttinger	Göttinger	ADJ	ADJA	Degree=Pos	4	compound	_	_
 3	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
-4	Autonome	autonome	PROPN	NN	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+4	Autonome	autonome	PROPN	NN	Case=Nom|Number=Plur	6	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 5	''	''	PUNCT	$(	_	4	punct	_	_
 6	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7-8	zur	_	_	_	_	_	_	_	_
@@ -8163,7 +8163,7 @@
 
 # sent_id = test-s429
 # text = ``Ich bin sehr traurig, schockiert über dieses furchtbare Verbrechen an einem der tapferen Führer Israels und der Friedensstifter.
-1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
@@ -8187,7 +8187,7 @@
 
 # sent_id = test-s430
 # text = ``Ich habe versucht, so stark wie nur irgend möglich zu sein.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	versucht	versuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -8221,7 +8221,7 @@
 
 # sent_id = test-s432
 # text = Spätestens im Folgejahr soll ein operativer Gewinn und 1999 wieder eine Dividende herausspringen.
-1	Spätestens	spätestens	ADV	ADV	_	4	advmod	_	FixTigerDep=Yes
+1	Spätestens	spätestens	ADV	ADV	_	4	advmod	_	_
 2-3	im	_	_	_	_	_	_	_	_
 2	in	in	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -8240,7 +8240,7 @@
 
 # sent_id = test-s433
 # text = Schon im vergangenen Sommer schien die Vertragsverlängerung (bis 2001) für Gérard Mortier, den Intendanten der Salzburger Festspiele seit 1991, unmittelbar bevorzustehen und gleichsam nur mehr eine Formsache.
-1	Schon	schon	ADV	ADV	_	5	advmod	_	FixTigerDep=Yes
+1	Schon	schon	ADV	ADV	_	5	advmod	_	_
 2-3	im	_	_	_	_	_	_	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -8255,7 +8255,7 @@
 12	)	)	PUNCT	$(	_	10	punct	_	_
 13	für	für	ADP	APPR	_	14	case	_	_
 14	Gérard	Gérard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
-15	Mortier	Mortier	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|NamedEntity=Yes
+15	Mortier	Mortier	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	14	flat	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	18	punct	_	_
 17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Intendanten	Intendant	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	appos	_	_
@@ -8277,7 +8277,7 @@
 
 # sent_id = test-s434
 # text = ``In den Monaten seit dem Regierungswechsel ist, im Gegensatz zu den Ankündigungen der neuen Regierung, kein Fortschritt in Menschenrechtsfragen festzustellen.
-1	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	24	punct	_	SpaceAfter=No
 2	In	in	ADP	APPR	_	4	case	_	_
 3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	24	obl	_	_
@@ -8364,25 +8364,25 @@
 3	erhältlich	erhältlich	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	bei	bei	ADP	APPR	_	5	case	_	_
 5	Tel	Tel	PROPN	NE	_	3	nmod	_	NamedEntity=Yes
-6	Dor	Dor	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
+6	Dor	Dor	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	10	punct	_	_
 10	Erika	Erika	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	NamedEntity=Yes
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Walter	Walter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	NamedEntity=Yes
-13	Haury	Haury	PROPN	NE	Case=Nom|Number=Sing	10	flat	_	SpaceAfter=No|NamedEntity=Yes
+13	Haury	Haury	PROPN	NE	Case=Nom|Number=Sing	10	flat	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
-15	Doninikus	Doninikus	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|NamedEntity=Yes
+15	Doninikus	Doninikus	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	NamedEntity=Yes|SpaceAfter=No
 16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-17	Zimmermann	Zimmermann	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	15	flat	_	SpaceAfter=No|NamedEntity=Yes
+17	Zimmermann	Zimmermann	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	15	flat	_	NamedEntity=Yes|SpaceAfter=No
 18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-19	Str	Str	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	15	flat	_	SpaceAfter=No|NamedEntity=Yes
+19	Str	Str	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	15	flat	_	NamedEntity=Yes|SpaceAfter=No
 20	.	.	PUNCT	$.	_	19	punct	_	_
 21	9	9	NUM	CARD	NumType=Card	15	flat	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	24	punct	_	_
 23	88299	88299	NUM	CARD	NumType=Card	24	compound	_	_
-24	Leutkirch	Leutkirch	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No|NamedEntity=Yes
+24	Leutkirch	Leutkirch	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	NamedEntity=Yes|SpaceAfter=No
 25	,	,	PUNCT	$,	_	26	punct	_	_
 26	Tel	Tel	NOUN	NE	_	24	appos	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	26	punct	_	_
@@ -8436,7 +8436,7 @@
 5	Roten	rot	PROPN	ADJA	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	NamedEntity=Yes
 6	Kreuz	Kreuz	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	5	flat	_	NamedEntity=Yes
 7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
-8	IKRK	IKRK	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	SpaceAfter=No|NamedEntity=Yes
+8	IKRK	IKRK	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	NamedEntity=Yes|SpaceAfter=No
 9	)	)	PUNCT	$(	_	8	punct	_	_
 10	zog	ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
@@ -8447,7 +8447,7 @@
 15	aus	aus	ADP	APPR	_	20	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 17	umkämpften	umkämpft	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
-18	Tamilen	Tamile	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	20	compound	_	SpaceAfter=No|NamedEntity=Yes
+18	Tamilen	Tamile	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	20	compound	_	NamedEntity=Yes|SpaceAfter=No
 19	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
 20	Hochburg	Hochburg	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
 21	Jaffna	Jaffna	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	appos	_	NamedEntity=Yes
@@ -8465,7 +8465,7 @@
 1	Deutsche	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	dep	_	FixTigerDep=Yes
 2	Investitionen	Investition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
-4	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
+4	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	9	nsubj	_	_
 7	nun	nun	ADV	ADV	_	9	advmod	_	_
@@ -8499,7 +8499,7 @@
 16-17	am	_	_	_	_	_	_	_	_
 16	an	an	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|NamedEntity=Yes
+18	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	NamedEntity=Yes|SpaceAfter=No
 19	.	.	PUNCT	$.	_	14	punct	_	_
 
 # sent_id = test-s443
@@ -8582,7 +8582,7 @@
 2	Jochen	Jochen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NamedEntity=Yes
 3	Borchert	Borchert	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
-5	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|NamedEntity=Yes
+5	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	NamedEntity=Yes|SpaceAfter=No
 6	)	)	PUNCT	$(	_	5	punct	_	_
 7	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	davon	davon	ADV	PAV	PronType=Dem	7	advmod	_	_
@@ -8620,7 +8620,7 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|NamedEntity=Yes
+9	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	20	punct	_	_
 11	daß	daß	SCONJ	KOUS	_	20	mark	_	_
 12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -8651,8 +8651,8 @@
 # sent_id = test-s448
 # text = Rest-Jugoslawiens neuer Ministerpräsident ist ein alter Bekannter der US-amerikanischen Börsenaufsichtsbeamten.
 1	Rest	Rest	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	dep	_	SpaceAfter=No|FixTigerDep=Yes|NamedEntity=Yes
-2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No|FixTigerDep=Yes
-3	Jugoslawiens	Jugoslawiens	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	1	flat	_	FixTigerDep=Yes|NamedEntity=Yes
+2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Jugoslawiens	Jugoslawiens	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	1	flat	_	NamedEntity=Yes
 4	neuer	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -8660,7 +8660,7 @@
 8	alter	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 9	Bekannter	Bekannte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 10	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-11	US	US	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Plur	13	compound	_	SpaceAfter=No|NamedEntity=Yes
+11	US	US	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Plur	13	compound	_	NamedEntity=Yes|SpaceAfter=No
 12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	amerikanischen	amerikanisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 14	Börsenaufsichtsbeamten	Börsenaufsichtsbeamter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
@@ -8751,12 +8751,12 @@
 5	Abfindung	Abfindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 6	für	für	ADP	APPR	_	10	case	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	_
-8	Boge	Boge	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	Boge	Boge	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Papier	Papier	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	NamedEntity=Yes
 11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 12	halbe	halb	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
-13	Mannesmann	Mannesmann	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	15	compound	_	SpaceAfter=No|NamedEntity=Yes
+13	Mannesmann	Mannesmann	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	15	compound	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 15	Aktie	Aktie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
 16	oder	oder	CCONJ	KON	_	18	cc	_	_
@@ -8815,7 +8815,7 @@
 2	Kompanien	Kompanie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Bereitschaftspolizei	Bereitschaftspolizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-5	CRS	CRS	PROPN	NE	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No|NamedEntity=Yes
+5	CRS	CRS	PROPN	NE	Case=Nom|Number=Sing	4	appos	_	NamedEntity=Yes|SpaceAfter=No
 6	,	,	PUNCT	$,	_	7	punct	_	_
 7	ausgerüstet	ausrüsten	VERB	VVPP	VerbForm=Part	2	acl	_	_
 8	mit	mit	ADP	APPR	_	9	case	_	_
@@ -8848,7 +8848,7 @@
 
 # sent_id = test-s458
 # text = Außerdem können sie ihren Kunden künftig auch das ``Bagger-Anschlußprogramm'', die von Komatsu produzierten Abräumfahrzeuge, anbieten.
-1	Außerdem	außerdem	ADV	PAV	_	21	dep	_	FixTigerDep=Yes
+1	Außerdem	außerdem	ADV	PAV	_	21	advmod	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 4	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -8914,7 +8914,7 @@
 2	KRAUSE	Krause	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	7	punct	_	_
 4	ostdeutscher	ostdeutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-5	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Bundestagsabgeordneter	Bundestagsabgeordnete	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	2	punct	_	_
@@ -9094,7 +9094,7 @@
 
 # sent_id = test-s468
 # text = Immer mehr Menschen in Deutschland werden obdachlos.
-1	Immer	immer	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Immer	immer	ADV	ADV	_	2	advmod	_	_
 2	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 4	in	in	ADP	APPR	_	5	case	_	_
@@ -9123,7 +9123,7 @@
 15	Vollmitgliedschaft	Vollmitgliedschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
 17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	EG	EG	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|NamedEntity=Yes
+18	EG	EG	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	NamedEntity=Yes|SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = test-s470
@@ -9291,7 +9291,7 @@
 # sent_id = test-s477
 # text = Am Montag werde der Aufsichtsrat über mögliche personelle Konsequenzen entscheiden.
 1-2	Am	_	_	_	_	_	_	_	_
-1	An	an	ADP	APPR	_	3	case	_	FixTigerDep=Yes
+1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 4	werde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -9361,7 +9361,7 @@
 3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 4	mit	mit	ADP	APPR	_	8	case	_	_
 5	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
-6	CDU	CDU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|NamedEntity=Yes
+6	CDU	CDU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Schelte	Schelte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 9	leben	leben	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -9407,7 +9407,7 @@
 10	Einspruch	Einspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 12	früheren	früh	ADJ	ADJA	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	15	amod	_	_
-13	SS	SS	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No|NamedEntity=Yes
+13	SS	SS	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	15	compound	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 15	Offiziers	Offizier	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 16	Erich	Erich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
@@ -9507,7 +9507,7 @@
 18	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	19	det	_	_
 19	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-21	März	März	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	23	compound	_	SpaceAfter=No|NamedEntity=Yes
+21	März	März	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	23	compound	_	NamedEntity=Yes|SpaceAfter=No
 22	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 23	Gruppe	Gruppe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
@@ -9538,7 +9538,7 @@
 7	Horst	Horst	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	NamedEntity=Yes
 8	Günther	Günther	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	NamedEntity=Yes
 9	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No
-10	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No|NamedEntity=Yes
+10	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	SpaceAfter=No
 12	)	)	PUNCT	$(	_	10	punct	_	_
 13	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
@@ -9548,7 +9548,7 @@
 17	Europäischen	europäisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	Gerichtshofs	Gerichtshof	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes
 19	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No
-20	EuGH	EuGH	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No|NamedEntity=Yes
+20	EuGH	EuGH	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	NamedEntity=Yes|SpaceAfter=No
 21	)	)	PUNCT	$(	_	20	punct	_	_
 22	scharf	scharf	ADV	ADJD	_	23	advmod	_	_
 23	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -9585,7 +9585,7 @@
 
 # sent_id = test-s490
 # text = Auch Parteichef Scharping hat in seiner Rede nicht den ganz großen Hammer geschwungen.
-1	Auch	auch	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	Parteichef	Parteichef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 3	Scharping	Scharping	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
 4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -9603,7 +9603,7 @@
 # sent_id = test-s491
 # text = Der PDS-Bundestagsgruppenchef Gysi kündigte an, er wolle bei seinem Treffen mit Lafontaine die Frage ansprechen, in welcher politischen Konstellation Veränderungen in Deutschland möglich seien.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	PDS	PDS	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	PDS	PDS	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Bundestagsgruppenchef	Bundestagsgruppenchef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	Gysi	Gysi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
@@ -9641,7 +9641,7 @@
 5	Rolf	Rolf	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	NamedEntity=Yes
 6	Schneider	Schneider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes
 7	für	für	ADP	APPR	_	8	case	_	_
-8	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|NamedEntity=Yes
+8	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	NamedEntity=Yes|SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s493
@@ -9660,7 +9660,7 @@
 
 # sent_id = test-s494
 # text = Daraus politische Konsequenzen zu ziehen, täte not, bevor der bosnische Bürgerkrieg doch noch in einen internationalen Konflikt umschlägt.
-1	Daraus	daraus	ADV	PAV	PronType=Dem	2	dep	_	FixTigerDep=Yes
+1	Daraus	daraus	ADV	PAV	PronType=Dem	2	advmod	_	_
 2	politische	politisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	Konsequenzen	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 4	zu	zu	PART	PTKZU	_	5	mark	_	_
@@ -9695,12 +9695,12 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-4	US	US	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	compound	_	SpaceAfter=No|NamedEntity=Yes
+4	US	US	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	compound	_	NamedEntity=Yes|SpaceAfter=No
 5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 6	Repräsentantenhauses	Repräsentantenhaus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Newt	Newt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-9	Gingrich	Gingrich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
+9	Gingrich	Gingrich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	2	punct	_	_
 11	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 12	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
@@ -9744,7 +9744,7 @@
 11	zwischen	zwischen	ADP	APPR	_	12	case	_	_
 12	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	NamedEntity=Yes
 13	und	und	CCONJ	KON	_	14	cc	_	_
-14	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No|NamedEntity=Yes
+14	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	NamedEntity=Yes|SpaceAfter=No
 15	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = test-s499
@@ -9832,7 +9832,7 @@
 
 # sent_id = test-s502
 # text = ``Religion ist die Erbin vieler Namen''.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Religion	Religion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -9904,7 +9904,7 @@
 1	Rita	Rita	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	NamedEntity=Yes
 2	Neubauer	Neubauer	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	NamedEntity=Yes
 3	(	(	PUNCT	$(	_	4	punct	_	SpaceAfter=No
-4	Havanna	Havanna	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+4	Havanna	Havanna	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 5	)	)	PUNCT	$(	_	4	punct	_	_
 6	fürchtet	fürchten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	noch	noch	ADV	ADV	_	8	advmod	_	_
@@ -9984,13 +9984,13 @@
 # text = Schritt des IG-Metall-Vorsitzenden Klaus Zwickel, der Unternehmern und Regierung ein ``Bündnis für Arbeit'' angeboten hat, sagte Kanzler Kohl am Mittwoch im Bundestag ``: Wir werden dieses Angebot aufnehmen und darüber sprechen.''
 1	Schritt	Schritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	dep	_	_
 2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-3	IG	IG	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No|NamedEntity=Yes
+3	IG	IG	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	compound	_	NamedEntity=Yes|SpaceAfter=No
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
-5	Metall	Metall	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	Metall	Metall	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Vorsitzenden	Vorsitzende	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 8	Klaus	Klaus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	NamedEntity=Yes
-9	Zwickel	Zwickel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
+9	Zwickel	Zwickel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	21	punct	_	_
 11	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 12	Unternehmern	Unternehmer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl:arg	_	_
@@ -10069,7 +10069,7 @@
 14	leichte	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	Beunruhigung	Beunruhigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
-17	Peking	Peking	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|NamedEntity=Yes
+17	Peking	Peking	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s512
@@ -10078,21 +10078,21 @@
 2	Seitenhieb	Seitenhieb	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
 3	auf	auf	ADP	APPR	_	7	case	_	_
 4	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
-5	DDR	DDR	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	DDR	DDR	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	_
 8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 9	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	33	obl:arg	_	_
 10	Axel	Axel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	NamedEntity=Yes
-11	Noack	Noack	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No|NamedEntity=Yes
+11	Noack	Noack	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes|SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	Pfarrer	Pfarrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
 14	in	in	ADP	APPR	_	15	case	_	_
 15	Wolfen	Wolfen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	NamedEntity=Yes
 16	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-17	Sachsen	Sachsen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No|NamedEntity=Yes
+17	Sachsen	Sachsen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	NamedEntity=Yes|SpaceAfter=No
 18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-19	Anhalt	Anhalt	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	17	flat	_	SpaceAfter=No|NamedEntity=Yes
+19	Anhalt	Anhalt	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	17	flat	_	NamedEntity=Yes|SpaceAfter=No
 20	)	)	PUNCT	$(	_	17	punct	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
 22	Mitglied	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
@@ -10104,7 +10104,7 @@
 27	Evangelischen	evangelisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Plur	28	amod	_	NamedEntity=Yes
 28	Kirchen	Kirche	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	NamedEntity=Yes
 29	in	in	ADP	APPR	_	30	case	_	_
-30	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|NamedEntity=Yes
+30	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	NamedEntity=Yes|SpaceAfter=No
 31	,	,	PUNCT	$,	_	10	punct	_	_
 32	nicht	nicht	PART	PTKNEG	Polarity=Neg	33	advmod	_	_
 33	verkneifen	verkneifen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -10127,9 +10127,9 @@
 12	für	für	ADP	APPR	_	23	case	_	_
 13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 14	von	von	ADP	APPR	_	15	case	_	_
-15	Christdemokraten	Christdemokrat	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No|NamedEntity=Yes
+15	Christdemokraten	Christdemokrat	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	17	punct	_	_
-17	Sozialisten	Sozialist	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No|NamedEntity=Yes
+17	Sozialisten	Sozialist	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	NamedEntity=Yes|SpaceAfter=No
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	Sozialdemokraten	Sozialdemokrat	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	NamedEntity=Yes
 20	und	und	CCONJ	KON	_	21	cc	_	_
@@ -10141,7 +10141,7 @@
 
 # sent_id = test-s514
 # text = Sagen Sie, daß Sie sich das nicht mehr gefallen lassen'', ruft er den Frauen und Männern zu.
-1	Sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	FixTigerDep=Yes
+1	Sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
 2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	daß	daß	SCONJ	KOUS	_	11	mark	_	_
@@ -10174,7 +10174,7 @@
 
 # sent_id = test-s516
 # text = (Siehe auch Seiten 2 und 3)
-1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Siehe	sehen	VERB	VVIMP	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	auch	auch	ADV	ADV	_	2	advmod	_	_
 4	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
@@ -10185,7 +10185,7 @@
 
 # sent_id = test-s517
 # text = ``So sicher sind wir uns heute nicht mehr'', sagt Braun.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	So	so	ADV	ADV	_	3	advmod	_	_
 3	sicher	sicher	ADJ	ADJD	Degree=Pos	12	ccomp	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -10197,7 +10197,7 @@
 10	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	3	punct	_	_
 12	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	Braun	Braun	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+13	Braun	Braun	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 14	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = test-s518
@@ -10253,7 +10253,7 @@
 # sent_id = test-s520
 # text = Die SPD-Abgeordneten Otto Schily und Friedhelm Julius Beucher nannten die Antworten ``lückenhaft und ausweichend''.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Abgeordneten	abgeordnet	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 5	Otto	Otto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
@@ -10282,7 +10282,7 @@
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	auch	auch	ADV	ADV	_	9	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
-9	Schwerin	Schwerin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|NamedEntity=Yes
+9	Schwerin	Schwerin	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 12	in	in	ADP	APPR	_	14	case	_	_
@@ -10309,10 +10309,10 @@
 2	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NamedEntity=Yes
 3	unterstütze	unterstützen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-5	China	China	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	China	China	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-8	Kohls	Kohl	PROPN	NE	Case=Gen|Number=Sing	5	nmod	_	SpaceAfter=No|NamedEntity=Yes
+8	Kohls	Kohl	PROPN	NE	Case=Gen|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
 9	,	,	PUNCT	$,	_	14	punct	_	_
 10	weil	weil	SCONJ	KOUS	_	14	mark	_	_
 11	dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
@@ -10371,11 +10371,11 @@
 8	führenden	führend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Industrienationen	Industrienation	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
-11	G7	G7	PROPN	NE	Case=Nom|Gender=Fem|Number=Plur	9	appos	_	SpaceAfter=No|NamedEntity=Yes
+11	G7	G7	PROPN	NE	Case=Nom|Gender=Fem|Number=Plur	9	appos	_	NamedEntity=Yes|SpaceAfter=No
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-15	EG	EG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No|NamedEntity=Yes
+15	EG	EG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	NamedEntity=Yes|SpaceAfter=No
 16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
 17	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
 18	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
@@ -10388,7 +10388,7 @@
 25	für	für	ADP	APPR	_	30	case	_	_
 26	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 27	ehemaligen	ehemalig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	30	amod	_	_
-28	Ostblock	Ostblock	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	30	compound	_	SpaceAfter=No|NamedEntity=Yes
+28	Ostblock	Ostblock	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	30	compound	_	NamedEntity=Yes|SpaceAfter=No
 29	-	-	PUNCT	$(	_	28	punct	_	SpaceAfter=No
 30	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	nmod	_	_
 31	erörtern	erörtern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -10452,7 +10452,7 @@
 8	Unabhängiger	unabhängig	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Plur	7	amod	_	NamedEntity=Yes
 9	Staaten	Staat	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	7	flat	_	NamedEntity=Yes
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
-11	GUS	GUS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No|NamedEntity=Yes
+11	GUS	GUS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	7	appos	_	NamedEntity=Yes|SpaceAfter=No
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	müßten	müssen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 14	zwar	zwar	ADV	ADV	_	15	advmod	_	_
@@ -10471,7 +10471,7 @@
 27	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 28	Jelzin	Jelzin	PROPN	NE	Case=Nom|Number=Sing	27	nsubj	_	NamedEntity=Yes
 29	in	in	ADP	APPR	_	30	case	_	_
-30	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No|NamedEntity=Yes
+30	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	NamedEntity=Yes|SpaceAfter=No
 31	.	.	PUNCT	$.	_	27	punct	_	_
 
 # sent_id = test-s527
@@ -10480,7 +10480,7 @@
 2	Statistik	Statistik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	erfaßt	erfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	25	punct	_	_
-5	wieviele	wieviele	PRON	PWAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	6	amod	_	_
+5	wieviele	wieviel	DET	PWAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	6	det	_	_
 6	Anhänger	Anhänger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
 7	Kwasniewski	Kwasniewski	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	NamedEntity=Yes
 8	und	und	CCONJ	KON	_	9	cc	_	_
@@ -10517,15 +10517,15 @@
 
 # sent_id = test-s529
 # text = Auch Stuart Card vom Xerox-Parc-Institut glaubt an die Neulinge:
-1	Auch	auch	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	Stuart	Stuart	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NamedEntity=Yes
 3	Card	Card	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4-5	vom	_	_	_	_	_	_	_	_
 4	von	von	ADP	APPR	_	10	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-6	Xerox	Xerox	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|NamedEntity=Yes
+6	Xerox	Xerox	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-8	Parc	Parc	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	Parc	Parc	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Institut	Institut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
 11	glaubt	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10539,7 +10539,7 @@
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Student	Student	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	parataxis	_	_
 3	aus	aus	ADP	APPR	_	4	case	_	_
-4	Sofia	Sofia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
+4	Sofia	Sofia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	$,	_	12	punct	_	_
 6	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -10592,7 +10592,7 @@
 7	an	an	ADP	APPR	_	9	case	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Strände	Strand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
-10	Mecklenburg	Mecklenburg	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|NamedEntity=Yes
+10	Mecklenburg	Mecklenburg	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	NamedEntity=Yes|SpaceAfter=No
 11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
 12	Vorpommerns	Vorpommern	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	flat	_	NamedEntity=Yes
 13	scharfe	scharf	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
@@ -10698,10 +10698,10 @@
 40	von	von	ADP	APPR	_	42	case	_	_
 41	Staatschef	Staatschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	42	compound	_	_
 42	Sani	Sani	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	NamedEntity=Yes
-43	Abacha	Abacha	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	42	flat	_	SpaceAfter=No|NamedEntity=Yes
+43	Abacha	Abacha	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	42	flat	_	NamedEntity=Yes|SpaceAfter=No
 44	,	,	PUNCT	$,	_	45	punct	_	_
 45	Hawalu	Hawalu	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	42	appos	_	NamedEntity=Yes
-46	Yadudu	Yadudu	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	45	flat	_	SpaceAfter=No|NamedEntity=Yes
+46	Yadudu	Yadudu	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	45	flat	_	NamedEntity=Yes|SpaceAfter=No
 47	,	,	PUNCT	$,	_	49	punct	_	_
 48	nach	nach	ADP	APPR	_	49	case	_	_
 49	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	36	obl	_	_
@@ -10713,12 +10713,12 @@
 54	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	36	obl	_	NamedEntity=Yes
 56	in	in	ADP	APPR	_	57	case	_	_
-57	Abuja	Abuja	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No|NamedEntity=Yes
+57	Abuja	Abuja	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	36	obl	_	NamedEntity=Yes|SpaceAfter=No
 58	.	.	PUNCT	$.	_	36	punct	_	_
 
 # sent_id = test-s536
 # text = ``Unabdingbare Voraussetzung'', heißt es in dem Bericht, sei ein hohes Maß an dauerhafter Konvergenz der gesamtwirtschaftlichen Leistung dieser Staaten.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Unabdingbare	unabdingbar	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	Voraussetzung	Voraussetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
@@ -10781,7 +10781,7 @@
 # sent_id = test-s539
 # text = Der US-Handelsbeauftragte Mickey Kantor äußerte sich über das bisherige Ergebnis zufrieden:
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Handelsbeauftragte	Handelsbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 5	Mickey	Mickey	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
@@ -10798,7 +10798,7 @@
 # sent_id = test-s540
 # text = Die USA, die Staaten der Europäischen Union sowie Norwegen und die Schweiz beriefen ihre Botschafter aus Nigeria ab.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
-2	USA	USA	PROPN	NE	Case=Nom|Number=Plur	14	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+2	USA	USA	PROPN	NE	Case=Nom|Number=Plur	14	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
@@ -10896,7 +10896,7 @@
 5	Korrespondentin	Korrespondentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 7	deutschen	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
-8	ARD	ARD	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	ARD	ARD	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Fernsehens	Fernsehen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
@@ -10926,7 +10926,7 @@
 8	fast	fast	ADV	ADV	_	9	advmod	_	_
 9	20	20	NUM	CARD	NumType=Card	10	nummod	_	_
 10	Prozent	Prozent	NOUN	NN	Gender=Neut	2	nmod	_	_
-11	Griechenland	Griechenland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+11	Griechenland	Griechenland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s547
@@ -11036,7 +11036,7 @@
 21	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 22	unverletzt	unverletzt	ADJ	ADJD	Degree=Pos	23	xcomp	_	_
 23	gebliebene	geblieben	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
-24	Jones	Jones	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+24	Jones	Jones	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 25	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = test-s552
@@ -11125,9 +11125,9 @@
 
 # sent_id = test-s556
 # text = Und während DRV-Präsident Gerd Hesselmann noch auf die Unvergleichbarkeit touristischer Leistungen verweist, fordern andere Branchenvertreter bereits eine CD-ROM, mit der sich die Preise der verschiedenen Veranstalter vergleichen lassen.
-1	Und	und	CCONJ	KON	_	16	cc	_	FixTigerDep=Yes
+1	Und	und	CCONJ	KON	_	16	cc	_	_
 2	während	während	SCONJ	KOUS	_	14	mark	_	_
-3	DRV	DRV	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No|NamedEntity=Yes
+3	DRV	DRV	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	NamedEntity=Yes|SpaceAfter=No
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 5	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 6	Gerd	Gerd	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	NamedEntity=Yes
@@ -11178,7 +11178,7 @@
 
 # sent_id = test-s558
 # text = Immer wenn es Druck gab, hat das Theater auch Gegendruck entwickelt und ist zu sich selbst gekommen.
-1	Immer	immer	ADV	ADV	_	12	advmod	_	FixTigerDep=Yes
+1	Immer	immer	ADV	ADV	_	12	advmod	_	_
 2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -11200,7 +11200,7 @@
 
 # sent_id = test-s559
 # text = ``Wenn es so weit kommt, wird Rußland auch ohne die 24 Milliarden Dollar des Westens auskommen''.
-1	``	``	PUNCT	$(	_	18	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	18	punct	_	SpaceAfter=No
 2	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
@@ -11223,7 +11223,7 @@
 
 # sent_id = test-s560
 # text = ``Wer in Arbeitsgruppen arbeitet, kann das auch noch zwei Tage vorher mit seinen Kollegen abmachen'', sagte Personalchef Bernd Richter dazu.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Arbeitsgruppen	Arbeitsgruppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
@@ -11295,7 +11295,7 @@
 25	''	''	PUNCT	$(	_	16	punct	_	_
 26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	Universität	Universität	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-28	Bielefeld	Bielefeld	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No|NamedEntity=Yes
+28	Bielefeld	Bielefeld	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	27	nmod	_	NamedEntity=Yes|SpaceAfter=No
 29	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s563
@@ -11320,7 +11320,7 @@
 
 # sent_id = test-s564
 # text = ``Wir haben alle Formulierungen vermieden, die irgendein Gesetz in Kuba verletzen könnten'', erklärt mit milder Stimme Castellanos, ``und das hat uns dennoch nicht vor dem Rausschmiß bewahrt.''
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
@@ -11340,7 +11340,7 @@
 18	mit	mit	ADP	APPR	_	20	case	_	_
 19	milder	mild	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	Stimme	Stimme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
-21	Castellanos	Castellanos	PROPN	NE	Case=Nom|Number=Sing	17	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+21	Castellanos	Castellanos	PROPN	NE	Case=Nom|Number=Sing	17	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	33	punct	_	_
 23	``	``	PUNCT	$(	_	33	punct	_	SpaceAfter=No
 24	und	und	CCONJ	KON	_	33	cc	_	_
@@ -11358,7 +11358,7 @@
 
 # sent_id = test-s565
 # text = ``Wir haben die faulste Regierung und den faulsten Ministerpräsidenten der Republik'', monierte Müller.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -11373,12 +11373,12 @@
 13	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	3	punct	_	_
 15	monierte	monieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-16	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	15	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+16	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	15	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 17	.	.	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = test-s566
 # text = ``Wir in der Wirtschaft lernen von eurer Erniedrigung und von euren Skandalen, daß wir noch mehr die Öffentlichkeit meiden müssen.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -11404,19 +11404,19 @@
 
 # sent_id = test-s567
 # text = ``Wir lieben uns'', versichert McCartney.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 4	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
 5	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	3	punct	_	_
 7	versichert	versichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	McCartney	McCartney	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+8	McCartney	McCartney	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 9	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = test-s568
 # text = ``Wir müssen'', so die 40jährige zur FR, ``Symbole auch hinterfragen können.''
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
 4	''	''	PUNCT	$(	_	16	punct	_	SpaceAfter=No
@@ -11427,7 +11427,7 @@
 9-10	zur	_	_	_	_	_	_	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	FR	FR	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|NamedEntity=Yes
+11	FR	FR	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	NamedEntity=Yes|SpaceAfter=No
 12	,	,	PUNCT	$,	_	8	punct	_	_
 13	``	``	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 14	Symbole	Symbol	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
@@ -11439,7 +11439,7 @@
 
 # sent_id = test-s569
 # text = ``Wir säubern das Terrain für 1996'', sagt Stark.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	säubern	säubern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -11449,12 +11449,12 @@
 8	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	3	punct	_	_
 10	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	Stark	Stark	PROPN	NE	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+11	Stark	Stark	PROPN	NE	Case=Nom|Number=Sing	10	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 12	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = test-s570
 # text = ``Wir sind die grünen Lotsen auf einem Containerschiff.''
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -11468,7 +11468,7 @@
 
 # sent_id = test-s571
 # text = ``Wir wollen noch mehr'', betont Omicevic.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 4	noch	noch	ADV	ADV	_	5	advmod	_	_
@@ -11476,7 +11476,7 @@
 6	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	3	punct	_	_
 8	betont	betonen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	Omicevic	Omicevic	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+9	Omicevic	Omicevic	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = test-s572
@@ -11500,7 +11500,7 @@
 16	würden	werden	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	acl	_	_
 17	und	und	CCONJ	KON	_	22	cc	_	_
 18	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
-19	EU	EU	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	21	compound	_	SpaceAfter=No|NamedEntity=Yes
+19	EU	EU	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	21	compound	_	NamedEntity=Yes|SpaceAfter=No
 20	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 21	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	22	obj	_	_
 22	begünstigten	begünstigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
@@ -11547,7 +11547,7 @@
 
 # sent_id = test-s574
 # text = (Wo sie fehlen, sagt man, täten es in diesem Fall auch mal Repliken.)
-1	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 2	Wo	wo	ADV	PWAV	PronType=Int	4	advmod	_	_
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 4	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
@@ -11568,7 +11568,7 @@
 
 # sent_id = test-s575
 # text = ``Wollt ihr den Bruch mit dem System?
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wollt	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -11668,7 +11668,7 @@
 
 # sent_id = test-s580
 # text = ``Zum ersten Mal in der Geschichte einer deutschen Großbank können nicht nur bestimmte Mitarbeitergruppen, sondern alle Arbeitnehmer Optionen erwerben'', lobt sich das Institut.
-1	``	``	PUNCT	$(	_	25	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 2-3	Zum	_	_	_	_	_	_	_	_
 2	Zu	zu	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -11820,7 +11820,7 @@
 10	Einzugsbereich	Einzugsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
 11	zählende	zählend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 12	Revier	Revier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-13	Bernau	Bernau	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	SpaceAfter=No|NamedEntity=Yes
+13	Bernau	Bernau	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	$,	_	18	punct	_	_
 15	wo	wo	ADV	PWAV	PronType=Int	18	mark	_	_
 16	Beamte	Beamte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
@@ -11928,7 +11928,7 @@
 8	--	--	PUNCT	$(	_	9	punct	_	_
 9	Freiheitspartei	Freiheitspartei	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	NamedEntity=Yes
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
-11	IFP	IFP	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No|NamedEntity=Yes
+11	IFP	IFP	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	appos	_	NamedEntity=Yes|SpaceAfter=No
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 14	seit	seit	ADP	APPR	_	15	case	_	_
@@ -11997,7 +11997,7 @@
 25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Demokraten	Demokrat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	conj	_	_
 27	Bill	Bill	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	26	appos	_	NamedEntity=Yes
-28	Clinton	Clinton	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	27	flat	_	SpaceAfter=No|NamedEntity=Yes
+28	Clinton	Clinton	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	27	flat	_	NamedEntity=Yes|SpaceAfter=No
 29	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s592
@@ -12061,7 +12061,7 @@
 20	quer	qu	ADV	ADJD	_	23	advmod	_	_
 21	durch	durch	ADP	APPR	_	23	case	_	_
 22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
-23	Ogoniland	Ogoniland	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|NamedEntity=Yes
+23	Ogoniland	Ogoniland	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	NamedEntity=Yes|SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s595
@@ -12260,7 +12260,7 @@
 5	Verwaltung	Verwaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	7	punct	_	_
 7	Yassir	Yassir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-8	Arafat	Arafat	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No|NamedEntity=Yes
+8	Arafat	Arafat	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	NamedEntity=Yes|SpaceAfter=No
 9	,	,	PUNCT	$,	_	2	punct	_	_
 10	wolle	wollen	VERB	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	25	punct	_	_
@@ -12271,7 +12271,7 @@
 16-17	im	_	_	_	_	_	_	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Gaza	Gaza	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|NamedEntity=Yes
+18	Gaza	Gaza	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	NamedEntity=Yes|SpaceAfter=No
 19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 20	Streifen	Streifen	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	18	flat	_	NamedEntity=Yes
 21	geplanten	geplant	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
@@ -12386,7 +12386,7 @@
 
 # sent_id = test-s612
 # text = Auch Japan ist dort erst erschienen, nachdem Kohl persönlich in Tokio darum gebeten hatte.
-1	Auch	auch	ADV	ADV	_	2	dep	_	FixTigerDep=Yes
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	Japan	Japan	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	NamedEntity=Yes
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	dort	dort	ADV	ADV	_	6	advmod	_	_
@@ -12450,7 +12450,7 @@
 
 # sent_id = test-s615
 # text = ``Wir in der Wirtschaft lernen von eurer Erniedrigung und von euren Skandalen, daß wir noch mehr die Öffentlichkeit meiden müssen.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -12476,7 +12476,7 @@
 
 # sent_id = test-s616
 # text = ``Diese Art von humanitärer Hilfe wird hier nicht gebraucht.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -12490,7 +12490,7 @@
 
 # sent_id = test-s617
 # text = ``Dies ist der bestmögliche Kompromiß'', sagte Gratschow am Samstag in Moskau.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -12505,12 +12505,12 @@
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	NamedEntity=Yes
 14	in	in	ADP	APPR	_	15	case	_	_
-15	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|NamedEntity=Yes
+15	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	NamedEntity=Yes|SpaceAfter=No
 16	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s618
 # text = ``Das Kartellamt ist grundsätzlich reaktiv'', argumentiert SPD-Experte Börnsen.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Kartellamt	Kartellamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -12519,10 +12519,10 @@
 7	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	argumentiert	argumentieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	SpaceAfter=No|NamedEntity=Yes
+10	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	compound	_	NamedEntity=Yes|SpaceAfter=No
 11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 12	Experte	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-13	Börnsen	Börnsen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No|NamedEntity=Yes
+13	Börnsen	Börnsen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	NamedEntity=Yes|SpaceAfter=No
 14	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s619
@@ -12541,7 +12541,7 @@
 
 # sent_id = test-s620
 # text = ``Die haben noch nicht unsere Neurose, sich immer streng unter Kontrolle haben zu müssen'', befindet der Lachspezialist.
-1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
+1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	3	nsubj	_	_
 3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
 4	noch	noch	ADV	ADV	_	5	advmod	_	_
@@ -12863,7 +12863,7 @@
 14	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	durch	durch	ADP	APPR	_	19	case	_	_
 16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-17	EG	EG	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No|NamedEntity=Yes
+17	EG	EG	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	19	compound	_	NamedEntity=Yes|SpaceAfter=No
 18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 19	Binnenmarkt	Binnenmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 20	noch	noch	ADV	ADV	_	21	advmod	_	_
@@ -12889,7 +12889,7 @@
 15	,	,	PUNCT	$,	_	8	punct	_	_
 16	ärgert	ärgern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
-18	Pahlke	Pahlke	PROPN	NE	Case=Nom|Number=Sing	16	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+18	Pahlke	Pahlke	PROPN	NE	Case=Nom|Number=Sing	16	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 19	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = test-s637
@@ -13015,7 +13015,7 @@
 
 # sent_id = test-s642
 # text = Heitmeyer: Wir müssen unterscheiden zwischen eher offenen physischen Gewaltformen, die sich über männlich dominierte Gruppen in der Öffentlichkeit zeigen, und solchen, eher psychischen Gewaltformen, die als Einzelaktivität eher mit einem hohen Bildungsgrad verbunden sind.
-1	Heitmeyer	Heitmeyer	PROPN	NE	Case=Nom|Number=Sing	5	parataxis	_	SpaceAfter=No|NamedEntity=Yes
+1	Heitmeyer	Heitmeyer	PROPN	NE	Case=Nom|Number=Sing	5	parataxis	_	NamedEntity=Yes|SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
 3	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -13171,7 +13171,7 @@
 16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Politik	Politik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 18	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	Frage	fragen	VERB	VVINF	Typo=Yes|VerbForm=Inf	4	ccomp	_	SpaceAfter=No|CorrectForm=fragen
+19	Frage	fragen	VERB	VVINF	Typo=Yes|VerbForm=Inf	4	ccomp	_	CorrectForm=fragen|SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s648
@@ -13436,7 +13436,7 @@
 6	diesem	dieser	DET	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
 7	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	Andreas	Andreas	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NamedEntity=Yes
-9	Andrianopoulos	Andrianopoulos	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
+9	Andrianopoulos	Andrianopoulos	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	13	punct	_	_
 11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	griechische	griechisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
@@ -13576,7 +13576,7 @@
 # sent_id = test-s663
 # text = Chris Patten, der als Parteivorsitzender maßgeblich am Wahlsieg der britischen ``Tories'' im April dieses Jahres beteiligt war, gilt als erfahrener Politiker.
 1	Chris	Chris	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	NamedEntity=Yes
-2	Patten	Patten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+2	Patten	Patten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	21	punct	_	_
 4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 5	als	als	ADP	APPR	_	6	case	_	_
@@ -13788,7 +13788,7 @@
 # text = RIO DE JANEIRO, 5. Juli (dpa).
 1	RIO	Rio	PROPN	NE	_	0	root	_	NamedEntity=Yes
 2	DE	de	PROPN	NE	_	1	flat	_	NamedEntity=Yes
-3	JANEIRO	Janeiro	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+3	JANEIRO	Janeiro	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
 6	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
@@ -13854,7 +13854,7 @@
 8	Unterstützung	Unterstützung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
 9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Reformpolitik	Reformpolitik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
-11	Jelzins	Jelzin	PROPN	NE	Case=Gen|Number=Sing	10	nmod	_	SpaceAfter=No|NamedEntity=Yes
+11	Jelzins	Jelzin	PROPN	NE	Case=Gen|Number=Sing	10	nmod	_	NamedEntity=Yes|SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s675
@@ -13893,7 +13893,7 @@
 7	Vereinigung	Vereinigung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	9	punct	_	_
 9	Dov	Dov	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-10	Lautman	Lautman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|NamedEntity=Yes
+10	Lautman	Lautman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	2	punct	_	_
 12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 13	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
@@ -13915,18 +13915,18 @@
 
 # sent_id = test-s677
 # text = BEIRUT, 5. Juli (AP).
-1	BEIRUT	Beirut	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	BEIRUT	Beirut	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s678
 # text = ALGIER, 5. Juli (AP / AFP / Reuter).
-1	ALGIER	Algier	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	ALGIER	Algier	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
@@ -13935,18 +13935,18 @@
 7	/	/	PUNCT	$(	_	8	punct	_	_
 8	AFP	AFP	PROPN	NE	Case=Nom|Number=Sing	6	conj	_	NamedEntity=Yes
 9	/	/	PUNCT	$(	_	10	punct	_	_
-10	Reuter	Reuter	PROPN	NE	Case=Nom|Number=Sing	6	conj	_	SpaceAfter=No|NamedEntity=Yes
+10	Reuter	Reuter	PROPN	NE	Case=Nom|Number=Sing	6	conj	_	NamedEntity=Yes|SpaceAfter=No
 11	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s679
 # text = BERLIN, 5. Juli (AP).
-1	BERLIN	Berlin	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	BERLIN	Berlin	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -13976,7 +13976,7 @@
 
 # sent_id = test-s681
 # text = Ifo: Konjunktur springt in Westeuropa 1993 an
-1	Ifo	Ifo	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	Ifo	Ifo	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	:	:	PUNCT	$.	_	4	punct	_	_
 3	Konjunktur	Konjunktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	springt	springen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
@@ -13991,7 +13991,7 @@
 2	(	(	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 3	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes
 4	/	/	PUNCT	$(	_	5	punct	_	_
-5	vwd	vwd	PROPN	NE	Case=Nom|Number=Sing	3	conj	_	SpaceAfter=No|NamedEntity=Yes
+5	vwd	vwd	PROPN	NE	Case=Nom|Number=Sing	3	conj	_	NamedEntity=Yes|SpaceAfter=No
 6	)	)	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -14001,10 +14001,10 @@
 2	Führer	Führer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Rebellenbewegung	Rebellenbewegung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-5	Renamo	Renamo	PROPN	NE	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No|NamedEntity=Yes
+5	Renamo	Renamo	PROPN	NE	Case=Nom|Number=Sing	4	appos	_	NamedEntity=Yes|SpaceAfter=No
 6	,	,	PUNCT	$,	_	7	punct	_	_
 7	Afonso	Afonso	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-8	Dhlakama	Dhlakama	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No|NamedEntity=Yes
+8	Dhlakama	Dhlakama	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	NamedEntity=Yes|SpaceAfter=No
 9	,	,	PUNCT	$,	_	2	punct	_	_
 10	erklärte	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
@@ -14031,7 +14031,7 @@
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Verkauf	Verkauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 8	von	von	ADP	APPR	_	11	case	_	_
-9	Hafnia	Hafnia	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	SpaceAfter=No|NamedEntity=Yes
+9	Hafnia	Hafnia	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	11	compound	_	NamedEntity=Yes|SpaceAfter=No
 10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 11	Aktien	Aktie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
 12	an	an	ADP	APPR	_	15	case	_	_
@@ -14086,7 +14086,7 @@
 15-16	am	_	_	_	_	_	_	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|NamedEntity=Yes
+17	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = test-s687
@@ -14108,7 +14108,7 @@
 1	Als	als	ADP	APPR	_	2	case	_	_
 2	Reiseziel	Reiseziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
-4	Nord	Nord	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	SpaceAfter=No|NamedEntity=Yes
+4	Nord	Nord	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	NamedEntity=Yes|SpaceAfter=No
 5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	Korea	Korea	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	flat	_	NamedEntity=Yes
 7	genannt	nennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -14116,12 +14116,12 @@
 
 # sent_id = test-s689
 # text = TOKIO, 5. Juli (AFP).
-1	TOKIO	Tokio	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	TOKIO	Tokio	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	AFP	AFP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	AFP	AFP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -14200,7 +14200,7 @@
 6	Oxforder	Oxforder	ADJ	ADJA	Case=Dat|Degree=Pos	7	amod	_	_
 7	Historiker	Historiker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl:agent	_	_
 8	Norman	Norman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
-9	Stone	Stone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
+9	Stone	Stone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes|SpaceAfter=No
 10	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s694
@@ -14224,7 +14224,7 @@
 16	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	21	det	_	_
 17	schwer	schwer	ADV	ADJD	_	18	advmod	_	_
 18	bewaffneten	bewaffnet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
-19	Mudjaheddin	Mudjaheddin	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	21	compound	_	SpaceAfter=No|NamedEntity=Yes
+19	Mudjaheddin	Mudjaheddin	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	21	compound	_	NamedEntity=Yes|SpaceAfter=No
 20	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 21	Kämpfer	Kämpfer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 22	aus	aus	ADP	APPR	_	23	case	_	_
@@ -14251,7 +14251,7 @@
 14	Europäischen	europäisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 15	Währungssystems	Währungssystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
 16	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-17	EWS	EWS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No|NamedEntity=Yes
+17	EWS	EWS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	NamedEntity=Yes|SpaceAfter=No
 18	)	)	PUNCT	$(	_	17	punct	_	_
 19	geführt	führen	VERB	VVPP	VerbForm=Part	0	root	_	_
 20	und	und	CCONJ	KON	_	22	cc	_	_
@@ -14360,7 +14360,7 @@
 14	,	,	PUNCT	$,	_	2	punct	_	_
 15	befand	befinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	Rauf	Rauf	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	NamedEntity=Yes
-17	Denktasch	Denktasch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No|NamedEntity=Yes
+17	Denktasch	Denktasch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	NamedEntity=Yes|SpaceAfter=No
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -14370,7 +14370,7 @@
 23	in	in	ADP	APPR	_	25	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	_
-26	Zyperns	Zypern	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No|NamedEntity=Yes
+26	Zyperns	Zypern	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	NamedEntity=Yes|SpaceAfter=No
 27	.	.	PUNCT	$.	_	15	punct	_	_
 
 # sent_id = test-s702
@@ -14384,7 +14384,7 @@
 7	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Türkischen	türkisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	Republik	Republik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-10	Nordzypern	Nordzypern	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No|NamedEntity=Yes
+10	Nordzypern	Nordzypern	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	NamedEntity=Yes|SpaceAfter=No
 11	''	''	PUNCT	$(	_	2	punct	_	_
 12	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	nun	nun	ADV	ADV	_	15	advmod	_	_
@@ -14399,7 +14399,7 @@
 22	teils	teils	ADV	ADV	_	25	advmod	_	_
 23	von	von	ADP	APPR	_	25	case	_	_
 24	türkischen	türkisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_
-25	Zyprioten	Zypriot	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No|NamedEntity=Yes
+25	Zyprioten	Zypriot	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	33	nmod	_	NamedEntity=Yes|SpaceAfter=No
 26	,	,	PUNCT	$,	_	25	punct	_	_
 27	teils	teils	ADV	ADV	_	32	advmod	_	_
 28	von	von	ADP	APPR	_	32	case	_	_
@@ -14525,18 +14525,18 @@
 8	Helmut	Helmut	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 9	Kohl	Kohl	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
 10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
-11	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No|NamedEntity=Yes
+11	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	NamedEntity=Yes|SpaceAfter=No
 12	)	)	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s710
 # text = PEKING, 5. Juli (AFP).
-1	PEKING	Peking	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	PEKING	Peking	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	AFP	AFP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	AFP	AFP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -14553,7 +14553,7 @@
 2	Stimmung	Stimmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 3	auf	auf	ADP	APPR	_	7	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-5	Mifa	Mifa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	Mifa	Mifa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Gelände	Gelände	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -14613,10 +14613,10 @@
 
 # sent_id = test-s716
 # text = BONN, 5. Juli.
-1	BONN	Bonn	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	BONN	Bonn	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 5	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s717
@@ -14688,7 +14688,7 @@
 18	Institutionen	Institution	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
 19	Gatt	Gatt	NOUN	NE	Case=Nom|Number=Sing	18	appos	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	21	punct	_	_
-21	Weltbank	Weltbank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No|NamedEntity=Yes
+21	Weltbank	Weltbank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	23	punct	_	_
 23	IWF	IWF	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	NamedEntity=Yes
 24	und	und	CCONJ	KON	_	26	cc	_	_
@@ -14719,7 +14719,7 @@
 2	in	in	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Westen	Westen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
-5	Bosnien	Bosnien	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|NamedEntity=Yes
+5	Bosnien	Bosnien	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 7	Herzegowinas	Herzegowina	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	5	flat	_	NamedEntity=Yes
 8	dauerten	dauern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14776,7 +14776,7 @@
 # text = Ein ``Tschernobyl'' droht nach überwiegender Befürchtung selbst der Offiziellen nicht nur im Energiebereich des Ostens, sondern auch in den Finanzbeziehungen und bei der Umgestaltung der untergegangenen Befehlswirtschaft insgesamt.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	3	det	_	_
 2	``	``	PUNCT	$(	_	1	punct	_	SpaceAfter=No
-3	Tschernobyl	Tschernobyl	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+3	Tschernobyl	Tschernobyl	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 4	''	''	PUNCT	$(	_	3	punct	_	_
 5	droht	drohen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	nach	nach	ADP	APPR	_	8	case	_	_
@@ -14821,7 +14821,7 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|NamedEntity=Yes
+9	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	16	punct	_	_
 11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 12	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -14838,7 +14838,7 @@
 23	daß	daß	SCONJ	KOUS	_	34	mark	_	_
 24	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
 25	aus	aus	ADP	APPR	_	26	case	_	_
-26	Kroatien	Kroatien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|NamedEntity=Yes
+26	Kroatien	Kroatien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	NamedEntity=Yes|SpaceAfter=No
 27	,	,	PUNCT	$,	_	28	punct	_	_
 28	Slowenien	Slowenien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	26	conj	_	NamedEntity=Yes
 29	und	und	CCONJ	KON	_	30	cc	_	_
@@ -14850,7 +14850,7 @@
 35	,	,	PUNCT	$,	_	45	punct	_	_
 36	Flüchtlinge	Flüchtling	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	_
 37	aus	aus	ADP	APPR	_	38	case	_	_
-38	Bosnien	Bosnien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No|NamedEntity=Yes
+38	Bosnien	Bosnien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	36	nmod	_	NamedEntity=Yes|SpaceAfter=No
 39	-	-	PUNCT	$(	_	40	punct	_	SpaceAfter=No
 40	Herzegowina	Herzegowina	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	38	flat	_	NamedEntity=Yes
 41	jedoch	jedoch	SCONJ	ADV	_	45	mark	_	_
@@ -14867,7 +14867,7 @@
 2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	expl:pv	_	_
 3	Mitglieder	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
 4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-5	UN	UN	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	UN	UN	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Truppen	Truppe	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 8	vor	vor	ADP	APPR	_	9	case	_	_
@@ -14899,7 +14899,7 @@
 # text = SARAJEWO / HELSINKI, 6. Juli (AP / dpa / Reuter / AFP).
 1	SARAJEWO	Sarajewo	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes
 2	/	/	PUNCT	$(	_	3	punct	_	_
-3	HELSINKI	Helsinki	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No|NamedEntity=Yes
+3	HELSINKI	Helsinki	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
 6	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
@@ -14910,7 +14910,7 @@
 11	/	/	PUNCT	$(	_	12	punct	_	_
 12	Reuter	Reuter	PROPN	NE	Case=Nom|Number=Sing	8	conj	_	NamedEntity=Yes
 13	/	/	PUNCT	$(	_	14	punct	_	_
-14	AFP	afp	PROPN	NE	Case=Nom|Number=Sing	8	conj	_	SpaceAfter=No|NamedEntity=Yes
+14	AFP	afp	PROPN	NE	Case=Nom|Number=Sing	8	conj	_	NamedEntity=Yes|SpaceAfter=No
 15	)	)	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -14974,18 +14974,18 @@
 # text = Kämpfe in GUS-Republiken
 1	Kämpfe	Kampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
-3	GUS	GUS	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	5	compound	_	SpaceAfter=No|NamedEntity=Yes
+3	GUS	GUS	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	5	compound	_	NamedEntity=Yes|SpaceAfter=No
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 5	Republiken	Republik	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	_
 
 # sent_id = test-s731
 # text = BRÜSSEL, 6. Juli (dpa).
-1	BRÜSSEL	Brüssel	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	BRÜSSEL	Brüssel	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -14993,10 +14993,10 @@
 # text = Der Präsident Aserbaidschans, Abulfas Eltschibej, blieb der Versammlung in Moskau fern.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-3	Aserbaidschans	Aserbaidschan	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|NamedEntity=Yes
+3	Aserbaidschans	Aserbaidschan	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	5	punct	_	_
 5	Abulfas	Abulfas	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
-6	Eltschibej	Eltschibej	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
+6	Eltschibej	Eltschibej	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	2	punct	_	_
 8	blieb	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -15207,7 +15207,7 @@
 7	Regierungschef	Regierungschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	9	punct	_	_
 9	Jegor	Jegor	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
-10	Gaidar	Gaidar	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|NamedEntity=Yes
+10	Gaidar	Gaidar	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	_
 13	Unterzeichnung	Unterzeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl:arg	_	_
@@ -15231,7 +15231,7 @@
 4	mehr	mehr	ADV	ADV	_	2	advmod	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Linke	linke	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|NamedEntity=Yes
+7	Linke	linke	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NamedEntity=Yes|SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s742
@@ -15336,11 +15336,11 @@
 18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 19	Verbindungen	Verbindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
 20	zwischen	zwischen	ADP	APPR	_	21	case	_	_
-21	Paris	Paris	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|NamedEntity=Yes
+21	Paris	Paris	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	23	punct	_	_
 23	Marseille	Marseille	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	conj	_	NamedEntity=Yes
 24	und	und	CCONJ	KON	_	25	cc	_	_
-25	Toulouse	Toulouse	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No|NamedEntity=Yes
+25	Toulouse	Toulouse	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	NamedEntity=Yes|SpaceAfter=No
 26	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s747
@@ -15527,13 +15527,13 @@
 10	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
 12	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
-13	KMK	KMK	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No|NamedEntity=Yes
+13	KMK	KMK	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	9	appos	_	NamedEntity=Yes|SpaceAfter=No
 14	)	)	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	16	punct	_	_
 16	Diether	Diether	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
 17	Breitenbach	Breitenbach	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	NamedEntity=Yes
 18	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-19	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No|NamedEntity=Yes
+19	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	NamedEntity=Yes|SpaceAfter=No
 20	)	)	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	25	punct	_	_
 22	mit	mit	ADP	APPR	_	25	case	_	_
@@ -15564,9 +15564,9 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Zentralbanken	Zentralbank	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
 9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	USA	USA	PROPN	NE	Case=Gen|Number=Plur	8	nmod	_	SpaceAfter=No|NamedEntity=Yes
+10	USA	USA	PROPN	NE	Case=Gen|Number=Plur	8	nmod	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	12	punct	_	_
-12	Kanadas	Kanada	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|NamedEntity=Yes
+12	Kanadas	Kanada	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	NamedEntity=Yes|SpaceAfter=No
 13	,	,	PUNCT	$,	_	14	punct	_	_
 14	Japans	Japan	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	NamedEntity=Yes
 15	und	und	CCONJ	KON	_	18	cc	_	_
@@ -15575,7 +15575,7 @@
 18	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	21	punct	_	_
 20	darunter	darunter	ADV	PAV	_	21	advmod	_	_
-21	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|NamedEntity=Yes
+21	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	18	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	6	punct	_	_
 23	vertreten	vertreten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	23	punct	_	_
@@ -15662,9 +15662,9 @@
 10	``	``	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 11	Serbische	serbisch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	NamedEntity=Yes
 12	Republik	Republik	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	11	flat	_	NamedEntity=Yes
-13	Bosnien	Bosnien	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	SpaceAfter=No|NamedEntity=Yes
+13	Bosnien	Bosnien	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
-15	Herzegowina	Herzegowina	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	SpaceAfter=No|NamedEntity=Yes
+15	Herzegowina	Herzegowina	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	NamedEntity=Yes|SpaceAfter=No
 16	''	''	PUNCT	$(	_	11	punct	_	_
 17	ausgerufen	ausrufen	VERB	VVPP	VerbForm=Part	20	advcl	_	_
 18	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
@@ -15705,7 +15705,7 @@
 17	Westeuropäischen	westeuropäisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	NamedEntity=Yes
 18	Union	Union	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	17	flat	_	NamedEntity=Yes
 19	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No
-20	WEU	WEU	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No|NamedEntity=Yes
+20	WEU	WEU	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	17	appos	_	NamedEntity=Yes|SpaceAfter=No
 21	)	)	PUNCT	$(	_	20	punct	_	_
 22	operieren	operieren	VERB	VVINF	VerbForm=Inf	8	parataxis	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	8	punct	_	_
@@ -15743,7 +15743,7 @@
 14	Nixdorf	Nixdorf	PROPN	NE	Case=Nom|Number=Sing	13	flat	_	NamedEntity=Yes
 15	Informationssysteme	Informationssystem	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	13	flat	_	NamedEntity=Yes
 16	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-17	SNI	SNI	PROPN	NE	Case=Nom|Number=Sing	13	appos	_	SpaceAfter=No|NamedEntity=Yes
+17	SNI	SNI	PROPN	NE	Case=Nom|Number=Sing	13	appos	_	NamedEntity=Yes|SpaceAfter=No
 18	)	)	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	4	punct	_	_
 20	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15863,7 +15863,7 @@
 2	Umstand	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	15	punct	_	_
 4	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	obl:arg	_	_
-5	Wüstenrot	Wüstenrot	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	Wüstenrot	Wüstenrot	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Geschäftsführer	Geschäftsführer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 8	Otto	Otto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	NamedEntity=Yes
@@ -15922,7 +15922,7 @@
 30	an	an	ADP	APPR	_	33	case	_	_
 31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
 32	``	``	PUNCT	$(	_	31	punct	_	SpaceAfter=No
-33	Jäger90''	Jäger90''	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No|NamedEntity=Yes
+33	Jäger90''	Jäger90''	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	NamedEntity=Yes|SpaceAfter=No
 34	-	-	PUNCT	$(	_	35	punct	_	SpaceAfter=No
 35	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	33	flat	_	_
 36	zu	zu	PART	PTKZU	_	37	mark	_	_
@@ -16107,7 +16107,7 @@
 15-16	im	_	_	_	_	_	_	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
-17	Rhonetal	Rhonetal	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|NamedEntity=Yes
+17	Rhonetal	Rhonetal	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s786
@@ -16360,7 +16360,7 @@
 18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	Staus	Stau	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
 20	in	in	ADP	APPR	_	21	case	_	_
-21	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|NamedEntity=Yes
+21	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = test-s796
@@ -16383,7 +16383,7 @@
 10	bewohnten	bewohnt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	Südwestteil	Südwestteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
-13	Bosnien	Bosnien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|NamedEntity=Yes
+13	Bosnien	Bosnien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
 15	Herzegowina	Herzegowina	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	NamedEntity=Yes
 16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	18	det	_	_
@@ -16395,7 +16395,7 @@
 # sent_id = test-s798
 # text = Das UN-Team vermutet im Landwirtschaftsministerium Unterlagen über das irakische Waffenbeschaffungsprogramm.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-2	UN	UN	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	UN	UN	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	vermutet	vermuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16622,13 +16622,13 @@
 5	Bauern	Bauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 6	wegen	wegen	ADP	APPR	_	10	case	_	_
 7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-8	EG	EG	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	EG	EG	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Agrarbeschlüsse	Agrarbeschluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
 11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Zugverbindung	Zugverbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 13	nach	nach	ADP	APPR	_	14	case	_	_
-14	Amiens	Amiens	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|NamedEntity=Yes
+14	Amiens	Amiens	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	NamedEntity=Yes|SpaceAfter=No
 15	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s812
@@ -16685,16 +16685,16 @@
 10	Johannes	Johannes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	NamedEntity=Yes
 11	Rau	Rau	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes
 12	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
-13	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|NamedEntity=Yes
+13	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	NamedEntity=Yes|SpaceAfter=No
 14	)	)	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s815
 # text = Thorsten Geißler, CDU-Obmann im Schubladen-Ausschuß des Kieler Landtags, warf der SPD am Wochenende vor, 1987 nur durch Wahlbetrug in Kiel an die Macht gekommen zu sein, und forderte die Staatsanwaltschaft zu Ermittlungen gegen SPD-Politiker wegen Falschaussagen auf.
 1	Thorsten	Thorsten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	NamedEntity=Yes
-2	Geißler	Geißler	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+2	Geißler	Geißler	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	6	punct	_	_
-4	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No|NamedEntity=Yes
+4	CDU	CDU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	NamedEntity=Yes|SpaceAfter=No
 5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 6	Obmann	Obmann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 7-8	im	_	_	_	_	_	_	_	_
@@ -16736,7 +16736,7 @@
 41	zu	zu	ADP	APPR	_	42	case	_	_
 42	Ermittlungen	Ermittlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	38	obl	_	_
 43	gegen	gegen	ADP	APPR	_	46	case	_	_
-44	SPD	SPD	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	46	compound	_	SpaceAfter=No|NamedEntity=Yes
+44	SPD	SPD	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	46	compound	_	NamedEntity=Yes|SpaceAfter=No
 45	-	-	PUNCT	$(	_	44	punct	_	SpaceAfter=No
 46	Politiker	Politiker	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	42	nmod	_	_
 47	wegen	wegen	ADP	APPR	_	48	case	_	_
@@ -16774,12 +16774,12 @@
 # sent_id = test-s820
 # text = DEN HAAG, 5. November (dpa).
 1	DEN	Den	PROPN	NE	_	0	root	_	NamedEntity=Yes
-2	HAAG	Haag	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+2	HAAG	Haag	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	_
 5	November	November	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
-7	dpa	dpa	PROPN	XY	_	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+7	dpa	dpa	PROPN	XY	_	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 8	)	)	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -16861,7 +16861,7 @@
 14	als	als	ADP	APPR	_	15	case	_	_
 15	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	obl	_	_
 16	nach	nach	ADP	APPR	_	17	case	_	_
-17	Palästina	Palästina	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|NamedEntity=Yes
+17	Palästina	Palästina	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = test-s825
@@ -16891,7 +16891,7 @@
 4	pfälzische	pfälzisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
-7	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|NamedEntity=Yes
+7	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	NamedEntity=Yes|SpaceAfter=No
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Landesvorsitzende	Landesvorsitzende	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -17000,7 +17000,7 @@
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Abschaffung	Abschaffung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Mark	Mark	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|NamedEntity=Yes
+13	Mark	Mark	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
 15	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 16	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
@@ -17042,7 +17042,7 @@
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-8	Israels	Israel	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|NamedEntity=Yes
+8	Israels	Israel	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes|SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
 11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	obl	_	_
@@ -17073,10 +17073,10 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 18	in	in	ADP	APPR	_	19	case	_	_
-19	Erfurt	Erfurt	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|NamedEntity=Yes
+19	Erfurt	Erfurt	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
 20	,	,	PUNCT	$,	_	36	punct	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-22	SPD	SPD	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	SpaceAfter=No|NamedEntity=Yes
+22	SPD	SPD	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	24	compound	_	NamedEntity=Yes|SpaceAfter=No
 23	-	-	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 24	Spitze	Spitze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
 25	wolle	wollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
@@ -17185,7 +17185,7 @@
 18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Machtbasis	Machtbasis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	Kaziken	Kazike	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No|NamedEntity=Yes
+21	Kaziken	Kazike	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	24	punct	_	_
 23	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
 24	Art	Art	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	appos	_	_
@@ -17209,7 +17209,7 @@
 # text = Anders Jaime Moreno.
 1	Anders	anders	PROPN	ADV	_	0	root	_	NamedEntity=Yes
 2	Jaime	Jaime	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes
-3	Moreno	Moreno	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+3	Moreno	Moreno	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 4	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s842
@@ -17771,7 +17771,7 @@
 2	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
 3	bevor	bevor	SCONJ	KOUS	_	20	compound:prt	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-5	Queen	Queen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	Queen	Queen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Sänger	Sänger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	advcl	_	_
 8-9	am	_	_	_	_	_	_	_	_
@@ -17811,7 +17811,7 @@
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Massakers	Massaker	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
 5	von	von	ADP	APPR	_	6	case	_	_
-6	Hebron	Hebron	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|NamedEntity=Yes
+6	Hebron	Hebron	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	4	punct	_	_
 8	als	als	SCONJ	KOUS	_	21	mark	_	_
 9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -17896,7 +17896,7 @@
 7	darunter	darunter	ADV	PAV	_	5	appos	_	_
 8	auch	auch	ADV	ADV	_	7	advmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
-10	Pretoria	Pretoria	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|NamedEntity=Yes
+10	Pretoria	Pretoria	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	5	punct	_	_
 12	weiße	weiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
 13	Wähler	Wähler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
@@ -18120,12 +18120,12 @@
 
 # sent_id = test-s890
 # text = ERFURT, 6. November (ap).
-1	ERFURT	Erfurt	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	ERFURT	Erfurt	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	ap	ap	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	ap	ap	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -18140,7 +18140,7 @@
 7	1996	1996	NUM	CARD	NumType=Card	8	nmod	_	_
 8	Stadtschreiber	Stadtschreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	_
 9	von	von	ADP	APPR	_	10	case	_	_
-10	Mainz	Mainz	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|NamedEntity=Yes
+10	Mainz	Mainz	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	NamedEntity=Yes|SpaceAfter=No
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = test-s892
@@ -18162,7 +18162,7 @@
 11	ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 12	ab	ab	ADP	APPR	_	14	case	_	_
 13	7.	7.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	14	amod	_	_
-14	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|NamedEntity=Yes
+14	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -18187,12 +18187,12 @@
 
 # sent_id = test-s895
 # text = OTTAWA, 6. November (dpa).
-1	OTTAWA	Ottawa	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	OTTAWA	Ottawa	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -18263,7 +18263,7 @@
 4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 5	in	in	ADP	APPR	_	9	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-7	US	US	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No|NamedEntity=Yes
+7	US	US	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	9	compound	_	NamedEntity=Yes|SpaceAfter=No
 8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 9	Werk	Werk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
 10	gefertigten	gefertigt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	_
@@ -18316,12 +18316,12 @@
 
 # sent_id = test-s903
 # text = STOCKHOLM, 6. November (dpa).
-1	STOCKHOLM	Stockholm	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	STOCKHOLM	Stockholm	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	November	November	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -18337,7 +18337,7 @@
 8	Schering	Schering	PROPN	NE	Case=Nom|Number=Sing	0	root	_	NamedEntity=Yes
 9	AG	AG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	NamedEntity=Yes
 10	und	und	CCONJ	KON	_	11	cc	_	_
-11	Organon	Organon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|NamedEntity=Yes
+11	Organon	Organon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	NamedEntity=Yes|SpaceAfter=No
 12	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = test-s905
@@ -18373,7 +18373,7 @@
 7	zugeschlagen	zuschlagen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-10	Chrétien	Chrétien	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No|NamedEntity=Yes
+10	Chrétien	Chrétien	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	NamedEntity=Yes|SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = test-s908
@@ -18419,12 +18419,12 @@
 15-16	am	_	_	_	_	_	_	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|NamedEntity=Yes
+17	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	conj	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s910
 # text = Vichy-Regime
-1	Vichy	Vichy	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	SpaceAfter=No|NamedEntity=Yes
+1	Vichy	Vichy	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	NamedEntity=Yes|SpaceAfter=No
 2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	Regime	Regime	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 
@@ -18455,12 +18455,12 @@
 
 # sent_id = test-s913
 # text = VAVUNIYA, 6. November (rtr).
-1	VAVUNIYA	Vavuniya	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|NamedEntity=Yes
+1	VAVUNIYA	Vavuniya	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	rtr	rtr	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No|NamedEntity=Yes
+6	rtr	rtr	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -18507,11 +18507,11 @@
 3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	compound	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	frühere	früh	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	_
-6	CSU	CSU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|NamedEntity=Yes
+6	CSU	CSU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	Erwin	Erwin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	NamedEntity=Yes
-10	Huber	Huber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|NamedEntity=Yes
+10	Huber	Huber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	NamedEntity=Yes|SpaceAfter=No
 11	.	.	PUNCT	$.	_	8	punct	_	_
 
 # sent_id = test-s917
@@ -18714,7 +18714,7 @@
 # sent_id = test-s926
 # text = Karl Ruoff, der Geschäftsführer des Landesfischereiverbandes, hält die Kritik der Natürschützer für übertrieben:
 1	Karl	Karl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	NamedEntity=Yes
-2	Ruoff	Ruoff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|NamedEntity=Yes
+2	Ruoff	Ruoff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Geschäftsführer	Geschäftsführer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -18772,7 +18772,7 @@
 11	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	compound	_	_
 12	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
 13	als	als	ADP	APPR	_	16	case	_	_
-14	Fischer	Fischer	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	16	compound	_	SpaceAfter=No|NamedEntity=Yes
+14	Fischer	Fischer	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	16	compound	_	NamedEntity=Yes|SpaceAfter=No
 15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 16	Taschenbuch	Taschenbuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	acl	_	_
 17	erhältlich	erhältlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -18815,7 +18815,7 @@
 18	,	,	PUNCT	$,	_	20	punct	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Einzelhandelskonzern	Einzelhandelskonzern	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	appos	_	_
-21	Konsum	Konsum	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No|NamedEntity=Yes
+21	Konsum	Konsum	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	$,	_	15	punct	_	_
 23	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Pleitegeier	Pleitegeier	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -18870,7 +18870,7 @@
 3	alter	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 5	Wim	Wim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	NamedEntity=Yes
-6	Wenders	Wenders	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
+6	Wenders	Wenders	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	20	punct	_	_
 8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	20	nsubj	_	_
 9	für	für	ADP	APPR	_	10	case	_	_
@@ -18927,7 +18927,7 @@
 8	gelobe	geloben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	appos	_	_
 9	von	von	ADP	APPR	_	10	case	_	_
 10	Wolfgang	Wolfgang	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	NamedEntity=Yes
-11	Murnberger	Murnberger	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No|NamedEntity=Yes
+11	Murnberger	Murnberger	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes|SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	auf	auf	ADP	APPR	_	16	case	_	_
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -18942,7 +18942,7 @@
 23	Berger	Berger	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
 24	(	(	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 25	Christoph	Christoph	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	NamedEntity=Yes
-26	Dostal	Dostal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	SpaceAfter=No|NamedEntity=Yes
+26	Dostal	Dostal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	NamedEntity=Yes|SpaceAfter=No
 27	)	)	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	25	punct	_	_
 29	in	in	ADP	APPR	_	30	case	_	_
@@ -18989,7 +18989,7 @@
 3	Fried	Fried	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
 4	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-6	Pascal	Pascal	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|NamedEntity=Yes
+6	Pascal	Pascal	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	NamedEntity=Yes|SpaceAfter=No
 7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Zitat	Zitat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 9-10	vom	_	_	_	_	_	_	_	_
@@ -19032,7 +19032,7 @@
 # sent_id = test-s939
 # text = Diese CDU-Taktik hatte Erfolg, zwei Drittel der BerlinerInnen teilten diese Einschätzung.
 1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-2	CDU	CDU	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|NamedEntity=Yes
+2	CDU	CDU	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Taktik	Taktik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -19182,7 +19182,7 @@
 3	Delegation	Delegation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	Jörg	Jörg	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
-6	Schönbohm	Schönbohm	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No|NamedEntity=Yes
+6	Schönbohm	Schönbohm	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Staatssekretär	Staatssekretär	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	appos	_	_
 9-10	im	_	_	_	_	_	_	_	_
@@ -19194,7 +19194,7 @@
 14	Pfadfinder	Pfadfinder	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 15	''	''	PUNCT	$(	_	17	punct	_	_
 16	für	für	ADP	APPR	_	17	case	_	_
-17	Kohl	Kohl	PROPN	NE	Case=Acc|Number=Sing	14	nmod	_	SpaceAfter=No|NamedEntity=Yes
+17	Kohl	Kohl	PROPN	NE	Case=Acc|Number=Sing	14	nmod	_	NamedEntity=Yes|SpaceAfter=No
 18	,	,	PUNCT	$,	_	1	punct	_	_
 19	behaupten	behaupten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	22	punct	_	_
@@ -19226,7 +19226,7 @@
 6	bei	bei	ADP	APPR	_	7	case	_	_
 7	Verteidigungsminister	Verteidigungsminister	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
 8	Chi	Chi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NamedEntity=Yes
-9	Haotian	Haotian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No|NamedEntity=Yes
+9	Haotian	Haotian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes|SpaceAfter=No
 10	,	,	PUNCT	$,	_	12	punct	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Stellvertretenden	stellvertretend	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	NamedEntity=Yes
@@ -19244,7 +19244,7 @@
 24	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 25	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 26	in	in	ADP	APPR	_	27	case	_	_
-27	Peking	Peking	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|NamedEntity=Yes
+27	Peking	Peking	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	NamedEntity=Yes|SpaceAfter=No
 28	.	.	PUNCT	$.	_	24	punct	_	_
 
 # sent_id = test-s949
@@ -19269,7 +19269,7 @@
 2	Hannes	Hannes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
 3	Gamillscheg	Gamillscheg	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
-5	Kopenhagen	Kopenhagen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No|NamedEntity=Yes
+5	Kopenhagen	Kopenhagen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	NamedEntity=Yes|SpaceAfter=No
 6	)	)	PUNCT	$(	_	5	punct	_	_
 
 # sent_id = test-s951
@@ -19324,7 +19324,7 @@
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NamedEntity=Yes
 3	/	/	PUNCT	$(	_	4	punct	_	_
-4	ap	ap	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	SpaceAfter=No|NamedEntity=Yes
+4	ap	ap	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	NamedEntity=Yes|SpaceAfter=No
 5	)	)	PUNCT	$(	_	2	punct	_	_
 
 # sent_id = test-s955
@@ -19336,14 +19336,14 @@
 5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 6	ehemals	ehemals	ADV	ADV	_	7	advmod	_	_
 7	führenden	führend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
-8	Solidarnosc	Solidarnosc	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	SpaceAfter=No|NamedEntity=Yes
+8	Solidarnosc	Solidarnosc	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	compound	_	NamedEntity=Yes|SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 10	Aktivisten	Aktivist	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	heutigen	heutig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	Wahldritten	Wahldritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
-15	Kuron	Kuron	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|NamedEntity=Yes
+15	Kuron	Kuron	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	8	appos	_	NamedEntity=Yes|SpaceAfter=No
 16	:	:	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = test-s956
@@ -19366,7 +19366,7 @@
 16	10	10	NUM	CARD	NumType=Card	17	compound	_	_
 17	000	000	NUM	CARD	NumType=Card	15	nummod	_	_
 18	aus	aus	ADP	APPR	_	19	case	_	_
-19	Syrien	Syrien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|NamedEntity=Yes
+19	Syrien	Syrien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	NamedEntity=Yes|SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = test-s957
@@ -19396,7 +19396,7 @@
 1	Zudem	zudem	ADV	PAV	_	9	advmod	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-4	SPD	SPD	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	SpaceAfter=No|NamedEntity=Yes
+4	SPD	SPD	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	6	compound	_	NamedEntity=Yes|SpaceAfter=No
 5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 6	Spitzen	Spitze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -19440,7 +19440,7 @@
 12	von	von	ADP	APPR	_	13	case	_	_
 13	Kartellamtschef	Kartellamtschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
 14	Dieter	Dieter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
-15	Wolf	Wolf	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|NamedEntity=Yes
+15	Wolf	Wolf	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	23	punct	_	_
 17	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 18	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
@@ -19577,7 +19577,7 @@
 20	``	``	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 21	Made	Made	PROPN	FM	Foreign=Yes	19	appos	_	NamedEntity=Yes
 22	in	in	ADP	FM	Foreign=Yes	21	compound	_	_
-23	Germany	Germany	PROPN	FM	Foreign=Yes	21	flat	_	SpaceAfter=No|NamedEntity=Yes
+23	Germany	Germany	PROPN	FM	Foreign=Yes	21	flat	_	NamedEntity=Yes|SpaceAfter=No
 24	''	''	PUNCT	$(	_	21	punct	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	erobern	erobern	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
@@ -19589,7 +19589,7 @@
 2	Gegenrechnung	Gegenrechnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	7	punct	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
-5	MMD	MMD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No|NamedEntity=Yes
+5	MMD	MMD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	NamedEntity=Yes|SpaceAfter=No
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Gewinn	Gewinn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 8	'	'	PUNCT	$(	_	9	punct	_	SpaceAfter=No
@@ -19672,12 +19672,12 @@
 
 # sent_id = test-s977
 # text = US-Präsident William Jefferson Clinton, der wie so viele die tiefe, rauhe Stimme Rabins vermißte, schien gut informiert über die Lage in Israel.
-1	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No|NamedEntity=Yes
+1	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	NamedEntity=Yes|SpaceAfter=No
 2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 4	William	William	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	Jefferson	Jefferson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes
-6	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No|NamedEntity=Yes
+6	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	$,	_	18	punct	_	_
 8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 9	wie	wie	ADP	KOKOM	_	11	case	_	_
@@ -19698,6 +19698,6 @@
 24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Lage	Lage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
 26	in	in	ADP	APPR	_	27	case	_	_
-27	Israel	Israel	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No|NamedEntity=Yes
+27	Israel	Israel	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	NamedEntity=Yes|SpaceAfter=No
 28	.	.	PUNCT	$.	_	20	punct	_	_
 
