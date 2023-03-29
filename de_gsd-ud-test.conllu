@@ -1342,7 +1342,7 @@
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 6	vor	vor	ADP	APPR	_	9	case	_	_
 7	ein	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
-8	paar	paar	PRON	PIAT	PronType=Ind	9	nmod	_	_
+8	paar	paar	ADJ	PIAT	Degree=Pos	9	nmod	_	_
 9	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
 10	dort	dort	ADV	ADV	_	4	advmod	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
@@ -2927,7 +2927,7 @@
 2	dort	dort	ADV	ADV	_	7	advmod	_	_
 3	mal	mal	ADV	ADV	_	7	advmod	_	_
 4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	_
-5	paar	paar	PRON	PIAT	PronType=Ind	6	amod	_	_
+5	paar	paar	ADJ	PIAT	Degree=Pos	6	amod	_	_
 6	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 7	verbracht	verbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	...	...	PUNCT	$(	_	14	punct	_	_
