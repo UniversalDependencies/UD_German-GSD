@@ -2837,7 +2837,7 @@
 16-17	am	_	_	_	_	_	_	_	_
 16	an	an	ADP	APPR	_	19	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-18	selben	selb	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+18	selben	selber	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Emp	19	det	_	_
 19	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 20	...	...	PUNCT	$(	_	6	punct	_	_
 
@@ -7311,7 +7311,7 @@
 2-3	am	_	_	_	_	_	_	_	_
 2	an	an	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	selben	selb	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+4	selben	selber	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Emp	5	nmod	_	_
 5	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 6	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -7571,7 +7571,7 @@
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Sauna	Sauna	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
-8	selber	selber	ADV	ADV	_	7	advmod	_	_
+8	selber	selber	DET	ADV	PronType=Emp	7	advmod	_	_
 9	finde	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 11	auch	auch	ADV	ADV	_	12	advmod	_	_

@@ -36,7 +36,7 @@
 19-20	im	_	_	_	_	_	_	_	_
 19	in	in	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
-21	selben	selb	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	22	det	_	_
+21	selben	selber	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Emp	22	det	_	_
 22	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
 23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	AOWD	AOWD	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	NamedEntity=Yes
@@ -609,7 +609,7 @@
 12	in	in	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Laden	Laden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
-15	selber	selber	ADV	ADV	_	14	advmod	_	_
+15	selber	selber	DET	ADV	PronType=Emp	14	advmod	_	_
 16	für	für	ADP	APPR	_	18	case	_	_
 17	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Bedarf	Bedarf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
@@ -14700,7 +14700,7 @@
 30	7	7	NUM	NN	Case=Gen|Gender=Masc|Number=Sing|NumType=Card	32	compound	_	SpaceAfter=No
 31	-	-	PUNCT	$(	_	30	punct	_	SpaceAfter=No
 32	Gipfels	Gipfel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
-33	selbst	selbst	PRON	ADV	_	32	appos	_	SpaceAfter=No
+33	selbst	selbst	ADV	ADV	_	32	appos	_	SpaceAfter=No
 34	,	,	PUNCT	$,	_	40	punct	_	_
 35	auf	auf	ADP	APPR	_	36	case	_	_
 36	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	40	nmod	_	_
@@ -14782,7 +14782,7 @@
 6	nach	nach	ADP	APPR	_	8	case	_	_
 7	überwiegender	überwiegend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	Befürchtung	Befürchtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
-9	selbst	selbst	PRON	ADV	_	11	nsubj	_	_
+9	selbst	selbst	ADV	ADV	_	11	nsubj	_	_
 10	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Offiziellen	Offizielle	NOUN	NN	Case=Gen|Number=Plur	8	nmod	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
