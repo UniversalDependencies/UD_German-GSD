@@ -546,7 +546,7 @@
 10	Zahnarzt	Zahnarzt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
 11	halte	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
-13	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	14	nsubj	_	_
+13	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 14	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 15	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	_
 16	schon	schon	ADV	ADV	_	17	advmod	_	_
@@ -3663,7 +3663,7 @@
 17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	laden	Laden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 19	so	so	ADV	ADV	_	20	advmod	_	_
-20	wenig	wenig	PRON	PIAT	PronType=Ind	21	nmod	_	_
+20	wenig	wenig	DET	PIAT	PronType=Ind	21	nmod	_	_
 21	Bewertungen	Bewertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
 22	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	31	punct	_	_
@@ -3770,7 +3770,7 @@
 # sent_id = test-s216
 # text = Leider wenig Erfahrung im kosmetischen Bereich.
 1	Leider	leider	ADV	ADV	_	3	advmod	_	_
-2	wenig	wenig	PRON	PIAT	PronType=Ind	3	amod	_	_
+2	wenig	wenig	DET	PIAT	PronType=Ind	3	amod	_	_
 3	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	7	case	_	_
@@ -4869,14 +4869,14 @@
 11	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
 12	innerhalb	innerhalb	ADV	ADV	_	16	advmod	_	_
 13	von	von	ADP	APPR	_	15	case	_	_
-14	wenigen	wenig	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	15	amod	_	_
+14	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	15	amod	_	_
 15	Sekunden	Sekunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	_
 16	entlassen	entlassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = test-s282
 # text = Wer in einer angenehmen Atmosphäre und bei Sonne segeln oder segeln lernen möchte, der ist hier genau richtig.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	9	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
 3	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 4	angenehmen	angenehm	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -4899,7 +4899,7 @@
 
 # sent_id = test-s283
 # text = Wer nicht zufrieden ist, sollte in ein anderes Hotel und mehr bezahlen!
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 2	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
 3	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	6	csubj	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
@@ -8057,7 +8057,7 @@
 6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	kleinen	Klein	NOUN	ADJA	Case=Nom|Number=Plur	8	nsubj	_	_
 8	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-9	wenig	wenig	PRON	PIS	PronType=Ind	8	obj	_	_
+9	wenig	wenig	DET	PIS	PronType=Ind	8	obj	_	_
 
 # sent_id = test-s425
 # text = Mehrere große Gesellschaften heben zum Jahreswechsel die Beiträge in den Vollkosten-Tarifen an -- allerdings etwas moderater als in der Vergangenheit.
@@ -8321,7 +8321,7 @@
 13	Identität	Identität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	21	punct	_	_
 15	'	'	PUNCT	$(	_	21	punct	_	SpaceAfter=No
-16	was	wer	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	21	nsubj	_	_
+16	was	wer	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	21	nsubj	_	_
 17	zu	zu	ADP	APPR	_	20	case	_	_
 18	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
 19	wachsenden	wachsend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
@@ -10567,7 +10567,7 @@
 
 # sent_id = test-s531
 # text = Wenige Stunden später wurde in Belfast ein Katholik angeschossen und schwer verletzt.
-1	Wenige	weniger	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
 3	später	spät	ADV	ADJD	_	2	advmod	_	_
 4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	aux:pass	_	_
@@ -10640,7 +10640,7 @@
 11	Lehrstellenumlage	Lehrstellenumlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
 12	``	``	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 13	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
-14	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	16	nsubj	_	_
+14	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
 15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
 16	ausbildet	ausbilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	csubj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
@@ -11224,7 +11224,7 @@
 # sent_id = test-s560
 # text = ``Wer in Arbeitsgruppen arbeitet, kann das auch noch zwei Tage vorher mit seinen Kollegen abmachen'', sagte Personalchef Bernd Richter dazu.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	_
+2	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Arbeitsgruppen	Arbeitsgruppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
 5	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	csubj	_	SpaceAfter=No
@@ -13309,7 +13309,7 @@
 17	Kleinbauern	Kleinbauer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
 18	besaßen	besitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
 19	nur	nur	ADV	ADV	_	20	advmod	_	_
-20	wenige	weniger	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
+20	wenige	wenig	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	21	det	_	_
 21	Hektar	Hektar	NOUN	NN	Gender=Neut	18	obj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -17414,7 +17414,7 @@
 
 # sent_id = test-s856
 # text = Wer eine andere Politik will, muß auch anders wählen.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
 2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
 3	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
 4	Politik	Politik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
@@ -17599,7 +17599,7 @@
 12	Ausländer	Ausländer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
 14	entsprechend	entsprechend	ADV	ADJD	_	16	advmod	_	_
-15	weniger	weniger	DET	PIAT	Case=Dat|PronType=Ind	16	det	_	_
+15	weniger	wenig	DET	PIAT	Case=Dat|PronType=Ind	16	det	_	_
 16	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -18015,7 +18015,7 @@
 
 # sent_id = test-s886
 # text = Wer sich nicht für eine Zeit von mehreren Jahren, unwissend, was folgen könnte, zur Unterweisung bereitfand und nur so mal testen wollte, bekam bei Yun keine Chance.
-1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	20	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
 2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
@@ -18613,7 +18613,7 @@
 
 # sent_id = test-s921
 # text = Wer unter solchen Umständen Einfluß ausüben will, braucht mehr als nur Macht:
-1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	unter	unter	ADP	APPR	_	4	case	_	_
 3	solchen	solcher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	4	nmod	_	_
 4	Umständen	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
@@ -19280,7 +19280,7 @@
 
 # sent_id = test-s952
 # text = Wer sich zutraut, sein Geld ohne Beratung anzulegen, kann bei den sogenannten Discount- oder Direktbanken Gebühren sparen.
-1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 2	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	3	obl:arg	_	_
 3	zutraut	zutrauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	csubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	9	punct	_	_

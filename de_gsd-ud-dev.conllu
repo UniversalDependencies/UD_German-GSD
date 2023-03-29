@@ -986,7 +986,7 @@
 
 # sent_id = dev-s62
 # text = Wer gerne zusieht wie der Chef seine völlig überlasteten Angestellten zur Sau macht, ist hier gut aufgehoben.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 2	gerne	gerne	ADV	ADV	_	3	advmod	_	_
 3	zusieht	zusehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	csubj	_	_
 4	wie	wie	ADV	KOUS	_	14	advmod	_	_
@@ -1824,7 +1824,7 @@
 
 # sent_id = dev-s105
 # text = Wer also eine entspannende Massage sucht der ist hier genau richtig.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	6	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	also	also	ADV	ADV	_	6	advmod	_	_
 3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 4	entspannende	entspannend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -6868,7 +6868,7 @@
 4	Feinschmecker	Feinschmecker	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	16	punct	_	_
 6	aber	aber	CCONJ	KON	_	16	cc	_	_
-7	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	13	nsubj	_	_
+7	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 9	schön	schön	ADV	ADV	_	10	advmod	_	_
 10	deftig	deftig	ADJ	ADJD	Degree=Pos	13	xcomp	_	_
@@ -7115,7 +7115,7 @@
 5	für	für	ADP	APPR	_	6	case	_	_
 6	Wohnmobile	Wohnmobile	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
 7	und	und	CCONJ	KON	_	18	cc	_	_
-8	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	11	nsubj	_	_
+8	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
 9	keines	kein	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
 10	dabei	dabei	ADV	PAV	_	11	advmod	_	_
 11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	csubj	_	_
@@ -7687,7 +7687,7 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 2	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
-4	wenig	wenig	PRON	ADV	_	0	root	_	SpaceAfter=No
+4	wenig	wenig	DET	ADV	PronType=Ind	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	13	punct	_	_
 6	doch	doch	CCONJ	KON	_	13	cc	_	_
 7	bei	bei	ADP	APPR	_	9	case	_	_
@@ -8433,7 +8433,7 @@
 7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	kleinen	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	9	nsubj	_	_
 9	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-10	wenig	wenig	PRON	PIS	PronType=Ind	9	obj	_	SpaceAfter=No
+10	wenig	wenig	DET	PIS	PronType=Ind	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = dev-s504
@@ -9561,7 +9561,7 @@
 
 # sent_id = dev-s556
 # text = Wer in China dick ins Geschäft kommen will, kann sich in der Tat nicht an der Armee vorbeischleichen.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	8	nsubj	_	_
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
 3	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	NamedEntity=Yes
 4	dick	dick	ADV	ADJD	_	7	advmod	_	_
@@ -10926,7 +10926,7 @@
 3	:	:	PUNCT	$.	_	21	punct	_	_
 4	Wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
 5	nur	nur	ADV	ADV	_	12	advmod	_	_
-6	wenige	weniger	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+6	wenige	wenig	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
 7	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
 8	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
@@ -11284,7 +11284,7 @@
 16	heute	heute	ADV	ADV	_	17	advmod	_	_
 17	stöhnt	stöhnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	21	punct	_	_
-19	wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	21	nsubj	_	_
+19	wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	21	nsubj	_	_
 20	dabei	dabei	ADV	PAV	_	21	advmod	_	_
 21	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	17	csubj	_	_
 22	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
@@ -12960,7 +12960,7 @@
 # sent_id = dev-s705
 # text = ``Wer an deutschen Universitäten abgewiesen wird, wendet sich möglicherweise an eine dieser in Deutschland nicht anerkannten Hochschulen, die auch keinen anerkannten Abschluß verleihen kann'', befürchtet Werner Becker, HRK-Informationsreferent.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No|FixTigerDep=Yes
-2	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj:pass	_	_
+2	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj:pass	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
 4	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	Universitäten	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
