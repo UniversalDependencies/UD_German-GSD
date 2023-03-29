@@ -11545,7 +11545,7 @@
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
 7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-8	solche	solch	PRON	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	_
+8	solche	solcher	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	nmod	_	_
 9	Sätze	Satz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 10	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
@@ -12209,7 +12209,7 @@
 3	zu	zu	ADP	PTKVZ	_	1	mark	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	8	mark	_	_
-6	solches	solch	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	nsubj	_	_
+6	solches	solcher	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
 7	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	8	obl:arg	_	_
 8	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	1	punct	_	_
@@ -12311,7 +12311,7 @@
 
 # sent_id = dev-s676
 # text = Solche Argumente würden jedoch bei einem Prozeß in der Bundesrepublik besser greifen.
-1	Solche	solch	PRON	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	nmod	_	_
+1	Solche	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	nmod	_	_
 2	Argumente	Argument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
 3	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 4	jedoch	jedoch	ADV	ADV	_	12	advmod	_	_
