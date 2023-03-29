@@ -76,7 +76,7 @@
 # sent_id = dev-s7
 # text = Aber was traurig ist das die Bedienung nicht besonders auf dem Kunden eingeht sonder lieber mit Ihre Kolegin über das Wochende spricht.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
-2	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	acl	_	_
+2	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	acl	_	_
 3	traurig	traurig	ADJ	ADJD	Degree=Pos	0	root	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	das	dass	SCONJ	KOUS	Typo=Yes	13	mark	_	CorrectForm=dass
@@ -445,7 +445,7 @@
 6	vor	vor	ADP	APPR	_	7	case	_	_
 7	Feierabend	Feierabend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	14	punct	_	_
-9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	_
+9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 11	als	als	ADP	KOKOM	_	12	case	_	_
 12	Nachteil	Nachteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
@@ -1289,7 +1289,7 @@
 5	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 6	da	da	ADV	ADV	_	2	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	12	punct	_	_
-8	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	12	obj	_	_
+8	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	12	obj	_	_
 9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	_
 11	unpersönlich	unpersönlich	ADJ	ADJD	Degree=Pos	12	xcomp	_	_
@@ -1610,7 +1610,7 @@
 
 # sent_id = dev-s95
 # text = Was soll ich sagen es scheint schlecht um das gute alte Vinyl zu stehen, denn immer mehr Plattenläden haben in letzter Zeit in Köln geschlossen.
-1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	obj	_	_
 2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -1682,7 +1682,7 @@
 20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 21	immer	immer	ADV	ADV	_	19	advmod	_	_
 22	wieder	wieder	ADV	ADV	_	21	advmod	_	_
-23	was	was	PRON	PIS	PronType=Ind	19	obj	_	_
+23	was	was	PRON	PIS	Gender=Neut|Number=Sing|PronType=Int,Rel	19	obj	_	_
 24	dazu	dazu	ADV	PTKVZ	PronType=Dem	19	mark	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
 26	stoße	stoßen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
@@ -2106,7 +2106,7 @@
 6	Sterne	Stern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 7	vergeben	vergeben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
-9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
+9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
 10	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 11	ehrliche	ehrlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	Wertung	Wertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
@@ -3100,7 +3100,7 @@
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 2	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
 3	gerne	gerne	ADV	ADV	_	6	advmod	_	_
-4	was	was	PRON	PIAT	PronType=Ind	6	obj	_	_
+4	was	was	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	_
 5	moderneres	modern	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	compound	_	_
 6	gehabt	haben	VERB	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
@@ -3559,7 +3559,7 @@
 5	Angsthase	Angsthase	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-8	was	was	PRON	PIAT	PronType=Ind	10	nsubj	_	_
+8	was	was	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
 9	Zahnärzte	Zahnarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 10	angeht	angehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
@@ -3621,7 +3621,7 @@
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	20	punct	_	_
-15	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	20	nsubj	_	_
+15	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
 16-17	zum	_	_	_	_	_	_	_	_
 16	zu	zu	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -5061,7 +5061,7 @@
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	von	von	ADP	APPR	_	19	case	_	_
 19	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nmod	_	_
-20	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obj	_	_
+20	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	22	obj	_	_
 21	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 22	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	1	punct	_	_
@@ -5269,7 +5269,7 @@
 16	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 17	verstand	verstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	23	punct	_	_
-19	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	23	obj	_	_
+19	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	23	obj	_	_
 20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
 21	von	von	ADP	APPR	_	22	case	_	_
 22	Ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
@@ -5321,7 +5321,7 @@
 # text = Das ist was Hunde verstehen.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj:outer	_	_
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	was	was	PRON	PIAT	PronType=Ind	5	obj	_	_
+3	was	was	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	_
 4	Hunde	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -5413,7 +5413,7 @@
 1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Zentrum	Zentrum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	6	obj	_	_
+4	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	_
 5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	verspricht	versprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
@@ -6392,7 +6392,7 @@
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	_
 4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
-5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	nsubj:pass	_	_
+5	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
 7	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem,Rel	9	obl:agent	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
@@ -6415,7 +6415,7 @@
 
 # sent_id = dev-s377
 # text = Was will man mehr?
-1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	_
 2	will	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 4	mehr	mehr	ADV	ADV	_	2	advmod	_	SpaceAfter=No
@@ -7295,7 +7295,7 @@
 
 # sent_id = dev-s434
 # text = Was bei meiner vierbeinigen Begleiterin schon etwas heißt.
-1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	_
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 2	bei	bei	ADP	APPR	_	5	case	_	_
 3	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	vierbeinigen	vierbeinig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -9536,7 +9536,7 @@
 15	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	16	obj	_	_
 16	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	23	punct	_	_
-18	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	23	nsubj	_	_
+18	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	23	nsubj	_	_
 19	mit	mit	ADP	APPR	_	20	case	_	_
 20	Feuerlöschen	Feuerlöschen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
@@ -13478,7 +13478,7 @@
 4	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	obj	_	_
 5	erreicht	erreichen	VERB	VVPP	VerbForm=Part	12	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
-7	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	9	obj	_	_
+7	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	_
 8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 9	wollten	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	acl	_	SpaceAfter=No
 10	''	''	PUNCT	$(	_	5	punct	_	SpaceAfter=No
