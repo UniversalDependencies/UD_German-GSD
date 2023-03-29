@@ -3657,7 +3657,7 @@
 11	,	,	PUNCT	$,	_	22	punct	_	_
 12	dass	dass	SCONJ	KOUS	_	22	mark	_	_
 13	nach	nach	ADP	APPR	_	15	case	_	_
-14	sovielen	sovielen	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	_
+14	sovielen	soviel	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	_
 15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
