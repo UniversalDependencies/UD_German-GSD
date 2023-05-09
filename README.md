@@ -93,6 +93,12 @@ UD instances the precision seems relatively high.
 
 # Changelog
 
+2023-05-15 v2.12
+  * Fixed: nominals cannot have obj and iobj children.
+  * Fixed multiple subjects under the same predicate.
+  * Dative arguments are oblique, hence they are obl:arg and not iobj.
+  * PRON vs. DET annotation made consistent across German UD treebanks.
+
 2022-05-15 v2.10
   * Fixed tokenization, lemmatization and tagging of ordinal numerals.
   * Added the Degree feature to adjectives.
