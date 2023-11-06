@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_German-GSD:
-commit 12310e73bef0bdd3c416c465b778b5dbbb67c1ae
-Merge: 7aba73c 591081f
+commit 4e079b3fd991133d5770702ecbfc91332a6bea81
+Merge: 45b904a e5f625a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 292769 of 292769 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.3587678043303.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        730
-Udapi: found 730 bugs.
+               TOTAL        727
+Udapi: found 727 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 292769 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-GSD/de_gsd-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.822175029773492) = 0.210814110198331
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.975065666105359) = 0.300020204955495
+(weight=0.307692307692308) * (score{udapi}=0.97516813597068) = 0.300051734144825
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.75365360503194) * (availability=1) * (validity=1) = 0.75365360503194
+(TOTAL score=0.753685134221269) * (availability=1) * (validity=1) = 0.753685134221269
 STARS = 4
-UD_German-GSD	0.75365360503194	4
+UD_German-GSD	0.753685134221269	4
