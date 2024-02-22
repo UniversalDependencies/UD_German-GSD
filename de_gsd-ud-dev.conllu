@@ -10404,7 +10404,7 @@
 # sent_id = dev-s595
 # text = US-Präsident Bill Clinton sagte am Donnerstag die Teilnahme am Asien-Pazifik-Gipfel in Japan ab.
 1	US	US	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	Bill	Bill	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes
@@ -13983,7 +13983,7 @@
 # sent_id = dev-s754
 # text = UN-Generalsekretär Butros Butros-Ghali hat die internationale Gemeinschaft zu sofortiger Hilfe für die rund 400 000 Flüchtlinge in Sri Lanka aufgerufen.
 1	UN	UN	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 4	Butros	Butros	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	Butros	Butros	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes|SpaceAfter=No
@@ -14062,7 +14062,7 @@
 # sent_id = dev-s757
 # text = Ben-Gurion und seine Außenministerin Golda Meir wurden leicht, Innenminister Mosche Schapira schwer verletzt.
 1	Ben	Ben	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	NamedEntity=Yes|SpaceAfter=No
-2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 3	Gurion	Gurion	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes
 4	und	und	CCONJ	KON	_	6	cc	_	_
 5	seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
@@ -14732,7 +14732,7 @@
 # sent_id = dev-s786
 # text = CSU-Generalsekretär Bernd Protzner betonte, der Machtwechsel an der SPD-Spitze stelle ``einen personellen und inhaltlichen Linksruck dar''.
 1	CSU	CSU	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
 3	Generalsekretär	Generalsekretär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	Bernd	Bernd	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	Protzner	Protzner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	NamedEntity=Yes
