@@ -91,7 +91,7 @@
     <dep name="acl">2675</dep>
     <dep name="acl:relcl">27</dep>
     <dep name="advcl">1467</dep>
-    <dep name="advmod">17548</dep>
+    <dep name="advmod">17551</dep>
     <dep name="amod">16119</dep>
     <dep name="appos">6931</dep>
     <dep name="aux">3283</dep>
@@ -111,7 +111,7 @@
     <dep name="discourse">11</dep>
     <dep name="expl">398</dep>
     <dep name="expl:pv">214</dep>
-    <dep name="fixed">129</dep>
+    <dep name="fixed">126</dep>
     <dep name="flat">8164</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3148</dep>
