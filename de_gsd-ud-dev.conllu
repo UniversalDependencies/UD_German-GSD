@@ -5510,18 +5510,18 @@
 
 # sent_id = dev-s321
 # text = ALLE waren nur darauf aus einem ein neues Haarteil zu verkaufen.
-1	ALLE	alle	NOUN	ADJD	_	2	nsubj	_	_
-2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	nur	nur	ADV	ADV	_	2	advmod	_	_
-4	darauf	darauf	ADV	PAV	PronType=Dem	2	advmod	_	_
-5	aus	aus	ADP	APPR	_	2	mark	_	_
+1	ALLE	alle	NOUN	ADJD	_	11	nsubj	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+3	nur	nur	ADV	ADV	_	11	advmod	_	_
+4	darauf	darauf	ADV	PAV	PronType=Dem	11	advmod	_	_
+5	aus	aus	ADP	APPR	_	11	mark	_	_
 6	einem	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	obl:arg	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
 8	neues	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	Haarteil	Haarteil	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 10	zu	zu	PART	PTKZU	_	11	mark	_	_
-11	verkaufen	verkaufen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	2	punct	_	_
+11	verkaufen	verkaufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = dev-s322
 # text = Denn bevor ich mir so ein teures Haarteil kaufe, muß ich auch Vertrauen in das fachliche Können gewinnen.
@@ -11330,21 +11330,21 @@
 # sent_id = dev-s638
 # text = Sein Ziel ist es, die Verbrauchsteuern zu senken und die Steuern auf Vermögen anzuheben.
 1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
-2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
-3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Verbrauchsteuern	Verbrauchsteuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
-9	senken	senken	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+9	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	_
 10	und	und	CCONJ	KON	_	15	cc	_	_
 11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Steuern	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 13	auf	auf	ADP	APPR	_	14	case	_	_
 14	Vermögen	Vermögen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
 15	anzuheben	anheben	VERB	VVIZU	VerbForm=Inf	9	conj	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	3	punct	_	_
+16	.	.	PUNCT	$.	_	9	punct	_	_
 
 # sent_id = dev-s639
 # text = ``Die Welt nach Krupp / Thyssen ist nicht mehr die, die sie davor war'', meint Breuer.
@@ -12651,8 +12651,8 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 3	größte	groß	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	4	amod	_	_
-4	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 8	US	US	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	NamedEntity=Yes|SpaceAfter=No
@@ -12660,7 +12660,7 @@
 10	Zulieferer	Zulieferer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
 11	daran	daran	ADV	PAV	PronType=Dem	13	advmod	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
-13	gewöhnen	gewöhnen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+13	gewöhnen	gewöhnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	25	punct	_	_
 15	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	25	obl:arg	_	_
 16	BMW	BMW	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	18	compound	_	NamedEntity=Yes|SpaceAfter=No
@@ -12673,7 +12673,7 @@
 23	Qualität	Qualität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
 24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	liefern	liefern	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	5	punct	_	_
+26	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = dev-s693
 # text = Die Stimmabgabe wurde für die Sicherheitskräfte vorverlegt, damit sie am Wahltag selbst im Einsatz sein können.
@@ -14309,15 +14309,15 @@
 # text = Dank der Antibiotika sei eine größere Epidemie nicht zu befürchten.
 1	Dank	dank	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Antibiotika	Antibiotikum	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
-4	sei	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Antibiotika	Antibiotikum	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+4	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
 6	größere	groß	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	7	amod	_	_
-7	Epidemie	Epidemie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	Epidemie	Epidemie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
-10	befürchten	befürchten	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	4	punct	_	_
+10	befürchten	befürchten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = dev-s770
 # text = Die Brötchen waren mit Ameisen ``gespickt'', im Lagerraum tummelten sich Kakerlaken und Mäuse:
@@ -14675,15 +14675,15 @@
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	$,	_	12	punct	_	_
-5	daß	daß	SCONJ	KOUS	_	12	mark	_	_
-6	Aufklärung	Aufklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	daß	daß	SCONJ	KOUS	_	11	mark	_	_
+6	Aufklärung	Aufklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
-9	schnell	schnell	ADV	ADJD	_	12	advmod	_	_
+9	schnell	schnell	ADV	ADJD	_	11	advmod	_	_
 10	zu	zu	PART	PTKZU	_	11	mark	_	_
-11	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	12	ccomp	_	_
-12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+11	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	20	punct	_	_
 14	wie	wie	SCONJ	KOKOM	_	20	mark	_	_
 15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
@@ -14691,7 +14691,7 @@
 17	vor	vor	ADP	APPR	_	19	case	_	_
 18	zwanzig	zwanzig	NUM	CARD	NumType=Card	19	nummod	_	_
 19	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	_
-20	gedacht	denken	VERB	VVPP	VerbForm=Part	12	advcl	_	_
+20	gedacht	denken	VERB	VVPP	VerbForm=Part	11	advcl	_	_
 21	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	;	;	PUNCT	$.	_	3	punct	_	_
 
