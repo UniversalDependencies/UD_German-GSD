@@ -36,17 +36,17 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="50">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,VERB,X">48</feat><!-- s, bzgl, bzw, km, l, sog, u, AG, B., Chr -->
-    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30683</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
+    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30684</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">47717</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
     <feat name="Case" value="Gen" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">17888</feat><!-- der, des, eines, einer, seiner, deren, dessen, dieser, Stadt, seines -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48750</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">48749</feat><!-- die, der, er, das, ein, sie, es, eine, ich, man -->
     <feat name="Definite" value="Def" upos="DET">29413</feat><!-- der, die, dem, den, das, des, the, 's, ha -->
     <feat name="Definite" value="Ind" upos="DET">5471</feat><!-- eine, ein, einer, einen, einem, eines, eins, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ,DET">1233</feat><!-- später, weitere, mehrere, weiteren, mehr, mehreren, weiter, besser, früheren, früher -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">19099</feat><!-- ersten, erste, neue, zweiten, bekannt, neuen, großen, große, deutschen, gut -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">523</feat><!-- meisten, nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2542</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50165</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50164</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51287</feat><!-- dem, der, er, den, des, ein, einen, einem, ihm, eines -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">32151</feat><!-- das, dem, es, ein, des, jahr, Jahre, Jahren, einem, was -->
     <feat name="Gender[psor]" value="Fem" upos="DET">46</feat><!-- Ihr, Ihre -->
@@ -90,20 +90,20 @@
   <deps unique="45">
     <dep name="acl">2650</dep>
     <dep name="acl:relcl">27</dep>
-    <dep name="advcl">1467</dep>
+    <dep name="advcl">1468</dep>
     <dep name="advmod">17554</dep>
     <dep name="amod">16119</dep>
     <dep name="appos">6931</dep>
     <dep name="aux">3283</dep>
     <dep name="aux:pass">3423</dep>
-    <dep name="case">30687</dep>
+    <dep name="case">30686</dep>
     <dep name="cc">8782</dep>
     <dep name="ccomp">872</dep>
     <dep name="compound">1532</dep>
     <dep name="compound:prt">1510</dep>
     <dep name="conj">11924</dep>
-    <dep name="cop">3901</dep>
-    <dep name="csubj">193</dep>
+    <dep name="cop">3900</dep>
+    <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">892</dep>
     <dep name="det">37416</dep>
@@ -114,10 +114,10 @@
     <dep name="fixed">126</dep>
     <dep name="flat">8164</dep>
     <dep name="goeswith">2</dep>
-    <dep name="mark">3148</dep>
+    <dep name="mark">3149</dep>
     <dep name="nmod">21668</dep>
     <dep name="nmod:poss">77</dep>
-    <dep name="nsubj">17347</dep>
+    <dep name="nsubj">17346</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">3199</dep>
     <dep name="nummod">2917</dep>
