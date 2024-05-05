@@ -93,6 +93,10 @@ UD instances the precision seems relatively high.
 
 # Changelog
 
+2024-05-15 v2.14
+  * Fixed "darüber hinaus" inconsistent annotations (#5).
+  * Reannotated "zu erreichen sein" as a copular construction (#1).
+
 2023-05-15 v2.12
   * Fixed: nominals cannot have obj and iobj children.
   * Fixed multiple subjects under the same predicate.
