@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_German-GSD:
-commit 4e079b3fd991133d5770702ecbfc91332a6bea81
-Merge: 45b904a e5f625a
+commit 76e445242221e22857e5a5b3c1bc864ab79730d9
+Merge: 8f6bd20 ffae2e5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 292769 of 292769 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.3587678043303.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 195353 out of 292769 total words have one or more features.
+Features: 195356 out of 292769 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
