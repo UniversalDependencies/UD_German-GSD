@@ -112,7 +112,7 @@
 # text = 10 Euro günstiger selbst hätte kaufen können.
 1	10	10	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Euro	Euro	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	_
-3	günstiger	günstig	ADV	ADJD	_	6	advmod	_	_
+3	günstiger	günstig	ADJ	ADJD	Degree=Cmp	6	advmod	_	_
 4	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 5	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 6	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -156,7 +156,7 @@
 
 # sent_id = test-s10
 # text = Absolut empfehlenswert ist auch der Service.
-1	Absolut	absolut	ADV	ADJD	_	2	advmod	_	_
+1	Absolut	absolut	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	empfehlenswert	empfehlenswert	ADJ	ADJD	Degree=Pos	0	root	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
@@ -175,7 +175,7 @@
 6	interessierte	interessiert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-9	herzlich	herzlich	ADV	ADJD	_	10	advmod	_	_
+9	herzlich	herzlich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	eingelanden	eingelanden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	23	punct	_	_
 12	Gottesdienst	Gottesdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
@@ -240,7 +240,7 @@
 33	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	34	det:poss	_	_
 34	Suche	Suche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
 35	zunächst	zunächst	ADV	ADV	_	32	advmod	_	_
-36	erfolglos	erfolglos	ADV	ADJD	_	32	advmod	_	SpaceAfter=No
+36	erfolglos	erfolglos	ADJ	ADJD	Degree=Pos	32	advmod	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	32	punct	_	_
 
 # sent_id = test-s14
@@ -265,7 +265,7 @@
 18	gemachten	gemacht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 19	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
 20	nur	nur	ADV	ADV	_	21	advmod	_	_
-21	fehlerhaft	fehlerhaft	ADV	ADJD	_	25	advmod	_	_
+21	fehlerhaft	fehlerhaft	ADJ	ADJD	Degree=Pos	25	advmod	_	_
 22	oder	oder	CCONJ	KON	_	24	cc	_	_
 23	gar	gar	ADV	ADV	_	24	advmod	_	_
 24	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	conj	_	_
@@ -347,7 +347,7 @@
 21	Hand	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 22	gedrückt	drücken	VERB	VVPP	VerbForm=Part	16	conj	_	_
 23	--	--	PUNCT	$(	_	24	punct	_	_
-24	gratis	gratis	ADV	ADJD	_	22	appos	_	SpaceAfter=No
+24	gratis	gratis	ADJ	ADJD	Degree=Pos	22	appos	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = test-s19
@@ -458,7 +458,7 @@
 4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Speisen	Speise|Speisen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 6	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	auffallend	auffallend	ADV	ADJD	_	8	advmod	_	_
+7	auffallend	auffallend	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	schnell	schnell	ADJ	ADJD	Degree=Pos	6	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
 10	also	also	ADV	ADV	_	16	advmod	_	_
@@ -466,7 +466,7 @@
 12	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	_
 13	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
 14	so	so	ADV	ADV	_	15	advmod	_	_
-15	schnell	schnell	ADV	ADJD	_	16	advmod	_	_
+15	schnell	schnell	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	kochen	kochen	VERB	VVINF	VerbForm=Inf	6	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -613,7 +613,7 @@
 16	für	für	ADP	APPR	_	18	case	_	_
 17	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Bedarf	Bedarf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
-19	sichtlich	sichtlich	ADV	ADJD	_	20	advmod	_	_
+19	sichtlich	sichtlich	ADJ	ADJD	Degree=Pos	20	advmod	_	_
 20	fehlte	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	csubj	_	SpaceAfter=No
 21	...	...	PUNCT	$(	_	3	punct	_	_
 
@@ -758,7 +758,7 @@
 3	Kickboxen	Kickboxen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
 4	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dann	dann	ADV	ADV	_	4	advmod	_	_
-6	selbstverständlich	selbstverständlich	ADV	ADJD	_	4	advmod	_	_
+6	selbstverständlich	selbstverständlich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 7	noch	noch	ADV	ADV	_	4	advmod	_	_
 8	verschiedenste	verschieden	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	11	amod	_	_
 9	Tritt	Tritt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	compound	_	_
@@ -796,7 +796,7 @@
 7	dass	dass	SCONJ	KOUS	_	13	mark	_	_
 8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	_
 9	auch	auch	ADV	ADV	_	10	advmod	_	_
-10	später	spät	ADV	ADJD	_	13	advmod	_	_
+10	später	spät	ADJ	ADJD	Degree=Cmp	13	advmod	_	_
 11	noch	noch	ADV	ADV	_	13	advmod	_	_
 12	Abzüge	Abzug	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
 13	bestellen	bestellen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
@@ -830,7 +830,7 @@
 3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
-6	zufällig	zufällig	ADV	ADJD	_	11	advmod	_	_
+6	zufällig	zufällig	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 7	an	an	ADP	APPR	_	10	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -861,7 +861,7 @@
 34	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
 35	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
 36	kurzerhand	kurzerhand	ADV	ADV	_	34	advmod	_	_
-37	rein	rein	ADV	ADJD	_	34	advmod	_	_
+37	rein	rein	ADJ	ADJD	Degree=Pos	34	advmod	_	_
 38	und	und	CCONJ	KON	_	47	cc	_	_
 39	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	aux	_	_
 40	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	46	obj	_	_
@@ -1006,7 +1006,7 @@
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
 13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Terrasse	Terrasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
-15	direkt	direkt	ADV	ADJD	_	18	advmod	_	_
+15	direkt	direkt	ADJ	ADJD	Degree=Pos	18	advmod	_	_
 16-17	am	_	_	_	_	_	_	_	_
 16	an	an	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
@@ -1094,7 +1094,7 @@
 3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Rechtsstreitigkeiten	Rechtsstreitigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
-6	positiv	positiv	ADV	ADJD	_	7	advmod	_	_
+6	positiv	positiv	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	verlaufen	verlaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -1157,7 +1157,7 @@
 10	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
 11	Gast	Gast	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	aux:pass	_	_
-13	persönlich	persönlich	ADV	ADJD	_	17	advmod	_	_
+13	persönlich	persönlich	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 14-15	vom	_	_	_	_	_	_	_	_
 14	von	von	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -1229,7 +1229,7 @@
 8	Sylter	Sylter	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	compound	_	_
 9	--	--	PUNCT	$(	_	8	punct	_	_
 10	Verhältnisse	Verhältnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	_
-11	günstig	günstig	ADV	ADJD	_	5	conj	_	_
+11	günstig	günstig	ADJ	ADJD	Degree=Pos	5	conj	_	_
 12	und	und	CCONJ	KON	_	16	cc	_	_
 13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
@@ -1353,7 +1353,7 @@
 16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	20	obl:arg	_	_
 18	sehr	sehr	ADV	ADV	_	19	advmod	_	_
-19	gut	gut	ADV	ADJD	_	20	advmod	_	_
+19	gut	gut	ADJ	ADJD	Degree=Pos	20	advmod	_	_
 20	gefallen	fallen|gefallen	VERB	VVPP	VerbForm=Part	13	ccomp	_	_
 21	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
@@ -1373,7 +1373,7 @@
 11	"	"	PUNCT	$(	_	10	punct	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
 13	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
-14	gut	gut	ADV	ADJD	_	15	advmod	_	_
+14	gut	gut	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 15	besucht	besuchen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -1434,7 +1434,7 @@
 8	,	,	PUNCT	$,	_	15	punct	_	_
 9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
 10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	_
-11	direkt	direkt	ADV	ADJD	_	14	advmod	_	_
+11	direkt	direkt	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 12-13	am	_	_	_	_	_	_	_	_
 12	an	an	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -1460,7 +1460,7 @@
 2	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
-5	gut	gut	ADV	ADJD	_	6	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	gefüllt	füllen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
@@ -1527,7 +1527,7 @@
 4	an	an	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Mittag	Mittag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
-7	telefonisch	telefonisch	ADV	ADJD	_	19	advmod	_	_
+7	telefonisch	telefonisch	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -1565,7 +1565,7 @@
 18	für	für	ADP	APPR	_	20	case	_	_
 19	spätere	spät	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	20	amod	_	_
 20	Gäste	Gast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obl	_	_
-21	zurecht	zurecht	ADV	ADJD	_	22	compound:prt	_	_
+21	zurecht	zurecht	ADJ	ADJD	Degree=Pos	22	compound:prt	_	_
 22	gerückt	rücken	VERB	VVPP	VerbForm=Part	16	conj	_	_
 23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	4	punct	_	_
@@ -1630,8 +1630,8 @@
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Aussenbereich	Außenbereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	aux:pass	_	_
-4	liebevoll	liebevoll	ADV	ADJD	_	6	advmod	_	_
-5	neu	neu	ADV	ADJD	_	6	advmod	_	_
+4	liebevoll	liebevoll	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+5	neu	neu	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	angelegt	anlegen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
@@ -1846,7 +1846,7 @@
 17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Frische	Frische	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
 19	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	_
-20	weit	weit	ADV	ADJD	_	22	advmod	_	_
+20	weit	weit	ADJ	ADJD	Degree=Pos	22	advmod	_	_
 21	her	her	ADV	ADV	_	20	advmod	_	_
 22	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 23	und	und	CCONJ	KON	_	25	cc	_	_
@@ -2053,7 +2053,7 @@
 10	,	,	PUNCT	$,	_	16	punct	_	_
 11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	obj	_	_
 12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
-13	selbstverständlich	selbstverständlich	ADV	ADJD	_	16	advmod	_	_
+13	selbstverständlich	selbstverständlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 14	wieder	wieder	ADV	ADV	_	16	advmod	_	_
 15	hier	hier	ADV	ADV	_	16	advmod	_	_
 16	machen	machen	VERB	VVINF	VerbForm=Inf	8	acl	_	_
@@ -2071,7 +2071,7 @@
 7	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Wurm	Wurm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-10	drin	drin	ADV	ADJD	_	12	mark	_	_
+10	drin	drin	ADJ	ADJD	Degree=Pos	12	mark	_	_
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	sein	sein	VERB	VAINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
@@ -2081,7 +2081,7 @@
 1	Dort	dort	ADV	ADV	_	5	advmod	_	_
 2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj:pass	_	_
-4	vorzüglich	vorzüglich	ADV	ADJD	_	5	advmod	_	_
+4	vorzüglich	vorzüglich	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	bewirtet	bewirten	VERB	VVPP	VerbForm=Part	0	root	_	_
 6	und	und	CCONJ	KON	_	12	cc	_	_
 7	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
@@ -2107,7 +2107,7 @@
 # text = Ebenfalls die überwiegend guten Bewertungen hier überraschen mich.
 1	Ebenfalls	ebenfalls	ADV	ADV	_	7	advmod	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-3	überwiegend	überwiegend	ADV	ADJD	_	4	advmod	_	_
+3	überwiegend	überwiegend	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	guten	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	Bewertungen	Bewertung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 6	hier	hier	ADV	ADV	_	7	advmod	_	_
@@ -2150,8 +2150,8 @@
 9	ungepflegtes	ungepflegt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 10	ambiente	Ambiente	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Typo=Yes	3	conj	_	CorrectForm=Ambiente
 11	und	und	CCONJ	KON	_	15	cc	_	_
-12	schön	schön	ADV	ADJD	_	13	advmod	_	_
-13	langsam	langsam	ADV	ADJD	_	15	advmod	_	_
+12	schön	schön	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+13	langsam	langsam	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 14	wirklich	wirklich	ADV	ADV	_	15	advmod	_	_
 15	überfüllt	überfüllen	ADJ	VVPP	Degree=Pos|VerbForm=Part	3	conj	_	SpaceAfter=No
 16	!	!	PUNCT	$.	_	3	punct	_	_
@@ -2266,7 +2266,7 @@
 # sent_id = test-s133
 # text = Eintritt ok, da man mit der Karte auch Zugang zum Wildpark hat.
 1	Eintritt	Eintritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-2	ok	ok	ADV	ADJD	_	1	advmod	_	SpaceAfter=No
+2	ok	ok	ADJ	ADJD	Degree=Pos	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	14	punct	_	_
 4	da	da	SCONJ	KOUS	_	14	mark	_	_
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	_
@@ -2487,7 +2487,7 @@
 10	an	an	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Tür	Tür	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
-13	freundlich	freundlich	ADV	ADJD	_	14	advmod	_	_
+13	freundlich	freundlich	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 14	begrüßt	begrüßen	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -2527,7 +2527,7 @@
 6	,	,	PUNCT	$,	_	12	punct	_	_
 7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
 8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
-9	genau	genau	ADV	ADJD	_	12	advmod	_	_
+9	genau	genau	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
 11	Kundenwünsche	Kundenwunsch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
 12	eingehen	eingehen	VERB	VVINF	VerbForm=Inf	5	acl	_	_
@@ -2708,7 +2708,7 @@
 9	angebotenen	angeboten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	Kursen	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
 11	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
-12	täglich	täglich	ADV	ADJD	_	14	advmod	_	_
+12	täglich	täglich	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 13	mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
 14	Kurse	Kurs	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
@@ -2763,7 +2763,7 @@
 # text = Ganz so deutlich hätte ich es mir nicht getraut zu schreiben, aber da ist schon was dran!!! :)
 1	Ganz	ganz	ADV	ADV	_	9	advmod	_	_
 2	so	so	ADV	ADV	_	9	advmod	_	_
-3	deutlich	deutlich	ADV	ADJD	_	9	advmod	_	_
+3	deutlich	deutlich	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 4	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
@@ -2789,7 +2789,7 @@
 1	Gäste	Gast	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	immer	immer	ADV	ADV	_	5	advmod	_	_
-4	herzlich	herzlich	ADV	ADJD	_	5	advmod	_	_
+4	herzlich	herzlich	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	willkommen	willkommen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -2828,13 +2828,13 @@
 
 # sent_id = test-s162
 # text = Gewohnt super Qualität, Riesenauswahl, super präsentiert.
-1	Gewohnt	gewohnt	ADV	ADJD	_	3	advmod	_	_
+1	Gewohnt	gewohnt	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 2	super	super	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	Qualität	Qualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	5	punct	_	_
 5	Riesenauswahl	Riesenauswahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
-7	super	super	ADV	ADJD	_	8	advmod	_	_
+7	super	super	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	präsentiert	präsentieren	VERB	ADJD	VerbForm=Part	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -2865,7 +2865,7 @@
 2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Werkstatt	Werkstatt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-5	gut	gut	ADV	ADJD	_	6	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	ausgelastet	auslasten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	sodass	sodass	SCONJ	KOUS	_	11	mark	_	_
@@ -2876,11 +2876,11 @@
 
 # sent_id = test-s166
 # text = Gut und günstig, regelmäßig Live - Musik und für den Hunger zwischendurch gibt 's auch diverse Leckereien
-1	Gut	gut	ADV	ADJD	_	0	root	_	_
+1	Gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	_
 2	und	und	CCONJ	KON	_	3	cc	_	_
-3	günstig	günstig	ADV	ADJD	_	1	conj	_	SpaceAfter=No
+3	günstig	günstig	ADJ	ADJD	Degree=Pos	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
-5	regelmäßig	regelmäßig	ADV	ADJD	_	8	advmod	_	_
+5	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 6	Live	Live	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	_
 7	-	-	PUNCT	$(	_	6	punct	_	_
 8	Musik	Musik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	conj	_	_
@@ -3062,7 +3062,7 @@
 19	Kostenvoranschläge	Kostenvoranschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	24	punct	_	_
 21	die	der	PRON	ART	Case=Nom|Number=Plur|PronType=Dem,Rel	24	nmod	_	_
-22	qualitativ	qualitativ	ADV	ADJD	_	23	advmod	_	_
+22	qualitativ	qualitativ	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 23	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	Ausführung	Ausführung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
 25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -3108,7 +3108,7 @@
 2	fühlte	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
-5	gut	gut	ADV	ADJD	_	6	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	beraten	beraten	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	xcomp	_	_
 7	und	und	CCONJ	KON	_	13	cc	_	_
 8	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -3146,7 +3146,7 @@
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	brauchte	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
 10	deshalb	deshalb	ADV	PAV	_	9	advmod	_	_
-11	schnell	schnell	ADV	ADJD	_	9	advmod	_	_
+11	schnell	schnell	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 12	Ersatz	Ersatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 13	für	für	ADP	APPR	_	15	case	_	_
 14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
@@ -3356,7 +3356,7 @@
 # text = Ich war sichtlich enttäuscht: der "XXL" - Laden nimmt sich nichts zu den kleineren Filialen (außer der lebenden Exemplare), die Mitarbeiter waren inkompetent, sofern sie überhaupt aufzufinden waren.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
-3	sichtlich	sichtlich	ADV	ADJD	_	4	advmod	_	_
+3	sichtlich	sichtlich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	enttäuscht	enttäuschen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	$.	_	12	punct	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -3408,7 +3408,7 @@
 2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	_
 3	hier	hier	ADV	ADV	_	7	advmod	_	_
 4	mal	mal	ADV	ADV	_	7	advmod	_	_
-5	positiv	positiv	ADV	ADJD	_	7	advmod	_	_
+5	positiv	positiv	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 6	darüber	darüber	ADV	PAV	PronType=Dem	7	advmod	_	_
 7	berichten	berichten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
@@ -3445,7 +3445,7 @@
 # text = Ich wurde superfreundlich begrüßt, die Beratung war 1a mit Sternchen und meine Haare an gewissen Stellen sind nun dauerhaft entfernt.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
 2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux:pass	_	_
-3	superfreundlich	superfreundlich	ADV	ADJD	_	4	advmod	_	_
+3	superfreundlich	superfreundlich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	begrüßt	begrüßen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -3462,7 +3462,7 @@
 17	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
 18	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 19	nun	nun	ADV	ADV	_	21	advmod	_	_
-20	dauerhaft	dauerhaft	ADV	ADJD	_	21	advmod	_	_
+20	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	21	advmod	_	_
 21	entfernt	entfernt	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -3730,7 +3730,7 @@
 # text = Kann ich uneingeschränkt empfehlen.
 1	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	uneingeschränkt	uneingeschränkt	ADV	ADJD	_	4	advmod	_	_
+3	uneingeschränkt	uneingeschränkt	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -3741,7 +3741,7 @@
 3	--	--	PUNCT	$(	_	7	punct	_	_
 4	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	_
 5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-6	live	live	ADV	ADJD	_	7	advmod	_	_
+6	live	live	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	spielen	spielen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -3887,7 +3887,7 @@
 4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Gläser	Glas	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
-7	vernünftig	vernünftig	ADV	ADJD	_	8	advmod	_	_
+7	vernünftig	vernünftig	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	gucken	gucken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -3972,7 +3972,7 @@
 11	dort	dort	ADV	ADV	_	15	advmod	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
 13	nur	nur	ADV	ADV	_	15	advmod	_	_
-14	gut	gut	ADV	ADJD	_	15	advmod	_	_
+14	gut	gut	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 15	beraten	beraten	VERB	VVPP	VerbForm=Part	2	csubj	_	_
 16	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	28	punct	_	_
@@ -4059,7 +4059,7 @@
 
 # sent_id = test-s233
 # text = Nachfolgend ein kurzer Bericht meiner überaus negativen Erfahrungen: Auf den Werkstatttermin musste ich eine Woche warten.
-1	Nachfolgend	nachfolgend	ADV	ADJD	_	4	advmod	_	_
+1	Nachfolgend	nachfolgend	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
 3	kurzer	kurz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	Bericht	Bericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -4371,7 +4371,7 @@
 6	kochen	kochen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 8	dann	dann	ADV	ADV	_	6	advmod	_	_
-9	regelmäßig	regelmäßig	ADV	ADJD	_	6	advmod	_	_
+9	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -4478,8 +4478,8 @@
 6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 7	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 8	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
-9	fachlich	fachlich	ADV	ADJD	_	11	advmod	_	_
-10	absolut	absolut	ADV	ADJD	_	11	advmod	_	_
+9	fachlich	fachlich	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+10	absolut	absolut	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 11	überzeugt	überzeugen	VERB	ADJD	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -4547,7 +4547,7 @@
 
 # sent_id = test-s262
 # text = Super preiswerte Zimmer, habe noch nie so günstig in Stuttgart übernachtet.
-1	Super	super	ADV	ADJD	_	2	advmod	_	_
+1	Super	super	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	preiswerte	preiswert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	12	punct	_	_
@@ -4555,7 +4555,7 @@
 6	noch	noch	ADV	ADV	_	12	advmod	_	_
 7	nie	nie	ADV	ADV	_	6	advmod	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
-9	günstig	günstig	ADV	ADJD	_	12	advmod	_	_
+9	günstig	günstig	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Stuttgart	Stuttgart	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	NamedEntity=Yes
 12	übernachtet	übernachten	VERB	VVPP	VerbForm=Part	3	parataxis	_	SpaceAfter=No
@@ -4600,7 +4600,7 @@
 4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 5	)	)	PUNCT	$(	_	3	punct	_	_
 6	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-7	direkt	direkt	ADV	ADJD	_	10	advmod	_	_
+7	direkt	direkt	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -4615,7 +4615,7 @@
 3	sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
 5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-6	echt	echt	ADV	ADJD	_	7	advmod	_	_
+6	echt	echt	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	klasse	klasse	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 8	!	!	PUNCT	$.	_	7	punct	_	_
 
@@ -4661,22 +4661,22 @@
 8	Tanja	Tanja	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	NamedEntity=Yes
 9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-11	positiv	positiv	ADV	ADJD	_	12	advmod	_	_
+11	positiv	positiv	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 12	überrascht	überraschen	ADJ	ADJD	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
 # sent_id = test-s270
 # text = Unkompliziert, schnell (innerhalb 2 Stunden) und günstig habe ich jetzt 4 neue Sommerreifen drauf (die waren sowieso runter).
-1	Unkompliziert	unkompliziert	ADV	ADJD	_	11	advmod	_	SpaceAfter=No
+1	Unkompliziert	unkompliziert	ADJ	ADJD	Degree=Pos	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
-3	schnell	schnell	ADV	ADJD	_	1	conj	_	_
+3	schnell	schnell	ADJ	ADJD	Degree=Pos	1	conj	_	_
 4	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	_
 6	2	2	NUM	CARD	NumType=Card	7	nummod	_	_
 7	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 8	)	)	PUNCT	$(	_	7	punct	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
-10	günstig	günstig	ADV	ADJD	_	1	conj	_	_
+10	günstig	günstig	ADJ	ADJD	Degree=Pos	1	conj	_	_
 11	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 13	jetzt	jetzt	ADV	ADV	_	11	advmod	_	_
@@ -4688,7 +4688,7 @@
 19	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	20	nsubj	_	_
 20	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	appos	_	_
 21	sowieso	sowieso	ADV	ADV	_	20	advmod	_	_
-22	runter	runter	ADV	ADJD	_	20	advmod	_	SpaceAfter=No
+22	runter	runter	ADJ	ADJD	Degree=Pos	20	advmod	_	SpaceAfter=No
 23	)	)	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -4812,7 +4812,7 @@
 # sent_id = test-s278
 # text = War definitiv nicht das Letzte Mal hier und einen Gutschein für eine Kosmetikbehandlung für Mutti habe ich auch noch mitgenommen :-)
 1	War	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-2	definitiv	definitiv	ADV	ADJD	_	3	advmod	_	_
+2	definitiv	definitiv	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
 4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 5	Letzte	letzt	ADJ	NN	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -5022,7 +5022,7 @@
 11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	für	für	ADP	APPR	_	16	case	_	_
 13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-14	auffällig	auffällig	ADV	ADJD	_	15	advmod	_	_
+14	auffällig	auffällig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 15	ratlose	ratlos	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
 16	Verhalten	Verhalten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -5040,7 +5040,7 @@
 8	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 9	und	und	CCONJ	KON	_	13	cc	_	_
 10	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
-11	gemütlich	gemütlich	ADV	ADJD	_	13	advmod	_	_
+11	gemütlich	gemütlich	ADJ	ADJD	Degree=Pos	13	advmod	_	_
 12	essen	essen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	_
 13	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
@@ -5070,7 +5070,7 @@
 # text = Zimmer sind vorsichtig ausgedrückt, schmuddelig, vor allem das Bad ist runtergewirtschaftet, schimmelige Deckenecken
 1	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	vorsichtig	vorsichtig	ADV	ADJD	_	4	advmod	_	_
+3	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	ausgedrückt	ausdrücken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	6	punct	_	_
 6	schmuddelig	schmuddelig	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
@@ -5097,7 +5097,7 @@
 8	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
 9	Restaurants	Restaurant	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	11	punct	_	_
-11	permanent	permanent	ADV	ADJD	_	2	advmod	_	_
+11	permanent	permanent	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 12	nach	nach	ADP	APPR	_	13	case	_	_
 13	Friteusenfett	Friteusenfett	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 
@@ -5138,7 +5138,7 @@
 6	bei	bei	ADP	APPR	_	8	case	_	_
 7	schönen	schön	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	Wetter	Wetter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
-9	wunderbar	wunderbar	ADV	ADJD	_	13	advmod	_	_
+9	wunderbar	wunderbar	ADJ	ADJD	Degree=Pos	13	advmod	_	_
 10	auf	auf	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Terasse	Terasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
@@ -5165,7 +5165,7 @@
 
 # sent_id = test-s300
 # text = Zusätzlich bekam man Kopfschmerzen nach einer kurzen Zeit.
-1	Zusätzlich	zusätzlich	ADV	ADJD	_	2	advmod	_	_
+1	Zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	bekam	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 4	Kopfschmerzen	Kopfschmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
@@ -5178,7 +5178,7 @@
 # sent_id = test-s301
 # text = Zwischenstopp dringend empfohlen!
 1	Zwischenstopp	Zwischenstopp	NOUN	ADV	_	3	nsubj:pass	_	_
-2	dringend	dringend	ADV	ADJD	_	3	advmod	_	_
+2	dringend	dringend	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 3	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
@@ -5484,7 +5484,7 @@
 3	Franjo	Franjo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NamedEntity=Yes
 4	Tudjman	Tudjman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
 5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-6	erneut	erneut	ADV	ADJD	_	12	advmod	_	_
+6	erneut	erneut	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 7	mit	mit	ADP	APPR	_	10	case	_	_
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	militärischen	militärisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -5622,7 +5622,7 @@
 30	)	)	PUNCT	$(	_	29	punct	_	_
 31	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	32	nmod	_	_
 32	Mark	Mark	NOUN	NN	Gender=Fem	38	obl	_	_
-33	tiefer	tief	ADV	ADJD	_	38	advmod	_	_
+33	tiefer	tief	ADJ	ADJD	Degree=Cmp	38	advmod	_	_
 34	in	in	ADP	APPR	_	37	case	_	_
 35	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 36	rote	rot	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
@@ -5739,7 +5739,7 @@
 8	scharfer	scharf	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	aber	aber	ADV	KON	_	15	cc	_	_
-11	peinlich	peinlich	ADV	ADJD	_	15	advmod	_	_
+11	peinlich	peinlich	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 12	auf	auf	ADP	APPR	_	14	case	_	_
 13	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
 14	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	_
@@ -5852,7 +5852,7 @@
 39	von	von	ADP	APPR	_	41	case	_	_
 40	drei	drei	NUM	CARD	NumType=Card	41	nummod	_	_
 41	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	38	nmod	_	_
-42	wirkungsvoll	wirkungsvoll	ADV	ADJD	_	30	advmod	_	_
+42	wirkungsvoll	wirkungsvoll	ADJ	ADJD	Degree=Pos	30	advmod	_	_
 43	zu	zu	ADP	APPR	_	45	case	_	_
 44	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det:poss	_	_
 45	Verteidigung	Verteidigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
@@ -5877,7 +5877,7 @@
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
 2	Amerikaner	Amerikaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	hart	hart	ADV	ADJD	_	5	advmod	_	_
+4	hart	hart	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	16	punct	_	_
 7	um	um	ADP	KOUI	_	16	mark	_	_
@@ -5955,7 +5955,7 @@
 4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Europäischen	europäisch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	NamedEntity=Yes
 6	Gemeinschaft	Gemeinschaft	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	5	flat	_	NamedEntity=Yes
-7	rund	rund	ADV	ADJD	_	8	advmod	_	_
+7	rund	rund	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	vier	vier	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
 10	Mark	Mark	NOUN	NN	Gender=Fem	2	obj	_	_
@@ -6091,7 +6091,7 @@
 12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	Instituts	Institut	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 14	1996	1996	NUM	CARD	NumType=Card	16	obl	_	_
-15	deutlich	deutlich	ADV	ADJD	_	16	advmod	_	_
+15	deutlich	deutlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	abschwächen	abschwächen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
@@ -6106,7 +6106,7 @@
 7	warum	warum	ADV	PWAV	PronType=Int	11	advmod	_	_
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
-10	rechtzeitig	rechtzeitig	ADV	ADJD	_	11	advmod	_	_
+10	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 11	gelungen	gelingen	VERB	VVPP	VerbForm=Part	5	advcl	_	_
 12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	24	punct	_	_
@@ -6153,10 +6153,10 @@
 2	Arbeitsgruppen	Arbeitsgruppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	dep	_	_
 3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
-5	anschließend	anschließend	ADV	ADJD	_	14	advmod	_	_
+5	anschließend	anschließend	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 6	Politiker	Politiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
 7	und	und	CCONJ	KON	_	10	cc	_	_
-8	rund	rund	ADV	ADJD	_	9	advmod	_	_
+8	rund	rund	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 9	300	300	NUM	CARD	NumType=Card	10	nummod	_	_
 10	Experten	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
 11	mit	mit	ADP	APPR	_	13	case	_	_
@@ -6221,7 +6221,7 @@
 14	Empfindungen	Empfindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
 15	hindurchzudringen	hindurchdringen	VERB	VVIZU	VerbForm=Inf	2	acl	_	_
 16	und	und	CCONJ	KON	_	22	cc	_	_
-17	gleichzeitig	gleichzeitig	ADV	ADJD	_	22	advmod	_	_
+17	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	22	advmod	_	_
 18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Distanz	Distanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
 20	dazu	dazu	ADV	PAV	PronType=Dem	22	advmod	_	_
@@ -6346,7 +6346,7 @@
 5	mehreren	mehr	DET	PIAT	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
 6	zentralen	zentral	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	Sperren	Sperre	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
-8	massiv	massiv	ADV	ADJD	_	3	advmod	_	_
+8	massiv	massiv	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 9	und	und	CCONJ	KON	_	11	cc	_	_
 10	mit	mit	ADP	APPR	_	11	case	_	_
 11	Panzerfahrzeugen	Panzerfahrzeug	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	conj	_	_
@@ -6471,7 +6471,7 @@
 1	Buna	Buna	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	NamedEntity=Yes
 2	allein	allein	ADV	ADV	_	1	advmod	_	_
 3	beschäftigte	beschäftigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	früher	früh	ADV	ADJD	_	3	advmod	_	_
+4	früher	früh	ADJ	ADJD	Degree=Cmp	3	advmod	_	_
 5	etwa	etwa	ADV	ADV	_	6	advmod	_	_
 6	20	20	NUM	CARD	NumType=Card	7	nummod	_	_
 7	000	000	NUM	CARD	NumType=Card	8	nummod	_	_
@@ -6580,7 +6580,7 @@
 7	deutschen	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	Wirtschaft	Wirtschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 9	noch	noch	ADV	ADV	_	10	advmod	_	_
-10	stärker	stark	ADV	ADJD	_	17	advmod	_	_
+10	stärker	stark	ADJ	ADJD	Degree=Cmp	17	advmod	_	_
 11	``	``	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 12	auf	auf	ADP	APPR	_	16	case	_	_
 13	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	_
@@ -6693,7 +6693,7 @@
 7	in	in	ADP	APPR	_	8	case	_	_
 8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	NamedEntity=Yes
 9	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
-10	annähernd	annähernd	ADV	ADJD	_	3	advmod	_	_
+10	annähernd	annähernd	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 11	mit	mit	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 12	''	''	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	3	punct	_	_
@@ -6916,7 +6916,7 @@
 2	deutscher	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	Touristin	Touristin	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	muß	müssen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	lebenslang	lebenslang	ADV	ADJD	_	4	advmod	_	_
+5	lebenslang	lebenslang	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Haft	Haft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 
@@ -6990,7 +6990,7 @@
 3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	doch	doch	ADV	ADV	_	3	advmod	_	_
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
-6	privat	privat	ADV	ADJD	_	3	advmod	_	_
+6	privat	privat	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 8	Dach	Dach	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 9	über	über	ADP	APPR	_	11	case	_	_
@@ -7037,7 +7037,7 @@
 # text = ``Die ursprünglich vorgesehene Quote von 2500 ist 1995 nicht mehr zu erreichen.
 1	``	``	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-3	ursprünglich	ursprünglich	ADV	ADJD	_	4	advmod	_	_
+3	ursprünglich	ursprünglich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 4	vorgesehene	vorgesehen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	Quote	Quote	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
@@ -7110,9 +7110,9 @@
 10	Kompromiß	Kompromiß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	compound	_	SpaceAfter=No
 11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 12	Gegner	Gegner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
-13	offenbar	offenbar	ADV	ADJD	_	5	advmod	_	_
+13	offenbar	offenbar	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 14	ziemlich	ziemlich	ADV	ADV	_	15	advmod	_	_
-15	gut	gut	ADV	ADJD	_	5	advmod	_	_
+15	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 16	an	an	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -7174,7 +7174,7 @@
 4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Zimmerpreise	Zimmerpreis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
 6	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	unverändert	unverändert	ADV	ADJD	_	8	advmod	_	_
+7	unverändert	unverändert	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	groß	groß	ADJ	ADJD	Degree=Pos	6	xcomp	_	SpaceAfter=No
 9	:	:	PUNCT	$.	_	6	punct	_	_
 
@@ -7286,7 +7286,7 @@
 13	bestätigen	bestätigen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	2	punct	_	_
 15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-16	international	international	ADV	ADJD	_	24	advmod	_	_
+16	international	international	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 17	und	und	CCONJ	KON	_	16	cc	_	_
 18	bei	bei	ADP	APPR	_	20	case	_	_
 19	Nigerias	Nigeria	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	NamedEntity=Yes
@@ -7436,7 +7436,7 @@
 8	daß	daß	SCONJ	KOUS	_	14	mark	_	_
 9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Europäer	Europäer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
-11	plötzlich	plötzlich	ADV	ADJD	_	14	advmod	_	_
+11	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	DM	Deutsche_Mark	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	NamedEntity=Yes
 14	regieren	regieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
@@ -7483,7 +7483,7 @@
 7	Sommer	Sommer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 8	schon	schon	ADV	ADV	_	3	advmod	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
-10	unwiderstehlich	unwiderstehlich	ADV	ADJD	_	3	advmod	_	_
+10	unwiderstehlich	unwiderstehlich	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Schweiz	Schweiz	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	NamedEntity=Yes|SpaceAfter=No
@@ -7555,7 +7555,7 @@
 5	Weltmarktebene	Weltmarktebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
 6	mußte	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
 7	aber	aber	ADV	ADV	_	20	advmod	_	_
-8	zwangsläufig	zwangsläufig	ADV	ADJD	_	20	advmod	_	_
+8	zwangsläufig	zwangsläufig	ADJ	ADJD	Degree=Pos	20	advmod	_	_
 9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
 11-12	zur	_	_	_	_	_	_	_	_
@@ -7584,7 +7584,7 @@
 9	,	,	PUNCT	$,	_	6	punct	_	_
 10	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	_
-12	länger	lang	ADV	ADJD	_	13	advmod	_	_
+12	länger	lang	ADJ	ADJD	Degree=Cmp	13	advmod	_	_
 13	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
 
@@ -7641,7 +7641,7 @@
 15	,	,	PUNCT	$,	_	23	punct	_	_
 16	weil	weil	SCONJ	KOUS	_	23	mark	_	_
 17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-18	grundsätzlich	grundsätzlich	ADV	ADJD	_	23	advmod	_	_
+18	grundsätzlich	grundsätzlich	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 19	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	20	det	_	_
 20	Strafpunktesystem	Strafpunktesystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
 21	mit	mit	ADP	APPR	_	22	case	_	_
@@ -7668,7 +7668,7 @@
 3	Christiania	Christiania	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	NamedEntity=Yes
 4	scheitert	scheitern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	knapp	knapp	ADV	ADJD	_	4	advmod	_	_
+6	knapp	knapp	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 
 # sent_id = test-s408
 # text = Das Flugzeug mit sechs Offizieren und 13 Soldaten der Luftwaffe an Bord transportierte Treibstoff, Waffen und Munition von der Hauptstadt Colombo zum Stützpunkt Palay auf der Halbinsel Jaffna, der Hochburg der aufständischen Tamilen.
@@ -7749,7 +7749,7 @@
 17	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	auf	auf	ADP	APPR	_	26	case	_	_
 19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-20	angeblich	angeblich	ADV	ADJD	_	24	advmod	_	_
+20	angeblich	angeblich	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 21	mit	mit	ADP	APPR	_	24	case	_	_
 22	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	23	det	_	_
 23	Milliarde	Milliarde	NUM	NN	Case=Dat|Gender=Fem|Number=Sing|NumType=Card	24	nummod	_	_
@@ -7863,7 +7863,7 @@
 12	mindestens	mindestens	ADV	ADV	_	13	advmod	_	_
 13	15	15	NUM	CARD	NumType=Card	14	nummod	_	_
 14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	_
-15	rechtmäßig	rechtmäßig	ADV	ADJD	_	17	advmod	_	_
+15	rechtmäßig	rechtmäßig	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 16	hier	hier	ADV	ADV	_	17	advmod	_	_
 17	gelebt	leben	VERB	VVPP	VerbForm=Part	7	advcl	_	_
 18	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -7887,7 +7887,7 @@
 5	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
 6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Entführer	Entführer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
-8	leicht	leicht	ADV	ADJD	_	9	advmod	_	_
+8	leicht	leicht	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 9	erkrankt	erkranken	VERB	VVPP	VerbForm=Part	15	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	13	punct	_	_
 11	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
@@ -8039,7 +8039,7 @@
 7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 8	zuständigen	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
-10	weltweit	weltweit	ADV	ADJD	_	14	advmod	_	_
+10	weltweit	weltweit	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 12	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
 13	Mindestanforderungen	Mindestanforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl:arg	_	_
@@ -8080,7 +8080,7 @@
 16	--	--	PUNCT	$(	_	4	punct	_	_
 17	allerdings	allerdings	CCONJ	ADV	_	4	cc	_	_
 18	etwas	etwas	ADV	ADV	PronType=Ind	19	advmod	_	_
-19	moderater	moderat	ADJ	ADJD	Degree=Pos	4	amod	_	_
+19	moderater	moderat	ADJ	ADJD	Degree=Cmp	4	amod	_	_
 20	als	als	CCONJ	KOKOM	_	19	dep	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -8197,7 +8197,7 @@
 8	wie	wie	CCONJ	KOKOM	_	11	case	_	_
 9	nur	nur	ADV	ADV	_	11	advmod	_	_
 10	irgend	irgend	ADV	ADV	_	11	advmod	_	_
-11	möglich	möglich	ADV	ADJD	_	7	advmod	_	_
+11	möglich	möglich	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 12	zu	zu	PART	PTKZU	_	7	mark	_	_
 13	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	4	punct	_	_
@@ -8265,10 +8265,10 @@
 22	seit	seit	ADP	APPR	_	23	case	_	_
 23	1991	1991	NUM	CARD	NumType=Card	18	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	26	punct	_	_
-25	unmittelbar	unmittelbar	ADV	ADJD	_	26	advmod	_	_
+25	unmittelbar	unmittelbar	ADJ	ADJD	Degree=Pos	26	advmod	_	_
 26	bevorzustehen	bevorstehen	VERB	VVIZU	VerbForm=Inf	6	xcomp	_	_
 27	und	und	CCONJ	KON	_	32	cc	_	_
-28	gleichsam	gleichsam	ADV	ADJD	_	32	advmod	_	_
+28	gleichsam	gleichsam	ADJ	ADJD	Degree=Pos	32	advmod	_	_
 29	nur	nur	ADV	ADV	_	32	advmod	_	_
 30	mehr	mehr	ADV	ADV	_	32	advmod	_	_
 31	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	32	det	_	_
@@ -8415,7 +8415,7 @@
 4	eben	eben	ADV	ADV	_	8	advmod	_	_
 5	``	``	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 6	ganz	ganz	ADV	ADV	_	7	advmod	_	_
-7	schön	schön	ADV	ADJD	_	8	advmod	_	_
+7	schön	schön	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	dünne	dünn	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	wenn	wenn	SCONJ	KOUS	_	15	mark	_	_
@@ -8469,7 +8469,7 @@
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	9	nsubj	_	_
 7	nun	nun	ADV	ADV	_	9	advmod	_	_
-8	stark	stark	ADV	ADJD	_	9	advmod	_	_
+8	stark	stark	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 9	anziehen	anziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	2	punct	_	_
 11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -8952,7 +8952,7 @@
 2	Lastwagenkolonne	Lastwagenkolonne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
-5	rund	rund	ADV	ADJD	_	6	advmod	_	_
+5	rund	rund	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	zehn	zehn	NUM	CARD	NumType=Card	7	nummod	_	_
 7	Polizeifahrzeugen	Polizeifahrzeug	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	obl:agent	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
@@ -8960,7 +8960,7 @@
 10	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
 11	335	335	NUM	CARD	NumType=Card	10	nummod	_	_
 12	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	_
-13	westlich	westlich	ADV	ADJD	_	12	advmod	_	_
+13	westlich	westlich	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 14	von	von	ADP	APPR	_	15	case	_	_
 15	Tokio	Tokio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	NamedEntity=Yes
 16	eskortiert	eskortieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -9025,7 +9025,7 @@
 4	sprach	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	allerdings	allerdings	ADV	ADV	_	4	advmod	_	_
-7	gleichzeitig	gleichzeitig	ADV	ADJD	_	4	advmod	_	_
+7	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 8	für	für	ADP	APPR	_	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
@@ -9180,8 +9180,8 @@
 15	--	--	PUNCT	$(	_	21	punct	_	_
 16	abzüglich	abzüglich	ADP	APPR	_	21	case	_	_
 17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-18	offenkundig	offenkundig	ADV	ADJD	_	20	advmod	_	_
-19	nachbarschaftlich	nachbarschaftlich	ADV	ADJD	_	20	advmod	_	_
+18	offenkundig	offenkundig	ADJ	ADJD	Degree=Pos	20	advmod	_	_
+19	nachbarschaftlich	nachbarschaftlich	ADJ	ADJD	Degree=Pos	20	advmod	_	_
 20	befangenen	befangen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 21	Skandinavier	Skandinavier	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
 22	--	--	PUNCT	$(	_	21	punct	_	_
@@ -9422,7 +9422,7 @@
 25	Auslieferung	Auslieferung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 26	nach	nach	ADP	APPR	_	27	case	_	_
 27	Italien	Italien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	NamedEntity=Yes
-28	frei	frei	ADV	ADJD	_	29	mark	_	_
+28	frei	frei	ADJ	ADJD	Degree=Pos	29	mark	_	_
 29	gemacht	machen	VERB	VVPP	VerbForm=Part	18	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	18	punct	_	_
 
@@ -9495,7 +9495,7 @@
 6	zogen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	sofort	sofort	ADV	ADV	_	6	advmod	_	_
 8	um	um	ADP	APPR	_	11	case	_	_
-9	rund	rund	ADV	ADJD	_	10	advmod	_	_
+9	rund	rund	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	4,5	4,5	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Prozent	Prozent	NOUN	NN	Gender=Neut	6	obl	_	_
 12	oder	oder	CCONJ	KON	_	14	cc	_	_
@@ -9550,7 +9550,7 @@
 19	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 20	EuGH	EuGH	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	NamedEntity=Yes|SpaceAfter=No
 21	)	)	PUNCT	$(	_	20	punct	_	_
-22	scharf	scharf	ADV	ADJD	_	23	advmod	_	_
+22	scharf	scharf	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 23	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	37	punct	_	_
 25	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	37	nsubj	_	_
@@ -9686,7 +9686,7 @@
 # text = Post baut angeblich Perosnal ab
 1	Post	Post	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	baut	bauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	angeblich	angeblich	ADV	ADJD	_	2	advmod	_	_
+3	angeblich	angeblich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 4	Perosnal	Perosnal	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 5	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	_
 
@@ -9777,7 +9777,7 @@
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	Europäischen	europäisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	Gemeinschaft	Gemeinschaft	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	NamedEntity=Yes
-10	rund	rund	ADV	ADJD	_	11	advmod	_	_
+10	rund	rund	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 11	vier	vier	NUM	CARD	NumType=Card	12	nummod	_	_
 12	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
 13	Mark	Mark	NOUN	NN	Gender=Fem	5	obj	_	_
@@ -9868,7 +9868,7 @@
 21	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Gegner	Gegner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 23	besonders	besonders	ADV	ADV	_	24	advmod	_	_
-24	brutal	brutal	ADV	ADJD	_	28	advmod	_	_
+24	brutal	brutal	ADJ	ADJD	Degree=Pos	28	advmod	_	_
 25-26	zur	_	_	_	_	_	_	_	_
 25	zu	zu	ADP	APPR	_	27	case	_	_
 26	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -10337,7 +10337,7 @@
 10	sei	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 11	bisher	bisher	ADV	ADV	_	10	advmod	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
-13	klar	klar	ADV	ADJD	_	10	advmod	_	SpaceAfter=No
+13	klar	klar	ADJ	ADJD	Degree=Pos	10	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	25	punct	_	_
 15	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	25	nsubj	_	_
 16	bei	bei	ADP	APPR	_	18	case	_	_
@@ -10569,7 +10569,7 @@
 # text = Wenige Stunden später wurde in Belfast ein Katholik angeschossen und schwer verletzt.
 1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
 2	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
-3	später	spät	ADV	ADJD	_	2	advmod	_	_
+3	später	spät	ADJ	ADJD	Degree=Cmp	2	advmod	_	_
 4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	aux:pass	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
 6	Belfast	Belfast	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	NamedEntity=Yes
@@ -10577,7 +10577,7 @@
 8	Katholik	Katholik	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 9	angeschossen	anschießen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
-11	schwer	schwer	ADV	ADJD	_	12	advmod	_	_
+11	schwer	schwer	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 12	verletzt	verletzen	VERB	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	9	punct	_	_
 
@@ -10649,7 +10649,7 @@
 20	)	)	PUNCT	$(	_	19	punct	_	SpaceAfter=No
 21	''	''	PUNCT	$(	_	19	punct	_	_
 22	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	_
-23	eindeutig	eindeutig	ADV	ADJD	_	24	advmod	_	_
+23	eindeutig	eindeutig	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 24	erwähnt	erwähnen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
 25	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	3	punct	_	_
@@ -10673,7 +10673,7 @@
 15	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	_
 16	Urteils	Urteil	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
 17	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
-18	rechtmäßig	rechtmäßig	ADV	ADJD	_	19	advmod	_	_
+18	rechtmäßig	rechtmäßig	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 19	konstituierten	konstituiert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
 20	Gerichts	Gericht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
 21	vollzogen	vollziehen	VERB	VVPP	VerbForm=Part	36	ccomp	_	_
@@ -10909,7 +10909,7 @@
 4	Zahlungen	Zahlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	Handelserleichterungen	Handelserleichterung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	_
-7	künftig	künftig	ADV	ADJD	_	8	advmod	_	_
+7	künftig	künftig	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	ausgesetzt	aussetzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
@@ -10948,7 +10948,7 @@
 15	Kürze	Kürze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
 16	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 17	und	und	CCONJ	KON	_	21	cc	_	_
-18	rund	rund	ADV	ADJD	_	19	advmod	_	_
+18	rund	rund	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
 20	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
 21	dauern	dauern	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No
@@ -10959,7 +10959,7 @@
 1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
 2	Vertrag	Vertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	offiziell	offiziell	ADV	ADJD	_	3	advmod	_	_
+4	offiziell	offiziell	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 5	bis	bis	ADP	APPR	_	9	case	_	_
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
@@ -11027,7 +11027,7 @@
 12	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 13	in	in	ADP	APPR	_	17	case	_	_
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-15	vermeintlich	vermeintlich	ADV	ADJD	_	16	advmod	_	_
+15	vermeintlich	vermeintlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	sicheren	sicher	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 17	Tod	Tod	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 18	stürzte	stürzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
@@ -11204,7 +11204,7 @@
 2	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
-5	weit	weit	ADV	ADJD	_	6	advmod	_	_
+5	weit	weit	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
@@ -11516,7 +11516,7 @@
 6	dann	dann	ADV	ADV	_	5	advmod	_	_
 7	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
-9	voll	voll	ADV	ADJD	_	10	advmod	_	_
+9	voll	voll	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 11	und	und	CCONJ	KON	_	20	cc	_	_
 12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	19	det	_	_
@@ -11635,7 +11635,7 @@
 20	um	um	ADP	KOUI	_	24	mark	_	_
 21	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
 22	darüber	darüber	ADV	PAV	PronType=Dem	24	advmod	_	_
-23	öffentlich	öffentlich	ADV	ADJD	_	24	advmod	_	_
+23	öffentlich	öffentlich	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 24	erregen	erregen	VERB	VVINF	VerbForm=Inf	17	advcl	_	_
 25	zu	zu	PART	PTKZU	_	24	mark	_	_
 26	können	können	AUX	VMINF	VerbForm=Inf	24	aux	_	SpaceAfter=No
@@ -11649,7 +11649,7 @@
 4	Jägers	Jäger	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
 5	90	90	PROPN	CARD	NumType=Card	4	flat	_	NamedEntity=Yes
 6	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	unmittelbar	unmittelbar	ADV	ADJD	_	13	advmod	_	_
+7	unmittelbar	unmittelbar	ADJ	ADJD	Degree=Pos	13	advmod	_	_
 8	vor	vor	ADP	APPR	_	13	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 10	für	für	ADP	APPR	_	11	case	_	_
@@ -11715,7 +11715,7 @@
 11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Koalition	Koalition	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 13	deswegen	deswegen	ADV	PAV	_	8	advmod	_	_
-14	erneut	erneut	ADV	ADJD	_	8	advmod	_	_
+14	erneut	erneut	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 15	darauf	darauf	ADV	PAV	PronType=Dem	8	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	24	punct	_	_
 17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	18	det	_	_
@@ -11974,7 +11974,7 @@
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	parteilose	parteilos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	Selfmademan	Selfmademan	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-7	gut	gut	ADV	ADJD	_	3	advmod	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -12058,7 +12058,7 @@
 17	Erdgas	Erdgas	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	compound	_	SpaceAfter=No
 18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 19	Pipeline	Pipeline	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
-20	quer	qu	ADV	ADJD	_	23	advmod	_	_
+20	quer	qu	ADJ	ADJD	Degree=Cmp	23	advmod	_	_
 21	durch	durch	ADP	APPR	_	23	case	_	_
 22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	Ogoniland	Ogoniland	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	NamedEntity=Yes|SpaceAfter=No
@@ -12095,7 +12095,7 @@
 2	Passau	Passau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	NamedEntity=Yes
 3	existiert	existieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	seit	seit	ADP	APPR	_	7	case	_	_
-5	gut	gut	ADV	ADJD	_	6	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	20	20	NUM	CARD	NumType=Card	7	nummod	_	_
 7	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
 8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
@@ -12103,10 +12103,10 @@
 10	,	,	PUNCT	$,	_	17	punct	_	_
 11	wo	wo	ADV	PWAV	PronType=Int	17	mark	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
-13	gut	gut	ADV	ADJD	_	17	advmod	_	_
+13	gut	gut	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 14	oder	oder	CCONJ	KON	_	16	cc	_	_
 15	so	so	ADV	ADV	_	16	advmod	_	_
-16	schlecht	schlecht	ADV	ADJD	_	13	conj	_	_
+16	schlecht	schlecht	ADJ	ADJD	Degree=Pos	13	conj	_	_
 17	gelehrt	lehren	VERB	VVPP	VerbForm=Part	9	acl	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	geforscht	forschen	VERB	VVPP	VerbForm=Part	17	conj	_	_
@@ -12174,7 +12174,7 @@
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Westen	Weste|Westen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 10	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	_
-11	ungebührlich	ungebührlich	ADV	ADJD	_	12	advmod	_	_
+11	ungebührlich	ungebührlich	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 12	harten	hart	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
 13	Bedingungen	Bedingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
 14	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
@@ -12395,7 +12395,7 @@
 7	,	,	PUNCT	$,	_	14	punct	_	_
 8	nachdem	nachdem	SCONJ	KOUS	_	14	mark	_	_
 9	Kohl	Kohl	PROPN	NE	Case=Nom|Number=Sing	14	nsubj	_	NamedEntity=Yes
-10	persönlich	persönlich	ADV	ADJD	_	14	advmod	_	_
+10	persönlich	persönlich	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	Tokio	Tokio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	NamedEntity=Yes
 13	darum	darum	ADV	PAV	PronType=Dem	14	advmod	_	_
@@ -12514,7 +12514,7 @@
 2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Kartellamt	Kartellamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	grundsätzlich	grundsätzlich	ADV	ADJD	_	6	advmod	_	_
+5	grundsätzlich	grundsätzlich	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	reaktiv	reaktiv	ADJ	ADJD	Degree=Pos	9	ccomp	_	SpaceAfter=No
 7	''	''	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
@@ -12551,7 +12551,7 @@
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 10	immer	immer	ADV	ADV	_	14	advmod	_	_
-11	streng	streng	ADV	ADJD	_	14	advmod	_	_
+11	streng	streng	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 12	unter	unter	ADP	APPR	_	13	case	_	_
 13	Kontrolle	Kontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
 14	haben	haben	VERB	VAINF	VerbForm=Inf	7	xcomp	_	_
@@ -12595,7 +12595,7 @@
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	wiederholt	wiederholen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-8	unverdrossen	unverdrossen	ADV	ADJD	_	6	advmod	_	_
+8	unverdrossen	unverdrossen	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 11	Erfolgsformel	Erfolgsformel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
@@ -12633,7 +12633,7 @@
 5	Finanzminister	Finanzminister	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	15	punct	_	_
 7	noch	noch	ADV	ADV	_	8	advmod	_	_
-8	stärker	stark	ADV	ADJD	_	10	advmod	_	_
+8	stärker	stark	ADJ	ADJD	Degree=Cmp	10	advmod	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Werbetrommel	Werbetrommel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 11	bei	bei	ADP	APPR	_	13	case	_	_
@@ -12660,7 +12660,7 @@
 
 # sent_id = test-s626
 # text = Genau dies verbindet sie übrigens mit den Vorläufern des Nationalsozialismus, mit der Weimarer Rechten.
-1	Genau	genau	ADV	ADJD	_	2	advmod	_	_
+1	Genau	genau	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	verbindet	verbinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
@@ -12735,7 +12735,7 @@
 10	)	)	PUNCT	$(	_	9	punct	_	_
 11	zwar	zwar	ADV	ADV	_	2	advmod	_	_
 12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
-13	ausgesprochen	ausgesprochen	ADV	ADJD	_	14	advmod	_	_
+13	ausgesprochen	ausgesprochen	ADJ	ADJD	Degree=Pos	14	advmod	_	_
 14	staatskritisches	staatskritisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 15	Weltbild	Weltbild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
@@ -12777,7 +12777,7 @@
 3	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	übereifriger	übereifrig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	Sportkumpel	Sportkumpel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-6	beharrlich	beharrlich	ADV	ADJD	_	7	advmod	_	_
+6	beharrlich	beharrlich	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	weigerte	weigern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	20	punct	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -12877,7 +12877,7 @@
 3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	jahrelang	jahrelang	ADV	ADJD	_	8	advmod	_	_
+6	jahrelang	jahrelang	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 7	so	so	ADV	ADV	_	8	advmod	_	_
 8	pennen	pennen	VERB	VVINF	VerbForm=Inf	16	ccomp	_	_
 9	und	und	CCONJ	KON	_	13	cc	_	_
@@ -12900,7 +12900,7 @@
 4	von	von	ADP	APPR	_	6	case	_	_
 5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Bewohnern	Bewohner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
-7	sozial	sozial	ADV	ADJD	_	8	advmod	_	_
+7	sozial	sozial	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	flexible	flexibel	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	Preise	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 10	kassieren	kassieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -12999,14 +12999,14 @@
 12	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	12	conj	_	_
-15	häufig	häufig	ADV	ADJD	_	25	advmod	_	_
+15	häufig	häufig	ADJ	ADJD	Degree=Pos	25	advmod	_	_
 16	in	in	ADP	APPR	_	20	case	_	_
 17	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-18	übrig	übrig	ADV	ADJD	_	19	advmod	_	_
+18	übrig	übrig	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 19	gelassenen	gelassen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
 20	Zeitlücken	Zeitlücke	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	25	obl	_	_
 21	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-22	beruflich	beruflich	ADV	ADJD	_	23	advmod	_	_
+22	beruflich	beruflich	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 23	flexibilisierten	flexibilisiert	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
 24	Erwachsenen	Erwachsene	NOUN	NN	Case=Gen|Number=Plur	20	nmod	_	_
 25	hineingestopft	hineinstopfen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
@@ -13029,7 +13029,7 @@
 12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	21	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
 14	über	über	ADP	APPR	_	17	case	_	_
-15	männlich	männlich	ADV	ADJD	_	16	advmod	_	_
+15	männlich	männlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	dominierte	dominiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
 17	Gruppen	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obl	_	_
 18	in	in	ADP	APPR	_	20	case	_	_
@@ -13187,7 +13187,7 @@
 9	Kommission	Kommission	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	gestellt	stellen	VERB	VVPP	VerbForm=Part	0	root	_	_
 11	und	und	CCONJ	KON	_	16	cc	_	_
-12	später	spät	ADV	ADJD	_	16	advmod	_	_
+12	später	spät	ADJ	ADJD	Degree=Cmp	16	advmod	_	_
 13	auf	auf	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Treuhandanstalt	Treuhandanstalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
@@ -13222,7 +13222,7 @@
 6	Oder	Oder	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	NamedEntity=Yes
 7	aber	aber	ADV	ADV	_	2	advmod	_	_
 8	stecken	stecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	tief	tief	ADV	ADJD	_	8	advmod	_	_
+9	tief	tief	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Krise	Krise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -13284,7 +13284,7 @@
 19	einst	einst	ADV	ADV	_	21	advmod	_	_
 20	zwangskollektivierten	zwangskollektiviert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
 21	Scholle	Scholle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
-22	neu	neu	ADV	ADJD	_	23	advmod	_	_
+22	neu	neu	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 23	anfangen	anfangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -13429,7 +13429,7 @@
 # sent_id = test-s658
 # text = Mit allabendlich ausgestrahlten Fernsehspots wie diesem sucht Andreas Andrianopoulos, der griechische Minister für Handel und Industrie, seinen Landsleuten die Vorzüge seines Privatisierungsprogramms nahezubringen:
 1	Mit	mit	ADP	APPR	_	4	case	_	_
-2	allabendlich	allabendlich	ADV	ADJD	_	3	advmod	_	_
+2	allabendlich	allabendlich	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 3	ausgestrahlten	ausgestrahlt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	Fernsehspots	Fernsehspot	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
 5	wie	wie	ADP	KOKOM	_	6	case	_	_
@@ -13484,7 +13484,7 @@
 24	zu	zu	PART	PTKZU	_	23	mark	_	_
 25	können	können	AUX	VMINF	VerbForm=Inf	23	aux	_	_
 26	--	--	PUNCT	$(	_	28	punct	_	_
-27	tatsächlich	tatsächlich	ADV	ADJD	_	28	advmod	_	_
+27	tatsächlich	tatsächlich	ADJ	ADJD	Degree=Pos	28	advmod	_	_
 28	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	_
 29	aber	aber	ADV	ADV	_	27	advmod	_	_
 30	nicht	nicht	PART	PTKNEG	Polarity=Neg	31	advmod	_	_
@@ -13509,7 +13509,7 @@
 8	vergangenen	vergangen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	Monate	Monat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	15	punct	_	_
-11	rund	rund	ADV	ADJD	_	12	advmod	_	_
+11	rund	rund	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 12	drei	drei	NUM	CARD	NumType=Card	13	nummod	_	_
 13	Dutzend	Dutzend	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 14	zu	zu	PART	PTKZU	_	15	mark	_	_
@@ -13546,7 +13546,7 @@
 
 # sent_id = test-s662
 # text = Verschärft stellen sich die Probleme für Frauen dar, die oft freiwillig in Nachtschicht gehen, ``weil das familiär für mich ideal ist''.
-1	Verschärft	verschärft	ADV	ADJD	_	2	advmod	_	_
+1	Verschärft	verschärft	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -13557,7 +13557,7 @@
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	15	nsubj	_	_
 11	oft	oft	ADV	ADV	_	15	advmod	_	_
-12	freiwillig	freiwillig	ADV	ADJD	_	15	advmod	_	_
+12	freiwillig	freiwillig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Nachtschicht	Nachtschicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 15	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
@@ -13565,7 +13565,7 @@
 17	``	``	PUNCT	$(	_	23	punct	_	SpaceAfter=No
 18	weil	weil	SCONJ	KOUS	_	23	mark	_	_
 19	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
-20	familiär	familiär	ADV	ADJD	_	23	advmod	_	_
+20	familiär	familiär	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 21	für	für	ADP	APPR	_	22	case	_	_
 22	mich	ich	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	23	nmod	_	_
 23	ideal	ideal	ADJ	ADJD	Degree=Pos	15	advcl	_	_
@@ -13581,7 +13581,7 @@
 4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	21	nsubj	_	_
 5	als	als	ADP	APPR	_	6	case	_	_
 6	Parteivorsitzender	Parteivorsitzender	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
-7	maßgeblich	maßgeblich	ADV	ADJD	_	21	advmod	_	_
+7	maßgeblich	maßgeblich	ADJ	ADJD	Degree=Pos	21	advmod	_	_
 8-9	am	_	_	_	_	_	_	_	_
 8	an	an	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -13621,7 +13621,7 @@
 11	Jelzins	Jelzins	PROPN	NE	Case=Gen|Number=Sing	12	nmod	_	NamedEntity=Yes
 12	Aussage	Aussage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 13	``	``	PUNCT	$(	_	12	punct	_	SpaceAfter=No
-14	vorsichtig	vorsichtig	ADV	ADJD	_	15	advmod	_	_
+14	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 15	analysieren	analysieren	VERB	VVINF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	21	punct	_	_
@@ -13648,7 +13648,7 @@
 1	Während	während	SCONJ	KOUS	_	16	mark	_	_
 2	überall	überall	ADV	ADV	_	16	advmod	_	_
 3	und	und	CCONJ	KON	_	2	cc	_	_
-4	weit	weit	ADV	ADJD	_	7	advmod	_	_
+4	weit	weit	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 5	über	über	ADP	APPR	_	7	case	_	_
 6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Kirchen	Kirche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	_
@@ -13666,7 +13666,7 @@
 19	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 20	verfestigt	verfestigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
 21	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
-22	kirchlich	kirchlich	ADV	ADJD	_	25	advmod	_	_
+22	kirchlich	kirchlich	ADJ	ADJD	Degree=Pos	25	advmod	_	_
 23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 24	autoritäre	autoritär	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
 25	Struktur	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
@@ -13906,7 +13906,7 @@
 20	Industrie	Industrie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	in	in	ADP	APPR	_	25	case	_	_
 22	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-23	israelisch	israelisch	ADV	ADJD	_	24	advmod	_	_
+23	israelisch	israelisch	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 24	besetzten	besetzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
 25	Gebieten	Gebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	27	obl	_	_
 26	zu	zu	PART	PTKZU	_	27	mark	_	_
@@ -14018,7 +14018,7 @@
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	sofortigen	sofortig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
 20	Waffenstillstand	Waffenstillstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-21	bereit	bereit	ADV	ADJD	_	10	advmod	_	SpaceAfter=No
+21	bereit	bereit	ADJ	ADJD	Degree=Pos	10	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = test-s684
@@ -14076,7 +14076,7 @@
 5	Verabschiedung	Verabschiedung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Berichts	Bericht	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-8	rückgängig	rückgängig	ADV	ADJD	_	9	advmod	_	_
+8	rückgängig	rückgängig	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 9	machen	machen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14174,7 +14174,7 @@
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Beisein	Beisein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
 17	von	von	ADP	APPR	_	20	case	_	_
-18	rund	rund	ADV	ADJD	_	19	advmod	_	_
+18	rund	rund	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 19	hundert	hundert	NUM	CARD	NumType=Card	20	nummod	_	_
 20	Delegierten	Delegierter	NOUN	NN	Case=Dat|Number=Plur	16	nmod	_	_
 21	begonnen	beginnen	VERB	VVPP	VerbForm=Part	2	acl	_	_
@@ -14222,7 +14222,7 @@
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Rückzug	Rückzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
 16	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	21	det	_	_
-17	schwer	schwer	ADV	ADJD	_	18	advmod	_	_
+17	schwer	schwer	ADJ	ADJD	Degree=Pos	18	advmod	_	_
 18	bewaffneten	bewaffnet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
 19	Mudjaheddin	Mudjaheddin	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	21	compound	_	NamedEntity=Yes|SpaceAfter=No
 20	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
@@ -14379,7 +14379,7 @@
 2	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 3	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 4	1983	1983	NUM	CARD	NumType=Card	6	nmod	_	_
-5	einseitig	einseitig	ADV	ADJD	_	6	advmod	_	_
+5	einseitig	einseitig	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	ausgerufenen	ausgerufen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 7	``	``	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 8	Türkischen	türkisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
@@ -14388,7 +14388,7 @@
 11	''	''	PUNCT	$(	_	2	punct	_	_
 12	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	nun	nun	ADV	ADV	_	15	advmod	_	_
-14	eilig	eilig	ADV	ADJD	_	15	advmod	_	_
+14	eilig	eilig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
 15	Besitzzertifikate	Besitzzertifikat	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
 16	für	für	ADP	APPR	_	34	case	_	_
 17	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
@@ -14633,7 +14633,7 @@
 9	Grenzen	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
 10	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
 11	wieder	wieder	ADV	ADV	_	5	advmod	_	_
-12	scheinbar	scheinbar	ADV	ADJD	_	5	advmod	_	_
+12	scheinbar	scheinbar	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	bester	gut	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	15	amod	_	_
 15	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
@@ -14647,10 +14647,10 @@
 4	Zeiten	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	_
 5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Visumsfreiheit	Visumsfreiheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
-7	durchschnittlich	durchschnittlich	ADV	ADJD	_	8	advmod	_	_
+7	durchschnittlich	durchschnittlich	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	500	500	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Flüchtlinge	Flüchtling	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
-10	täglich	täglich	ADV	ADJD	_	1	advmod	_	SpaceAfter=No
+10	täglich	täglich	ADJ	ADJD	Degree=Pos	1	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	20	punct	_	_
 12	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
 13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
@@ -15022,7 +15022,7 @@
 12	Parteien	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 13	``	``	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 14	sehr	sehr	ADV	ADV	_	15	advmod	_	_
-15	warm	warm	ADV	ADJD	_	17	advmod	_	SpaceAfter=No
+15	warm	warm	ADJ	ADJD	Degree=Pos	17	advmod	_	SpaceAfter=No
 16	''	''	PUNCT	$(	_	15	punct	_	_
 17	aufgenommen	aufnehmen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
 18	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
@@ -15074,7 +15074,7 @@
 4	Bundesländern	Bundesland	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	_
 5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 6	derzeit	derzeit	ADV	ADV	_	11	advmod	_	_
-7	rund	rund	ADV	ADJD	_	9	advmod	_	_
+7	rund	rund	ADJ	ADJD	Degree=Pos	9	advmod	_	_
 8	10	10	NUM	CARD	NumType=Card	9	nummod	_	_
 9	000	000	NUM	CARD	NumType=Card	10	nummod	_	_
 10	Medizinstudenten	Medizinstudent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -15180,7 +15180,7 @@
 14	Sitzung	Sitzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 15	zusammentritt	zusammentreten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	5	punct	_	_
-17	schnell	schnell	ADV	ADJD	_	19	advmod	_	_
+17	schnell	schnell	ADJ	ADJD	Degree=Pos	19	advmod	_	_
 18	Gesetze	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj:pass	_	_
 19	verabschiedet	verabschieden	VERB	VVPP	VerbForm=Part	0	root	_	_
 20	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	19	aux:pass	_	SpaceAfter=No
@@ -15250,7 +15250,7 @@
 12	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 13	arabischen	arabisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 14	Staaten	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
-15	unterschiedlich	unterschiedlich	ADV	ADJD	_	16	advmod	_	_
+15	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	gravierend	gravierend	ADJ	ADJD	Degree=Pos	17	xcomp	_	_
 17	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	5	punct	_	_
@@ -15376,11 +15376,11 @@
 
 # sent_id = test-s749
 # text = Illegal eingereiste Ayslbewerber sollten umgehend ausgewiesen werden.
-1	Illegal	illegal	ADV	ADJD	_	2	advmod	_	_
+1	Illegal	illegal	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	eingereiste	eingereist	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 3	Ayslbewerber	Ayslbewerber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 4	sollten	sollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-5	umgehend	umgehend	ADV	ADJD	_	6	advmod	_	_
+5	umgehend	umgehend	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 6	ausgewiesen	ausweisen	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	6	punct	_	_
@@ -15750,7 +15750,7 @@
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Gesundung	Gesundung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 23	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	_
-24	recht	recht	ADV	ADJD	_	23	advmod	_	_
+24	recht	recht	ADJ	ADJD	Degree=Pos	23	advmod	_	_
 25	voranzukommen	vorankommen	VERB	VVIZU	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	20	punct	_	_
 
@@ -15844,7 +15844,7 @@
 
 # sent_id = test-s773
 # text = Offenbar versprechen sie sich davon mehr Vorteile für ihre eigenen Nuklearindustrien.
-1	Offenbar	offenbar	ADV	ADJD	_	2	advmod	_	_
+1	Offenbar	offenbar	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	versprechen	versprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
@@ -16103,7 +16103,7 @@
 11	ihrerseits	ihrerseits	ADV	ADV	_	10	advmod	_	_
 12	Eisenbahnstrecken	Eisenbahnstrecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
 13	--	--	PUNCT	$(	_	17	punct	_	_
-14	vornehmlich	vornehmlich	ADV	ADJD	_	17	advmod	_	_
+14	vornehmlich	vornehmlich	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 15-16	im	_	_	_	_	_	_	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
@@ -16220,7 +16220,7 @@
 6	zu	zu	ADP	APPR	_	7	case	_	_
 7	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
 8	in	in	ADP	APPR	_	11	case	_	_
-9	zunehmend	zunehmend	ADV	ADJD	_	10	advmod	_	_
+9	zunehmend	zunehmend	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	bombastischem	bombastisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
 12	und	und	CCONJ	KON	_	16	cc	_	_
@@ -16343,7 +16343,7 @@
 1	Fast	fast	ADV	ADV	_	2	advmod	_	_
 2	alle	alle	DET	PIS	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	12	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-4	rund	rund	ADV	ADJD	_	5	advmod	_	_
+4	rund	rund	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	4000	4000	NUM	CARD	NumType=Card	10	nummod	_	_
 6	für	für	ADP	APPR	_	8	case	_	_
 7	internationale	international	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
@@ -16378,8 +16378,8 @@
 6-7	im	_	_	_	_	_	_	_	_
 6	in	in	ADP	APPR	_	11	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-8	vorwiegend	vorwiegend	ADV	ADJD	_	9	advmod	_	_
-9	kroatisch	kroatisch	ADV	ADJD	_	10	advmod	_	_
+8	vorwiegend	vorwiegend	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	kroatisch	kroatisch	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	bewohnten	bewohnt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	Südwestteil	Südwestteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
@@ -16439,7 +16439,7 @@
 7	Odzak	Odzak	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	NamedEntity=Yes
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	Gradacac	Gradacac	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	NamedEntity=Yes
-10	unmittelbar	unmittelbar	ADV	ADJD	_	13	advmod	_	_
+10	unmittelbar	unmittelbar	ADJ	ADJD	Degree=Pos	13	advmod	_	_
 11	vor	vor	ADP	APPR	_	13	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Einnahme	Einnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
@@ -16455,7 +16455,7 @@
 6	Höhe	Höhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 7	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Abfindung	Abfindung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
-9	gerichtlich	gerichtlich	ADV	ADJD	_	10	advmod	_	_
+9	gerichtlich	gerichtlich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 10	festlegen	festlegen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 11	lassen	lassen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	10	punct	_	_
@@ -16497,7 +16497,7 @@
 21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	3	punct	_	_
 23	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
-24	offenbar	offenbar	ADV	ADJD	_	27	advmod	_	_
+24	offenbar	offenbar	ADJ	ADJD	Degree=Pos	27	advmod	_	_
 25	in	in	ADP	APPR	_	26	case	_	_
 26	Notwehr	Notwehr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
 27	gehandelt	handeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -16533,7 +16533,7 @@
 12	Jahre	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
 13	2005	2005	NUM	CARD	NumType=Card	12	nmod	_	_
 14	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
-15	weit	weit	ADV	ADJD	_	16	advmod	_	_
+15	weit	weit	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 16	mehr	mehr	ADV	PIAT	PronType=Ind	18	advmod	_	_
 17	als	als	ADP	KOKOM	_	18	case	_	_
 18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
@@ -16615,7 +16615,7 @@
 
 # sent_id = test-s811
 # text = Nördlich von Paris blockierten Bauern wegen der EG-Agrarbeschlüsse die Zugverbindung nach Amiens.
-1	Nördlich	nördlich	ADV	ADJD	_	4	advmod	_	_
+1	Nördlich	nördlich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 2	von	von	ADP	APPR	_	3	case	_	_
 3	Paris	Paris	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	NamedEntity=Yes
 4	blockierten	blockieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17097,7 +17097,7 @@
 # text = Er brach blutüberströmt mit Einschüssen in der Brust, im Bauch und in der Nähe der Wirbelsäule zusammen, als er nach der größten Friedensdemonstration in der Geschichte Israels in sein Auto steigen wollte.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	brach	brechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	blutüberströmt	blutüberströmt	ADV	ADJD	_	2	advmod	_	_
+3	blutüberströmt	blutüberströmt	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
 5	Einschüssen	Einschuß	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
@@ -17307,7 +17307,7 @@
 4	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
-7	stärker	stark	ADV	ADJD	_	8	advmod	_	_
+7	stärker	stark	ADJ	ADJD	Degree=Cmp	8	advmod	_	_
 8	thematisieren	thematisieren	VERB	VVINF	VerbForm=Inf	1	appos	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -17352,7 +17352,7 @@
 3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	$.	_	9	punct	_	_
 5	``	``	PUNCT	$(	_	9	punct	_	SpaceAfter=No
-6	Lieber	lieb	ADV	ADJD	_	7	advmod	_	_
+6	Lieber	lieb	ADJ	ADJD	Degree=Cmp	7	advmod	_	_
 7	mal	mal	ADV	ADV	_	9	advmod	_	_
 8	ganz	ganz	ADV	ADV	_	9	advmod	_	_
 9	ruhig	ruhig	ADJ	ADJD	Degree=Pos	3	parataxis	_	SpaceAfter=No
@@ -17377,7 +17377,7 @@
 2	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
 3	Hotels	Hotel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	allein	allein	ADV	ADJD	_	4	advmod	_	_
+5	allein	allein	ADJ	ADJD	Degree=Pos	4	advmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Rangun	Rangun	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	NamedEntity=Yes
 8-9	im	_	_	_	_	_	_	_	_
@@ -17492,7 +17492,7 @@
 11	Tabus	Tabu	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
 12	tangiere	tangieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 13	und	und	CCONJ	KON	_	17	cc	_	_
-14	wahrscheinlich	wahrscheinlich	ADV	ADJD	_	17	advmod	_	_
+14	wahrscheinlich	wahrscheinlich	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 15	auch	auch	ADV	ADV	_	17	advmod	_	_
 16	Aufregung	Aufregung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
 17	auslöse	auslösen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
@@ -17598,7 +17598,7 @@
 11	als	als	ADP	APPR	_	12	case	_	_
 12	Ausländer	Ausländer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
-14	entsprechend	entsprechend	ADV	ADJD	_	16	advmod	_	_
+14	entsprechend	entsprechend	ADJ	ADJD	Degree=Pos	16	advmod	_	_
 15	weniger	wenig	DET	PIAT	Case=Dat|PronType=Ind	16	det	_	_
 16	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
@@ -17626,12 +17626,12 @@
 4	Befugnisse	Befugnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 5	als	als	ADP	APPR	_	6	case	_	_
 6	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
-7	extensiv	extensiv	ADV	ADJD	_	2	advmod	_	_
+7	extensiv	extensiv	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	balancierte	balancieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 11	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
-12	selten	selten	ADV	ADJD	_	11	advmod	_	_
+12	selten	selten	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 13	``	``	PUNCT	$(	_	16	punct	_	SpaceAfter=No
 14	an	an	ADP	APPR	_	16	case	_	_
 15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -17835,7 +17835,7 @@
 27	Politologe	Politologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 28	Mustafa	Mustafa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	27	appos	_	NamedEntity=Yes
 29	Hamarneh	Hamarneh	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	flat	_	NamedEntity=Yes
-30	kategorisch	kategorisch	ADV	ADJD	_	24	advmod	_	_
+30	kategorisch	kategorisch	ADJ	ADJD	Degree=Pos	24	advmod	_	_
 31	fest	fest	ADV	PTKVZ	_	24	compound:prt	_	SpaceAfter=No
 32	:	:	PUNCT	$.	_	35	punct	_	_
 33	``	``	PUNCT	$(	_	35	punct	_	SpaceAfter=No
@@ -17854,7 +17854,7 @@
 3	offizielle	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	Syrien	Syrien	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	NamedEntity=Yes
 5	--	--	PUNCT	$(	_	8	punct	_	_
-6	bemerkenswerter	bemerkenswert	ADJ	ADJD	Degree=Pos	8	amod	_	_
+6	bemerkenswerter	bemerkenswert	ADJ	ADJD	Degree=Cmp	8	amod	_	_
 7	noch	noch	ADV	ADV	_	8	advmod	_	_
 8	Irak	Irak	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	NamedEntity=Yes
 9	--	--	PUNCT	$(	_	8	punct	_	_
@@ -18209,7 +18209,7 @@
 
 # sent_id = test-s897
 # text = Positiv wirkten sich vor allem ``interne Maßnahmen zur Steigerung der Wettbewerbsfähigkeit'' und Volumensteigerungen in allen Sparten aus.
-1	Positiv	positiv	ADV	ADJD	_	2	advmod	_	_
+1	Positiv	positiv	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 2	wirkten	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	vor	vor	ADP	APPR	_	5	case	_	_
@@ -18257,7 +18257,7 @@
 
 # sent_id = test-s899
 # text = Rund die Hälfte der in dem US-Werk gefertigten Autos soll exportiert werden.
-1	Rund	rund	ADV	ADJD	_	3	advmod	_	_
+1	Rund	rund	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 4	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -18368,7 +18368,7 @@
 2	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
-5	schnell	schnell	ADV	ADJD	_	7	advmod	_	_
+5	schnell	schnell	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 6	wieder	wieder	ADV	ADV	_	7	advmod	_	_
 7	zugeschlagen	zuschlagen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
@@ -18488,7 +18488,7 @@
 20	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	_
 21	Pfund	Pfund	NOUN	NN	Gender=Neut	15	nmod	_	_
 22	(	(	PUNCT	$(	_	26	punct	_	SpaceAfter=No
-23	umgerechnet	umgerechnet	ADV	ADJD	_	26	advmod	_	_
+23	umgerechnet	umgerechnet	ADJ	ADJD	Degree=Pos	26	advmod	_	_
 24	960	960	NUM	CARD	NumType=Card	25	nummod	_	_
 25	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	nmod	_	_
 26	Mark	Mark	NOUN	NN	Gender=Fem	21	appos	_	SpaceAfter=No
@@ -18530,7 +18530,7 @@
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Wochenbeginn	Wochenbeginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
 13	etwas	etwas	ADV	ADV	PronType=Ind	14	advmod	_	_
-14	schwächer	schwach	ADV	ADJD	_	15	advmod	_	_
+14	schwächer	schwach	ADJ	ADJD	Degree=Cmp	15	advmod	_	_
 15	geschlossen	schließen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
@@ -18563,7 +18563,7 @@
 23	1996	1996	NUM	CARD	NumType=Card	22	nummod	_	_
 24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
 25	``	``	PUNCT	$(	_	29	punct	_	SpaceAfter=No
-26	konjunkturpolitisch	konjunkturpolitisch	ADV	ADJD	_	29	advmod	_	_
+26	konjunkturpolitisch	konjunkturpolitisch	ADJ	ADJD	Degree=Pos	29	advmod	_	_
 27	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	29	det	_	_
 28	positives	positiv	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
 29	Signal	Signal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	SpaceAfter=No
@@ -18781,7 +18781,7 @@
 # sent_id = test-s930
 # text = Miteinander verschränkt existieren Ethik und Ästhetik, Körperlichkeit und Vernunft.
 1	Miteinander	miteinander	ADV	ADV	_	2	advmod	_	_
-2	verschränkt	verschränken	ADV	ADJD	_	3	advmod	_	_
+2	verschränkt	verschränken	ADJ	ADJD	Degree=Pos	3	advmod	_	_
 3	existieren	existieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Ethik	Ethik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
@@ -18963,7 +18963,7 @@
 43	Erwachsener	Erwachsene	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	$,	_	56	punct	_	_
 45	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	56	det	_	_
-46	hoch	hoch	ADV	ADJD	_	47	advmod	_	_
+46	hoch	hoch	ADJ	ADJD	Degree=Pos	47	advmod	_	_
 47	literarische	literarisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	56	amod	_	_
 48	und	und	CCONJ	KON	_	47	cc	_	_
 49	zugleich	zugleich	ADV	ADV	_	47	advmod	_	_
@@ -19090,7 +19090,7 @@
 7	dagegen	dagegen	ADV	PAV	PronType=Dem	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obj	_	_
-10	widerstandslos	widerstandslos	ADV	ADJD	_	11	advmod	_	_
+10	widerstandslos	widerstandslos	ADJ	ADJD	Degree=Pos	11	advmod	_	_
 11	hinzunehmen	hinnehmen	VERB	VVIZU	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -19164,7 +19164,7 @@
 16	immer	immer	ADV	ADV	_	17	advmod	_	_
 17	zugleich	zugleich	ADV	ADV	_	21	advmod	_	_
 18	auch	auch	ADV	ADV	_	21	advmod	_	_
-19	potentiell	potentiell	ADV	ADJD	_	21	advmod	_	_
+19	potentiell	potentiell	ADJ	ADJD	Degree=Pos	21	advmod	_	_
 20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	advcl	_	_
 22	von	von	ADP	APPR	_	23	case	_	_
@@ -19353,9 +19353,9 @@
 3	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	NamedEntity=Yes
 4	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	noch	noch	ADV	ADV	_	4	advmod	_	_
-6	grob	grob	ADV	ADJD	_	7	advmod	_	_
+6	grob	grob	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	geschätzt	schätzen	ADV	VVPP	VerbForm=Part	4	advmod	_	_
-8	rund	rund	ADV	ADJD	_	10	advmod	_	_
+8	rund	rund	ADJ	ADJD	Degree=Pos	10	advmod	_	_
 9	100	100	NUM	CARD	NumType=Card	10	compound	_	_
 10	000	000	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Asylbewerber	Asylbewerber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -19430,7 +19430,7 @@
 2	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	Leister	Leister	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	NamedEntity=Yes
-5	offen	offen	ADV	ADJD	_	2	advmod	_	_
+5	offen	offen	ADJ	ADJD	Degree=Pos	2	advmod	_	_
 6	auf	auf	ADP	APPR	_	8	case	_	_
 7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Seite	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
@@ -19634,7 +19634,7 @@
 3	gewaltbereite	gewaltbereit	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 4	jüdische	jüdisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	Extremistengruppen	Extremistengruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
-6	entschieden	entschieden	ADV	ADJD	_	7	advmod	_	_
+6	entschieden	entschieden	ADJ	ADJD	Degree=Pos	7	advmod	_	_
 7	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -19666,7 +19666,7 @@
 7	gleich	gleich	ADV	ADV	_	8	advmod	_	_
 8	vier	vier	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Sicherheitsagenten	Sicherheitsagent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-10	unauffällig	unauffällig	ADV	ADJD	_	6	advmod	_	_
+10	unauffällig	unauffällig	ADJ	ADJD	Degree=Pos	6	advmod	_	_
 11	Platz	Platz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	6	punct	_	_
 
