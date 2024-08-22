@@ -2071,9 +2071,9 @@
 7	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Wurm	Wurm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-10	drin	drin	ADJ	ADJD	Degree=Pos	12	mark	_	_
-11	zu	zu	PART	PTKZU	_	12	mark	_	_
-12	sein	sein	VERB	VAINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	drin	drin	ADV	ADV	_	7	xcomp	_	_
+11	zu	zu	PART	PTKZU	_	10	mark	_	_
+12	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = test-s119
@@ -9422,7 +9422,7 @@
 25	Auslieferung	Auslieferung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 26	nach	nach	ADP	APPR	_	27	case	_	_
 27	Italien	Italien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	NamedEntity=Yes
-28	frei	frei	ADJ	ADJD	Degree=Pos	29	mark	_	_
+28	frei	frei	ADJ	ADJD	Degree=Pos	29	xcomp	_	_
 29	gemacht	machen	VERB	VVPP	VerbForm=Part	18	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	18	punct	_	_
 
