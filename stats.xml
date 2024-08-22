@@ -10,15 +10,15 @@
     <dev><sentences>799</sentences><tokens>12316</tokens><words>12480</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42288" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42287" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">21738</tag><!-- erst, gut, groß, neu, weit, spät, deutsch, alt, hoch, klein -->
+    <tag name="ADJ">21737</tag><!-- erst, gut, groß, neu, weit, spät, deutsch, alt, hoch, klein -->
     <tag name="ADP">32105</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">13883</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
-    <tag name="AUX">10662</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
+    <tag name="ADV">13884</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="AUX">10665</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">41206</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1727</tag><!-- dass, da, wenn, als, daß, nachdem, weil, während, wie, ob -->
     <tag name="SYM">99</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
-    <tag name="VERB">20647</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
+    <tag name="VERB">20644</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
     <tag name="X">314</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -43,7 +43,7 @@
     <feat name="Definite" value="Def" upos="DET">29413</feat><!-- der, die, dem, den, das, des, the, 's, ha -->
     <feat name="Definite" value="Ind" upos="DET">5471</feat><!-- eine, ein, einer, einen, einem, eines, eins, ne -->
     <feat name="Degree" value="Cmp" upos="ADJ,DET">1332</feat><!-- später, weitere, mehrere, weiteren, mehr, mehreren, besser, weiter, früher, früheren -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">20095</feat><!-- ersten, erste, gut, neue, bekannt, zweiten, neuen, großen, große, deutschen -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">20094</feat><!-- ersten, erste, gut, neue, bekannt, zweiten, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">523</feat><!-- meisten, nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2542</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50164</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
@@ -91,7 +91,7 @@
     <dep name="acl">2650</dep>
     <dep name="acl:relcl">27</dep>
     <dep name="advcl">1468</dep>
-    <dep name="advmod">17554</dep>
+    <dep name="advmod">17570</dep>
     <dep name="amod">16119</dep>
     <dep name="appos">6931</dep>
     <dep name="aux">3283</dep>
@@ -102,7 +102,7 @@
     <dep name="compound">1532</dep>
     <dep name="compound:prt">1510</dep>
     <dep name="conj">11924</dep>
-    <dep name="cop">3900</dep>
+    <dep name="cop">3903</dep>
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">892</dep>
@@ -114,7 +114,7 @@
     <dep name="fixed">126</dep>
     <dep name="flat">8164</dep>
     <dep name="goeswith">2</dep>
-    <dep name="mark">3149</dep>
+    <dep name="mark">3119</dep>
     <dep name="nmod">21668</dep>
     <dep name="nmod:poss">77</dep>
     <dep name="nsubj">17346</dep>
@@ -132,6 +132,6 @@
     <dep name="reparandum">3</dep>
     <dep name="root">15590</dep>
     <dep name="vocative">7</dep>
-    <dep name="xcomp">1884</dep>
+    <dep name="xcomp">1895</dep>
   </deps>
 </treebank>

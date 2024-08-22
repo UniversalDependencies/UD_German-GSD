@@ -12172,7 +12172,7 @@
 6	,	,	PUNCT	$,	_	14	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	14	mark	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Westen	Weste|Westen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+9	Westen	Westen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 10	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	_
 11	ungebührlich	ungebührlich	ADJ	ADJD	Degree=Pos	12	advmod	_	_
 12	harten	hart	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
