@@ -10,7 +10,7 @@
     <dev><sentences>799</sentences><tokens>12316</tokens><words>12480</words><fused>164</fused></dev>
     <test><sentences>977</sentences><tokens>16224</tokens><words>16498</words><fused>274</fused></test>
   </size>
-  <lemmas unique="42287" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
+  <lemmas unique="42286" /><!-- der, ., ,, in, und, sein, ein, -, werden, von, zu, er, mit, an, " -->
   <forms unique="50592" /><!-- ., ,, der, die, in, und, dem, -, von, zu, den, das, mit, ist, er -->
   <fusions unique="12" /><!-- im, zum, am, zur, vom, beim, ins, ans, ums, aufs, übers, fürs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
