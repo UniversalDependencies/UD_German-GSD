@@ -10598,7 +10598,7 @@
 13	scharfe	scharf	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
 14	Flak	Flak	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	compound	_	SpaceAfter=No
 15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
-16	Granaten	Granat|Granate	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+16	Granaten	Granat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	Panzerfäuste	Panzerfaust	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	_
 19	gespült	spülen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No

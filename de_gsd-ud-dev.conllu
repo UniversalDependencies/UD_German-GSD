@@ -6632,7 +6632,7 @@
 # sent_id = dev-s392
 # text = Die Akte wurde ausführlich besprochen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Akte	Akt|Akte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+2	Akte	Akt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
 4	ausführlich	ausführlich	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	besprochen	besprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
