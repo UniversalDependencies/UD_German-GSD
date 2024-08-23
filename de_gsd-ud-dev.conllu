@@ -5217,7 +5217,7 @@
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	aber	aber	CCONJ	KON	_	12	cc	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Leine	Lein|Leine	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	Leine	Leine	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 12	hing	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 13	durch	durch	ADP	PTKVZ	_	12	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
