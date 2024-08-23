@@ -431,7 +431,7 @@
 1	Auch	auch	ADV	ADV	_	4	advmod	_	_
 2	alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 3	anderen	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
-4	Speisen	Speise|Speisen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+4	Speisen	Speise	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Kuchen	Kuchen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
@@ -456,7 +456,7 @@
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Servieren	Servieren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Speisen	Speise|Speisen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	Speisen	Speise	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 6	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	auffallend	auffallend	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 8	schnell	schnell	ADJ	ADJD	Degree=Pos	6	xcomp	_	SpaceAfter=No
@@ -1327,7 +1327,7 @@
 3	seit	seit	ADP	APPR	_	6	case	_	_
 4	nunmehr	nunmehr	ADV	ADV	_	5	advmod	_	_
 5	20	20	NUM	CARD	NumType=Card	6	nummod	_	_
-6	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+6	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
 7	noch	noch	ADV	ADV	_	9	advmod	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
 9	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -3459,7 +3459,7 @@
 14	Haare	Haar	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	nsubj:pass	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	gewissen	gewiß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
-17	Stellen	Stelle|Stellen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
+17	Stellen	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
 18	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 19	nun	nun	ADV	ADV	_	21	advmod	_	_
 20	dauerhaft	dauerhaft	ADJ	ADJD	Degree=Pos	21	advmod	_	_
@@ -3905,7 +3905,7 @@
 # text = Mehrere kleine Schrauben waren nun nicht mehr mit einer Mutter festgezogen, sondern geklebt..
 1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 2	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
-3	Schrauben	Schraube|Schrauben	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+3	Schrauben	Schraube	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
 5	nun	nun	ADV	ADV	_	11	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
@@ -4034,7 +4034,7 @@
 1	Nach	nach	ADP	APPR	_	4	case	_	_
 2	fast	fast	ADV	ADV	_	3	advmod	_	_
 3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	_
-4	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
+4	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Wartens	Warten	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	12	aux:pass	_	_
@@ -4520,7 +4520,7 @@
 9	nochmals	nochmals	ADV	ADV	_	12	advmod	_	_
 10	ganze	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	advmod	_	_
 11	3	3	NUM	CARD	NumType=Card	12	nummod	_	_
-12	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+12	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
 13	auf	auf	ADP	APPR	_	15	case	_	_
 14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
@@ -4673,7 +4673,7 @@
 4	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	_
 6	2	2	NUM	CARD	NumType=Card	7	nummod	_	_
-7	Stunden	Stunde|Stunden	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 8	)	)	PUNCT	$(	_	7	punct	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	günstig	günstig	ADJ	ADJD	Degree=Pos	1	conj	_	_
@@ -15812,7 +15812,7 @@
 41	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	42	det	_	_
 42	Rathaus	Rathaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	38	obl	_	_
 43	für	für	ADP	APPR	_	44	case	_	_
-44	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	38	obl	_	_
+44	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	38	obl	_	_
 45	in	in	ADP	APPR	_	48	case	_	_
 46	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	48	det	_	_
 47	``	``	PUNCT	$(	_	46	punct	_	SpaceAfter=No
