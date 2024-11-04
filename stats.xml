@@ -106,7 +106,7 @@
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
     <dep name="dep">892</dep>
-    <dep name="det">37392</dep>
+    <dep name="det">37331</dep>
     <dep name="det:poss">2356</dep>
     <dep name="discourse">11</dep>
     <dep name="expl">398</dep>
@@ -115,7 +115,7 @@
     <dep name="flat">8159</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3119</dep>
-    <dep name="nmod">21664</dep>
+    <dep name="nmod">21725</dep>
     <dep name="nmod:poss">77</dep>
     <dep name="nsubj">17346</dep>
     <dep name="nsubj:outer">3</dep>

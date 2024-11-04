@@ -4077,7 +4077,7 @@
 9	essen	essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
 10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	det	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
-12	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	10	det	_	_
+12	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	10	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Öl	Öl	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
 15	bzw	bzw	CCONJ	KON	Abbr=Yes	17	cc	_	SpaceAfter=No
@@ -4474,7 +4474,7 @@
 # text = Alles in allem nur zu empfehlen!!!
 1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	obl	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
-3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	det	_	_
+3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
 5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -5802,7 +5802,7 @@
 # text = Alles in allem nur zu empfehlen....
 1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	obl	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
-3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	det	_	_
+3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	nmod	_	_
 4	nur	nur	ADV	ADV	_	6	advmod	_	_
 5	zu	zu	PART	PTKZU	_	6	mark	_	_
 6	empfehlen	empfehlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -6832,7 +6832,7 @@
 # text = Alles in allem perfekt organisiert.
 1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	obl	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
-3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	det	_	_
+3	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	nmod	_	_
 4	perfekt	perfekt	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 5	organisiert	organisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -7221,7 +7221,7 @@
 # sent_id = dev-s431
 # text = Vor allem die offene Küche und der grosse Aufenthaltsraum sind sehr schön.
 1	Vor	vor	ADP	APPR	_	2	case	_	_
-2	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	5	det	_	_
+2	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	5	nmod	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	offene	offen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	Küche	Küche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
