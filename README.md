@@ -97,6 +97,7 @@ UD instances the precision seems relatively high.
   * Adverbial/predicative forms of adjectives (XPOS=ADJD) have now consistently UPOS=ADJ.
   * Heuristically disambiguated ambiguous lemma strings such as "Wind|Winde|Winden".
     (https://github.com/UniversalDependencies/UD_German-GSD/issues/35)
+  * Fixed deprel of "vor allem", "unter anderem" (https://github.com/UniversalDependencies/docs/issues/1060).
 
 2024-05-15 v2.14
   * Fixed "darüber hinaus" inconsistent annotations (#5).

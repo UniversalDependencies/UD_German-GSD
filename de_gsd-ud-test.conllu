@@ -5076,7 +5076,7 @@
 6	schmuddelig	schmuddelig	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
 8	vor	vor	ADP	APPR	_	9	case	_	_
-9	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	13	det	_	_
+9	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	13	obl	_	_
 10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Bad	Bad	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
 12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
