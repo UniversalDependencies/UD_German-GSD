@@ -1354,7 +1354,7 @@
 17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	20	obl:arg	_	_
 18	sehr	sehr	ADV	ADV	_	19	advmod	_	_
 19	gut	gut	ADJ	ADJD	Degree=Pos	20	advmod	_	_
-20	gefallen	fallen|gefallen	VERB	VVPP	VerbForm=Part	13	ccomp	_	_
+20	gefallen	gefallen	VERB	VVPP	VerbForm=Part	13	ccomp	_	_
 21	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
