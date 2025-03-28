@@ -16,25 +16,25 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">21742</tag><!-- erst, gut, groß, neu, weit, spät, deutsch, alt, hoch, klein -->
-    <tag name="ADP">32111</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">13869</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADP">32083</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
+    <tag name="ADV">13862</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10665</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
-    <tag name="CCONJ">8840</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
+    <tag name="CCONJ">8832</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">41205</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
     <tag name="NOUN">52298</tag><!-- Jahr, zeit, Stadt, Teil, Ort, Frau, Land, Ende, Familie, Tag -->
     <tag name="NUM">7336</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 2008 -->
-    <tag name="PART">2149</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
+    <tag name="PART">2148</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
     <tag name="PRON">10845</tag><!-- er, der, sich, sie, es, ich, wir, man, was, nichts -->
     <tag name="PROPN">30417</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
-    <tag name="SCONJ">1737</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
+    <tag name="SCONJ">1781</tag><!-- dass, als, da, wenn, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">101</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
     <tag name="VERB">20644</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
     <tag name="X">312</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="52">
+  <feats unique="53">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PROPN,VERB,X">48</feat><!-- s, bzgl, bzw, km, l, sog, u, AG, B., Chr -->
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">30687</feat><!-- die, den, sich, das, eine, einen, ein, seine, ihre, Jahre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">47719</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihm, diesem, sich -->
@@ -45,7 +45,8 @@
     <feat name="Degree" value="Cmp" upos="ADJ,DET">1332</feat><!-- später, weitere, mehrere, weiteren, mehr, mehreren, besser, weiter, früher, früheren -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">20096</feat><!-- ersten, erste, gut, neue, bekannt, zweiten, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">523</feat><!-- meisten, nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste -->
-    <feat name="ExtPos" value="ADV" upos="ADP">9</feat><!-- nach -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV">47</feat><!-- mehr, nach -->
+    <feat name="ExtPos" value="DET" upos="DET">6</feat><!-- mehr -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2542</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50172</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">51286</feat><!-- dem, der, er, den, des, ein, einen, einem, ihm, eines -->
