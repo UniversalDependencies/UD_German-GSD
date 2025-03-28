@@ -1495,7 +1495,7 @@
 10	nach	nach	ADP	APPR	_	11	case	_	_
 11	Kurs	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 12	)	)	PUNCT	$(	_	11	punct	_	_
-13	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	geleitet	leiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	22	punct	_	_
 15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	22	nsubj	_	_
 16	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	22	det	_	_
@@ -2769,7 +2769,7 @@
 6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 7	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obl:arg	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
-9	getraut	getrauen|trauen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	getraut	trauen	VERB	VVPP	VerbForm=Part	0	root	_	_
 10	zu	zu	PART	PTKZU	_	11	mark	_	_
 11	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
