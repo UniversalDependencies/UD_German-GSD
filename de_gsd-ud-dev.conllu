@@ -10993,8 +10993,8 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
 9	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-10	um	um	CCONJ	ADV	_	12	cc	_	_
-11	so	so	ADV	ADV	_	10	fixed	_	_
+10	um	um	ADV	ADV	_	12	advmod	_	_
+11	so	so	ADV	ADV	_	12	advmod	_	_
 12	sicherer	sicher	ADJ	ADJD	Degree=Cmp	4	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	je	je	SCONJ	ADV	_	15	mark	_	_
