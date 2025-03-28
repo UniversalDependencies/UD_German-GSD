@@ -3231,7 +3231,7 @@
 10	BSR	BSR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	NamedEntity=Yes
 11	trots	trots	ADP	APPR	_	13	case	_	_
 12	geleisteter	geleistet	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	acl	_	_
-13	Arbeiten	Arbeit|Arbeiten	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+13	Arbeiten	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Teilabnahme	Teilabnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
 16	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -4458,7 +4458,7 @@
 # text = Bei den Preisen für Qualitätsböden von HARO konnten wir einfach nicht anders.
 1	Bei	bei	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	Preisen	Preis|Preisen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+3	Preisen	Preis	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
 5	Qualitätsböden	Qualitätsböden	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
@@ -4574,7 +4574,7 @@
 9	zu	zu	ADP	APPR	_	12	case	_	_
 10	wirklich	wirklich	ADV	ADV	_	11	advmod	_	_
 11	guten	gut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
-12	Preisen	Preis|Preisen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+12	Preisen	Preis	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = dev-s263
@@ -6354,7 +6354,7 @@
 10	auch	auch	ADV	ADV	_	14	advmod	_	_
 11	an	an	ADP	APPR	_	13	case	_	_
 12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Preisen	Preis|Preisen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+13	Preisen	Preis	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
 14	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	14	obj	_	_
@@ -6479,7 +6479,7 @@
 9	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
 11	günstigen	günstig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
-12	Preisen	Preis|Preisen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	Preisen	Preis	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
