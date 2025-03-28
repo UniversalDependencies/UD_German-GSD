@@ -13454,7 +13454,7 @@
 5	begeisterungsfähiges	begeisterungsfähig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	aber	aber	CCONJ	KON	_	9	cc	_	_
-8	auch	auch	ADV	ADV	_	7	fixed	_	_
+8	auch	auch	ADV	ADV	_	9	advmod	_	_
 9	leichtgläubiges	leichtgläubig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_
 10	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
