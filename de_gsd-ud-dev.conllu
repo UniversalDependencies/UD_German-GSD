@@ -14899,8 +14899,8 @@
 
 # sent_id = dev-s794
 # text = Bis zu sechs Millionen Bundesbürger haben daneben als Kassenpatienten eine Zusatzpolice abgeschlossen.
-1	Bis	bis	ADV	ADV	_	3	advmod	_	_
-2	zu	zu	ADV	ADV	_	1	fixed	_	_
+1	Bis	bis	ADP	APPR	_	3	case	_	_
+2	zu	zu	ADP	APPR	_	3	case	_	_
 3	sechs	sechs	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nmod	_	_
 5	Bundesbürger	Bundesbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_

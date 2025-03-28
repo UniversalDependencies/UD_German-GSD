@@ -6309,8 +6309,8 @@
 6	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	8	amod	_	_
 7	zehn	zehn	NUM	CARD	NumType=Card	8	nummod	_	_
 8	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
-9	bis	bis	ADP	ADV	_	11	case	_	_
-10	zu	zu	ADP	ADV	_	9	fixed	_	_
+9	bis	bis	ADP	APPR	_	11	case	_	_
+10	zu	zu	ADP	APPR	_	11	case	_	_
 11	400	400	NUM	CARD	NumType=Card	12	nummod	_	_
 12	Milliarden	Milliarde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nmod	_	_
 13	Mark	Mark	NOUN	NN	Gender=Fem	3	nsubj	_	SpaceAfter=No
