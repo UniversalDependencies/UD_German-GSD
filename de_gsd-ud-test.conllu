@@ -1837,7 +1837,7 @@
 8	schon	schon	ADV	ADV	_	12	advmod	_	_
 9	von	von	ADP	APPR	_	10	case	_	_
 10	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
-11	an	an	PART	APZR	_	10	fixed	_	_
+11	an	an	PART	APZR	_	10	case	_	_
 12	vermutete	vermuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	22	punct	_	_
 14	dass	dass	SCONJ	KOUS	_	22	mark	_	_
