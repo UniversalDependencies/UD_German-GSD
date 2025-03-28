@@ -9524,7 +9524,7 @@
 3	so	so	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
 5	als	als	SCONJ	KOKOM	_	10	mark	_	_
-6	ob	ob	CCONJ	KOUS	_	5	fixed	_	_
+6	ob	ob	SCONJ	KOUS	_	10	mark	_	_
 7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
 9	Feuerwehr	Feuerwehr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
