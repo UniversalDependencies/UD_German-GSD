@@ -1509,7 +1509,7 @@
 12	und	und	CCONJ	KON	_	17	cc	_	_
 13	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 14	mehr	mehr	ADV	ADV	_	16	advmod	_	_
-15	als	als	ADP	KOKOM	_	14	case	_	_
+15	als	als	ADP	KOKOM	_	14	fixed	_	_
 16	angenehm	angenehm	ADJ	ADJD	Degree=Pos	17	advmod	_	_
 17	überrascht	überraschen	ADJ	VVPP	Degree=Pos|VerbForm=Part	11	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	11	punct	_	_

@@ -18623,7 +18623,7 @@
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	mehr	mehr	ADV	PIS	PronType=Ind	12	advmod	_	_
-11	als	als	ADP	KOKOM	_	10	case	_	_
+11	als	als	ADP	KOKOM	_	10	fixed	_	_
 12	nur	nur	ADV	ADV	_	13	advmod	_	_
 13	Macht	Macht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 14	:	:	PUNCT	$.	_	9	punct	_	_
@@ -19502,7 +19502,7 @@
 23	über	über	ADP	APPR	_	31	case	_	_
 24	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	31	det	_	_
 25	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	27	obl	_	_
-26	als	als	ADV	KOKOM	_	25	advmod	_	_
+26	als	als	ADV	KOKOM	_	25	fixed	_	_
 27	100	100	NUM	CARD	NumType=Card	28	nummod	_	_
 28	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	nmod	_	_
 29	Mark	Mark	NOUN	NN	Gender=Fem	30	obj	_	_
