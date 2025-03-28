@@ -13702,7 +13702,7 @@
 12	,	,	PUNCT	$,	_	23	punct	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	23	obl	_	_
-15	als	als	ADP	KOKOM	_	17	case	_	_
+15	als	als	ADP	KOKOM	_	14	fixed	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Hälfte	Hälfte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
 18	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
