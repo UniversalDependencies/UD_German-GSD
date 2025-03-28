@@ -19,7 +19,7 @@
     <tag name="ADP">32111</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
     <tag name="ADV">13869</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10665</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
-    <tag name="CCONJ">8841</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
+    <tag name="CCONJ">8840</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">41205</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
     <tag name="NOUN">52298</tag><!-- Jahr, zeit, Stadt, Teil, Ort, Frau, Land, Ende, Familie, Tag -->
@@ -28,7 +28,7 @@
     <tag name="PRON">10845</tag><!-- er, der, sich, sie, es, ich, wir, man, was, nichts -->
     <tag name="PROPN">30417</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
-    <tag name="SCONJ">1736</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
+    <tag name="SCONJ">1737</tag><!-- dass, da, wenn, als, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">101</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
     <tag name="VERB">20644</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
     <tag name="X">312</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
@@ -93,12 +93,12 @@
     <dep name="acl">2650</dep>
     <dep name="acl:relcl">27</dep>
     <dep name="advcl">1470</dep>
-    <dep name="advmod">17573</dep>
+    <dep name="advmod">17572</dep>
     <dep name="amod">16115</dep>
     <dep name="appos">6930</dep>
     <dep name="aux">3283</dep>
     <dep name="aux:pass">3423</dep>
-    <dep name="case">30682</dep>
+    <dep name="case">30721</dep>
     <dep name="cc">8783</dep>
     <dep name="ccomp">872</dep>
     <dep name="compound">1538</dep>
@@ -107,16 +107,16 @@
     <dep name="cop">3903</dep>
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
-    <dep name="dep">891</dep>
-    <dep name="det">37323</dep>
+    <dep name="dep">890</dep>
+    <dep name="det">37324</dep>
     <dep name="det:poss">2356</dep>
     <dep name="discourse">11</dep>
     <dep name="expl">398</dep>
     <dep name="expl:pv">215</dep>
-    <dep name="fixed">131</dep>
+    <dep name="fixed">92</dep>
     <dep name="flat">8159</dep>
     <dep name="goeswith">2</dep>
-    <dep name="mark">3119</dep>
+    <dep name="mark">3120</dep>
     <dep name="nmod">21719</dep>
     <dep name="nmod:poss">77</dep>
     <dep name="nsubj">17346</dep>
@@ -124,11 +124,11 @@
     <dep name="nsubj:pass">3199</dep>
     <dep name="nummod">2914</dep>
     <dep name="obj">8337</dep>
-    <dep name="obl">17288</dep>
+    <dep name="obl">17287</dep>
     <dep name="obl:agent">491</dep>
     <dep name="obl:arg">1258</dep>
     <dep name="obl:tmod">34</dep>
-    <dep name="orphan">19</dep>
+    <dep name="orphan">20</dep>
     <dep name="parataxis">569</dep>
     <dep name="punct">38489</dep>
     <dep name="reparandum">3</dep>
