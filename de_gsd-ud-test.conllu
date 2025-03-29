@@ -14465,7 +14465,7 @@
 7	''	''	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	unter	unter	ADP	APPR	_	10	case	_	_
-10	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	advmod	_	_
+10	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	14	obl	_	_
 11	wegen	wegen	ADP	APPR	_	14	mark	_	_
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	anhaltenden	anhaltend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
@@ -18332,7 +18332,7 @@
 3	Präparate	Präparat	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	unter	unter	ADP	APPR	_	6	case	_	_
-6	anderem	anderer	ADV	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	advmod	_	_
+6	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Schering	Schering	PROPN	NE	Case=Nom|Number=Sing	0	root	_	NamedEntity=Yes
 9	AG	AG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	NamedEntity=Yes
