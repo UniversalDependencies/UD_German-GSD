@@ -5979,8 +5979,8 @@
 3	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-6	vor	vor	ADP	APPR	_	3	advmod	_	_
-7	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	6	fixed	_	_
+6	vor	vor	ADP	APPR	_	7	case	_	_
+7	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	3	obl	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Feld	Feld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No

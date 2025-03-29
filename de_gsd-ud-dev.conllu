@@ -11398,9 +11398,9 @@
 24	übermäßigen	übermäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
 25	Defiziten	Defizit	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
 26	unter	unter	ADP	APPR	_	27	case	_	_
-27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	18	obl	_	_
+27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	29	obl	_	_
 28	durch	durch	ADP	APPR	_	29	case	_	_
-29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	nmod	_	_
+29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	Länder	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	_
 32	und	und	CCONJ	KON	_	33	cc	_	_
