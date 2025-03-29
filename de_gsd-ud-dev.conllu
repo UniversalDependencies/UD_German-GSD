@@ -804,7 +804,7 @@
 5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 6	dabei	dabei	ADV	PAV	_	3	compound:prt	_	_
 7	und	und	CCONJ	KON	_	11	cc	_	_
-8	nach	nach	ADP	ADV	_	11	case	_	_
+8	nach	nach	ADP	ADV	ExtPos=ADV	11	case	_	_
 9	und	und	CCONJ	KON	_	8	fixed	_	_
 10	nach	nach	ADP	ADV	_	8	fixed	_	_
 11	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
