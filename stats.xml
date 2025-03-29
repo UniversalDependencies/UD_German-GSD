@@ -45,7 +45,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">1332</feat><!-- später, weitere, mehrere, weiteren, mehr, mehreren, besser, weiter, früher, früheren -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">20096</feat><!-- ersten, erste, gut, neue, bekannt, zweiten, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">523</feat><!-- meisten, nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET">65</feat><!-- mehr, nach, weniger, ab, auf -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET">66</feat><!-- mehr, nach, weniger, ab, auf, durch -->
     <feat name="ExtPos" value="DET" upos="DET">6</feat><!-- mehr -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2542</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50172</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->

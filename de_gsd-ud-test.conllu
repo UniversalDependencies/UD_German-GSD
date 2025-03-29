@@ -18967,7 +18967,7 @@
 47	literarische	literarisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	56	amod	_	_
 48	und	und	CCONJ	KON	_	47	cc	_	_
 49	zugleich	zugleich	ADV	ADV	_	47	advmod	_	_
-50	durch	durch	ADP	ADV	_	49	conj	_	_
+50	durch	durch	ADP	ADV	ExtPos=ADV	49	conj	_	_
 51	und	und	CCONJ	KON	_	50	fixed	_	_
 52	durch	durch	ADP	ADV	_	50	fixed	_	_
 53	filmische	filmisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	56	amod	_	_
