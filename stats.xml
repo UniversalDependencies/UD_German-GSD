@@ -16,10 +16,10 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">21740</tag><!-- erst, gut, groß, neu, weit, spät, deutsch, alt, hoch, klein -->
-    <tag name="ADP">32097</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
-    <tag name="ADV">13849</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
+    <tag name="ADP">32096</tag><!-- in, von, mit, zu, an, auf, für, als, nach, bei -->
+    <tag name="ADV">13848</tag><!-- auch, nur, noch, sehr, so, dort, wieder, hier, mehr, heute -->
     <tag name="AUX">10665</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, dürfen, mögen, be -->
-    <tag name="CCONJ">8826</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
+    <tag name="CCONJ">8823</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">41205</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
     <tag name="NOUN">52298</tag><!-- Jahr, zeit, Stadt, Teil, Ort, Frau, Land, Ende, Familie, Tag -->
@@ -28,7 +28,7 @@
     <tag name="PRON">10845</tag><!-- er, der, sich, sie, es, ich, wir, man, was, nichts -->
     <tag name="PROPN">30417</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38490</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
-    <tag name="SCONJ">1788</tag><!-- dass, als, da, wenn, daß, nachdem, weil, wie, während, ob -->
+    <tag name="SCONJ">1793</tag><!-- dass, als, da, wenn, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">101</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->
     <tag name="VERB">20644</tag><!-- haben, werden, geben, kommen, sein, finden, liegen, gehen, machen, gehören -->
     <tag name="X">312</tag><!-- 's, b., u.a., %, etc., z.B., a, z., †, u -->
@@ -45,7 +45,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">1332</feat><!-- später, weitere, mehrere, weiteren, mehr, mehreren, besser, weiter, früher, früheren -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">20096</feat><!-- ersten, erste, gut, neue, bekannt, zweiten, neuen, großen, große, deutschen -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">523</feat><!-- meisten, nächsten, besten, größten, beste, größte, höchste, wichtigsten, bester, nächste -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET">66</feat><!-- mehr, nach, weniger, ab, auf, durch -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET">71</feat><!-- mehr, nach, weniger, so, ab, auf, durch -->
     <feat name="ExtPos" value="DET" upos="DET">6</feat><!-- mehr -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,SCONJ,SYM,VERB,X">2542</feat><!-- of, de, the, and, 's, la, University, d', for, a -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SYM,X">50172</feat><!-- der, die, eine, einer, sie, seine, diese, seiner, Zeit, Stadt -->
@@ -94,7 +94,7 @@
     <dep name="acl">2650</dep>
     <dep name="acl:relcl">27</dep>
     <dep name="advcl">1470</dep>
-    <dep name="advmod">17574</dep>
+    <dep name="advmod">17570</dep>
     <dep name="amod">16114</dep>
     <dep name="appos">6930</dep>
     <dep name="aux">3283</dep>
@@ -108,13 +108,13 @@
     <dep name="cop">3903</dep>
     <dep name="csubj">194</dep>
     <dep name="csubj:pass">46</dep>
-    <dep name="dep">889</dep>
+    <dep name="dep">888</dep>
     <dep name="det">37324</dep>
     <dep name="det:poss">2356</dep>
     <dep name="discourse">11</dep>
     <dep name="expl">398</dep>
     <dep name="expl:pv">216</dep>
-    <dep name="fixed">110</dep>
+    <dep name="fixed">115</dep>
     <dep name="flat">8159</dep>
     <dep name="goeswith">2</dep>
     <dep name="mark">3121</dep>
