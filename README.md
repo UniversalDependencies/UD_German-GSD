@@ -231,7 +231,7 @@ UPOS: converted from manual
 XPOS: automatic
 Features: automatic
 Relations: converted from manual
-Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Boyd, Adriane
+Contributors: Petrov, Slav; Seeker, Wolfgang; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Boyd, Adriane; Blaschke, Verena
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
