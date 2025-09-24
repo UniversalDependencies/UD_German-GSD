@@ -9527,7 +9527,7 @@
 # sent_id = train-s633
 # text = Und meine meine Weihnachtsgeschenke kaufe ich auch da!
 1	Und	und	CCONJ	KON	_	5	cc	_	_
-2	meine	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	dep	_	_
+2	meine	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 3	meine	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Weihnachtsgeschenke	Weihnachtsgeschenk	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 5	kaufe	kaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11155,7 +11155,7 @@
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
-8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	dep	_	_
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	07/10/11	07/10/11	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
 10	und	und	CCONJ	KON	_	16	cc	_	_
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -21980,7 +21980,7 @@
 7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
 8	von	von	ADP	APPR	_	11	case	_	_
 9	der	der	PRON	PDS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	11	nmod	_	_
-10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	dep	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Beratung	Beratung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
 12	und	und	CCONJ	KON	_	14	cc	_	_
 13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
@@ -23718,7 +23718,7 @@
 
 # sent_id = train-s1505
 # text = Der Büromöbelhersteller König + Neurath in Karben erwartet in diesem Jahr ein zweistelliges prozentuales Umsatzplus.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Büromöbelhersteller	Büromöbelhersteller	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	König	König	PROPN	NE	Case=Nom|Number=Sing	2	appos	_	NamedEntity=Yes
 4	+	+	CCONJ	KON	_	5	cc	_	_
@@ -24375,7 +24375,7 @@
 
 # sent_id = train-s1534
 # text = Die Antwort: Die Nato gibt die Kommandos, aber sie schreibt nicht jedesmal dazu ``Achtung -- ein Kommando der Nato!''
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	2	punct	_	_
 4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -24906,7 +24906,7 @@
 
 # sent_id = train-s1561
 # text = Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa denen der Automobil-Hersteller.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Anleger	Anleger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	reagierten	reagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
@@ -25923,7 +25923,7 @@
 
 # sent_id = train-s1611
 # text = Manche Männer können da ein Hemmschuh sein, meiner hat mir sehr geholfen.
-1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	da	da	ADV	ADV	_	6	advmod	_	_
@@ -26167,7 +26167,7 @@
 
 # sent_id = train-s1625
 # text = solche Menschen wenden ihre Ohren der verlockenden Stimme eines Populisten zu, der laut ausspricht, was sie denken, nämlich, daß sie betrogen wurden, und verspricht, alles wiedergutzumachen und mit seiner festen Hand das ersehnte Paradies auf Erden doch noch aufzubauen.
-1	solche	solcher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	dep	_	FixTigerDep=Yes
+1	solche	solcher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	wenden	wenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -26216,7 +26216,7 @@
 
 # sent_id = train-s1626
 # text = Die GHG Bielefeld zählte bislang zu den größten grünen Hochschulgruppen in der BRD.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	GHG	GHG	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NamedEntity=Yes
 3	Bielefeld	Bielefeld	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	NamedEntity=Yes
 4	zählte	zählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -26681,7 +26681,7 @@
 
 # sent_id = train-s1648
 # text = Die Maschinen, die vor allem auf den florierenden Fernost-Strecken eingesetzt werden, sollen den Airbus A310 ersetzen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Maschinen	Maschine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	13	punct	_	_
 4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj:pass	_	_
@@ -28032,7 +28032,7 @@
 
 # sent_id = train-s1716
 # text = Der Rabin-Attentäter Jigal Amir hat am heutigen Montag morgen vor einem Gericht in Tel Aviv bei einem Haftprüfungstermin sein Geständnis wiederholt und bekräftigt, den Mord an dem israelischen Ministerpräsidenten ohne Mittäter verübt zu haben.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Rabin	Rabin	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Attentäter	Attentäter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
@@ -28142,7 +28142,7 @@
 
 # sent_id = train-s1720
 # text = Die Kritiker glauben nicht so recht, daß sich Unternehmen durch die BUND-Tips zu Öko-Firmen wandeln.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Kritiker	Kritiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
@@ -28916,7 +28916,7 @@
 
 # sent_id = train-s1762
 # text = Jeder Beschuldigte habe fortan das Recht, einen Anwalt zu verlangen;
-1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	dep	_	FixTigerDep=Yes
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	Beschuldigte	Beschuldigter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	habe	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fortan	fortan	ADV	ADV	_	3	advmod	_	_
@@ -28966,7 +28966,7 @@
 
 # sent_id = train-s1765
 # text = Der Amtsinhaber Lech Walesa kommt auf 30,24 Prozent.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Amtsinhaber	Amtsinhaber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Lech	Lech	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
 4	Walesa	Walesa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
@@ -29223,7 +29223,7 @@
 
 # sent_id = train-s1777
 # text = Ein Skifahrer, so versichert Togni, wolle immer auf die Piste.
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Skifahrer	Skifahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
@@ -29286,7 +29286,7 @@
 
 # sent_id = train-s1780
 # text = Wenige Tage später hätten sie einen Kameraden in ein Waldstück gelockt und ihm mit einem Schnellfeuergewehr in den Kopf geschossen.
-1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
 3	später	spät	ADJ	ADJD	Degree=Cmp	2	advmod	_	_
 4	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
@@ -29982,7 +29982,7 @@
 
 # sent_id = train-s1810
 # text = Der ACTU fordert eine Abänderung des neuen Sozialpartnergesetzes, um sicherzustellen, daß die Arbeiter mit Kollektivverträgen nicht benachteiligt werden.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ACTU	ACTU	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NamedEntity=Yes
 3	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
@@ -30582,7 +30582,7 @@
 
 # sent_id = train-s1844
 # text = Die Ausfuhren der deutschen Land- und Ernährungswirtschaft sind im vergangenen Jahr im Vergleich zur Vorperiode um 3,7 Prozent auf knapp 40 Milliarden Mark gestiegen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Ausfuhren	Ausfuhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 4	deutschen	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
@@ -30845,7 +30845,7 @@
 
 # sent_id = train-s1858
 # text = Die Expo-Macher brüsten sich damit, daß für ihre Veranstaltung im Jahr 2000 bereits heute 107 Staaten ihr Kommen zugesagt haben -- genauso viele wie bei der Weltausstellung in Sevilla vor fünf Jahren dabei waren.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Expo	Expo	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Macher	Macher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -31824,7 +31824,7 @@
 
 # sent_id = train-s1907
 # text = Die Wahlbeteiligung wurde von der polnischen Nachrichtenagentur PAP zwei Stunden vor Schließung der Wahllokale auf nur 40 bis 60 Prozent geschätzt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Wahlbeteiligung	Wahlbeteiligung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
 3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	aux:pass	_	_
 4	von	von	ADP	APPR	_	7	case	_	_
@@ -32198,7 +32198,7 @@
 
 # sent_id = train-s1923
 # text = Die BA habe seit der Wende in Ostdeutschland drei Millionen Arbeitnehmer beruflich qualifiziert;
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	BA	BA	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	NamedEntity=Yes
 3	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 4	seit	seit	ADP	APPR	_	6	case	_	_
@@ -32592,7 +32592,7 @@
 
 # sent_id = train-s1940
 # text = Die Grundbedürfnis könne auf Dauer nicht unterdrückt werden, sagte die CDU -- Politikerin am Mittwoch in Bonn.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Grundbedürfnis	Grundbedürfnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	auf	auf	ADP	APPR	_	5	case	_	_
@@ -33437,7 +33437,7 @@
 
 # sent_id = train-s1980
 # text = Ein Buddha besucht keine Kasernen.
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Buddha	Buddha	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NamedEntity=Yes
 3	besucht	besuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	5	det	_	_
@@ -33478,7 +33478,7 @@
 
 # sent_id = train-s1982
 # text = Das Hauptziel des neuen Dachverbandes ist die Abschaffung der rigiden Arbeitsgesetzgebung aus der Zeit der Militärdiktatur.
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Hauptziel	Hauptziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -33652,7 +33652,7 @@
 
 # sent_id = train-s1991
 # text = Die Abgeordneten der Grünen und einem von den Grünen benannten Experten werde die Einreise in die Türkei auf gar keinen Fall gestattet, teilte das Außenministerium mit.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Abgeordneten	Abgeordnete	NOUN	NN	Case=Dat|Number=Plur	22	obl:arg	_	_
 3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Grünen	Grüne	PROPN	NN	Case=Gen|Number=Plur	2	nmod	_	NamedEntity=Yes
@@ -34026,7 +34026,7 @@
 
 # sent_id = train-s2009
 # text = Wenige Tage vor dem Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec) im japanischen Osaka machen die asiatischen Staatschefs keinen Hehl aus ihrem Ärger über das Gastgeberland.
-1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Wenige	wenig	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obl	_	_
 3	vor	vor	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -34429,7 +34429,7 @@
 
 # sent_id = train-s2031
 # text = Keinen Zweifel gebe es an seiner politischen Verantwortung.
-1	Keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	2	dep	_	FixTigerDep=Yes
+1	Keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	Zweifel	Zweifel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	gebe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -34544,7 +34544,7 @@
 
 # sent_id = train-s2037
 # text = Eine Besonderheit auf Santo ist das Santo Hotel an der einzigen Hauptstraße der Insel in der Hauptstadt Luganville.
-1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Besonderheit	Besonderheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	auf	auf	ADP	APPR	_	4	case	_	_
 4	Santo	Santo	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	NamedEntity=Yes
@@ -35223,7 +35223,7 @@
 
 # sent_id = train-s2067
 # text = Einen Tag später kündigte die MG das geplante Engagement mit Verweis auf den ``bisherigen Stand'' der Untersuchung auf.
-1	Einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	dep	_	_
 3	später	spät	ADJ	ADJD	Degree=Cmp	2	advmod	_	_
 4	kündigte	kündigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -36355,7 +36355,7 @@
 
 # sent_id = train-s2122
 # text = Die Zeit verrinnt.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	verrinnt	verrinnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
@@ -37437,7 +37437,7 @@
 
 # sent_id = train-s2174
 # text = Weniger Grund für Optimismus bietet die innenpolitische Situation.
-1	Weniger	wenig	DET	PIAT	PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Weniger	wenig	DET	PIAT	PronType=Ind	2	det	_	_
 2	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 3	für	für	ADP	APPR	_	4	case	_	_
 4	Optimismus	Optimismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -37527,7 +37527,7 @@
 
 # sent_id = train-s2179
 # text = Die Bayern hatten kürzlich zusammen mit ihrem Partner British Telecom die Lizenz für die vierte deutsche Mobilfunklizenz E 2 erhalten.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Bayern	Bayer	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	NamedEntity=Yes
 3	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
 4	kürzlich	kürzlich	ADV	ADV	_	20	advmod	_	_
@@ -37597,7 +37597,7 @@
 
 # sent_id = train-s2181
 # text = Ihr Chef Andy Grove sieht die größte Herausforderung darin, ``alles zu tun, um die Zahl der Nutzer in der PC-Welt zu steigern''.
-1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Andy	Andy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NamedEntity=Yes
 4	Grove	Grove	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes
@@ -67939,7 +67939,7 @@
 20	Stück	Stück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
 21	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	_
 22	(	(	PUNCT	$(	_	23	punct	_	SpaceAfter=No
-23	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	dep	_	_
+23	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
 24	sog	saugen	X	NN	Case=Nom|Gender=Fem|Number=Sing	23	dep	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	24	punct	_	_
 
@@ -80153,7 +80153,7 @@
 12	Monica	Monica	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	appos	_	NamedEntity=Yes
 13	ähnelt	ähneln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
-15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	dep	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	det	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
 17	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	NamedEntity=Yes
 18-19	vom	_	_	_	_	_	_	_	_
@@ -89325,7 +89325,7 @@
 # text = In den dem sogenannten Psychosozialen Netzwerk (PSN) der Bundeswehr sind seit 2004 regional Ärzte, Psychologen, Militärseelsorger und Sozialarbeiter organisiert, um bei Bedarf betroffenen Soldaten und deren Angehörigen psychosoziale Unterstützung anbieten zu können.
 1	In	in	ADP	APPR	_	6	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	dep	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 4	sogenannten	sogenannt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 5	Psychosozialen	psychosozial	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	NamedEntity=Yes
 6	Netzwerk	Netzwerk	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	NamedEntity=Yes
@@ -95014,7 +95014,7 @@
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Kaisers	Kaiser	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
-8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	10	dep	_	_
+8	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	10	det	_	_
 9	zugleich	zugleich	ADV	ADV	_	10	advmod	_	_
 10	Schwager	Schwager	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -189733,7 +189733,7 @@
 
 # sent_id = train-s8991
 # text = Die ein schmaler flacher Graben, ein kleiner Wall und ein tieferer breiter Graben laufen bogenförmig der Spornspitze zu.
-1	Die	der	DET	PDS	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	dep	_	_
+1	Die	der	DET	PDS	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 3	schmaler	schmal	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
 4	flacher	flach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -229119,7 +229119,7 @@
 # sent_id = train-s10705
 # text = Platz ein.
 1	Platz	Platz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-2	ein	ein	DET	PTKANT	Definite=Ind|NumType=Card|PronType=Art	1	dep	_	SpaceAfter=No
+2	ein	ein	DET	PTKANT	Definite=Ind|NumType=Card|PronType=Art	1	det	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = train-s10706
@@ -276932,7 +276932,7 @@
 23	Haftstrafe	Haftstrafe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
 24	verurteilt	verurteilen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	26	punct	_	_
-26	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	23	dep	_	_
+26	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	23	det	_	_
 27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 28-29	am	_	_	_	_	_	_	_	_
 28	an	an	ADP	APPR	_	30	case	_	_
@@ -285697,7 +285697,7 @@
 15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	16	det	_	_
 16	Kopierfehler	Kopierfehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	18	punct	_	_
-18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	dep	_	_
+18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	det	_	_
 19	bei	bei	ADP	APPR	_	20	case	_	_
 20	Orosius	Orosius	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
 21	(	(	PUNCT	$(	_	22	punct	_	SpaceAfter=No
@@ -299164,7 +299164,7 @@
 3	alle	alle	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	4	det	_	_
 4	Werke	Werk	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	6	punct	_	_
-6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	4	dep	_	_
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	4	det	_	_
 7	von	von	ADP	APPR	_	10	case	_	_
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	ehemaligen	ehemalig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
