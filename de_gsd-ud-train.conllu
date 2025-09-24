@@ -15712,7 +15712,7 @@
 3	seine	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Aushilfen	Aushilfe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-6	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+6	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	9	obl:arg	_	_
 7	viel	viel	DET	PIAT	PronType=Ind	8	det	_	_
 8	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 9	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -41900,7 +41900,7 @@
 15	,	,	PUNCT	$,	_	3	punct	_	_
 16	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
-18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	29	obj	_	_
+18	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	29	obl:arg	_	_
 19	zunächst	zunächst	ADV	ADV	_	29	advmod	_	_
 20	selbst	selbst	ADV	ADV	_	29	advmod	_	_
 21	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	22	det	_	_
@@ -57022,7 +57022,7 @@
 # text = Nachdem er sich bereits nach kurzer Zeit eine schwere Knieverletzung zugezogen hatte, musste Delfino mehrere Monate aussetzen.
 1	Nachdem	nachdem	SCONJ	KOUS	_	11	mark	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+3	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
 4	bereits	bereits	ADV	ADV	_	11	advmod	_	_
 5	nach	nach	ADP	APPR	_	7	case	_	_
 6	kurzer	kurz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
@@ -67938,9 +67938,9 @@
 19	herausgesuchtes	herausgesuchtes	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
 20	Stück	Stück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
 21	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	_
-22	(	(	PUNCT	$(	_	23	punct	_	SpaceAfter=No
-23	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
-24	sog	saugen	X	NN	Case=Nom|Gender=Fem|Number=Sing	23	dep	_	SpaceAfter=No
+22	(	(	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+23	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
+24	sog	sogenannt	ADJ	ADJA	Abbr=Yes|Case=Nom|Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	24	punct	_	_
 
 # sent_id = train-s3470
@@ -79105,7 +79105,7 @@
 14	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	13	punct	_	_
 16	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
-17	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+17	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	25	obl:arg	_	_
 18	bis	bis	ADP	APPR	_	19	case	_	_
 19	1989	1989	NUM	CARD	NumType=Card	25	obl	_	_
 20	drei	drei	NUM	CARD	NumType=Card	21	nummod	_	_
@@ -80153,13 +80153,13 @@
 12	Monica	Monica	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	appos	_	NamedEntity=Yes
 13	ähnelt	ähneln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	15	punct	_	_
-15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	det	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	acl:relcl	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
-17	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	NamedEntity=Yes
+17	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	orphan	_	NamedEntity=Yes
 18-19	vom	_	_	_	_	_	_	_	_
 18	von	von	ADP	APPR	_	20	case	_	_
-19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
-20	16	16	NUM	CARD	NumType=Card	15	nmod	_	SpaceAfter=No
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	16	16	NUM	CARD	NumType=Card	15	orphan	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	20	punct	_	_
 
 # sent_id = train-s3982
@@ -80662,7 +80662,7 @@
 13	Nicht	nicht	PART	NN	Polarity=Neg	2	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	22	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	22	mark	_	_
-16	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+16	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	22	obl:arg	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	zwei	zwei	NUM	CARD	NumType=Card	22	nsubj	_	_
 19	abwechselnd	abwechselnd	ADJ	ADJD	Degree=Pos	22	advmod	_	_
@@ -83175,7 +83175,7 @@
 11	und	und	CCONJ	KON	_	21	cc	_	_
 12	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Papst	Papst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
-14	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+14	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	21	obl:arg	_	_
 15	mit	mit	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Reise	Reise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
@@ -88720,7 +88720,7 @@
 6	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
 8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	Krefelder	Krefelder	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	NamedEntity=Yes
+9	Krefelder	Krefelder	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	NamedEntity=Yes
 10-11	im	_	_	_	_	_	_	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -98169,15 +98169,15 @@
 8	Braunkohle	Braunkohle	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	16	punct	_	_
 10	ab	ab	ADP	APPR	_	11	case	_	_
-11	1893	1893	NUM	CARD	NumType=Card	16	nmod	_	_
-12	auch	auch	ADV	ADV	_	15	advmod	_	_
+11	1893	1893	NUM	CARD	NumType=Card	16	orphan	_	_
+12	auch	auch	ADV	ADV	_	16	orphan	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	großem	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
-15	Maße	Maß	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
-16	Kaolin	Kaolin	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obj	_	_
+15	Maße	Maß	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	orphan	_	_
+16	Kaolin	Kaolin	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	conj	_	_
 17	für	für	ADP	APPR	_	19	case	_	_
 18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Papierherstellung	Papierherstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	Papierherstellung	Papierherstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	orphan	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = train-s4818
@@ -109476,7 +109476,7 @@
 # sent_id = train-s5369
 # text = Als sich Cole einen Fuß brach und Clichy immer mehr in den Vordergrund spielen konnte, sah es -- trotz aufkommender Spekulationen um einen Wechsel in die spanische Primera División -- danach aus, als könnte sich Clichy einen dauerhaften Stammplatz erarbeiten.
 1	Als	als	SCONJ	KOUS	_	6	mark	_	_
-2	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+2	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	6	obl:arg	_	_
 3	Cole	Cole	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NamedEntity=Yes
 4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 5	Fuß	Fuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
@@ -109511,7 +109511,7 @@
 34	,	,	PUNCT	$,	_	42	punct	_	_
 35	als	als	SCONJ	KOKOM	_	42	mark	_	_
 36	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	aux	_	_
-37	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	42	obj	_	_
+37	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	42	obl:arg	_	_
 38	Clichy	Clichy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	NamedEntity=Yes
 39	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	41	det	_	_
 40	dauerhaften	dauerhaft	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
@@ -153242,7 +153242,7 @@
 # text = Gleichwohl verschaffte sich Hoover damals landesweite Bekanntheit, als der Mann, der den "Staatsfeind Nummer 1" verhaftet hatte, und sein Name galt fortan, bis zu seinem Tod 1972, als Synonym für hemdsärmelige, durchgreifende, "aufräumende" Polizeiarbeit im Sinne des Law-und-Order-Gedankens.
 1	Gleichwohl	gleichwohl	ADV	ADV	_	2	advmod	_	_
 2	verschaffte	verschaffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+3	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	2	obl:arg	_	_
 4	Hoover	Hoover	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	NamedEntity=Yes
 5	damals	damals	ADV	ADV	_	2	advmod	_	_
 6	landesweite	landesweit	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
@@ -174853,7 +174853,7 @@
 12	Theatererfolg	Theatererfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	26	punct	_	_
 14	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	26	nsubj	_	_
-15	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+15	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl:arg	_	_
 16	zudem	zudem	ADV	PAV	_	26	advmod	_	_
 17	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 18	ersten	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
@@ -178636,9 +178636,9 @@
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Tiermodell	Tiermodell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
-17	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
-18	zu	zu	PART	PTKZU	_	17	mark	_	_
-19	lassen	lassen	VERB	VVINF	VerbForm=Inf	17	obj	_	SpaceAfter=No
+17	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
+19	lassen	lassen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	24	punct	_	_
 21	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	24	nsubj	_	_
 22	jedoch	jedoch	ADV	ADV	_	24	advmod	_	_
@@ -202289,7 +202289,7 @@
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
 10	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
-11	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+11	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
 12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Titel	Titel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
 14	kosten	kosten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -215335,7 +215335,7 @@
 40	,	,	PUNCT	$,	_	50	punct	_	_
 41	wo	wo	ADV	PWAV	PronType=Int	50	advmod	_	_
 42	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	50	nsubj	_	_
-43	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	50	obj	_	_
+43	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	50	obl:arg	_	_
 44	wegen	wegen	ADP	APPR	_	46	case	_	_
 45	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	Mangels	Mangel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	50	obl	_	_
@@ -232619,7 +232619,7 @@
 10	vermittelte	vermitteln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:arg	_	_
 12	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
-13	Lehrer	Lehrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+13	Lehrer	Lehrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 14	C.	C.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
 15	E.	E.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	NamedEntity=Yes
 16	Müller	Müller	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	NamedEntity=Yes
@@ -235063,7 +235063,7 @@
 6	Ekstraklasa	Ekstraklasa	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	NamedEntity=Yes
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	sichert	sichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+9	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	8	obl:arg	_	_
 10-11	im	_	_	_	_	_	_	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -239065,16 +239065,16 @@
 8	Wassertiefe	Wassertiefe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 9	4,25	4,25	NUM	CARD	NumType=Card	10	nummod	_	_
 10	m	m	NOUN	NN	_	6	obj	_	SpaceAfter=No
-11	,	,	PUNCT	$,	_	15	punct	_	_
+11	,	,	PUNCT	$,	_	19	punct	_	_
 12-13	am	_	_	_	_	_	_	_	_
 12	an	an	ADP	APPR	_	15	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	äußeren	äußer	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
-15	Rand	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+15	Rand	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	orphan	_	_
 16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Sohle	Sohle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 18	4,00	4,00	NUM	CARD	NumType=Card	19	nummod	_	_
-19	m	m	NOUN	XY	_	6	obj	_	SpaceAfter=No
+19	m	m	NOUN	XY	_	6	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = train-s11136
@@ -240346,9 +240346,9 @@
 26-27	im	_	_	_	_	_	_	_	_
 26	in	in	ADP	APPR	_	28	case	_	_
 27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
+28	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	NamedEntity=Yes
 29	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Kapitulation	Kapitulation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+30	Kapitulation	Kapitulation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 31	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	5	punct	_	_
@@ -251628,7 +251628,7 @@
 20	leer	leer	ADJ	PTKVZ	Degree=Pos	14	xcomp	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	22	punct	_	_
 22	rasiert	rasieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
-23	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+23	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	22	obl:arg	_	_
 24	nur	nur	ADV	ADV	_	26	advmod	_	_
 25	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
 26	Gesichtshälfte	Gesichtshälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
@@ -264226,7 +264226,7 @@
 13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 14	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
 15	vier	vier	NUM	CARD	NumType=Card	16	nummod	_	_
-16	Gemeinden	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	obj	_	_
+16	Gemeinden	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
 17-18	zur	_	_	_	_	_	_	_	_
 17	zu	zu	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -276932,13 +276932,13 @@
 23	Haftstrafe	Haftstrafe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
 24	verurteilt	verurteilen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	26	punct	_	_
-26	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	23	det	_	_
-27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	23	acl:relcl	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	orphan	_	_
 28-29	am	_	_	_	_	_	_	_	_
 28	an	an	ADP	APPR	_	30	case	_	_
-29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
-30	16	16	NUM	CARD	NumType=Card	26	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	24	punct	_	_
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
+30	16	16	NUM	CARD	NumType=Card	26	orphan	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	30	punct	_	_
 
 # sent_id = train-s12736
 # text = 2009 wurde er erneut mit dem renommierten Deutschen Kleinkunstpreis in der Kategorie Kabarett bedacht.
@@ -285697,9 +285697,9 @@
 15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	16	det	_	_
 16	Kopierfehler	Kopierfehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	18	punct	_	_
-18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	det	_	_
+18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	acl:relcl	_	_
 19	bei	bei	ADP	APPR	_	20	case	_	_
-20	Orosius	Orosius	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
+20	Orosius	Orosius	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	orphan	_	NamedEntity=Yes
 21	(	(	PUNCT	$(	_	22	punct	_	SpaceAfter=No
 22	Historiarum	Historiarum	PROPN	FM	Foreign=Yes	20	appos	_	NamedEntity=Yes
 23	adversum	adversum	PROPN	FM	Foreign=Yes	22	flat	_	NamedEntity=Yes
@@ -287734,9 +287734,9 @@
 11	häufig	häufig	ADJ	ADJD	Degree=Pos	8	advmod	_	_
 12	bei	bei	ADP	APPR	_	13	case	_	_
 13	Dreharbeiten	Dreharbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	16	punct	_	_
+14	,	,	PUNCT	$,	_	19	punct	_	_
 15	unter	unter	ADP	APPR	_	16	case	_	_
-16	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	13	obl	_	_
+16	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	19	nmod	_	_
 17	für	für	ADP	APPR	_	19	case	_	_
 18	zwei	zwei	NUM	CARD	NumType=Card	19	nummod	_	_
 19	Filme	Film	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
@@ -293152,7 +293152,7 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	NamedEntity=Yes
-18	2009	2009	NUM	CARD	NumType=Card	17	obl:tmod	_	_
+18	2009	2009	NUM	CARD	NumType=Card	17	nmod	_	_
 19	konstituierten	konstituiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_
 20	Sonderausschuss	Sonderausschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	obl	_	NamedEntity=Yes
 21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_

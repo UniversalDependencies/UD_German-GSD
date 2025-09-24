@@ -840,7 +840,7 @@
 
 # sent_id = dev-s55
 # text = Mit scheint, dass der Betreiber der Rheinfähre in Düsseldorf es bitter nötig haben muss wenn schon Kinder unter fünf Jahren auf diese Art und Weise abkassiert werden müssen.
-1	Mit	ich	PRON	ADV	Case=Dat	2	obl:arg	_	_
+1	Mit	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs|Typo=Yes	2	obl:arg	_	CorrectForm=Mir
 2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	14	punct	_	_
 4	dass	dass	SCONJ	KOUS	_	14	mark	_	_
@@ -4074,8 +4074,8 @@
 6	gegüllt	gegüllt	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	und	und	CCONJ	KON	_	18	cc	_	_
 8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	essen	essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
-10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	obl	_	_
+9	essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Typo=Yes	18	nsubj:pass	_	CorrectForm=Essen
+10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	18	obl	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	10	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
@@ -11398,7 +11398,7 @@
 24	übermäßigen	übermäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
 25	Defiziten	Defizit	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
 26	unter	unter	ADP	APPR	_	27	case	_	_
-27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	29	obl	_	_
+27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	29	nmod	_	_
 28	durch	durch	ADP	APPR	_	29	case	_	_
 29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	31	det	_	_
