@@ -9421,7 +9421,7 @@
 7	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 8	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
 9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	obj	_	_
-10	Ich	ich	PRON	NN	Case=Acc|Gender=Neut|Number=Plur	13	nsubj	_	_
+10	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 11	vorher	vorher	ADV	ADV	_	13	advmod	_	_
 12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
 13	kannte	kennen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
@@ -21971,7 +21971,7 @@
 
 # sent_id = train-s1404
 # text = Ich - als ahnungslose Frau - war von der der Beratung und das Angebot sehr zufrieden!!
-1	Ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 2	-	-	PUNCT	$(	_	1	punct	_	_
 3	als	als	CCONJ	KOKOM	_	5	case	_	_
 4	ahnungslose	ahnungslos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -25931,7 +25931,7 @@
 6	Hemmschuh	Hemmschuh	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	13	punct	_	_
-9	meiner	ich	PRON	PPOSS	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	13	nsubj	_	_
+9	meiner	ich	PRON	PPOSS	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nsubj	_	_
 10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	obl:arg	_	_
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
@@ -64866,11 +64866,11 @@
 7-8	im	_	_	_	_	_	_	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	Nachkriegsdeutschland	Nachkriegsdeutschland	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	NamedEntity=Yes
-10	reaktivierte	reaktiviert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Fin	11	amod	_	_
-11	Corps	Corps	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	3	parataxis	_	_
+9	Nachkriegsdeutschland	Nachkriegsdeutschland	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NamedEntity=Yes
+10	reaktivierte	reaktiviert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	11	amod	_	_
+11	Corps	Corps	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	_
 12	Concordia	Concordia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	NamedEntity=Yes
-13	Rigensis	Rigensis	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	NamedEntity=Yes
+13	Rigensis	Rigensis	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	NamedEntity=Yes
 14	zu	zu	ADP	APPR	_	15	case	_	_
 15	Hamburg	Hamburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	NamedEntity=Yes
 16	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
@@ -76177,7 +76177,7 @@
 23	.	.	PUNCT	$.	_	11	punct	_	_
 
 # sent_id = train-s3817
-# text = In den folgenden Romanen nimmt Askildsen zumeist "die Perspektive eines Ich - Erzählers ein, der in einem existenzialistisch angehauchten Monolog -- ganz in der Tradition von Albert Camus 'Der Fremde oder Jean - Paul Sartres Der Ekel -- lakonisch seinen Alltag Revue passieren lässt."
+# text = In den folgenden Romanen nimmt Askildsen zumeist "die Perspektive eines Ich-Erzählers ein, der in einem existenzialistisch angehauchten Monolog -- ganz in der Tradition von Albert Camus 'Der Fremde oder Jean - Paul Sartres Der Ekel -- lakonisch seinen Alltag Revue passieren lässt."
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 3	folgenden	folgend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
@@ -76189,8 +76189,8 @@
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Perspektive	Perspektive	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 11	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	_
-12	Ich	ich	PRON	NN	Case=Gen|Gender=Masc|Number=Sing	14	compound	_	_
-13	-	-	PUNCT	$(	_	12	punct	_	_
+12	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
 14	Erzählers	Erzähler	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 15	ein	ein	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	47	punct	_	_
@@ -107545,7 +107545,7 @@
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
 # sent_id = train-s5287
-# text = Sie kam auf Platz 2 in England, die Beatles - Komposition All You Need Is Love konnte nicht vom ersten Platz verdrängt werden.
+# text = Sie kam auf Platz 2 in England, die Beatles-Komposition All You Need Is Love konnte nicht vom ersten Platz verdrängt werden.
 1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	auf	auf	ADP	APPR	_	4	case	_	_
@@ -107555,10 +107555,10 @@
 7	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	NamedEntity=Yes|SpaceAfter=No
 8	,	,	PUNCT	$,	_	24	punct	_	_
 9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-10	Beatles	Beatles	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	12	compound	_	NamedEntity=Yes
-11	-	-	PUNCT	$(	_	10	punct	_	_
+10	Beatles	Beatles	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	12	compound	_	NamedEntity=Yes|SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 12	Komposition	Komposition	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
-13	All	all	PRON	NE	Foreign=Yes	17	nsubj	_	Lang=en|NamedEntity=Yes
+13	All	all	PRON	NE	Foreign=Yes|PronType=Tot	17	nsubj	_	Lang=en|NamedEntity=Yes
 14	You	you	PRON	NE	Foreign=Yes|Person=2|PronType=Prs	15	nsubj	_	Lang=en|NamedEntity=Yes
 15	Need	need	VERB	NE	Foreign=Yes	13	acl	_	Lang=en|NamedEntity=Yes
 16	Is	be	AUX	NE	Foreign=Yes	17	cop	_	Lang=en|NamedEntity=Yes
@@ -254229,8 +254229,8 @@
 10	inte	inte	PART	FM	Foreign=Yes	11	advmod	_	Lang=sv|NamedEntity=Yes
 11	tala	tala	VERB	FM	Foreign=Yes	6	appos	_	Lang=sv|NamedEntity=Yes
 12	om	om	ADP	FM	Foreign=Yes	15	case	_	Lang=sv|NamedEntity=Yes
-13	alla	alla	DET	FM	Foreign=Yes	15	det	_	Lang=sv|NamedEntity=Yes
-14	dessa	dessa	DET	FM	Foreign=Yes	15	det	_	Lang=sv|NamedEntity=Yes
+13	alla	alla	DET	FM	Foreign=Yes|PronType=Tot	15	det	_	Lang=sv|NamedEntity=Yes
+14	dessa	dessa	DET	FM	Foreign=Yes|PronType=Dem	15	det	_	Lang=sv|NamedEntity=Yes
 15	kvinnor	kvinna	NOUN	FM	Foreign=Yes	11	obl	_	Lang=sv|NamedEntity=Yes|SpaceAfter=No
 16	)	)	PUNCT	$(	_	6	punct	_	_
 17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
@@ -257501,7 +257501,7 @@
 4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	Achilles	Achilles	PROPN	NE	Foreign=Yes	6	nsubj	_	Lang=en|NamedEntity=Yes
 6	Had	have	VERB	NE	Foreign=Yes	0	root	_	Lang=en|NamedEntity=Yes
-7	a	a	DET	NE	Foreign=Yes	8	det	_	Lang=en|NamedEntity=Yes
+7	a	a	DET	NE	Foreign=Yes|PronType=Art	8	det	_	Lang=en|NamedEntity=Yes
 8	Heel	heel	NOUN	NE	Foreign=Yes	6	obj	_	Lang=en|NamedEntity=Yes
 9	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No
 10	1924	1924	NUM	CARD	NumType=Card	6	appos	_	SpaceAfter=No
