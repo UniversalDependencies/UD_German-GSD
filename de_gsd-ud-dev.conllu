@@ -840,7 +840,7 @@
 
 # sent_id = dev-s55
 # text = Mit scheint, dass der Betreiber der Rheinfähre in Düsseldorf es bitter nötig haben muss wenn schon Kinder unter fünf Jahren auf diese Art und Weise abkassiert werden müssen.
-1	Mit	ich	PRON	ADV	Case=Dat	2	obl:arg	_	_
+1	Mit	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs|Typo=Yes	2	obl:arg	_	CorrectForm=Mir
 2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	14	punct	_	_
 4	dass	dass	SCONJ	KOUS	_	14	mark	_	_
@@ -1209,9 +1209,9 @@
 8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Material	Material	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 10	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-11	zu	zu	PART	PTKZU	_	12	compound:prt	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	wünschen	wünschen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
-13	übrig	übrig	ADV	PTKVZ	_	10	advmod	_	SpaceAfter=No
+13	übrig	übrig	ADV	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
 # sent_id = dev-s75
@@ -2245,7 +2245,7 @@
 4	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	aus	aus	ADP	APPR	_	8	case	_	_
 6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-7	den	der	DET	PIAT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	dep	_	_
+7	den	der	DET	PIAT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	70er	70er	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	_
 9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	etwas	etwas	ADV	ADV	PronType=Ind	11	advmod	_	_
@@ -4074,8 +4074,8 @@
 6	gegüllt	gegüllt	VERB	VVPP	VerbForm=Part	0	root	_	_
 7	und	und	CCONJ	KON	_	18	cc	_	_
 8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	essen	essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
-10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	obl	_	_
+9	essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Typo=Yes	18	nsubj:pass	_	CorrectForm=Essen
+10	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	18	obl	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
 12	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	10	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
@@ -8481,7 +8481,7 @@
 
 # sent_id = dev-s506
 # text = Das Tritium ist radioaktiv und lagert sich leicht im menschlichen Körper ein.
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Tritium	Tritium	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	NamedEntity=Yes
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	radioaktiv	radioaktiv	ADJ	ADJD	Degree=Pos	0	root	_	_
@@ -8499,7 +8499,7 @@
 
 # sent_id = dev-s507
 # text = Die EU-Staaten, die USA und Polen hatten Nigerias Präsidenten Sani Abacha schon am Donnerstag aufgefordert, das Urteil gegen den Schriftsteller Ken Saro-Wiwa und acht weitere Politiker rückgängig zu machen.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	EU	EU	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	NamedEntity=Yes|SpaceAfter=No
 3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 4	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
@@ -8765,7 +8765,7 @@
 
 # sent_id = dev-s520
 # text = Eine Gewalt provoziert und ergänzt die andere.
-1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	provoziert	provozieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -9374,7 +9374,7 @@
 
 # sent_id = dev-s549
 # text = Diese Philosophie vertrage sich nicht immer mit der sozialen Marktwirtschaft.
-1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	dep	_	FixTigerDep=Yes
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Philosophie	Philosophie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	vertrage	vertragen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -9660,7 +9660,7 @@
 
 # sent_id = dev-s561
 # text = Die Sensation, die niemand erwartet hatte?
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Sensation	Sensation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	6	punct	_	_
 4	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	6	obj	_	_
@@ -10283,7 +10283,7 @@
 
 # sent_id = dev-s589
 # text = Das Edelmetall setzt sich auf dem japanischen Markt durch, und in den USA steigt der Anteil von Platin am Geschäft mit Brautgeschenken und Eheringen.
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Edelmetall	Edelmetall	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -10582,7 +10582,7 @@
 
 # sent_id = dev-s602
 # text = Die Hamas warf den Behörden vor, es habe bei der Abstimmung große Unregelmäßigkeiten gegeben.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Hamas	Hamas	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NamedEntity=Yes
 3	warf	werfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -10697,7 +10697,7 @@
 
 # sent_id = dev-s608
 # text = Das Wissen um Elend und Not wirft plötzlich Schatten auf Gold und Himmelblau.
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Wissen	Wissen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	um	um	ADP	APPR	_	4	case	_	_
 4	Elend	Elend	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
@@ -10817,7 +10817,7 @@
 
 # sent_id = dev-s613
 # text = Die Pflanzen bestehen aus einem einzelnen, bandförmigen Blatt, einem Blattstiel und einem wurzelähnlichen Organ zum Festhalten.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aus	aus	ADP	APPR	_	9	case	_	_
@@ -11010,7 +11010,7 @@
 
 # sent_id = dev-s622
 # text = Die Sachzwänge des Weltmarktes und nicht mehr der Wille der Bürgerinnen und Bürger bestimmen dann die Politik.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Sachzwänge	Sachzwang	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Weltmarktes	Weltmarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -11329,7 +11329,7 @@
 
 # sent_id = dev-s638
 # text = Sein Ziel ist es, die Verbrauchsteuern zu senken und die Steuern auf Vermögen anzuheben.
-1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	dep	_	FixTigerDep=Yes
+1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
@@ -11398,7 +11398,7 @@
 24	übermäßigen	übermäßig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
 25	Defiziten	Defizit	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
 26	unter	unter	ADP	APPR	_	27	case	_	_
-27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	29	obl	_	_
+27	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	29	nmod	_	_
 28	durch	durch	ADP	APPR	_	29	case	_	_
 29	Selbstbindungen	Selbstbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	31	det	_	_
@@ -11861,7 +11861,7 @@
 
 # sent_id = dev-s657
 # text = Mehrere Tausende saßen zum Teil über zwölf Stunden fest und mußten in überfüllten Bahnhöfen kampieren oder auf freier Strecke ausharren.
-1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Mehrere	mehr	DET	PIAT	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	_
 2	Tausende	Tausend	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	saßen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4-5	zum	_	_	_	_	_	_	_	_
@@ -12167,7 +12167,7 @@
 
 # sent_id = dev-s669
 # text = Die Christen dürften sich nicht darauf beschränken, ethische Grundsätze zu formulieren, sondern ``müssen die Last der politischen Verantwortung übernehmen'', verlangte Günter Brakelmann, Sozialethiker an der Universität Bochum.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Christen	Christ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 3	dürften	dürfen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
@@ -12746,7 +12746,7 @@
 
 # sent_id = dev-s696
 # text = Jeder Bischof soll aufgefordert worden sein, entsprechende Klöster in seiner Diözese zu überprüfen und festzustellen, ob die jungen Inderinnen wirklich Ordensschwestern werden wollten.
-1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	dep	_	FixTigerDep=Yes
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	Bischof	Bischof	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	aufgefordert	auffordern	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -12775,7 +12775,7 @@
 
 # sent_id = dev-s697
 # text = Ein Auwald ist also ein Wasserwald, sein Herz ist der Fluß.
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Auwald	Auwald	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NamedEntity=Yes
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	also	also	ADV	ADV	_	6	advmod	_	_
@@ -13081,7 +13081,7 @@
 
 # sent_id = dev-s709
 # text = Viel Überzeugungsarbeit mußte Küng in Tutzing nicht mehr leisten.
-1	Viel	viel	DET	PIAT	PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Viel	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Überzeugungsarbeit	Überzeugungsarbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 3	mußte	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 4	Küng	Küng	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	NamedEntity=Yes
@@ -13154,7 +13154,7 @@
 
 # sent_id = dev-s713
 # text = Die Nationen des Wirtschaftsforums repräsentieren rund 56 Prozent der Weltproduktion und 46 Prozent des Handels auf dem Globus.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Nationen	Nation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Wirtschaftsforums	Wirtschaftsforum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
@@ -13176,7 +13176,7 @@
 
 # sent_id = dev-s714
 # text = Diese Menschen könnten zum Beispiel während einer lauten Gesellschaft die Worte des Gesprächspartners nicht mehr von anderen Störgeräuschen unterscheiden und hörten nur noch ``Wortsalat''.
-1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	dep	_	FixTigerDep=Yes
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
 3	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
 4-5	zum	_	_	_	_	_	_	_	_
@@ -13274,7 +13274,7 @@
 
 # sent_id = dev-s718
 # text = Der Beifall für diesen spontanen Ausspruch blieb mager.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Beifall	Beifall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	für	für	ADP	APPR	_	6	case	_	_
 4	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
@@ -13321,7 +13321,7 @@
 
 # sent_id = dev-s721
 # text = Einige Blöcke mit den Köpfen von Karl Marx, Ernst Thälmann und August Bebel und etlichen anderen bekommt man heute nicht unter 300 Mark.
-1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	dep	_	FixTigerDep=Yes
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Blöcke	Block	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	_
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -14132,7 +14132,7 @@
 
 # sent_id = dev-s760
 # text = Den Schmugglern drohen Geldstrafen, und der Grenzpolizei wird die Sache mittlerweile etwas zu heiß.
-1	Den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Schmugglern	Schmuggler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl:arg	_	_
 3	drohen	drohen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Geldstrafen	Geldstrafe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
@@ -14343,7 +14343,7 @@
 
 # sent_id = dev-s771
 # text = Der Grund ist vor allem Enttäuschung über die traditionellen Parteien, die sich durch Korruption, Mißwirtschaft oder Machtmißbrauch auszeichneten und kaum Antwort auf die drängenden Fragen wie Verelendung und eine sich verschärfende soziale Krise finden.
-1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dep	_	FixTigerDep=Yes
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	vor	vor	ADP	APPR	_	5	case	_	_
