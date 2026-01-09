@@ -147610,7 +147610,7 @@
 3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
 5	drei	drei	NUM	CARD	NumType=Card	6	nummod	_	_
-6	Wegen	wegen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+6	Wegen	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
 7	vonstattengehen	vonstattengehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
