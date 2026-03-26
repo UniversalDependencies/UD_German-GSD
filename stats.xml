@@ -22,11 +22,11 @@
     <tag name="CCONJ">8823</tag><!-- und, oder, sowie, aber, sondern, als, wie, sowohl, doch, and -->
     <tag name="DET">41205</tag><!-- der, ein, sein, dieser, ihr, alle, anderer, kein, viel, mein -->
     <tag name="INTJ">8</tag><!-- hallo, Ok, ach, ade, wehe -->
-    <tag name="NOUN">52296</tag><!-- Jahr, zeit, Stadt, Teil, Ort, Frau, Land, Ende, Familie, Tag -->
+    <tag name="NOUN">52410</tag><!-- Jahr, zeit, Stadt, Teil, Ort, Frau, Land, Ende, Familie, Tag -->
     <tag name="NUM">7336</tag><!-- zwei, drei, vier, 2007, fünf, 2006, 2009, sechs, 2010, 2008 -->
     <tag name="PART">2148</tag><!-- nicht, zu, aus, ja, nein, an, 's, hin, her, wie -->
     <tag name="PRON">10844</tag><!-- er, der, sich, sie, es, ich, wir, man, was, nichts -->
-    <tag name="PROPN">30416</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
+    <tag name="PROPN">30302</tag><!-- Deutschland, de, of, US, Berlin, deutsch, SPD, Weltkrieg, Frankreich, St. -->
     <tag name="PUNCT">38488</tag><!-- ., ,, -, ", ), (, !, :, ``, '' -->
     <tag name="SCONJ">1791</tag><!-- dass, als, da, wenn, daß, nachdem, weil, wie, während, ob -->
     <tag name="SYM">101</tag><!-- &, =, /, ×, %, +, °, *, :-), € -->

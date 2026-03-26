@@ -58,7 +58,7 @@
 15	Physiotherapieraxis	Physiotherapieraxis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 16	"	"	PUNCT	$(	_	17	punct	_	SpaceAfter=No
 17	Gaby	Gaby	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	NamedEntity=Yes
-18	Montag	Montag	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	17	flat	_	NamedEntity=Yes|SpaceAfter=No
+18	Montag	Montag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	flat	_	NamedEntity=Yes|SpaceAfter=No
 19	"	"	PUNCT	$(	_	17	punct	_	_
 20-21	im	_	_	_	_	_	_	_	_
 20	in	in	ADP	APPR	_	22	case	_	_
@@ -13697,7 +13697,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
+6	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
 7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
 8	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	ok	ok	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
@@ -15511,7 +15511,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
+3	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
 4	etwas	etwas	ADV	ADV	PronType=Ind	5	advmod	_	_
 5	überfordert	überfordern	VERB	ADJD	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
@@ -20736,7 +20736,7 @@
 3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
 4	dort	dort	ADV	ADV	_	10	advmod	_	_
 5	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	_
-6	Freitag	Freitag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+6	Freitag	Freitag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 7	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	PARTYYY	PARTYYY	NOUN	NE	Case=Acc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
 9	"	"	PUNCT	$(	_	8	punct	_	_
@@ -21702,7 +21702,7 @@
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
+5	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
 6	dort	dort	ADV	ADV	_	2	advmod	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -21781,7 +21781,7 @@
 
 # sent_id = train-s1393
 # text = Donnerstag wurde mein Smart beklebt.
-1	Donnerstag	Donnerstag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
+1	Donnerstag	Donnerstag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
 2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
 3	mein	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Smart	Smart	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -24851,7 +24851,7 @@
 15-16	am	_	_	_	_	_	_	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
+17	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
 18	scharfe	scharf	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
 19	Kritik	Kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
 20	an	an	ADP	APPR	_	23	case	_	_
@@ -25063,7 +25063,7 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
+8	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
 9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	_
 10	Öl	Öl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	compound	_	SpaceAfter=No
 11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
@@ -25229,7 +25229,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
+3	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
 4	abend	Abend	NOUN	ADV	_	3	compound	_	_
 5	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -25322,7 +25322,7 @@
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	NamedEntity=Yes
+12	Donnerstag	Donnerstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	NamedEntity=Yes
 13	erweitert	erweitern	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	13	aux:pass	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	13	punct	_	_
@@ -26493,7 +26493,7 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
+8	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Auckland	Auckland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	NamedEntity=Yes|SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
@@ -27637,7 +27637,7 @@
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes|SpaceAfter=No
+12	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes|SpaceAfter=No
 13	''	''	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	25	punct	_	_
 15	wonach	wonach	ADV	PWAV	PronType=Int	25	advmod	_	_
@@ -28043,7 +28043,7 @@
 8	an	an	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	heutigen	heutig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
+11	Montag	Montag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
 12	morgen	Morgen	NOUN	ADV	_	11	flat	_	_
 13	vor	vor	ADP	APPR	_	15	case	_	_
 14	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
@@ -28734,7 +28734,7 @@
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
+12	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
 13-14	zum	_	_	_	_	_	_	_	_
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -29110,7 +29110,7 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
+8	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
 9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Chefin	Chefin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
 11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -29324,7 +29324,7 @@
 12-13	am	_	_	_	_	_	_	_	_
 12	an	an	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
+14	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 15	in	in	ADP	APPR	_	16	case	_	_
 16	Bonn	Bonn	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	NamedEntity=Yes|SpaceAfter=No
 17	,	,	PUNCT	$,	_	23	punct	_	_
@@ -29612,7 +29612,7 @@
 11-12	am	_	_	_	_	_	_	_	_
 11	an	an	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	NamedEntity=Yes
+13	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	NamedEntity=Yes
 14	in	in	ADP	APPR	_	15	case	_	_
 15	Moskau	Moskau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	NamedEntity=Yes|SpaceAfter=No
 16	.	.	PUNCT	$.	_	9	punct	_	_
@@ -30075,7 +30075,7 @@
 5-6	am	_	_	_	_	_	_	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	NamedEntity=Yes
+7	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	NamedEntity=Yes
 8	bei	bei	ADP	APPR	_	12	case	_	_
 9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	12	det	_	_
 10	Autobomben	Autobombe	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	compound	_	SpaceAfter=No
@@ -31364,7 +31364,7 @@
 12-13	am	_	_	_	_	_	_	_	_
 12	an	an	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
+14	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 15	in	in	ADP	APPR	_	16	case	_	_
 16	Bagdad	Bagdad	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	NamedEntity=Yes
 17	mit	mit	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
@@ -31529,7 +31529,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
+6	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 7	drei	drei	NUM	CARD	NumType=Card	8	nummod	_	_
 8	Fahrzeuge	Fahrzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
 9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -32271,12 +32271,12 @@
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	NamedEntity=Yes
+12	Montag	Montag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	NamedEntity=Yes
 13	und	und	CCONJ	KON	_	16	cc	_	_
 14-15	am	_	_	_	_	_	_	_	_
 14	an	an	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	conj	_	NamedEntity=Yes
+16	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	conj	_	NamedEntity=Yes
 17-18	zur	_	_	_	_	_	_	_	_
 17	zu	zu	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -32554,7 +32554,7 @@
 33-34	am	_	_	_	_	_	_	_	_
 33	an	an	ADP	APPR	_	35	case	_	_
 34	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
+35	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	NamedEntity=Yes
 36	in	in	ADP	APPR	_	37	case	_	_
 37	Bonn	Bonn	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	NamedEntity=Yes|SpaceAfter=No
 38	.	.	PUNCT	$.	_	24	punct	_	_
@@ -32609,7 +32609,7 @@
 15-16	am	_	_	_	_	_	_	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+17	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 18	in	in	ADP	APPR	_	19	case	_	_
 19	Bonn	Bonn	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
 20	.	.	PUNCT	$.	_	10	punct	_	_
@@ -32621,7 +32621,7 @@
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
+5	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	zuständige	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	Bundesrichter	Bundesrichter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -32793,7 +32793,7 @@
 6	an	an	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	morgigen	morgig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
-9	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
+9	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	NamedEntity=Yes
 10	offiziell	offiziell	ADJ	ADJD	Degree=Pos	5	advmod	_	_
 11	mit	mit	ADP	APPR	_	13	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -33153,7 +33153,7 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+9	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 10	aufgefordert	auffordern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	21	punct	_	_
 12	Verfassungsklage	Verfassungsklage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
@@ -33381,9 +33381,9 @@
 6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 7	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
 8	von	von	ADP	APPR	_	9	case	_	_
-9	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl:agent	_	NamedEntity=Yes
+9	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl:agent	_	NamedEntity=Yes
 10	bis	bis	ADP	APPR	_	11	case	_	_
-11	Sonntag	Sonntag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
+11	Sonntag	Sonntag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
 12	fast	fast	ADV	ADV	_	13	advmod	_	_
 13	100	100	NUM	CARD	NumType=Card	14	nummod	_	_
 14	Liter	Liter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj:pass	_	_
@@ -33550,7 +33550,7 @@
 4	an	an	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	heutigen	heutig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+7	Montag	Montag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
 9	Richter	Richter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl:arg	_	_
 10	vorgeführt	vorführen	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -34097,7 +34097,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	NamedEntity=Yes
+3	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	NamedEntity=Yes
 4	abend	Abend	NOUN	ADV	_	3	compound	_	_
 5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
 6	erneute	erneut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_
@@ -34296,7 +34296,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
+6	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
 7	nach	nach	ADP	APPR	_	8	case	_	_
 8	Agenturberichten	Agenturbericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
 9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	_
@@ -35531,7 +35531,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
+3	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NamedEntity=Yes
 4	entließ	entlassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Israel	Israel	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	NamedEntity=Yes
 6	vier	vier	NUM	CARD	NumType=Card	7	nummod	_	_
@@ -35549,7 +35549,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
+6	Samstag	Samstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
 7	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	15	punct	_	_
@@ -35944,7 +35944,7 @@
 11-12	am	_	_	_	_	_	_	_	_
 11	an	an	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+13	Mittwoch	Mittwoch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 14	in	in	ADP	APPR	_	15	case	_	_
 15	Genf	Genf	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
 16	,	,	PUNCT	$,	_	21	punct	_	_
@@ -36210,7 +36210,7 @@
 23	an	an	ADP	APPR	_	26	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	späten	spät	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
-26	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	NamedEntity=Yes
+26	Donnerstag	Donnerstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	NamedEntity=Yes
 27	abend	Abend	NOUN	ADV	_	26	compound	_	_
 28	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Beileid	Beileid	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
@@ -36442,7 +36442,7 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	NamedEntity=Yes
+9	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	NamedEntity=Yes
 10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Abkommen	Abkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
 12	über	über	ADP	APPR	_	15	case	_	_
@@ -37763,7 +37763,7 @@
 7-8	zum	_	_	_	_	_	_	_	_
 7	zu	zu	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes
+9	Montag	Montag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes
 10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	_
 11	entsprechendes	entsprechend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
@@ -43221,7 +43221,7 @@
 11	musizierte	musizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	auch	auch	ADV	ADV	_	11	advmod	_	_
 13	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	14	det	_	_
-14	Donnerstag	Donnerstag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
+14	Donnerstag	Donnerstag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	NamedEntity=Yes
 15-16	im	_	_	_	_	_	_	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
@@ -70350,7 +70350,7 @@
 8	,	,	PUNCT	$,	_	18	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	nsubj:pass	_	_
 10	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
-11	Sonntag	Sonntag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
+11	Sonntag	Sonntag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
 12	um	um	ADP	APPR	_	14	case	_	_
 13	18.15	18.15	NUM	CARD	NumType=Card	14	nmod	_	_
 14	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
@@ -98326,7 +98326,7 @@
 27-28	am	_	_	_	_	_	_	_	_
 27	an	an	ADP	APPR	_	29	case	_	_
 28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	NamedEntity=Yes
+29	Sonntag	Sonntag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	NamedEntity=Yes
 30	zusammen	zusammen	ADV	ADV	_	33	advmod	_	_
 31	mit	mit	ADP	APPR	_	33	case	_	_
 32	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	33	det	_	_
@@ -98978,7 +98978,7 @@
 8	nun	nun	ADV	ADV	_	12	advmod	_	_
 9	an	an	ADP	APPR	_	8	case	_	_
 10	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
-11	Donnerstag	Donnerstag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
+11	Donnerstag	Donnerstag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
 12	ausgeliefert	ausliefern	VERB	VVPP	VerbForm=Part	4	conj	_	_
 13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
@@ -105544,7 +105544,7 @@
 16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	braunen	braun	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	Hengst	Hengst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
-19	Sonntag	Sonntag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	18	appos	_	NamedEntity=Yes
+19	Sonntag	Sonntag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	appos	_	NamedEntity=Yes
 20	(	(	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 21	geboren	gebären	VERB	VVPP	VerbForm=Part	18	acl	_	_
 22	1908	1908	NUM	CARD	NumType=Card	21	obl	_	SpaceAfter=No
@@ -147547,7 +147547,7 @@
 4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Dorfbewohner	Dorfbewohner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 6	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_
-7	Sonntag	Sonntag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes|SpaceAfter=No
+7	Sonntag	Sonntag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes|SpaceAfter=No
 8	,	,	PUNCT	$,	_	20	punct	_	_
 9	um	um	ADP	KOUI	_	20	mark	_	_
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -298460,7 +298460,7 @@
 6	1965	1965	NUM	CARD	NumType=Card	5	nmod	_	_
 7	bei	bei	ADP	APPR	_	8	case	_	_
 8	Ileana	Ileana	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
-9	Sonnabend	Sonnabend	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
+9	Sonnabend	Sonnabend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	NamedEntity=Yes
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Paris	Paris	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	NamedEntity=Yes
 12	verkündet	verkünden	VERB	VVPP	VerbForm=Part	40	advcl	_	_
