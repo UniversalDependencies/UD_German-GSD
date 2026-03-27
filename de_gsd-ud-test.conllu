@@ -215,7 +215,7 @@
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
+11	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	NamedEntity=Yes
 12	2007	2007	NUM	CARD	NumType=Card	11	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
@@ -5531,7 +5531,7 @@
 15	,	,	PUNCT	$,	_	2	punct	_	_
 16	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 17	Ende	Ende	NOUN	NN	Gender=Neut|Number=Sing	18	nmod	_	_
-18	Oktober	Oktober	PROPN	NN	Gender=Masc|Number=Sing	16	obl	_	NamedEntity=Yes
+18	Oktober	Oktober	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	NamedEntity=Yes
 19	in	in	ADP	APPR	_	20	case	_	_
 20	Rangun	Rangun	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	NamedEntity=Yes
 21	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
@@ -6856,7 +6856,7 @@
 25	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	30	nsubj	_	_
 26	für	für	ADP	APPR	_	28	case	_	_
 27	Mitte	Mitte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	compound	_	_
-28	Dezember	Dezember	PROPN	NN	Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
+28	Dezember	Dezember	NOUN	NN	Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
 29	vorgesehen	vorsehen	ADJ	VVPP	Degree=Pos|VerbForm=Part	30	amod	_	_
 30	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	23	punct	_	_
@@ -8150,7 +8150,7 @@
 4	an	an	ADP	APPR	_	7	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 6	5.	5.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	7	amod	_	_
-7	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
+7	September	September	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
 8	1877	1877	NUM	CARD	NumType=Card	7	nmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Fort	Fort	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	NamedEntity=Yes
@@ -9507,7 +9507,7 @@
 18	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	19	det	_	_
 19	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-21	März	März	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	23	compound	_	NamedEntity=Yes|SpaceAfter=No
+21	März	März	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	compound	_	NamedEntity=Yes|SpaceAfter=No
 22	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
 23	Gruppe	Gruppe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
@@ -10406,7 +10406,7 @@
 8	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Gipfeltreffen	Gipfeltreffen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	35	obl	_	_
 10	Mitte	Mitte	NOUN	NN	Gender=Fem|Number=Sing	11	compound	_	_
-11	Dezember	Dezember	PROPN	NN	Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
+11	Dezember	Dezember	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
 12	in	in	ADP	APPR	_	13	case	_	_
 13	Madrid	Madrid	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	NamedEntity=Yes
 14	über	über	ADP	APPR	_	16	case	_	_
@@ -11300,7 +11300,7 @@
 
 # sent_id = test-s563
 # text = August Wilhelm Schlegel hatte aus dem ``translated Bottom'' einen ``transferierten Zettel'' gemacht.
-1	August	August	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	FixTigerDep=Yes|NamedEntity=Yes
+1	August	August	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	FixTigerDep=Yes|NamedEntity=Yes
 2	Wilhelm	Wilhelm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	NamedEntity=Yes
 3	Schlegel	Schlegel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	NamedEntity=Yes
 4	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
@@ -13133,7 +13133,7 @@
 3	Deutschen	deutsche	PROPN	NN	Case=Nom|Number=Plur	16	nsubj	_	NamedEntity=Yes
 4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	8.	8.	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	_
-6	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	NamedEntity=Yes
+6	Mai	Mai	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	NamedEntity=Yes
 7	1945	1945	NUM	CARD	NumType=Card	6	nmod	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
 9	als	als	ADP	APPR	_	10	case	_	_
@@ -13791,7 +13791,7 @@
 3	JANEIRO	Janeiro	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
-6	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+6	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	SpaceAfter=No|NamedEntity=Yes
 9	)	)	PUNCT	$(	_	8	punct	_	SpaceAfter=No
@@ -13918,7 +13918,7 @@
 1	BEIRUT	Beirut	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -13929,7 +13929,7 @@
 1	ALGIER	Algier	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes
 7	/	/	PUNCT	$(	_	8	punct	_	_
@@ -13944,7 +13944,7 @@
 1	BERLIN	Berlin	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	AP	AP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -13969,7 +13969,7 @@
 13	an	an	ADP	APPR	_	16	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	4.	4.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	16	amod	_	_
-16	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
+16	September	September	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
 17	gepflanzt	pflanzen	VERB	VVPP	VerbForm=Part	0	root	_	_
 18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
@@ -14119,7 +14119,7 @@
 1	TOKIO	Tokio	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	AFP	AFP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -14534,7 +14534,7 @@
 1	PEKING	Peking	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	AFP	AFP	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -14616,7 +14616,7 @@
 1	BONN	Bonn	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 5	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = test-s717
@@ -14902,7 +14902,7 @@
 3	HELSINKI	Helsinki	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
-6	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+6	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 8	AP	ap	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes
 9	/	/	PUNCT	$(	_	10	punct	_	_
@@ -14983,7 +14983,7 @@
 1	BRÜSSEL	Brüssel	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	Juli	Juli	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -15271,7 +15271,7 @@
 
 # sent_id = test-s744
 # text = März hatte sich auf der vergangenen Hauptversammlung die Möglichkeit absegnen lassen, das Kapital von 40 Millionen auf 70 Millionen Mark aufstocken zu dürfen.
-1	März	März	PROPN	NE	Case=Nom|Number=Sing	11	nsubj	_	NamedEntity=Yes
+1	März	März	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	NamedEntity=Yes
 2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 3	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	10	obl:arg	_	_
 4	auf	auf	ADP	APPR	_	7	case	_	_
@@ -15495,9 +15495,9 @@
 3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Auftragseingang	Auftragseingang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	von	von	ADP	APPR	_	6	case	_	_
-6	März	März	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
+6	März	März	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	NamedEntity=Yes
 7	zu	zu	ADP	APPR	_	8	case	_	_
-8	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes
+8	April	April	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes
 9	zwar	zwar	ADV	ADV	_	12	advmod	_	_
 10	um	um	ADP	APPR	_	12	case	_	_
 11	7,5	7,5	NUM	CARD	NumType=Card	12	nummod	_	_
@@ -16423,7 +16423,7 @@
 7	an	an	ADP	APPR	_	10	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	12.	12.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	10	amod	_	_
-10	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
+10	Juli	Juli	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	NamedEntity=Yes
 11	erstmals	erstmals	ADV	ADV	_	12	advmod	_	_
 12	ausgegeben	ausgeben	VERB	VVPP	VerbForm=Part	0	root	_	_
 13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	SpaceAfter=No
@@ -16778,7 +16778,7 @@
 2	HAAG	Haag	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	_
-5	November	November	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+5	November	November	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 7	dpa	dpa	PROPN	XY	_	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 8	)	)	PUNCT	$(	_	7	punct	_	SpaceAfter=No
@@ -16851,7 +16851,7 @@
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	August	August	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
+6	August	August	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes
 7	1923	1923	NUM	CARD	NumType=Card	6	nmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
 9	Polen	Polen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	NamedEntity=Yes
@@ -16906,7 +16906,7 @@
 17	an	an	ADP	APPR	_	20	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	24.	24.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	20	amod	_	_
-20	März	März	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
+20	März	März	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 21	1996	1996	NUM	CARD	NumType=Card	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -17779,7 +17779,7 @@
 8	an	an	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	24.	24.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	11	amod	_	_
-11	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	NamedEntity=Yes
+11	November	November	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	NamedEntity=Yes
 12	1991	1991	NUM	CARD	NumType=Card	11	nmod	_	_
 13	an	an	ADP	APPR	_	15	case	_	_
 14	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -18124,7 +18124,7 @@
 1	ERFURT	Erfurt	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	November	November	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	ap	ap	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -18163,7 +18163,7 @@
 11	ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 12	ab	ab	ADP	APPR	_	14	case	_	_
 13	7.	7.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	14	amod	_	_
-14	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
+14	November	November	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -18191,7 +18191,7 @@
 1	OTTAWA	Ottawa	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	November	November	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	dpa	dpa	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -18297,7 +18297,7 @@
 17	an	an	ADP	APPR	_	20	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	22.	22.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	20	amod	_	_
-20	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
+20	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 21	zu	zu	ADP	APPR	_	24	case	_	_
 22	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
 23	``	``	PUNCT	$(	_	22	punct	_	SpaceAfter=No
@@ -18459,7 +18459,7 @@
 1	VAVUNIYA	Vavuniya	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NamedEntity=Yes|SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
-4	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
+4	November	November	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
 5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 6	rtr	rtr	PROPN	NE	Case=Nom|Number=Sing	1	appos	_	NamedEntity=Yes|SpaceAfter=No
 7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -18475,7 +18475,7 @@
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 7	bis	bis	ADP	APPR	_	9	case	_	_
 8	31.	31.	ADJ	ADJA	Degree=Pos|NumType=Ord	9	amod	_	_
-9	März	März	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
+9	März	März	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
 10	reichenden	reichend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	Geschäftsjahres	Geschäftsjahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 12	1995/96	1995/96	NUM	CARD	NumType=Card	11	appos	_	_
@@ -18560,7 +18560,7 @@
 19	zu	zu	ADP	APPR	_	22	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	1.	1.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	22	amod	_	_
-22	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
+22	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
 23	1996	1996	NUM	CARD	NumType=Card	22	nummod	_	_
 24	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
 25	``	``	PUNCT	$(	_	29	punct	_	SpaceAfter=No
