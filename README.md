@@ -93,6 +93,9 @@ UD instances the precision seems relatively high.
 
 # Changelog
 
+2026-05-15 v2.18
+  * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
+
 2024-11-15 v2.15
   * Adverbial/predicative forms of adjectives (XPOS=ADJD) have now consistently UPOS=ADJ.
   * Heuristically disambiguated ambiguous lemma strings such as "Wind|Winde|Winden".
